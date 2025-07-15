@@ -1,0 +1,1354 @@
+#AREADATA
+Name        Aquarium~
+Builders    None~
+VNUMs       51200 51299
+Security    1
+Recall      3005
+End
+
+
+
+#MOBILES
+#51200
+Crystal Fish~
+#cA #CC#cr#7y#Cs#ct#7a#Cl #cF#Ci#cs#Ch#n~
+#C>#c:#C)#c)#C>#c.#Co#c(#CB#cl#Cu#cb#C)#n
+~
+A small fish made entirely of crystal and ice.  It looks like it is good
+natured.  
+~
+17
+0 1000 S
+71 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51205
+Frost Fish~
+#cA #CF#cr#7o#cs#Ct #cF#Ci#cs#Ch#n~
+#7>#C:#L)#7)#C>#L.#7o#C(#LB#7l#Cu#Lb#7)#n
+~
+~
+17
+0 750 S
+69 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51210
+Gelatinous Fish~
+#cA #CG#Le#cl#Ca#Lt#ci#Cn#Lo#cu#Cs #cF#Ci#cs#Ch#n~
+#C>#L:#c)#C)#L>#c.#Co#L0#c(#CB#Ll#cu#Cb#L)#n
+~
+~
+17
+0 0 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51215
+Lazy Fish~
+#cA #CL#Raz#Cy #cF#Ci#cs#Ch#n~
+#C>#c:#R)#C)#c>#R.#Co#c0#R(#CB#cl#Ru#Cb#c)#n
+~
+~
+17
+0 0 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51220
+Angry Fish~
+#cAn #CA#Rn#yg#Rr#Cy #cF#Ci#cs#Ch#n~
+#C>#c:#R)#y)#R>#c.#Co#c0#R(#yB#Rl#cu#Cb#c!#R)#n
+~
+~
+17
+0 -500 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51225
+Flaming Fish~
+#cA #RF#rl#ya#rm#Ri#rn#yg #cF#Ci#cs#Ch#n~
+#R>#r:#y)#r)#R>#r.#yo#r(#RB#rl#yu#rb#R)#n
+~
+~
+17
+0 -750 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51230
+magma fish~
+#cA #RM#ra#0g#rm#Ra #cF#Ci#cs#Ch#n~
+#R>#r:#0)#r)#R>#r.#0o#r(#RB#rl#0u#rb#R)#n
+~
+~
+17
+0 -1000 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51235
+Planar Fish~
+#cA #0P#cl#Ca#cn#Ca#0r #cF#Ci#cs#Ch#n~
+#0>#c:#C)#c)#0>#c.#Co#c0#0(#cB#Cl#cu#0b#c)#n
+~
+~
+17
+0 1000 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51240
+Unstable Fish~
+#cAn #CU#cn#0s#rta#0b#cl#Ce #cF#Ci#cs#Ch#n~
+#C>#c:#0)#r)#0>#c.#Co#c0#0(#rB#0l#cu#Cb#c?#0)#n
+~
+~
+17
+0 0 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51245
+Ethereal Fish~
+#cAn #RE#rt#ph#re#Rr#re#pa#rl #cF#Ci#cs#Ch#n~
+#R>#r:#p)#r)#R>#r.#po#r0#R(#rB#pl#ru#Rb#r)#n
+~
+~
+1
+0 -1000 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51250
+Fish God~
+#cThe #cF#Ci#cs#Ch #7God#n~
+#c>#C:#c)#C)#c>#C.#co#C0#c(#0I am God!#c)#n
+~
+~
+19
+524416 -1000 S
+150 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#51200
+#0Entrance #cto the #CA#cq#Cu#ca#Cr#ci#Cu#cm#n~
+The room is little more then a massive air pocket, keeping a small amount
+of oxygen inside three walls made of a quivering liquid that looks like
+water.  The aquarium continues on to the east, south, and west.  
+~
+0 0 0
+D1
+~
+~
+0 0 51201
+D2
+~
+~
+0 0 51205
+D3
+~
+~
+0 0 51203
+S
+#51201
+#cThe #7I#Cc#ly #CW#ca#Ct#ce#Cr#cs#n~
+The water here is frigid, almost unbearable.  Huge chunks of ice float in
+the water, while brightly colored fish swim in and out of them.  The fish
+seem quite content here, not bothered in the least by the temperature.  
+~
+0 0 0
+D1
+~
+~
+0 0 51202
+D2
+~
+~
+0 0 51206
+D3
+~
+~
+0 0 51200
+S
+#51202
+#cThe #7I#Cc#ly #CW#ca#Ct#ce#Cr#cs#n~
+The water here is frigid, almost unbearable.  Huge chunks of ice float in
+the water, while brightly colored fish swim in and out of them.  The fish
+seem quite content here, not bothered in the least by the temperature.  
+~
+0 0 0
+D2
+~
+~
+0 0 51207
+D3
+~
+~
+0 0 51201
+S
+#51203
+#cThe #7I#Cc#ly #CW#ca#Ct#ce#Cr#cs#n~
+The water here is frigid, almost unbearable.  Huge chunks of ice float in
+the water, while brightly colored fish swim in and out of them.  The fish
+seem quite content here, not bothered in the least by the temperature.  
+~
+0 0 0
+D1
+~
+~
+0 0 51200
+D2
+~
+~
+0 0 51208
+D3
+~
+~
+0 0 51204
+S
+#51204
+#cThe #7I#Cc#ly #CW#ca#Ct#ce#Cr#cs#n~
+The water here is frigid, almost unbearable.  Huge chunks of ice float in
+the water, while brightly colored fish swim in and out of them.  The fish
+seem quite content here, not bothered in the least by the temperature.  
+~
+0 0 0
+D1
+~
+~
+0 0 51203
+D2
+~
+~
+0 0 51209
+S
+#51205
+#cThe #CC#loo#Cl #CW#ca#Ct#ce#Cr#cs#n~
+The water here is slightly warmer then the icy waters to the north. 
+Brightly colored fish still swim about, but they don't seem quite as active
+as the ones in the icy water.  A large glowing mass can be seen far to the
+south, almost like a star in the middle of all this water.  
+~
+0 0 0
+D0
+~
+~
+0 0 51200
+D1
+~
+~
+0 0 51206
+D2
+~
+~
+0 0 51210
+D3
+~
+~
+0 0 51208
+S
+#51206
+#cThe #CC#loo#Cl #CW#ca#Ct#ce#Cr#cs#n~
+The water here is slightly warmer then the icy waters to the north. 
+Brightly colored fish still swim about, but they don't seem quite as active
+as the ones in the icy water.  A large glowing mass can be seen far to the
+south, almost like a star in the middle of all this water.  
+~
+0 0 0
+D0
+~
+~
+0 0 51201
+D1
+~
+~
+0 0 51207
+D2
+~
+~
+0 0 51211
+D3
+~
+~
+0 0 51205
+S
+#51207
+#cThe #CC#loo#Cl #CW#ca#Ct#ce#Cr#cs#n~
+The water here is slightly warmer then the icy waters to the north. 
+Brightly colored fish still swim about, but they don't seem quite as active
+as the ones in the icy water.  A large glowing mass can be seen far to the
+south, almost like a star in the middle of all this water.  
+~
+0 0 0
+D0
+~
+~
+0 0 51202
+D2
+~
+~
+0 0 51212
+D3
+~
+~
+0 0 51206
+S
+#51208
+#cThe #CC#loo#Cl #CW#ca#Ct#ce#Cr#cs#n~
+The water here is slightly warmer then the icy waters to the north. 
+Brightly colored fish still swim about, but they don't seem quite as active
+as the ones in the icy water.  A large glowing mass can be seen far to the
+south, almost like a star in the middle of all this water.  
+~
+0 0 0
+D0
+~
+~
+0 0 51203
+D1
+~
+~
+0 0 51205
+D2
+~
+~
+0 0 51213
+D3
+~
+~
+0 0 51209
+S
+#51209
+#cThe #CC#loo#Cl #CW#ca#Ct#ce#Cr#cs#n~
+The water here is slightly warmer then the icy waters to the north. 
+Brightly colored fish still swim about, but they don't seem quite as active
+as the ones in the icy water.  A large glowing mass can be seen far to the
+south, almost like a star in the middle of all this water.  
+~
+0 0 0
+D0
+~
+~
+0 0 51204
+D1
+~
+~
+0 0 51208
+D2
+~
+~
+0 0 51214
+S
+#51210
+#cThe #CT#ce#Lm#Cp#ce#Lr#Ca#ct#Le #CW#ca#Ct#ce#Cr#cs#n~
+The water here is almost comfortable, no longer being chill or even icy. 
+Larger fish swim about even more lazily then the ones in the colder waters. 
+The glowing mass begins to take on a spherical shape as you continue to near
+it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51205
+D1
+~
+~
+0 0 51211
+D2
+~
+~
+0 0 51215
+D3
+~
+~
+0 0 51213
+S
+#51211
+#cThe #CT#ce#Lm#Cp#ce#Lr#Ca#ct#Le #CW#ca#Ct#ce#Cr#cs#n~
+The water here is almost comfortable, no longer being chill or even icy. 
+Larger fish swim about even more lazily then the ones in the colder waters. 
+The glowing mass begins to take on a spherical shape as you continue to near
+it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51206
+D1
+~
+~
+0 0 51212
+D2
+~
+~
+0 0 51216
+D3
+~
+~
+0 0 51210
+S
+#51212
+#cThe #CT#ce#Lm#Cp#ce#Lr#Ca#ct#Le #CW#ca#Ct#ce#Cr#cs#n~
+The water here is almost comfortable, no longer being chill or even icy. 
+Larger fish swim about even more lazily then the ones in the colder waters. 
+The glowing mass begins to take on a spherical shape as you continue to near
+it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51207
+D2
+~
+~
+0 0 51217
+D3
+~
+~
+0 0 51211
+S
+#51213
+#cThe #CT#ce#Lm#Cp#ce#Lr#Ca#ct#Le #CW#ca#Ct#ce#Cr#cs#n~
+The water here is almost comfortable, no longer being chill or even icy. 
+Larger fish swim about even more lazily then the ones in the colder waters. 
+The glowing mass begins to take on a spherical shape as you continue to near
+it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51208
+D1
+~
+~
+0 0 51210
+D2
+~
+~
+0 0 51218
+D3
+~
+~
+0 0 51214
+S
+#51214
+#cThe #CT#ce#Lm#Cp#ce#Lr#Ca#ct#Le #CW#ca#Ct#ce#Cr#cs#n~
+The water here is almost comfortable, no longer being chill or even icy. 
+Larger fish swim about even more lazily then the ones in the colder waters. 
+The glowing mass begins to take on a spherical shape as you continue to near
+it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51209
+D1
+~
+~
+0 0 51213
+D2
+~
+~
+0 0 51219
+S
+#51215
+#cThe #CW#Rar#Cm #CW#ca#Ct#ce#Cr#cs#n~
+The water here is warm, the perfect warmth for just lounging about.  The
+fish appear to be doing just that, lounging about and swimming lazily in
+circles.  You are very near the sea-sun now, what could it be?  
+~
+0 0 0
+D0
+~
+~
+0 0 51210
+D1
+~
+~
+0 0 51216
+D2
+~
+~
+0 0 51220
+D3
+~
+~
+0 0 51218
+S
+#51216
+#cThe #CW#Rar#Cm #CW#ca#Ct#ce#Cr#cs#n~
+The water here is warm, the perfect warmth for just lounging about.  The
+fish appear to be doing just that, lounging about and swimming lazily in
+circles.  You are very near the sea-sun now, what could it be?  
+~
+0 0 0
+D0
+~
+~
+0 0 51211
+D1
+~
+~
+0 0 51217
+D2
+~
+~
+0 0 51221
+D3
+~
+~
+0 0 51215
+S
+#51217
+#cThe #CW#Rar#Cm #CW#ca#Ct#ce#Cr#cs#n~
+The water here is warm, the perfect warmth for just lounging about.  The
+fish appear to be doing just that, lounging about and swimming lazily in
+circles.  You are very near the sea-sun now, what could it be?  
+~
+0 0 0
+D0
+~
+~
+0 0 51212
+D2
+~
+~
+0 0 51222
+D3
+~
+~
+0 0 51216
+S
+#51218
+#cThe #CW#Rar#Cm #CW#ca#Ct#ce#Cr#cs#n~
+The water here is warm, the perfect warmth for just lounging about.  The
+fish appear to be doing just that, lounging about and swimming lazily in
+circles.  You are very near the sea-sun now, what could it be?  
+~
+0 0 0
+D0
+~
+~
+0 0 51213
+D1
+~
+~
+0 0 51215
+D2
+~
+~
+0 0 51223
+D3
+~
+~
+0 0 51219
+S
+#51219
+#cThe #CW#Rar#Cm #CW#ca#Ct#ce#Cr#cs#n~
+The water here is warm, the perfect warmth for just lounging about.  The
+fish appear to be doing just that, lounging about and swimming lazily in
+circles.  You are very near the sea-sun now, what could it be?  
+~
+0 0 0
+D0
+~
+~
+0 0 51214
+D1
+~
+~
+0 0 51218
+D2
+~
+~
+0 0 51224
+S
+#51220
+#cThe #CB#co#Ri#yl#Ri#cn#Cg #CW#ca#Ct#ce#Cr#cs#n~
+The water is now beginning to bubble, which cling to you.  The fish here
+lie motionless, almost as if dead except for an occasional flip of their
+tail.  The sea-sun looms south of here, perhaps you should go and
+investigate it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51215
+D1
+~
+~
+0 0 51221
+D2
+~
+~
+0 0 51225
+D3
+~
+~
+0 0 51223
+S
+#51221
+#cThe #CB#co#Ri#yl#Ri#cn#Cg #CW#ca#Ct#ce#Cr#cs#n~
+The water is now beginning to bubble, which cling to you.  The fish here
+lie motionless, almost as if dead except for an occasional flip of their
+tail.  The sea-sun looms south of here, perhaps you should go and
+investigate it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51216
+D1
+~
+~
+0 0 51222
+D2
+~
+~
+0 0 51226
+D3
+~
+~
+0 0 51220
+S
+#51222
+#cThe #CB#co#Ri#yl#Ri#cn#Cg #CW#ca#Ct#ce#Cr#cs#n~
+The water is now beginning to bubble, which cling to you.  The fish here
+lie motionless, almost as if dead except for an occasional flip of their
+tail.  The sea-sun looms south of here, perhaps you should go and
+investigate it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51217
+D2
+~
+~
+0 0 51227
+D3
+~
+~
+0 0 51221
+S
+#51223
+#cThe #CB#co#Ri#yl#Ri#cn#Cg #CW#ca#Ct#ce#Cr#cs#n~
+The water is now beginning to bubble, which cling to you.  The fish here
+lie motionless, almost as if dead except for an occasional flip of their
+tail.  The sea-sun looms south of here, perhaps you should go and
+investigate it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51218
+D1
+~
+~
+0 0 51220
+D2
+~
+~
+0 0 51228
+D3
+~
+~
+0 0 51224
+S
+#51224
+#cThe #CB#co#Ri#yl#Ri#cn#Cg #CW#ca#Ct#ce#Cr#cs#n~
+The water is now beginning to bubble, which cling to you.  The fish here
+lie motionless, almost as if dead except for an occasional flip of their
+tail.  The sea-sun looms south of here, perhaps you should go and
+investigate it.  
+~
+0 0 0
+D0
+~
+~
+0 0 51219
+D1
+~
+~
+0 0 51223
+D2
+~
+~
+0 0 51229
+S
+#51225
+#cThe #CS#ce#Ca#0-#RS#yta#Rr#n~
+The sea-suns outer layer is pure flames, they boiled the water away
+creating a pocket of air which then fuels the fire some more.  Fire balls in
+the form of fish move about its surface, like tiny waves across the ocean.  
+~
+0 0 0
+D0
+~
+~
+0 0 51220
+D1
+~
+~
+0 0 51226
+D2
+~
+~
+0 0 51230
+D3
+~
+~
+0 0 51228
+S
+#51226
+#cThe #CS#ce#Ca#0-#RS#yta#Rr#n~
+The sea-suns outer layer is pure flames, they boiled the water away
+creating a pocket of air which then fuels the fire some more.  Fire balls in
+the form of fish move about its surface, like tiny waves across the ocean.  
+~
+0 0 0
+D0
+~
+~
+0 0 51221
+D1
+~
+~
+0 0 51227
+D2
+~
+~
+0 0 51231
+D3
+~
+~
+0 0 51225
+S
+#51227
+#cThe #CS#ce#Ca#0-#RS#yta#Rr#n~
+The sea-suns outer layer is pure flames, they boiled the water away
+creating a pocket of air which then fuels the fire some more.  Fire balls in
+the form of fish move about its surface, like tiny waves across the ocean.  
+~
+0 0 0
+D0
+~
+~
+0 0 51222
+D2
+~
+~
+0 0 51232
+D3
+~
+~
+0 0 51226
+S
+#51228
+#cThe #CS#ce#Ca#0-#RS#yta#Rr#n~
+The sea-suns outer layer is pure flames, they boiled the water away
+creating a pocket of air which then fuels the fire some more.  Fire balls in
+the form of fish move about its surface, like tiny waves across the ocean.  
+~
+0 0 0
+D0
+~
+~
+0 0 51223
+D1
+~
+~
+0 0 51225
+D2
+~
+~
+0 0 51233
+D3
+~
+~
+0 0 51229
+S
+#51229
+#cThe #CS#ce#Ca#0-#RS#yta#Rr#n~
+The sea-suns outer layer is pure flames, they boiled the water away
+creating a pocket of air which then fuels the fire some more.  Fire balls in
+the form of fish move about its surface, like tiny waves across the ocean.  
+~
+0 0 0
+D0
+~
+~
+0 0 51224
+D1
+~
+~
+0 0 51228
+D2
+~
+~
+0 0 51234
+S
+#51230
+#cThe #RS#yun#Rs #0Core#n~
+Passing through the suns outer layer you find yourself inside its core, a
+hollow, barren spheroid space.  The spirits of long-dead fish float about,
+occasionally passing through your body.  
+~
+0 0 0
+D0
+~
+~
+0 0 51225
+D1
+~
+~
+0 0 51231
+D3
+~
+~
+0 0 51233
+D5
+~
+~
+0 0 51235
+S
+#51231
+#cThe #RS#yun#Rs #0Core#n~
+Passing through the suns outer layer you find yourself inside its core, a
+hollow, barren spheroid space.  The spirits of long-dead fish float about,
+occasionally passing through your body.  
+~
+0 0 0
+D0
+~
+~
+0 0 51226
+D1
+~
+~
+0 0 51232
+D3
+~
+~
+0 0 51230
+S
+#51232
+#cThe #RS#yun#Rs #0Core#n~
+Passing through the suns outer layer you find yourself inside its core, a
+hollow, barren spheroid space.  The spirits of long-dead fish float about,
+occasionally passing through your body.  
+~
+0 0 0
+D0
+~
+~
+0 0 51227
+D3
+~
+~
+0 0 51231
+S
+#51233
+#cThe #RS#yun#Rs #0Core#n~
+Passing through the suns outer layer you find yourself inside its core, a
+hollow, barren spheroid space.  The spirits of long-dead fish float about,
+occasionally passing through your body.  
+~
+0 0 0
+D0
+~
+~
+0 0 51228
+D1
+~
+~
+0 0 51230
+D3
+~
+~
+0 0 51234
+S
+#51234
+#cThe #RS#yun#Rs #0Core#n~
+Passing through the suns outer layer you find yourself inside its core, a
+hollow, barren spheroid space.  The spirits of long-dead fish float about,
+occasionally passing through your body.  
+~
+0 0 0
+D0
+~
+~
+0 0 51229
+D1
+~
+~
+0 0 51233
+S
+#51235
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D1
+~
+~
+0 0 51236
+D2
+~
+~
+0 0 51240
+D3
+~
+~
+0 0 51238
+D4
+~
+~
+0 0 51230
+S
+#51236
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D1
+~
+~
+0 0 51237
+D2
+~
+~
+0 0 51241
+D3
+~
+~
+0 0 51235
+S
+#51237
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D2
+~
+~
+0 0 51242
+D3
+~
+~
+0 0 51236
+S
+#51238
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D1
+~
+~
+0 0 51235
+D2
+~
+~
+0 0 51243
+D3
+~
+~
+0 0 51239
+S
+#51239
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D1
+~
+~
+0 0 51238
+D2
+~
+~
+0 0 51244
+S
+#51240
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D0
+~
+~
+0 0 51235
+D1
+~
+~
+0 0 51241
+D2
+~
+~
+0 0 51245
+D3
+~
+~
+0 0 51243
+S
+#51241
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D0
+~
+~
+0 0 51236
+D1
+~
+~
+0 0 51242
+D2
+~
+~
+0 0 51246
+D3
+~
+~
+0 0 51240
+S
+#51242
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D0
+~
+~
+0 0 51237
+D2
+~
+~
+0 0 51247
+D3
+~
+~
+0 0 51241
+S
+#51243
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D0
+~
+~
+0 0 51238
+D1
+~
+~
+0 0 51240
+D2
+~
+~
+0 0 51248
+D3
+~
+~
+0 0 51244
+S
+#51244
+#cThe #0Plane #cof #CF#ci#ls#Ch#n~
+After descending from the sea-suns core, you pass through space and time
+itself, to a new plane of existance.  The plane itself is an oddity, being
+home to all of the ethereal fish.  Colors swirl about in fish-like patterns,
+and water is everywhere.  
+~
+0 0 0
+D0
+~
+~
+0 0 51239
+D1
+~
+~
+0 0 51243
+D2
+~
+~
+0 0 51249
+S
+#51245
+#cThe #0E#Ct#ch#Ce#0r#Ce#ca#Cl #0Boundry#n~
+The Plane of Fish ends here, the ethereal boundry.  Humanoid figures but
+with fish-like features shift in and out of phase, and a loud wailing echos
+inside your head.  
+~
+0 0 0
+D0
+~
+~
+0 0 51240
+D1
+~
+~
+0 0 51246
+D2
+~
+~
+0 0 51250
+D3
+~
+~
+0 0 51248
+S
+#51246
+#cThe #0E#Ct#ch#Ce#0r#Ce#ca#Cl #0Boundry#n~
+The Plane of Fish ends here, the ethereal boundry.  Humanoid figures but
+with fish-like features shift in and out of phase, and a loud wailing echos
+inside your head.  
+~
+0 0 0
+D0
+~
+~
+0 0 51241
+D1
+~
+~
+0 0 51247
+D3
+~
+~
+0 0 51245
+S
+#51247
+#cThe #0E#Ct#ch#Ce#0r#Ce#ca#Cl #0Boundry#n~
+The Plane of Fish ends here, the ethereal boundry.  Humanoid figures but
+with fish-like features shift in and out of phase, and a loud wailing echos
+inside your head.  
+~
+0 0 0
+D0
+~
+~
+0 0 51242
+D3
+~
+~
+0 0 51246
+S
+#51248
+#cThe #0E#Ct#ch#Ce#0r#Ce#ca#Cl #0Boundry#n~
+The Plane of Fish ends here, the ethereal boundry.  Humanoid figures but
+with fish-like features shift in and out of phase, and a loud wailing echos
+inside your head.  
+~
+0 0 0
+D0
+~
+~
+0 0 51243
+D1
+~
+~
+0 0 51245
+D3
+~
+~
+0 0 51249
+S
+#51249
+#cThe #0E#Ct#ch#Ce#0r#Ce#ca#Cl #0Boundry#n~
+The Plane of Fish ends here, the ethereal boundry.  Humanoid figures but
+with fish-like features shift in and out of phase, and a loud wailing echos
+inside your head.  
+~
+0 0 0
+D0
+~
+~
+0 0 51244
+D1
+~
+~
+0 0 51248
+S
+#51250
+#cThe #0Lair #cof the #CF#ci#Cs#ch #7God#n~
+Upon passing through the barrier, you find yourself in another place
+filled with water and fishes once again.  A large throne sits in the middle
+of the chamber, carved from multi-colored coral.  You must have stumbled
+upon the fish gods sacred lair!  
+~
+0 0 0
+D0
+~
+~
+0 0 51245
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 51200 40 51200
+M 0 51200 40 51200
+M 0 51200 40 51201
+M 0 51200 40 51201
+M 0 51200 40 51202
+M 0 51200 40 51202
+M 0 51200 40 51203
+M 0 51200 40 51203
+M 0 51200 40 51204
+M 0 51200 40 51204
+M 0 51205 40 51205
+M 0 51205 40 51205
+M 0 51205 40 51206
+M 0 51205 40 51206
+M 0 51205 40 51207
+M 0 51205 40 51207
+M 0 51205 40 51208
+M 0 51205 40 51208
+M 0 51205 40 51209
+M 0 51205 40 51209
+M 0 51210 1 51210
+M 0 51210 1 51210
+M 0 51210 1 51211
+M 0 51210 1 51211
+M 0 51210 1 51212
+M 0 51210 1 51212
+M 0 51210 1 51213
+M 0 51210 1 51213
+M 0 51210 1 51214
+M 0 51210 1 51214
+M 0 51215 40 51215
+M 0 51215 40 51215
+M 0 51215 40 51216
+M 0 51215 40 51216
+M 0 51215 40 51217
+M 0 51215 40 51217
+M 0 51215 40 51218
+M 0 51215 40 51218
+M 0 51215 40 51219
+M 0 51215 40 51219
+M 0 51220 40 51220
+M 0 51220 40 51220
+M 0 51220 40 51221
+M 0 51220 40 51221
+M 0 51220 40 51222
+M 0 51220 40 51222
+M 0 51220 40 51223
+M 0 51220 40 51223
+M 0 51220 40 51224
+M 0 51220 40 51224
+M 0 51225 40 51225
+M 0 51225 40 51225
+M 0 51225 40 51226
+M 0 51225 40 51226
+M 0 51225 40 51227
+M 0 51225 40 51227
+M 0 51225 40 51228
+M 0 51225 40 51228
+M 0 51225 40 51229
+M 0 51225 40 51229
+M 0 51230 40 51230
+M 0 51230 40 51230
+M 0 51230 40 51231
+M 0 51230 40 51231
+M 0 51230 40 51232
+M 0 51230 40 51232
+M 0 51230 40 51233
+M 0 51230 40 51233
+M 0 51230 40 51234
+M 0 51230 40 51234
+M 0 51235 40 51235
+M 0 51235 40 51235
+M 0 51235 40 51236
+M 0 51235 40 51236
+M 0 51235 40 51237
+M 0 51235 40 51237
+M 0 51235 40 51238
+M 0 51235 40 51238
+M 0 51235 40 51239
+M 0 51235 40 51239
+M 0 51240 40 51240
+M 0 51240 40 51240
+M 0 51240 40 51241
+M 0 51240 40 51241
+M 0 51240 40 51242
+M 0 51240 40 51242
+M 0 51240 40 51243
+M 0 51240 40 51243
+M 0 51240 40 51244
+M 0 51240 40 51244
+M 0 51245 40 51245
+M 0 51245 40 51245
+M 0 51245 40 51246
+M 0 51245 40 51246
+M 0 51245 40 51247
+M 0 51245 40 51247
+M 0 51245 40 51248
+M 0 51245 40 51248
+M 0 51245 40 51249
+M 0 51245 40 51249
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

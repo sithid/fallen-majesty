@@ -1,0 +1,1368 @@
+#AREADATA
+Name        Satan's Revenge~
+Builders    Cyrail~
+VNUMs       100700 100799
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#100700
+hellspawn hell spawn~
+#RH#rellspawn#n~
+#0A #RH#rellspawn #0stands here waiting.#n
+~
+~
+25
+8 -1000 S
+1651 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100701
+Hell Demon~
+#RH#rell #RD#remon#n~
+#0A #RH#rell #RD#remon #0floats here#n
+~
+~
+25
+524296 -1000 S
+1651 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100702
+Chaos Warrior~
+#0C#Rh#0a#Ro#0s #RW#rarrior#n~
+#RA #0C#Rh#0a#Ro#0s #RW#rarrior #Rstands here.#n
+~
+~
+25
+8 -1000 S
+1716 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100703
+Succubus~
+#RS#ruccubus#n~
+#0A #RS#ruccubus #0stands here.#n
+~
+~
+25
+8 -1000 S
+1658 0 0 -100d3+3 0d0+0
+0 0
+0 0 2
+#100704
+Incubus~
+#RI#rncubus#n~
+#0A #RI#rncubus #0stands here.#n
+~
+~
+25
+8 -1000 S
+1650 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100705
+Blood Warrior~
+#RB#rlood #RW#rarrior#n~
+#0A #RB#rlood #RW#rarrior #0stands prepared for battle.#n
+~
+~
+25
+8 -1000 S
+1950 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100706
+Soul Sucker~
+#RS#roul #RS#rucker#n~
+#0A #RS#roul #RS#rucker #0is waiting on it's prey.#n
+~
+~
+25
+8 -1000 S
+1928 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100707
+Flesh Rotting Corpse~
+#RF#rlesh #RR#rotting #RC#rorpse#n~
+#0A #RF#rlesh #RR#rotting #RC#rorpse #0lays on the ground.#n
+~
+~
+27
+8 -1000 S
+1930 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100708
+Hell Hound~
+#RH#rell #RH#round#n~
+#0An #RH#rell #RH#round #0growls at enemies.#n
+~
+~
+25
+8 0 S
+1702 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100709
+Anti Christ~
+#RA#rnti#0-#RC#rhrist#n~
+#0An #RA#rnti#0-#RC#rhrist #0stands here looking for follwers#n
+~
+~
+27
+168 0 S
+2028 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100710
+Anti Christ Follower~
+#RA#rnti#0-#RC#rhrist #RF#rollower#n~
+#0An #RA#rnti#0-#RC#rhrist #RF#rollower #0prays before the #RA#rnti#0-#RC#rhrist#n
+~
+~
+27
+8 -1000 S
+1927 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100711
+Minotaur Demon~
+#RM#rinotaur #RD#remon#n~
+#0An #RM#rinotaur #RD#remon#0 stands here grunting#n
+~
+~
+25
+8 -1000 S
+1980 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100712
+Overseer~
+#RO#rverseer#n~
+#0A large, brutish #RO#rverseer#0 stands here.#n
+~
+~
+25
+8 -1000 S
+1986 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100713
+Abaddon~
+#RA#rbaddon#n~
+#RA#rbaddon#0 stands here looking for new prey.#n
+~
+~
+25
+8 -1000 S
+1933 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100714
+Lucifer~
+#RL#rucifer#n~
+#RL#rucifer#0 awaits his new warriors of destruction.#n
+~
+~
+27
+168 -1000 S
+2981 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100715
+Spirit of infirmity~
+#RS#rpirit #0of #RI#rnfirmity#n~
+#RS#rpirit #0of #RI#rnfirmity#0 is bent over.#n
+~
+~
+25
+8 -1000 S
+1939 0 0 -100d3+3 0d0+0
+0 0
+0 0 2
+#100716
+Unclean Spirit~
+#RU#rnclean #RS#rpirit#n~
+#RU#rnclean #RS#rpirit#0 floats here.#n
+~
+~
+25
+524296 -1000 S
+1993 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100717
+Blind Spirit~
+#RB#rlind #RS#rpirit#n~
+#RB#rlind #RS#rpirit#0 appears to be starring at something.#n
+~
+~
+25
+9 -1000 S
+1960 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100718
+Adriel~
+#RA#rdriel#n~
+#RA#rdriel#0 watches over the #RM#riddle #RL#rayer#0 of #RH#rell#n
+~
+~
+25
+8 -100 S
+1937 0 0 -100d3+3 0d0+0
+0 0
+0 0 2
+#100719
+Agramon Demon Fear~
+#RA#rgramon #0the Demon of Fear#n~
+#RA#rgramon#0, the #RD#remon #0of #RF#rear#0, awaits his next victim.#n
+~
+~
+25
+8 -1000 S
+1973 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100720
+Alastor~
+#RA#rlastor #0the Headsman#n~
+#RA#rlastor #0the Headsman#0 stands here, sharpning his blade.
+~
+~
+25
+8 -1000 S
+1990 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100721
+Baal~
+#RB#0aal#n~
+#RB#0aal#r stands here waiting.#n
+~
+~
+27
+168 -1000 S
+3000 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100722
+Balaam~
+#RB#ralaam#n~
+#RB#ralaam#0 sits on the ground counting money.#n
+~
+~
+25
+8 -1000 S
+1979 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100723
+Belial~
+#RB#relial#n~
+#RB#relial#0 looks around the room dazed.#n
+~
+~
+25
+8 -1000 S
+1987 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100724
+Cambions~
+#RC#rambions#n~
+#0The Offspring of Incubi and Succubi, #RC#rambions#0 stands here.#n
+~
+~
+25
+8 -1000 S
+2046 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100725
+Chax~
+#RC#rhax#n~
+#RC#rhax#0, the #RG#rrand #RD#ruke #0of #RH#rell#n
+~
+~
+25
+8 -1000 S
+2037 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100726
+Dracula~
+#RD#rracula#n~
+#RD#rracula#0 floats here with his fangs extended.#n
+~
+~
+25
+524296 -1000 S
+2180 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100727
+Jezebeth~
+#RJ#rezebeth#n~
+#RJ#rezebeth#0, the #RD#remon #0of #RF#ralsehood#0, stands here.#n
+~
+~
+25
+8 -1000 S
+2236 0 0 -100d3+3 0d0+0
+0 0
+0 0 2
+#100728
+Kobal~
+#RK#robal#n~
+#RK#robal#0, the #RJ#roker #0of #RH#rell#0, is juggling fireballs.#n
+~
+~
+25
+8 -1000 S
+2055 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100729
+Lilith~
+#RL#rilith#n~
+#RL#rilith#0, the #RW#rife #0of #RL#rucifer#0, watches an Orb of Darkness.#n
+~
+~
+25
+8 -1000 S
+2023 0 0 -100d3+3 0d0+0
+0 0
+0 0 2
+#100730
+Soulstealer~
+#RS#roulstealer#n~
+#RS#roulstealer#0 awaits his next soul.#n
+~
+~
+25
+8 -1000 S
+2014 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100731
+Nebiros~
+#RN#rebiros#n~
+#RN#rebiros#0 awaits its next command.#n
+~
+~
+25
+8 -1000 S
+2063 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#100732
+Samael~
+#RS#ramael#n~
+#RS#ramael#0, the #RA#rngel #0of #RD#reath#0, looks thru his #RB#rook #0of #Rd#reath.#n
+~
+~
+25
+8 -1000 S
+2057 0 0 -100d3+3 0d0+0
+0 0
+0 0 1
+#100733
+Zeernebooch~
+#RZ#reernebooch#n~
+#RZ#reernebooch#0 is the #RM#ronarch#0 of the #RE#rmpire#0 of the #RD#read#n
+~
+~
+25
+8 -1000 S
+2049 0 0 -100d3+3 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#100700
+#RE#rntrance #Rt#ro #RH#rell#n~
+A blood curdling scream fills this hollowed out cave. It sounds as if
+it is coming from the north, in the far distance. Behind the walls of
+darkness and the little red beady eyes that give the hairs on your neck
+a good stretch. These little red eyes seem to surround you, everywhere.
+The darkness is almost consuming without them. Some bad things must be
+going on here and it would probably be a good idea not to stick around
+to hear the details.
+~
+0 4 0
+D0
+~
+~
+0 0 100701
+S
+#100701
+#RL#rower #RH#rell#n~
+The remains of fallen warriors are littered about, ones who tried to
+make it to Satan and failed. By the looks of it, they didn't put up
+much of a fight. It looks like a mortal slaughter-house. Everywhere
+you move, the errie feeling that someone if watching you grows more
+and more intense. The little red beady eyes have disappeared but you
+know they are there, watching, waiting, and closing in on you!
+~
+0 0 0
+D0
+~
+~
+0 0 100702
+D2
+~
+~
+0 0 100700
+S
+#100702
+#RL#rower #RH#rell#n~
+You move deeper into the darkness, vision is not an option, stumbling
+seems to be the more appropriate word for it. Skulls seem to be what
+is littered about, or that is what they feel like. Every movement is
+harder and harder to take as fear begins to corrode your soul.
+~
+0 0 0
+D0
+~
+~
+0 0 100703
+D2
+~
+~
+0 0 100701
+S
+#100703
+#RL#rower #RH#rell#n~
+The screams are getting louder, also a new sound is heard. It sounds
+like an animal is eating something very crunchy, each bite produces
+it's own distinct, yet terrifying, yelp. In the distance you think you
+see a red and orange glow.
+~
+0 0 0
+D0
+~
+~
+0 0 100704
+D2
+~
+~
+0 0 100702
+S
+#100704
+#RL#rower #RH#rell#n~
+The screams are getting louder, also a new sound is heard. It sounds
+like an animal is eating something very crunchy, each bite produces
+it's own distinct, yet terrifying, yelp. In the distance you think you
+see a red and orange glow.
+~
+0 0 0
+D0
+~
+~
+0 0 100705
+D2
+~
+~
+0 0 100703
+S
+#100705
+#RL#rower #RH#rell#n~
+The screams are getting louder, also a new sound is heard. It sounds
+like an animal is eating something very crunchy, each bite produces
+it's own distinct, yet terrifying, yelp. In the distance you think you
+see a red and orange glow.
+~
+0 0 0
+D0
+~
+~
+0 0 100706
+D2
+~
+~
+0 0 100704
+S
+#100706
+#RL#rower #RH#rell#n~
+The screams are almost unbearable, It sounds as if this animal isn't
+natural, each bite produces it's own distinct, yet terrifying, yelp.
+The red and orange glow is getting brighter.
+~
+0 0 0
+D0
+~
+~
+0 0 100707
+D2
+~
+~
+0 0 100705
+S
+#100707
+#RL#rower #RH#rell#n~
+The screams are almost unbearable, It sounds as if this animal isn't
+natural, each bite produces it's own distinct, yet terrifying, yelp.
+The red and orange glow is getting brighter.
+~
+0 0 0
+D0
+~
+~
+0 0 100708
+D2
+~
+~
+0 0 100706
+S
+#100708
+#RL#rower #RH#rell#n~
+Corpses line the sides of the walkway, the smell is absolutely foul. The
+smell of burning flesh fills your nostrils. There is quite a bit of
+light in this room, it almost makes you wish there wasn't. You see pale
+translucent figures moving about moaning and screaming. Sorrow seems to
+fill these caves.
+~
+0 0 0
+D0
+~
+~
+0 0 100709
+D2
+~
+~
+0 0 100707
+S
+#100709
+#RL#rower #RH#rell#n~
+You see little demons moving about, collecting these pale figures into
+jars and dancing about to the north. The screams have subsided, the sound
+of chanting can be heard, nothing distinct, but it doesn't sound good.
+Flames fill this room, yet it doesn't feel hot. Your soul seems to be
+making you move north, as if you are drawn by leash.
+~
+0 0 0
+D0
+~
+~
+0 0 100710
+D2
+~
+~
+0 0 100708
+S
+#100710
+#RC#rhamber #Ro#rf #Rt#rhe #RA#rnti#0-#RC#rhrist#n~
+This chamber is decorated with all kinds of ritualistic items of evil,
+ones that would make a priest ponder his faith in god. In the middle of
+the chamber is the throne of the one, the only, anti-christ. He is here
+spouting out words of dishonesty and half-truths. As he is speaking you
+feel your soul being pulled towards him like a moth to the flame. The
+feeling is relaxing yet draining. In the distance, you see small demons
+with jars crawling up the walls chanting "We have sssssoulsssss, precious
+ssssssoulsssss!"
+~
+0 0 0
+D2
+~
+~
+0 0 100709
+D4
+~
+~
+0 0 100711
+S
+#100711
+#RM#riddle #RH#rell#n~
+Demons! DEMONS! They are everywhere. Fear has overtaken you, you hear
+voices in your head screaming, "I MUST LEAVE! My soul is being taken!".
+The sounds of chanting can be heard below and the scratching of claws
+on stone are all around you. Many demons just pass you by, as if you
+aren't even there. While others watch, wait, and ATTACK!!
+~
+0 0 0
+D0
+~
+~
+0 0 100712
+D5
+~
+~
+0 0 100710
+S
+#100712
+#RM#riddle #RH#rell#n~
+You are in the middle of hate, pain is everywhere, even the demons are
+in a constant state of annoyance. The slightest move could trigger them
+and lead to your demise. Farther north there are groups of demons doing
+Satan's chores, collecting souls. Fire is emminating from every inch of
+the room. Oh, what's that? A demon flying towars you to attack!
+~
+0 0 0
+D0
+~
+~
+0 0 100713
+D2
+~
+~
+0 0 100711
+S
+#100713
+#RM#riddle #RH#rell#n~
+You are in the middle of hate, pain is everywhere, even the demons are
+in a constant state of annoyance. The slightest move could trigger them
+and lead to your demise. Farther north there are groups of demons doing
+Satan's chores, collecting souls. Fire is emminating from every inch of
+the room. Oh, what's that? A demon flying towars you to attack!
+~
+0 0 0
+D0
+~
+~
+0 0 100714
+D2
+~
+~
+0 0 100712
+S
+#100714
+#RM#riddle #RH#rell#n~
+You are in the middle of hate, pain is everywhere, even the demons are
+in a constant state of annoyance. The slightest move could trigger them
+and lead to your demise. Farther north there are groups of demons doing
+Satan's chores, collecting souls. Fire is emminating from every inch of
+the room. Oh, what's that? A demon flying towars you to attack!
+~
+0 0 0
+D0
+~
+~
+0 0 100715
+D2
+~
+~
+0 0 100713
+S
+#100715
+#RM#riddle #RH#rell#n~
+You seem to be getting closer to a chamber, the ceiling is rising as
+you move, and the shear number of demons and minions is frightening.
+Your soul twinges with pain at every demon that flies by. Every step
+flames separate, allowing you to move forward. It is as if someone or
+something is expecting you.
+~
+0 0 0
+D0
+~
+~
+0 0 100716
+D2
+~
+~
+0 0 100714
+S
+#100716
+#RC#renter #Ro#rf #RH#rell#n~
+You are now in the center of it all. All the bloodshed, torture, and
+remorse fills your lungs as you breathe. Souls are floating around you
+urging you not to go any farther. As you look around, you notice you
+are surrounded. Demons are lined up in a military fashion, slashing at
+the air in a menacing manor. "Your time has come, Mortal!". They shout
+in unision.
+~
+0 0 0
+D0
+~
+~
+0 0 100717
+D1
+~
+~
+0 0 100730
+D2
+~
+~
+0 0 100715
+D3
+~
+~
+0 0 100729
+S
+#100717
+#RM#riddle #RH#rell#n~
+You seem to be getting farther from a chamber, the ceiling isn't as high
+as the previous room. Demons are crowding around you, speaking amongst
+themselves in a dark and forgotten language. You get the feeling they
+won't sit and talk for long.
+~
+0 0 0
+D0
+~
+~
+0 0 100718
+D2
+~
+~
+0 0 100716
+S
+#100718
+#RM#riddle #RH#rell#n~
+You are in the middle of hate, pain is everywhere, even the demons are
+in a constant state of annoyance. The slightest move could trigger them
+and lead to your demise. Farther north there are groups of demons doing
+Satan's chores, collecting souls. Fire is emminating from every inch of
+the room. Oh, what's that? A demon flying towars you to attack!
+~
+0 0 0
+D0
+~
+~
+0 0 100719
+D2
+~
+~
+0 0 100717
+S
+#100719
+#RM#riddle #RH#rell#n~
+You are in the middle of hate, pain is everywhere, even the demons are
+in a constant state of annoyance. The slightest move could trigger them
+and lead to your demise. Farther north there are groups of demons doing
+Satan's chores, collecting souls. Fire is emminating from every inch of
+the room. Oh, what's that? A demon flying towars you to attack!
+~
+0 0 0
+D0
+~
+~
+0 0 100720
+D2
+~
+~
+0 0 100718
+S
+#100720
+#RM#riddle #RH#rell#n~
+You are below some type of path. Souls are being brought through here
+in large quantities. Demons are EVERYWHERE, watching, guarding, and
+spawning. It is a rather sick sight to see. Who would have thought it, they
+are A-Sexual. The demons turn to you and command their offspring to take
+your soul!
+~
+0 0 0
+D2
+~
+~
+0 0 100719
+D4
+~
+~
+0 0 100721
+S
+#100721
+#RP#rath #Rt#ro #RS#ratan#n~
+This path is wide and tall. Demons of all shapes and sizes surround you
+and watch your every movement. They point to the north and say, "To get
+there, you must get through us!". Your soul is screaming as it tries to
+escape your body. You feel the end is getting closer.
+~
+0 0 0
+D0
+~
+~
+0 0 100722
+D5
+~
+~
+0 0 100720
+S
+#100722
+#RH#rall #Ro#rf #RS#ratan#n~
+The halls of Satan are lined with militarized demons. They seem to be
+guarding something to the east, west, and north. They turn to you and
+say, "The dark lord will see you now. First, we must take your soul!".
+~
+0 0 0
+D0
+~
+~
+0 0 100723
+D1
+~
+~
+0 0 100724
+D2
+~
+~
+0 0 100721
+D3
+~
+~
+0 0 100725
+D5
+~
+~
+0 0 100727
+S
+#100723
+#RB#refore #RS#ratan's #RT#rhrone#n~
+To the north are the gates made of bone and flesh. They lead to the
+throne of Satan himself. This room is lined with minions going in and
+coming out with a list of things to do, or a quota to meet.
+~
+0 0 0
+D0
+~
+~
+3 0 100726
+D2
+~
+~
+0 0 100722
+S
+#100724
+#RC#rhamber #Ro#rf #RS#rouls#n~
+A huge collection of souls are stacked in jars all over the room with
+little labels on them written in some dark and forgotten language. You
+cringe when you see an empty jar with your name on it! One of the demons
+turns to you and says, "How nice of you to save us the work of retrieving
+you soul, we will take that now!".  A flash of red fills the room and
+demons appear ready to attack.
+~
+0 128 0
+D3
+~
+~
+0 0 100722
+S
+#100725
+#RC#rhamber #Ro#rf #RS#rouls#n~
+A huge collection of souls are stacked in jars all over the room with
+little labels on them written in some dark and forgotten language. You
+cringe when you see an empty jar with your name on it! One of the demons
+turns to you and says, "How nice of you to save us the work of retrieving
+you soul, we will take that now!".  A flash of red fills the room and
+demons appear ready to attack.
+~
+0 0 0
+D1
+~
+~
+0 0 100722
+S
+#100726
+#RS#ratan's #R#rThrone #RR#room#n~
+The mighty throne of Satan in all it's hateful glory. This room is littered
+with souls of mortals who were sent here for "purification". All sorts of
+mortal remains have been turned into trophies. Lucifer himself is even
+here sitting on his throne spouting out orders to his minions and servants.
+~
+0 32 0
+D2
+~
+~
+3 0 100723
+S
+#100727
+#RB#relow #Rt#rhe #RC#rhambers#n~
+You have fallen into some type of chamber below hell. It smells of hate,
+greed, and revenge! The walls are painted with blood of all types and
+colors. Even your wounds are among these. It might be a good idea to get
+out of here before something else bad happens.
+~
+0 0 0
+D0
+~
+~
+0 0 100728
+D4
+~
+~
+0 0 100722
+S
+#100728
+#RH#rell's #RR#revenge#n~
+Every bit of hate you could ever imagine fills this room. Demons here
+are all afraid, yet angry. They turn to you, watching, waiting, and
+chanting. Demonic runes are inscribed all over the cave walls, as you
+move closer, they glow red.
+~
+0 0 0
+D2
+~
+~
+0 0 100727
+S
+#100729
+#RO#rutside #0of #RH#rell#n~
+Whew! that was close, you just barely got away. You stop and check to
+see if you still have all your limbs. What a nasty battle that was.
+Demons are filling in from below. The bloodshed continues!
+~
+0 0 0
+D1
+~
+~
+0 0 100716
+D5
+~
+~
+0 0 100733
+S
+#100730
+#RO#rutside #0of #RH#rell#n~
+Whew! that was close, you just barely got away. You stop and check to
+see if you still have all your limbs. What a nasty battle that was.
+Demons are filling in from below. The bloodshed continues!
+~
+0 0 0
+D3
+~
+~
+0 0 100716
+D5
+~
+~
+0 0 100731
+S
+#100731
+#RB#relow #RH#rell's #RP#rit#n~
+You have fallen into some type of pit, knarled bones and skulls litter
+the ground. A few demons are here going through the remains looking for
+good trophies for Satan. The smell of rotting flesh is so think you
+can cut it with your weapon. Movement is a bit of a problem. You see
+a few souls floating over thier ravaged corpses crying for God.
+~
+0 0 0
+D3
+~
+~
+0 0 100732
+D4
+~
+~
+0 0 100730
+S
+#100732
+#RB#relow #RH#rell's #RP#rit#n~
+You continue into the pit and see a small clearing with demons chanting
+to some lesser demon god. It is almost as if they are asking for his
+presence. It might be a good idea to leave before he comes. They turn to
+you and attack!
+~
+0 0 0
+D0
+~
+~
+3 0 100734
+D1
+~
+~
+0 0 100731
+D3
+~
+~
+0 0 100733
+S
+#100733
+#RB#relow #RH#rell's #RP#rit#n~
+You have fallen into some type of pit, knarled bones and skulls litter
+the ground. A few demons are here going through the remains looking for
+good trophies for Satan. The smell of rotting flesh is so think you
+can cut it with your weapon. Movement is a bit of a problem. You see
+a few souls floating over thier ravaged corpses crying for God.
+~
+0 0 0
+D1
+~
+~
+0 0 100732
+D4
+~
+~
+0 0 100729
+S
+#100734
+#0Dark #RC#rhamber #0of #RH#rell#n~
+Before you is the throne of Baal, one of the most feared demons in the
+underworld. He is here sifting through trophies the other demons have
+brought him to inspect. He turns to you and says, "Ah, your head would be
+a nice trophy for my lord. Yes, yes, you must die now!".
+~
+0 0 0
+D2
+~
+~
+3 0 100732
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100700 11 100701
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100701 11 100702
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100703 11 100703
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100704 11 100704
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100702 11 100705
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+M 0 100705 11 100706
+G 0 30069 0
+M 0 100705 11 100706
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100706 11 100707
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100707 11 100708
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+G 0 30049 0
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100708 11 100709
+M 0 100709 1 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100710 14 100710
+M 0 100711 11 100711
+M 0 100711 11 100711
+M 0 100711 11 100711
+G 0 30053 0
+M 0 100711 11 100711
+M 0 100711 11 100711
+M 0 100711 11 100711
+M 0 100711 11 100711
+M 0 100711 11 100711
+M 0 100711 11 100711
+G 0 30068 0
+M 0 100711 11 100711
+M 0 100711 11 100711
+M 0 100712 5 100712
+M 0 100712 5 100712
+M 0 100712 5 100712
+M 0 100712 5 100712
+M 0 100712 5 100712
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100713 10 100713
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100715 10 100714
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100716 10 100715
+G 0 30065 0
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100716 10 100715
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100717 10 100716
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100724 10 100717
+G 0 30070 0
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100724 10 100717
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100725 10 100718
+M 0 100726 10 100719
+M 0 100726 10 100719
+M 0 100726 10 100719
+M 0 100726 10 100719
+M 0 100726 10 100719
+G 0 30065 0
+M 0 100726 10 100719
+M 0 100726 10 100719
+M 0 100726 10 100719
+G 0 30071 0
+M 0 100726 10 100719
+M 0 100726 10 100719
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100727 10 100720
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100728 10 100721
+M 0 100727 10 100722
+M 0 100729 10 100722
+M 0 100729 10 100722
+M 0 100729 10 100722
+M 0 100729 10 100722
+M 0 100729 10 100722
+G 0 30053 0
+M 0 100729 10 100722
+M 0 100729 10 100722
+M 0 100729 9 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100731 10 100723
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100730 10 100724
+M 0 100728 10 100725
+M 0 100729 8 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+G 0 30066 0
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100730 20 100725
+M 0 100714 1 100726
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100732 10 100727
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100733 10 100728
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100719 10 100729
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+M 0 100718 10 100730
+G 0 30057 0
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100723 10 100731
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100722 10 100732
+G 0 30058 0
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100722 10 100732
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+M 0 100720 10 100733
+G 0 30057 0
+M 0 100720 10 100733
+M 0 100721 1 100734
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

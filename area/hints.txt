@@ -1,0 +1,22 @@
+21
+#7Wonder what #ygold#7 is used for? Type: #yhelp gold#7!~
+#7How long are #Rnewbie hours#7? Type: #Rhelp pkready#7!~
+#7How can you get free #Cquest-points#7? Type: #Chelp toss#7!~
+#7How do you make #0equipment#7? Type: #0help equipment#7!~
+#7What is a #Cwishing well#7 and how do I use it? Type: #Chelp wish#7!~
+#yHow do I see less spam#R? #yType: #Rconfig#y~
+#GInvite your friends to play!! #yhelp reward~
+#yWhere are the #RAREAS#y? #RType: #yhelp areas~
+#7What is a Zealot? What is a Legend? #GType: #7help legend#G!~
+#7What are (#0RARE#7) equipment and what do they do? Type: #0help rare#7!~
+#7But I really want an #0ARTIFACT#7!  How do I get one?? #RType: #7help artifact#R!~
+#7So how do I raise my #RDAMCAP#7?!? Type: #Rhelp damcap#7!~
+#GI've found the catacombs, but when I #ylook#G at the statues, nothing happens#y! #GType: #yhelp area#G!~
+#7How do I eat a TOKEN??#R You must '#7consume#R' tokens.~
+#7How do I get to the Pit of Sacrifice? #0Go find the Dragon Highlord.~
+#7What kind of equipment can I make?  #yType: #GHelp Equipment~
+#7What are #Rboards#7 and how do I use them? #GHelp Board#n~
+#7Type #Rscore#7 to see a broad profile of your character, #Rpscore#7 for a narrow profile.#n~
+#7How else can I get quest points? Help #RAlternate_questing#n.~
+#7Why doesn't finger work? Try #Rwhois$n.~
+#7Are you hurt? Try casting #Rmiracle#7 it heals you! Also see #GHelp Miracle#n#7!#n~

@@ -1,0 +1,1176 @@
+#AREADATA
+Name        The Castle~
+Builders    Kelud~
+VNUMs       53100 53149
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#53100
+Guard~
+Castle Guard~
+A Castle Guard stands here
+~
+~
+11
+0 0 S
+3985 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#53102
+Angel~
+Angel~
+A Angel stands here
+~
+~
+1
+0 0 S
+3997 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#53104
+Rat~
+A Rat~
+An Angel rat stands here
+~
+~
+1
+0 0 S
+4035 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53105
+Bird~
+A Bird~
+A bird floats here
+~
+~
+1
+0 0 S
+4007 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53106
+Mole~
+Mole~
+A Good Angel mole stands here
+~
+~
+1
+0 0 S
+3982 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#53100
+#RThe #lCastle #yof #oAngles#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53101
+D2
+~
+~
+0 0 53149
+D4
+~
+~
+0 0 53140
+S
+#53101
+#RBeginning #pOf #CThe #pCaslte#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53103
+D1
+~
+~
+0 0 53102
+D2
+~
+~
+0 0 53100
+D3
+~
+~
+0 0 53104
+S
+#53102
+#sAngles Meeting Room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53128
+D3
+~
+~
+0 0 53101
+D4
+~
+~
+0 0 53137
+S
+#53103
+#sInsdie of the Castle#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53105
+D1
+~
+~
+0 0 53106
+D2
+~
+~
+0 0 53101
+D3
+~
+~
+0 0 53106
+D4
+~
+~
+0 0 53107
+S
+#53104
+#sThe Gallery of Angles#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53111
+D1
+~
+~
+0 0 53101
+D2
+~
+~
+0 0 53112
+D3
+~
+~
+0 0 53113
+D5
+~
+~
+0 0 53114
+S
+#53105
+#sHallway Leading in different directions#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53109
+D1
+~
+~
+0 0 53128
+D2
+~
+~
+0 0 53103
+D3
+~
+~
+0 0 53128
+S
+#53106
+#sHallway leading in different directions#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53108
+D1
+~
+~
+0 0 53103
+D2
+~
+~
+0 0 53109
+D3
+~
+~
+0 0 53103
+D5
+~
+~
+0 0 53110
+S
+#53107
+#sHallway leading in different directions#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53120
+D1
+~
+~
+0 0 53109
+D3
+~
+~
+0 0 53119
+D5
+~
+~
+0 0 53103
+S
+#53108
+#sSparing room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53124
+D2
+~
+~
+0 0 53106
+S
+#53109
+#sThe Castles second Training room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53106
+D2
+~
+~
+0 0 53105
+D3
+~
+~
+0 0 53107
+D4
+~
+~
+0 0 53114
+S
+#53110
+Hallawy Leading Everywhere#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53115
+D1
+~
+~
+0 0 53117
+D2
+~
+~
+0 0 53116
+D3
+~
+~
+0 0 53118
+D4
+~
+~
+0 0 53106
+S
+#53111
+#GThe Meeting Quaters of the Castle#n~
+Here is the meeting place were all the exprinced knight meet to
+decide certain stratgies to kill there opponets. Most of the Knights that
+came here were experinced enough to kill someone with one swipe of the blade.
+~
+0 0 0
+D0
+~
+~
+0 0 53122
+D1
+~
+~
+0 0 53122
+D2
+~
+~
+0 0 53120
+D3
+~
+~
+0 0 53121
+D4
+~
+~
+0 0 53138
+S
+#53112
+#sThe Kitchen of the Castle#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53104
+D1
+~
+~
+0 0 53114
+D2
+~
+~
+0 0 53113
+D3
+~
+~
+0 0 53115
+S
+#53113
+#sThe corridor of the caslte#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53112
+D1
+~
+~
+0 0 53104
+D2
+~
+~
+0 0 53144
+D3
+~
+~
+0 0 53125
+S
+#53114
+#CThe Armory#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53146
+D2
+~
+~
+0 0 53143
+D3
+~
+~
+0 0 53112
+D4
+~
+~
+0 0 53104
+D5
+~
+~
+0 0 53109
+S
+#53115
+#sThe Sargents Room#n~
+Here lies a room that is over thousand years old.
+This Bedroom was once a sargents room that fought in
+the great battle to save his Kings Kingdom.
+As you look down and see bloodstains on the floor
+a gust of wind comes right throug the window and pushes you back
+alittle.
+~
+0 0 0
+D0
+~
+~
+0 0 53144
+D1
+~
+~
+0 0 53112
+D2
+~
+~
+0 0 53110
+D3
+~
+~
+0 0 53124
+S
+#53116
+#CThe Weapon Storage#n~
+Here lies the room with all the weapons that the Knights
+used to protect themselfves. There are Axes,Maces,Swords and Flails
+that hang in this room. This room have never been open for hundreds of years
+because it was ABANDONED.
+~
+0 0 0
+D0
+~
+~
+0 0 53110
+S
+#53117
+#PThe Dungeon of Hell#n~
+As you keep traveling you stop and see a room.
+This room has alot of freaky things in this room. This room
+has human skeletons hanging from ropes from the ceiling of the
+castle. This room was used to torture people when
+they got very bad at times.
+~
+0 0 0
+D3
+~
+~
+0 0 53110
+S
+#53118
+#oThe training place#n~
+This Place here was built to train the young people when
+they became knight for the king. He told the Young fellows to train
+because they need it in the outskirts of this castle. There are
+training swords and other weapons these young fellas used to train.
+In the Corner there is a place were the young knigths could go get water.
+~
+0 0 0
+D0
+~
+~
+0 0 5347
+D1
+~
+~
+0 0 53110
+S
+#53119
+#The Living Quaters#n~
+This is the place were these knights came to live in the castle.
+They would spen thier whole life in this castle to defend it.
+The knights would get treated right and treated to meal, baths because
+they lived here.
+~
+0 0 0
+D1
+~
+~
+0 0 53107
+D2
+~
+~
+0 0 53121
+D3
+~
+~
+0 0 53120
+S
+#53120
+#rThe Horse barn#n~
+This was a barn that was inside of the castle.
+This was were the horses slept before they were tooken to ride
+or to be in battle.
+The knights feed the horses hay and straw here to keep them healty.
+~
+0 0 0
+D0
+~
+~
+0 0 53111
+D1
+~
+~
+0 0 53119
+D2
+~
+~
+0 0 53107
+D4
+~
+~
+0 0 53134
+S
+#53121
+#sThe Tower of the Castle#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53119
+D1
+~
+~
+0 0 53111
+S
+#53122
+#sThe Second Dungeon#n~
+This was the second dungeon that the castle used.
+This dungeon was used to kill the people or try to make them talk.
+The kinghts used very sharp weapons that made the thiefs and traders
+to tell them why they did the crime.
+~
+0 0 0
+D2
+~
+~
+0 0 53111
+D3
+~
+~
+0 0 53111
+D4
+~
+~
+0 0 53141
+D5
+~
+~
+0 0 53135
+S
+#53123
+#sThe Pleasure Room#n~
+~
+0 4 0
+S
+#53124
+#sThe Courtyard#n~
+Here lies the most important thing of all in the castle.
+The knights would spend there time here to injoy the nice days
+of the summer. They would pick apples and that from the trees.
+~
+0 0 0
+D0
+~
+~
+0 0 53125
+D1
+~
+~
+0 0 53115
+D2
+~
+~
+0 0 53108
+D4
+~
+~
+0 0 53136
+D5
+~
+~
+0 0 53134
+S
+#53125
+#sThe Moat#n~
+Here is the moat were all the water goes in circles.
+There are crocs in the moat to proctect the people from trying
+to come across without going across the Gate.
+~
+0 0 0
+D1
+~
+~
+0 0 53113
+D2
+~
+~
+0 0 53124
+S
+#53126
+#sThe Lion Cage in the Castle#n~
+~
+0 4 0
+D1
+~
+~
+0 0 53136
+D3
+~
+~
+0 0 53127
+S
+#53127
+#CThe Third Dungeon#n~
+This Dungeon was used to throw the dead bodies in here to
+let the rot away.
+~
+0 4 0
+D1
+~
+~
+0 0 53126
+D5
+~
+~
+0 0 53138
+S
+#53128
+#CThe Archer Training Room#n~
+~
+0 4 0
+D1
+~
+~
+0 0 53105
+D2
+~
+~
+0 0 53102
+D3
+~
+~
+0 0 53105
+S
+#53129
+#The Warlocks Training Room3n~
+Here is were the Wizards practiced magic and there spells
+and they old tried them on the weakest knight of the strong knights
+that became really strong.
+~
+0 4 0
+D3
+~
+~
+0 0 5140
+S
+#53130
+#CThe Pit#n~
+Here is were the other knights from other kingdoms were brought
+to be thrown in and kept there tell they told the truth were they
+were from and how many people are going to attack the kingdom.
+~
+0 4 0
+D0
+~
+~
+0 0 53135
+D1
+~
+~
+0 0 53137
+D2
+~
+~
+0 0 53135
+D3
+~
+~
+0 0 53136
+S
+#53131
+#cThe Food storage#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53140
+D1
+~
+~
+0 0 53145
+D2
+~
+~
+0 0 53136
+D3
+~
+~
+0 0 53132
+S
+#53132
+#yThe Second Armory#n~
+here is were all the higher knights kept there armor
+and there weapons at. They were the highest of the knights that could
+keep there armor and weapons here.
+~
+0 4 0
+D0
+~
+~
+0 0 53145
+D1
+~
+~
+0 0 53131
+D2
+~
+~
+0 0 53145
+D3
+~
+~
+0 0 53144
+S
+#53133
+#sHallway Leading all over#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53148
+D1
+~
+~
+0 0 53148
+D2
+~
+~
+0 0 53146
+D3
+~
+~
+0 0 53148
+D5
+~
+~
+0 0 53140
+S
+#53134
+#sHallway Leading all over#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53141
+D4
+~
+~
+0 0 53124
+D5
+~
+~
+0 0 53120
+S
+#53135
+#sHallway of Paintings#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53130
+D1
+~
+~
+0 0 53139
+D2
+~
+~
+0 0 53130
+D4
+~
+~
+0 0 53122
+D5
+~
+~
+0 0 53147
+S
+#53136
+#sHallway of weapons#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53131
+D1
+~
+~
+0 0 53130
+D2
+~
+~
+0 0 53138
+D3
+~
+~
+0 0 53126
+D5
+~
+~
+0 0 53124
+S
+#53137
+#sHallway of Statues#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53149
+D1
+~
+~
+0 0 53149
+D3
+~
+~
+0 0 53130
+D5
+~
+~
+0 0 53102
+S
+#53138
+#sHalls of Sword#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53136
+D1
+~
+~
+0 0 53141
+D4
+~
+~
+0 0 53127
+D5
+~
+~
+0 0 53111
+S
+#53139
+#sHalls of Helmets#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53142
+D2
+~
+~
+0 0 53140
+D3
+~
+~
+0 0 53135
+D4
+~
+~
+0 0 53147
+S
+#53140
+#sThe Kings Quarters#n~
+This is the king part of the castle. This is were the king and
+and quiet from his warrior that would protect his life.
+~
+0 4 0
+D0
+~
+~
+0 0 53139
+D2
+~
+~
+0 0 53131
+D4
+~
+~
+0 0 53133
+D5
+~
+~
+0 0 53100
+S
+#53141
+#sKings Kitchen#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53143
+D2
+~
+~
+0 0 53134
+D3
+~
+~
+0 0 53138
+D5
+~
+~
+0 0 53122
+S
+#53142
+#sKings Armory#n~
+This is were the king kept his armor and weapong at.
+He kept thme nice and shinny as you look at the stuff hanging in
+the closet of Sir Arthur the king of this Caslte.
+~
+0 4 0
+D2
+~
+~
+0 0 53139
+D4
+~
+~
+0 0 53143
+S
+#53143
+#pKings Mess Room#n~
+This is were the king would set with the highest knights ever. He would
+try to make some battle stratgies for them so they could tell the
+knights underneath them. Then he would explain the rest of the day schedule
+for his plans to conquer the lands.
+~
+0 0 0
+D0
+~
+~
+0 0 53114
+D2
+~
+~
+0 0 53141
+D4
+~
+~
+0 0 53144
+D5
+~
+~
+0 0 53142
+S
+#53144
+#sKings Storage#n~
+This is were he kept is maps and other stuff of the outskirts
+of his castle.
+~
+0 0 0
+D0
+~
+~
+0 0 53113
+D1
+~
+~
+0 0 53132
+D2
+~
+~
+0 0 53115
+D4
+~
+~
+0 0 53145
+D5
+~
+~
+0 0 53143
+S
+#53145
+#pThem Living Room#n~
+This is were the king would relax and tell his grandkids
+stories about his king ship of his kingdom and some day he would
+give it to his grandkids.
+~
+0 4 0
+D0
+~
+~
+0 0 53132
+D2
+~
+~
+0 0 53132
+D3
+~
+~
+0 0 53131
+D4
+~
+~
+0 0 53146
+D5
+~
+~
+0 0 53144
+S
+#53146
+#sThe Hallway of the king room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53133
+D2
+~
+~
+0 0 53114
+D3
+~
+~
+0 0 53147
+D5
+~
+~
+0 0 53145
+S
+#53147
+#sKing Statue#n~
+In the middle of the hallway of the kings rooms. The statue stand
+about twenty feet high. It is very huge and and greay with cracks
+in the statue.
+~
+0 4 0
+D1
+~
+~
+0 0 53146
+D4
+~
+~
+0 0 53148
+D5
+~
+~
+0 0 53139
+S
+#53148
+#sDoor to the Kings Room#n~
+~
+0 4 0
+D1
+~
+~
+0 0 53133
+D2
+~
+~
+0 0 53133
+D3
+~
+~
+0 0 53133
+D4
+~
+~
+0 0 53149
+D5
+~
+~
+0 0 53147
+S
+#53149
+#PThe Kings Private Chambers#n~
+This is were the King dies with a stroke in his bed. He also Was
+trying to get out and yell for his doctor. As you can tell the skeleton
+is lying on the floor of the floor where he died and the skeleton has been ther
+
+fro along time.
+~
+0 4 0
+D0
+~
+~
+0 0 53100
+D2
+~
+~
+0 0 53137
+D3
+~
+~
+0 0 53137
+D5
+~
+~
+0 0 53148
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 53100 6 53100
+M 0 53100 6 53100
+M 0 53100 6 53100
+M 0 53100 30 53101
+M 0 53100 30 53101
+M 0 53100 30 53101
+M 0 53102 30 53102
+M 0 53102 30 53102
+M 0 53102 30 53102
+M 0 53102 30 53102
+M 0 53100 30 53103
+M 0 53100 30 53103
+M 0 53100 30 53103
+M 0 53104 30 53104
+M 0 53104 30 53104
+M 0 53104 30 53104
+M 0 53104 30 53104
+M 0 53100 30 53104
+M 0 53100 30 53104
+M 0 53100 30 53104
+M 0 53105 30 53105
+M 0 53105 30 53105
+M 0 53105 30 53105
+M 0 53104 30 53105
+M 0 53104 30 53105
+M 0 53100 30 53105
+M 0 53100 30 53105
+M 0 53100 30 53105
+M 0 53106 25 53106
+M 0 53106 25 53106
+M 0 53106 25 53106
+M 0 53106 25 53106
+M 0 53100 30 53106
+M 0 53100 30 53106
+M 0 53100 30 53106
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

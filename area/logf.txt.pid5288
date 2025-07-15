@@ -1,0 +1,154 @@
+==5288== Addrcheck, a fine-grained address checker for x86-linux.
+==5288== Copyright (C) 2002, and GNU GPL'd, by Julian Seward.
+==5288== Using valgrind-1.9.6, a program instrumentation system for x86-linux.
+==5288== Copyright (C) 2000-2002, and GNU GPL'd, by Julian Seward.
+==5288== 
+==5288== My PID = 5288, parent PID = 1645.  Prog and args are:
+==5288==    ../src/dystopia
+==5288== 
+==5288== Startup, with flags:
+==5288==    --suppressions=/usr/local/lib/valgrind/default.supp
+==5288==    --logfile=logf.txt
+==5288==    --leak-check=yes
+==5288==    --show-reachable=yes
+==5288==    -v
+==5288== Reading suppressions file: /usr/local/lib/valgrind/default.supp
+==5288== Estimated CPU clock rate is 1623 MHz
+==5288== 
+==5288== 
+==5288== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==5288== malloc/free: in use at exit: 11932437 bytes in 565 blocks.
+==5288== malloc/free: 736 allocs, 171 frees, 11977665 bytes allocated.
+==5288== 
+==5288== searching for pointers to 565 not-freed blocks.
+==5288== checked 26675464 bytes.
+==5288== Reading syms from /usr/users/mud/jankypoo/dystopia/src/dystopia
+==5288== Reading syms from /lib/ld-2.2.5.so
+==5288==    object doesn't have any debug info
+==5288== Reading syms from /usr/local/lib/valgrind/vgskin_addrcheck.so
+==5288== Reading syms from /usr/local/lib/valgrind/valgrind.so
+==5288== Reading syms from /lib/libcrypt-2.2.5.so
+==5288==    object doesn't have any debug info
+==5288== Reading syms from /lib/libnss_files-2.2.5.so
+==5288==    object doesn't have any debug info
+==5288== Reading syms from /lib/libnss_dns-2.2.5.so
+==5288==    object doesn't have any debug info
+==5288== Reading syms from /lib/libresolv-2.2.5.so
+==5288==    object doesn't have any debug info
+==5288== Reading syms from /lib/i686/libc-2.2.5.so
+==5288==    object doesn't have any debug info
+==5288== 
+==5288== 12 bytes in 1 blocks are still reachable in loss record 1 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x4000A34D: _dl_map_object_deps_internal (in /lib/ld-2.2.5.so)
+==5288==    by 0x4211239B: dl_open_worker (in /lib/i686/libc-2.2.5.so)
+==5288==    by 0x4000B4B2: _dl_catch_error_internal (in /lib/ld-2.2.5.so)
+==5288== 
+==5288== 64 bytes in 2 blocks are still reachable in loss record 2 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x4000A3FD: _dl_map_object_deps_internal (in /lib/ld-2.2.5.so)
+==5288==    by 0x4211239B: dl_open_worker (in /lib/i686/libc-2.2.5.so)
+==5288==    by 0x4000B4B2: _dl_catch_error_internal (in /lib/ld-2.2.5.so)
+==5288== 
+==5288== 64 bytes in 3 blocks are still reachable in loss record 3 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x40008C2B: _dl_new_object (in /lib/ld-2.2.5.so)
+==5288==    by 0x400049EE: _dl_map_object_from_fd (in /lib/ld-2.2.5.so)
+==5288==    by 0x40005DB6: _dl_map_object_internal (in /lib/ld-2.2.5.so)
+==5288== 
+==5288== 64 bytes in 3 blocks are still reachable in loss record 4 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x40006077: _dl_map_object_internal (in /lib/ld-2.2.5.so)
+==5288==    by 0x421122F7: dl_open_worker (in /lib/i686/libc-2.2.5.so)
+==5288==    by 0x4000B4B2: _dl_catch_error_internal (in /lib/ld-2.2.5.so)
+==5288== 
+==5288== 84 bytes in 3 blocks are still reachable in loss record 5 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x41925BD9: __res_nsend (in /lib/libresolv-2.2.5.so)
+==5288==    by 0x41924B16: __res_nquery (in /lib/libresolv-2.2.5.so)
+==5288==    by 0x4191B1E7: _nss_dns_gethostbyaddr_r (in /lib/libnss_dns-2.2.5.so)
+==5288== 
+==5288== 88 bytes in 1 blocks are still reachable in loss record 6 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x813A0E3: load_hint_table (jason.c:3240)
+==5288==    by 0x80EC08F: boot_db (db.c:504)
+==5288==    by 0x80C9C6E: main (comm.c:484)
+==5288== 
+==5288== 364 bytes in 1 blocks are still reachable in loss record 7 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x4206BC60: _IO_fopen@@GLIBC_2.1 (in /lib/i686/libc-2.2.5.so)
+==5288==    by 0x81961C1: save_char_obj_finger (save.c:214)
+==5288==    by 0x81959AD: save_char_obj (save.c:110)
+==5288== 
+==5288== 416 bytes in 3 blocks are still reachable in loss record 8 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x4000C78B: _dl_check_map_versions_internal (in /lib/ld-2.2.5.so)
+==5288==    by 0x421126BF: dl_open_worker (in /lib/i686/libc-2.2.5.so)
+==5288==    by 0x4000B4B2: _dl_catch_error_internal (in /lib/ld-2.2.5.so)
+==5288== 
+==5288== 1584 bytes in 1 blocks are still reachable in loss record 9 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x80B3D6D: load_changes (changes.c:103)
+==5288==    by 0x80EBFFC: boot_db (db.c:490)
+==5288==    by 0x80C9C6E: main (comm.c:484)
+==5288== 
+==5288== 1657 bytes in 3 blocks are still reachable in loss record 10 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x40008A0B: _dl_new_object (in /lib/ld-2.2.5.so)
+==5288==    by 0x400049EE: _dl_map_object_from_fd (in /lib/ld-2.2.5.so)
+==5288==    by 0x40005DB6: _dl_map_object_internal (in /lib/ld-2.2.5.so)
+==5288== 
+==5288== 2000 bytes in 1 blocks are still reachable in loss record 11 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x80CA7C6: init_descriptor (comm.c:1065)
+==5288==    by 0x80CA913: new_descriptor (comm.c:1115)
+==5288==    by 0x80CA123: game_loop_unix (comm.c:858)
+==5288== 
+==5288== 3200 bytes in 1 blocks are still reachable in loss record 12 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x8066ADF: sort_commands (act_info.c:4910)
+==5288==    by 0x8132683: load_jason (jason.c:151)
+==5288==    by 0x80C9C80: main (comm.c:492)
+==5288== 
+==5288== 8416 bytes in 1 blocks are still reachable in loss record 13 of 16
+==5288==    at 0x4014E4A8: malloc (vg_clientfuncs.c:103)
+==5288==    by 0x81D5843: load_social_table (social-edit.c:74)
+==5288==    by 0x80EC07A: boot_db (db.c:502)
+==5288==    by 0x80C9C6E: main (comm.c:484)
+==5288== 
+==5288== 11160 bytes in 465 blocks are still reachable in loss record 14 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x80EC78E: load_helps (db.c:761)
+==5288==    by 0x80EBCE1: boot_db (db.c:432)
+==5288==    by 0x80C9C6E: main (comm.c:484)
+==5288== 
+==5288== 2072864 bytes in 1 blocks are still reachable in loss record 15 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x80EB70E: boot_db (db.c:293)
+==5288==    by 0x80C9C6E: main (comm.c:484)
+==5288==    by 0x42017588: __libc_start_main (in /lib/i686/libc-2.2.5.so)
+==5288== 
+==5288== 9830400 bytes in 75 blocks are still reachable in loss record 16 of 16
+==5288==    at 0x4014E973: calloc (vg_clientfuncs.c:245)
+==5288==    by 0x80F20C8: alloc_perm (db.c:3317)
+==5288==    by 0x80F1F53: alloc_mem (db.c:3254)
+==5288==    by 0x80F219C: str_dup (db.c:3353)
+==5288== 
+==5288== LEAK SUMMARY:
+==5288==    definitely lost: 0 bytes in 0 blocks.
+==5288==    possibly lost:   0 bytes in 0 blocks.
+==5288==    still reachable: 11932437 bytes in 565 blocks.
+==5288==         suppressed: 0 bytes in 0 blocks.
+==5288== 
+--5288--     TT/TC: 0 tc sectors discarded.
+--5288--            9129 chainings, 0 unchainings.
+--5288-- translate: new     11535 (204109 -> 1392335; ratio 68:10)
+--5288--            discard 0 (0 -> 0; ratio 0:10).
+--5288--  dispatch: 82150000 jumps (bb entries), of which 14149408 (17%) were unchained.
+--5288--            3110/24521 major/minor sched events.  17727 tt_fast misses.
+--5288-- reg-alloc: 48 t-req-spill, 255752+218 orig+spill uis, 27417 total-reg-r.
+--5288--    sanity: 2378 cheap, 96 expensive checks.
+--5288--    ccalls: 53448 C calls, 59% saves+restores avoided (188630 bytes)
+--5288--            53503 args, avg 0.57 setup instrs each (45134 bytes)
+--5288--            0% clear the stack (160344 bytes)
+--5288--            0 retvals, 100% of reg-reg movs avoided (0 bytes)

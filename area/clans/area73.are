@@ -1,0 +1,62 @@
+#AREADATA
+Name        New area~
+Builders    None~
+VNUMs       54300 54349
+Security    1
+Recall      41001
+Age         0
+End
+
+
+
+#CLANDATA
+Name           testing~
+Type           0
+Title          testing~
+Info           (null)~
+Ext_Sec        5
+Int_Sec        5
+Bank            0
+Appfee          0
+#MEMBER
+Name           Snard~
+Title          Leader~
+Bank            0
+Flags 447~
+End
+
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

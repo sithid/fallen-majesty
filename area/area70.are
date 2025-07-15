@@ -1,0 +1,2140 @@
+#AREADATA
+Name        Pokemon~
+Builders    Mysticals~
+VNUMs       89000 89999
+Security    1
+Recall      3005
+Age         10
+End
+
+
+
+#MOBILES
+#89000
+pichu~
+#7A #0P#Gi#yc#Gh#0u#n~
+#7A #0P#Gi#yc#Gh#0u #7is bouncing off the walls.#n
+~
+~
+19
+0 0 S
+32 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89001
+pikachu~
+#7A #yPi#0kac#yhu#n~
+#7A #yPi#0kac#yhu #7is bouncing around.#n
+~
+~
+19
+0 0 S
+53 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89002
+raichu~
+#7A #GRa#0ic#Ghu#n~
+#7A #GRa#0ic#Ghu #7is hopping about.#n
+~
+~
+19
+0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89003
+igglybuff~
+#7An #Pigglybuff#n~
+#7An #Pigglybuff #7is standing here.#n
+~
+~
+19
+0 0 S
+27 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89004
+jigglypuff~
+#7A #PJigglypuff#n~
+#7A #PJigglypuff #7is bouncing around.#n
+~
+~
+19
+0 0 S
+15 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89005
+wigglytuff~
+#7A #PWigglytuff#n~
+#7A #PWigglytuff #7is standing here.#n
+~
+~
+19
+0 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89006
+zubat~
+#7A #0Crobat#n~
+#7A #0Crobat #7is flapping around.#n
+~
+~
+19
+0 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89007
+golbat~
+#7A #0Golbat#n~
+#7A #0Golbat #7is flying around.#n
+~
+~
+19
+0 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89008
+crobat~
+#7A #0Crobat#n~
+#7A #0Crobat #7is flying around.#n
+~
+~
+19
+0 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89009
+cleffa~
+#7A #LCleffa#n~
+#7A #LCleffa #7is hopping about.#n
+~
+~
+19
+0 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89010
+clefairy~
+#7A #LClefairy#n~
+#7A #LClefairy #7is hopping about.#n
+~
+~
+19
+0 0 S
+91 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89011
+clefable~
+#7A #LClefable#n~
+#7A #LClefable #7is hopping about.#n
+~
+~
+19
+0 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89012
+squirtle~
+#7A #gSq#Luirt#gle#n~
+#7A #gSq#Luirt#gle #7is walking around.#n
+~
+~
+19
+0 0 S
+51 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89013
+wartortle~
+#7A #gWa#Lrtort#gle#n~
+#7A #gWa#Lrtort#gle #7is standing here.#n
+~
+~
+19
+0 0 S
+14 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89014
+blastoise~
+#7A #gBl#Lastoi#gse#n~
+#7A #gBl#Lastoi#gse #7is standing here.#n
+~
+~
+19
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89015
+Abra~
+#7An #GAbra#n~
+#7An #GAbra #7is meditating here.#n
+~
+~
+3
+0 0 S
+14 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89016
+Kadabra~
+#7A #GKadabra#n~
+#7A #GKadabra #7is meditating here.#n
+~
+~
+3
+0 0 S
+12 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89017
+Alakazam~
+#7An #GAlakazam#n~
+#7An #GAlakazam #7is meditating here.#n
+~
+~
+3
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89018
+Bellsprout~
+#7A #gBellsprout#n~
+#7A #gBellsprout #7is rooted here.#n
+~
+~
+3
+0 0 S
+11 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89019
+Weepinbell~
+#7A #gWeepinbell#n~
+#7A #gWeepinbell #7is rooted here.#n
+~
+~
+3
+0 0 S
+26 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89020
+Victreebel~
+#7A #gVictreebel#n~
+#7A #gVictreebel #7is rooted here.#n
+~
+~
+3
+0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89021
+Caterpie~
+#7A #gCaterpie#n~
+#7A #gCaterpie #7is squirming about.#n
+~
+~
+3
+0 0 S
+56 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89022
+Metapod~
+#7A #gMetapod#n~
+#7A #gMetapod #7is squirming about.#n
+~
+~
+3
+0 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89023
+Butterfree~
+#7A #LButterfree#n~
+#7A #LButterfree #7is flittering about.#n
+~
+~
+3
+0 0 S
+31 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89024
+Charmander~
+#7A #RCharmander#n~
+#7A #RCharmander #7is standing here.#n
+~
+~
+3
+0 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89025
+Charmeleon~
+#7A #RCharmeleon#n~
+#7A #RCharmeleon #7is standing here.#n
+~
+~
+3
+0 0 S
+33 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89026
+Charizard~
+#7A #RCharizard#n~
+#7A #RCharizard #7is standing here.#n
+~
+~
+3
+0 0 S
+22 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89027
+Geodude~
+#7A Geodude#n~
+#7A Geodude #7is here.#n
+~
+~
+3
+0 0 S
+34 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89028
+Gravler~
+#7A Gravler#n~
+#7A Gravler #7is here.#n
+~
+~
+3
+0 0 S
+23 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89029
+Golem~
+#7A Golem#n~
+#7A Golem is here.#n
+~
+~
+3
+0 0 S
+101 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89030
+bulbasaur~
+#7A #gBulbasaur#n~
+#7A #gBulbasaur #7is standing here.#n
+~
+~
+1
+0 0 S
+77 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89031
+ivysaur~
+#7A #gIvysaur#n~
+#7A #gIvysaur #7is standing here.#n
+~
+~
+1
+0 0 S
+13 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89032
+venusaur~
+#7A #gVenusaur#n~
+#7A #gVenusaur #7is standing here.#n
+~
+~
+1
+0 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89033
+weedle~
+#7A #gWeedle#n~
+#7A #gWeedle #7is here.#n
+~
+~
+1
+0 0 S
+27 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89034
+kakuna~
+#7A #gKakuna #7is here.#n~
+#7A #gKakuna #7is here.#n
+~
+~
+1
+0 0 S
+62 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89035
+beedrill~
+#7A #yB#0e#ye#0d#yr#0i#yl#0l#n~
+#7A #yB#0e#ye#0d#yr#0i#yl#0l #7is buzzing around.#n
+~
+~
+1
+0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89036
+pidgey~
+#7A #oPidgey#n~
+#7A #oPidgey #7is flying around.#n
+~
+~
+1
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89037
+pidgeotto~
+#7A #oPidgeotto#n~
+#7A #oPidgeotto #7is flying around.#n
+~
+~
+1
+0 0 S
+36 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89038
+pidgeot~
+#7A #oPidgeot#n~
+#7A #oPidgeot #7is flying around.#n
+~
+~
+1
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89039
+polywag~
+#7A #LPolywag#n~
+#7A #LPolywag #7is standing around.#n
+~
+~
+1
+0 0 S
+24 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89040
+polywhirl~
+#7A #LPolywhirl#n~
+#7A #LPolywhirl #7is standing around.#n
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89041
+polywrath~
+#7A #LPolywrath#n~
+#7A #LPolywrath #7is standing around.#n
+~
+~
+1
+0 0 S
+23 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89042
+machop~
+#7A Machop#n~
+#7A Machop is flexing here.#n
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89043
+machoke~
+#7A Machoke#n~
+#7A Machoke is flexing here.#n
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89044
+machamp~
+#7A Machamp#n~
+#7A Machamp is flexing here.#n
+~
+~
+1
+0 0 S
+25 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89045
+horsea~
+#7A #LHorsea#n~
+#7A #LHorsea #7is here.#n
+~
+~
+1
+0 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89046
+seadra~
+#7A #LSeadra#n~
+#7A #LSeadra #7is here.#n
+~
+~
+1
+0 0 S
+43 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89047
+kingdra~
+#7A #LKingdra#n~
+#7A #LKingdra #7is here.#n
+~
+~
+1
+0 0 S
+27 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89048
+eevee~
+#7An #oEevee#n~
+#7An #oEevee #7is standing here.#n
+~
+~
+1
+0 0 S
+18 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89049
+jolteon~
+#7A #oJolteon#n~
+#7A #oJolteon #7is standing here.#n
+~
+~
+1
+0 0 S
+22 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89050
+flareon~
+#7A #RFla#yre#Rion#n~
+#7A #RFla#yre#Rion #7is standing here.#n
+~
+~
+1
+0 0 S
+99 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89051
+vaporeon~
+#7A #LVaporeon#n~
+#7A #LVaporeon #7is standing here.#n
+~
+~
+1
+0 0 S
+9 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89052
+umbreon~
+#7A #LUmbreon #7is standing here.#n~
+#7A #LUmbreon #7is standing here.#n
+~
+~
+1
+0 0 S
+20 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89053
+espeon~
+#7A #LEspeon#n~
+#7A #LEspeon #7is standing here.#n
+~
+~
+1
+0 0 S
+26 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89054
+dratini~
+#7A #LDratini#n~
+#7A #LDratini #7is standing here.#n
+~
+~
+1
+0 0 S
+67 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89055
+dragonair~
+#7A #LDragonair#n~
+#7A #LDragonair #7is standing here.#n
+~
+~
+1
+0 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89056
+dragonite~
+#7A #GDragonite#n~
+#7A #GDragonite #7is standing here.#n
+~
+~
+1
+0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89057
+chikorita~
+#7A #gChikorita #7is standing here.#n~
+#7A #gChikorita #7is standing here.#n
+~
+~
+1
+0 0 S
+51 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89058
+bayleef~
+#7A #gBayleef#n~
+#7A #gBayleef #7is standing here.#n
+~
+~
+1
+0 0 S
+37 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89059
+meganium~
+#7A #GMag#Ran#Gium#n~
+#7A #GMag#Ran#Gium #7is standing here.#n
+~
+~
+1
+0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89060
+cyndaquil~
+#7A #GCy#Rndaqu#Gil#n~
+#7A #GCy#Rndaqu#Gil #7is standing here.#n
+~
+~
+1
+0 0 S
+23 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89061
+quilava~
+#7A #GQu#Rila#Gva#n~
+#7A #GQu#Rila#Gva #7is standing here.#n
+~
+~
+1
+0 0 S
+76 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89062
+typhlosion~
+#7A #RTyp#Ghlos#Rion#n~
+#7A #RTyp#Ghlos#Rion #7is standing here.#n
+~
+~
+1
+0 0 S
+19 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89063
+totodile~
+#7A #LTotodile#n~
+#7A #LTotodile #7is standing here.#n
+~
+~
+1
+0 0 S
+13 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89064
+croconaw~
+#7A #LCroconaw#n~
+#7A #LCroconaw #7is standing here.#n
+~
+~
+1
+0 0 S
+32 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89065
+feraligatr~
+#7A #LFeraligatr#n~
+#7A #LFeraligatr #7is standing here.#n
+~
+~
+1
+0 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89066
+Ratatta~
+#7A #lRatatta#n~
+#7A #lRatatta #7is standing here.#n
+~
+~
+3
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89067
+Raticate~
+#7A #lRaticate#n~
+#7A #lRaticate #7is standing here.#n
+~
+~
+3
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89068
+Spearow~
+#7A #RSp#oear#Row#n~
+#7A #RSp#oear#Row #7is flying around.#n
+~
+~
+3
+0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89069
+Fearow~
+#7A #oFearow#n~
+#7A #oFearow #7is flying around.#n
+~
+~
+3
+0 0 S
+11 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89070
+Vulpux~
+#7A #RVulpix#n~
+#7A #RVulpix #7is standing here.#n
+~
+~
+3
+0 0 S
+47 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89071
+Ninetails~
+#7A #RNinetails#n~
+#7A #RNinetails #7is standing here.#n
+~
+~
+3
+0 0 S
+52 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89072
+oddish~
+#7An #gOd#pdi#gsh#n~
+#7An #gOd#pdi#gsh #7is standing here.#n
+~
+~
+3
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89073
+Vileplume~
+#7A #PVi#Rlep#Plu#Rme#n~
+#7A #PVi#Rlep#Plu#Rme #7is standing here.#n
+~
+~
+3
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89074
+gloom~
+#7A #PGl#Ro#Po#Rm#n~
+#7A #PGl#Ro#Po#Rm #7is standing here.#n
+~
+~
+3
+0 0 S
+17 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89075
+paras~
+#7A #RParas#n~
+#7A #RParas #7is standing here.#n
+~
+~
+3
+0 0 S
+26 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89076
+parasect~
+#7A #RParasect#n~
+#7A #RParasect #7is standing here.#n
+~
+~
+3
+0 0 S
+60 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89077
+Venonat~
+#7A #pVenonat#n~
+#7A #pVenonat #7is standing here.#n
+~
+~
+3
+0 0 S
+25 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89078
+Venomoth~
+#7A #PVenomoth#n~
+#7A #PVenomoth #7is flying here.#n
+~
+~
+3
+0 0 S
+31 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89079
+diglette~
+#7A #oDiglette#n~
+#7A #oDiglette #7is here.#n
+~
+~
+3
+0 0 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89080
+dugtrio~
+#7A #oDugtrio#n~
+#7A #oDugtrio #7is here.#n
+~
+~
+3
+0 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89081
+meowth~
+#7A #8Meowth#n~
+#7A #8Meowth #7is standing here.#n
+~
+~
+3
+0 0 S
+11 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89082
+Persian~
+#7A #8Persian#n~
+#7A #8Persian #7is standing here.#n
+~
+~
+3
+0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89083
+Psyduck~
+#7A #GPsyduck#n~
+#7A #GPsyduck #7is standing here.#n
+~
+~
+3
+0 0 S
+74 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89084
+Golduck~
+#7A #LGolduck#n~
+#7A #LGolduck #7is standing here.#n
+~
+~
+3
+0 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89085
+mankey~
+#7A #oMankey#n~
+#7A #oMankey #7is standing here.#n
+~
+~
+3
+0 0 S
+70 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89086
+primeape~
+#7A #oPrimeape#n~
+#7A #oPrimeape #7is standing here.#n
+~
+~
+3
+0 0 S
+19 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89087
+Tentacool~
+#7A #LTentacool#n~
+#7A #LTentacool #7is standing here.#n
+~
+~
+3
+0 0 S
+9 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89088
+Tentacruel~
+#7A #LTentacruel#n~
+#7A #LTentacruel #7is here.#n
+~
+~
+3
+0 0 S
+12 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89089
+ponyta~
+#7A #8P#yo#Rny#yt#8a#n~
+#7A #8P#yo#Rny#yt#8a #7is standing here.#n
+~
+~
+3
+0 0 S
+49 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89090
+Rapidash~
+#7A #8Ra#yp#Rid#ya#8sh#n~
+#7A #8Ra#yp#Rid#ya#8sh #7is standing here.#n
+~
+~
+3
+0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89091
+slowpoke~
+#7A #PSlowpoke#n~
+#7A #PSlowpoke #7is standing here.#n
+~
+~
+3
+0 0 S
+42 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89092
+slowbro~
+#7A #PSlowbro#n~
+#7A #PSlowbro #7is standing here.#n
+~
+~
+3
+0 0 S
+32 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89093
+seel~
+#7A #8Seel#n~
+#7A #8Seel #7is standing here.#n
+~
+~
+3
+0 0 S
+26 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89094
+dewgong~
+#7A #8Dewgong#n~
+#7A #8Dewgong #7is standing here.#n
+~
+~
+3
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89095
+grimer~
+#7A #0Grimer#n~
+#7A #0Grimer #7is standing here.#n
+~
+~
+3
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89096
+muk~
+#7A #0Muk#n~
+#7A #0Muk #7is standing here.#n
+~
+~
+3
+0 0 S
+45 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89097
+Drowzee~
+#7A #oDrow#Gzee#n~
+#7A #oDrow#Gzee #7is standing here.#n
+~
+~
+3
+0 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89098
+hypno~
+#7A #yHypno#n~
+#7A #yHypno #7is standing here.#n
+~
+~
+3
+0 0 S
+40 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89099
+Krabby~
+#7A #RKrabby#n~
+#7A #RKrabby #7is standing here.#n
+~
+~
+3
+0 0 S
+28 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89100
+kingler~
+#7A #RKingler#n~
+#7A #RKingler #7is standing here.#n
+~
+~
+3
+0 0 S
+23 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89101
+electrode~
+#7An #8Elec#Rtrode#n~
+#7An #8Elec#Rtrode #7is floating here.#n
+~
+~
+1
+0 0 S
+18 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89102
+voltorb~
+voltorb~
+#7A #RVolt#8orb #7is floating here.#n
+~
+~
+1
+0 0 S
+23 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89103
+Cubone~
+#7A #8Cub#oone#n~
+#7A #8Cub#oone #7is standing here.#n
+~
+~
+1
+0 0 S
+46 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89104
+Marowak~
+#7A #8Maro#owak#n~
+#7A #8Maro#owak #7is standing here.#n
+~
+~
+1
+0 0 S
+7 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89105
+hitmonlee~
+#7A #PHitmonlee#n~
+#7A #PHitmonlee #7is standing here.#n
+~
+~
+1
+0 0 S
+23 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89106
+Hitmonchan~
+#7A #PHitmonchan#n~
+#7A #PHitmonchan #7is standing here.#n
+~
+~
+1
+0 0 S
+49 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89107
+koffing~
+#7A #pKoffing#n~
+#7A #pKoffing #7is floating here.#n
+~
+~
+1
+0 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89108
+weezing~
+#7A #pWeezing#n~
+#7A #pWeezing #7is floating here.#n
+~
+~
+1
+0 0 S
+56 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89109
+goldeen~
+#7A #RGol#Pde#8en#n~
+#7A #RGol#Pde#8en #7is here.#n
+~
+~
+3
+0 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89110
+seaking~
+#7A #0Sea#Rki#8ng#n~
+#7A #0Sea#Rki#8ng #7is here.#n
+~
+~
+1
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89111
+Staryu~
+#7A #LStaryu#n~
+#7A #LStaryu #7is here.#n
+~
+~
+1
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89112
+Starmie~
+#7A #LStarmie#n~
+#7A #LStarmie #7is here.#n
+~
+~
+1
+0 0 S
+77 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89113
+Mr Mime~
+#PM#Rr. #8M#Pi#Rm#8e#n~
+#PM#Rr. #8M#Pi#Rm#8e #7is standing here.#n
+~
+~
+1
+0 0 S
+38 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89114
+Scyther~
+#7A #GScyther#n~
+#7A #GScyther #7is standing here.#n
+~
+~
+1
+0 0 S
+34 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89115
+Electabuzz~
+#7An #0El#yec#0ta#ybu#0zz#n~
+#7An #0El#yec#0ta#ybu#0zz #7is standing here.#n
+~
+~
+1
+0 0 S
+21 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89116
+magmar~
+#7A #RMa#ygm#Rar#n~
+#7A #RMa#ygm#Rar #7is standing here.#n
+~
+~
+1
+0 0 S
+119 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89117
+magikarp~
+#7A #RMagicarp#n~
+#7A #RMagicarp #7is here.#n
+~
+~
+1
+0 0 S
+32 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89118
+gyarados~
+#7A #LGyarados#n~
+#7A #LGyarados #7is here.#n
+~
+~
+1
+0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89119
+Zapados~
+#7A #yZa#0pd#yos#0e#n~
+#7A #yZa#0pd#yos#0e #7is flying here.#n
+~
+~
+1
+0 0 S
+52 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#89120
+Articuno~
+#7An #LArticuno#n~
+#7An #LArticuno #7is flying here.#n
+~
+~
+1
+0 0 S
+116 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#89000
+No Name (YOU should not be here!)~
+~
+0 4 0
+S
+#89001
+#RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+As you walk away from Midgaard you come across a small
+little gym engulfed by those damn little things....
+ITS A POKEMON KILLING SPREE GALORE!!!!
+~
+0 4 0
+D3
+~
+~
+39 0 89002
+S
+#89002
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D3
+~
+~
+32773 0 89003
+S
+#89003
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+32773 0 89002
+D3
+~
+~
+0 0 89004
+S
+#89004
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+0 0 89003
+D3
+~
+~
+0 0 89005
+S
+#89005
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+0 0 89004
+D3
+~
+~
+0 0 89006
+S
+#89006
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+0 0 89005
+D3
+~
+~
+0 0 89907
+S
+#89007
+~
+~
+0 4 0
+S
+#89009
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+0 0 89908
+D3
+~
+~
+32773 0 89010
+S
+#89010
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D0
+~
+~
+5 0 89011
+D1
+~
+~
+32773 0 89009
+S
+#89011
+#sWest #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89012
+D1
+~
+~
+0 0 89040
+D2
+~
+~
+5 0 89010
+S
+#89012
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89013
+D2
+~
+~
+0 0 89011
+S
+#89013
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89014
+D2
+~
+~
+0 0 89012
+S
+#89014
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89015
+D2
+~
+~
+0 0 89013
+S
+#89015
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+5 0 89016
+D2
+~
+~
+0 0 89014
+S
+#89016
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89017
+D2
+~
+~
+5 0 89015
+S
+#89017
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89018
+D2
+~
+~
+0 0 89016
+S
+#89018
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+5 0 89019
+D2
+~
+~
+0 0 89017
+S
+#89019
+#sWest #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89020
+D2
+~
+~
+5 0 89018
+S
+#89020
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89021
+D3
+~
+~
+0 0 89019
+S
+#89021
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+5 0 89022
+D3
+~
+~
+0 0 89020
+S
+#89022
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89023
+D3
+~
+~
+5 0 89021
+S
+#89023
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89024
+D3
+~
+~
+0 0 89022
+S
+#89024
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+5 0 89025
+D3
+~
+~
+0 0 89023
+S
+#89025
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89026
+D3
+~
+~
+5 0 89024
+S
+#89026
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+5 0 89027
+D3
+~
+~
+0 0 89025
+S
+#89027
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+5 0 89028
+D3
+~
+~
+5 0 89026
+S
+#89028
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89029
+D3
+~
+~
+5 0 89027
+S
+#89029
+#sNorth #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 0
+D2
+~
+~
+0 0 89030
+D3
+~
+~
+0 0 89028
+S
+#89030
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89029
+D2
+~
+~
+0 0 89031
+S
+#89031
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89030
+D2
+~
+~
+0 0 89032
+S
+#89032
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89031
+D2
+~
+~
+0 0 89033
+S
+#89033
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89032
+D2
+~
+~
+0 0 89034
+S
+#89034
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89033
+D2
+~
+~
+0 0 89035
+S
+#89035
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89034
+D2
+~
+~
+0 0 89036
+S
+#89036
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89035
+D2
+~
+~
+0 0 89037
+S
+#89037
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89036
+D2
+~
+~
+0 0 89038
+S
+#89038
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89037
+D2
+~
+~
+0 0 89039
+S
+#89039
+#sEast #sWall #0of the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D0
+~
+~
+0 0 89038
+S
+#89040
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89041
+D3
+~
+~
+0 0 89011
+S
+#89041
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89042
+D3
+~
+~
+0 0 89040
+S
+#89042
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89043
+D3
+~
+~
+0 0 89041
+S
+#89043
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89044
+D3
+~
+~
+0 0 89042
+S
+#89044
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89045
+D3
+~
+~
+0 0 89043
+S
+#89045
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89046
+D3
+~
+~
+0 0 89044
+S
+#89046
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89047
+D3
+~
+~
+0 0 89045
+S
+#89047
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89048
+D3
+~
+~
+0 0 89046
+S
+#89048
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D1
+~
+~
+0 0 89049
+D3
+~
+~
+0 0 89047
+S
+#89049
+#sInside #0the #RPo#rke#7mo#8n E#7co#rg#Rym#n~
+~
+0 4 0
+D3
+~
+~
+0 0 89048
+S
+#89050
+~
+~
+0 4 0
+S
+#89907
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+0 0 89006
+D3
+~
+~
+32773 0 89908
+S
+#89908
+#sSouth #sWall#0 of the #RPo#rke#7mo#8n #8E#7co#rg#Rym#n~
+~
+0 0 0
+D1
+~
+~
+32773 0 89907
+D3
+~
+~
+0 0 89009
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 89000 7 89002
+M 0 89001 7 89002
+M 0 89002 7 89002
+M 0 89005 7 89003
+M 0 89004 7 89003
+M 0 89003 7 89003
+M 0 89008 7 89004
+M 0 89007 7 89004
+M 0 89006 7 89004
+M 0 89011 7 89005
+M 0 89010 7 89005
+M 0 89009 7 89005
+M 0 89014 7 89006
+M 0 89013 7 89006
+M 0 89012 7 89006
+M 0 89023 7 89009
+M 0 89022 7 89009
+M 0 89021 7 89009
+M 0 89026 7 89010
+M 0 89025 7 89010
+M 0 89024 7 89010
+M 0 89029 7 89011
+M 0 89028 7 89011
+M 0 89027 7 89011
+M 0 89032 7 89012
+M 0 89031 7 89012
+M 0 89030 7 89012
+M 0 89067 10 89013
+M 0 89066 10 89013
+M 0 89065 7 89013
+M 0 89064 7 89013
+M 0 89063 7 89013
+M 0 89069 10 89014
+M 0 89068 10 89014
+M 0 89071 10 89015
+M 0 89070 10 89015
+M 0 89073 7 89016
+M 0 89074 7 89016
+M 0 89072 7 89016
+M 0 89076 10 89017
+M 0 89075 10 89017
+M 0 89078 10 89018
+M 0 89077 10 89018
+M 0 89080 10 89019
+M 0 89079 10 89019
+M 0 89082 10 89020
+M 0 89081 10 89020
+M 0 89084 10 89021
+M 0 89083 10 89021
+M 0 89086 10 89022
+M 0 89085 10 89022
+M 0 89088 10 89023
+M 0 89087 10 89023
+M 0 89090 10 89024
+M 0 89089 10 89024
+M 0 89092 10 89025
+M 0 89091 10 89025
+M 0 89094 10 89026
+M 0 89093 10 89026
+M 0 89096 10 89027
+M 0 89095 10 89027
+M 0 89098 20 89028
+M 0 89097 20 89028
+M 0 89100 10 89029
+M 0 89099 10 89029
+M 0 89101 10 89030
+M 0 89102 10 89030
+M 0 89104 10 89031
+M 0 89103 10 89031
+M 0 89106 10 89032
+M 0 89105 10 89032
+M 0 89108 10 89033
+M 0 89107 10 89033
+M 0 89110 10 89034
+M 0 89109 10 89034
+M 0 89112 10 89035
+M 0 89111 10 89035
+M 0 89114 10 89036
+M 0 89113 10 89036
+M 0 89116 10 89037
+M 0 89115 10 89037
+M 0 89118 10 89038
+M 0 89117 10 89038
+M 0 89120 15 89039
+M 0 89119 15 89039
+M 0 89035 7 89040
+M 0 89034 7 89040
+M 0 89033 7 89040
+M 0 89038 7 89041
+M 0 89037 7 89041
+M 0 89036 7 89041
+M 0 89041 7 89042
+M 0 89040 7 89042
+M 0 89039 7 89042
+M 0 89044 7 89043
+M 0 89043 7 89043
+M 0 89042 7 89043
+M 0 89047 7 89044
+M 0 89046 7 89044
+M 0 89045 7 89044
+M 0 89051 7 89045
+M 0 89050 7 89045
+M 0 89049 7 89045
+M 0 89048 7 89045
+M 0 89053 7 89046
+M 0 89052 7 89046
+M 0 89056 7 89047
+M 0 89055 7 89047
+M 0 89054 7 89047
+M 0 89059 7 89048
+M 0 89058 7 89048
+M 0 89057 7 89048
+M 0 89061 10 89049
+M 0 89060 10 89049
+M 0 89017 7 89907
+M 0 89016 7 89907
+M 0 89015 7 89907
+M 0 89020 7 89908
+M 0 89019 7 89908
+M 0 89018 7 89908
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

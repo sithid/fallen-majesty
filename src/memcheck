@@ -1,0 +1,12 @@
+#!/bin/csh -f
+set port = 2002
+set logfile = ../src/valgrind.txt
+
+nice
+limit coredumpsize 8128k
+limit filesize 16256k
+
+cd ../area
+#valgrind -v --tool=memcheck --leak-check=yes --show-reachable=yes --db-attach=yes --num-callers=10 --track-fds=yes ../src/dystopia $port >&! $logfile &
+valgrind --leak-check=full ../src/dystopia $port >&! $logfile &
+

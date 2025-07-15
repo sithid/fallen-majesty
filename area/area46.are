@@ -1,0 +1,513 @@
+#AREADATA
+Name        NJ781 AFJROTC~
+Builders    Huw~
+VNUMs       52100 52199
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#52100
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52101
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52102
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+17 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52103
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+15 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52104
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52105
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52106
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52107
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+12 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52108
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+34 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52109
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52110
+Cadet~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+17 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#52100
+Small Concealed Button~
+#0A small piece of wood sticks out of the ground#n.~
+#0A small piece of wood sticks out of the ground#n.~
+~
+59 0 0
+41000 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52101
+Small Concealed Button~
+#0A small piece of wood sticks out of the ground#n.~
+#0A small piece of wood sticks out of the ground#n.~
+~
+59 0 0
+41000 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52102
+Small Concealed Button~
+#0A small piece of wood sticks out of the ground#n.~
+#0A small piece of wood sticks out of the ground#n.~
+~
+59 0 0
+41000 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52103
+Small Concealed Button~
+#0A small piece of wood sticks out of the ground#n.~
+#0A small piece of wood sticks out of the ground#n.~
+~
+59 0 0
+52121 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#52100
+#0Area #R53#0 Secret Base Lobby#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52101
+D1
+~
+~
+0 0 52102
+D2
+~
+~
+0 0 52104
+D3
+~
+~
+0 0 52105
+S
+#52101
+#0Area #R53#0 Secret Base Lobby#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52103
+D2
+~
+~
+0 0 52100
+D3
+~
+~
+0 0 52106
+S
+#52102
+#0Area #R53#0 Secret Base Lobby#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52103
+D2
+~
+~
+0 0 52112
+D3
+~
+~
+0 0 52100
+S
+#52103
+#0Area #R53#0 Secret Base Lobby#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52110
+D2
+~
+~
+0 0 52102
+D3
+~
+~
+0 0 52101
+S
+#52104
+#GO#Lrdinary #LB#Gathroom~
+~
+0 0 0
+D0
+~
+~
+0 0 52100
+S
+#52105
+#0Area #R53#0 Secret Base Lobby#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52106
+D1
+~
+~
+0 0 52100
+D2
+~
+~
+0 0 52116
+S
+#52106
+#0Area #R53#0 Secret Base Lobby#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52101
+D2
+~
+~
+0 0 52105
+D3
+~
+~
+0 0 52107
+S
+#52107
+#0Area #R53#0 North Western Wing#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52106
+D3
+~
+~
+0 0 52108
+S
+#52108
+#0Area #R53#0 North Western Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52109
+D1
+~
+~
+0 0 52107
+S
+#52109
+#0Area #R53#0 North Western Wing Teleporter#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52108
+S
+#52110
+#0Area #R53#0 North Eastern Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52111
+D3
+~
+~
+0 0 52103
+S
+#52111
+#0Area #R53#0 North Eastern Wing Teleporter#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52110
+S
+#52112
+#0Area #R53#0 South Eastern Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52102
+D1
+~
+~
+0 0 52113
+S
+#52113
+#0Area #R53#0 South Eastern Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52114
+D3
+~
+~
+0 0 52112
+S
+#52114
+#0Area #R53#0 South Eastern Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52115
+D2
+~
+~
+0 0 52113
+S
+#52115
+#0Area #R53#0 South Eastern Wing Teleporter#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52114
+S
+#52116
+#0Area #R53#0 South Western Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52105
+D3
+~
+~
+0 0 52117
+S
+#52117
+#0Area #R53#0 South Western Wing#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52116
+D3
+~
+~
+0 0 52118
+S
+#52118
+#0Area #R53#0 South Western Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52119
+D1
+~
+~
+0 0 52117
+S
+#52119
+#0Area #R53#0 South Western Wing#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52120
+D2
+~
+~
+0 0 52118
+S
+#52120
+#0Area #R53#0 South Western Wing Teleporter#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52119
+S
+#52121
+#RW#ri#0n#rg #RC#ro#0m#rm#Ra#rn#0d#re#Rr'#rs #0O#rf#Rf#ri#0c#re#n~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

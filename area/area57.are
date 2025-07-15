@@ -1,0 +1,115 @@
+#AREADATA
+Name        Oraculum Region~
+Builders    Pookie~
+VNUMs       53400 53499
+Security    1
+Recall      41001
+Age         0
+End
+
+
+
+#MOBILES
+#53400
+Half Elf Child~
+#oH#7al#of #gE#ol#gf #GC#nhil#Gd#n~
+#cA #oH#7al#of #gE#ol#gf #GC#nhil#Gd#n plays with his wooden sword.
+~
+This child may see harmless but he can hurt those who aren't well strong.
+The child is apparently half elf and half human and retains all the good
+qualities of an elf and human.
+~
+1
+0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#53400
+Crystal Water Fountain~
+#7C#nr#Cyst#na#7l #LW#7a#nt#7e#Lr #0F#7ou#cnt#7ai#0n#n~
+#GT#gh#Ge #7C#nr#Cyst#na#7l #LW#7a#nt#7e#Lr #0F#7ou#cnt#7ai#0n#n runs here splashing water everywhere.~
+~
+17 262144 0
+100000 100000 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#53400
+#CF#co#7u#nnt#7a#ci#Cn #0S#cq#7ua#cr#0e#n~
+The first thing you notice here is the sound of water splashing into
+water.  The ground is composed of cobble stones and various citizens
+come around in their business. Old brick houses are lined in rows of
+one. This be a town where heroes are born from, because the location
+is ontop a high mountain and the air is thin. Their stamina is great
+compared those who born elsewhere. The citizens all seem to be armed
+very heavily and look quite dangerous. Although they are in nature
+they are good they can't tell who are friends nor allies. So bewary
+of the citizens of Oraculum.
+~
+0 4 0
+D0
+~
+~
+0 0 53401
+S
+#53401
+#yM#oai#yn #0S#7tree#0t#n~
+Children and Adults alike rush about this street, to the north would be
+the Main Gate which leads to the mountain.
+~
+0 4 0
+D0
+~
+~
+0 0 53402
+D2
+~
+~
+0 0 53400
+S
+#53402
+#yM#0ai#yn #0G#7at#0e#n~
+~
+0 4 0
+D2
+~
+~
+0 0 53401
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 0 53400 0 53400
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

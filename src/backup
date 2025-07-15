@@ -1,0 +1,16 @@
+#! /bin/csh -f
+# Written by Snard.
+
+if ( "$1" == "" ) exit 0
+if ( "$2" == "" ) exit 0
+if ( "$1" != "" ) set stamp="$1"
+if ( "$2" != "" ) set dir="$2"
+
+if $dir == "area" tar cvzf ../backup/area/$stamp ../area/*.are ../area/area.lst
+if $dir == "src" tar cvzf ../backup/src/$stamp ../src/*.c ../src/*.h ../src/Makefile ../src/startup
+if $dir == "player" tar cvzf ../backup/player/$stamp ../player/*
+if $dir == "all" then
+  tar cvzf ../backup/area/$stamp ../area/*.are ../area/area.lst
+  tar cvzf ../backup/src/$stamp ../src/*.c ../src/*.h ../src/Makefile ../src/startup
+  tar cvzf ../backup/player/$stamp ../player/*
+endif

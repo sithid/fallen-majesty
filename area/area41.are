@@ -1,0 +1,191 @@
+#AREADATA
+Name        New area~
+Builders    None~
+VNUMs       102000 102099
+Security    1
+Recall      3005
+End
+
+
+
+#MOBILES
+#102000
+Sarumon~
+#7Sarumon#n~
+#7The White Wizard Sarumon#n stands here, peering at you from his throne.
+~
+~
+3 4825226 -10000 S
+19031 0 0 50d10+3 0d0+0
+0 0
+0 0 0
+#102001
+urukai~
+#LUru#0-#LKai#n~
+#7A mighty #LUru#0-#LKai#7 stands here, guarding the master wizard#n
+~
+~
+11 4722698 -10000 S
+7001 0 0 20d3+2 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#102000
+#7B#0ardiel's #7R#0oom#n~
+~
+0 1057796 0
+S
+#102001
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102002
+S
+#102002
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102003
+D2
+~
+~
+0 0 102001
+S
+#102003
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102004
+D2
+~
+~
+0 0 102002
+S
+#102004
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102005
+D2
+~
+~
+0 0 102003
+S
+#102005
+#7Approaching the tower of Sarumon#n~
+~
+0 0 0
+D0
+~
+~
+3 0 102006
+D2
+~
+~
+0 0 102004
+S
+#102006
+#0The Tower of Sarumon#n~
+~
+0 0 0
+D2
+~
+~
+3 0 102005
+D4
+~
+~
+0 0 102007
+S
+#102007
+#0First Floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102008
+D5
+~
+~
+0 0 102006
+S
+#102008
+#0Second Floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102009
+D5
+~
+~
+0 0 102007
+S
+#102009
+#0The Third Floor#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102010
+D5
+~
+~
+0 0 102008
+S
+#102010
+#0The Chamber of Sarumon#n~
+~
+0 8 0
+D5
+~
+~
+0 0 102009
+S
+#0
+
+
+
+#SPECIALS
+M 102000 spec_breath_frost
+S
+
+
+
+#RESETS
+M 0 102000 1 102010
+M 0 102001 6 102010
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

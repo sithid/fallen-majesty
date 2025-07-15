@@ -1,0 +1,1777 @@
+#AREADATA
+Name        Tower of Darkness~
+Builders    Devamorn~
+VNUMs       100100 100199
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#100100
+tower guardian light~
+#7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #CLight#n ~
+#7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #CLight#n stays here waiting for its next victim.
+~
+~
+11
+8232 100000 S
+14997 0 0 20d20+3 0d0+0
+0 0
+0 0 1
+#100101
+tower guardian balance~
+#7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #GBalance#n~
+#7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #GBalance#n stays here waiting for its next victim.
+~
+~
+11
+8232 0 S
+15026 0 0 20d20+3 0d0+0
+0 0
+0 0 0
+#100102
+tower guardian darkness~
+#7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #0Darkness#n~
+#7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #0Darkness#n stays here waiting for its next victim.
+~
+~
+11
+8232 -100000 S
+15000 0 0 20d20+3 0d0+0
+0 0
+0 0 2
+#100103
+protector tower darkness guardian~
+#7The #0Guardian P#rr#Ro#0t#re#Rc#0t#ro#Rr #rof the #0Tower of Darkness#n~
+#7The #0Guardian P#rr#Ro#0t#re#Rc#0t#ro#Rr #rof the #0Tower of Darkness#n watches out for all that enter.
+~
+~
+11
+40 -1000 S
+15008 0 0 25d10+1 0d0+0
+0 0
+0 0 2
+#100104
+minio darkness~
+#RMinion #rof #0Darkness#n~
+A #RMinion #rof #0Darkness#n stands here protecting its surroundings.
+~
+~
+17
+0 -1000 S
+8994 0 0 9d9+1 0d0+0
+0 0
+0 0 0
+#100105
+unholy knight~
+#LUnholy #0Knight#n~
+A #LUnholy #0Knight#n stands here protecting its surroundings.
+~
+~
+1
+0 -1000 S
+8025 0 0 8d8+1 0d0+0
+0 0
+0 0 0
+#100106
+warlock~
+#RWar#Llock#n~
+A #RWar#Llock#n stands here protecting its surroundings.
+~
+~
+17
+0 0 S
+6999 0 0 7d7+1 0d0+0
+0 0
+0 0 1
+#100107
+witch~
+#0Witch#n~
+A #0Witch#n stands here protecting its surroundings.
+~
+~
+17
+0 0 S
+6058 0 0 6d6+1 0d0+0
+0 0
+0 0 2
+#100108
+vampire~
+#rVampire#n~
+A #rVampire#n stands here protecting its surroundings.
+~
+~
+17
+0 0 S
+5038 0 0 5d5+1 0d0+0
+0 0
+0 0 0
+#100109
+necromancer~
+#GNecromancer~
+A #GNecromancer#n stands here protecting its surroundings.
+~
+~
+17
+0 0 S
+3937 0 0 4d4+1 0d0+0
+0 0
+0 0 0
+#100110
+wraith~
+#LWraith#n~
+A #LWraith#n stands here protecting its surroundings.
+~
+~
+17
+0 0 S
+2980 0 0 3d3+1 0d0+0
+0 0
+0 0 0
+#100111
+demon~
+#RD#re#Rm#ro#Rn#n~
+A #RD#re#Rm#ro#Rn#n stands here protecting its surroundings.
+~
+~
+17
+0 -1000 S
+1961 0 0 2d2+1 0d0+0
+0 0
+0 0 0
+#100112
+gargoyle~
+#CGargoyle#n~
+A #CGargoyle#n stands here protecting its surroundings.
+~
+~
+17
+0 1000 S
+1025 0 0 1d1+1 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#100100
+visor tower guardian light~
+#7The #CV#ri#Cs#ro#Cr #7of #7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #CLight#n~
+#7The #CV#ri#Cs#ro#Cr #7of #7T#0h#ge #0Tower #GG#gu#7a#gr#0d#Gi#ga#7n#n #7of #CLight#n pulses with energy.~
+~
+9 3072 -491519
+0 0 0 21
+0 0 0
+A
+17 -1000
+A
+13 2000
+A
+12 2000
+A
+14 2000
+A
+18 300
+A
+19 300
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#100101
+visor tower guardian balance~
+#7The #LV#Ri#Ls#Ro#Lr #7of #0T#gh#7e #0Tower #GG#7u#ga#7r#0d#Gi#7a#gn #7of #GBalance#n~
+#7The #LV#Ri#Ls#Ro#Lr #7of #0T#gh#7e #0Tower #GG#7u#ga#7r#0d#Gi#7a#gn #7of #GBalance#n pulses with energy.~
+~
+9 1536 -491519
+0 0 0 21
+0 0 0
+A
+14 2000
+A
+12 2000
+A
+13 2000
+A
+17 -1000
+A
+19 300
+A
+18 300
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#100102
+visor tower guardian darkness~
+#7The #0V#ri#0s#ro#0r #7of #0T#gh#7e #0Tower #GG#7u#ga#7r#0d#Gi#7a#gn #7of #0Darkness#n~
+#7The #0V#ri#0s#ro#0r #7of #0T#gh#7e #0Tower #GG#7u#ga#7r#0d#Gi#7a#gn #7of #0Darkness#n pulses with energy.~
+~
+9 2560 -491519
+0 0 0 21
+0 0 0
+A
+14 2000
+A
+12 2000
+A
+13 2000
+A
+17 -1000
+A
+18 300
+A
+19 300
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#100103
+sword tower guardian protector~
+#7The #RS#7w#Ro#7r#Rd#7 of the #0Guardian P#rr#Ro#0t#re#Rc#0t#ro#Rr#n~
+#7The #RS#7w#Ro#7r#Rd#7 of the #0Guardian P#rr#Ro#0t#re#Rc#0t#ro#Rr#n pulsates with pure energy.~
+~
+5 257 8193
+18024 190 200 3
+0 0 0
+A
+18 250
+A
+19 250
+A
+17 -1000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#100100
+#RBefore #Lthe #0Tower of Darkness#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100101
+S
+#100101
+#RWithin #Lthe #0Gates of Darkness#n~
+~
+0 12 0
+D0
+~
+~
+0 0 100102
+D2
+~
+~
+0 0 100100
+S
+#100102
+#RSouth Wall #Lof the #s1st #rFloor #sof #0Darkness#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100106
+D1
+~
+~
+0 0 100103
+D2
+~
+~
+0 0 100101
+D3
+~
+~
+0 0 100104
+S
+#100103
+#RSoutheast Corner #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100107
+D3
+~
+~
+0 0 100102
+S
+#100104
+#RSouthwest Corner #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100105
+D1
+~
+~
+0 0 100102
+S
+#100105
+#RWest Wall #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100108
+D1
+~
+~
+0 0 100106
+D2
+~
+~
+0 0 100104
+S
+#100106
+#RCenter #Lof the #s1st #rFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100109
+D1
+~
+~
+0 0 100107
+D2
+~
+~
+0 0 100102
+D3
+~
+~
+0 0 100105
+D4
+~
+~
+0 0 100111
+S
+#100107
+#REast Wall #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100110
+D2
+~
+~
+0 0 100103
+D3
+~
+~
+0 0 100106
+S
+#100108
+#RNorthwest Corner #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100109
+D2
+~
+~
+0 0 100105
+S
+#100109
+#RNorth Wall #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100110
+D2
+~
+~
+0 0 100106
+D3
+~
+~
+0 0 100108
+S
+#100110
+#RNortheast Corner #Lof the #s1st #rFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100107
+D3
+~
+~
+0 0 100109
+S
+#100111
+#rCenter #lof the #s2nd #RFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100118
+D1
+~
+~
+0 0 100116
+D2
+~
+~
+0 0 100113
+D3
+~
+~
+0 0 100115
+D4
+~
+~
+0 0 100120
+D5
+~
+~
+0 0 100106
+S
+#100112
+#rSouthwest Corner #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100115
+D1
+~
+~
+0 0 100113
+S
+#100113
+#rSouth Wall #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100111
+D1
+~
+~
+0 0 100114
+D3
+~
+~
+0 0 100112
+S
+#100114
+#rSoutheast Corner #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100116
+D3
+~
+~
+0 0 100113
+S
+#100115
+#rWest Wall #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100117
+D1
+~
+~
+0 0 100111
+D2
+~
+~
+0 0 100112
+S
+#100116
+#rEast Wall #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100119
+D2
+~
+~
+0 0 100114
+D3
+~
+~
+0 0 100111
+S
+#100117
+#rNorthwest Corner #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100118
+D2
+~
+~
+0 0 100115
+S
+#100118
+#rNorth Wall #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100119
+D2
+~
+~
+0 0 100111
+D3
+~
+~
+0 0 100117
+S
+#100119
+#rNortheast Corner #lof the #s2nd #RFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100116
+D3
+~
+~
+0 0 100118
+S
+#100120
+#LCenter #Rof the #s3rd #lFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100127
+D1
+~
+~
+0 0 100125
+D2
+~
+~
+0 0 100122
+D3
+~
+~
+0 0 100124
+D4
+~
+~
+0 0 100129
+D5
+~
+~
+0 0 100111
+S
+#100121
+#LSouthwest Corner #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100124
+D1
+~
+~
+0 0 100122
+S
+#100122
+#LSouth Wall #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100120
+D1
+~
+~
+0 0 100123
+D3
+~
+~
+0 0 100121
+S
+#100123
+#LSoutheast Corner #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100125
+D3
+~
+~
+0 0 100122
+S
+#100124
+#LWest Wall #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100126
+D1
+~
+~
+0 0 100120
+D2
+~
+~
+0 0 100121
+S
+#100125
+#LEast Wall #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100128
+D2
+~
+~
+0 0 100123
+D3
+~
+~
+0 0 100120
+S
+#100126
+#LNorthwest Corner #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100127
+D2
+~
+~
+0 0 100124
+S
+#100127
+#LNorth Wall #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100128
+D2
+~
+~
+0 0 100120
+D3
+~
+~
+0 0 100126
+S
+#100128
+#LNortheast Corner #Rof the #s3rd #lFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100125
+D3
+~
+~
+0 0 100127
+S
+#100129
+#GCenter #Cof the #s4th #LFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100136
+D1
+~
+~
+0 0 100134
+D2
+~
+~
+0 0 100131
+D3
+~
+~
+0 0 100133
+D4
+~
+~
+0 0 100138
+D5
+~
+~
+0 0 100120
+S
+#100130
+#GSouthwest Corner #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100133
+D1
+~
+~
+0 0 100131
+S
+#100131
+#GSouth Wall #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100129
+D1
+~
+~
+0 0 100132
+D3
+~
+~
+0 0 100130
+S
+#100132
+#GSoutheast Corner #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100134
+D3
+~
+~
+0 0 100131
+S
+#100133
+#GWest Wall #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100135
+D1
+~
+~
+0 0 100129
+D2
+~
+~
+0 0 100130
+S
+#100134
+#GEast Wall #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100137
+D2
+~
+~
+0 0 100132
+D3
+~
+~
+0 0 100129
+S
+#100135
+#GNorthwest Corner #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100136
+D2
+~
+~
+0 0 100133
+S
+#100136
+#GNorth Wall #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100137
+D2
+~
+~
+0 0 100129
+D3
+~
+~
+0 0 100135
+S
+#100137
+#GNortheast Corner #Cof the #s4th #LFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100134
+D3
+~
+~
+0 0 100136
+S
+#100138
+#CCenter #Lof the #s5th #yFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100145
+D1
+~
+~
+0 0 100143
+D2
+~
+~
+0 0 100140
+D3
+~
+~
+0 0 100142
+D4
+~
+~
+0 0 100147
+D5
+~
+~
+0 0 100129
+S
+#100139
+#CSouthwest Corner #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100142
+D1
+~
+~
+0 0 100140
+S
+#100140
+#CSouth Wall #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100138
+D1
+~
+~
+0 0 100141
+D3
+~
+~
+0 0 100139
+S
+#100141
+#CSoutheast Corner #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100143
+D3
+~
+~
+0 0 100140
+S
+#100142
+#CWest Wall #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100144
+D1
+~
+~
+0 0 100138
+D2
+~
+~
+0 0 100139
+S
+#100143
+#CEast Wall #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100146
+D2
+~
+~
+0 0 100141
+D3
+~
+~
+0 0 100138
+S
+#100144
+#CNorthwest Corner #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100145
+D2
+~
+~
+0 0 100142
+S
+#100145
+#CNorth Wall #Lof the #s5th #lFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100146
+D2
+~
+~
+0 0 100138
+D3
+~
+~
+0 0 100144
+S
+#100146
+#CNortheast Corner #Lof the #s5th #yFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100143
+D3
+~
+~
+0 0 100145
+S
+#100147
+#0Center #Rof the #s6th #lFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100154
+D1
+~
+~
+0 0 100152
+D2
+~
+~
+0 0 100149
+D3
+~
+~
+0 0 100151
+D4
+~
+~
+0 0 100156
+D5
+~
+~
+0 0 100138
+S
+#100148
+#0Southwest Corner #Rof the #s6th #cFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100151
+D1
+~
+~
+0 0 100149
+S
+#100149
+#0South Wall #Rof the #s6th #lFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100147
+D1
+~
+~
+0 0 100150
+D3
+~
+~
+0 0 100148
+S
+#100150
+#0Southeast Corner #Rof the #s6th #cFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100152
+D3
+~
+~
+0 0 100149
+S
+#100151
+#0West Wall #Rof the #s6th #cFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100153
+D1
+~
+~
+0 0 100147
+D2
+~
+~
+0 0 100148
+S
+#100152
+#0East Wall #Rof the #s6th #cFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100155
+D2
+~
+~
+0 0 100150
+D3
+~
+~
+0 0 100147
+S
+#100153
+#0Northwest Corner #Rof the #s6th #cFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100154
+D2
+~
+~
+0 0 100151
+S
+#100154
+#0North Wall #Rof the #s6th #cFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100155
+D2
+~
+~
+0 0 100147
+D3
+~
+~
+0 0 100153
+S
+#100155
+#0Northeast Corner #Gof the #s6th #cFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100152
+D3
+~
+~
+0 0 100154
+S
+#100156
+#RCenter #Gof the #s7th #gFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100163
+D1
+~
+~
+0 0 100161
+D2
+~
+~
+0 0 100158
+D3
+~
+~
+0 0 100160
+D4
+~
+~
+0 0 100165
+D5
+~
+~
+0 0 100147
+S
+#100157
+#RSouthwest Corner #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100160
+D1
+~
+~
+0 0 100158
+S
+#100158
+#RSouth Wall #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100156
+D1
+~
+~
+0 0 100159
+D3
+~
+~
+0 0 100157
+S
+#100159
+#RSoutheast Corner #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100161
+D3
+~
+~
+0 0 100158
+S
+#100160
+#RWest Wall #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100162
+D1
+~
+~
+0 0 100156
+D2
+~
+~
+0 0 100157
+S
+#100161
+#REast Wall #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100164
+D2
+~
+~
+0 0 100159
+D3
+~
+~
+0 0 100156
+S
+#100162
+#RNorthwest Corner #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100163
+D2
+~
+~
+0 0 100160
+S
+#100163
+#RNorth Wall #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100164
+D2
+~
+~
+0 0 100156
+D3
+~
+~
+0 0 100162
+S
+#100164
+#RNortheast Corner #Gof the #s7th #gFloor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100161
+D3
+~
+~
+0 0 100163
+S
+#100165
+#yCenter #Pof the #s8th #rFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100172
+D1
+~
+~
+0 0 100170
+D2
+~
+~
+0 0 100167
+D3
+~
+~
+0 0 100169
+D4
+~
+~
+0 0 100174
+D5
+~
+~
+0 0 100156
+S
+#100166
+#ySouthwest Corner #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100169
+D1
+~
+~
+0 0 100167
+S
+#100167
+#ySouth Wall #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100165
+D1
+~
+~
+0 0 100168
+D3
+~
+~
+0 0 100166
+S
+#100168
+#ySoutheast Corner #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100170
+D3
+~
+~
+0 0 100167
+S
+#100169
+#yWest Wall #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100171
+D1
+~
+~
+0 0 100165
+D2
+~
+~
+0 0 100166
+S
+#100170
+#yEast Wall #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100173
+D2
+~
+~
+0 0 100168
+D3
+~
+~
+0 0 100165
+S
+#100171
+#yNorthwest Corner #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D1
+~
+~
+0 0 100172
+D2
+~
+~
+0 0 100169
+S
+#100172
+#yNorth Wall #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D1
+~
+~
+0 0 100173
+D2
+~
+~
+0 0 100165
+D3
+~
+~
+0 0 100171
+S
+#100173
+#yNortheast Corner #Pof the #s8th #rFloor#n~
+~
+0 4 0
+D2
+~
+~
+0 0 100170
+D3
+~
+~
+0 0 100172
+S
+#100174
+#PCenter #oof the #s9th #pFloor#n~
+~
+0 8413198 0
+D0
+~
+~
+0 0 100181
+D1
+~
+~
+0 0 100179
+D2
+~
+~
+0 0 100176
+D3
+~
+~
+0 0 100178
+D4
+~
+~
+0 0 100184
+D5
+~
+~
+0 0 100165
+S
+#100175
+#PSouthwest Corner #oof the #s9th #pFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100178
+D1
+~
+~
+0 0 100176
+S
+#100176
+#PSouth Wall #oof the #s9th #pFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100174
+D1
+~
+~
+0 0 100177
+D3
+~
+~
+0 0 100175
+S
+#100177
+#PSoutheast Corner #oof the #s9th #pFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100179
+D3
+~
+~
+0 0 100176
+S
+#100178
+#PWest Wall #oof the #s9th #pFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100180
+D1
+~
+~
+0 0 100174
+D2
+~
+~
+0 0 100175
+S
+#100179
+#PEast Wall #oof the #s9th #pFloor#n~
+~
+0 4 0
+D0
+~
+~
+0 0 100182
+D2
+~
+~
+0 0 100177
+D3
+~
+~
+0 0 100174
+S
+#100180
+#PNorthwest Corner #oof the #s9th #pFloor#n~
+~
+0 4 0
+D1
+~
+~
+0 0 100181
+D2
+~
+~
+0 0 100178
+S
+#100181
+#PNorth Wall #oof the #s9th #pFloor#n~
+~
+0 1073294 0
+D1
+~
+~
+0 0 100182
+D2
+~
+~
+0 0 100174
+D3
+~
+~
+0 0 100180
+S
+#100182
+#PNortheast Corner #oof the #s9th #pFloor#n~
+~
+0 4 0
+D2
+~
+~
+0 0 100179
+D3
+~
+~
+0 0 100181
+S
+#100183
+#LHolding #RRoom #Cof #7T#ghe #s1st #gG#Gu#7a#gr#0d#gi#Ga#7n#n~
+~
+0 1073294 0
+D1
+~
+~
+0 0 100184
+S
+#100184
+#LHolding #RRoom #Cof #7T#ghe #s2nd #gG#Gu#7a#gr#0d#gi#Ga#7n#n~
+~
+0 1073290 0
+D1
+~
+~
+0 0 100185
+D3
+~
+~
+0 0 100183
+D5
+~
+~
+0 0 100174
+S
+#100185
+#LHolding #RRoom #Cof #7T#ghe #s3rd #gG#Gu#7a#gr#0d#gi#Ga#7n#n~
+~
+0 1073294 0
+D3
+~
+~
+0 0 100184
+S
+#0
+
+
+
+#SPECIALS
+M 100100 spec_rand_heals
+M 100101 spec_rand_heals
+M 100102 spec_rand_heals
+M 100103 spec_rand_heals
+S
+
+
+
+#RESETS
+M 0 100112 17 100102
+M 0 100112 17 100103
+M 0 100112 17 100104
+M 0 100112 17 100105
+M 0 100112 17 100107
+M 0 100112 8 100108
+M 0 100112 17 100108
+M 0 100112 17 100108
+M 0 100112 17 100109
+M 0 100112 17 100110
+M 0 100111 16 100112
+M 0 100111 16 100113
+M 0 100111 16 100114
+M 0 100111 16 100115
+M 0 100111 16 100116
+M 0 100111 16 100117
+M 0 100111 16 100118
+M 0 100111 16 100119
+M 0 100110 16 100121
+M 0 100110 16 100122
+M 0 100110 16 100123
+M 0 100110 16 100124
+M 0 100110 16 100125
+M 0 100110 16 100126
+M 0 100110 16 100127
+M 0 100110 16 100128
+M 0 100109 16 100130
+M 0 100109 16 100131
+M 0 100109 16 100132
+M 0 100109 16 100133
+M 0 100109 16 100134
+M 0 100109 16 100135
+M 0 100109 16 100136
+M 0 100109 16 100137
+M 0 100108 16 100139
+M 0 100108 16 100140
+M 0 100108 16 100141
+M 0 100108 16 100142
+M 0 100108 16 100143
+M 0 100108 16 100144
+M 0 100108 16 100145
+M 0 100108 16 100146
+M 0 100107 16 100148
+M 0 100107 16 100149
+M 0 100107 16 100150
+M 0 100107 16 100151
+M 0 100107 16 100152
+M 0 100107 16 100153
+M 0 100107 16 100154
+M 0 100107 16 100155
+M 0 100106 16 100157
+M 0 100106 16 100158
+M 0 100106 16 100159
+M 0 100106 16 100160
+M 0 100106 16 100161
+M 0 100106 16 100162
+M 0 100106 16 100163
+M 0 100106 16 100164
+M 0 100105 16 100166
+M 0 100105 16 100167
+M 0 100105 16 100168
+M 0 100105 16 100169
+M 0 100105 16 100170
+M 0 100105 16 100171
+M 0 100105 16 100172
+M 0 100105 16 100173
+M 0 100104 15 100175
+M 0 100104 15 100176
+M 0 100104 15 100177
+M 0 100104 15 100178
+M 0 100104 15 100179
+M 0 100104 15 100180
+M 0 100103 1 100181
+G 0 100103 0
+M 0 100104 15 100182
+M 0 100100 1 100183
+G 0 8 0
+G 0 100100 0
+M 0 100101 1 100184
+G 0 100101 0
+G 0 8 0
+M 0 100102 1 100185
+G 0 100102 0
+G 0 8 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

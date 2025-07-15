@@ -1,0 +1,586 @@
+#AREADATA
+Name        Shamin~
+Builders    Huw~
+VNUMs       250000 250100
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#250000
+Football Player Bully~
+#RB#ru#Rl#rl#Ry#n~
+#0A short wide bully is standing here punching newbies as if they were punching bags.#n
+~
+~
+11
+0 0 S
+257 0 0 0d1+1 0d0+0
+0 0
+0 0 1
+#250001
+Captain player football team~
+#LThe Captain#n~
+#LThe Captain of the football team is here showing his skills off.#n
+~
+~
+3
+536883840 0 S
+549 0 0 5d10+2 0d0+0
+0 0
+0 0 1
+#250002
+football player demon~
+#rA football demon#n~
+#RA football demon is here breathing fire.#n
+~
+~
+3
+8192 0 S
+315 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250003
+football player angel~
+#7A #Lf#7o#Lo#7t#Lb#7a#Ll#7l #LA#7n#Lg#7e#Ll#n~
+#LA Football Angel is fluttering here.#n
+~
+~
+3
+0 0 S
+335 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250004
+Football Player~
+#RA #0football #RLacky#n~
+#rA football #0player lies #rhere gasping #0for breath.#n
+~
+~
+3
+0 0 S
+360 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250005
+football player~
+#0a football benchsitter#n~
+#0A football benchsitter is sitting here never playing a moment in the game#n.
+~
+~
+3
+0 0 S
+335 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250006
+Football Player Water Boy~
+#LT#lh#Le #lw#La#lt#Le#lr #Lb#lo#Ly#n~
+#LT#lh#Le #lw#La#lt#Le#lr #Lb#lo#Ly #li#Ls #lh#Le#lr#Le #lf#Li#ll#Ll#li#Ln#lg #Lt#lh#Le #lc#La#ln#Li#ls#Lt#le#Lr#ls #Lw#li#Lt#lh #La#lc#Li#ld#n
+~
+~
+3
+0 0 S
+311 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250007
+football player~
+#oa Tired player#n~
+#oA Tired player sleeps here on the sideline.#n
+~
+~
+3
+0 0 S
+330 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250008
+Football player tackle~
+#rThe tackle#n~
+#rThe tackle is tackling you!#n
+~
+~
+11
+0 0 S
+317 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250009
+football player guard~
+#oThe guard#n~
+#LA guard#o is here protecting the QB#n.
+~
+~
+3
+0 0 S
+372 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250010
+football player Tight End~
+#rThe tight end#n~
+#RThe tight end is closing in on your.#n
+~
+~
+3
+0 0 S
+374 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250011
+football player Running Back~
+#RThe running back#n~
+#RThe running back runs into you.#n
+~
+~
+11
+40 0 S
+382 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#250012
+Quarter Back QB~
+#0T#Rh#0e #RQ#0u#Ra#0t#Re#0r #RB#0a#Rc#0k#n~
+#0T#rh#0e #rQ#0u#ra#0t#re#0r #0B#ra#0c#rk #0i#rs #0h#re#0r#re#n.
+~
+~
+3
+78850 0 S
+334 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#250000
+Jersey~
+#rJe#Rrs#rey#n~
+A red jersey lies here on the floor on #Rfire#n.~
+~
+9 0 9
+0 0 0 0
+5 10 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#250001
+Transporter~
+(no short description)~
+(no description)~
+~
+13 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#250000
+#rFootball Hell#n~
+Football Players fight hard to gain control of the ball here.  The ground
+is mudding and you begin to sink lower as you move.  The sky is bright red
+and it scorches your skin.  
+WELCOME TO #RFOOTBALL HELL#n
+ 
+~
+0 0 2
+D0
+~
+~
+0 0 250001
+D1
+~
+~
+0 0 250003
+D2
+~
+~
+0 0 250002
+D3
+~
+~
+0 0 250004
+D4
+~
+~
+0 0 250012
+D5
+~
+~
+0 0 250011
+S
+#250001
+#RFootball Hell#n~
+~
+0 0 0
+D1
+~
+~
+0 0 250006
+D2
+~
+~
+0 0 250000
+D3
+~
+~
+0 0 250005
+S
+#250002
+#RFootball Hell#n~
+~
+0 0 0
+D0
+~
+~
+0 0 250000
+D1
+~
+~
+0 0 250007
+D3
+~
+~
+0 0 250008
+S
+#250003
+#RFootball Hell#n~
+~
+0 0 0
+D0
+~
+~
+0 0 250006
+D2
+~
+~
+0 0 250007
+D3
+~
+~
+0 0 250000
+S
+#250004
+#RFootball Hell#n~
+~
+0 0 0
+D0
+~
+~
+0 0 250005
+D1
+~
+~
+0 0 250000
+D2
+~
+~
+0 0 250008
+D3
+~
+~
+0 0 250009
+S
+#250005
+#rFootball Hell#n~
+~
+0 0 0
+D1
+~
+~
+0 0 250001
+D2
+~
+~
+0 0 250004
+S
+#250006
+#rFootball Hell#n~
+~
+0 0 0
+D2
+~
+~
+0 0 250003
+D3
+~
+~
+0 0 250001
+S
+#250007
+#rFootball Hell#n~
+~
+0 0 0
+D0
+~
+~
+0 0 250003
+D3
+~
+~
+0 0 250002
+S
+#250008
+#rFootball Hell#n~
+~
+0 0 0
+D0
+~
+~
+0 0 250004
+D1
+~
+~
+0 0 250002
+S
+#250009
+#oBench#n~
+~
+0 0 0
+D0
+~
+~
+0 0 250009
+D1
+~
+~
+0 0 250004
+D2
+~
+~
+0 0 250009
+D3
+~
+~
+0 0 250010
+S
+#250010
+#oBench#n~
+~
+0 0 0
+D1
+~
+~
+0 0 250009
+S
+#250011
+#rH#Re#rl#Rl#n~
+~
+0 0 0
+D4
+~
+~
+0 0 250000
+S
+#250012
+#7H#Le#7a#Lv#7e#Ln#n~
+~
+0 0 0
+D5
+~
+~
+0 0 250000
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 250012 1 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250009 8 250000
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250011 8 250001
+E 0 250000 0 5
+M 0 250001 1 250002
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250008 8 250003
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250006 8 250004
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250007 8 250005
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250010 8 250006
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250000 8 250008
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250004 8 250009
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250005 8 250010
+E 0 250000 0 5
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250002 8 250011
+M 0 250003 8 250012
+M 0 250003 8 250012
+M 0 250003 8 250012
+M 0 250003 8 250012
+M 0 250003 8 250012
+M 0 250003 8 250012
+M 0 250003 8 250012
+M 0 250003 8 250012
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

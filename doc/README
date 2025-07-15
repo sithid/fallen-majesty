@@ -1,0 +1,54 @@
+This is the README file for the Dystopia 1.0.1 codebase.
+
+At the release of Dystopia 1.0.1 the following problems where know :
+
+** The ban code is a bit buggy, banning anyone who is connected to the
+   mud, or trying to connect can cause the mud to crash.
+   Besides that, the ban code works perfectly :)
+
+** You will notice (if you read the code), that some types of attacks vs
+   mobs CANNOT do more than the victims hp-1 damage, this is done to
+   prevent fightlag (char_list get's messed up a bit during that round
+   of combat, preventing the rest of the chars in char_list to get a round
+   of combat). DO NOT change this, unless you know what you are doing, and
+   made a little helper in violence_update().
+
+** When a quest card is completed, it sometimes (very rarely) thinks that
+   it still needs an item (named Om), which doesn't exist. I'm doing a
+   recode of the questcards commands do_complete and spell_quest_card,
+   sometime soon. (some of the items on the list doesn't exist, remove those)
+
+** Hostlookup in comm.c is not threaded. This is only a problem if a player
+   tries to connect from a connection with a DNS problem. I have made an
+   exception in comm.c that takes care of the problem with these connections,
+   but if any new connections is discovered that causes these problems, they
+   should be added to the list in comm.c
+
+** The mud leaks a little memory, if you happen to find any leaks, mail them
+   to me, and you'll get credited in the next release.
+
+** The code has been tested on Redhat linux 6.1 and Slackware 5.3, and compiles
+   without any errors on these platforms (kernel 2.0.34 and 2.2.14).
+   I do in no way promise that this code will compile, but I have never had
+   any problems with it, on any of the machines I have compiled it on.
+
+
+In the 1.0.1 release, these are some of the things you should be aware of :
+
+** Train all, for hp, move and mana CAN bypass the statcap, this is NOT a bug,
+   but if don't want it to be like this, feel free to change the loop in act_move.c
+   to reflect this. We kept it like this in Dystopia to rewars the players that
+   took the risk of wandering around with 1.000.000.000+ exp (you loose half
+   when you get capped), With a 100K statcap a player could get as far as
+   120K with a good train.
+
+** Clanlist and Showkingdesc only shows kingdoms that aren't named <null>, so
+   inactive kingdoms can be removed from these lists by using clanset.
+
+
+Regards
+
+Jobo (jobo@daimi.au.dk)
+
+ps. please send me any additions or bugfixes you make for this codebase,
+    or just mail me if you enjoy using this codebase.

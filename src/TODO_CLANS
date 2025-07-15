@@ -1,0 +1,47 @@
+clan ideas...
+traps- for in the clan hall
+customizable objects- made by clan forgers
+mob guardians- imobile guards
+healing rooms- purchaseable... we'll expand on this later
+a single clan rare... in the clan_item wear_loc
+
+expanding on ideas...
+--------------------------------------
+traps- traps will be costly and could do 1 of few things
+... if a player stands in the room for like 5 seconds,
+they get either
+1)Damaged by some kinda blade trap (chance of knocking off some limbs)
+2)Damaged and transported out
+3)Stunned (Cheaper trap)
+4)Poisoned (reserve affects)
+5)Blinded
+
+we could deal with costs later
+
+Customizable objects...
+These are eq pieces slightly stronger
+then alignment eq, but not as strong as adamantiumeq
+each clan will be able to have up to a set number of pieces (like 5-10)
+their builder defines what these pieces look like and what pieces
+they actually are.
+
+Imobile guardians...
+These are basicly guardians that will attack those not in the clan...
+and if possible, able to be commanded to move around, as long as
+they aren't moved outside of the clan hall
+However, they would not move automatically towards any invaders...
+nor do they set off infos, unless the player flees... if possible
+.... and in any case of any infos, the info should be sent through
+the clans ktalk
+
+healing rooms/damaging rooms...
+these are already coded, but maybe making extra bits, or a cloned bit
+that makes it so it only heals the clan members and/or damage invaders
+only (these should have a high cost... and have a limit of 2-3 each)
+
+The single clan rare, built by the builder of the clan
+the stats could be purchase-able, however, costly
+and the max stats cannot be too high...
+clan forgers are allowed to make these at a cost, determined
+by how strong the rare is- also, only clan members can wear this
+... bringing up the need of a "clan-only" or "anti-clan" bit...

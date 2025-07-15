@@ -1,0 +1,1193 @@
+#AREADATA
+Name        Grand Theft Auto~
+Builders    Brujah~
+VNUMs       40000 40099
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#40000
+Cop Police~
+#lA #LTr#le#Ln#lt#Lo#ln #LC#lo#Lp#n~
+#LA #lcop #Lstands #lhere #Lenforcing #lthe #Llaw.#n
+~
+~
+17
+32 0 S
+1583 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40001
+Joey~
+#0Joey#n~
+#0Joey is here working on a new car.#n
+~
+~
+3
+0 0 S
+2021 0 0 -10d0+0 0d0+0
+0 0
+0 0 0
+#40002
+Pedestrian~
+#lA pedestrian#n~
+#lA pedestrian walks here.#n
+~
+~
+1
+0 0 S
+1479 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40003
+old pedestrian~
+#LAn old pedestrian#n~
+#LAn old pedestrian is inching their way around.#n
+~
+~
+1
+0 0 S
+1683 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40004
+Young Pedestrian~
+#7A young pedestrian#n~
+#7A young pedestrian roams about.#n
+~
+~
+1
+0 0 S
+1473 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40005
+Salvatore~
+#pS#Pa#pl#Pv#pa#Pt#po#Pr#pe#n~
+#pS#Pa#pl#Pv#pa#Pt#po#Pr#pe sits here.#n
+~
+~
+3
+0 0 S
+2049 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40006
+Guard~
+#LS#Pa#Ll#Pv#La#Pt#Lo#Pr#Le'#Ps #LG#Pu#La#Pr#Ld#n~
+#LS#Pa#Ll#Pv#La#Pt#Lo#Pr#Le'#Ps #LG#Pu#La#Pr#Ld is here protecting Salvatore.#n
+~
+~
+3
+0 0 S
+2089 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40007
+Chubu~
+#RChubu#n~
+#RChubu is here selling fish.#n
+~
+~
+3
+0 0 S
+2526 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40008
+Guard~
+#rChubu's #RGuard#n~
+#rChubu's #RGuard patrols the area.#n
+~
+~
+3
+0 0 S
+1977 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40009
+Triad Guard~
+#LTri#lad Gu#Lard#n~
+#LA Tri#lad Gu#Lard is here patrolling the triad factory.#n
+~
+~
+3
+0 0 S
+2197 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40010
+Bitchin Dog~
+#RA #rbit#Rchi#rn #Rdog#n~
+#RA #rbit#Rchi#rn #Rdog is here eating dog chow.#n
+~
+~
+3
+0 0 S
+1771 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40011
+Eight Ball~
+#0Ei#7ght Ba#0ll#n~
+#0Ei#7ght Ba#0ll is here planting a bomb in a car.#n
+~
+~
+3
+0 0 S
+2272 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40012
+Luigi~
+#rL#Ru#ri#Rg#ri#n~
+#rL#Ru#ri#Rg#ri#n is here running his club.#n
+~
+~
+3
+0 0 S
+2190 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#40013
+Guard~
+#RLuigi's #rguard#n~
+#RLuigi's #rguard#n is guarding Luigi.#n
+~
+~
+3
+0 0 S
+1963 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40014
+Security Guard~
+#0S#7ec#0uri#7ty Gu#0ard#n~
+#0A S#7ec#0uri#7ty Gu#0ard#n is here watching the perimeter#n.
+~
+~
+3
+0 0 S
+1986 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40015
+Mafia~
+#0Ma#7f#0ia#n~
+A member of the #0Ma#7f#0ia#n is here loading his gun.
+~
+~
+1
+0 0 S
+2262 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40016
+Cartel leader~
+#lCar#Ltel Lea#lder#n~
+A #lCar#Ltel Lea#lder#n is giving out orders.
+~
+~
+3
+128 0 S
+9942 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40017
+Cartel~
+#LA cartel#n~
+#lA #Lcartel #lgang member is here.#n
+~
+~
+3
+0 0 S
+2823 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40018
+Police Office~
+#LPolice #lOfficer#n~
+#LA Police officer stands here#n.
+~
+~
+3
+0 0 S
+3726 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40019
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+66 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#40020
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+27 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#40000
+#0Callahan Bridge#n~
+The bridge is made out of solid concrete and there are cars constantly zipping
+walk up and down the bridge.  There is a walk way for pedestrians who are exerc
+ising to stay in shape.
+~
+0 0 0
+D0
+~
+~
+0 0 40001
+S
+#40001
+#0Callahan Bridge#n~
+Halfway accross the bridge.
+The bridge is made out of solid concrete and there are cars constantly zipping
+walk up and down the bridge.  There is a walk way for pedestrians who are exerc
+ising to stay in shape.  You are currently halfway accross the bridge.
+~
+0 0 0
+D0
+~
+~
+0 0 40002
+D2
+~
+~
+0 0 40000
+S
+#40002
+#0Callahan Bridge#n~
+The bridge is made out of solid concrete and there are cars constantly zipping
+walk up and down the bridge.  There is a walk way for pedestrians who are exerc
+ising to stay in shape.  You are currently at the end of the bridge.
+~
+0 0 0
+D0
+~
+~
+0 0 40003
+D2
+~
+~
+0 0 40001
+S
+#40003
+#yS#0outh Portlan#yd#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40004
+D1
+~
+~
+0 0 40005
+D2
+~
+~
+0 0 40002
+D3
+~
+~
+0 0 40009
+S
+#40004
+#0S#yo#0uth Portla#yn#0d#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40012
+D1
+~
+~
+0 0 40010
+D2
+~
+~
+0 0 40003
+D3
+~
+~
+0 0 40011
+S
+#40005
+#lCallahan Point#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40006
+D3
+~
+~
+0 0 40003
+S
+#40006
+#lCallahan Point#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40005
+D3
+~
+~
+0 0 40007
+S
+#40007
+#lCallahan Point#n~
+You are underneath the bridge.  This is a common spot for drug abuse.
+The best way to avoid all the thugs is to slay them all.
+~
+0 0 0
+D1
+~
+~
+0 0 40006
+D3
+~
+~
+0 0 40008
+S
+#40008
+#lCallahan Point#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40009
+D1
+~
+~
+0 0 40007
+S
+#40009
+#lCallahan Point#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40003
+D2
+~
+~
+0 0 40008
+S
+#40010
+#0J#7o#0e#7y#0'#7s #0G#7a#0r#7a#0g#7e#n~
+~
+0 0 0
+D3
+~
+~
+0 0 40004
+S
+#40011
+#LTr#Pia#Ld #PFi#Lsh #PFa#Lct#Por#Ly#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40004
+S
+#40012
+#0So#yu#0th Portl#ya#0nd#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40013
+D2
+~
+~
+0 0 40004
+S
+#40013
+#0Sou#yt#0h Port#yl#0and#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40022
+D1
+~
+~
+0 0 40014
+D2
+~
+~
+0 0 40012
+D3
+~
+~
+0 0 40021
+S
+#40014
+#LTrenton Police Station#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40015
+D3
+~
+~
+0 0 40013
+S
+#40015
+#LTrenton Police Station#n~
+~
+0 0 0
+D3
+~
+~
+0 0 40014
+D4
+~
+~
+0 0 40016
+S
+#40016
+#LTrenton Police Station#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40017
+D5
+~
+~
+0 0 40015
+S
+#40017
+#LTrenton Police Station#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40018
+D3
+~
+~
+0 0 40016
+S
+#40018
+#LTrenton Police Station#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40017
+D3
+~
+~
+0 0 40019
+S
+#40019
+#LTrenton Police Station#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40018
+D4
+~
+~
+0 0 40020
+S
+#40020
+#LTrenton Police Station Arsenal#n~
+~
+0 0 0
+D5
+~
+~
+0 0 40019
+S
+#40021
+#LC#ya#lp#yi#Lt#yo#ll #yA#Lu#yt#lo#ys#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40013
+S
+#40022
+#RR#red #RL#right #RD#ristrict#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40023
+D2
+~
+~
+0 0 40013
+S
+#40023
+#rR#Re#rd #rL#Ri#rght #rD#Ri#rstrict#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40028
+D1
+~
+~
+0 0 40024
+D2
+~
+~
+0 0 40022
+S
+#40024
+#rRe#Rd #rLi#Rg#rht #rDi#Rs#rtrict#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40025
+D2
+~
+~
+0 0 40027
+D3
+~
+~
+0 0 40023
+S
+#40025
+#rRed #RL#ri#Rg#rht #rDis#Rt#rrict#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40026
+D2
+~
+~
+0 0 40029
+D3
+~
+~
+0 0 40024
+S
+#40026
+#rLuigi's #y[#PSex Club Seven#y]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40025
+S
+#40027
+#0Eight Ball's Autoyard#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40024
+S
+#40028
+#RBitchin Dog Foods#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40023
+S
+#40029
+#rRed L#Ri#rg#Rh#rt #rDist#Rr#rict#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40025
+D1
+~
+~
+0 0 40030
+D2
+~
+~
+0 0 40045
+D3
+~
+~
+0 0 40036
+S
+#40030
+#lChina Town Fish Market#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40031
+D3
+~
+~
+0 0 40029
+S
+#40031
+#lChina Town Fish Market#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40034
+D3
+~
+~
+0 0 40030
+S
+#40032
+#lChina Town Fish Market Rooftop#n~
+~
+0 24710 0
+S
+#40033
+#lChina Town Fish Market Rooftop#n~
+~
+0 4 0
+S
+#40034
+#lChina Town Fish Market#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40057
+D3
+~
+~
+0 0 40031
+D4
+~
+~
+0 0 40035
+S
+#40035
+#lChina Town Fish Market Rooftop#n~
+~
+0 0 0
+D5
+~
+~
+0 0 40034
+S
+#40036
+#PPa#yth #Pto #ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40029
+D3
+~
+~
+0 0 40037
+S
+#40037
+#PPa#yth #Pto #ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40036
+D3
+~
+~
+0 0 40038
+S
+#40038
+#PPa#yth #Pto #ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40039
+D1
+~
+~
+0 0 40037
+S
+#40039
+#PPa#yth #Pto #ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40040
+D2
+~
+~
+0 0 40038
+S
+#40040
+#PPa#yth #Pto #ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40041
+D2
+~
+~
+0 0 40039
+S
+#40041
+#ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon #PMa#yin#P Ha#yll#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40042
+D2
+~
+~
+0 0 40040
+S
+#40042
+#ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon #PMa#yin#P Ha#yll#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40041
+D4
+~
+~
+0 0 40043
+S
+#40043
+#ySa#Plv#yat#Por#ye'#Ps M#yan#Psi#yon #PSe#yco#Pnd#y Fl#Poo#yr#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40044
+D5
+~
+~
+0 0 40042
+S
+#40044
+#ySa#Plv#yat#Por#ye's #PBe#ydr#Poo#ym#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40043
+S
+#40045
+#rE#Ga#rst P#Go#rrtland#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40029
+D2
+~
+~
+0 0 40046
+S
+#40046
+#rEas#Gt #rPor#Gt#rland#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40045
+D1
+~
+~
+0 0 40047
+S
+#40047
+#oHeburn Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40048
+D3
+~
+~
+0 0 40046
+S
+#40048
+#oHeburn Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40049
+D3
+~
+~
+0 0 40047
+S
+#40049
+#oHeburn Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40051
+D2
+~
+~
+0 0 40050
+D3
+~
+~
+0 0 40048
+S
+#40050
+#oHeburn Heights Apartments#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40049
+S
+#40051
+#PE#pn#Pt#pr#Pa#pn#Pc#pe #Pt#po #PP#po#Pr#pt#Pl#pa#Pn#pd #PD#po#Pc#pk#Ps#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40052
+D3
+~
+~
+0 0 40049
+S
+#40052
+#PP#po#Pr#pt#Pl#pa#Pn#pd #PD#po#Pc#pk#Ps#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40053
+D3
+~
+~
+0 0 40051
+S
+#40053
+#PP#po#Pr#pt#Pl#pa#Pn#pd #PD#po#Pc#pk#Ps#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40054
+D3
+~
+~
+0 0 40052
+S
+#40054
+#PP#po#Pr#pt#Pl#pa#Pn#pd #PD#po#Pc#pk#Ps#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40053
+D2
+~
+~
+0 0 40055
+S
+#40055
+#PP#po#Pr#pt#Pl#pa#Pn#pd #PD#po#Pc#pk#Ps#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40054
+D1
+~
+~
+0 0 40056
+S
+#40056
+#LCa#lte#Ll C#lar#Lgo #lSh#Lip#n~
+~
+0 0 0
+D3
+~
+~
+0 0 40055
+S
+#40057
+#oHeburn Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40058
+D3
+~
+~
+0 0 40034
+S
+#40058
+#oHeburn Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40059
+D3
+~
+~
+0 0 40057
+S
+#40059
+#oHeburn Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40060
+D3
+~
+~
+0 0 40058
+S
+#40060
+#oHeburn Heights#n~
+~
+0 0 0
+D2
+~
+~
+0 0 40061
+D3
+~
+~
+0 0 40059
+S
+#40061
+#oHeburn Heights#n~
+~
+0 0 0
+D0
+~
+~
+0 0 40060
+D3
+~
+~
+0 0 40062
+S
+#40062
+#pHead #PRadio#n~
+~
+0 0 0
+D1
+~
+~
+0 0 40061
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 40004 20 40001
+M 0 40003 20 40001
+M 0 40002 20 40001
+M 0 40000 20 40001
+M 0 40002 20 40003
+M 0 40004 20 40003
+M 0 40003 20 40003
+M 0 40000 20 40003
+M 0 40001 1 40010
+M 0 40004 20 40013
+M 0 40003 20 40013
+M 0 40002 20 40013
+M 0 40000 20 40013
+M 0 40018 40 40014
+M 0 40018 40 40014
+M 0 40018 40 40014
+M 0 40018 40 40014
+M 0 40018 40 40016
+M 0 40018 40 40016
+M 0 40018 40 40016
+M 0 40018 40 40016
+M 0 40018 40 40018
+M 0 40018 40 40018
+M 0 40018 40 40018
+M 0 40018 40 40018
+M 0 40018 40 40020
+M 0 40018 40 40020
+M 0 40018 40 40020
+M 0 40018 40 40020
+M 0 40018 40 40021
+M 0 40018 40 40021
+M 0 40018 40 40021
+M 0 40018 40 40021
+M 0 40000 20 40024
+M 0 40002 20 40024
+M 0 40003 20 40024
+M 0 40004 20 40024
+M 0 40000 20 40025
+M 0 40002 20 40025
+M 0 40003 20 40025
+M 0 40004 20 40025
+M 0 40012 1 40026
+M 0 40013 5 40026
+M 0 40013 5 40026
+M 0 40013 5 40026
+M 0 40011 1 40027
+M 0 40010 3 40028
+M 0 40010 3 40028
+M 0 40010 3 40028
+M 0 40008 15 40030
+M 0 40008 15 40030
+M 0 40008 15 40030
+M 0 40008 15 40031
+M 0 40008 15 40031
+M 0 40008 15 40031
+M 0 40008 15 40034
+M 0 40008 15 40034
+M 0 40008 15 40034
+M 0 40007 1 40035
+M 0 40014 30 40036
+M 0 40014 30 40036
+M 0 40014 30 40037
+M 0 40014 30 40037
+M 0 40014 30 40038
+M 0 40014 30 40038
+M 0 40014 30 40039
+M 0 40014 30 40039
+M 0 40014 30 40040
+M 0 40014 30 40040
+M 0 40014 30 40041
+M 0 40014 30 40041
+M 0 40014 30 40042
+M 0 40014 30 40042
+M 0 40014 30 40043
+M 0 40014 30 40043
+M 0 40006 5 40044
+M 0 40006 5 40044
+M 0 40005 1 40044
+M 0 40014 30 40044
+M 0 40014 30 40044
+M 0 40000 20 40045
+M 0 40002 20 40045
+M 0 40003 20 40045
+M 0 40004 20 40045
+M 0 40004 20 40048
+M 0 40003 20 40048
+M 0 40002 20 40048
+M 0 40000 20 40048
+M 0 40017 30 40052
+M 0 40017 30 40052
+M 0 40017 30 40053
+M 0 40017 30 40053
+M 0 40017 30 40054
+M 0 40017 30 40054
+M 0 40017 30 40055
+M 0 40017 30 40055
+M 0 40016 1 40056
+M 0 40000 20 40058
+M 0 40002 20 40058
+M 0 40003 20 40058
+M 0 40004 20 40058
+M 0 40004 20 40061
+M 0 40003 20 40061
+M 0 40002 20 40061
+M 0 40000 20 40061
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

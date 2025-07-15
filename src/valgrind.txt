@@ -1,0 +1,201 @@
+==5857== Memcheck, a memory error detector.
+==5857== Copyright (C) 2002-2005, and GNU GPL'd, by Julian Seward et al.
+==5857== Using LibVEX rev 1575, a library for dynamic binary translation.
+==5857== Copyright (C) 2004-2005, and GNU GPL'd, by OpenWorks LLP.
+==5857== Using valgrind-3.1.1, a dynamic binary instrumentation framework.
+==5857== Copyright (C) 2000-2005, and GNU GPL'd, by Julian Seward et al.
+==5857== For more details, rerun with: -v
+==5857== 
+Tue Dec 19 08:36:03 :: Loading sysdata configuration...
+Tue Dec 19 08:36:03 :: read in SYSTEM
+Tue Dec 19 08:36:03 :: freading sysdata
+Tue Dec 19 08:36:03 :: Loading sysdata: MudName
+Tue Dec 19 08:36:03 :: Loading sysdata: Highplayers
+Tue Dec 19 08:36:03 :: Loading sysdata: Highplayertime
+Tue Dec 19 08:36:03 :: Loading sysdata: Saveflags
+Tue Dec 19 08:36:03 :: Loading sysdata: Savefreq
+Tue Dec 19 08:36:03 :: Loading sysdata: MaxTotExp
+Tue Dec 19 08:36:03 :: Loading sysdata: Expmod
+Tue Dec 19 08:36:03 :: Loading sysdata: Qpmod
+Tue Dec 19 08:36:03 :: Loading sysdata: FreeForAll
+Tue Dec 19 08:36:03 :: Loading sysdata: CurrChange
+Tue Dec 19 08:36:03 :: Loading sysdata: MaxItem
+Tue Dec 19 08:36:03 :: Loading sysdata: End
+Tue Dec 19 08:36:03 :: Returning
+Tue Dec 19 08:36:03 :: read in END
+Tue Dec 19 08:36:03 :: Ending
+Tue Dec 19 08:36:03 :: Initializing Config
+Tue Dec 19 08:36:03 :: loading help.are
+Tue Dec 19 08:36:04 :: loading bullshit.are
+Tue Dec 19 08:36:04 :: loading limbo.are
+Tue Dec 19 08:36:04 :: loading pyramid.are
+Tue Dec 19 08:36:04 :: loading fuckya.are
+Tue Dec 19 08:36:04 :: loading drow.are
+Tue Dec 19 08:36:04 :: loading eoeasy.are
+Tue Dec 19 08:36:05 :: loading start.are
+Tue Dec 19 08:36:05 :: loading hell.are
+Tue Dec 19 08:36:05 :: loading classeq.are
+Tue Dec 19 08:36:05 :: loading gta.are
+Tue Dec 19 08:36:05 :: loading disney.are
+Tue Dec 19 08:36:05 :: loading old.are
+Tue Dec 19 08:36:05 :: loading brujah.are
+Tue Dec 19 08:36:05 :: loading area79.are
+Tue Dec 19 08:36:05 :: loading worldark.are
+Tue Dec 19 08:36:05 :: loading resievil.are
+Tue Dec 19 08:36:05 :: loading battgrou.are
+Tue Dec 19 08:36:05 :: loading area83.are
+Tue Dec 19 08:36:05 :: loading area70.are
+Tue Dec 19 08:36:05 :: loading classhq.are
+Tue Dec 19 08:36:05 :: loading heaven.are
+Tue Dec 19 08:36:05 :: loading newbfor.are
+Tue Dec 19 08:36:05 :: loading towdark.are
+Tue Dec 19 08:36:05 :: loading dbz.are
+Tue Dec 19 08:36:05 :: loading satanrvg.are
+Tue Dec 19 08:36:05 :: loading pendrago.are
+Tue Dec 19 08:36:05 :: loading cornwall.are
+Tue Dec 19 08:36:05 :: loading mansion.are
+Tue Dec 19 08:36:05 :: loading reaver.are
+Tue Dec 19 08:36:05 :: loading airforce.are
+Tue Dec 19 08:36:06 :: loading area97.are
+Tue Dec 19 08:36:06 :: loading cambria.are
+Tue Dec 19 08:36:06 :: loading final.are
+Tue Dec 19 08:36:06 :: loading area93.are
+Tue Dec 19 08:36:06 :: loading westside.are
+Tue Dec 19 08:36:06 :: loading holypath.are
+Tue Dec 19 08:36:06 :: loading arena.are
+Tue Dec 19 08:36:06 :: loading candylnd.are
+Tue Dec 19 08:36:06 :: loading mordor.are
+Tue Dec 19 08:36:06 :: loading charysse.are
+Tue Dec 19 08:36:06 :: loading newbie.are
+Tue Dec 19 08:36:06 :: loading area43.are
+Tue Dec 19 08:36:06 :: loading legends.are
+Tue Dec 19 08:36:06 :: loading aqua.are
+Tue Dec 19 08:36:06 :: loading blitzes.are
+Tue Dec 19 08:36:06 :: loading area46.are
+Tue Dec 19 08:36:06 :: loading area47.are
+Tue Dec 19 08:36:06 :: loading area48.are
+Tue Dec 19 08:36:06 :: loading artic.are
+Tue Dec 19 08:36:06 :: loading rquest.are
+Tue Dec 19 08:36:06 :: loading area51.are
+Tue Dec 19 08:36:07 :: loading rqarecon.are
+Tue Dec 19 08:36:07 :: loading kelud.are
+Tue Dec 19 08:36:07 :: loading kelswamp.are
+Tue Dec 19 08:36:07 :: loading area55.are
+Tue Dec 19 08:36:07 :: loading area56.are
+Tue Dec 19 08:36:07 :: loading area57.are
+Tue Dec 19 08:36:07 :: loading area58.are
+Tue Dec 19 08:36:07 :: loading clan: ./clans/area60.are
+==5857== Invalid write of size 1
+==5857==    at 0x4005EF4: strcpy (mac_replace_strmem.c:269)
+==5857==    by 0x81795FC: load_clan (newclans.c:1290)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+==5857==  Address 0x4108B29 is 0 bytes after a block of size 9 alloc'd
+==5857==    at 0x4004405: malloc (vg_replace_malloc.c:149)
+==5857==    by 0x1EB02F: strdup (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x81792BC: load_clan (newclans.c:1248)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+==5857== 
+==5857== Invalid write of size 1
+==5857==    at 0x4005EF8: strcpy (mac_replace_strmem.c:269)
+==5857==    by 0x81795FC: load_clan (newclans.c:1290)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+==5857==  Address 0x4108B2A is 1 bytes after a block of size 9 alloc'd
+==5857==    at 0x4004405: malloc (vg_replace_malloc.c:149)
+==5857==    by 0x1EB02F: strdup (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x81792BC: load_clan (newclans.c:1248)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+Tue Dec 19 08:36:07 :: ==5857== 
+==5857== Invalid read of size 1
+==5857==    at 0x4005E85: strlen (mac_replace_strmem.c:243)
+==5857==    by 0x1BF224: vfprintf (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x1D741A: vsprintf (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x80ED657: log_string (db.c:3936)
+==5857==    by 0x8179515: load_clan (newclans.c:1280)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+==5857==  Address 0x4108B29 is 0 bytes after a block of size 9 alloc'd
+==5857==    at 0x4004405: malloc (vg_replace_malloc.c:149)
+==5857==    by 0x1EB02F: strdup (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x81792BC: load_clan (newclans.c:1248)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+==5857== 
+==5857== Invalid read of size 1
+==5857==    at 0x1E138F: _IO_default_xsputn (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x1BF2F9: vfprintf (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x1D741A: vsprintf (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x80ED657: log_string (db.c:3936)
+==5857==    by 0x8179515: load_clan (newclans.c:1280)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+==5857==  Address 0x4108B29 is 0 bytes after a block of size 9 alloc'd
+==5857==    at 0x4004405: malloc (vg_replace_malloc.c:149)
+==5857==    by 0x1EB02F: strdup (in /lib/tls/libc-2.3.4.so)
+==5857==    by 0x81792BC: load_clan (newclans.c:1248)
+==5857==    by 0x817904D: load_clanlist (newclans.c:1196)
+==5857==    by 0x80E69B9: boot_db (db.c:461)
+==5857==    by 0x80C19A6: main (comm.c:489)
+Clan snardsclan loaded
+Tue Dec 19 08:36:07 :: loading clan: ./clans/area61.are
+Tue Dec 19 08:36:07 :: Clan huwsclan loaded
+Tue Dec 19 08:36:07 :: Fixing Exits
+Tue Dec 19 08:36:07 :: Updating Areas
+Tue Dec 19 08:36:08 :: Loading Bans
+Tue Dec 19 08:36:08 :: Loading Kingshit
+Tue Dec 19 08:36:08 :: Loading Leaderboard
+Tue Dec 19 08:36:08 :: Loading_kingdoms
+Tue Dec 19 08:36:08 :: loading class leader
+Tue Dec 19 08:36:08 :: Loading War
+Tue Dec 19 08:36:08 :: Loading Boards
+Tue Dec 19 08:36:08 :: Saving NOtes
+Tue Dec 19 08:36:08 :: Loading Disable
+Tue Dec 19 08:36:08 :: Loading Changes
+Tue Dec 19 08:36:08 :: Loading Artis
+Tue Dec 19 08:36:08 :: Loading Todo
+Tue Dec 19 08:36:08 :: Loading Quotes
+Tue Dec 19 08:36:08 :: Loading Swearlist
+Tue Dec 19 08:36:08 :: Loading Multilist
+Tue Dec 19 08:36:08 :: loading socials
+Tue Dec 19 08:36:09 :: loading hints
+Tue Dec 19 08:36:09 :: Dystopia is ready to rock on port 2002.
+Tue Dec 19 08:36:09 :: Sock.sinaddr:  127.0.0.1
+Tue Dec 19 08:36:27 :: Tijher trying to connect.
+Tue Dec 19 08:36:31 :: Tijer trying to connect.
+Tue Dec 19 08:36:32 :: Tijer@localhost has connected.
+Tue Dec 19 08:36:35 :: Log Tijer: shutdown
+Tue Dec 19 08:36:36 :: Normal termination of game.
+==5857== 
+==5857== ERROR SUMMARY: 5 errors from 4 contexts (suppressed: 15 from 2)
+==5857== malloc/free: in use at exit: 12,469,178 bytes in 27,272 blocks.
+==5857== malloc/free: 27,503 allocs, 231 frees, 12,544,125 bytes allocated.
+==5857== For counts of detected errors, rerun with: -v
+==5857== searching for pointers to 27,272 not-freed blocks.
+==5857== checked 21,330,040 bytes.
+==5857== 
+==5857== 
+==5857== 263 bytes in 32 blocks are definitely lost in loss record 9 of 22
+==5857==    at 0x40056BF: calloc (vg_replace_malloc.c:279)
+==5857==    by 0x80EC6A0: str_dup (db.c:3336)
+==5857==    by 0x80EC24D: fread_string (db.c:3049)
+==5857==    by 0x812BC06: read_loglist (jason.c:130)
+==5857==    by 0x812BC69: load_jason (jason.c:149)
+==5857==    by 0x80C19B8: main (comm.c:497)
+==5857== 
+==5857== LEAK SUMMARY:
+==5857==    definitely lost: 263 bytes in 32 blocks.
+==5857==      possibly lost: 0 bytes in 0 blocks.
+==5857==    still reachable: 12,468,915 bytes in 27,240 blocks.
+==5857==         suppressed: 0 bytes in 0 blocks.
+==5857== Reachable blocks (those to which a pointer was found) are not shown.
+==5857== To see them, rerun with: --show-reachable=yes

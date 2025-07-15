@@ -1,0 +1,1352 @@
+#AREADATA
+Name        Mordor~
+Builders    Bardiel~
+VNUMs       102000 102099
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#102000
+Sarumon~
+#7Sarumon#n~
+#7The White Wizard Sarumon#n stands here, peering at you from his throne.
+~
+The mighty wizard Sarumon stands here, his body radiating with power.
+You stand in the shadows as this impressive figure fills the room. His guardians, the Uru-Kai, stand
+near him in protection. You notice a sense of evil surrounding him..
+~
+11
+0 0 S
+1989 0 0 0d20+1 0d0+0
+0 0
+0 0 0
+#102001
+urukai~
+#LUru#0-#LKai#n~
+#7A mighty #LUru#0-#LKai#7 stands here, guarding the master wizard#n
+~
+~
+11
+4722698 -10000 S
+7051 0 0 20d3+2 0d0+0
+0 0
+0 0 0
+#102002
+urukai~
+#7An #LUru#0-#LKai#n~
+#7A mighty #LUru#0-#LKai#7 stands here, guarding the gate.#n
+~
+~
+3
+4104 -1000 S
+4072 0 0 1d2+20 0d0+0
+0 0
+0 0 1
+#102003
+mordor~
+#wAn #0Orc#n~
+#wAn #0Orc#n wanders the halls here.
+~
+A tortured soul wanders these halls, hoping
+to appease the master in some way.
+~
+67
+8 -1000 S
+3012 0 0 1d3+2 0d0+0
+0 0
+0 0 0
+#102004
+Mordor~
+An #0Orc#n~
+An #0Orc#n stands in a corner peering at you.
+~
+~
+67
+4104 -1000 S
+2990 0 0 1d3+2 0d0+0
+0 0
+0 0 0
+#102005
+bear~
+A bear~
+A bear searches for berries here.
+~
+This bear is large and muscular. It'd be best not to mess
+with him.
+~
+1
+0 0 S
+18 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#102006
+undead king~
+#7An #0Undead #oKing#n~
+#7An #0Undead #oKing#n is here, reaching out for you.
+~
+With eyes sunken in, this ancient soldier of olde reaches out for you.
+~
+1
+524288 -10000 S
+7028 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#102007
+wandering soul~
+A #lsoul#n ~
+A #lsoul#n wanders aimlessly here.
+~
+Staring into his pale eyes, you are lost yourself
+~
+1
+524288 -1000 S
+6970 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#102008
+fire demon~
+#RFire #0D#re#Rm#0o#rn#n~
+A #RFire #0D#re#Rm#0o#rn#n stands here, flames emitting from his very being.
+~
+~
+3
+2184 -1000 S
+10001 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#102009
+sauron~
+#0The Dark Lord #nSauron#n~
+#0The Dark Lord #nSauron#7 stands here, muscles bulging and armor shining.
+~
+~
+11
+4825224 -1000 S
+19037 0 0 50d10+3 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#102000
+staff sarumon~
+the #0Staff of #7Sarumon#n~
+The #0Staff of #7Sarumon#n lies here, radiating with power~
+~
+5 0 8193
+17000 100 150 8
+1 100000 0
+A
+19 150
+A
+18 150
+A
+17 -200
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102001
+pansy~
+#yPANSY#n~
+#yPANSY#n~
+~
+58 28872 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102003
+THing~
+thing~
+Thing~
+~
+13 0 1
+0 0 0 0
+0 2147483647 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102004
+no name~
+#nA #0small #0kitten#n pounces on a ball of #Rstring#n.~
+#nA #0small #0kitten#n pounces on a ball of #Rstring#n.~
+~
+12 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102010
+Quest prize~
+#LA#l cool#L QUEST #LP#lR#LI#lZ#LE#l!#n~
+You wish you had this.~
+~
+13 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#102000
+#7B#0ardiel's #7R#0oom#n~
+~
+0 1074180 0
+S
+#102001
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102002
+S
+#102002
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102003
+D2
+~
+~
+0 0 102001
+S
+#102003
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102004
+D1
+~
+~
+0 0 102011
+D2
+~
+~
+0 0 102002
+S
+#102004
+The Path to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102005
+D2
+~
+~
+0 0 102003
+S
+#102005
+#7Approaching the tower of Sarumon#n~
+~
+0 0 0
+D0
+~
+~
+3 0 102006
+D2
+~
+~
+0 0 102004
+S
+#102006
+#0The Tower of Sarumon#n~
+~
+0 0 0
+D2
+~
+~
+3 0 102005
+D4
+~
+~
+0 0 102007
+S
+#102007
+#0First Floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102008
+D5
+~
+~
+0 0 102006
+S
+#102008
+#0Second Floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102009
+D5
+~
+~
+0 0 102007
+S
+#102009
+#0The Third Floor#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102010
+D5
+~
+~
+0 0 102008
+S
+#102010
+#0The Chamber of Sarumon#n~
+~
+0 0 0
+D5
+~
+~
+0 0 102009
+S
+#102011
+The Path to Mordor~
+~
+0 0 0
+D1
+~
+~
+0 0 102012
+D3
+~
+~
+0 0 102003
+S
+#102012
+The Road to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102013
+D1
+~
+~
+0 0 102014
+D3
+~
+~
+0 0 102011
+S
+#102013
+The Road to Mordor~
+~
+0 0 0
+D0
+~
+~
+0 0 102020
+D2
+~
+~
+0 0 102012
+S
+#102014
+The Path to the Second Tower~
+~
+0 0 0
+D1
+~
+~
+0 0 102015
+D3
+~
+~
+0 0 102012
+S
+#102015
+The Path to the Second Tower~
+~
+0 0 0
+D1
+~
+~
+0 0 102016
+D3
+~
+~
+0 0 102014
+S
+#102016
+The Path to the Second Tower~
+~
+0 0 0
+D1
+~
+~
+0 0 102017
+D3
+~
+~
+0 0 102015
+S
+#102017
+#7 Approaching the Tower of Sauron#n~
+~
+0 0 0
+D1
+~
+~
+0 0 102018
+D3
+~
+~
+0 0 102016
+S
+#102018
+#0The Tower of Sauron#n~
+~
+0 0 0
+D3
+~
+~
+0 0 102017
+D4
+~
+~
+0 0 102019
+S
+#102019
+#0The First Floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102065
+D5
+~
+~
+0 0 102018
+S
+#102020
+#oThe #0Swamps#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102021
+D2
+~
+~
+0 0 102013
+S
+#102021
+#oThe #0S#yw#oa#0m#np#0s#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102022
+D2
+~
+~
+0 0 102020
+S
+#102022
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102023
+D2
+~
+~
+0 0 102021
+S
+#102023
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102026
+D1
+~
+~
+0 0 102028
+D2
+~
+~
+0 0 102022
+D3
+~
+~
+0 0 102024
+S
+#102024
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102025
+D1
+~
+~
+0 0 102023
+S
+#102025
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102029
+D1
+~
+~
+0 0 102026
+D2
+~
+~
+0 0 102024
+S
+#102026
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102030
+D1
+~
+~
+0 0 102027
+D2
+~
+~
+0 0 102023
+D3
+~
+~
+0 0 102025
+S
+#102027
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102031
+D2
+~
+~
+0 0 102028
+D3
+~
+~
+0 0 102026
+S
+#102028
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102027
+D3
+~
+~
+0 0 102023
+S
+#102029
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102032
+D1
+~
+~
+0 0 102030
+D2
+~
+~
+0 0 102025
+S
+#102030
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102033
+D1
+~
+~
+0 0 102031
+D2
+~
+~
+0 0 102026
+D3
+~
+~
+0 0 102029
+S
+#102031
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102034
+D2
+~
+~
+0 0 102027
+D3
+~
+~
+0 0 102030
+S
+#102032
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102035
+D1
+~
+~
+0 0 102033
+D2
+~
+~
+0 0 102029
+S
+#102033
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102036
+D1
+~
+~
+0 0 102034
+D2
+~
+~
+0 0 102030
+D3
+~
+~
+0 0 102032
+S
+#102034
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102037
+D2
+~
+~
+0 0 102031
+D3
+~
+~
+0 0 102033
+S
+#102035
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102038
+D1
+~
+~
+0 0 102036
+D2
+~
+~
+0 0 102032
+S
+#102036
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102039
+D1
+~
+~
+0 0 102037
+D2
+~
+~
+0 0 102033
+D3
+~
+~
+0 0 102035
+S
+#102037
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102040
+D2
+~
+~
+0 0 102034
+D3
+~
+~
+0 0 102036
+S
+#102038
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102041
+D1
+~
+~
+0 0 102039
+D2
+~
+~
+0 0 102035
+S
+#102039
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102042
+D1
+~
+~
+0 0 102040
+D2
+~
+~
+0 0 102036
+D3
+~
+~
+0 0 102038
+S
+#102040
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102043
+D2
+~
+~
+0 0 102037
+D3
+~
+~
+0 0 102039
+S
+#102041
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102044
+D1
+~
+~
+0 0 102042
+D2
+~
+~
+0 0 102038
+S
+#102042
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102045
+D1
+~
+~
+0 0 102043
+D2
+~
+~
+0 0 102039
+D3
+~
+~
+0 0 102041
+S
+#102043
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102046
+D2
+~
+~
+0 0 102040
+D3
+~
+~
+0 0 102042
+S
+#102044
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102047
+D1
+~
+~
+0 0 102045
+D2
+~
+~
+0 0 102041
+S
+#102045
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102048
+D1
+~
+~
+0 0 102046
+D2
+~
+~
+0 0 102042
+D3
+~
+~
+0 0 102044
+S
+#102046
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102049
+D2
+~
+~
+0 0 102043
+D3
+~
+~
+0 0 102045
+S
+#102047
+#oThe #0Swamp#n~
+~
+0 0 0
+D1
+~
+~
+0 0 102048
+D2
+~
+~
+0 0 102044
+S
+#102048
+#oThe #0Swamp#n~
+~
+0 0 0
+D0
+~
+~
+3 0 102050
+D1
+~
+~
+0 0 102049
+D2
+~
+~
+0 0 102045
+D3
+~
+~
+0 0 102047
+S
+#102049
+#oThe #0Swamp#n~
+~
+0 0 0
+D2
+~
+~
+0 0 102046
+D3
+~
+~
+0 0 102048
+S
+#102050
+Heading Towards Mt. Doom~
+This road is strangely warm- it seems to be heated by the ground itself.
+You notice to the north, a great volcano leers from above. You also sense
+footprints of surprising size on the ground here.
+~
+0 0 0
+D0
+~
+~
+0 0 102051
+D2
+~
+~
+3 0 102048
+S
+#102051
+The Road to Mt. Doom~
+~
+0 0 0
+D0
+~
+~
+0 0 102052
+D2
+~
+~
+0 0 102050
+S
+#102052
+The Road to Mt. Doom~
+~
+0 0 0
+D0
+~
+~
+0 0 102053
+D2
+~
+~
+0 0 102051
+S
+#102053
+The Road to Mt. Doom~
+~
+0 0 0
+D0
+~
+~
+0 0 102054
+D2
+~
+~
+0 0 102052
+S
+#102054
+The Foothills of Mt. Doom.~
+~
+0 0 0
+D2
+~
+~
+0 0 102053
+D4
+~
+~
+0 0 102055
+S
+#102055
+#0The Slope of Mt. Doom#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102056
+D5
+~
+~
+0 0 102054
+S
+#102056
+#0The Slopes of Mt. Doom#n~
+~
+0 0 0
+D2
+~
+~
+0 0 102055
+D4
+~
+~
+0 0 102057
+S
+#102057
+#0Approaching the Top#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102058
+D5
+~
+~
+0 0 102056
+S
+#102058
+#0The #RFires#0 of Mt. Doom#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102059
+D5
+~
+~
+0 0 102057
+S
+#102059
+#0The #RB#rr#0i#Rd#rg#0e Above the #RLava#n~
+~
+0 262144 0
+D2
+~
+~
+0 0 102058
+D5
+~
+~
+0 0 102060
+S
+#102060
+#RWithin the Lava#n~
+~
+0 262144 0
+D0
+~
+~
+0 0 102061
+D1
+~
+~
+0 0 102064
+D2
+~
+~
+0 0 102063
+D3
+~
+~
+0 0 102062
+D4
+~
+~
+0 0 102059
+S
+#102061
+#RWithin the Lava#n~
+~
+0 0 0
+D2
+~
+~
+0 0 102060
+S
+#102062
+#RWithin the Lava#n~
+~
+0 262144 0
+D1
+~
+~
+0 0 102060
+S
+#102063
+#RWithin the Lava#n~
+~
+0 0 0
+D0
+~
+~
+0 0 102060
+S
+#102064
+#RWithin the Lava#n~
+~
+0 262144 0
+D3
+~
+~
+0 0 102060
+S
+#102065
+#0The Second Floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102066
+D5
+~
+~
+0 0 102019
+S
+#102066
+#0The Third floor of the Tower#n~
+~
+0 0 0
+D4
+~
+~
+0 0 102067
+D5
+~
+~
+0 0 102065
+S
+#102067
+#0The Chamber of Sauron#n~
+~
+0 0 0
+D5
+~
+~
+0 0 102066
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 102002 2 102005
+M 0 102002 2 102005
+M 0 102004 5 102008
+M 0 102004 5 102008
+M 0 102004 5 102008
+M 0 102004 5 102008
+M 0 102004 5 102008
+M 0 102003 5 102009
+M 0 102003 5 102009
+M 0 102003 5 102009
+M 0 102003 5 102009
+M 0 102003 5 102009
+M 0 102001 3 102010
+M 0 102005 10 102011
+M 0 102005 10 102012
+M 0 102005 10 102014
+M 0 102005 10 102015
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102020
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102021
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102027
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102039
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102006 40 102040
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102045
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102047
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102048
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102007 80 102049
+M 0 102008 4 102061
+M 0 102008 4 102062
+M 0 102008 4 102063
+M 0 102008 4 102064
+M 0 102009 1 102067
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,1864 @@
+#AREADATA
+Name        Rast Quest Arena~
+Builders    None~
+VNUMs       52400 52499
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#52468
+Easy Yellow Flag Guardian~
+#cThe #yYellow #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #yYellow #pFlag #cis here.#n
+~
+~
+2051
+0 0 S
+968 0 0 1d0+2 0d0+0
+0 0
+0 0 0
+#52469
+Medium Yellow Flag Guardian~
+#cThe #yYellow #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #yYellow #pFlag #cis here.#n
+~
+~
+2051
+0 0 S
+5001 0 0 3d0+2 0d0+0
+0 0
+0 0 0
+#52470
+Hard Yellow Flag Guardian~
+#cThe #yYellow #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #yYellow #pFlag #cis here.#n
+~
+~
+2051
+128 0 S
+7994 0 0 5d2+3 0d0+0
+0 0
+0 0 0
+#52471
+RFH Yellow Flag Guardian~
+#cThe #yYellow #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #yYellow #pFlag #cis here.#n
+~
+~
+2051
+128 0 S
+13997 0 0 5d5+5 0d0+0
+0 0
+0 0 0
+#52483
+Easy Red Flag Guardian~
+#cThe #RRed #0Flag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #RRed #0Flag#c is here.#n
+~
+~
+2051
+0 0 S
+995 0 0 1d0+2 0d0+0
+0 0
+0 0 0
+#52484
+Medium Red Flag Guardian~
+#cThe #RRed #0Flag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #RRed #0Flag#c is here.#n
+~
+~
+2051
+0 0 S
+4987 0 0 3d0+2 0d0+0
+0 0
+0 0 0
+#52485
+Hard Red Flag Guardian~
+#cThe #RRed #0Flag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #RRed #0Flag#c is here.#n
+~
+~
+2051
+128 0 S
+8004 0 0 5d2+3 0d0+0
+0 0
+0 0 0
+#52486
+RFH Red Flag Guardian~
+#cThe #RRed #0Flag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #RRed #0Flag#c is here.#n
+~
+~
+2051
+128 0 S
+13977 0 0 5d5+5 0d0+0
+0 0
+0 0 0
+#52496
+RFH Green Flag Guardian~
+#cThe #GGreen #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #GGreen #pFlag#c stands here.#n
+~
+~
+2051
+128 0 S
+13999 0 0 5d5+5 0d0+0
+0 0
+0 0 0
+#52497
+Easy Flag Guardian~
+#cThe #GGreen #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn #cof the #GGreen #pFlag #cstands here.#n
+~
+~
+2051
+0 0 S
+992 0 0 1d0+2 0d0+0
+0 0
+0 0 0
+#52498
+Medium Green Flag Guardian~
+#cThe #GGreen #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #GGreen #pFlag#c stands here.#n
+~
+~
+2051
+0 0 S
+4975 0 0 3d0+2 0d0+0
+0 0
+0 0 0
+#52499
+Hard Green Flag Guardian~
+#cThe #GGreen #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #GGreen #pFlag#c stands here.#n
+~
+~
+2051
+128 0 S
+7995 0 0 5d2+3 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#52400
+Mob Killer Wrist Badge~
+#c-#C_#p()#C_#c- #0The #oMob #RK#riller#Rs #0Wrist #8Badge #c-#C_#p()#C_#c-#n~
+The Wrist badge of a Mob Killer lies here, better not touch it!~
+~
+9 3 4097
+0 0 0 0
+0 0 0
+A
+24 500
+A
+14 5000
+A
+12 5000
+A
+13 5000
+A
+19 500
+A
+18 500
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52401
+Hot potato~
+#cThe #RHot #oPotato!!!#n~
+#0The #RHot #oPotato#c is here, shouldn't be lying on the ground!!!#n~
+~
+13 0 16385
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52402
+The Hot Potato~
+#o(#0<>#o) #cThe #0Really #RH#yo#Rt #oPo#0ta#oto (#0<>#o)#n~
+#cA #Rb#ru#yr#rn#Ri#rn#yg #opo#0t#oato#c is here, stuck to a piece of #oflesh.#n~
+~
+9 0 131073
+0 0 0 0
+0 0 0
+A
+18 500
+A
+19 500
+A
+17 -500
+A
+24 500
+A
+13 5000
+A
+12 5000
+A
+14 5000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52403
+Hot Potato Mystery Prize Bag~
+#cThe #RH#yo#Rt #oPotato #0Mystery #GP#gr#Ci#gz#Ge #oBag#n~
+#cA #obag #cfull of goodies lies here, in a bag shaped like a #opotato?#n~
+~
+15 0 16385
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52404
+whispers useless knowledge~
+#c<#C/#p|#C/#c> #8Whispers #cof #rUse#Rl#ress #7Kn#Cow#cl#Ced#7ge #c<#C/#p|#C/#c>#n~
+#cThe #8whispers#c of #7kn#Cow#cl#Ced#7ge#c no longer useful lies here.#n~
+~
+9 0 262145
+0 0 0 0
+0 0 0
+A
+13 5000
+A
+12 5000
+A
+14 5000
+A
+24 500
+A
+18 500
+A
+19 500
+A
+17 -500
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52468
+The Yellow Flag~
+#cThe #yYellow #pFlag#n~
+#cThe #yYellow #pFlag#c is here, waiting to be #0taken!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52483
+The Red Flag~
+#cThe #RRed #pFlag#n~
+#cThe #RRed #pFlag#c is here, waiting to be #0claimed!!!#n~
+~
+13 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52487
+1 point immquest token~
+#cA #G1 #gpoint #0Immquest #oToken#n~
+#cA #G1 #gpoint #0Immquest #oToken#c lies here.#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52488
+10 point immquest token~
+#cA #R10 #rpoint #0Immquest #oToken#n~
+#cA #R10 #rpoint #0Immquest #oToken#c lies here.#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52489
+5 point immquest token~
+#cA #C5 #cPoint #0Immquest #oToken#n~
+#cA #C5 #cPoint #0Immquest #oToken#c lies here.~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52497
+Green Flag R-Quest~
+#cThe #GGreen #pFlag#n~
+#cThe #GGreen #pFlag #cis here, waiting to be #0taken!!!#n~
+~
+60 0 16385
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#52400
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52401
+D3
+~
+~
+0 0 52418
+S
+#52401
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52402
+D3
+~
+~
+0 0 52400
+S
+#52402
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52403
+D3
+~
+~
+0 0 52401
+S
+#52403
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52404
+D3
+~
+~
+0 0 52402
+S
+#52404
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52405
+D2
+~
+~
+0 0 52403
+S
+#52405
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52406
+D2
+~
+~
+0 0 52404
+S
+#52406
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52419
+D2
+~
+~
+0 0 52405
+D3
+~
+~
+0 0 52407
+S
+#52407
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52406
+D3
+~
+~
+0 0 52408
+S
+#52408
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52434
+D1
+~
+~
+0 0 52407
+D3
+~
+~
+0 0 52409
+S
+#52409
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52408
+D3
+~
+~
+0 0 52410
+S
+#52410
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52409
+D3
+~
+~
+0 0 52411
+S
+#52411
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52410
+D3
+~
+~
+0 0 52412
+S
+#52412
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52411
+D2
+~
+~
+0 0 52413
+D3
+~
+~
+0 0 52443
+S
+#52413
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52412
+D2
+~
+~
+0 0 52414
+S
+#52414
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52413
+D2
+~
+~
+0 0 52415
+S
+#52415
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52414
+D1
+~
+~
+0 0 52416
+S
+#52416
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52417
+D3
+~
+~
+0 0 52415
+S
+#52417
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52418
+D3
+~
+~
+0 0 52416
+S
+#52418
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52400
+D3
+~
+~
+0 0 52417
+S
+#52419
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52420
+D3
+~
+~
+0 0 52406
+S
+#52420
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52422
+D2
+~
+~
+0 0 52419
+S
+#52422
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52423
+D3
+~
+~
+0 0 52420
+S
+#52423
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52424
+D2
+~
+~
+0 0 52422
+S
+#52424
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52425
+D2
+~
+~
+0 0 52423
+S
+#52425
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52424
+D3
+~
+~
+0 0 52426
+S
+#52426
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52425
+D3
+~
+~
+0 0 52427
+S
+#52427
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52426
+D3
+~
+~
+0 0 52428
+S
+#52428
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52427
+D3
+~
+~
+0 0 52429
+S
+#52429
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52428
+D3
+~
+~
+0 0 52430
+S
+#52430
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52429
+D2
+~
+~
+0 0 52431
+D3
+~
+~
+0 0 52435
+S
+#52431
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52430
+D2
+~
+~
+0 0 52432
+S
+#52432
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52431
+D2
+~
+~
+0 0 52433
+S
+#52433
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52432
+D2
+~
+~
+0 0 52434
+S
+#52434
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52433
+D2
+~
+~
+0 0 52408
+S
+#52435
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52430
+D3
+~
+~
+0 0 52436
+S
+#52436
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52435
+D3
+~
+~
+0 0 52437
+S
+#52437
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52436
+D2
+~
+~
+0 0 52438
+S
+#52438
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52437
+D2
+~
+~
+0 0 52439
+S
+#52439
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52438
+D2
+~
+~
+0 0 52440
+S
+#52440
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52439
+D1
+~
+~
+0 0 52441
+S
+#52441
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52442
+D3
+~
+~
+0 0 52440
+S
+#52442
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52441
+D1
+~
+~
+0 0 52443
+S
+#52443
+#GR#ga#Cs#ct#Cy#g'#Gs #0Special #RA#rr#0e#rn#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52412
+D3
+~
+~
+0 0 52442
+S
+#52444
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52498
+D3
+~
+~
+0 0 52445
+S
+#52445
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53014
+D1
+~
+~
+0 0 52444
+D3
+~
+~
+0 0 52446
+S
+#52446
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52445
+D3
+~
+~
+0 0 52447
+S
+#52447
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53029
+D1
+~
+~
+0 0 52446
+D2
+~
+~
+0 0 53030
+D3
+~
+~
+0 0 52448
+S
+#52448
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53009
+D1
+~
+~
+0 0 52447
+D5
+~
+~
+0 0 53000
+S
+#52449
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53012
+D1
+~
+~
+0 0 52450
+D2
+~
+~
+0 0 53013
+D3
+~
+~
+0 0 52453
+S
+#52450
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52451
+D3
+~
+~
+0 0 52449
+S
+#52451
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52452
+D3
+~
+~
+0 0 52450
+S
+#52452
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52485
+D2
+~
+~
+0 0 52486
+D3
+~
+~
+0 0 52451
+S
+#52453
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52449
+D3
+~
+~
+0 0 52454
+S
+#52454
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52453
+D3
+~
+~
+0 0 52455
+S
+#52455
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52456
+D1
+~
+~
+0 0 52454
+D2
+~
+~
+0 0 53010
+S
+#52456
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52457
+D1
+~
+~
+0 0 53025
+D2
+~
+~
+0 0 52455
+D3
+~
+~
+0 0 53026
+S
+#52457
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52458
+D2
+~
+~
+0 0 52456
+S
+#52458
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52469
+D2
+~
+~
+0 0 52457
+D5
+~
+~
+0 0 52459
+S
+#52459
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52460
+D2
+~
+~
+0 0 52468
+D3
+~
+~
+0 0 52467
+D4
+~
+~
+0 0 52458
+S
+#52460
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52462
+D3
+~
+~
+0 0 52459
+S
+#52461
+~
+~
+0 4 0
+S
+#52462
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52460
+D2
+~
+~
+0 0 52463
+D3
+~
+~
+0 0 52468
+S
+#52463
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52462
+D3
+~
+~
+0 0 52464
+S
+#52464
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52468
+D1
+~
+~
+0 0 52463
+D3
+~
+~
+0 0 52465
+S
+#52465
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52466
+D1
+~
+~
+0 0 52464
+S
+#52466
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52467
+D1
+~
+~
+0 0 52468
+D2
+~
+~
+0 0 52465
+S
+#52467
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52459
+D2
+~
+~
+0 0 52466
+S
+#52468
+#yYellow #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52459
+D1
+~
+~
+0 0 52462
+D2
+~
+~
+0 0 52464
+D3
+~
+~
+0 0 52466
+S
+#52469
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 4 0
+D0
+~
+~
+0 0 53024
+D1
+~
+~
+0 0 52470
+D2
+~
+~
+0 0 53023
+D3
+~
+~
+0 0 52458
+S
+#52470
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52471
+D3
+~
+~
+0 0 52469
+S
+#52471
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52472
+D2
+~
+~
+0 0 53011
+D3
+~
+~
+0 0 52470
+S
+#52472
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52473
+D3
+~
+~
+0 0 52471
+S
+#52473
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53021
+D1
+~
+~
+0 0 52474
+D2
+~
+~
+0 0 53022
+D3
+~
+~
+0 0 52472
+S
+#52474
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52484
+D3
+~
+~
+0 0 52473
+D5
+~
+~
+0 0 52475
+S
+#52475
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52482
+D3
+~
+~
+0 0 52476
+D4
+~
+~
+0 0 52474
+S
+#52476
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52475
+D2
+~
+~
+0 0 52483
+D3
+~
+~
+0 0 52477
+S
+#52477
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52476
+D2
+~
+~
+0 0 52478
+S
+#52478
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52477
+D1
+~
+~
+0 0 52483
+D2
+~
+~
+0 0 52479
+S
+#52479
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52478
+D1
+~
+~
+0 0 52480
+S
+#52480
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52483
+D1
+~
+~
+0 0 52481
+D3
+~
+~
+0 0 52479
+S
+#52481
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52482
+D3
+~
+~
+0 0 52480
+S
+#52482
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52475
+D2
+~
+~
+0 0 52481
+D3
+~
+~
+0 0 52483
+S
+#52483
+#RRed #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52476
+D1
+~
+~
+0 0 52482
+D2
+~
+~
+0 0 52480
+D3
+~
+~
+0 0 52478
+S
+#52484
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52474
+D2
+~
+~
+0 0 52485
+S
+#52485
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52484
+D1
+~
+~
+0 0 53019
+D2
+~
+~
+0 0 52452
+D3
+~
+~
+0 0 53020
+S
+#52486
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52452
+D1
+~
+~
+0 0 53017
+D2
+~
+~
+0 0 52487
+D3
+~
+~
+0 0 53018
+S
+#52487
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52486
+D2
+~
+~
+0 0 52488
+S
+#52488
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52487
+D3
+~
+~
+0 0 52498
+D5
+~
+~
+0 0 52489
+S
+#52489
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52490
+D2
+~
+~
+0 0 52496
+D4
+~
+~
+0 0 52488
+S
+#52490
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52491
+D2
+~
+~
+0 0 52497
+D3
+~
+~
+0 0 52489
+S
+#52491
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52492
+D3
+~
+~
+0 0 52490
+S
+#52492
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52491
+D2
+~
+~
+0 0 52493
+D3
+~
+~
+0 0 52497
+S
+#52493
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52492
+D3
+~
+~
+0 0 52494
+S
+#52494
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52497
+D1
+~
+~
+0 0 52493
+D3
+~
+~
+0 0 52495
+S
+#52495
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52496
+D1
+~
+~
+0 0 52494
+S
+#52496
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52489
+D1
+~
+~
+0 0 52497
+D2
+~
+~
+0 0 52495
+S
+#52497
+#GGreen #oTeam #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52490
+D1
+~
+~
+0 0 52492
+D2
+~
+~
+0 0 52494
+D3
+~
+~
+0 0 52496
+S
+#52498
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53015
+D1
+~
+~
+0 0 52488
+D2
+~
+~
+0 0 53016
+D3
+~
+~
+0 0 52444
+S
+#52499
+~
+~
+0 0 0
+D1
+~
+~
+0 0 52498
+S
+#0
+
+
+
+#SPECIALS
+M 52471 spec_rand_heals
+M 52486 spec_rand_heals
+M 52496 spec_rand_heals
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

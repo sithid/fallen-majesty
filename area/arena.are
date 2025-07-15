@@ -1,0 +1,442 @@
+#AREADATA
+Name        Arena~
+Builders    Rand~
+VNUMs       500000 500100
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#500000
+#n=#7The Entrance #0to the #RArena#n=#n~
+~
+0 139264 0
+D0
+~
+~
+0 0 500001
+S
+#500001
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 139264 0
+D0
+~
+~
+0 0 500002
+D1
+~
+~
+0 0 500006
+D3
+~
+~
+0 0 500008
+S
+#500002
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 139264 0
+D0
+~
+~
+0 0 500003
+D1
+~
+~
+0 0 500026
+D2
+~
+~
+0 0 500001
+D3
+~
+~
+0 0 500025
+S
+#500003
+#n=#7The #RCenter of the #7A#0rena#n=#n~
+~
+0 139264 0
+D0
+~
+~
+0 0 500004
+D1
+~
+~
+0 0 500022
+D2
+~
+~
+0 0 500002
+D3
+~
+~
+0 0 500021
+S
+#500004
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 139264 0
+D0
+~
+~
+0 0 500015
+D1
+~
+~
+0 0 500023
+D2
+~
+~
+0 0 500003
+D3
+~
+~
+0 0 500024
+S
+#500005
+#n=#7The Entrance #0to the #RArena#n=#n~
+~
+0 155648 0
+D2
+~
+~
+0 0 500015
+S
+#500006
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D1
+~
+~
+0 0 500007
+D3
+~
+~
+0 0 500001
+S
+#500007
+#n=#7The #ySoutheastern Tower#7 around the A#0rena#n=~
+~
+0 155648 0
+D0
+~
+~
+0 0 500020
+D3
+~
+~
+0 0 500006
+S
+#500008
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D1
+~
+~
+0 0 500001
+D3
+~
+~
+0 0 500009
+S
+#500009
+#n=#7The #ySouthwestern Tower#7 around the A#0rena#n=~
+~
+0 155648 0
+D0
+~
+~
+0 0 500010
+D1
+~
+~
+0 0 500008
+S
+#500010
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500011
+D2
+~
+~
+0 0 500009
+S
+#500011
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500012
+D1
+~
+~
+0 0 500021
+D2
+~
+~
+0 0 500010
+S
+#500012
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500013
+D2
+~
+~
+0 0 500011
+S
+#500013
+#n=#7The #yNorthwestern Tower#7 around the A#0rena#n=~
+~
+0 155648 0
+D1
+~
+~
+0 0 500014
+D2
+~
+~
+0 0 500012
+S
+#500014
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D1
+~
+~
+0 0 500015
+D3
+~
+~
+0 0 500013
+S
+#500015
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D1
+~
+~
+0 0 500016
+D2
+~
+~
+0 0 500004
+D3
+~
+~
+0 0 500014
+S
+#500016
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D1
+~
+~
+0 0 500017
+D3
+~
+~
+0 0 500015
+S
+#500017
+#n=#7The #yNortheastern Tower#7 around the A#0rena#n=~
+~
+0 155648 0
+D2
+~
+~
+0 0 500018
+D3
+~
+~
+0 0 500016
+S
+#500018
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500017
+D2
+~
+~
+0 0 500019
+S
+#500019
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500018
+D2
+~
+~
+0 0 500020
+D3
+~
+~
+0 0 500022
+S
+#500020
+#n=#7The #yRing around the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500019
+D2
+~
+~
+0 0 500007
+S
+#500021
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500024
+D1
+~
+~
+0 0 500003
+D2
+~
+~
+0 0 500025
+D3
+~
+~
+0 0 500011
+S
+#500022
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500023
+D1
+~
+~
+0 0 500019
+D2
+~
+~
+0 0 500026
+D3
+~
+~
+0 0 500003
+S
+#500023
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 155648 0
+D2
+~
+~
+0 0 500022
+D3
+~
+~
+0 0 500004
+S
+#500024
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 155648 0
+D1
+~
+~
+0 0 500004
+D2
+~
+~
+0 0 500021
+S
+#500025
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500021
+D1
+~
+~
+0 0 500002
+S
+#500026
+#n=#7The #0Core of the #7A#0rena#n=#n~
+~
+0 155648 0
+D0
+~
+~
+0 0 500022
+D3
+~
+~
+0 0 500002
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 0 3006 0 500003
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

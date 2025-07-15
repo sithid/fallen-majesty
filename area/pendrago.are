@@ -1,0 +1,1234 @@
+#AREADATA
+Name        Newbie Prison~
+Builders    Huw~
+VNUMs       100800 100899
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#100800
+Prison Guest~
+#lP#Lrison #lG#Luest#n~
+A #lP#Lrison #lG#Luest#n sits here awaiting to meet someone.
+~
+~
+3
+0 200 S
+168 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#100801
+Prison Receptionist~
+#RP#7rison #RR#7eceptionist#n~
+A #RP#7rison #RR#7eceptionist#n waits here filing some reports.
+~
+~
+3
+0 300 S
+82 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#100802
+Prison Security~
+#rP#7rison #rS#7ecurity#n~
+A #rP#7rison #rS#7ecurity#n guard stands here eyeballing you.
+~
+~
+3
+0 0 S
+217 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100803
+Prison Officer~
+#7P#Rrison #7O#Rfficer#n~
+A #7P#Rrison #7O#Rfficer#n sits here doing "work".
+~
+~
+3
+0 0 S
+222 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100804
+Prison Guard~
+#oP#Lrison #oG#Luard#n~
+A #oP#Lrison #oG#Luard#n passes by quickly.
+~
+~
+1
+0 0 S
+312 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#100805
+Prison Guard2~
+#RP#rrison #RG#ruard#n~
+A large #RP#rrison #RG#ruard#n stands here blocking your passage, almost.
+~
+~
+3
+0 500 S
+197 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#100806
+Prison Hunter Dog~
+#RH#7unter #RD#7og#n~
+A savage #RH#7unter #RD#7og#n is here tearing apart a bone.
+~
+~
+1
+0 -200 S
+280 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100807
+Prison Officer2~
+#yP#Rrison #yO#Rfficer#n~
+An extremely strong #yP#Rrison #yO#Rfficer#n passes around inspecting the convicts.
+~
+~
+1
+0 0 S
+366 0 0 5d0+0 0d0+0
+0 0
+0 0 2
+#100808
+Prison Officer3~
+#oP#rrison #oO#rfficer#n~
+A #oP#rrison #oO#rfficer#n of high rank is venting his anger on a junior officer here.
+~
+~
+3
+0 0 S
+390 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#100809
+Prison Convict~
+#RP#rison #RC#ronvict#n~
+A #RP#rison #RC#ronvict#n stand here in the courner with a small glass knife.
+~
+~
+3
+0 -300 S
+193 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100810
+Prison Convict2~
+#RP#7rison #RC#7onvict#n~
+A #RP#7rison #RC#7onvict#n is here because of murder.
+~
+~
+3
+0 0 S
+229 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100811
+Prison Convict3~
+#rP#7rison #rC#7onvict#n~
+A #rP#7rison #rC#7onvict#n is here because of rape.
+~
+~
+3
+0 0 S
+255 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100812
+prison convict4~
+#lP#Lrison #lC#Lonvict#n~
+A #lP#Lrison #lC#Lonvict#n is here because of grand theft.
+~
+-
+l
+~
+3
+0 0 S
+253 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100813
+Prison Convict5~
+#RP#orison #RC#oonvict#n~
+A #RP#orison #RC#oonvict#n is here for stealing the code to this mud! MAKE HIM DIE!
+~
+~
+3
+0 0 S
+351 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100814
+Prison Convict6~
+#oP#rrison #oC#ronvict#n~
+A #oP#rrison #oC#ronvict#n is here for grand theft auto.
+~
+~
+3
+0 0 S
+331 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100815
+Prison Convict7~
+#oP#Rrison #oC#Ronvict#n~
+A #oP#Rrison #oC#Ronvict#n is here smoking some drugs.
+~
+~
+3
+0 0 S
+284 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100816
+Prison Convict8~
+#yP#Rrison #yC#Ronvict#n~
+A #yP#Rrison #yC#Ronvict#n is here trippin' on some smuggled pot.
+~
+~
+3
+0 0 S
+318 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100817
+Prison Convict9~
+#LP#Rrison #LC#Ronvict#n~
+A #LP#Rrison #LC#Ronvict#n is here practicing with some small weaponry he created out of pork.
+~
+~
+3
+0 0 S
+368 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100818
+Prison Convict10~
+#RP#rrison #RC#ronvict#n~
+A #RP#rrison #RC#ronvict#n is here, flexing their large muscles.
+~
+~
+11
+0 0 S
+372 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100819
+Prison Convict11~
+#7P#Rrison #7C#Ronvict#n~
+A #7P#Rrison #7C#Ronvict#n is here lifting the weights.
+~
+~
+3
+0 0 S
+83 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100820
+Prison Convict12~
+#oP#Lrison #oC#Lonvict#n~
+A #oP#Lrison #oC#Lonvict#n is here doing their exercise movements.
+~
+~
+3
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100821
+Prison Rat~
+#PP#prison #PR#pat#n~
+A #PP#prison #PR#pat#n is chewing some junk.
+~
+~
+9
+0 0 S
+473 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100822
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+71 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100823
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100824
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#100825
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+7 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#100800
+#RR#reception #RW#raiting #RR#room#n~
+~
+0 0 0
+D1
+~
+~
+2 0 100801
+D2
+~
+~
+0 0 100802
+S
+#100801
+#RR#receptionist #RO#rffice#n~
+~
+0 0 0
+D3
+~
+~
+2 0 100800
+S
+#100802
+#RS#recurity #RC#rheck #RP#roint#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100800
+D2
+~
+~
+0 0 100804
+D3
+~
+~
+3 0 100803
+S
+#100803
+#RS#recurity #RG#ruard #RO#rffice#n~
+~
+0 0 0
+D1
+~
+~
+3 0 100802
+S
+#100804
+#RP#rrison #RM#rain #RG#ruest #RH#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100802
+D1
+~
+~
+0 0 100805
+D3
+~
+~
+0 0 100834
+S
+#100805
+#RG#ruest #RM#rain #RH#rall#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100806
+D3
+~
+~
+0 0 100804
+S
+#100806
+#RH#rall #RT#ro #RT#rhe #RH#rolding #RC#rells#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100807
+D3
+~
+~
+0 0 100805
+S
+#100807
+#RH#rall #RT#ro #RT#rhe #RH#rolding #RC#rells#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100808
+D1
+~
+~
+0 0 100810
+D2
+~
+~
+3 0 100809
+D3
+~
+~
+0 0 100806
+S
+#100808
+#RH#rolding #RC#rell #RN#rumber #R00#y1#n~
+~
+0 0 0
+D2
+~
+~
+3 0 100807
+S
+#100809
+#RH#rolding #RC#rell #RN#rumber #R00#y2#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100807
+S
+#100810
+#RH#rolding #RC#rell #RH#rall#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100811
+D1
+~
+~
+0 0 100813
+D2
+~
+~
+3 0 100812
+D3
+~
+~
+0 0 100807
+S
+#100811
+#RH#rolding #RC#rell #RN#rumber #R00#y3#n~
+~
+0 0 0
+D2
+~
+~
+3 0 100810
+S
+#100812
+#RH#rolding #RC#rell #RN#rumber #R00#y4#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100810
+S
+#100813
+#RH#rolding #RC#rell #RH#rall#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100814
+D1
+~
+~
+0 0 100816
+D2
+~
+~
+3 0 100815
+D3
+~
+~
+0 0 100810
+S
+#100814
+#RH#rolding #RC#rell #RN#rumber #R00#y5#n~
+~
+0 0 0
+D2
+~
+~
+3 0 100813
+S
+#100815
+#RH#rolding #RC#rell #RN#rumber #R00#y6#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100813
+S
+#100816
+#RH#rolding #RC#rell #RH#rall#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100818
+D1
+~
+~
+0 0 100819
+D2
+~
+~
+3 0 100817
+D3
+~
+~
+0 0 100813
+S
+#100817
+#RH#rolding #RC#rell #RN#rumber #R00#y8#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100816
+S
+#100818
+#RH#rolding #RC#rell #RN#rumber #R00#y7#n~
+~
+0 0 0
+D2
+~
+~
+3 0 100816
+S
+#100819
+#RH#rolding #RC#rell #RH#rall#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100820
+D1
+~
+~
+0 0 100822
+D2
+~
+~
+3 0 100821
+D3
+~
+~
+0 0 100816
+S
+#100820
+#RH#rolding #RC#rell #RN#rumber #R00#y9#n~
+~
+0 0 0
+D2
+~
+~
+3 0 100819
+S
+#100821
+#RH#rolding #RC#rell #RN#rumber #R0#y10#n~
+~
+0 0 0
+D0
+~
+~
+3 0 100819
+S
+#100822
+#RP#rrison #RW#ring #RT#ro #RE#rxercise #RA#rrea#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100823
+D3
+~
+~
+0 0 100819
+S
+#100823
+#RP#rrison #RW#ring #RT#ro #RE#rxercise #RA#rrea#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100822
+D2
+~
+~
+0 0 100824
+S
+#100824
+#RP#rrison #RW#ring #RT#ro #RE#rxercise #RA#rrea#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100823
+D3
+~
+~
+0 0 100825
+S
+#100825
+#RE#rxit #RT#ro #RE#rxercise #RA#rrea#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100824
+D3
+~
+~
+0 0 100826
+S
+#100826
+#RE#rxercise #RC#rourtyard#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100827
+D1
+~
+~
+0 0 100825
+D3
+~
+~
+0 0 100830
+S
+#100827
+#RE#rxercise #RC#rourtyard#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100826
+D3
+~
+~
+0 0 100828
+D5
+~
+~
+3 0 100836
+S
+#100828
+#RE#rxercise #RC#rourtyard#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100831
+D1
+~
+~
+0 0 100827
+D2
+~
+~
+0 0 100830
+S
+#100830
+#RE#rxercise #RC#rourtyard#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100828
+D1
+~
+~
+0 0 100826
+S
+#100831
+#RH#rallway #RI#rn #RT#rhe #RP#rrison#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100828
+D3
+~
+~
+0 0 100832
+S
+#100832
+#RW#reight #RR#room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100835
+D1
+~
+~
+0 0 100831
+D2
+~
+~
+0 0 100833
+S
+#100833
+#RB#roxing #RR#ring#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100832
+S
+#100834
+#RH#rallway #RI#rn #RT#rhe #RP#rrison#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100804
+D3
+~
+~
+0 0 100835
+S
+#100835
+#RH#rallway #RI#rn #RT#rhe #RP#rrison#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100834
+D2
+~
+~
+0 0 100832
+S
+#100836
+#RS#rewage #RE#rscape#n~
+~
+0 0 0
+D2
+~
+~
+0 0 100837
+D4
+~
+~
+3 0 100827
+S
+#100837
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100836
+D2
+~
+~
+0 0 100838
+S
+#100838
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100837
+D2
+~
+~
+0 0 100839
+D3
+~
+~
+0 0 100840
+S
+#100839
+#RS#rewage #RE#rxit #RS#rtore #RR#room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100838
+S
+#100840
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100841
+D1
+~
+~
+0 0 100838
+S
+#100841
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100842
+D2
+~
+~
+0 0 100840
+S
+#100842
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 100843
+D2
+~
+~
+0 0 100841
+S
+#100843
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100844
+D2
+~
+~
+0 0 100842
+S
+#100844
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100845
+D3
+~
+~
+0 0 100843
+S
+#100845
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100846
+D3
+~
+~
+0 0 100844
+S
+#100846
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100847
+D3
+~
+~
+0 0 100845
+S
+#100847
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D1
+~
+~
+0 0 100848
+D3
+~
+~
+0 0 100846
+S
+#100848
+#RS#rewage #RE#rxit #RP#rathway#n~
+~
+0 0 0
+D1
+~
+~
+3 0 100849
+D3
+~
+~
+0 0 100847
+S
+#100849
+#RE#rxit #RF#rrom #RT#rhe #RP#rrison#n~
+~
+0 0 0
+D3
+~
+~
+3 0 100848
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100800 10 100800
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100801 10 100801
+G 0 30053 0
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100801 10 100801
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100802 10 100802
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100803 10 100803
+M 0 100806 20 100804
+M 0 100806 20 100804
+M 0 100806 20 100804
+M 0 100806 20 100804
+M 0 100804 20 100806
+M 0 100804 20 100806
+M 0 100804 20 100806
+M 0 100804 20 100806
+M 0 100804 20 100806
+M 0 100806 20 100807
+M 0 100806 20 100807
+M 0 100806 20 100807
+M 0 100806 20 100807
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100816 10 100808
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100809 10 100809
+M 0 100807 20 100810
+M 0 100807 20 100810
+M 0 100807 20 100810
+M 0 100807 20 100810
+M 0 100807 20 100810
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100810 10 100811
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100811 10 100812
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100813 10 100815
+M 0 100806 20 100816
+M 0 100806 20 100816
+M 0 100806 20 100816
+M 0 100806 20 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100805 10 100816
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100815 10 100817
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100814 10 100818
+M 0 100807 20 100819
+M 0 100807 20 100819
+M 0 100807 20 100819
+M 0 100807 20 100819
+M 0 100807 20 100819
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100817 10 100820
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100818 10 100821
+M 0 100807 20 100824
+M 0 100807 20 100824
+M 0 100807 20 100824
+M 0 100807 20 100824
+M 0 100807 20 100824
+M 0 100804 20 100824
+M 0 100804 20 100824
+M 0 100804 20 100824
+M 0 100804 20 100824
+M 0 100804 20 100824
+M 0 100807 20 100827
+M 0 100807 20 100827
+M 0 100807 20 100827
+M 0 100807 20 100827
+M 0 100807 20 100827
+M 0 100806 20 100828
+M 0 100806 20 100828
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100820 10 100830
+M 0 100806 20 100832
+M 0 100806 20 100832
+M 0 100806 20 100832
+M 0 100806 20 100832
+M 0 100804 20 100832
+M 0 100804 20 100832
+M 0 100804 20 100832
+M 0 100804 20 100832
+M 0 100804 20 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100819 10 100832
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100808 10 100833
+M 0 100804 20 100834
+M 0 100804 20 100834
+M 0 100804 20 100834
+M 0 100804 20 100834
+M 0 100804 20 100834
+M 0 100821 30 100836
+M 0 100821 30 100836
+M 0 100821 30 100836
+M 0 100821 30 100837
+M 0 100821 30 100837
+M 0 100821 30 100837
+M 0 100821 30 100838
+M 0 100821 30 100838
+M 0 100821 30 100838
+M 0 100821 30 100839
+M 0 100821 30 100839
+M 0 100821 30 100839
+M 0 100821 30 100840
+M 0 100821 30 100840
+M 0 100821 30 100840
+M 0 100821 30 100842
+M 0 100821 30 100842
+M 0 100821 30 100842
+M 0 100821 30 100843
+M 0 100821 30 100843
+M 0 100821 30 100843
+M 0 100821 30 100844
+M 0 100821 30 100844
+M 0 100821 30 100844
+M 0 100821 30 100846
+M 0 100821 30 100846
+M 0 100821 30 100846
+M 0 100821 30 100848
+M 0 100821 30 100848
+M 0 100821 30 100848
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

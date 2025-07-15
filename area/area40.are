@@ -1,0 +1,258 @@
+#AREADATA
+Name        Newbie School~
+Builders    Huw~
+VNUMs       101900 101999
+Security    1
+Recall      3005
+End
+
+
+
+#MOBILES
+#101909
+Ghost~
+A newbie ghost~
+A newbie ghost is here.
+~
+~
+3 0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#101900
+School Entrance (config -brief)~
+This is the Newbie School to help you get started for your long journey
+to power at Fallen Majesty.  
+To continue, enter north or n.
+~
+0 0 0
+D0
+~
+~
+0 0 101901
+D3
+~
+~
+0 0 3700
+S
+#101901
+Configuration Room~
+To configure several options on your character, hit config.  To toggle
+those options, type config +keyword or config -keyword.  
+~
+0 0 0
+D0
+~
+~
+0 0 101902
+D2
+~
+~
+0 0 101900
+S
+#101902
+Score Room~
+Score is a command (enter score).  It will show you personal information
+for your character.  Score is a good way to see your hitroll, damroll,
+damcap, ac, alignment, status, primal, power rating, save_vs_spells, quest
+points, legend points, experience, several auto configurations,
+str/int/wis/dex/con, age, Hit points, Mana points, Movement points, hours
+played, Wimpy, gold, and Arena Stats.  
+~
+0 0 0
+D0
+~
+~
+0 0 101903
+D2
+~
+~
+0 0 101901
+S
+#101903
+Finger Room~
+Finger is a command (Finger player).  Finger shows a more limited amount
+of information for any existing player (logged on or off) in the game.  
+~
+0 0 0
+D0
+~
+~
+0 0 101904
+D2
+~
+~
+0 0 101902
+S
+#101904
+Communication~
+For communication to the mud, hit chan, to see what channels you can use
+and see.  Note that newbies cannot chat, only newbie chat, until they are
+allowed by an immortal.  
+~
+0 0 0
+D0
+~
+~
+0 0 101905
+D2
+~
+~
+0 0 101903
+S
+#101905
+Other Commands~
+Recall- returns you to your home. Set your home with Home here.
+Activate- activate items
+Who- See who is on
+Where- See who is in your current area
+Mudstat- see information about the mud
+changes- see the last 15 changes
+changes new- see changes made today
+changes all- see all the posted changes
+help (command)- see a helpfile
+help rules- see the rules
+help policy- see the muds policy
+~
+0 0 0
+D0
+~
+~
+0 0 101906
+D2
+~
+~
+0 0 101904
+S
+#101906
+Pkready~
+Since this is a player killer mud, you will need to pkready in order to
+pk.  Help pkready.  
+~
+0 0 0
+D0
+~
+~
+0 0 101907
+D2
+~
+~
+0 0 101905
+S
+#101907
+Newbie status and Power Rating~
+As a newbie you experience a large experience bonus and you will stay a
+newbie forever until your power rating exceeds 1000, or 1250 for a lich or
+mage.  So create your character strong and see these helpfiles...  Help
+pkready and help powerrating.  
+~
+0 0 0
+D0
+~
+~
+0 0 101908
+D2
+~
+~
+0 0 101906
+S
+#101908
+Quit Room~
+In order to quit, you must fight the guardian of reality.  To find the
+guardian of reality, go two north from the default recall home.  The
+guardian of reality will randomly use a skill that forces players to quit. 
+HOWEVER, as a newbie, and only as a newbie, you may quit whenever and
+where-ever.  
+~
+0 0 0
+D0
+~
+~
+0 0 101909
+D2
+~
+~
+0 0 101907
+S
+#101909
+Gaining Experience~
+You gain experience by killing mobs (kill <target>).  You may use
+experience to buy primal or train things (<train> to see a list).  
+~
+0 0 0
+D0
+~
+~
+0 0 101910
+D2
+~
+~
+0 0 101908
+S
+#101910
+Avatar and Healing/damaging Rooms~
+To train avatar, kill 5 mobs and train 1000 hp.  Then type train avatar. 
+You may not be killed now, only decapitated by players, and only if you are
+pkready.  
+There are healing and damaging rooms. They constantly heal you
+or they constantly damage you, a healing room is south from recall.
+~
+0 0 0
+D0
+~
+~
+0 0 101911
+D2
+~
+~
+0 0 101909
+S
+#101911
+Selfclass Room~
+To selfclass, you must be an avatar.  Receive a class by selfclassing,
+Selfclass (classname).  Selfclass alone shows you a list of classes or you
+may help class.  Now Recall, and go up south to the newbie arena to gain
+more experience and watch out for helpful helpfiles.  If you are stuck use
+the newbie channel to ask questions and be patient.  
+~
+0 0 0
+D2
+~
+~
+0 0 101910
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 101909 5 101909
+M 0 101909 5 101909
+M 0 101909 5 101909
+M 0 101909 5 101909
+M 0 101909 5 101909
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

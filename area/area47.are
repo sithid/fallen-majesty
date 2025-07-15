@@ -1,0 +1,1660 @@
+#AREADATA
+Name        Realm of Fear~
+Builders    Blitzkrieg~
+VNUMs       52200 52299
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#52200
+lesser poinephobia~
+#PLesser #0Poinephobia#n~
+#PLesser #0Poinephobia.#n
+~
+~
+3
+2048 -1000 S
+415 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52201
+#0S#8p#7e#0c#7t#8r#0e#n~
+#0S#8p#7e#0c#7t#8r#0e#n~
+#0S#8p#7e#0c#7t#8r#0e#n #7floats here holding a spectral scythe!#n
+~
+~
+3
+0 -1000 S
+506 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52202
+lesser arithmophobia~
+#PLesser #0Arithmophobia#n~
+#PLesser #0Arithmophobia.#n
+~
+~
+3
+0 -1000 S
+419 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52203
+lesser zoophobia~
+#PLesser #0Zoophobia#n~
+#PLesser #0Zoophobia.#n
+~
+~
+3
+0 -1000 S
+428 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52204
+no name~
+#CW#7il#Cl#0-#CO#0-#CW#8is#Cp#n~
+#CW#7il#Cl#0-#CO#0-#CW#8is#Cp#n #cradiates an eerie glow#n
+~
+~
+3
+0 -1000 S
+481 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52205
+lesser acrophobia~
+#PLesser #0Acrophobia#n~
+#PLesser #0Acrophobia.#n
+~
+~
+3
+0 -1000 S
+440 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52206
+lesser gamophobia~
+#PLesser #0Gamophobia#n~
+#PLesser #0Gamophobia.#n
+~
+~
+3
+0 -1000 S
+444 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52207
+Acolyte~
+#0Ac#7o#8l#7y#0te#n~
+#0Ac#7o#8l#7y#0te #7sits here praying to their evil gods#n
+~
+~
+3
+0 0 S
+483 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52208
+bibliophobia~
+#PLesser #0Bibliophobia#n~
+#PLesser #0Bibliophobia.#n
+~
+~
+1
+0 -1000 S
+393 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52211
+bisiogibua~
+#PLesser #0Bisiogibua#n~
+#PLesser #0Bisiogibua.#n
+~
+~
+1
+0 -1000 S
+382 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52212
+iatrophobia~
+#PLesser #0iatrophobia#n~
+#PLesser #0iatrophobia.#n
+~
+~
+1
+0 -1000 S
+392 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52214
+oneirophobia~
+#PLesser #0Oneirophobia#n~
+#PLesser #0Oneirophobia.#n
+~
+~
+1
+0 -1000 S
+408 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52215
+anthophobia~
+#PLesser #0Anthophobia#n~
+#PLesser #0Anthophobia.#n
+~
+~
+1
+0 -1000 S
+388 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52219
+Greater Zoophobia~
+#RGreater #0Zoophobia#n~
+#RGreater #0Zoophobia#n
+~
+~
+3
+0 -1000 S
+499 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52220
+Greater Arithmophobia~
+#RGreater #0Arithmophobia#n~
+#RGreater #0Arithmophobia#n
+~
+~
+3
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52222
+Greater Acrophobia~
+#RGreater #0Acrophobia#n~
+#RGreater #0Acrophobia#n
+~
+~
+3
+0 -1000 S
+521 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52223
+Greater Gamophobia~
+#RGreater #0Gamophobia#n~
+#RGreater #0Gamophobia#n
+~
+~
+3
+0 -1000 S
+538 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52225
+Greater Bibliophobia~
+#RGreater #0Bibliophobia#n~
+#RGreater #0Bibliophobia#n
+~
+~
+3
+0 -1000 S
+600 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52226
+Greater Poinephobia~
+#RGreater #0Poinephobia#n~
+#RGreater #0Poinephobia#n
+~
+~
+3
+0 0 S
+519 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52228
+Greater Bisiogibua~
+#RGreater #0Bisiogibua#n~
+#RGreater #0Bisiogibua#n
+~
+~
+3
+0 0 S
+535 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52229
+Greater Iatrophobia~
+#RGreater #0Iatrophobia#n~
+#RGreater #0Iatrophobia#n
+~
+~
+3
+0 0 S
+505 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52231
+Greater Anthophobia~
+#RGreater #0Anthophobia#n~
+#RGreater #0Anthophobia#n
+~
+~
+3
+0 -1000 S
+517 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52236
+Immense Zoophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Zoophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Zoophobia#n
+~
+~
+3
+0 0 S
+553 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52237
+Immense Arthmophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Arthmophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Arthmophobia#n
+~
+~
+3
+0 0 S
+571 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52239
+Immense Acrophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Acrophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Acrophobia#n
+~
+~
+3
+0 0 S
+537 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52240
+Immense Gamophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Gamophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Gamophobia#n
+~
+~
+3
+0 0 S
+602 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52242
+Immense Bibliophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Bibliophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Bibliophobia
+~
+~
+3
+0 0 S
+562 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52243
+Immense Poinephobia~
+#rI#Rm#om#ye#on#Rs#re#0 Poinephobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Poinephobia#n
+~
+~
+3
+0 0 S
+534 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52245
+Immense Bisiogibua~
+#rI#Rm#om#ye#on#Rs#re#0 Bisiogibua#n~
+#rI#Rm#om#ye#on#Rs#re#0 Bisiogibua#n
+~
+~
+3
+0 0 S
+543 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52246
+Immense Iatrophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Iatrophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Iatrophobia#n
+~
+~
+3
+0 0 S
+565 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52248
+Immense Oneirophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Oneirophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Oneirophobia#n
+~
+~
+3
+0 0 S
+549 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52252
+Unfathomable Zoophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Zoophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Zoophobia#n
+~
+~
+3
+0 0 S
+585 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52253
+Unfathomable Arithmophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Arithmophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Arithmophobia#n
+~
+~
+3
+0 0 S
+588 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52255
+Unfanthomable Acrophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Acrophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Acrophobia#n
+~
+~
+3
+0 0 S
+618 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52256
+Unfathomable Gamophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Gamophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Gamophobia#n
+~
+~
+3
+0 0 S
+31 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52258
+Unfathomable Bibliophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Bibliophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Bibliophobia#n
+~
+~
+3
+0 0 S
+603 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52259
+Unfanthomable Poinephobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Poinephobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Poinephobia
+~
+~
+3
+0 0 S
+582 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52261
+Unfathomable Bigiogibua~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Bigiogibua#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Bigiogibua#n
+~
+~
+3
+0 0 S
+621 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52262
+Unfanthomable Iatrophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Iatrophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Iatrophobia#n
+~
+~
+3
+0 0 S
+606 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52264
+Unfanthomable Oneirophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Oneirophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Oneirophobia#n
+~
+~
+3
+0 0 S
+587 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52265
+Unfanthomable Anthophobia~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Anthophobia#n~
+#yUn#of#Rat#rho#Rma#ob#yle#0 Anthophobia#n
+~
+~
+3
+0 0 S
+593 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52267
+Immense Anthophobia~
+#rI#Rm#om#ye#on#Rs#re#0 Anthophobia#n~
+#rI#Rm#om#ye#on#Rs#re#0 Anthophobia#n
+~
+~
+3
+0 0 S
+542 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52286
+mob of annoyance~
+#b #sM#so#sB #so#sF #sA#sb#sS#so#sL#su#sT#se #sA#sn#sN#so#sY#sa#sN#sc#sE#s!#s!#s!~
+#b #sM#so#sB #so#sF #sA#sb#sS#so#sL#su#sT#se #sA#sn#sN#so#sY#sa#sN#sc#sE#s!#s!#s!
+~
+~
+106637
+8366 2147483647 S
+10016 0 0 100d20+100 0d0+0
+0 0
+0 0 2
+#0
+
+
+
+#OBJECTS
+#52266
+Statue Honor Hax~
+hax's Statue~
+Hax's Statue sits here in this empty room where it rusts and collects dust....~
+~
+58 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52268
+bar code~
+#0A Bar Code is #rE#Rtche#rd #0Into the Back of #7H#8a#7x' #0Neck.#n~
+#0A Bar Code is #rE#Rtche#rd #0Into the Back of #7H#8a#7x' #0Neck.#n~
+~
+9 16384 131073
+0 0 0 0
+1 2147483647 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52269
+mirror fear strange~
+#0A Strange Mirror With Beautiful Carvings.#n~
+#0A strange mirror with beautiful carvings etched with #ygold #0sits here.#n~
+~
+59 0 0
+52200 0 0 0
+-1 2147483647 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52270
+Hax' shit earring~
+#7A brightly #yglowing #7earring made of pure (E#ple#Pct#pru#7m)#n~
+(no description)~
+~
+9 16707 262145
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#52200
+#0Realm of Fear.#n~
+As you step through the portal, you find yourself trembling with fear. 
+When you look onward it seems as though all the fears of all imaginations
+are centered in this very spot.  
+~
+0 4 0
+D0
+~
+~
+0 0 52201
+S
+#52201
+#0Hall of #PLesser #0Fears.#n~
+A cold breeze flows past you as you walk through what seems to be a never
+ending tunnel.  This place is getting to you.  
+~
+0 4 0
+D0
+~
+~
+0 0 52204
+D1
+~
+~
+0 0 52202
+D2
+~
+~
+0 0 52200
+D3
+~
+~
+0 0 52203
+S
+#52202
+#0The Fear of Numbers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52201
+S
+#52203
+#0The Fear of Animals#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52201
+S
+#52204
+#0Hall of #PLesser #0Fears.#n~
+A cold breeze flows past you as you walk through what seems to be a never
+ending tunnel.  This place is getting to you.  
+~
+0 4 0
+D0
+~
+~
+0 0 52207
+D1
+~
+~
+0 0 52206
+D2
+~
+~
+0 0 52201
+D3
+~
+~
+0 0 52205
+S
+#52205
+#0The Fear of Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52204
+S
+#52206
+#0Fear of Marriage#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52204
+S
+#52207
+#0Hall of #PLesser #0Fears.#n~
+A cold breeze flows past you as you walk through what seems to be a never
+ending tunnel.  This place is getting to you.  
+~
+0 4 0
+D0
+~
+~
+0 0 52210
+D1
+~
+~
+0 0 52209
+D2
+~
+~
+0 0 52204
+D3
+~
+~
+0 0 52208
+S
+#52208
+#0The Fear of Books#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52207
+S
+#52209
+#0The Fear of Punishment#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52207
+S
+#52210
+#0Hall of #PLesser #0Fears.#n~
+A cold breeze flows past you as you walk through what seems to be a never
+ending tunnel.  This place is getting to you.  
+~
+0 4 0
+D0
+~
+~
+0 0 52213
+D1
+~
+~
+0 0 52212
+D2
+~
+~
+0 0 52207
+D3
+~
+~
+0 0 52211
+S
+#52211
+#0The Fear of Diseases#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52210
+S
+#52212
+#0The Fear of Doctors#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52210
+S
+#52213
+#0Hall of #PLesser #0Fears.#n~
+A cold breeze flows past you as you walk through what seems to be a never
+ending tunnel.  This place is getting to you.  
+~
+0 4 0
+D0
+~
+~
+0 0 52216
+D1
+~
+~
+0 0 52215
+D2
+~
+~
+0 0 52210
+D3
+~
+~
+0 0 52214
+S
+#52214
+#0The Fear of Dreams#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52213
+S
+#52215
+#0The Fear of Flowers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52213
+S
+#52216
+#7A Moment of #8Se#7r#0en#7i#8ty#n~
+You feel as though your fears of past, present and future have left you. 
+Yet you still have the strange feeling that something isn't right in this
+place.  
+~
+0 1028 0
+D2
+~
+~
+0 0 52213
+D4
+~
+~
+0 0 52217
+S
+#52217
+#0Realm of Fear.#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52218
+D5
+~
+~
+0 0 52216
+S
+#52218
+#0Hall of #RGreater #0Fears.#n~
+The cold breeze grows stronger as you travel onward, the fears you once
+thought were nothing are begining to take control of your thoughts.  
+~
+0 4 0
+D0
+~
+~
+0 0 52221
+D1
+~
+~
+0 0 52220
+D2
+~
+~
+0 0 52217
+D3
+~
+~
+0 0 52219
+S
+#52219
+#0The Fear of Animals#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52218
+S
+#52220
+#0The Fear of Numbers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52218
+S
+#52221
+#0Hall of #RGreater #0Fears.#n~
+The cold breeze grows stronger as you travel onward, the fears you once
+thought were nothing are begining to take control of your thoughts.  
+~
+0 4 0
+D0
+~
+~
+0 0 52224
+D1
+~
+~
+0 0 52223
+D2
+~
+~
+0 0 52218
+D3
+~
+~
+0 0 52222
+S
+#52222
+#0The Fear of Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52221
+S
+#52223
+#0The Fear of Marriage#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52221
+S
+#52224
+#0Hall of #RGreater #0Fears.#n~
+The cold breeze grows stronger as you travel onward, the fears you once
+thought were nothing are begining to take control of your thoughts.  
+~
+0 4 0
+D0
+~
+~
+0 0 52227
+D1
+~
+~
+0 0 52226
+D2
+~
+~
+0 0 52221
+D3
+~
+~
+0 0 52225
+S
+#52225
+#0The Fear of Books#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52224
+S
+#52226
+#0The Fear of Punishment#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52224
+S
+#52227
+#0Hall of #RGreater #0Fears.#n~
+The cold breeze grows stronger as you travel onward, the fears you once
+thought were nothing are begining to take control of your thoughts.  
+~
+0 4 0
+D0
+~
+~
+0 0 52230
+D1
+~
+~
+0 0 52229
+D2
+~
+~
+0 0 52224
+D3
+~
+~
+0 0 52228
+S
+#52228
+#0The Fear of Diseases#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52227
+S
+#52229
+#0The Fear of Doctors#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52227
+S
+#52230
+#0Hall of #RGreater #0Fears.#n~
+The cold breeze grows stronger as you travel onward, the fears you once
+thought were nothing are begining to take control of your thoughts.  
+~
+0 4 0
+D0
+~
+~
+0 0 52233
+D1
+~
+~
+0 0 52232
+D2
+~
+~
+0 0 52227
+D3
+~
+~
+0 0 52231
+S
+#52231
+#0The Fear of Dreams#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52230
+S
+#52232
+#0The Fear of Flowers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52230
+S
+#52233
+#7A Moment of #8Se#7r#0en#7i#8ty#n~
+Once again you find yourself in a place of peace and serenity.
+~
+0 4 0
+D2
+~
+~
+0 0 52230
+D4
+~
+~
+0 0 52234
+S
+#52234
+#0Realm of Fear.#n~
+When stepping up from the place of peace you find once again that you are
+shaking violently with fear of what is beyond.  
+~
+0 0 0
+D0
+~
+~
+0 0 52235
+D5
+~
+~
+0 0 52233
+S
+#52235
+#0Hall of #rI#Rm#om#ye#on#Rs#re #0Fears.#n~
+The breeze around you grows stronger still, causing you to shiver
+slightly, which is hardly noticeable for you are trembling like never before
+~
+0 0 0
+D0
+~
+~
+0 0 52238
+D1
+~
+~
+0 0 52237
+D2
+~
+~
+0 0 52234
+D3
+~
+~
+0 0 52236
+S
+#52236
+#0The Fear of Animals#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52235
+S
+#52237
+#0The Fear of Numbers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52235
+S
+#52238
+#0Hall of #rI#Rm#om#ye#on#Rs#re #0Fears.#n~
+The breeze around you grows stronger still, causing you to shiver
+slightly, which is hardly noticeable for you are trembling like never before
+~
+0 0 0
+D0
+~
+~
+0 0 52241
+D1
+~
+~
+0 0 52240
+D2
+~
+~
+0 0 52235
+D3
+~
+~
+0 0 52239
+S
+#52239
+#0The Fear of Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52238
+S
+#52240
+#0The Fear of Marriage#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52238
+S
+#52241
+#0Hall of #rI#Rm#om#ye#on#Rs#re #0Fears.#n~
+The breeze around you grows stronger still, causing you to shiver
+slightly, which is hardly noticeable for you are trembling like never before
+~
+0 0 0
+D0
+~
+~
+0 0 52244
+D1
+~
+~
+0 0 52243
+D2
+~
+~
+0 0 52238
+D3
+~
+~
+0 0 52242
+S
+#52242
+#0The Fear of Books#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52241
+S
+#52243
+#0The Fear of Punishment#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52241
+S
+#52244
+#0Hall of #rI#Rm#om#ye#on#Rs#re #0Fears.#n~
+The breeze around you grows stronger still, causing you to shiver
+slightly, which is hardly noticeable for you are trembling like never before
+~
+0 0 0
+D0
+~
+~
+0 0 52247
+D1
+~
+~
+0 0 52246
+D2
+~
+~
+0 0 52241
+D3
+~
+~
+0 0 52245
+S
+#52245
+#0The Fear of Diseases#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52244
+S
+#52246
+#0The Fear of Doctors#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52244
+S
+#52247
+#0Hall of #rI#Rm#om#ye#on#Rs#re #0Fears.#n~
+The breeze around you grows stronger still, causing you to shiver
+slightly, which is hardly noticeable for you are trembling like never before
+~
+0 0 0
+D0
+~
+~
+0 0 52249
+D1
+~
+~
+0 0 52267
+D2
+~
+~
+0 0 52244
+D3
+~
+~
+0 0 52248
+S
+#52248
+#0The Fear of Dreams#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52247
+S
+#52249
+#7A Moment of #8Se#7r#0en#7i#8ty#n~
+As you enter the room you take a sigh of relief.  For you are in a place
+of purity.  
+~
+0 0 0
+D2
+~
+~
+0 0 52247
+D4
+~
+~
+0 0 52250
+S
+#52250
+#0Realm of Fear.#n~
+As you step up from you moment of serenity you find yourself trembling
+once again at the thought of what may come to be of you if you travel
+onward.  
+~
+0 0 0
+D0
+~
+~
+0 0 52251
+D5
+~
+~
+0 0 52249
+S
+#52251
+#0Hall of #yUn#of#Rat#rho#Rma#ob#yle #0Fears.#n~
+The cold breeze has now become bone chilling.  You nearly piss your pants
+in anticipation of what is in the rooms around you.  
+~
+0 0 0
+D0
+~
+~
+0 0 52254
+D1
+~
+~
+0 0 52253
+D2
+~
+~
+0 0 52250
+D3
+~
+~
+0 0 52252
+S
+#52252
+#0The Fear of Animals#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52251
+S
+#52253
+#0The Fear of Numbers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52251
+S
+#52254
+#0Hall of #yUn#of#Rat#rho#Rma#ob#yle #0Fears.#n~
+The cold breeze has now become bone chilling.  You nearly piss your pants
+in anticipation of what is in the rooms around you.  
+~
+0 0 0
+D0
+~
+~
+0 0 52257
+D1
+~
+~
+0 0 52256
+D2
+~
+~
+0 0 52251
+D3
+~
+~
+0 0 52255
+S
+#52255
+#0The Fear of Heights#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52254
+S
+#52256
+#0The Fear of Marriage#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52254
+S
+#52257
+#0Hall of #yUn#of#Rat#rho#Rma#ob#yle #0Fears.#n~
+The cold breeze has now become bone chilling.  You nearly piss your pants
+in anticipation of what is in the rooms around you.  
+~
+0 0 0
+D0
+~
+~
+0 0 52260
+D1
+~
+~
+0 0 52259
+D2
+~
+~
+0 0 52254
+D3
+~
+~
+0 0 52258
+S
+#52258
+#0The Fear of Books#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52257
+S
+#52259
+#0The Fear of Punishment#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52257
+S
+#52260
+#0Hall of #yUn#of#Rat#rho#Rma#ob#yle #0Fears.#n~
+The cold breeze has now become bone chilling.  You nearly piss your pants
+in anticipation of what is in the rooms around you.  
+~
+0 0 0
+D0
+~
+~
+0 0 52263
+D1
+~
+~
+0 0 52262
+D2
+~
+~
+0 0 52257
+D3
+~
+~
+0 0 52261
+S
+#52261
+#0The Fear of Diseases#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52260
+S
+#52262
+#0The Fear of Doctors#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52260
+S
+#52263
+#0Hall of #yUn#of#Rat#rho#Rma#ob#yle #0Fears.#n~
+The cold breeze has now become bone chilling.  You nearly piss your pants
+in anticipation of what is in the rooms around you.  
+~
+0 0 0
+D0
+~
+~
+0 0 52266
+D1
+~
+~
+0 0 52265
+D2
+~
+~
+0 0 52260
+D3
+~
+~
+0 0 52264
+S
+#52264
+#0The Fear of Dreams#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52263
+S
+#52265
+#0The Fear of Flowers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52263
+S
+#52266
+#0Fear of Empty Rooms.#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52263
+S
+#52267
+#0The Fear of Flowers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52247
+S
+#52268
+#yA#Ln #RA#Ln#Pn#yo#Gy#oi#rn#Pg #LA#lr#Re#ya#G.#g.#n~
+~
+0 8462544 0
+D0
+~
+~
+0 0 52268
+D1
+~
+~
+0 0 52268
+D2
+~
+~
+0 0 52268
+D3
+~
+~
+0 0 52268
+D4
+~
+~
+0 0 52268
+D5
+~
+~
+0 0 52268
+S
+#52269
+#0Entrance to a Realm of Fear.#n~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 52201 10 52200
+M 0 52204 10 52200
+M 0 52207 10 52200
+M 0 52201 10 52201
+M 0 52204 10 52201
+M 0 52207 10 52201
+M 0 52202 10 52202
+M 0 52203 10 52203
+M 0 52201 10 52204
+M 0 52204 10 52204
+M 0 52207 10 52204
+M 0 52205 10 52205
+M 0 52206 10 52206
+M 0 52201 10 52207
+M 0 52204 10 52207
+M 0 52207 10 52207
+M 0 52208 10 52208
+M 0 52200 10 52209
+M 0 52201 10 52210
+M 0 52204 10 52210
+M 0 52207 10 52210
+M 0 52211 10 52211
+M 0 52212 10 52212
+M 0 52201 10 52213
+M 0 52204 10 52213
+M 0 52207 10 52213
+M 0 52214 10 52214
+M 0 52215 10 52215
+M 0 52201 10 52217
+M 0 52204 10 52217
+M 0 52207 10 52217
+M 0 52201 10 52218
+M 0 52204 10 52218
+M 0 52207 10 52218
+M 0 52219 10 52219
+M 0 52220 10 52220
+M 0 52201 10 52221
+M 0 52204 10 52221
+M 0 52207 10 52221
+M 0 52222 10 52222
+M 0 52223 10 52223
+M 0 52201 10 52224
+M 0 52204 10 52224
+M 0 52207 10 52224
+M 0 52225 10 52225
+M 0 52226 10 52226
+M 0 52201 10 52227
+M 0 52204 10 52227
+M 0 52207 10 52227
+M 0 52228 10 52228
+M 0 52229 10 52229
+M 0 52201 10 52230
+M 0 52204 10 52230
+M 0 52207 10 52230
+M 0 52231 10 52231
+M 0 52231 10 52232
+M 0 52201 10 52234
+M 0 52204 10 52234
+M 0 52207 10 52234
+M 0 52201 10 52235
+M 0 52204 10 52235
+M 0 52207 10 52235
+M 0 52236 10 52236
+M 0 52237 10 52237
+M 0 52201 10 52238
+M 0 52204 10 52238
+M 0 52207 10 52238
+M 0 52239 10 52239
+M 0 52240 10 52240
+M 0 52201 10 52241
+M 0 52204 10 52241
+M 0 52207 10 52241
+M 0 52242 10 52242
+M 0 52243 10 52243
+M 0 52201 10 52244
+M 0 52204 10 52244
+M 0 52207 10 52244
+M 0 52245 10 52245
+M 0 52246 10 52246
+M 0 52201 10 52247
+M 0 52204 10 52247
+M 0 52207 10 52247
+M 0 52248 10 52248
+M 0 52201 10 52250
+M 0 52204 10 52250
+M 0 52207 10 52250
+M 0 52201 10 52251
+M 0 52204 10 52251
+M 0 52207 10 52251
+M 0 52252 10 52252
+M 0 52253 10 52253
+M 0 52201 10 52254
+M 0 52204 10 52254
+M 0 52207 10 52254
+M 0 52255 10 52255
+M 0 52256 1 52256
+M 0 52201 10 52257
+M 0 52204 10 52257
+M 0 52207 10 52257
+M 0 52258 10 52258
+M 0 52259 10 52259
+M 0 52201 10 52260
+M 0 52204 10 52260
+M 0 52207 10 52260
+M 0 52261 10 52261
+M 0 52262 10 52262
+M 0 52201 10 52263
+M 0 52204 10 52263
+M 0 52207 10 52263
+M 0 52264 10 52264
+M 0 52265 10 52265
+M 0 52201 15 52266
+M 0 52204 15 52266
+M 0 52207 15 52266
+O 0 52266 0 52266
+M 0 52267 10 52267
+O 0 52269 0 52269
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

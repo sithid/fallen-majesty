@@ -1,0 +1,62 @@
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format. db.c
+[*****] BUG: Fread_number: bad format, 
+, db.c
+[*****] BUG: Fread_number: bad format, ~, db.c
+[*****] BUG: Fread_number: bad format, a, db.c
+[*****] BUG: Fread_number: bad format, #, db.c
+[*****] BUG: Fread_number: bad format, 
+, db.c
+[*****] BUG: Fread_number: bad format, 
+, db.c
+[*****] BUG: Fread_number: bad format, 
+, db.c
+[*****] BUG: Fread_number: bad format, 
+, db.c
+[*****] BUG: Get_room_index: bad vnum 101912.
+[*****] CMD: clan list - Snard[*****] BUG: Get_room_index: bad vnum 53301.
+[*****] CMD: clan list - Snard[*****] BUG: Get_room_index: bad vnum 53301.
+[*****] CMD: l - Snard[*****] BUG: Get_mob_index: bad vnum 11.
+[*****] CMD: copyover now - Snard[*****] BUG: Load_mobiles: # not found.
+[*****] BUG: Load_mobiles: # not found.
+[*****] BUG: Load_mobiles: # not found.
+[*****] BUG: Load_objects: # not found, 2 found instead
+[*****] BUG: Load_objects: # not found, 2 found instead
+[*****] BUG: Load_objects: # not found, 2 found instead
+[*****] BUG: Fread_number: bad format, O, db.c
+[*****] CMD: quit - Nochtitus[*****] BUG: Fread_number: bad format, O, db.c
+[*****] BUG: Fread_number: bad format, O, db.c
+[*****] BUG: Fread_number: bad format, O, db.c
+[*****] BUG: Fread_number: bad format, O, db.c
+[*****] CMD: quit - Nochtitus[*****] BUG: Fread_number: bad format, O, db.c
+[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: eq - Raclin[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: w - Raclin[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: quest name weapon - Kushiel[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: c gas - Raclin[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: look - Raclin[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: c gas - Raclin[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: quest ball name weapon - Kushiel[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: c gas - Raclin[*****] BUG: Edit_buffer: illegal ch->substate (Tei : 0)
+[*****] CMD: c gas - Raclin[*****] BUG: editor: data is NULL!
+
+[*****] CMD: note write - Calibur

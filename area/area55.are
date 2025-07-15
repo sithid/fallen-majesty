@@ -1,0 +1,124 @@
+#AREADATA
+Name        New area~
+Builders    Sarah~
+VNUMs       53200 53249
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#53200
+Dream Sheep~
+#nW#7h#ni#7t#ne #0S#nh#0e#ne#0p#n~
+A White Sheep passes by luring people into the dream world
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53201
+Dream Cow~
+#nF#0lyin#ng #8C#7o#8w#n~
+A #nF#0lyin#ng #8C#7o#8w#n flies to the moon
+~
+~
+1
+0 0 S
+7 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53202
+Dream Memories Past~
+#oMemories of the Past#n~
+#oMemories of the Past#n haunt you long past they have happened
+~
+~
+1
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53203
+Dream Flying Pumpkin~
+#nF#7l#ny#0i#nn#7g #oP#0u#om#0p#ok#0i#on#n~
+A #nF#7l#ny#0i#nn#7g #oP#0u#om#0p#ok#0i#on#n grins menacingly at you!
+~
+~
+1
+0 -500 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53204
+Dream Giant Rat~
+#PG#pian#Pt #oR#7a#ot#n~
+A #PG#pian#Pt #oR#7a#ot#n shows it large fangs towards you!
+~
+~
+1
+0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53205
+Dream Vampire Bat~
+#RV#ra#0m#7p#0i#rr#Re #0B#oa#0t#n~
+A #RV#ra#0m#7p#0i#rr#Re #0B#oa#0t#n flies towards you attempting to suck your blood!
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#53206
+Dream Sandman~
+#7The #0Endless #yS#oandma#yn#n~
+#7The #0Endless #yS#oandma#yn#n the ruler of dreams, stands here in the harrow of the mind.
+~
+~
+1
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#53200
+#yThe Realm of Dreams#n~
+~
+0 4 1
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

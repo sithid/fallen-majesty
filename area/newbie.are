@@ -1,0 +1,304 @@
+#AREADATA
+Name        Newbie School~
+Builders    Huw~
+VNUMs       101900 101999
+Security    1
+Recall      3005
+Age         5
+End
+
+
+
+#MOBILES
+#101909
+Ghost~
+#nA #CN#ne#7w#nb#Ci#ne #7G#nh#Co#ns#7t#n~
+#nA #CN#ne#7w#nb#Ci#ne #7G#nh#Co#ns#7t#n floats spookily around here.
+~
+~
+17
+0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#101900
+#yS#7c#nh#yo#7o#nl #yEn#7tr#nan#yce#n~
+This is Fallen Majesty's newbie school, to help get you situated in your
+stay here.  To continue, go north by simply entering 'n'.  
+~
+0 0 0
+D0
+~
+~
+0 0 101901
+D3
+~
+~
+0 0 0
+S
+#101901
+#LCon#0fig#pura#ltio#0n#n~
+Configure is a command to toggle several options on your character.  To
+use it, type 'config +<keyword>' to activate it, or 'config -<keyword>' to
+deactivate it.  For a list of options, type 'config'.  
+~
+0 0 0
+D0
+~
+~
+0 0 101902
+D2
+~
+~
+0 0 101900
+S
+#101902
+#gS#yc#7o#gr#ye#n~
+Score is a helpful command.  It shows some vital information about your
+character, such as your hitroll, damroll, damcap, ac, primal, gold, power
+rating, etc.  
+~
+0 0 0
+D0
+~
+~
+0 0 101903
+D2
+~
+~
+0 0 101901
+S
+#101903
+#cFi#7ng#Cer#n/#RWh#0oi#Rs#n~
+The finger command no longer is in use - instead, use 'whois <player>'. 
+This will tell some basic information about their character, including but
+not limited to their status, hours played, generation, and primal.  
+~
+0 0 0
+D0
+~
+~
+0 0 101904
+D2
+~
+~
+0 0 101902
+S
+#101904
+#7Co#nmm#Cun#0ic#7at#nio#Cn#n~
+The command 'chan', short for channel, shows what channels are currently
+in use for you.  For an example on how to use it: 'chan -flame' will turn
+the flame channel off.  Note that newbies can not chat; they have to use the
+'newbie' command, until they are allowed otherwise by an immortal.  
+~
+0 0 0
+D0
+~
+~
+0 0 101905
+D2
+~
+~
+0 0 101903
+S
+#101905
+#RHe#Plp#Lfu#Cl C#Gom#yma#ond#0s#n~
+'Recall' - returns you to recall, unless you are cursed.
+'Who' - see who is on.
+'Level' - see some basic information about your stances/weapons.
+'Where' - See who is in your current area.
+'Mudstat' - see information about the mud.
+'Changes' - the last 15 changes.
+'Changes all' - all of the changes.
+'Changes new' - the changes made today.
+'Help <command>' - see a helpfile.
+'Help policy' - see the mud's policy.
+'Help rules' - See the rules all must abide by.
+'Power' - see your class powers.
+'Practice' - practice basic skills/spells for all.
+'Cast <spell-name>' - cast a spell.
+~
+0 0 0
+D0
+~
+~
+0 0 101906
+D2
+~
+~
+0 0 101904
+S
+#101906
+#PPk#0re#pad#7y#n~
+Since this is a player killer mud, you will need to pkready in order to
+pk.  Help pkready.  
+~
+0 0 0
+D0
+~
+~
+0 0 101907
+D2
+~
+~
+0 0 101905
+S
+#101907
+#yPo#7we#or R#nat#yin#7g#n~
+As a newbie you experience a large experience bonus and you will stay a
+newbie forever until your power rating exceeds 1000, or 1250 for a lich or
+mage.  So create your character strong and see these helpfiles...  Help
+pkready and help powerrating.  
+~
+0 0 0
+D0
+~
+~
+0 0 101908
+D2
+~
+~
+0 0 101906
+S
+#101908
+#7How to #LQ#0u#Ci#7t#n~
+In order to leave the mud, simply type 'quit'.  HOWEVER: note that you
+can NOT quit with a fight-timer.  
+~
+0 0 0
+D0
+~
+~
+0 0 101909
+D2
+~
+~
+0 0 101907
+S
+#101909
+#LGa#7in#0in#lg E#Lxp#7er#0ie#lnc#Le#n~
+Experience is gained by killing mobs (k <target>).  You may use
+experience for various things.  Type 'train' to see a list.  
+~
+0 0 0
+D0
+~
+~
+0 0 101910
+D2
+~
+~
+0 0 101908
+S
+#101910
+#7Tr#Gai#gni#yng #7Av#Gat#gar#n~
+To train avatar, kill 5 mobs, and train 1000 hp.  Then simply type 'train
+avatar'.  You may not be killed by mobs now, only decapitated by players if
+you're pkreadied.  
+~
+0 0 0
+D0
+~
+~
+0 0 101911
+D2
+~
+~
+0 0 101909
+S
+#101911
+#7How to #RSe#0lf#rcl#Ras#0s#n~
+To selfclass, you must become an avatar.  Selfclassing will permanently
+set your class, so choose carefully.  Do this by 'selfclass (classname)'. 
+Selfclass by itself will show you a list of available classes.  Also, 'help
+enlist' for an exception to selfclass.  'Help class' goes into detail about
+classes.  
+~
+0 0 0
+D2
+~
+~
+0 0 101910
+D4
+~
+~
+0 0 89002
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 101909 96 101900
+M 0 101909 96 101900
+M 0 101909 96 101900
+M 0 101909 96 101900
+M 0 101909 96 101901
+M 0 101909 96 101901
+M 0 101909 96 101901
+M 0 101909 96 101901
+M 0 101909 96 101902
+M 0 101909 96 101902
+M 0 101909 96 101902
+M 0 101909 96 101902
+M 0 101909 96 101903
+M 0 101909 96 101903
+M 0 101909 96 101903
+M 0 101909 96 101903
+M 0 101909 96 101904
+M 0 101909 96 101904
+M 0 101909 96 101904
+M 0 101909 96 101904
+M 0 101909 96 101905
+M 0 101909 96 101905
+M 0 101909 96 101905
+M 0 101909 96 101905
+M 0 101909 96 101906
+M 0 101909 96 101906
+M 0 101909 96 101906
+M 0 101909 96 101906
+M 0 101909 96 101907
+M 0 101909 96 101907
+M 0 101909 96 101907
+M 0 101909 96 101907
+M 0 101909 96 101908
+M 0 101909 96 101908
+M 0 101909 96 101908
+M 0 101909 96 101908
+M 0 101909 96 101909
+M 0 101909 96 101909
+M 0 101909 96 101909
+M 0 101909 96 101909
+M 0 101909 96 101910
+M 0 101909 96 101910
+M 0 101909 96 101910
+M 0 101909 96 101910
+M 0 101909 96 101911
+M 0 101909 96 101911
+M 0 101909 96 101911
+M 0 101909 96 101911
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

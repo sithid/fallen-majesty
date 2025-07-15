@@ -1,0 +1,1074 @@
+#AREADATA
+Name        Swamp~
+Builders    Kelud~
+VNUMs       53150 53199
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#53150
+Swamp Thing~
+#gSwamp Thing#n~
+#8A #gSwamp Thing#n #8Stands here#n
+~
+~
+1
+0 0 S
+3494 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#53151
+Anaconda~
+#CAnaconda~
+#8A #CAnaconda#n #8A Stands here
+~
+~
+1
+0 0 S
+2289 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#53152
+Fish~
+#sFish#n~
+#pA #oFish#n #sStands #shere#n
+~
+~
+1
+0 0 S
+3586 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#53153
+Frog~
+#sFrog#n~
+#sA Frog stands here#n
+~
+~
+1
+0 0 S
+3586 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#53156
+anaconda~
+#CThe #oKing #pAnaconda#n~
+#sThe King Anaconda Stands here
+~
+~
+1
+0 0 S
+5498 0 0 1d10+10 0d0+0
+0 0
+0 0 1
+#53192
+Ghost~
+Ghost~
+A Ghost floats here
+~
+~
+1
+0 0 S
+4000 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#53150
+#gThe Entrace to the Swamp#n~
+Here is the Entrance of the Swamp. This swamp has been here
+for over billion years. There are many creatures in this swamp.
+There are skeletons of human and other races that have been left
+here from the creatures of the swamp. These creatures are ugly and
+bad to the bone. The wind picks up as it blows real hard from all
+sort of directions.
+~
+0 0 0
+D0
+~
+~
+0 0 53151
+S
+#53151
+#gBeyond the swamp entrance#n~
+Beyone the entrance of the swamp, There is a very cold
+chill in the wind that blows from all directions. This part
+of the swamp is very chilly at times and very cold. The color
+green of the trees shine through the swamp as it seems very
+greenish in the swamp. The water looks very dark green when people
+walk through the swamp.
+~
+0 0 0
+D1
+~
+~
+0 0 53152
+D2
+~
+~
+0 0 53150
+S
+#53152
+#gLost in the swamp#n~
+Well somewhere in the swamp is getting real dark out and
+very cold. The screeching noise sounds like the trees are trying
+to talk to someone in the swamp. The water is getting very cold as
+it splashes up in the air. The wind has stopped for five
+mintues and then pickes up again.
+~
+0 0 0
+D0
+~
+~
+0 0 53154
+D2
+~
+~
+0 0 53153
+D3
+~
+~
+0 0 53151
+S
+#53153
+#gPond In the swamp#n~
+Here is a pond in the swamp area. It dosen't look much but
+it is pretty deep when anything stands in the pond. The water
+looks murky and hard to see through the water to see if there
+is something living in it.
+~
+0 0 0
+D0
+~
+~
+0 0 53152
+D1
+~
+~
+0 0 53154
+S
+#53154
+#gSomewhere in the swamp#n~
+As people travel this way in the swamp they want to know where
+they are in this place. There are snakes, flys, and other insects
+that live in this area of the swamp. Hissing sounds come from every
+from the snakes that live here.
+~
+0 0 0
+D1
+~
+~
+0 0 53155
+D2
+~
+~
+0 0 53152
+D3
+~
+~
+0 0 53153
+S
+#53155
+#gFarther in the Swamp#n~
+As You keep walking in the swamp you wander if you ever
+are going to get out of here. Bloodsucking inscets are bitting
+the raw flesh and sucking blook from the cold and shivering flesh.
+Trees are bent over and twisted and fallen over because of the
+wind. The wind is very strong here in the swamp because it likes
+to pick up alot in the swamp.
+~
+0 0 0
+D0
+~
+~
+0 0 53156
+D3
+~
+~
+0 0 53154
+S
+#53156
+#gCenter of the Swamp#n~
+Finall from the Entrace of the Swamp you finally have reached the Center
+of the Swamp. Trees are surrounding the center as if someone was watching.
+The center of the swamp is very deep because of broken off streams that lead
+everywhere else takes the water and pushes it towards the streams.
+~
+0 0 0
+D2
+~
+~
+0 0 53155
+D4
+~
+~
+0 0 53157
+S
+#53157
+#gTree in the middle of the swamp#n~
+Well This Twenty feet high tree blocks is in the way. It has been
+here for about billion years. It leans over and is twisted because it is very
+old as it sits here. The Tree has skeletons hanging from the tree because it
+was used fo hanging people or other races because the creatures were distrub.
+~
+0 0 0
+D1
+~
+~
+0 0 53158
+D5
+~
+~
+0 0 53156
+S
+#53158
+#gDeep end of the swamp#n~
+This is the deep end of the swamp. Many races have drowned here because
+they didn't know how to swim. Weapons lie underneath the water for graves
+for the people and other races have been drowned here.
+~
+0 0 0
+D0
+~
+~
+0 0 53159
+D2
+~
+~
+0 0 53160
+D3
+~
+~
+0 0 53157
+S
+#53159
+#gDead End#n~
+Here is a dead end to the swamp.
+this was used to trap prey and othe victims to kill
+and tortue them to get information out of them. These swamp
+creatures aren't stupid they know how to be evil.
+~
+0 0 0
+D2
+~
+~
+0 0 53158
+S
+#53160
+#gPast the swamp tree#n~
+After the Great Tree in the middle forrest. People are wandering
+how they will get back. This is the path that leads on to one place
+the Anaconda snake. The Snake is anywhere in this swamp.
+~
+0 0 0
+D0
+~
+~
+0 0 53158
+D5
+~
+~
+0 0 53161
+S
+#53161
+#gFarther from shore#n~
+As you keep walking the entrance is getting so hard to see behing
+you. This place is very cold and very wet as the wind picks up
+as the trees blow back and fourth. It feels like zero degrees out
+when people walk back and forth through here. The water is like ice
+in this spot.
+~
+0 0 0
+D0
+~
+~
+0 0 53162
+D4
+~
+~
+0 0 53160
+S
+#53162
+#gA cave in the swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53163
+D1
+~
+~
+0 0 53164
+D2
+~
+~
+0 0 53161
+D3
+~
+~
+0 0 53165
+S
+#53163
+#gStatue of the Giant Fish#n~
+Here is the Statue of the Giant Fish. This was a statue that was
+build along time ago for the king fish. But then one day a snake
+took over this place and said leave the statue up to remind people not
+to come here ever again. This was the site of one major battle. As you look
+down and see whole bunch of corpses and weapons from one major battle.
+~
+0 0 0
+D2
+~
+~
+0 0 53162
+S
+#53164
+#gLost in the swamp#n~
+Well this is a place were people get lost at. They try to figure out
+were they are at in the swamp. This is the place were people get
+confused alot because they are so lost.
+~
+0 0 0
+D3
+~
+~
+0 0 53162
+S
+#53165
+#gDeeper end of the swamp#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53166
+D1
+~
+~
+0 0 53162
+D2
+~
+~
+0 0 53167
+S
+#53166
+#gStatue of the Swamp thing#n~
+Here lies the statue of a great creature that still loves today.
+This creature has been around for billions of years. This statue
+was built to remind races that this creature was strong and powerful
+to fight. But till this day people don't know what these creatures
+are made from.
+~
+0 0 0
+D2
+~
+~
+0 0 53165
+S
+#53167
+#gDocks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53165
+D1
+~
+~
+0 0 53170
+D2
+~
+~
+0 0 53169
+D3
+~
+~
+0 0 53168
+S
+#53168
+#gPast the Docks#n~
+~
+0 0 0
+D1
+~
+~
+0 0 53167
+S
+#53169
+#gThe ship yard in the swamp#n~
+This is the place were ships where docked. The ships can through
+and wrecked alot because of these creatues attack them. These
+ships were form different races that tried to kill these swamp
+creatures.
+~
+0 0 0
+D0
+~
+~
+0 0 53167
+S
+#53170
+#gCargo floats in the swamp#n~
+In this part of the swamp lies cargo from the ships that have
+been destroyed. This cargo was food and guns with bullets
+in the weapons. This cargo is useless know becuase it is all
+wet and soggy.
+~
+0 0 0
+D0
+~
+~
+0 0 53171
+D1
+~
+~
+0 0 53172
+D2
+~
+~
+0 0 53173
+D3
+~
+~
+0 0 53171
+S
+#53171
+#gPast the cargo bay in the swamp#n~
+After the you have walked past the loose cargo the air
+has made the wind gust pretty fast. The air smells like rotten flesh
+that just has been killed. The water is getting ver cold as your feet
+freezes and your body shivers as it gets very cold.
+~
+0 0 0
+D1
+~
+~
+0 0 53170
+D2
+~
+~
+0 0 53170
+S
+#53172
+#gA Huge Tree in the way#n~
+~
+0 0 0
+D3
+~
+~
+0 0 53170
+S
+#53173
+#gSwamp leading all over#n~
+This part of the swamp has many creatures that live here. These
+creatures eat insects as the live to survive. The air still smells
+like rotten flesh. There are graves that have names of breave people
+that have fought here to try to take over the swamp.
+~
+0 0 0
+D0
+~
+~
+0 0 53170
+D1
+~
+~
+0 0 53176
+D2
+~
+~
+0 0 53175
+D3
+~
+~
+0 0 53174
+S
+#53174
+#gSwamp thing Cave#n~
+This is a cave that has been abandoned for years. There are markings
+on the walls that have been here for years. They show the creatures of the swamp
+has killed every human in the swamp. It starts to rain very hard as
+the rain turn into hail.
+~
+0 0 0
+D1
+~
+~
+0 0 53173
+S
+#53175
+#gAnaconda Living place#n~
+This is the living place for the anaconda's. The place has bloodstains
+and weapons in here from things these snakes have eaten. You feel like you shouldn't
+bee here because the chills are running up and down your spine.
+There are large scale marks on the sand. It is how the slide.
+~
+0 0 0
+D0
+~
+~
+0 0 53173
+S
+#53176
+#gSomewhere in the swamp#n~
+As father from the entrance of the swamp. The swamp has many placces in
+here because these creatures have made this place theres and they don't no one
+to take it over. Thunder echos through the swampe as it crackles in the sky.
+~
+0 0 0
+D2
+~
+~
+0 0 53177
+D3
+~
+~
+0 0 53173
+D4
+~
+~
+0 0 53179
+D5
+~
+~
+0 0 53178
+S
+#53177
+#gSomewhere in the trees#n~
+As father from the entrance of the swamp. The swamp has many placces in
+here because these creatures have made this place theres and they don't no one
+to take it over. Thunder echos through the swampe as it crackles in the sky.
+~
+0 0 0
+D0
+~
+~
+0 0 53176
+S
+#53178
+#gSomewhere in the bushes#n~
+Here are bushes in the swamp. These bushes are prickly and pointy
+with thorns on the. The bushes are about 2 feet high and very thick around.
+They are very dangerous when people run into them becuase they are
+poisonous.
+~
+0 0 0
+D0
+~
+~
+0 0 53180
+D4
+~
+~
+0 0 53176
+S
+#53179
+#gSomewhere in the water of the swamp#n~
+As the rain starts to come down very hard and the lightning crackles
+very hard and echos through the dark sky. The rain feels like
+blood running down your body.
+~
+0 0 0
+D5
+~
+~
+0 0 53176
+S
+#53180
+#gSome where in the dark#n~
+In the dark it is very hard to see. As you keep walking you are running
+into trees and tripping over things. The rain keeps coming down very hard
+and the lightning keep echoing really loud. The sky lights up like it is day
+time.
+~
+0 0 0
+D0
+~
+~
+0 0 53181
+D2
+~
+~
+0 0 53178
+S
+#53181
+#gBoone Docks#n~
+As the swamp keeps going on. This place is weird because it seems
+to be really funny looking. Trees with faces that are smiling at things
+in the swamp.This place is a place where some great warriors have go to fight
+here.
+~
+0 0 0
+D2
+~
+~
+0 0 53180
+D3
+~
+~
+0 0 53182
+S
+#53182
+#gBoone Docks#n~
+As the swamp keeps going on. This place is weird because it seems
+to be really funny looking. Trees with faces that are smiling at things
+in the swamp.This place is a place where some great warriors have go to fight
+here.
+~
+0 0 0
+D0
+~
+~
+0 0 53183
+D1
+~
+~
+0 0 53181
+D2
+~
+~
+0 0 53185
+D3
+~
+~
+0 0 53184
+S
+#53183
+#gBeyond the Boone docks#n~
+After that long walk. The rain hits the water and sounds like fish
+jumping out of the water and it seems that someone is following you
+as the long journey continous on. The water feels cold because of
+the cold rain that is hitting the water.
+~
+0 0 0
+D2
+~
+~
+0 0 53182
+S
+#53184
+#gSo far in the swamp#n~
+~
+0 0 0
+D1
+~
+~
+0 0 53182
+S
+#53185
+#gThe giant Statue#n~
+Well this statue is a giant statue that is in the middle of the swamp. This
+statue was put here for no reason because it is a statue that was built. This
+statue is abotu 70 feet high and weighs about 1 ton. The status is white with
+a giant smile on.
+~
+0 0 0
+D0
+~
+~
+0 0 53182
+D1
+~
+~
+0 0 53187
+D2
+~
+~
+0 0 53186
+D3
+~
+~
+0 0 53190
+D4
+~
+~
+0 0 53189
+D5
+~
+~
+0 0 53188
+S
+#53186
+#gPlane Crash in the swamp#n~
+This is the plane crash. The crash was very bad because it had
+weapons on it that it could kill the creatures with one swipe. But
+one day a Giang snake grab the plane and squeezed it till it crashed
+into the swamp. The Plane has been here for years and the people have died
+by these creatures. There skeletons are all over because the water has
+tooken them and pushed them all over the swamp.
+~
+0 0 0
+D0
+~
+~
+0 0 53185
+S
+#53187
+#gBoat Crash in the swamp#n~
+Here lies a boat crash that was in the swamp for years. This crash
+was bad because the people died fast and easy. The insects of the swamp
+fly around and pick at the other insects. Birds chirp and sing while it is
+raining and lightning out. Skeleton of the survivors are all over the swamp 
+because the water pushed them into different directions.
+~
+0 0 0
+D3
+~
+~
+0 0 53185
+S
+#53188
+#glost in the swamp#n~
+While lost in the swamp, the rain is getting harder and heavier
+as it starts to come down very fast. The Lightning gets louder as it
+crackles in the sky. The water sways back and forth and it is very
+cold as the splashes up and down as feet walk through the water.
+~
+0 0 0
+D4
+~
+~
+0 0 53185
+S
+#53189
+#gFrog Statue#n~
+This is the statue of the Giant frog. This statue is about 20 feet high
+and about 1 ton. This statue is made form awhole bunch of trees and sticks
+and insects. The creatures built this statue because the worship frogs in the
+swamp as the worship the other creatures in the swamp.
+~
+0 0 0
+D5
+~
+~
+0 0 53185
+S
+#53190
+#gKing Anaconda Statue#n~
+The Finall statue is a shaped as a Anaconda. This statue represents
+the king of the swamp that wonders around. This statue was built because
+the creatures were told to or they would of died. This statue has
+been here for about billion of years.
+~
+0 0 0
+D0
+~
+~
+0 0 53191
+D1
+~
+~
+0 0 53185
+D2
+~
+~
+0 0 53192
+D3
+~
+~
+0 0 53193
+D4
+~
+~
+0 0 53194
+D5
+~
+~
+0 0 53195
+S
+#53191
+#gGraveyard#n~
+This is the Graveyard. THis is the place were the creature lie in rest
+as the die in battle. These creatures are treated with alot
+of respect and honor as there fellow creatures burry them 6 feet under the swamp
+~
+0 0 0
+D2
+~
+~
+0 0 53190
+S
+#53192
+#gGhost swamp#n~
+This part of the swamp is controlled by ghosts. They liked this
+area because usally ghost hang out here and they have the respect
+to protect themselves in this area. The ghost are mean and cruel to 
+fight.
+~
+0 0 0
+D0
+~
+~
+0 0 53190
+S
+#53193
+#gHouse in the Swamp#n~
+~
+0 0 0
+D1
+~
+~
+0 0 53190
+S
+#53194
+#gClose to the end of the swamp#n~
+~
+0 0 0
+D5
+~
+~
+0 0 53190
+S
+#53195
+#gGetting closer to the end#n~
+Well the end is near.  This is the place were creatures live. The rain
+is stopping but the wind is still picking up and blowing very hard as
+you walk towards the end of the swamp.
+~
+0 0 0
+D0
+~
+~
+0 0 53196
+D4
+~
+~
+0 0 53190
+S
+#53196
+#gVery close to end#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53197
+D2
+~
+~
+0 0 53195
+S
+#53197
+#gGetting real close#n~
+~
+0 0 0
+D2
+~
+~
+0 0 53196
+D3
+~
+~
+0 0 53198
+S
+#53198
+#gVery Very close#n~
+~
+0 0 0
+D1
+~
+~
+0 0 53197
+D4
+~
+~
+0 0 53199
+S
+#53199
+#gThe End of the swamp#n~
+~
+0 0 0
+D5
+~
+~
+0 0 53198
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 53192 15 53150
+M 0 53150 5 53150
+M 0 53150 15 53150
+M 0 53156 1 53151
+M 0 53151 5 53151
+M 0 53151 15 53151
+M 0 53192 25 53152
+M 0 53152 15 53152
+M 0 53152 20 53152
+M 0 53153 20 53153
+M 0 53153 15 53153
+M 0 53151 15 53154
+M 0 53152 15 53154
+M 0 53153 15 53154
+M 0 53150 15 53154
+M 0 53150 15 53155
+M 0 53153 15 53155
+M 0 53152 15 53155
+M 0 53151 15 53155
+M 0 53153 15 53156
+M 0 53152 15 53156
+M 0 53151 15 53156
+M 0 53150 15 53156
+M 0 53153 12 53157
+M 0 53152 15 53157
+M 0 53151 15 53157
+M 0 53150 15 53157
+M 0 53152 15 53157
+M 0 53151 15 53157
+M 0 53150 15 53157
+M 0 53153 15 53157
+M 0 53153 12 53158
+M 0 53152 12 53158
+M 0 53151 12 53158
+M 0 53150 12 53158
+M 0 53153 12 53160
+M 0 53152 12 53160
+M 0 53151 12 53160
+M 0 53150 12 53160
+M 0 53153 12 53161
+M 0 53152 12 53161
+M 0 53151 12 53161
+M 0 53150 12 53161
+M 0 53153 10 53162
+M 0 53152 10 53162
+M 0 53151 12 53162
+M 0 53150 12 53162
+M 0 53153 5 53163
+M 0 53152 5 53163
+M 0 53151 12 53163
+M 0 53150 12 53163
+M 0 53153 20 53164
+M 0 53153 2 53165
+M 0 53152 2 53165
+M 0 53151 2 53165
+M 0 53150 20 53165
+M 0 53153 12 53166
+M 0 53150 12 53166
+M 0 53152 2 53166
+M 0 53150 12 53167
+M 0 53151 12 53167
+M 0 53152 12 53167
+M 0 53153 12 53167
+M 0 53153 12 53168
+M 0 53150 12 53168
+M 0 53151 12 53168
+M 0 53152 12 53168
+M 0 53150 12 53169
+M 0 53151 12 53169
+M 0 53152 12 53169
+M 0 53153 12 53169
+M 0 53153 12 53170
+M 0 53152 12 53170
+M 0 53151 12 53170
+M 0 53150 12 53170
+M 0 53153 12 53171
+M 0 53152 12 53171
+M 0 53151 12 53171
+M 0 53150 12 53171
+M 0 53150 12 53172
+M 0 53150 12 53174
+M 0 53151 12 53175
+M 0 53150 12 53175
+M 0 53153 12 53176
+M 0 53152 12 53176
+M 0 53150 12 53176
+M 0 53153 12 53180
+M 0 53152 12 53180
+M 0 53151 12 53180
+M 0 53150 12 53180
+M 0 53153 12 53182
+M 0 53152 12 53182
+M 0 53151 12 53182
+M 0 53150 12 53182
+M 0 53153 12 53185
+M 0 53152 12 53185
+M 0 53151 12 53185
+M 0 53150 12 53185
+M 0 53153 12 53186
+M 0 53152 12 53186
+M 0 53151 12 53186
+M 0 53150 12 53186
+M 0 53153 12 53187
+M 0 53152 12 53187
+M 0 53151 12 53187
+M 0 53150 12 53187
+M 0 53153 12 53189
+M 0 53152 12 53189
+M 0 53151 12 53189
+M 0 53150 12 53189
+M 0 53153 12 53191
+M 0 53152 12 53191
+M 0 53151 12 53191
+M 0 53150 12 53191
+M 0 53153 12 53192
+M 0 53152 12 53192
+M 0 53151 12 53192
+M 0 53150 12 53192
+M 0 53192 20 53192
+M 0 53192 12 53193
+M 0 53150 12 53193
+M 0 53151 12 53193
+M 0 53152 12 53193
+M 0 53153 12 53193
+M 0 53192 12 53194
+M 0 53150 12 53194
+M 0 53151 12 53194
+M 0 53152 12 53194
+M 0 53153 12 53194
+M 0 53153 20 53195
+M 0 53152 20 53195
+M 0 53151 20 53195
+M 0 53150 20 53195
+M 0 53192 12 53195
+M 0 53150 12 53196
+M 0 53151 12 53196
+M 0 53152 12 53196
+M 0 53192 12 53196
+M 0 53153 12 53196
+M 0 53192 12 53197
+M 0 53153 12 53197
+M 0 53152 12 53197
+M 0 53151 12 53197
+M 0 53150 12 53197
+M 0 53192 1 53198
+M 0 53150 2 53198
+M 0 53150 1 53198
+M 0 53151 12 53198
+M 0 53152 12 53198
+M 0 53153 12 53198
+M 0 53192 12 53199
+M 0 53150 12 53199
+M 0 53151 12 53199
+M 0 53152 12 53199
+M 0 53153 12 53199
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,277 @@
+gcc -c -Wall -g3  -DREQUESTS jope.c
+jope.c:40: `jope_act' undeclared here (not in a function)
+jope.c:40: initializer element is not constant
+jope.c:40: (near initialization for `jope_table[0].do_fun')
+jope.c:41: `jope_action' undeclared here (not in a function)
+jope.c:41: initializer element is not constant
+jope.c:41: (near initialization for `jope_table[1].do_fun')
+jope.c:42: `jope_done' undeclared here (not in a function)
+jope.c:42: initializer element is not constant
+jope.c:42: (near initialization for `jope_table[2].do_fun')
+jope.c:43: `jope_drop' undeclared here (not in a function)
+jope.c:43: initializer element is not constant
+jope.c:43: (near initialization for `jope_table[3].do_fun')
+jope.c:44: `jope_equipment' undeclared here (not in a function)
+jope.c:44: initializer element is not constant
+jope.c:44: (near initialization for `jope_table[4].do_fun')
+jope.c:45: `jope_exp' undeclared here (not in a function)
+jope.c:45: initializer element is not constant
+jope.c:45: (near initialization for `jope_table[5].do_fun')
+jope.c:46: `jope_get' undeclared here (not in a function)
+jope.c:46: initializer element is not constant
+jope.c:46: (near initialization for `jope_table[6].do_fun')
+jope.c:47: `jope_hit' undeclared here (not in a function)
+jope.c:47: initializer element is not constant
+jope.c:47: (near initialization for `jope_table[7].do_fun')
+jope.c:48: `jope_inventory' undeclared here (not in a function)
+jope.c:48: initializer element is not constant
+jope.c:48: (near initialization for `jope_table[8].do_fun')
+jope.c:49: `jope_level' undeclared here (not in a function)
+jope.c:49: initializer element is not constant
+jope.c:49: (near initialization for `jope_table[9].do_fun')
+jope.c:50: `jope_look' undeclared here (not in a function)
+jope.c:50: initializer element is not constant
+jope.c:50: (near initialization for `jope_table[10].do_fun')
+jope.c:51: `jope_mana' undeclared here (not in a function)
+jope.c:51: initializer element is not constant
+jope.c:51: (near initialization for `jope_table[11].do_fun')
+jope.c:52: `jope_mdeath' undeclared here (not in a function)
+jope.c:52: initializer element is not constant
+jope.c:52: (near initialization for `jope_table[12].do_fun')
+jope.c:53: `jope_mkill' undeclared here (not in a function)
+jope.c:53: initializer element is not constant
+jope.c:53: (near initialization for `jope_table[13].do_fun')
+jope.c:54: `jope_move' undeclared here (not in a function)
+jope.c:54: initializer element is not constant
+jope.c:54: (near initialization for `jope_table[14].do_fun')
+jope.c:55: `jope_newbits' undeclared here (not in a function)
+jope.c:55: initializer element is not constant
+jope.c:55: (near initialization for `jope_table[15].do_fun')
+jope.c:56: `jope_pdeath' undeclared here (not in a function)
+jope.c:56: initializer element is not constant
+jope.c:56: (near initialization for `jope_table[16].do_fun')
+jope.c:57: `jope_pkill' undeclared here (not in a function)
+jope.c:57: initializer element is not constant
+jope.c:57: (near initialization for `jope_table[17].do_fun')
+jope.c:58: `jope_primal' undeclared here (not in a function)
+jope.c:58: initializer element is not constant
+jope.c:58: (near initialization for `jope_table[18].do_fun')
+jope.c:59: `jope_qps' undeclared here (not in a function)
+jope.c:59: initializer element is not constant
+jope.c:59: (near initialization for `jope_table[19].do_fun')
+jope.c:60: `jope_show' undeclared here (not in a function)
+jope.c:60: initializer element is not constant
+jope.c:60: (near initialization for `jope_table[20].do_fun')
+jope.c:61: `jope_remove' undeclared here (not in a function)
+jope.c:61: initializer element is not constant
+jope.c:61: (near initialization for `jope_table[21].do_fun')
+jope.c:62: `jope_spells' undeclared here (not in a function)
+jope.c:62: initializer element is not constant
+jope.c:62: (near initialization for `jope_table[22].do_fun')
+jope.c:63: `jope_stances' undeclared here (not in a function)
+jope.c:63: initializer element is not constant
+jope.c:63: (near initialization for `jope_table[23].do_fun')
+jope.c:64: `jope_trust' undeclared here (not in a function)
+jope.c:64: initializer element is not constant
+jope.c:64: (near initialization for `jope_table[24].do_fun')
+jope.c:65: `jope_weapons' undeclared here (not in a function)
+jope.c:65: initializer element is not constant
+jope.c:65: (near initialization for `jope_table[25].do_fun')
+jope.c:66: `jope_wear' undeclared here (not in a function)
+jope.c:66: initializer element is not constant
+jope.c:66: (near initialization for `jope_table[26].do_fun')
+jope.c:67: `jope_list' undeclared here (not in a function)
+jope.c:67: initializer element is not constant
+jope.c:67: (near initialization for `jope_table[27].do_fun')
+jope.c:75: elements of array `act_table' have incomplete type
+jope.c:78: warning: excess elements in struct initializer
+jope.c:78: warning: (near initialization for `act_table[0]')
+jope.c:78: `PLR_AMBI' undeclared here (not in a function)
+jope.c:78: warning: excess elements in struct initializer
+jope.c:78: warning: (near initialization for `act_table[0]')
+jope.c:79: warning: excess elements in struct initializer
+jope.c:79: warning: (near initialization for `act_table[1]')
+jope.c:79: warning: excess elements in struct initializer
+jope.c:79: warning: (near initialization for `act_table[1]')
+jope.c:80: warning: excess elements in struct initializer
+jope.c:80: warning: (near initialization for `act_table[2]')
+jope.c:80: warning: excess elements in struct initializer
+jope.c:80: warning: (near initialization for `act_table[2]')
+jope.c:81: warning: excess elements in struct initializer
+jope.c:81: warning: (near initialization for `act_table[3]')
+jope.c:81: warning: excess elements in struct initializer
+jope.c:81: warning: (near initialization for `act_table[3]')
+jope.c:82: warning: excess elements in struct initializer
+jope.c:82: warning: (near initialization for `act_table[4]')
+jope.c:82: warning: excess elements in struct initializer
+jope.c:82: warning: (near initialization for `act_table[4]')
+jope.c:83: warning: excess elements in struct initializer
+jope.c:83: warning: (near initialization for `act_table[5]')
+jope.c:83: `PLR_BRIEF4' undeclared here (not in a function)
+jope.c:83: warning: excess elements in struct initializer
+jope.c:83: warning: (near initialization for `act_table[5]')
+jope.c:84: warning: excess elements in struct initializer
+jope.c:84: warning: (near initialization for `act_table[6]')
+jope.c:84: warning: excess elements in struct initializer
+jope.c:84: warning: (near initialization for `act_table[6]')
+jope.c:85: warning: excess elements in struct initializer
+jope.c:85: warning: (near initialization for `act_table[7]')
+jope.c:85: warning: excess elements in struct initializer
+jope.c:85: warning: (near initialization for `act_table[7]')
+jope.c:86: warning: excess elements in struct initializer
+jope.c:86: warning: (near initialization for `act_table[8]')
+jope.c:86: warning: excess elements in struct initializer
+jope.c:86: warning: (near initialization for `act_table[8]')
+jope.c:87: warning: excess elements in struct initializer
+jope.c:87: warning: (near initialization for `act_table[9]')
+jope.c:87: `PLR_LEFTHAND' undeclared here (not in a function)
+jope.c:87: warning: excess elements in struct initializer
+jope.c:87: warning: (near initialization for `act_table[9]')
+jope.c:88: warning: excess elements in struct initializer
+jope.c:88: warning: (near initialization for `act_table[10]')
+jope.c:88: `PLR_RIGHTHAND' undeclared here (not in a function)
+jope.c:88: warning: excess elements in struct initializer
+jope.c:88: warning: (near initialization for `act_table[10]')
+jope.c:89: warning: excess elements in struct initializer
+jope.c:89: warning: (near initialization for `act_table[11]')
+jope.c:89: warning: excess elements in struct initializer
+jope.c:89: warning: (near initialization for `act_table[11]')
+jope.c:90: warning: excess elements in struct initializer
+jope.c:90: warning: (near initialization for `act_table[12]')
+jope.c:90: warning: excess elements in struct initializer
+jope.c:90: warning: (near initialization for `act_table[12]')
+jope.c:95: warning: excess elements in struct initializer
+jope.c:95: warning: (near initialization for `act_table[13]')
+jope.c:95: warning: excess elements in struct initializer
+jope.c:95: warning: (near initialization for `act_table[13]')
+jope.c:96: invalid use of undefined type `struct bit_type'
+jope.c:98: elements of array `newbits_table' have incomplete type
+jope.c:101: warning: excess elements in struct initializer
+jope.c:101: warning: (near initialization for `newbits_table[0]')
+jope.c:101: warning: excess elements in struct initializer
+jope.c:101: warning: (near initialization for `newbits_table[0]')
+jope.c:102: warning: excess elements in struct initializer
+jope.c:102: warning: (near initialization for `newbits_table[1]')
+jope.c:102: warning: excess elements in struct initializer
+jope.c:102: warning: (near initialization for `newbits_table[1]')
+jope.c:103: warning: excess elements in struct initializer
+jope.c:103: warning: (near initialization for `newbits_table[2]')
+jope.c:103: warning: excess elements in struct initializer
+jope.c:103: warning: (near initialization for `newbits_table[2]')
+jope.c:104: warning: excess elements in struct initializer
+jope.c:104: warning: (near initialization for `newbits_table[3]')
+jope.c:104: warning: excess elements in struct initializer
+jope.c:104: warning: (near initialization for `newbits_table[3]')
+jope.c:109: warning: excess elements in struct initializer
+jope.c:109: warning: (near initialization for `newbits_table[4]')
+jope.c:109: warning: excess elements in struct initializer
+jope.c:109: warning: (near initialization for `newbits_table[4]')
+jope.c:110: invalid use of undefined type `struct bit_type'
+jope.c: In function `jope_newbits':
+jope.c:123: structure has no member named `pfile'
+jope.c:135: invalid use of undefined type `struct bit_type'
+jope.c:137: invalid use of undefined type `struct bit_type'
+jope.c:144: invalid use of undefined type `struct bit_type'
+jope.c:148: invalid use of undefined type `struct bit_type'
+jope.c:150: invalid use of undefined type `struct bit_type'
+jope.c:150: invalid use of undefined type `struct bit_type'
+jope.c:161: invalid use of undefined type `struct bit_type'
+jope.c:162: invalid use of undefined type `struct bit_type'
+jope.c:163: invalid use of undefined type `struct bit_type'
+jope.c: In function `jope_act':
+jope.c:179: structure has no member named `pfile'
+jope.c:191: invalid use of undefined type `struct bit_type'
+jope.c:193: invalid use of undefined type `struct bit_type'
+jope.c:200: invalid use of undefined type `struct bit_type'
+jope.c:204: invalid use of undefined type `struct bit_type'
+jope.c:206: invalid use of undefined type `struct bit_type'
+jope.c:206: invalid use of undefined type `struct bit_type'
+jope.c:217: invalid use of undefined type `struct bit_type'
+jope.c:218: invalid use of undefined type `struct bit_type'
+jope.c:219: invalid use of undefined type `struct bit_type'
+jope.c: In function `jope_action':
+jope.c:228: structure has no member named `pfile'
+jope.c:237: `CON_PFILE' undeclared (first use in this function)
+jope.c:237: (Each undeclared identifier is reported only once
+jope.c:237: for each function it appears in.)
+jope.c: In function `jope_inventory':
+jope.c:245: structure has no member named `pfile'
+jope.c:254: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_wear':
+jope.c:262: structure has no member named `pfile'
+jope.c:271: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_drop':
+jope.c:279: structure has no member named `pfile'
+jope.c:288: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_equipment':
+jope.c:296: structure has no member named `pfile'
+jope.c:305: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_get':
+jope.c:313: structure has no member named `pfile'
+jope.c:322: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_look':
+jope.c:330: structure has no member named `pfile'
+jope.c:339: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_remove':
+jope.c:347: structure has no member named `pfile'
+jope.c:356: `CON_PFILE' undeclared (first use in this function)
+jope.c: In function `jope_qps':
+jope.c:367: structure has no member named `pfile'
+jope.c: In function `jope_primal':
+jope.c:389: structure has no member named `pfile'
+jope.c: In function `jope_level':
+jope.c:411: structure has no member named `pfile'
+jope.c: In function `jope_trust':
+jope.c:433: structure has no member named `pfile'
+jope.c: In function `jope_hit':
+jope.c:455: structure has no member named `pfile'
+jope.c: In function `jope_mana':
+jope.c:478: structure has no member named `pfile'
+jope.c: In function `jope_move':
+jope.c:501: structure has no member named `pfile'
+jope.c: In function `jope_mdeath':
+jope.c:524: structure has no member named `pfile'
+jope.c: In function `jope_mkill':
+jope.c:546: structure has no member named `pfile'
+jope.c: In function `jope_pdeath':
+jope.c:568: structure has no member named `pfile'
+jope.c: In function `jope_pkill':
+jope.c:590: structure has no member named `pfile'
+jope.c: In function `jope_stances':
+jope.c:615: structure has no member named `pfile'
+jope.c: In function `jope_weapons':
+jope.c:670: structure has no member named `pfile'
+jope.c: In function `jope_spells':
+jope.c:731: structure has no member named `pfile'
+jope.c: In function `jope_exp':
+jope.c:773: structure has no member named `pfile'
+jope.c: In function `jope_show':
+jope.c:821: structure has no member named `pfile'
+jope.c:832: warning: int format, double arg (arg 3)
+jope.c:866: incompatible types in assignment
+jope.c:871: `PLR_BRIEF4' undeclared (first use in this function)
+jope.c:878: `PLR_LEFTHAND' undeclared (first use in this function)
+jope.c:879: `PLR_RIGHTHAND' undeclared (first use in this function)
+jope.c:880: `PLR_AMBI' undeclared (first use in this function)
+jope.c: In function `jope_done':
+jope.c:900: warning: implicit declaration of function `jope_free_char'
+jope.c: In function `do_pfile':
+jope.c:965: warning: implicit declaration of function `jope_load_char'
+jope.c:966: `CON_PFILE' undeclared (first use in this function)
+jope.c:968: structure has no member named `pfile'
+jope.c: At top level:
+jope.c:981: warning: type mismatch with previous implicit declaration
+jope.c:965: warning: previous implicit declaration of `jope_load_char'
+jope.c:981: warning: `jope_load_char' was previously implicitly declared to return `int'
+jope.c: In function `jope_load_char':
+jope.c:984: structure has no member named `pfile'
+jope.c:999: structure has no member named `pfile'
+jope.c:1003: structure has no member named `pfile'
+jope.c: At top level:
+jope.c:1008: warning: type mismatch with previous implicit declaration
+jope.c:971: warning: previous implicit declaration of `jope_free_char'
+jope.c:1008: warning: `jope_free_char' was previously implicitly declared to return `int'
+jope.c: In function `jope_free_char':
+jope.c:1011: structure has no member named `pfile'
+jope.c:1018: structure has no member named `pfile'
+make: *** [jope.o] Error 1

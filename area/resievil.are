@@ -1,0 +1,608 @@
+#AREADATA
+Name        Resident Evil~
+Builders    Huw~
+VNUMs       50300 50399
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#50300
+Criminal~
+#0a Cri#pmin#0al#n~
+#0a Cri#pmin#0al hides here ready to rob you.#n
+~
+~
+17
+98304 -300 S
+453 0 0 0d0+2 0d0+0
+0 0
+0 0 1
+#50301
+zombie~
+#pA lesser Zombie#n~
+#pA lesser Zombie is eating a womans thigh.#n
+~
+~
+25
+4608 0 S
+450 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50302
+Police Officer~
+#La Police Officer#n~
+#La Police Officer walks around like he knows what he is doing.#n
+~
+~
+1
+65536 0 S
+346 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50303
+Police Patrol Car~
+#7a #LP#7o#Ll#7i#Lc#7e #LC#7a#Lr#n~
+#7a #LP#7o#Ll#7i#Lc#7e #LC#7a#Lr is driving around.#n
+~
+~
+3
+65536 0 S
+478 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50304
+Police Captain~
+#ya #LP#yo#Ll#yi#Lc#ye #LC#ya#Lp#yt#La#yi#Ln#n~
+#yA #LP#yo#Ll#yi#Lc#ye #LC#ya#Lp#yt#La#yi#Ln knows what he is doing.#n
+~
+~
+5
+128 600 S
+640 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#50305
+Security Guard~
+#0a Security Guard#n~
+#0A Security Guard watches over the station.#n
+~
+~
+1
+65536 0 S
+398 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50306
+Chris Redfield~
+#RC#yh#Rr#yi#Rs #yR#Re#yd#Rf#yi#Re#yl#Rd#n~
+#RC#yh#Rr#yi#Rs #yR#Re#yd#Rf#yi#Re#yl#Rd stands here acting tuff.#n
+~
+~
+8195
+4795010 3000 S
+2015 0 0 -100d20+3 0d0+0
+0 0
+0 0 0
+#50307
+Nemesis~
+#pN#ye#pm#ye#ps#yi#ps#n~
+#pN#ye#pm#ye#ps#yi#ps#n is here CHARGING at YOU!
+~
+~
+8207
+66218 -9000 S
+988 0 0 50d10+3 0d0+0
+0 0
+0 0 0
+#50308
+Weapons Expert~
+#ra #pWeapon #rExpert#n~
+#rA #pWeapon #rExpert stands here checking over his artillery.#n 
+~
+~
+3
+0 100 S
+401 0 0 -100d20+3 0d0+0
+0 0
+0 0 0
+#50309
+worker zombie~
+#0a Worker #rZombie#n~
+#0a Worker #rZombie#0 is looking for flesh to eat.#n
+~
+~
+5
+0 0 S
+390 0 0 40d0+0 0d0+0
+0 0
+0 0 2
+#50310
+Rat Mouse~
+#Pa #pMu#Pta#pti#Png#p Ra#Pt#n~
+#PA #pMu#Pta#pti#Png#p Ra#Pt is here gnawing off your leg.#n
+~
+~
+3
+0 0 S
+293 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50311
+Tyrant~
+#pT#ry#pr#ra#pn#rt#n~
+#pT#ry#pr#ra#pn#rt swings his large claw hand at YOU!#n
+~
+~
+11
+128 0 S
+2989 0 0 -100d20+3 0d0+0
+0 0
+0 0 0
+#50312
+Supreme Zombie~
+#Ra Supreme Zombie#n~
+#RA Supreme Zombie walks around here.#n
+~
+~
+1
+128 -1000 S
+482 0 0 50d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#50300
+shotgun~
+#Ra #rShotgun#n~
+#Ra #rShotgun#n lies here.~
+~
+5 0 16385
+0 30 60 6
+50 10000 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#50301
+Chaingun~
+a chaingun~
+A chaingun lies here.~
+~
+5 16 16385
+0 50 100 6
+400 30000 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#50302
+Grepping Tool~
+grepper~
+Grepper~
+~
+5 0 8193
+0 10 30 9
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#50300
+#pRacoon #rCity #pEntrance#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50301
+S
+#50301
+#pRacoon #rCity #pNeighborhood#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50304
+D1
+~
+~
+0 0 50302
+D2
+~
+~
+0 0 50300
+D3
+~
+~
+0 0 50303
+S
+#50302
+#pRacoon #rCity #pNeighborhood#n~
+~
+0 0 0
+D3
+~
+~
+0 0 50301
+S
+#50303
+#pRacoon #rCity #pNeighborhood#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50301
+S
+#50304
+#pRacoon #rCity #pNeighborhood#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50305
+D2
+~
+~
+0 0 50301
+S
+#50305
+#0Highway#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50306
+D2
+~
+~
+0 0 50304
+D3
+~
+~
+0 0 50307
+S
+#50306
+#0Highway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50308
+D3
+~
+~
+0 0 50305
+S
+#50307
+#0Highway#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50309
+D1
+~
+~
+0 0 50305
+S
+#50308
+#pRacoon #rPolice #pStation #rEntrance#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50310
+D2
+~
+~
+0 0 50306
+S
+#50309
+#0Racoon #lCity #0Industry#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50313
+D2
+~
+~
+0 0 50307
+S
+#50310
+#0L#Lobb#0y#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50321
+D3
+~
+~
+0 0 50308
+D4
+~
+~
+0 0 50311
+S
+#50311
+#pSecond Floor#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50312
+D5
+~
+~
+0 0 50310
+S
+#50312
+#RS#y.#RT#y.#RA#y.#RR#y.#RS#y. #RO#yf#Rf#yi#Rc#ye#n~
+~
+0 0 0
+D3
+~
+~
+0 0 50311
+S
+#50313
+#0Storage#n~
+A small ladder is in the back of the room.
+ 
+~
+0 0 0
+D2
+~
+~
+0 0 50309
+D5
+~
+~
+0 0 50314
+S
+#50314
+#0On the Ladder~
+~
+0 0 0
+D4
+~
+~
+0 0 50313
+D5
+~
+~
+0 0 50315
+S
+#50315
+#pS#Pe#pw#Pe#pr#Ps#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50316
+D4
+~
+~
+0 0 50314
+S
+#50316
+#pS#Pe#pw#Pe#pr#Ps#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50317
+D3
+~
+~
+0 0 50315
+S
+#50317
+#pS#Pe#pw#Pe#pr#Ps#n~
+A sewer drainage looks broken open by a powerful force...
+ 
+~
+0 0 0
+D3
+~
+~
+0 0 50316
+D5
+~
+~
+0 0 50318
+S
+#50318
+#oUnderground#n~
+~
+0 0 0
+D2
+~
+~
+0 0 50319
+D4
+~
+~
+0 0 50317
+S
+#50319
+#oLarge Vault#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50318
+D2
+~
+~
+0 0 50320
+S
+#50320
+#yInside the Vault#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50319
+S
+#50321
+#LPo#7li#Lce #7Of#Lfi#7ce#Ls#n~
+~
+0 0 0
+D2
+~
+~
+0 0 50322
+D3
+~
+~
+0 0 50310
+S
+#50322
+#LWea#lpon #LSto#lrag#Le#n~
+An elevator hides behind a large gun.
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 50321
+D4
+~
+~
+0 0 50323
+S
+#50323
+#RJa#0il #RCe#0ll#Rs#n~
+A large hole is in the wall.
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 50324
+D5
+~
+~
+0 0 50322
+S
+#50324
+#RNe#0me#Rsi#0s's #RJa#0il #RCe#0ll#n~
+~
+0 4194304 0
+D2
+~
+~
+0 0 50323
+S
+#0
+
+
+
+#SPECIALS
+M 50307 spec_cast_mage
+S
+
+
+
+#RESETS
+M 0 50300 10 50301
+E 0 50302 0 17
+M 0 50301 5 50301
+M 0 50300 10 50302
+M 0 50301 5 50302
+M 0 50300 10 50303
+M 0 50301 5 50303
+M 0 50302 5 50304
+M 0 50302 5 50304
+M 0 50303 4 50305
+M 0 50303 4 50306
+M 0 50303 4 50307
+M 0 50309 10 50309
+M 0 50309 10 50309
+M 0 50304 3 50310
+E 0 50300 0 17
+M 0 50305 4 50311
+M 0 50306 1 50312
+E 0 50301 0 17
+M 0 50309 10 50313
+M 0 50309 10 50313
+M 0 50309 10 50314
+M 0 50310 30 50315
+M 0 50310 30 50315
+M 0 50310 30 50315
+M 0 50310 30 50315
+M 0 50310 30 50315
+M 0 50310 30 50316
+M 0 50310 30 50316
+M 0 50310 30 50316
+M 0 50310 30 50316
+M 0 50310 30 50316
+M 0 50310 30 50317
+M 0 50310 30 50317
+M 0 50310 30 50317
+M 0 50310 30 50317
+M 0 50310 30 50317
+M 0 50312 10 50318
+M 0 50312 10 50318
+M 0 50312 10 50319
+M 0 50312 10 50319
+M 0 50311 1 50320
+M 0 50304 3 50321
+E 0 50300 0 17
+M 0 50308 2 50322
+E 0 50301 0 17
+M 0 50304 3 50322
+E 0 50300 0 17
+M 0 50307 1 50324
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

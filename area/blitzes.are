@@ -1,0 +1,1153 @@
+#AREADATA
+Name        The Ivory Tower~
+Builders    Blitzkrieg~
+VNUMs       52000 52099
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#52000
+Retarded Wizard Apprentice~
+#CT#che #RR#reject #GW#gizard #yA#opprentice#n~
+#CT#che #RR#reject #GW#gizard #yA#opprentice#n #sstands here crying about his rejection#n
+~
+~
+3
+0 1000 S
+132 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52001
+Red Wizard Apprentice~
+#RR#red #CW#cizard #8A#7pprentice#n~
+#7T#0he #RR#red #CW#cizard #8A#7pprentice #sshoots a fireball out the Ivory Tower!#n
+~
+~
+3
+0 1000 S
+234 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52002
+Yellow Wizard Apprentice~
+#yY#oellow #CW#cizard #8A#7pprentice#n~
+#8T#0he #yY#oellow #CW#cizard #8A#7pprentice #ssits here scribing scrolls#n
+~
+~
+3
+0 1000 S
+223 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52003
+Blue Wizard Apprentice~
+#LB#llue #CW#cizard #8A#7pprentice#n~
+#8T#0he #LB#llue #CW#cizard #8Ap#7prentice #sfloats here by the fly spell
+~
+~
+3
+0 1000 S
+247 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52004
+Green Wizard Apprentice~
+#GG#green #CW#cizard #8A#7pprentice#n~
+#8T#0he #GG#green #CW#cizard #8A#7pprentice #sstands here turning translucent
+~
+~
+3
+0 1000 S
+252 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52005
+Purple Wizard Apprentice~
+#PP#purple #CW#cizard #8A#7pprentice#n~
+#7T#0he #PP#purple #CW#cizard #8A#7pprentice#n #sstands here attempting to cast faerie fog
+~
+~
+3
+0 1000 S
+267 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#52000
+Fountain Youth~
+#CFo#cunta#Cin #yo#of #CY#cout#Ch#n~
+#sA Fountain of Youth Sends Streams of Liquid Out#n~
+~
+17 0 0
+10000 10000 15 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52001
+Coin~
+shiny Coin~
+A Shiny Coin Sits here~
+~
+59 8192 1
+0 0 0 0
+0 200000000 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52098
+Key~
+key~
+Key~
+~
+18 8192 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52099
+Ticket~
+#0A #CS#co#Cl#ci#Cd #yG#yol#yd #8T#7icke#8t#n~
+#0A #CS#co#Cl#ci#Cd #yG#yol#yd #8T#7icke#8t#n can be redeemed to the #7M#yoo#7n#0-#8R#7abbi#8t#n~
+~
+18 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#52000
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D1
+~
+~
+0 0 52001
+D2
+~
+~
+0 0 52003
+S
+#52001
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D1
+~
+~
+0 0 52002
+D2
+~
+~
+0 0 52004
+D3
+~
+~
+0 0 52000
+S
+#52002
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D2
+~
+~
+0 0 52005
+D3
+~
+~
+0 0 52001
+S
+#52003
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D0
+~
+~
+0 0 52000
+D1
+~
+~
+0 0 52004
+D2
+~
+~
+0 0 52006
+S
+#52004
+#CSpir#cal#0li#7ng #7S#8taircas#7e#n~
+#7A elegant Ivory staircase starts here, looking up from the bottom of the staircase you see a bright light that glows with the fury of the sun.  Echoes of Wizards chanting spells pulse about in the air
+~
+0 0 0
+D0
+~
+~
+0 0 52001
+D1
+~
+~
+0 0 52005
+D2
+~
+~
+0 0 52007
+D3
+~
+~
+0 0 52003
+D4
+~
+~
+0 0 52013
+S
+#52005
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D0
+~
+~
+0 0 52002
+D2
+~
+~
+0 0 52008
+D3
+~
+~
+0 0 52004
+S
+#52006
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+~
+0 0 0
+D0
+~
+~
+0 0 52003
+D1
+~
+~
+0 0 52007
+S
+#52007
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D0
+~
+~
+0 0 52004
+D1
+~
+~
+0 0 52008
+D3
+~
+~
+0 0 52006
+S
+#52008
+#7I#8vor#7y #7T#8owe#7r#0: #oL#gobb#oy~
+#7This is the bottom of the Ivory Tower,the ground is littered with broken parchments and scrolls when the wizard's at the high levels keep throwing trash down.  Looking upwards the Tower seems to stretch a long way.  You wonder if you can get to the top safely.
+~
+0 0 0
+D0
+~
+~
+0 0 52005
+D3
+~
+~
+0 0 52007
+S
+#52009
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D1
+~
+~
+0 0 52010
+D2
+~
+~
+0 0 52012
+S
+#52010
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D1
+~
+~
+0 0 52011
+D2
+~
+~
+0 0 52013
+D3
+~
+~
+0 0 52009
+S
+#52011
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D2
+~
+~
+0 0 52014
+D3
+~
+~
+0 0 52010
+S
+#52012
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D0
+~
+~
+0 0 52009
+D1
+~
+~
+0 0 52013
+D2
+~
+~
+0 0 52015
+S
+#52013
+#CSpir#cal#0li#7ng #7S#8taircas#7e#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52010
+D1
+~
+~
+0 0 52014
+D2
+~
+~
+0 0 52016
+D3
+~
+~
+0 0 52012
+D4
+~
+~
+0 0 52022
+D5
+~
+~
+0 0 52004
+S
+#52014
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D0
+~
+~
+0 0 52011
+D2
+~
+~
+0 0 52017
+D3
+~
+~
+0 0 52013
+S
+#52015
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D0
+~
+~
+0 0 52012
+D1
+~
+~
+0 0 52016
+S
+#52016
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D0
+~
+~
+0 0 52013
+D1
+~
+~
+0 0 52017
+D3
+~
+~
+0 0 52015
+S
+#52017
+#7I#8vor#7y #7T#8owe#7r#0:#C1#cst #oF#gloo#or#n~
+#7Beams of sunlight shines through the victorian windows.  There is wizards here trying to learn the arcane ways of the wizard, even though apprentices they try to act as mighty wizards themselves
+~
+0 0 0
+D0
+~
+~
+0 0 52014
+D3
+~
+~
+0 0 52016
+S
+#52018
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52019
+D2
+~
+~
+0 0 52021
+S
+#52019
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52020
+D2
+~
+~
+0 0 52022
+D3
+~
+~
+0 0 52018
+S
+#52020
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52023
+D3
+~
+~
+0 0 52019
+S
+#52021
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52018
+D1
+~
+~
+0 0 52022
+D2
+~
+~
+0 0 52024
+S
+#52022
+#CSpir#cal#0li#7ng #7S#8taircas#7e#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52019
+D1
+~
+~
+0 0 52023
+D2
+~
+~
+0 0 52025
+D3
+~
+~
+0 0 52021
+D4
+~
+~
+0 0 52031
+D5
+~
+~
+0 0 52013
+S
+#52023
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52020
+D2
+~
+~
+0 0 52026
+D3
+~
+~
+0 0 52022
+S
+#52024
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52021
+D1
+~
+~
+0 0 52025
+S
+#52025
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52022
+D1
+~
+~
+0 0 52026
+D3
+~
+~
+0 0 52024
+S
+#52026
+#7I#8vor#7y #7T#8owe#7r#0:#C2#cnd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52023
+D3
+~
+~
+0 0 52025
+S
+#52027
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52028
+D2
+~
+~
+0 0 52030
+S
+#52028
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52029
+D2
+~
+~
+0 0 52031
+D3
+~
+~
+0 0 52027
+S
+#52029
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52032
+D3
+~
+~
+0 0 52028
+S
+#52030
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52027
+D1
+~
+~
+0 0 52031
+D2
+~
+~
+0 0 52033
+S
+#52031
+#CSpir#cal#0li#7ng #7S#8taircas#7e#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52028
+D1
+~
+~
+0 0 52032
+D2
+~
+~
+0 0 52034
+D3
+~
+~
+0 0 52030
+D4
+~
+~
+0 0 52040
+D5
+~
+~
+0 0 52022
+S
+#52032
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52029
+D2
+~
+~
+0 0 52035
+D3
+~
+~
+0 0 52031
+S
+#52033
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52030
+D1
+~
+~
+0 0 52034
+S
+#52034
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52031
+D1
+~
+~
+0 0 52035
+D3
+~
+~
+0 0 52033
+S
+#52035
+#7I#8vor#7y #7T#8owe#7r#0:#C3#crd #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52032
+D3
+~
+~
+0 0 52034
+S
+#52036
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52037
+D2
+~
+~
+0 0 52039
+S
+#52037
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52038
+D2
+~
+~
+0 0 52040
+D3
+~
+~
+0 0 52036
+S
+#52038
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52041
+D3
+~
+~
+0 0 52037
+S
+#52039
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52036
+D1
+~
+~
+0 0 52040
+D2
+~
+~
+0 0 52042
+S
+#52040
+#CSpir#cal#0li#7ng #7S#8taircas#7e#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52037
+D1
+~
+~
+0 0 52041
+D2
+~
+~
+0 0 52043
+D3
+~
+~
+0 0 52039
+D4
+~
+~
+0 0 52049
+D5
+~
+~
+0 0 52031
+S
+#52041
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52038
+D2
+~
+~
+0 0 52044
+D3
+~
+~
+0 0 52040
+S
+#52042
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52039
+D1
+~
+~
+0 0 52043
+S
+#52043
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52040
+D1
+~
+~
+0 0 52044
+D3
+~
+~
+0 0 52042
+S
+#52044
+#7I#8vor#7y #7T#8owe#7r#0:#C4#cth #oF#gloo#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52041
+D3
+~
+~
+0 0 52043
+S
+#52045
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52046
+D2
+~
+~
+0 0 52048
+S
+#52046
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52047
+D2
+~
+~
+0 0 52049
+D3
+~
+~
+0 0 52045
+S
+#52047
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52050
+D3
+~
+~
+0 0 52046
+S
+#52048
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52045
+D1
+~
+~
+0 0 52049
+D2
+~
+~
+0 0 52051
+S
+#52049
+#CObser#cva#ltion #pL#yeve#pl#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52046
+D1
+~
+~
+0 0 52050
+D2
+~
+~
+0 0 52052
+D3
+~
+~
+0 0 52048
+D5
+~
+~
+0 0 52040
+S
+#52050
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52047
+D2
+~
+~
+0 0 52053
+D3
+~
+~
+0 0 52049
+S
+#52051
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52048
+D1
+~
+~
+0 0 52052
+S
+#52052
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52049
+D1
+~
+~
+0 0 52053
+D3
+~
+~
+0 0 52051
+S
+#52053
+#CObser#cva#ltion #0D#7ec#0k#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52050
+D3
+~
+~
+0 0 52052
+S
+#52055
+~
+~
+0 4 0
+S
+#52057
+~
+~
+0 4 0
+S
+#52058
+~
+~
+0 4 0
+S
+#52059
+~
+~
+0 4 0
+S
+#52060
+~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 52000 30 52000
+M 0 52000 30 52001
+M 0 52000 30 52002
+M 0 52000 30 52003
+M 0 52000 30 52004
+M 0 52000 30 52005
+M 0 52000 30 52006
+M 0 52000 30 52007
+M 0 52000 30 52008
+M 0 52001 6 52009
+M 0 52002 6 52009
+M 0 52003 1 52009
+M 0 52004 1 52009
+M 0 52005 1 52009
+M 0 52001 6 52010
+M 0 52002 6 52010
+M 0 52003 1 52010
+M 0 52004 1 52010
+M 0 52005 1 52010
+M 0 52001 6 52011
+M 0 52002 6 52011
+M 0 52003 1 52011
+M 0 52004 1 52011
+M 0 52005 1 52011
+M 0 52001 6 52012
+M 0 52002 6 52012
+M 0 52003 1 52012
+M 0 52004 1 52012
+M 0 52005 1 52012
+M 0 52001 6 52013
+M 0 52002 6 52013
+M 0 52003 1 52013
+M 0 52004 1 52013
+M 0 52005 1 52013
+M 0 52001 6 52014
+M 0 52002 6 52014
+M 0 52003 1 52014
+M 0 52004 1 52014
+M 0 52005 1 52014
+M 0 52001 6 52015
+M 0 52002 6 52015
+M 0 52003 1 52015
+M 0 52004 1 52015
+M 0 52005 1 52015
+M 0 52001 6 52016
+M 0 52002 6 52016
+M 0 52003 1 52016
+M 0 52004 1 52016
+M 0 52005 1 52016
+M 0 52001 6 52017
+M 0 52002 6 52017
+M 0 52003 1 52017
+M 0 52004 1 52017
+M 0 52005 1 52017
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,8 @@
+throw 12 Rand
+clone 11 Huw
+hset 12 Adjani
+command 12 Tei
+flist 12 Huw
+bloodwall 12 Huw
+undeny 12 Rand
+END

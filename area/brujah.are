@@ -1,0 +1,503 @@
+#AREADATA
+Name        Brujah~
+Builders    Huw~
+VNUMs       50800 51000
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#50800
+Knight Chaos~
+#0A #rC#0h#ra#0o#rs #0K#rn#0i#rg#0h#rt#n~
+#0A #rC#0h#ra#0o#rs #0K#rn#0i#rg#0h#rt #0i#0s #rh#0e#rr#0e #rc#0o#rn#0s#ru#0m#ri#0n#rg#0 a#rl#0l #rb#0e#rf#0o#rr#0e #ri#0t#r.#n
+~
+~
+8205
+35127480 0 S
+15015 0 0 75d20+3 0d0+0
+0 0
+0 0 1
+#50801
+Chaos Champion~
+#rT#Rh#re #RC#rh#Ra#ro#Rs #rC#Rh#ra#Rm#rp#Ri#ro#Rn#n~
+#rT#Rh#re #RC#rh#Ra#ro#Rs #rC#Rh#ra#Rm#rp#Ri#ro#Rn #rs#Ri#rt#Rs #rh#Re#rr#Re #ro#Rn #rh#Ri#rs #Rc#rh#Ra#ro#Rt#ri#Rc #rs#Rt#re#Re#rd#R.#n
+~
+~
+13
+584692410 0 S
+29979 0 0 100d20+3 0d0+0
+0 0
+0 0 0
+#50802
+anubis~
+#RA#rn#y#bu#n#rb#Ris#n~
+#RA#rn#y#bu#n#rb#Ris#n is who you should be running from.
+~
+~
+9
+40 0 S
+30123 0 0 100d20+3000 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#50800
+no name~
+(no short description)~
+(no description)~
+~
+1 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#50800
+#gRe#Rst#Gin#Rg #gRo#Rom#n~
+~
+0 1073156 0
+D4
+~
+~
+0 0 50801
+D5
+~
+~
+0 0 50802
+S
+#50801
+#gHeading towards the #GA#Rr#ge#rn#Ga#n~
+~
+0 1073156 0
+D4
+~
+~
+0 0 50803
+D5
+~
+~
+0 0 50800
+S
+#50802
+#gA#Gr#gm#Go#gr#Gy#n~
+~
+0 1073156 0
+D4
+~
+~
+0 0 50800
+S
+#50803
+#GA#Rr#ge#rn#Ga #RL#ge#rv#Ge#Rl #gO#rn#Ge#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50819
+D1
+~
+~
+0 0 50804
+D5
+~
+~
+0 0 50801
+S
+#50804
+#GA#Rr#ge#rn#Ga #RL#ge#rv#Ge#Rl #gO#rn#Ge#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50805
+D3
+~
+~
+0 0 50803
+S
+#50805
+#GA#Rr#ge#rn#Ga #RL#ge#rv#Ge#Rl #gO#rn#Ge#n~
+~
+0 1073156 0
+D2
+~
+~
+0 0 50804
+D3
+~
+~
+0 0 50820
+D4
+~
+~
+0 0 50806
+S
+#50806
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50821
+D2
+~
+~
+0 0 50823
+D3
+~
+~
+0 0 50807
+D5
+~
+~
+0 0 50805
+S
+#50807
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n~
+~
+0 1073156 0
+D1
+~
+~
+0 0 50806
+D2
+~
+~
+0 0 50808
+S
+#50808
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50807
+D1
+~
+~
+0 0 50824
+D4
+~
+~
+0 0 50809
+S
+#50809
+#lA#Rr#le#rn#la #RL#le#rv#le#Rl #lT#rh#lr#Re#le#n~
+~
+0 5259264 0
+D2
+~
+~
+0 0 50810
+D3
+~
+~
+0 0 50825
+D5
+~
+~
+0 0 50808
+S
+#50810
+#lA#Rr#le#rn#la #RL#le#rv#le#Rl #lT#rh#lr#Re#le#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50809
+D3
+~
+~
+0 0 50811
+S
+#50811
+#lA#Rr#le#rn#la #RL#le#rv#le#Rl #lT#rh#lr#Re#le#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50825
+D1
+~
+~
+0 0 50810
+D4
+~
+~
+0 0 50812
+S
+#50812
+#0A#Rr#0e#rn#0a #RL#0e#rv#0e#Rl #0F#ro#0u#Rr#n~
+~
+0 4202500 0
+D2
+~
+~
+0 0 50813
+D5
+~
+~
+0 0 50811
+S
+#50813
+#0A#Rr#0e#rn#0a #RL#0e#rv#0e#Rl #0F#ro#0u#Rr#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50812
+D1
+~
+~
+0 0 50814
+S
+#50814
+#0A#Rr#0e#rn#0a #RL#0e#rv#0e#Rl #0F#ro#0u#Rr#n~
+~
+0 1073156 0
+D1
+~
+~
+0 0 50815
+D3
+~
+~
+0 0 50813
+S
+#50815
+#0A#Rr#0e#rn#0a #RL#0e#rv#0e#Rl #0F#ro#0u#Rr#n~
+~
+0 1073156 0
+D3
+~
+~
+0 0 50814
+D4
+~
+~
+0 0 50816
+S
+#50816
+#0The #yHeaven #0Dimension#n~
+~
+0 1073156 0
+D1
+~
+~
+0 0 50817
+D3
+~
+~
+0 0 50818
+D5
+~
+~
+0 0 50815
+S
+#50817
+#7The #yHeaven #7Dimension#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50829
+D2
+~
+~
+0 0 50828
+D3
+~
+~
+0 0 50816
+S
+#50818
+#7The #yHeaven #7Dimension#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50827
+D1
+~
+~
+0 0 50816
+D2
+~
+~
+0 0 50826
+S
+#50819
+#GA#Rr#ge#rn#Ga #RL#ge#rv#Ge#Rl #gO#rn#Ge#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50820
+D2
+~
+~
+0 0 50803
+S
+#50820
+#GA#Rr#ge#rn#Ga #RL#ge#rv#Ge#Rl #gO#rn#Ge#n~
+~
+0 1073156 0
+D1
+~
+~
+0 0 50805
+D2
+~
+~
+0 0 50819
+S
+#50821
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n-~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50822
+D2
+~
+~
+0 0 50806
+S
+#50822
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n-~
+~
+0 1073156 0
+D2
+~
+~
+0 0 50821
+S
+#50823
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n-~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50806
+D2
+~
+~
+0 0 50824
+S
+#50824
+#lA#pr#le#Pn#la #pL#le#Pv#le#pl #lT#Pw#lo#n-~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50823
+D3
+~
+~
+0 0 50808
+S
+#50825
+#lA#Rr#le#rn#la #RL#le#rv#le#Rl #lT#rh#lr#Re#le#n~
+~
+0 1073156 0
+D1
+~
+~
+0 0 50809
+D2
+~
+~
+0 0 50811
+S
+#50826
+#7The #yHeaven #7Dimension#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50818
+S
+#50827
+#7The #yHeaven #7Dimension#n~
+~
+0 1073156 0
+D2
+~
+~
+0 0 50818
+S
+#50828
+#7The #yHeaven #7Dimension#n~
+~
+0 1073156 0
+D0
+~
+~
+0 0 50817
+S
+#50829
+#7The #yHeaven #7Dimension#n~
+~
+0 1073156 0
+D2
+~
+~
+0 0 50817
+S
+#50830
+#0|#8-#0|#8-#0|#8-#0|#8-#0|#8-#0|#8-#0|#8---#sJ#sA#sI#sL#8---#0|#8-#0|#8-#0|#8-#0|#8-#0|#8-#0|#8-#0|#n~
+~
+0 13724678 0
+S
+#0
+
+
+
+#SPECIALS
+M 50800 spec_rand_new2
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

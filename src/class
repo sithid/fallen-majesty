@@ -1,0 +1,1222 @@
+  for ( ch = char_list; ch != NULL; ch = ch->next )
+    victim = ch->blinkykill;
+    if (IS_SET(ch->flag3, AFF3_BLINK_1ST_RD))
+      REMOVE_BIT(ch->flag3, AFF3_BLINK_1ST_RD);
+      SET_BIT(ch->flag3, AFF3_BLINK_2ND_RD);
+    else if (IS_SET(ch->flag3, AFF3_BLINK_2ND_RD))
+      REMOVE_BIT(ch->flag3, AFF3_BLINK_2ND_RD);
+      REMOVE_BIT(ch->flag3, AFF3_BLINK_1ST_RD);
+      if (victim->in_room != ch->in_room)
+        SET_BIT(ch->affected_by2,EXTRA_BLINKY);
+	SET_BIT(ch->affected_by2, EXTRA_BLINKY);
+      SET_BIT(ch->affected_by2,EXTRA_BLINKY);
+        if (ch->hit > 0) {
+	if (ch->pcdata->souls > 10)
+		ch->pcdata->souls -= 1;
+        if (IS_SET(ch->newbits, THIRD_HAND) && get_eq_char(ch, WEAR_THIRD) != NULL)
+        if (IS_SET(ch->newbits, FOURTH_HAND) && get_eq_char(ch, WEAR_FOURTH) != NULL)
+    ch_next = ch->next;
+    if (ch->fury_timer > 0)
+	ch->fury_timer--;
+	if (ch->fury_timer == 0)
+	REMOVE_BIT(ch->special, SPC_FURY);
+    if (ch->fury_timer == 0 && IS_SET(ch->special, SPC_FURY))
+        REMOVE_BIT(ch->special, SPC_FURY);
+    if (ch->fight_timer > 0) 
+    if (ch->fight_timer > 200)
+    ch->fight_timer = 200;
+    ch->fight_timer--;
+	if (ch->fight_timer == 0)
+	sprintf(buf,"%s now has NO Fight Timer.",ch->pcdata->switchname);
+	sprintf(buf,"#R%s #0now has #yNO#R Fight Timer#0.#n",ch->pcdata->switchname);
+    if (ch->pcdata->exhaustion > 0)
+	ch->pcdata->exhaustion--;
+	if (ch->pcdata->exhaustion == 0)
+    if (ch->wish_timer > 0)
+    ch->wish_timer--;
+        if (ch->wish_timer == 0)
+    if (ch->quit_timer > 0)
+    ch->quit_timer--;
+        if (ch->quit_timer == 0)
+    if (ch->bomb_timer > 0)
+        ch->bomb_timer--;
+        if (ch->bomb_timer == 0)
+     if (ch->fighting == NULL && !IS_HEAD(ch,LOST_HEAD) && !IS_EXTRA(ch,EXTRA_OSWITCH) && 
+!IS_SET(ch->monkstuff, MONK_DEATH) && !IS_SET(ch->special, SPC_TORTURE) && 
+!IS_AFFECTED(ch, AFF_ETHEREAL) && !xIS_SET(ch->act, PLR_HIDE) && !xIS_SET(ch->act, PLR_WIZINVIS)
+&& !IS_SET(ch->newbits, NEW_DARKNESS) && !IS_AFFECTED(ch, AFF_PEACE) && !IS_AFFECTED(ch,AFF_SHADOWPLANE)
+      if (ch->in_room != NULL)
+   if (IS_SET(ch->in_room->room_flags, ROOM_HEALING))
+    if ( ch->hit < ch->max_hit || ch->mana < ch->max_mana || ch->move < ch->max_move)    
+     if (ch->fight_timer > 0)
+	 if (ch->hit < 0 || ch->mana < 0 || ch->move < 0)
+          ch->hit += 1;
+          ch->mana += 1;
+          ch->move += 1;
+          ch->hit += 2500;
+          ch->mana += 2500;
+          ch->move += 2500;
+         if (ch->hit < 0 || ch->mana < 0 || ch->move < 0)
+          ch->hit += 1;
+          ch->mana += 1;
+          ch->move += 1;
+          ch->hit += 5000;
+          ch->mana += 5000;
+          ch->move += 5000;
+     if (ch->hit > ch->max_hit)  ch->hit = ch->max_hit;
+     if (ch->mana > ch->max_mana) ch->mana = ch->max_mana;
+     if (ch->move > ch->max_move) ch->move = ch->max_move;
+   if (IS_SET(ch->in_room->room_flags, ROOM_DAMAGE))
+       if (ch->hit <= ch->max_hit)
+       ch->hit -= dam;
+       if (ch->mana <= ch->max_mana)
+       ch->mana -= dam;
+       if (ch->move <= ch->max_move)
+       ch->move -= dam;
+       if (ch->hit < -10)  ch->hit = -10;
+       if (ch->mana < -10) ch->mana = -10;
+       if (ch->move < -10) ch->move = -10;
+    if (ch->ffa_timer > 0)
+	ch->ffa_timer--;
+	if (ch->ffa_timer == 0)
+    if (ch->ffa_timer == 0 && xIS_SET(ch->extra, FFA_HUNG))
+          xREMOVE_BIT(ch->extra, FFA_HUNG);
+    if ( ch->embracing != NULL )
+      emb = ch->embracing;
+      if ( emb == NULL ) ch->embracing = NULL;
+      if ( ch->in_room != emb->in_room )
+          ch->embracing = NULL;
+        else ch->embracing = NULL;
+    if ( ch->embraced != NULL )
+      emb = ch->embraced;
+      if ( emb == NULL ) ch->embraced = NULL;  
+      if ( ch->in_room != emb->in_room )
+          ch->embraced   = NULL;
+        else ch->embraced = NULL;
+   if ( IS_SET(ch->special, SPC_TORTURE) )
+      if ( ch->hit > (ch->max_hit / 3 ) )
+          REMOVE_BIT(ch->special, SPC_TORTURE);
+        if (ch->hit < 0) return;
+	ch->hit -= number_range( 2500, 7500);
+          REMOVE_BIT(ch->special, SPC_TORTURE);
+        if (ch->hit < 0) return;
+		ch->hit -= number_range( 2500, 7500);
+   if ( IS_SET(ch->monkstuff, MONK_DEATH) )
+      if ( ch->hit > (ch->max_hit / 3 ) )
+          if (ch->hit < 0) return;
+	  ch->hit -= number_range( 2500, 7500);
+          REMOVE_BIT(ch->monkstuff, MONK_DEATH);
+          REMOVE_BIT(ch->monkstuff, MONK_DEATH);
+	 if (ch->hit < 0) return;
+          ch->hit -= number_range( 2500, 7500);
+    if (IS_SET(ch->monkstuff, MONK_HEAL))
+      if ((ch->hit < (ch->max_hit * 0.75 )) && (ch->hit > 0))
+      else if (ch->hit < 0)
+      else if ((ch->hit) >= (ch->max_hit * 0.75))
+           REMOVE_BIT(ch->monkstuff, MONK_HEAL);
+          if ( ch->hit < ch->max_hit )
+      ch->hit += monkheal;
+      ch->hit += monkheal;
+    if ((victim = ch->fighting ) == NULL || ch->in_room == NULL) continue;
+      if (!IS_SET(ch->in_room->room_flags, ROOM_ARENA) || 
+       if (ch->fight_timer < 10) ch->fight_timer = 10;
+       ch->fight_timer += 1;
+       ch->fight_timer += 3;
+    if (IS_AWAKE(ch) && IS_AWAKE(victim) && ch->in_room == victim->in_room) 
+          if(ch->desc)
+	     process_output(ch->desc, TRUE);
+    if ((victim = ch->fighting ) == NULL) continue;
+    for ( rch = ch->in_room->people; rch != NULL; rch = rch_next )
+      rch_next = rch->next_in_room;
+      if ( IS_AWAKE(rch) && rch->fighting == NULL )
+        if ( (mount = rch->mount) != NULL )
+          if (rch->pIndexData == ch->pIndexData || number_bits(3) == 0)
+            for ( vch = ch->in_room->people; vch; vch = vch->next )
+  if ( ch->position < POS_SLEEPING ) return;
+      if (!IS_NPC(victim) && IS_AFFECTED(victim, AFF_PEACE) && (ch->fight_timer<1))
+      if (!IS_NPC(ch) && ch->cmbt[unarmed] != 0 && wieldorig == 0)
+        fightaction(ch,victim,ch->cmbt[unarmed], dt, wieldtype);
+    if (IS_CLASS(ch, CLASS_SHAPESHIFTER) && ch->pcdata->powers[BULL_LEVEL]>1);
+    if (IS_CLASS(ch, CLASS_SHAPESHIFTER) && ch->pcdata->powers[BULL_LEVEL]>4);
+    if(ch->pcdata->powers[NPOWER_NINGENNO] >=4)
+      spell_poison(gsn_poison,(ch->level*number_range(50,60)),ch,victim); 
+  if (IS_CLASS(ch, CLASS_SHAPESHIFTER) && (ch->pcdata->powers[SHAPE_FORM] != TIGER_FORM))
+  if (IS_CLASS(ch, CLASS_SHAPESHIFTER) && (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM))
+  if (IS_CLASS(ch, CLASS_SHAPESHIFTER) && (ch->pcdata->powers[SHAPE_FORM] != TIGER_FORM))
+  if (IS_CLASS(ch, CLASS_SHAPESHIFTER) && (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM))
+    if ( (IS_CLASS(ch,CLASS_WEREWOLF)) && (ch->power[DISC_WERE_PAIN] > 9))
+    if (IS_CLASS(ch, CLASS_ANGEL) && ch->pcdata->powers[ANGEL_JUSTICE] > 4)
+      if (IS_SET(ch->newbits, NEW_SUPREME))
+      if ((ch->wpn[0] >= 700) && (ch->wpn[3] >= 700)
+      && (ch->wpn[6] >= 700) && (ch->wpn[9] >= 700)
+      && (ch->wpn[1] >= 700) && (ch->wpn[4] >= 700)
+      && (ch->wpn[7] >= 700) && (ch->wpn[10] >= 700) 
+      && (ch->wpn[2] >= 700) && (ch->wpn[5] >= 700)
+      && (ch->wpn[8] >= 700) && (ch->wpn[11] >= 700)
+      && (ch->wpn[12] >= 700))
+      if ((ch->wpn[0] >= 1000)  && (ch->wpn[3] >= 1000)
+      && (ch->wpn[6] >= 1000) && (ch->wpn[9] >= 1000)
+      && (ch->wpn[1] >= 1000) && (ch->wpn[4] >= 1000)
+      && (ch->wpn[7] >= 1000)
+      && (ch->wpn[10] >= 1000) && (ch->wpn[2] >= 1000)
+      && (ch->wpn[5] >= 1000) && (ch->wpn[8] >= 1000)
+      && (ch->wpn[11] >= 1000) && (ch->wpn[12] >= 1000))
+      if ((ch->wpn[0] >= 700)  && (ch->wpn[3] >= 700)
+      && (ch->wpn[6] >= 700) && (ch->wpn[9] >= 700)
+      && (ch->wpn[1] >= 700) && (ch->wpn[4] >= 700)
+      && (ch->wpn[7] >= 700)
+      && (ch->wpn[10] >= 700) && (ch->wpn[2] >= 700)
+      && (ch->wpn[5] >= 700) && (ch->wpn[8] >= 700)
+      && (ch->wpn[11] >= 700) && (ch->wpn[12] >= 700))
+    switch( ch->pIndexData->vnum ){
+  if (!IS_NPC(ch) && ch->stance[0] > 0 && number_percent() == 5)
+    int stance = ch->stance[0];
+    if (ch->stance[stance] >= 200)
+  if (IS_SET( ch->flag2, VAMP_OBJMASK) )
+    sprintf(buf,"%s reforms as %s.\n\r",ch->morph, ch->name );
+    free_string(ch->morph);
+    free_string(ch->objdesc);
+    ch->long_descr = str_dup("");
+    REMOVE_BIT(ch->flag2, VAMP_OBJMASK);
+    REMOVE_BIT(ch->affected_by, AFF_POLYMORPH);
+		dam = ch->damcap[0];
+  if ( ch->fighting != victim || dt == gsn_backstab || dt == gsn_shiroken
+      chance = (ch->wpn[tempnum]) * 0.5;
+    else chance = (ch->wpn[0]) * 0.5;
+    if ( ch->fighting != victim ) return;
+  if ( IS_CLASS(ch, CLASS_DEMON) && IS_SET(ch->warp, WARP_SPIKETAIL) && number_range(1,4) == 1)
+    if (ch->pIndexData->vnum == MOB_VNUM_FIRE)
+    if (ch->pIndexData->vnum == MOB_VNUM_STONE)
+    if (ch->pIndexData->vnum == MOB_VNUM_CLAY)
+    if (ch->pIndexData->vnum == MOB_VNUM_IRON)
+  if ( IS_CLASS(ch, CLASS_DEMON) && IS_SET(ch->warp, WARP_SHARDS) && number_range(1,4) == 1)
+  if ( IS_CLASS(ch, CLASS_DEMON) && IS_SET(ch->warp, WARP_MAGMA) && number_range(1,4) == 1)
+  if ( IS_CLASS(ch, CLASS_DEMON) && IS_SET(ch->warp, WARP_VENOMTONG) && number_range(1,4) == 1)
+   if ( IS_CLASS(ch, CLASS_DEMON) && IS_SET(ch->warp, WARP_BADBREATH) && number_range(1,4) == 1)
+  if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_SHAPESHIFTER) && ch->level > 2)
+    if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM)
+      if (ch->pcdata->powers[HYDRA_LEVEL]==1) one_hit(ch,victim, gsn_fangs, 1);
+      if (ch->pcdata->powers[HYDRA_LEVEL]>3) multi_hit(ch,victim, gsn_fangs);
+      if (ch->pcdata->powers[HYDRA_LEVEL]>4) multi_hit(ch,victim, gsn_badbreath);
+      if (ch->pcdata->powers[HYDRA_LEVEL]>4) multi_hit(ch,victim, gsn_badbreath);
+    if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM)
+      if (ch->pcdata->powers[TIGER_LEVEL]>0) one_hit(ch, victim, gsn_fangs, 0);
+      if (ch->pcdata->powers[TIGER_LEVEL]>1) one_hit(ch, victim, gsn_claws, 0);
+      if (ch->pcdata->powers[TIGER_LEVEL]>3) multi_hit(ch, victim, gsn_claws);
+      if (ch->pcdata->powers[TIGER_LEVEL]>4) multi_hit(ch, victim, gsn_fangs);
+    if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM) 
+      if (ch->pcdata->powers[BULL_LEVEL]>0) one_hit(ch, victim, gsn_headbutt,0);
+      if (ch->pcdata->powers[BULL_LEVEL]>1) multi_hit(ch, victim, gsn_hooves);
+      if (ch->pcdata->powers[BULL_LEVEL]>4) multi_hit(ch, victim, gsn_headbutt);
+      if (ch->pcdata->powers[BULL_LEVEL]>4) multi_hit(ch, victim, gsn_hooves);
+    if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM)
+      if (ch->pcdata->powers[FAERIE_LEVEL] > 0) multi_hit(ch, victim, gsn_fangs);
+      if (ch->pcdata->powers[FAERIE_LEVEL] > 1) multi_hit(ch, victim, gsn_buffet);
+  if (!IS_NPC(ch) && ch->level > 2)
+    if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_MINDBLAST))
+    if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_ENFEEBLE))
+    if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_FANGS))
+      if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_HEAD)) one_hit(ch, victim, gsn_fangs, 1);
+    if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_FIERY))
+     if (IS_CLASS(ch, CLASS_UNDEAD_KNIGHT) && ch->pcdata->powers[WEAPONSKILL] > 9)
+    if (ch->pcdata->powers[CON_LORE] > 4) one_hit(ch,victim, gsn_fireball,1);
+    if (ch->pcdata->powers[NECROMANTIC] > 4) one_hit(ch,victim, gsn_chillhand,1);
+    if (ch->pcdata->powers[DEATH_LORE] > 4) one_hit(ch,victim, gsn_deathaura,1);
+  if (IS_CLASS(ch, CLASS_DEMON) && number_range(1,3) == 1 && ch->power[DISC_DAEM_HELL] > 3)
+     if( IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->powers[NPOWER_NINGENNO] >=5 && number_percent() > 30)
+  if (!IS_NPC(ch) && IS_SET(ch->pcdata->powers[AURAS], DEATH_AURA) && IS_CLASS(ch,CLASS_UNDEAD_KNIGHT))
+  if (!IS_NPC(ch) && IS_SET(ch->pcdata->powers[AURAS], FEAR_AURA) && IS_CLASS(ch, 
+  if (!IS_NPC(ch) && IS_SET(ch->special, SPC_TORMENT) && IS_CLASS(ch, CLASS_INQUISITOR))
+  if (!IS_NPC(ch) && IS_SET(ch->newbits,NEW_QUILLS) && IS_CLASS(ch, CLASS_WEREWOLF))
+  if (!IS_NPC(ch) && ch->pcdata->powers[PINQUISITOR] > 7 && IS_CLASS(ch, CLASS_INQUISITOR))
+  if (!IS_NPC(ch) && IS_SET(ch->newbits,NEW_BLADESPIN) && IS_CLASS(ch, CLASS_HIGHLANDER))
+  if (!IS_NPC(ch) && IS_SET(ch->newbits,NEW_BLADESPIN) && IS_CLASS(ch, CLASS_PALADIN))
+  if (!IS_NPC(ch) && IS_SET(ch->newbits, NEW_DARKTENDRILS) && IS_CLASS(ch, CLASS_DROW))
+  if (!IS_NPC(ch) && IS_CLASS(ch,CLASS_DROW) && IS_SET(ch->pcdata->powers[1], DPOWER_SHADOWBLAST))
+  if (!IS_NPC(ch) && IS_SET(ch->newbits,NEW_MULTIARMS) && IS_CLASS(ch, CLASS_MAGE))
+  if (!IS_NPC(ch) && ch->monkab[BODY] > 3 && IS_CLASS(ch, CLASS_MONK))
+    if (IS_SET(ch->pcdata->powers[ANGEL_POWERS], ANGEL_AURA)) multi_hit(ch,victim,gsn_heavenlyaura);
+  if (!IS_NPC(ch) && IS_SET(ch->newbits, NEW_CUBEFORM) && IS_CLASS(ch, CLASS_CYBORG))
+    if ( ch->pcdata->powers[CYBORG_FACE] > 4)
+    if (IS_SET(ch->newbits,NEW_SLAM) && number_range(1,3)==1)
+  if (!IS_NPC(ch) && IS_SET(ch->pcdata->powers[ANGEL_POWERS], ANGEL_WINGS) && IS_CLASS(ch, CLASS_ANGEL))
+  if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_VAMPIRE) && IS_VAMPAFF(ch,VAM_WINGS) && number_range(1,2) == 1 && ch->level > 2)
+  if (IS_CLASS(ch, CLASS_DEMON) && IS_SET(ch->warp, WARP_WINGS) && number_range(1,2) == 1)
+  if (!IS_NPC(ch) && IS_CLASS(ch,CLASS_WEREWOLF) && ch->power[DISC_WERE_RAPT] > 0)
+    spell_poison( gsn_poison, (ch->level*number_range(5,10)),ch,victim );
+  else if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_WEREWOLF) && ch->power[DISC_WERE_SPID] > 0)
+    spell_poison( gsn_poison, (ch->level*number_range(5,10)),ch,victim );
+  else if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_DROW) && IS_SET(ch->pcdata->powers[1], DPOWER_DROWPOISON))
+    spell_poison(gsn_poison,(ch->level*number_range(10,20)),ch,victim);
+  else if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->powers[NPOWER_NINGENNO] >=5)
+    spell_poison(gsn_poison,(ch->level*number_range(100,200)),ch,victim);
+      SET_BIT(ch->affected_by, AFF_FLAMING);
+  if (IS_ITEMAFF(victim, ITEMA_SHOCKSHIELD) && ch->position == POS_FIGHTING)
+  if (IS_ITEMAFF(victim, ITEMA_FIRESHIELD) && ch->position == POS_FIGHTING)
+  if (IS_ITEMAFF(victim, ITEMA_ICESHIELD) && ch->position == POS_FIGHTING)
+  if (IS_ITEMAFF(victim, ITEMA_ACIDSHIELD) && ch->position == POS_FIGHTING)
+  if (IS_ITEMAFF(victim, ITEMA_CHAOSSHIELD) && ch->position == POS_FIGHTING)
+    if (ch->level >= 50) count += 1;
+    if (ch->level >= 100) count += 1;
+    if (ch->level >= 500) count += 1;
+    if (ch->level >= 1000) count += 1;
+    if (ch->level >= 1500) count += 1;
+    if (ch->level >= 2000) count += 2;
+    if( ch->pIndexData->hitsizedice > 20) count += 20;
+    else count += ch->pIndexData->hitsizedice;
+    if ( IS_STANCE(ch, STANCE_VIPER) && number_percent() < ch->stance[STANCE_VIPER] * 0.5) count += 1;
+    else if ( IS_STANCE(ch, STANCE_MANTIS) && number_percent() < ch->stance[STANCE_MANTIS] * 0.5) count += 1;
+    else if ( IS_STANCE(ch, STANCE_TIGER) && number_percent() < ch->stance[STANCE_TIGER] * 0.5) count += 1;
+    else if ( IS_STANCE(ch, STANCE_WOLF) && number_percent() < ch->stance[STANCE_WOLF] * 0.5) count += 2;
+    else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_SPEED) 
+	     && number_percent() < ch->stance[(ch->stance[0])] * 0.5 ) count +=2;
+	if (ch->class == 0)
+          if( ch->move < 50000 ) count += 2;
+          else count += ch->move/50000;
+      if ( IS_CLASS(ch, CLASS_VAMPIRE) && ch->power[DISC_VAMP_CELE] > 0)
+        if (ch->power[DISC_VAMP_CELE] > 10)
+        else if ( ch->power[DISC_VAMP_CELE] < 7)
+        else if ( ch->power[DISC_VAMP_CELE] < 5)
+     	if (ch->chi[CURRENT] > 0 && ch->chi[CURRENT] < 3 ) count += 1;
+    	else if (ch->chi[CURRENT] > 2 && ch->chi[CURRENT] <= 5 ) count+=3;
+    	else if (ch->chi[CURRENT] == 6) count += 6;
+	  if (IS_CLASS(ch, CLASS_TANARRI)) count += ch->pcdata->rank;
+	  if (IS_CLASS(ch, CLASS_PSIONIST))  count += ch->pcdata->rank;
+      if (IS_CLASS(ch, CLASS_ANGEL)) count += ch->pcdata->powers[ANGEL_JUSTICE];
+        if (ch->power[DISC_WERE_LYNX] <= 6 )count += 2;
+        if (ch->power[DISC_WERE_BOAR] > 6)
+          if( ch->move < 150000 ) count += 2;
+          else count += ch->move/150000;
+        count += ch->pcdata->powers[WEAPONSKILL];
+        if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM) count += 7;
+        if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM) count += 9;
+        if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM) count += 6;
+        if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM) count += 8;
+        if (IS_SET(ch->warp, WARP_QUICKNESS)) count += 6;
+        if (IS_SET(ch->special, SPC_DROW_WAR)) count += 4;
+        if (IS_SET(ch->pcdata->powers[1],DPOWER_SPEED)) count += 4;
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->powers[NPOWER_CHIKYU] >= 3)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_ONE)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_TWO)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_THREE)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_FOUR)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_FIVE)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_SIX)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_SEVEN)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_EIGHT)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_NINE)
+    if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->rank == BELT_TEN)
+        if ( ch->pcdata->powers[CYBORG_LIMBS] < 5)
+          count += ch->pcdata->powers[CYBORG_LIMBS];
+        else if (ch->pcdata->powers[CYBORG_LIMBS] > 4)
+          if(ch->move < 100000) count += 2;
+          else count += ch->move/100000;
+        if (!IS_SET(ch->newbits, NEW_BLADESPIN) )
+        if (IS_SET(ch->newbits, NEW_BLADESPIN))
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+        if (!IS_SET(ch->newbits, NEW_BLADESPIN) )
+        if (IS_SET(ch->newbits, NEW_BLADESPIN))
+          if(ch->move < 75000) count += 2;
+          else count += ch->move/75000;
+	  if( ch->power[DISC_VAMP_CELE] < 10)
+		count += ch->power[DISC_VAMP_CELE]/2;
+          else if ( ch->power[DISC_VAMP_CELE] > 9)
+          if( ch->move < 150000 ) count += 2;
+          else count += ch->move/150000;
+        if (ch->chi[CURRENT] > 0 && ch->chi[CURRENT] < 3 ) count += 1;
+        if (ch->chi[CURRENT] > 2 && ch->chi[CURRENT] <= 5 ) count+=3;
+        if (ch->chi[CURRENT] == 6) count += ch->move/50000;
+	if ( ch->pcdata->powers[CYBORG_LIMBS] < 5)
+    	  count += ch->pcdata->powers[CYBORG_LIMBS];
+	else if (ch->pcdata->powers[CYBORG_LIMBS] > 4)
+	  if(ch->move < 100000) count += 2;
+	  else count += ch->move/100000;
+	   if (ch->pcdata->rank < 6)
+		count += ch->pcdata->rank;
+	   if (ch->pcdata->rank > 5)
+          if(ch->move < 75000) count += 2;
+          else count += ch->move/75000;
+           if (ch->pcdata->rank < 6)
+                count += ch->pcdata->rank;
+           if (ch->pcdata->rank > 5)
+          if(ch->move < 75000) count += 2;
+          else count += ch->move/75000;
+	if (ch->pcdata->powers[ANGEL_JUSTICE] < 4)
+	   count += ch->pcdata->powers[ANGEL_JUSTICE];
+      	else if (ch->pcdata->powers[ANGEL_JUSTICE] > 4)
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+        if (ch->power[DISC_WERE_LYNX] <= 6)
+	  count += ch->power[DISC_WERE_LYNX];
+        if (ch->power[DISC_WERE_BOAR] > 6)
+          if(ch->move < 75000) count += 2;
+          else count += ch->move/75000;
+	  if (ch->pcdata->powers[WEAPONSKILL] < 9)
+      	count += ch->pcdata->powers[WEAPONSKILL]/2;
+	  if (ch->pcdata->powers[WEAPONSKILL] > 8)
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+      if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM) 
+		if (ch->pcdata->powers[BULL_LEVEL] < 5)
+		count += ch->pcdata->powers[BULL_LEVEL];
+		if (ch->pcdata->powers[BULL_LEVEL] > 4)
+          if(ch->move < 70000) count += 2;
+          else count += ch->move/70000;
+      else if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM) 
+		if (ch->pcdata->powers[TIGER_LEVEL] < 5)
+		count += ch->pcdata->powers[TIGER_LEVEL]*1.3;
+		if (ch->pcdata->powers[TIGER_LEVEL] > 4)
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+      else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM) 
+	  	if (ch->pcdata->powers[FAERIE_LEVEL] < 5)
+		count += ch->pcdata->powers[FAERIE_LEVEL];
+	  	if (ch->pcdata->powers[FAERIE_LEVEL] > 4)
+          if(ch->move < 100000) count += 2;
+          else count += ch->move/100000;
+      else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM) 
+		if (ch->pcdata->powers[HYDRA_LEVEL] < 5)
+		count += ch->pcdata->powers[HYDRA_LEVEL]*1.5;
+		if (ch->pcdata->powers[HYDRA_LEVEL] > 4)
+          if(ch->move < 70000) count += 2;
+          else count += ch->move/70000;
+        if (IS_SET(ch->warp, WARP_QUICKNESS)) count += 5;
+	if (ch->power[DISC_DAEM_ATTA] < 10)
+	count += ch->power[DISC_DAEM_ATTA]/2;
+	else if (ch->power[DISC_DAEM_ATTA] > 9)
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+        if (IS_SET(ch->special, SPC_DROW_WAR)) count += 5;
+        if (IS_SET(ch->pcdata->powers[1],DPOWER_SPEED))
+          if(ch->move < 50000) count += 2;
+          else count += ch->move/50000;
+          if(ch->move < 100000) count += 2;
+          else count += ch->move/100000;
+      if( !IS_NPC( ch ) && (IS_CLASS(ch, CLASS_NINJA) && ch->pcdata->powers[NPOWER_CHIKYU] >=3))
+    	if (ch->pcdata->rank == BELT_ONE)
+ 	if(ch->pcdata->rank == BELT_TWO)
+    	if (ch->pcdata->rank == BELT_THREE)
+    	if (ch->pcdata->rank == BELT_FOUR)
+    	if (ch->pcdata->rank == BELT_FIVE)
+    	if (ch->pcdata->rank == BELT_SIX)
+    	if (ch->pcdata->rank == BELT_SEVEN)
+    	if (ch->pcdata->rank == BELT_EIGHT)
+    	if (ch->pcdata->rank == BELT_NINE)
+    	if (ch->pcdata->rank == BELT_TEN)
+          if(ch->move < 100000) count += 2;
+          else count += ch->move/100000;
+	if (!IS_SET(ch->newbits, NEW_BLADESPIN) )
+    	if (IS_SET(ch->newbits, NEW_BLADESPIN))
+          if(ch->move < 100000) count += 2;
+          else count += ch->move/100000;
+        if (!IS_SET(ch->newbits, NEW_BLADESPIN) )
+        if (IS_SET(ch->newbits, NEW_BLADESPIN))
+          if(ch->move < 100000) count += 2;
+          else count += ch->move/100000;
+        if (ch->pcdata->powers[PINQUISITOR] < 8)
+        if (ch->pcdata->powers[PINQUISITOR] > 7)
+          if(ch->move < 75000) count += 2;
+          else count += ch->move/75000;
+  if (victim->position == POS_DEAD || ch->in_room != victim->in_room)
+    if (IS_AFFECTED( ch, AFF_PEACE) && ch->fighting != NULL)
+    REMOVE_BIT(ch->affected_by, AFF_PEACE);
+  if (ch->wpn[dt-1000] > 5) level = (ch->wpn[dt-1000] / 5);
+  if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+  if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+  if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    dam = number_range( ch->level / 2, ch->level * 3 / 2 );
+      dam = (ch->spl[RED_MAGIC] + ch->spl[YELLOW_MAGIC] + ch->spl[GREEN_MAGIC]  + ch->spl[PURPLE_MAGIC] + ch->spl[BLUE_MAGIC])/4;
+    else if (IS_SET(ch->pcdata->powers[AURAS], DEATH_AURA))
+     if (ch->pcdata->rank == BELT_SEVEN)
+     if (ch->pcdata->rank == BELT_EIGHT)
+     if (ch->pcdata->rank == BELT_NINE)
+     if (ch->pcdata->rank == BELT_TEN)
+  if (!IS_NPC(ch) && dt >= TYPE_HIT) dam = dam + (dam * (UMIN(350,(ch->wpn[dt-1000]+1)) / 60));
+ 	if (ch->power[DISC_VAMP_POTE] > 7)
+	if (ch->power[DISC_VAMP_POTE] > 9)
+  if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_MIGHT)) 
+  if (ch->pcdata->powers[TANARRI_FURY_ON] == 1)
+  if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_WRATH))
+  if (ch->pcdata->powers[PSIONIST_WRATH_ON] == 1)
+  if (ch->pcdata->powers[ANGEL_JUSTICE] < 2)
+  if (ch->pcdata->powers[ANGEL_JUSTICE] > 4)
+  if (!IS_SET(ch->newbits, NEW_FIGHTDANCE))
+  if (IS_SET(ch->newbits, NEW_FIGHTDANCE))
+  if (IS_SET(ch->warp, WARP_STRONGARMS))
+  if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 1.5 * (ch->stance[(ch->stance[0])] / 200);
+  else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 1.0 * (ch->stance[(ch->stance[0])] / 200);
+  else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 0.5 * (ch->stance[(ch->stance[0])] / 200);
+  if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 0.5 * (ch->stance[(ch->stance[0])] / 200);
+  else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 0.3 * (ch->stance[(ch->stance[0])] / 200);
+  else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 0.1 * (ch->stance[(ch->stance[0])] / 200);
+   if (ch->pcdata->powers[DEATH_LORE] < 5)
+   if (ch->pcdata->powers[DEATH_LORE] > 9)
+    if (ch->pcdata->powers[PINVOKE]<9) dam *=1.7;
+    if (ch->pcdata->powers[PINVOKE]>9) dam *=1.9;
+    if (ch->pcdata->rank == BELT_ONE) dam *= 2.0;
+    else if (ch->pcdata->rank == BELT_TWO) dam *= 2.1;
+    else if (ch->pcdata->rank == BELT_THREE) dam *= 2.2;
+    else if (ch->pcdata->rank == BELT_FOUR) dam *= 2.3;
+    else if (ch->pcdata->rank == BELT_FIVE) dam *= 2.4;
+    else if (ch->pcdata->rank == BELT_SIX) dam *= 2.5;
+    else if (ch->pcdata->rank == BELT_SEVEN) dam *= 2.6;
+    else if (ch->pcdata->rank == BELT_EIGHT) dam *= 2.7;
+    else if (ch->pcdata->rank == BELT_NINE) dam *= 2.8;
+    else if (ch->pcdata->rank == BELT_TEN) dam *= 3.5;
+    if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM && ch->pcdata->powers[TIGER_LEVEL] > 1) 
+    else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM && ch->pcdata->powers[FAERIE_LEVEL] > 1) 
+    else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM && ch->pcdata->powers[HYDRA_LEVEL] > 1) 
+    else if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM && ch->pcdata->powers[BULL_LEVEL] > 1) 
+    if (ch->pcdata->powers[CYBORG_LIMBS] < 2) dam *= 1.5;
+    if (ch->pcdata->powers[CYBORG_LIMBS] > 2) dam *= 3;
+   if (!IS_SET(ch->newbits, NEW_BLADESPIN))
+   if (IS_SET(ch->newbits, NEW_BLADESPIN))
+   if (!IS_SET(ch->newbits, NEW_BLADESPIN))
+   if (IS_SET(ch->newbits, NEW_BLADESPIN))
+   if (ch->pcdata->powers[PINQUISITOR] > 7)
+    if (ch->pcdata->powers[WEAPONSKILL] > 4) dam *= 1.9;
+    if (ch->pcdata->powers[WEAPONSKILL] > 8) dam *= 4;
+   if (ch->power[DISC_WERE_BEAR] > 5)
+   if (ch->power[DISC_WERE_BEAR] > 9)
+    if (ch->chi[CURRENT] > 0 && ch->chi[CURRENT] < 3 ) dam *= 1.6;
+    else if (ch->chi[CURRENT] > 2 && ch->chi[CURRENT] <= 5 ) dam *= 2.0;
+    else if (ch->chi[CURRENT] == 6) dam *= 2.4;
+    if (!xIS_SET(ch->act, PLR_BRIEF2))
+    if (!xIS_SET(ch->act, PLR_BRIEF2))
+    	if (!xIS_SET(ch->act, PLR_BRIEF2))
+        if (!xIS_SET(ch->act, PLR_BRIEF2))
+        if (!xIS_SET(ch->act, PLR_BRIEF2))
+    if (!xIS_SET(ch->act, PLR_BRIEF2))
+    if (!xIS_SET(ch->act, PLR_BRIEF2))
+      if (ch->fighting == victim && IS_WEAP(wield,WEAPON_VAMPIRIC))
+      if (ch->fighting == victim && (IS_WEAP(wield,WEAPON_FLAMING) || 
+      if (ch->fighting == victim && (IS_WEAP(wield,WEAPON_FROST) || 
+      if (ch->fighting == victim && IS_WEAP(wield, WEAPON_ELE_EARTH) )
+      if (ch->fighting == victim && (IS_WEAP(wield,WEAPON_SHOCKING)  || 
+  if( IS_NPC(ch) && ch->pIndexData->hitplus > 3) dam *=3;
+  else if( IS_NPC(ch) && ch->pIndexData->hitplus > 0 ) dam *= ch->pIndexData->hitplus;
+    if ( IS_SET(ch->newbits, NEW_MONKSKIN) ) dam /= 2;	
+  if (dam > ch->damcap[DAM_CAP]) dam = number_range( (ch->damcap[DAM_CAP] - 200), (ch->damcap[DAM_CAP] + 100) );
+  else if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], 
+    if (ch->practice >= 20000 && ch->practice < 40000)  max_dam += 100;
+    else if (ch->practice >= 40000 && ch->practice < 60000)  max_dam += 200;
+    else if (ch->practice >= 60000 && ch->practice < 80000)  max_dam += 300;
+    else if (ch->practice >= 80000 && ch->practice < 100000)  max_dam += 400;
+    else if (ch->practice >= 100000 && ch->practice < 150000) max_dam += 500;
+    else if (ch->practice >= 150000 && ch->practice < 200000) max_dam += 600;
+    else if (ch->practice >= 200000 && ch->practice < 300000) max_dam += 700;
+    else if (ch->practice >= 300000 && ch->practice < 400000) max_dam += 800;	
+    else if (ch->practice >= 400000 && ch->practice < 500000) max_dam += 900;
+    else if (ch->practice >= 500000) max_dam += 1000;
+       if (ch->lstatus > 0 )
+	 if ( ch->lstatus == 1 )
+         if ( ch->lstatus == 2 )
+         if ( ch->lstatus == 3 )
+         if ( ch->lstatus == 4 )
+         if ( ch->lstatus == 5 )
+         if ( ch->lstatus == 6 )
+         if ( ch->lstatus == 7)
+         if ( ch->lstatus == 8)
+         if ( ch->lstatus == 9)
+    if (ch->generation == 0) max_dam += 500; /*Mobius*/
+    if (ch->generation == 1) max_dam += 350;
+    if (ch->generation == 2) max_dam += 200;
+    if (ch->generation == 3) max_dam += 150;
+    if (ch->generation == 4) max_dam += 100;
+    if (ch->generation == 5) max_dam += 50;
+    if (!xIS_SET(ch->extra, EXTRA_JUST_PK))
+    if (ch->race >= 1)
+	 max_dam += ch->race*10;
+    else if (xIS_SET(ch->extra, EXTRA_JUST_PK))
+    if (ch->race >= 1)
+         max_dam += ch->race*20;
+       if (IS_SET(ch->newbits, NEW_SUPREME) && ch->level < 6)
+    if (ch->class == 0)
+  	max_dam += (ch->max_hit / 300);
+	max_dam += (ch->max_move / 300);
+	max_dam += (ch->max_mana / 300);
+      if (ch->pcdata->powers[PINQUISITOR] > 0 && ch->pcdata->souls > 10)
+	max_dam += ch->pcdata->souls * 10;
+        if (ch->wpn[i] >= 700 && ch->wpn[i] < 800) max_dam += 225;
+        else if (ch->wpn[i] >= 800 && ch->wpn[i] < 900) max_dam += 230;
+        else if (ch->wpn[i] >= 900 && ch->wpn[i] < 1000) max_dam += 240;
+        else if (ch->wpn[i] == 1000) max_dam += 250;
+      if (IS_SET(ch->special, SPC_FURY))
+      if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_MIGHT)) max_dam += 1000;
+      max_dam += ch->pcdata->rank*500; /* max rank is 6 btw */
+      if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_BODY)) max_dam += 350;
+      if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_ENERGY)) max_dam += 350;
+      max_dam += ch->pcdata->souls*5;
+      max_dam += ch->pcdata->rank*350; /* max rank is 6 btw */
+      if (ch->pcdata->powers[CON_LORE] > 4) max_dam += 500;
+      if (ch->pcdata->powers[DEATH_LORE] > 4) max_dam += 500;
+      if (ch->pcdata->powers[LIFE_LORE] > 4) max_dam += 500;
+      if (ch->pcdata->powers[NECROMANTIC] > 4) max_dam += 500;
+      if (ch->pcdata->powers[CHAOS_MAGIC] > 4) max_dam += 500;
+      max_dam += ch->pcdata->powers[ANGEL_JUSTICE]*155;
+      max_dam += ch->pcdata->powers[ANGEL_PEACE]*155;
+      max_dam += ch->pcdata->powers[ANGEL_HARMONY]*155;
+      max_dam += ch->pcdata->powers[ANGEL_LOVE]*155;
+      if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM)
+	 max_dam += ch->pcdata->powers[TIGER_LEVEL] * 400;
+      else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM)
+	 max_dam += ch->pcdata->powers[HYDRA_LEVEL] * 400;
+      else if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM)
+	 max_dam += ch->pcdata->powers[BULL_LEVEL] * 400;
+      else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM)
+	 max_dam += ch->pcdata->powers[FAERIE_LEVEL] * 400;
+      if (IS_SET(ch->newbits, NEW_DROWHATE)) max_dam += 2000;
+      if (IS_SET(ch->newbits,NEW_DFORM)) max_dam += 2000;
+    if ( !IS_NPC( ch ) && IS_CLASS(ch, CLASS_DEMON) && ch->in_room != NULL)
+      max_dam += ch->power[DISC_DAEM_ATTA] * 200;
+      if (ch->pcdata->souls < 10 && ch->pcdata->souls > 1) max_dam += 500;
+      if (ch->pcdata->souls >= 10) max_dam += (1000 + ((ch->pcdata->souls - 10) * 5));
+      max_dam += (ch->pcdata->stats[DEMON_POWER] * 2);
+      if (ch->pcdata->powers[CYBORG_LIMBS] > 0) max_dam += 800;
+      if (ch->pcdata->powers[CYBORG_LIMBS] > 1) max_dam += 800;
+      if (ch->pcdata->powers[CYBORG_LIMBS] > 2) max_dam += 800;
+      if (ch->pcdata->powers[CYBORG_LIMBS] > 3) max_dam += 800;
+      if (ch->pcdata->powers[CYBORG_LIMBS] > 4) max_dam += 800;
+      max_dam +=  (ch->monkab[COMBAT] * 250);
+      if (ch->chi[CURRENT] > 0) max_dam += ch->chi[CURRENT] * 400;
+      max_dam += (ch->rage * 10);
+      if (ch->power[DISC_VAMP_POTE] > 0) 
+        max_dam += (ch->power[DISC_VAMP_POTE] * 40);
+      if( ch->pcdata->rank == AGE_TRUEBLOOD)  max_dam += 750;
+      else if( ch->pcdata->rank == AGE_LA_MAGRA) max_dam += 400;
+      else if (ch->pcdata->rank == AGE_METHUSELAH) max_dam += 300;
+      else if (ch->pcdata->rank == AGE_ELDER) max_dam += 200;
+      else if (ch->pcdata->rank == AGE_ANCILLA) max_dam += 100;
+      max_dam += (ch->rage * 7);
+      if(ch->pcdata->powers[NPOWER_CHIKYU] >=6 && ch->pcdata->powers[HARA_KIRI] > 0) 
+      if(ch->pcdata->powers[NPOWER_CHIKYU] >=2)
+      if (ch->rage > 99)
+        max_dam += (ch->rage * 6);
+      if (ch->power[DISC_WERE_PAIN]>0)
+	max_dam += ch->power[DISC_WERE_PAIN] * 150;
+      max_dam += ch->pcdata->powers[WEAPONSKILL] * 300;
+	if (IS_SET(ch->pcdata->powers[AURAS], MIGHT_AURA)) max_dam += 500;
+	if (ch->wpn[i] >= 700 && ch->wpn[i] < 800) max_dam += 230;
+	else if (ch->wpn[i] >= 800 && ch->wpn[i] < 900) max_dam += 240;
+        else if (ch->wpn[i] >= 900 && ch->wpn[i] < 1000) max_dam += 250;
+        else if (ch->wpn[i] == 1000) max_dam += 260;
+        if (ch->wpn[i] >= 1200 && ch->wpn[i] < 1300) max_dam += 250;
+        else if (ch->wpn[i] >= 1300 && ch->wpn[i] < 1400) max_dam += 260;
+        else if (ch->wpn[i] >= 1400 && ch->wpn[i] < 1500) max_dam += 270;
+        else if (ch->wpn[i] == 1500) max_dam += 275;
+    if      (ch->stance[0] == STANCE_BULL)   max_dam += 200;
+    else if (ch->stance[0] == STANCE_DRAGON) max_dam += 250;
+    else if (ch->stance[0] == STANCE_WOLF)   max_dam += 250;
+    else if (ch->stance[0] == STANCE_TIGER)  max_dam += 200;
+    else if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_DAMCAP_3)) max_dam += 500;
+    else if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_DAMCAP_2)) max_dam += 250;
+    else if (ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_DAMCAP_1)) max_dam += 100;
+  if (!IS_NPC(victim) && ch->stance[0] != STANCE_MONKEY )
+    if (IS_NPC(ch) || ch->stance[0] != STANCE_MONKEY)
+  if (xIS_SET(ch->extra, IS_A_BITCH))
+  if (ch->level >= LEVEL_BUILDER) max_dam = 30000;
+  ch->damcap[DAM_CAP] = max_dam;
+  ch->damcap[DAM_CHANGE] = 0;
+  if (ch->class == CLASS_VAMPIRE)
+  if (ch->power[DISC_VAMP_PROT] >= 7 && dam_type == DAM_FIRE) immune = 
+  if (dam_type == DAM_POISON && ch->power[DISC_DAEM_CORR] >= 3) immune = 
+  if (dam_type == DAM_POISON && ch->power[DISC_DAEM_CORR] >= 1) immune = 
+  if (dam_type == DAM_FIRE && ch->power[DISC_DAEM_HELL] >= 2) immune = 
+  if (dam_type == DAM_FIRE && ch->power[DISC_DAEM_HELL] >= 1) immune = 
+  if (dam_type == DAM_COLD && ch->power[DISC_DAEM_GELU] >= 4) immune = 
+  if (dam_type == DAM_COLD && ch->power[DISC_DAEM_GELU] >= 1) immune = 
+  if (dam_type == DAM_POISON && ch->power[DISC_VAMP_FORT] >= 1) immune = 
+  if ( ch->embracing != NULL )
+    if ( ( emb = ch->embracing ) != NULL ) stop_embrace(ch,emb);
+  if (ch->damcap[DAM_CHANGE] == 1) update_damcap(ch,victim);
+  if ( dam > ch->damcap[0] ) dam = ch->damcap[0];
+      if ( ch->fighting == NULL )
+      &&   victim->master->in_room == ch->in_room
+    dam = ch->level / number_range(1,4);
+      REMOVE_BIT( ch->affected_by, AFF_HIDE );
+      if (IS_NPC(ch) && number_percent( ) < ch->level * 0.5)
+      if (IS_NPC(ch) && number_percent( ) < ch->level * 0.5)
+    if (!IS_NPC(ch) && xIS_SET(ch->act, PLR_BRIEF3))
+      ch->amount_damage_dealt += dam;
+      ch->amount_attacks_dealt++;
+      sprintf( log_buf, "%s killed by %s at %d", victim->name, (IS_NPC(ch) ? ch->short_descr : ch->name), victim->in_room->vnum);
+      ch->mkill += 1;
+      if ( !IS_NPC( ch ) && ( IS_CLASS(ch, CLASS_DEMON) || IS_SET(ch->special, SPC_CHAMPION)
+            ch->pcdata->stats[DEMON_CURRENT] +=victim->level*5;
+            ch->pcdata->stats[DEMON_TOTAL] +=victim->level*5;
+	    ch->pcdata->stats[PPOINTS] += victim->level*5;
+            ch->pcdata->stats[DROW_POWER] += victim->level*5;
+          if (IS_CLASS(ch, CLASS_DEMON) || IS_SET(ch->special,SPC_CHAMPION)) 
+            ch->pcdata->stats[DEMON_CURRENT] += victim->level*4;
+            ch->pcdata->stats[DEMON_TOTAL] += victim->level*4;
+            ch->pcdata->stats[DROW_POWER] += victim->level*4;
+      if (ch->level == 1 && ch->mkill > 4)
+        ch->level = 2;
+	     ch->max_hit += 5;
+             ch->max_hit += 4;
+             ch->max_hit += 3;
+             ch->max_hit += 2;
+             ch->max_hit += 1;
+      ch->pcdata->score[SCORE_QUEST] += victim->pcdata->bounty;
+      ch->pcdata->quest += victim->pcdata->bounty;
+    if (xIS_SET(ch->act, PLR_AUTOGOLD))
+    if (xIS_SET(ch->act, PLR_AUTOSLAB))
+    if (xIS_SET(ch->act, PLR_AUTOELEC))
+    if (xIS_SET(ch->act, PLR_AUTOLOOT) )
+      if ( xIS_SET(ch->act, PLR_AUTOSAC) )
+if (!IS_SET(ch->in_room->room_flags, ROOM_ARENA) || 
+  if (IS_SET(ch->special, SPC_NEWBIE) && !IS_NPC(ch) && !IS_NPC(victim))
+  if (ch->race > victim->race)
+    range = ch->race - victim->race;
+  else if (victim->race > ch->race)
+    range = victim->race - ch->race;
+  else if (ch->race == victim->race)
+  if (ch->race > 0 && victim->race == 0)  return TRUE;
+  if (ch->race == 0 && victim->race > 0)  return TRUE;
+  if (ch->race == 0)
+  if (ch->race > 0)
+	if (ch->race <= 10)
+	if (ch->race > 10)
+if (ch->level > 6) return FALSE;
+else if (IS_SET(ch->in_room->room_flags, ROOM_ARENA) && 
+  if (ch->level > 6) return TRUE;
+    if (IS_SET(ch->in_room->room_flags, ROOM_SAFE))
+    if (!xIS_SET(ch->extra, EXTRA_POLICY) && !xIS_SET(victim->extra, EXTRA_POLICY))
+    if (!xIS_SET(ch->extra, EXTRA_POLICY) && xIS_SET(victim->extra, EXTRA_POLICY))
+    if (xIS_SET(ch->extra, EXTRA_POLICY) && !xIS_SET(victim->extra, EXTRA_POLICY))
+    if (IS_SET(ch->special, SPC_NEWBIE) && !IS_NPC(ch) && !IS_NPC(victim) && (victim != ch))
+    if (is_fighting_player(victim, ch) && !IS_SET(ch->in_room->room_flags, ROOM_ARENA))
+    if (IS_AFFECTED(ch, AFF_PEACE) && ch->fighting != NULL) REMOVE_BIT(ch->affected_by, AFF_PEACE);
+   if (IS_SET(ch->affected_by, AFF_ETHEREAL))
+   if (IS_SET(ch->affected_by, AFF_SHADOWPLANE))
+  if (!IS_SET(ch->in_room->room_flags, ROOM_ARENA) || !IS_SET(victim->in_room->room_flags, ROOM_ARENA))
+  if (ch->race > victim->race)
+    range = ch->race - victim->race;
+  else if (victim->race > ch->race)
+    range = victim->race - ch->race;
+  else if (ch->race == victim->race)
+  if (ch->race > 0 && victim->race == 0)
+  if (ch->race == 0 && victim->race > 0)
+  if (ch->race == 0)
+  if (ch->race > 0)
+        if (ch->race <= 10)
+        if (ch->race > 10)
+if (IS_SET(ch->in_room->room_flags, ROOM_ARENA) && IS_SET(victim->in_room->room_flags,
+    if (!IS_NPC(ch)) chance -= (ch->wpn[dt-1000] * 0.1);
+    else chance -= (ch->level * 0.2);
+    if (!IS_NPC(ch)) chance -= (ch->wpn[0] * 0.1);
+    else chance -= (ch->level * 0.2);
+      if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM)
+	 chance -= ch->pcdata->powers[TIGER_LEVEL]*8;
+      else if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM)
+	 chance -= ch->pcdata->powers[BULL_LEVEL]*6;
+      else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM)
+	 chance -= ch->pcdata->powers[HYDRA_LEVEL]*6;
+      else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM)
+	 chance -= ch->pcdata->powers[FAERIE_LEVEL]*7;
+      if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_HEAD)) chance -= 20;
+      if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_SPEED)) chance -= 20;
+      if (ch->pcdata->powers[TANARRI_FURY_ON] == 1) chance -= 10;
+      if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_QUICKNESS)) chance -= 40;
+      if (ch->pcdata->powers[PSIONIST_WRATH_ON] == 1) chance -= 10;
+    if (IS_CLASS(ch, CLASS_ANGEL)) chance -= ch->pcdata->powers[ANGEL_JUSTICE]*7;
+    if (IS_CLASS(ch, CLASS_VAMPIRE) && ch->power[DISC_VAMP_CELE] > 0) chance -= (ch->power[DISC_VAMP_CELE]*4);
+    if (IS_CLASS(ch, CLASS_NINJA)  && ch->pcdata->powers[NPOWER_CHIKYU] >= 6 && ch->pcdata->powers[HARA_KIRI] > 0) chance -= 45;
+    if (ch->pcdata->powers[NPOWER_CHIKYU] >= 5 && IS_CLASS(ch, CLASS_NINJA)) chance -= 20;
+    if (IS_CLASS(ch, CLASS_MONK) && ch->chi[CURRENT] > 0) chance -= (ch->chi[CURRENT] * 9);
+    if (IS_CLASS(ch, CLASS_UNDEAD_KNIGHT)) chance -= ch->pcdata->powers[WEAPONSKILL]*5;
+    if (IS_CLASS(ch, CLASS_DROW) && IS_SET(ch->pcdata->powers[1], DPOWER_ARMS)) chance -= 45;
+    if (IS_SET(ch->newbits, NEW_MONKFLAME)) chance -= 10;
+    if (IS_CLASS(ch, CLASS_WEREWOLF)) chance -= (ch->power[DISC_WERE_MANT] * 4);
+    if (IS_CLASS(ch, CLASS_INQUISITOR) && ch->pcdata->powers[PINQUISITOR] > 7) chance -= 40;
+    if (IS_CLASS(victim, CLASS_MONK) && ch->chi[CURRENT] > 0 ) chance += (ch->chi[CURRENT] * 9);
+  if (!IS_NPC(ch) && ch->power[DISC_VAMP_CELE] > 0 && IS_CLASS(ch, CLASS_VAMPIRE))
+    if( ch->pcdata->rank == AGE_TRUEBLOOD)  chance -= 30;
+    else if( ch->pcdata->rank == AGE_LA_MAGRA) chance -= 17;
+    else if (ch->pcdata->rank == AGE_METHUSELAH) chance -= 15;
+    else if (ch->pcdata->rank == AGE_ELDER) chance -= 10;
+    else if (ch->pcdata->rank == AGE_ANCILLA) chance -= 5;    
+  if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_WEREWOLF)) chance -= (ch->power[DISC_WERE_MANT] *4);
+    if (IS_CLASS(ch, CLASS_INQUISITOR) && ch->pcdata->powers[PINQUISITOR] > 7) chance -= 40;
+      if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM)
+         chance -= ch->pcdata->powers[TIGER_LEVEL]*8;
+      else if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM)
+         chance -= ch->pcdata->powers[BULL_LEVEL]*6;
+      else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM)
+         chance -= ch->pcdata->powers[HYDRA_LEVEL]*6;
+      else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM)
+         chance -= ch->pcdata->powers[FAERIE_LEVEL]*7;
+      if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_QUICKNESS)) chance -= 40;
+      if (ch->pcdata->powers[PSIONIST_WRATH_ON] == 1) chance -= 10;
+    if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_HEAD)) chance -= 15;
+    if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_SPEED)) chance -= 15;
+    if (ch->pcdata->powers[TANARRI_FURY_ON] == 1) chance -= 10;
+ch->pcdata->powers[ANGEL_JUSTICE]*7;
+  if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_UNDEAD_KNIGHT)) chance -= ch->pcdata->powers[WEAPONSKILL]*1.5;
+    if( ch->pcdata->rank == BELT_TEN)  chance -= 40;     
+    else if( ch->pcdata->rank == BELT_NINE) chance -= 26;   
+    else if (ch->pcdata->rank == BELT_EIGHT) chance -= 22;    
+    else if (ch->pcdata->rank == BELT_SEVEN) chance -= 18;
+    else if (ch->pcdata->rank == BELT_SIX) chance -= 14;  
+    else if (ch->pcdata->rank == BELT_FIVE) chance -= 10;
+    else if (ch->pcdata->rank == BELT_FOUR) chance -= 6;
+    else if (ch->pcdata->rank == BELT_THREE) chance -= 2;
+  if(!IS_NPC(ch) && IS_CLASS(ch, CLASS_DEMON)) chance -= (ch->power[DISC_DAEM_ATTA] * 4);
+  if ((ch->pcdata->powers[CYBORG_LIMBS] > 1)) chance -= 45;
+  && IS_SET(ch->newbits, NEW_FIGHTDANCE)
+    if (IS_NPC(ch) || !xIS_SET(ch->act, PLR_BRIEF2))
+  if (!IS_NPC(ch)) chance -= (ch->wpn[dt-1000] * 0.1);
+  else chance -= (ch->level * 0.2);
+    if (IS_CLASS(ch, CLASS_MONK)) chance -= ch->chi[CURRENT]*9;
+      if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM)
+         chance -= ch->pcdata->powers[TIGER_LEVEL]*8;
+      else if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM)
+         chance -= ch->pcdata->powers[BULL_LEVEL]*6;
+      else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM)
+         chance -= ch->pcdata->powers[HYDRA_LEVEL]*6;
+      else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM)
+         chance -= ch->pcdata->powers[FAERIE_LEVEL]*7;
+      if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_HEAD)) chance -= 20;
+      if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_SPEED)) chance -= 20;
+      if (ch->pcdata->powers[TANARRI_FURY_ON] == 1) chance -= 10;
+      if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_QUICKNESS)) chance -= 40;
+      if (ch->pcdata->powers[PSIONIST_WRATH_ON] == 1) chance -= 10;
+    if (IS_CLASS(ch, CLASS_ANGEL)) chance -= ch->pcdata->powers[ANGEL_JUSTICE]*7;
+    if (IS_CLASS(ch, CLASS_NINJA)  && ch->pcdata->powers[NPOWER_CHIKYU] >= 6 && ch->pcdata->powers[HARA_KIRI] > 0)
+    if (ch->pcdata->powers[NPOWER_CHIKYU] >= 5 && IS_CLASS(ch, CLASS_NINJA)) chance -= 25;
+    if (ch->power[DISC_VAMP_CELE] > 0 && IS_CLASS(ch, CLASS_VAMPIRE)) chance -= (ch->power[DISC_VAMP_CELE]*4);
+    if (IS_CLASS(ch, CLASS_WEREWOLF) && ch->power[DISC_WERE_MANT] > 6) chance -= (ch->power[DISC_WERE_MANT] * 4);
+    if (IS_CLASS(ch, CLASS_DROW) && IS_SET(ch->pcdata->powers[1], DPOWER_SPEED)) chance -= 50;
+    if (IS_CLASS(ch, CLASS_UNDEAD_KNIGHT)) chance -= ch->pcdata->powers[WEAPONSKILL]*5;
+    if (IS_CLASS(ch, CLASS_INQUISITOR) && ch->pcdata->powers[PINQUISITOR] > 7) chance -= 40;
+      if (ch->pcdata->powers[SHAPE_FORM] == TIGER_FORM)
+         chance -= ch->pcdata->powers[TIGER_LEVEL]*5;
+      else if (ch->pcdata->powers[SHAPE_FORM] == BULL_FORM)
+         chance -= ch->pcdata->powers[BULL_LEVEL]*4;
+      else if (ch->pcdata->powers[SHAPE_FORM] == HYDRA_FORM)
+         chance -= ch->pcdata->powers[HYDRA_LEVEL]*4;
+      else if (ch->pcdata->powers[SHAPE_FORM] == FAERIE_FORM)
+         chance -= ch->pcdata->powers[FAERIE_LEVEL]*5;
+      if (IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_QUICKNESS)) chance -= 40;
+      if (ch->pcdata->powers[PSIONIST_WRATH_ON] == 1) chance -= 10;
+    if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_HEAD)) chance -= 15;
+    if (IS_SET(ch->pcdata->powers[TANARRI_POWER], TANARRI_SPEED)) chance -= 15;
+    if (ch->pcdata->powers[TANARRI_FURY_ON] == 1) chance -= 10;
+    if (IS_CLASS(ch, CLASS_WEREWOLF) && ch->power[DISC_WERE_MANT] > 6)
+chance -= (ch->power[DISC_WERE_MANT] * 4);
+ch->pcdata->powers[ANGEL_JUSTICE]*7;
+  if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_UNDEAD_KNIGHT)) chance -= ch->pcdata->powers[WEAPONSKILL]*1.5;
+    if (IS_CLASS(ch, CLASS_INQUISITOR) && ch->pcdata->powers[PINQUISITOR] > 7) chance -=40;
+    if (IS_CLASS(ch, CLASS_DROW) && IS_SET(ch->pcdata->powers[1], DPOWER_ARMS)) chance -= 45;
+    if( ch->pcdata->rank == AGE_TRUEBLOOD)  chance -= 35;
+    else if( ch->pcdata->rank == AGE_LA_MAGRA) chance -= 17;
+    else if (ch->pcdata->rank == AGE_METHUSELAH) chance -= 10;
+    else if (ch->pcdata->rank == AGE_ELDER) chance -= 7;
+    else if (ch->pcdata->rank == AGE_ANCILLA) chance -= 3;
+    if( ch->pcdata->rank == BELT_TEN)  chance -= 40;
+    else if( ch->pcdata->rank == BELT_NINE) chance -= 28;
+    else if (ch->pcdata->rank == BELT_EIGHT) chance -= 27;
+    else if (ch->pcdata->rank == BELT_SEVEN) chance -= 24;
+    else if (ch->pcdata->rank == BELT_SIX) chance -= 21;
+    else if (ch->pcdata->rank == BELT_FIVE) chance -= 18;
+    else if (ch->pcdata->rank == BELT_FOUR) chance -= 15;
+    else if (ch->pcdata->rank == BELT_THREE) chance -= 12;
+    else if (ch->pcdata->rank == BELT_TWO) chance -= 9;
+    else if (ch->pcdata->rank == BELT_ONE) chance -= 6;
+    if ((ch->pcdata->powers[CYBORG_LIMBS] > 1)) chance -= 40;
+  if (ch->fighting != NULL) return;
+  if (IS_SET(ch->in_room->room_flags, ROOM_ARENA) && !IS_NPC(ch) && !IS_NPC(victim))
+     ch->fighting = victim;
+     ch->position = POS_FIGHTING;
+     ch->damcap[DAM_CHANGE] = 1;
+  if (!IS_SET(ch->in_room->room_flags, ROOM_ARENA) && !IS_NPC(ch) && !IS_NPC(victim)) 
+//  	     ch->pcdata->switchname);
+//  if (IS_SET(ch->in_room->room_flags, ROOM_DUEL) && !IS_NPC(ch) && !IS_NPC(victim))
+     if (!IS_NPC(ch) && !IS_NPC(victim) && !IS_SET(ch->in_room->room_flags, ROOM_ARENA)
+        ch->pcdata->switchname);
+         ch->fighting = victim;
+         ch->position = POS_FIGHTING;
+         ch->damcap[DAM_CHANGE] = 1;
+    ch->embracing=NULL;
+  ch->embracing=NULL;
+  for ( fch = char_list; fch != NULL; fch = fch->next )
+    if ( fch == ch || ( fBoth && fch->fighting == ch ) )
+      fch->fighting = NULL;
+      fch->position = POS_STANDING;
+    name = ch->name;
+    corpse->value[2]= ch->pIndexData->vnum;
+    if ( ch->gold > 0 )
+      obj_to_obj( create_money( ch->gold ), corpse );
+      ch->gold = 0;
+    name = ch->name;
+    if ( ch->gold > 0 )
+      obj = create_money( ch->gold );
+      ch->gold = 0;
+  if (xIS_SET(ch->extra, EXTRA_ZOMBIE))
+  if(ch->pcdata->killedby)
+  corpse->killedby = ch->pcdata->killedby;
+  ch->pcdata->killedby = "god";
+  corpse->player   = ch->name;
+  for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+  obj_to_room( corpse, ch->in_room );
+  was_in_room = ch->in_room;
+      ch->in_room = pexit->to_room;
+  ch->in_room = was_in_room;
+    name = IS_NPC(ch) ? ch->short_descr : ch->name;
+      obj->value[1] = ch->pIndexData->vnum;
+      {ch->pcdata->chobj = obj; obj->chobj = ch;obj->timer = number_range(1,2); obj->item_type = ITEM_HEAD;}
+      if (ch->pcdata->chobj != NULL) ch->pcdata->chobj->chobj = NULL;
+      ch->pcdata->chobj = obj;
+    if( ch->in_room != NULL )
+      obj_to_room( obj, ch->in_room );
+  if ((IS_NPC(ch) && (mount = ch->mount) == NULL) || victim == ch) return;
+  for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+  lch = (ch->leader != NULL) ? ch->leader : ch;
+  for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+    if (IS_SET(gch->special, SPC_NEWBIE))
+    if (gch->class == 0)
+    if (xIS_SET(gch->extra, EXTRA_FIXRESET) && IS_SET(gch->special, SPC_NEWBIE))
+    if (gch->lstatus > 0)
+	if (gch->lstatus == 1)
+	else if (gch->lstatus == 2)
+        else if (gch->lstatus == 3)
+        else if (gch->lstatus == 4)
+        else if (gch->lstatus == 5)
+        else if (gch->lstatus == 6)
+        else if (gch->lstatus == 7)
+        else if (gch->lstatus == 8)
+        else if (gch->lstatus == 9)
+    if (!xIS_SET(gch->extra, EXTRA_POLICY))
+    if ((mount = gch->mount) != NULL) send_to_char( buf, mount );
+    gch->pcdata->score[SCORE_TOTAL_LEVEL] += victim->level;
+    if (victim->level > gch->pcdata->score[SCORE_HIGH_LEVEL])
+    gch->pcdata->score[SCORE_HIGH_LEVEL] += victim->level;
+    gch->pcdata->score[SCORE_TOTAL_XP] += xp;
+    if (xp > gch->pcdata->score[SCORE_HIGH_XP])
+    gch->pcdata->score[SCORE_HIGH_XP] += xp;
+  if (!IS_NPC(gch) && xp > 499 && gch->pcdata->disc_points != 999 && gch->pcdata->disc_research != -1)
+    if (victim->level <= 2000 && victim->level > 0 && gch->pcdata->disc_points != 999)
+    if (victim->level > 2000 && victim->level <= 4000 && gch->pcdata->disc_points != 999)
+    if (victim->level > 4000 && gch->pcdata->disc_points != 999)
+  if (!IS_NPC(ch) && IS_SET(ch->newbits,NEW_REND)&& dam>0 && number_range(1,7) == 5) critical=TRUE;
+    else if ( dt == TYPE_HIT && !IS_NPC(ch) && IS_SET(ch->newbits, NEW_MONKFLAME))
+      else if (IS_SET(ch->newbits, NEW_MONKFLAME) && (dam == 0))
+        else if (IS_SET(ch->newbits, NEW_MONKFLAME))
+    if (!xIS_SET(ch->act, PLR_BRIEF3))
+      if (!(xIS_SET(ch->act, PLR_BRIEF2)
+  if ( IS_NPC(ch) && ch->desc == NULL) return;
+  if (IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim)
+    if ( ch->position == POS_FIGHTING )
+      if (!IS_SET(ch->in_room->room_flags, ROOM_ARENA) || !IS_SET(victim->in_room->room_flags, ROOM_ARENA))
+        ch->fight_timer +=3;
+  && ch->power[DISC_WERE_BOAR] > 1 && victim->position == POS_STANDING)
+  if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_CYBORG) && ch->pcdata->powers[CYBORG_BODY] > 2)
+    if (ch->pcdata->powers[ANGEL_JUSTICE] >= 5) multi_hit( ch, victim, TYPE_UNDEFINED);
+  if (!IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_backstab])
+      ch->pcdata->learned[gsn_backstab] += 1;
+  if (!IS_NPC(victim) && IS_IMMUNE(victim, IMM_BACKSTAB) && ch->power[DISC_VAMP_QUIE] < 10 &&
+  else if (!IS_AWAKE(victim) || IS_NPC(ch) ||( !IS_NPC( ch ) &&  number_percent( ) < ch->pcdata->learned[gsn_backstab] ))
+  if( !IS_NPC( ch ) && (ch->pcdata->rank == BELT_SEVEN || ch->pcdata->rank == BELT_EIGHT || ch->pcdata->rank == BELT_NINE 
+    || ch->pcdata->rank == BELT_TEN) && number_range(1,3) == 1)
+  if( !IS_NPC( ch ) && (ch->pcdata->rank == BELT_NINE || ch->pcdata->rank == BELT_TEN) && number_range(1,6) == 1)
+  if ((victim = ch->fighting ) == NULL)
+    if (ch->position == POS_FIGHTING) ch->position = POS_STANDING;
+  if(ch->move <= 0)
+  if ( IS_SET(ch->flag2, AFF_TOTALBLIND) )
+ && !IS_SET(ch->polyaff,POLY_WOLF)
+  was_in = ch->in_room;
+    if (( now_in = ch->in_room ) == was_in)
+    ch->in_room = was_in;
+    ch->in_room = now_in;
+  if ( ch->fighting == victim )
+  if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_rescue] )
+  if (!IS_NPC(ch) && ch->level < skill_table[gsn_kick].skill_level)
+  if ( ( victim = ch->fighting ) == NULL )
+    dam=ch->level * 2;
+   if (number_percent( ) > ch->pcdata->learned[gsn_kick])
+      ch->pcdata->learned[gsn_kick] += 1;
+    if (!IS_NPC(ch)) dam = dam + (dam * ((ch->wpn[0]+1) / 100));
+      stance = ch->stance[0];
+    if ( !IS_NPC(victim) && IS_IMMUNE(victim, IMM_KICK) && !IS_NPC(ch)       && !(IS_CLASS(ch, CLASS_DEMON) && IS_DEMAFF(ch, DEM_HOOVES)) && !(IS_CLASS(ch, CLASS_SHAPESHIFTER)    && ch->pcdata->powers[SHAPE_FORM] == BULL_FORM))
+      dam *= (ch->stance[STANCE_MONKEY]+1) / 200;
+    else if ( IS_STANCE(ch, STANCE_BULL) && ch->stance[STANCE_BULL] > 100 )
+      dam += dam * (ch->stance[STANCE_BULL] / 100);
+    else if ( IS_STANCE(ch, STANCE_DRAGON) && ch->stance[STANCE_DRAGON] > 100 )
+      dam += dam * (ch->stance[STANCE_DRAGON] / 100);
+    else if ( IS_STANCE(ch, STANCE_WOLF) && ch->stance[STANCE_WOLF] > 100)
+      dam += dam*(ch->stance[STANCE_WOLF] /100);
+    else if ( IS_STANCE(ch, STANCE_TIGER) && ch->stance[STANCE_TIGER] > 100 )
+      dam += dam * (ch->stance[STANCE_TIGER] / 100);
+    else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_DAMAGE_3) 
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 3 * (ch->stance[(ch->stance[0])] / 100);
+    else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_DAMAGE_2)
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * 2 * (ch->stance[(ch->stance[0])] / 100);  
+    else if ( ch->stance[0] > 12 && IS_SET(ch->stance[(ch->stance[0]+6)], STANCEPOWER_DAMAGE_1)
+    && ch->stance[(ch->stance[0])] >100)
+      dam += dam * (ch->stance[(ch->stance[0])] / 100);
+    else if ( ch->stance[0] > 0 && ch->stance[stance] < 100 )
+  if ( ch->level < skill_table[gsn_punch].skill_level)
+  if ( IS_NPC(ch) || number_percent( ) < ch->pcdata->learned[gsn_punch] )
+  if ( !IS_NPC(ch) ) dam = dam + (dam * (ch->wpn[0] / 100));
+        {SET_BIT(ch->loc_hp[LOC_ARM_L],BROKEN_FINGER_I);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_L],BROKEN_FINGER_M);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_L],BROKEN_FINGER_R);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_L],BROKEN_FINGER_L);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_R],BROKEN_FINGER_I);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_R],BROKEN_FINGER_M);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_R],BROKEN_FINGER_R);broke = TRUE;}
+        {SET_BIT(ch->loc_hp[LOC_ARM_R],BROKEN_FINGER_L);broke = TRUE;}
+    switch( ch->pIndexData->vnum ){
+  if ( ch->level < skill_table[gsn_spin].skill_level)
+  if ( !IS_NPC( ch ) &&  number_percent( ) > ch->pcdata->learned[gsn_spin] )
+      ch->pcdata->learned[gsn_spin] += 1;
+    vch_next  = vch->next;
+    if (vch->in_room == NULL) continue;
+    if (xIS_SET(vch->act, ACT_NOEXP)) continue;
+    if ( vch->level > 5000) continue; 
+    if ( vch->in_room == ch->in_room )
+      if ( ( mount = ch->mount ) != NULL )
+  if ( ch->level < skill_table[gsn_berserk].skill_level)
+  if ( !IS_NPC( ch ) &&  number_percent( ) > ch->pcdata->learned[gsn_berserk] )
+      ch->pcdata->learned[gsn_berserk] += 1;
+    vch_next  = vch->next;
+    if (vch->in_room == NULL) continue;
+    if (!IS_NPC(vch) && vch->pcdata->chobj != NULL) continue;
+    if ( vch->in_room == ch->in_room ) 
+      if ( ( mount = ch->mount ) != NULL ) 
+	   ch->rage > 120 ||
+	  (IS_CLASS(ch, CLASS_INQUISITOR) && ch->pcdata->powers[PINQUISITOR] > 2)
+  if ( !IS_NPC(ch) && ch->pcdata->learned[gsn_hurl] < 1 )
+  if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_hurl] )
+  if (( pexit = ch->in_room->exit[door]) == NULL || (to_room = pexit->to_room) == NULL)
+    dam = number_range(ch->level, (ch->level * 4));
+    if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+    dam = number_range(ch->level, (ch->level * 4));
+    if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+      && pexit_rev->to_room == ch->in_room && pexit_rev->keyword != NULL)
+      dam = number_range(ch->level, (ch->level * 6));
+      if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+    dam = number_range(ch->level, (ch->level * 2));
+    if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+    &&   ch->level < skill_table[gsn_disarm].skill_level)
+    if ( ( victim = ch->fighting ) == NULL )
+    percent = number_percent( ) + victim->level - ch->level;
+    else if ( IS_NPC(ch) || percent < ch->pcdata->learned[gsn_disarm] * 2 / 3 )
+  if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+  if( ch->challenger )
+  if (str_cmp(victim->pcdata->killedby, ch->pcdata->switchname))
+ch->sex == SEX_MALE ? "him" : ch->sex == SEX_FEMALE ? "her" : "it",
+ch->sex == SEX_MALE ? "his" : ch->sex == SEX_FEMALE ? "her" : "its");
+ if (IS_SET(ch->special, SPC_NEWBIE))
+  sprintf(buf, "#P%s #0has been left for dead by #C%s#n.",victim->pcdata->switchname,ch->pcdata->switchname);
+  sprintf(log_buf, "%s shown mercy by %s at %d.",victim->pcdata->switchname,ch->pcdata->switchname,victim->in_room->vnum);
+  if (ch->fight_timer > 10)
+  ch->fight_timer = 10;
+  sprintf(buf, "Your life is spared by the mercy of %s!\n\r", ch->pcdata->switchname);
+  if (  ch->hit < ch->max_hit * 0.95) ch->hit = ch->max_hit * 0.95;
+  if ( ch->mana < ch->max_mana * 0.95) ch->mana = ch->max_mana * 0.95;
+  if ( ch->move < ch->max_move * 0.95) ch->move = ch->max_move * 0.95;
+  if( ch->challenger )
+  if (IS_SET(ch->special, SPC_NEWBIE))
+  if (str_cmp(victim->pcdata->killedby, ch->pcdata->switchname))
+ch->sex == SEX_MALE ? "him" : ch->sex == SEX_FEMALE ? "her" : "it",
+ch->sex == SEX_MALE ? "his" : ch->sex == SEX_FEMALE ? "her" : "its");
+  if (IS_CLASS(ch, CLASS_VAMPIRE) && IS_SET(ch->special, SPC_INCONNU) && (IS_CLASS(victim, CLASS_VAMPIRE) || IS_VAMPAFF(victim, VAM_MORTAL)))
+    ch->pcdata->quest += victim->pcdata->bounty;
+    ch->pcdata->score[SCORE_QUEST] += victim->pcdata->bounty;
+  if (IS_CLASS(ch, CLASS_DEMON) || IS_SET(ch->special, SPC_CHAMPION)) 
+  if ((IS_CLASS(ch, CLASS_DEMON) || IS_SET(ch->special, SPC_CHAMPION)) && 
+    if (ch->race == 0 && victim->race == 0)
+      ch->pcdata->stats[DEMON_CURRENT] += 1000;
+      ch->pcdata->stats[DEMON_TOTAL] += 1000;
+      ch->pcdata->stats[DEMON_CURRENT] += victim->race * 1000;
+      ch->pcdata->stats[DEMON_TOTAL] += victim->race * 1000;
+    if (victim->race == 0 && ch->race == 0 ) ch->pcdata->stats[DROW_POWER] += 1000;
+    else ch->pcdata->stats[DROW_POWER] += 1000* victim->race;
+  ch->exp += victim->exp / 4;
+  ch->fight_timer += 10;
+  if (IS_CLASS(ch, CLASS_DEMON) && !IS_NPC(ch) && !IS_NPC(victim) && victim->race + 15 >= ch->race)
+    ch->pcdata->souls += 1;
+IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_MINDTRAP))
+    ch->pcdata->souls += 1;
+ch->pcdata->powers[PINQUISITOR] > 0)
+    ch->pcdata->souls += 1;
+    victim->pcdata->killedby = ch->pcdata->switchname;
+  if (IS_ITEMAFF(victim, ITEMA_STEELSHIELD)) REMOVE_BIT(ch->itemaffect, ITEMA_STEELSHIELD);
+  if (ch->pcdata->kingdom != 0)
+  king_table[ch->pcdata->kingdom].pk += 1;
+  if ((ch->practice >= 20000) && (victim->practice >= 20000))
+  ch->practice += value;
+  ch->hit = ch->max_hit;
+  ch->mana = ch->max_mana;
+  ch->move = ch->max_move;
+  sprintf(buf,"#y%s#0 has spilt the #Rblood#0 of #y%s#0 with a brutal killing!#n",ch->pcdata->switchname, victim->pcdata->switchname);
+  if (ch->race >= 10 )
+          ch->race += 1;
+          sprintf(buf,"#y%s#0 has been rewarded for victory, %s gains #R1 status!#n",ch->pcdata->switchname,ch->sex == SEX_MALE ? "he" : ch->sex == SEX_FEMALE ? "she" : "it");
+          victim->pcdata->switchname, ch->pcdata->switchname, victim->in_room->vnum );
+          ch->race += 2;
+          sprintf(buf,"#y%s#0 has been rewarded for a #ygreat#0 victory, %s gains #y2 status!#n",ch->pcdata->switchname,ch->sex == SEX_MALE ? "he" : ch->sex == SEX_FEMALE ? "she" : "it");
+          victim->pcdata->switchname, ch->pcdata->switchname, victim->in_room->vnum );
+        ch->pcdata->switchname,victim->pcdata->switchname);
+        victim->pcdata->switchname, ch->pcdata->switchname, victim->in_room->vnum );
+   else if (ch->race < 10)
+        ch->race += 1;
+        ch->pcdata->switchname);
+        victim->pcdata->switchname, ch->pcdata->switchname, victim->in_room->vnum );
+        ch->pkill = ch->pkill + 1;
+  victim->pcdata->killedby = ch->pcdata->switchname;
+  if (ch->pcdata->bounty <= 99999)
+  ch->pcdata->bounty += ((victim->lstatus + 1) * 1000) + (victim->race * 10);
+  if (ch->pcdata->bounty > 99999)
+  ch->pcdata->bounty = 99999;
+  if (ch->pcdata->bounty > 0)
+  sprintf(buf,"#y%s #0now has a bounty of #P%d #Pquest points#0 on %s head.#n",ch->pcdata->switchname,ch->pcdata->bounty,ch->sex ==SEX_MALE         ? "his" : ch->sex == SEX_FEMALE       ? "her"      : "its");
+    int next_status = (ch->lstatus + 1) * 5;
+  if(ch->challenger)
+  if (!IS_SET(ch->newbits, NEW_MONKADAM) && IS_CLASS(ch, CLASS_MONK))
+  if ( !IS_SET(ch->special, SPC_WOLFMAN) && IS_CLASS(ch, CLASS_WEREWOLF) )
+  if (str_cmp(victim->pcdata->killedby, ch->pcdata->switchname))
+    ch->pcdata->score[SCORE_QUEST] += victim->pcdata->bounty;;
+    ch->pcdata->quest += victim->pcdata->bounty;
+  if (IS_CLASS(ch, CLASS_DEMON) && !IS_NPC(ch) && !IS_NPC(victim) && victim->race + 15 >= ch->race)
+    ch->pcdata->souls += 1;
+IS_SET(ch->pcdata->powers[PSIONIST_POWER], PSIONIST_MINDTRAP))
+    ch->pcdata->souls += 1;
+  if ( !IS_NPC( ch ) && (IS_CLASS(ch, CLASS_DEMON) || IS_SET(ch->special, SPC_CHAMPION)) && !IS_CLASS(victim, CLASS_DEMON) 
+    if (ch->race == 0 && victim->race == 0)
+      ch->pcdata->stats[DEMON_CURRENT] += 1000;
+      ch->pcdata->stats[DEMON_TOTAL] += 1000;
+      ch->pcdata->stats[DEMON_CURRENT] += victim->race * 1000;
+      ch->pcdata->stats[DEMON_TOTAL] += victim->race * 1000;
+    if (ch->race == 0 && victim->race == 0) ch->pcdata->stats[DROW_POWER] += 1000;
+    else ch->pcdata->stats[DROW_POWER] += 1000 * victim->race;
+  ch->exp += victim->exp / 4;
+        ch->race += 2;
+      if (ch->race > next_status)
+        ch->race = next_status;
+      sprintf(buf1,"#y%s#0 has earned #Rdouble status#0 for cutting #y%s's#0 head off!#n",ch->pcdata->switchname, victim->pcdata->switchname);
+      sprintf(buf1,"%s has earned double status for cutting %s's head off.",ch->pcdata->switchname, victim->pcdata->switchname);
+        ch->race += 2;
+      if (ch->race > next_status)
+        ch->race = next_status;
+      sprintf(buf1,"#y%s#0 has earned #Rdouble status#0 for tearing #y%s's#0 head off!#n",ch->pcdata->switchname, victim->pcdata->switchname);
+      sprintf(buf1,"%s has earned double status for tearing %s's head off.",ch->pcdata->switchname, victim->pcdata->switchname);
+        ch->race += 1;
+      if (ch->race > next_status)
+        ch->race = next_status;
+  ch->fight_timer += 10;
+    victim->pcdata->killedby = ch->pcdata->switchname;
+  if (IS_ITEMAFF(victim, ITEMA_STEELSHIELD)) REMOVE_BIT(ch->itemaffect, ITEMA_STEELSHIELD);
+  if (ch->pcdata->kingdom != 0) king_table[ch->pcdata->kingdom].pk += 1;
+  ch->hit = ch->max_hit;
+  ch->mana = ch->max_mana;
+  ch->move = ch->max_move;
+  if ((ch->practice >= 20000) && (victim->practice >= 20000))
+  ch->practice += value;
+  ch->pkill = ch->pkill + 1;
+ch->pcdata->switchname, victim->pcdata->switchname);
+  victim->pcdata->switchname, ch->pcdata->switchname, victim->in_room->vnum );
+  victim->pcdata->killedby = ch->pcdata->switchname;
+  if (ch->pcdata->bounty <= 99999)
+  ch->pcdata->bounty += (randMight(victim));
+  if (ch->pcdata->bounty > 99999)
+  ch->pcdata->bounty = 99999;
+ch->pcdata->switchname,ch->pcdata->bounty,ch->sex == SEX_MALE ? "his" : ch->sex == 
+    char_to_room(victim,ch->in_room);
+    char_to_room(victim,ch->in_room);
+    obj_to_room(obj, ch->in_room);
+    victim->hit = victim->hit - number_range(ch->level,(5*ch->level));
+  if (!IS_CLASS(ch, CLASS_DROW) || !IS_SET(ch->pcdata->powers[1], DPOWER_GAROTTE)) 
+  if (ch->mana < 2500 || ch->move < 2500)
+   ch->move -= 2000;
+    ch->mana -= 2000;
+    ch->move -= 5000;
+    ch->mana -= 5000;
+  if (ch->fight_timer > 0 && !IS_NPC(ch)) 
+  if (!IS_CLASS(ch, CLASS_NINJA) || ch->pcdata->powers[NPOWER_NINGENNO] < 6) 
+    if (ch->fighting == NULL) 
+    else victim = ch->fighting;
+  if (ch->move < 5000 || ch->mana < 5000)
+    if (IS_CLASS(ch, CLASS_NINJA) && !IS_NPC(ch) && ch->pcdata->powers[NPOWER_NINGENNO] >=2)
+    ch->move -= 5000;
+    ch->mana -= 5000;
+    ch->stance[MONK_AUTODROP] = STANCE_NONE;
+    ch->stance[MONK_AUTODROP] = STANCE_CRANE;
+    ch->stance[MONK_AUTODROP] = STANCE_CRAB;
+    ch->stance[MONK_AUTODROP] = STANCE_BULL;
+    ch->stance[MONK_AUTODROP] = STANCE_VIPER;
+    ch->stance[MONK_AUTODROP] = STANCE_MONGOOSE;
+  else if (!str_cmp(arg, "mantis") && ch->stance[STANCE_CRANE] >= 200 && ch->stance[STANCE_VIPER] >= 200)
+    ch->stance[MONK_AUTODROP] = STANCE_MANTIS;
+  else if (!str_cmp(arg, "monkey") && ch->stance[STANCE_CRANE] >= 200 && ch->stance[STANCE_MONGOOSE] >= 200)
+    ch->stance[MONK_AUTODROP] = STANCE_MONKEY;
+  else if (!str_cmp(arg, "swallow") && ch->stance[STANCE_CRAB] >= 200 && ch->stance[STANCE_MONGOOSE] >= 200)
+    ch->stance[MONK_AUTODROP] = STANCE_SWALLOW;
+  else if (!str_cmp(arg, "tiger") && ch->stance[STANCE_BULL] >= 200 && ch->stance[STANCE_VIPER] >= 200)
+    ch->stance[MONK_AUTODROP] = STANCE_TIGER;
+  else if (!str_cmp(arg, "dragon") && ch->stance[STANCE_CRAB] >= 200 && ch->stance[STANCE_BULL] >= 200)
+    ch->stance[MONK_AUTODROP] = STANCE_DRAGON;
+  else if (!str_cmp(arg, "wolf") && (IS_CLASS(ch, CLASS_WEREWOLF)) && ch->stance[STANCE_TIGER] >= 200 && ch->stance[STANCE_SWALLOW] >= 200 && ch->stance[STANCE_MONKEY] >= 200 && ch->stance[STANCE_MANTIS] >= 200 && ch->stance[STANCE_DRAGON] >= 200)
+    ch->stance[MONK_AUTODROP] = STANCE_WOLF;
+  else if (!str_cmp(arg, "ss1") && ch->stance[19] != -1)
+    ch->stance[MONK_AUTODROP] = STANCE_SS1;
+  else if (!str_cmp(arg, "ss2") && ch->stance[20] != -1)
+    ch->stance[MONK_AUTODROP] = STANCE_SS2;
+  else if (!str_cmp(arg, "ss3") && ch->stance[21] != -1)
+    ch->stance[MONK_AUTODROP] = STANCE_SS3;
+  else if (!str_cmp(arg, "ss4") && ch->stance[22] != -1)
+    ch->stance[MONK_AUTODROP] = STANCE_SS4;
+  else if (!str_cmp(arg, "ss5") && ch->stance[23] != -1)
+    ch->stance[MONK_AUTODROP] = STANCE_SS5;
+  if (ch->stance[MONK_AUTODROP]==STANCE_NONE) return;
+  if (ch->stance[MONK_AUTODROP]==STANCE_VIPER) sprintf(stancename,"viper");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_CRANE) sprintf(stancename,"crane");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_CRAB) sprintf(stancename,"crab");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_MONGOOSE) sprintf(stancename,"mongoose");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_BULL) sprintf(stancename,"bull");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_MANTIS) sprintf(stancename,"mantis");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_DRAGON) sprintf(stancename,"dragon");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_TIGER) sprintf(stancename,"tiger");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_MONKEY) sprintf(stancename,"monkey");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_SWALLOW) sprintf(stancename,"swallow");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_XKILLA) sprintf(stancename,"leopard");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_SS1) sprintf(stancename,"ss1");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_SS2) sprintf(stancename,"ss2");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_SS3) sprintf(stancename,"ss3");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_SS4) sprintf(stancename,"ss4");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_SS5) sprintf(stancename,"ss5");
+  else if (ch->stance[MONK_AUTODROP]==STANCE_WOLF) sprintf(stancename,"wolf");
+  if (ch->stance[0] < 1) 
+    ch->stance[0] = ch->stance[MONK_AUTODROP];
+    sprintf(buf2, "#7%s autodrops into the #3%s#7 stance.",ch->pcdata->switchname,stancename);
+  if (ch->level < 7 && xIS_SET(ch->act, PLR_HIDE))
+xREMOVE_BIT(ch->act, PLR_HIDE);
+  if (ch->level < 7 && xIS_SET(ch->act, PLR_WIZINVIS))
+xREMOVE_BIT(ch->act, PLR_WIZINVIS);
+  if (ch->level < 7 && IS_AFFECTED(ch, AFF_ETHEREAL))
+REMOVE_BIT(ch->affected_by, AFF_ETHEREAL);
+  if (ch->level < 7 && IS_SET(ch->newbits, NEW_DARKNESS))
+    REMOVE_BIT(ch->newbits, NEW_DARKNESS);
+//    REMOVE_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS);
+     if (!och->fighting)
+     if (och->fighting == victim)

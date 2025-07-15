@@ -1,0 +1,91 @@
+#AREADATA
+Name        New area~
+Builders    None~
+VNUMs       54000 54049
+Security    1
+Recall      41001
+Age         0
+End
+
+
+
+#CLANDATA
+Name           snardsclan~
+Type           0
+Title          Snardsclan~
+Info           (null)~
+Ext_Sec        5
+Int_Sec        3
+Bank            0
+Appfee          0
+#MEMBER
+Name           Snard~
+Title          Leader~
+Bank            0
+Flags 447~
+End
+
+#MEMBER
+Name           Snardtest~
+Title          Inductee~
+Bank            0
+Flags 1~
+End
+
+End
+
+
+
+#MOBILES
+#54000
+bloobly~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#54001
+biggums~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+0 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

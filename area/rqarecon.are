@@ -1,0 +1,734 @@
+#AREADATA
+Name        Rasty Quest Arena Cont.~
+Builders    None~
+VNUMs       53000 53099
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#53008
+Easy Blue Flag Guardian~
+#cThe #LBlue #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #LBlue #pFlag#c stands here.#n
+~
+~
+2051
+0 0 S
+1023 0 0 1d0+2 0d0+0
+0 0
+0 0 0
+#53009
+Medium Blue Flag Guardian~
+#cThe #LBlue #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #LBlue #pFlag#c stands here.#n
+~
+~
+2051
+0 0 S
+4987 0 0 3d0+2 0d0+0
+0 0
+0 0 0
+#53010
+Hard Blue Flag Guardian~
+#cThe #LBlue #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #LBlue #pFlag#c stands here.#n
+~
+~
+2051
+128 0 S
+7970 0 0 5d2+3 0d0+0
+0 0
+0 0 0
+#53011
+RFH Blue Flag Guardian~
+#cThe #LBlue #pFlag #RG#ruardia#Rn#n~
+#cThe #RG#ruardia#Rn#c of the #LBlue #pFlag#c stands here.#n
+~
+~
+2051
+128 0 S
+13984 0 0 5d5+5 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#53008
+The Blue Flag~
+#cThe #LBlue #pFlag#n~
+#cThe #LBlue #pFlag #cis here, just waiting to be #0taken!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53084
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#0Lose #ca #RR#ra#Rr#re#R!#r!#R!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53085
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#0Double #PP#prizes#c for #GEVE#gRYON#GE!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53086
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#RR#re#Rm#ro#Rv#re #cone #pplayer#c from the game!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53087
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#0-5k #RQ#rP#R'#rs #0awwww!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53088
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c1k #RP#rr#Ri#rm#Ra#rl#R!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53089
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c1 #0Slab #cof #0(#7E#ple#Pct#pru#7m#0)!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53090
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c1k #0QP's#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53091
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c5k #0QP's#n~
+~
+60 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53092
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c10k #0QP's#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53093
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c1 Point #RI#rmmquest #0Token#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53094
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c5 Point #RI#rmmquest #0Token#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53095
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#c10 Point #RI#rmmquest #0Token#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53096
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#CG#co #GA#ggain!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53097
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#RL#rose #cA #0T#8urn!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53098
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#RE#rn#Rd #0Game :(#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#53099
+X Card~
+#cAn #RX#r-#RC#ra#Rr#rd#n~
+#RL#ro#Rs#re #0Prizes#c, #8OH SHIT!!!#n~
+~
+60 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#53000
+#LBlue #oTeams #0Base#n~
+~
+0 1048704 0
+D1
+~
+~
+0 0 53001
+D2
+~
+~
+0 0 53007
+D4
+~
+~
+0 0 52448
+S
+#53001
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D1
+~
+~
+0 0 53002
+D2
+~
+~
+0 0 53008
+D3
+~
+~
+0 0 53000
+S
+#53002
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D2
+~
+~
+0 0 53004
+D3
+~
+~
+0 0 53001
+S
+#53003
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53008
+D1
+~
+~
+0 0 53005
+D3
+~
+~
+0 0 53006
+S
+#53004
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53002
+D2
+~
+~
+0 0 53005
+D3
+~
+~
+0 0 53008
+S
+#53005
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53004
+D3
+~
+~
+0 0 53003
+S
+#53006
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53007
+D1
+~
+~
+0 0 53003
+S
+#53007
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53000
+D1
+~
+~
+0 0 53008
+D2
+~
+~
+0 0 53006
+S
+#53008
+#LBlue #oTeams #0Base#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53001
+D1
+~
+~
+0 0 53004
+D2
+~
+~
+0 0 53003
+D3
+~
+~
+0 0 53007
+S
+#53009
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53010
+D2
+~
+~
+0 0 52448
+S
+#53010
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52455
+D1
+~
+~
+0 0 53028
+D2
+~
+~
+0 0 53009
+D3
+~
+~
+0 0 53027
+S
+#53011
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52471
+D2
+~
+~
+0 0 53012
+S
+#53012
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53011
+D2
+~
+~
+0 0 52449
+S
+#53013
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52449
+D2
+~
+~
+0 0 53014
+S
+#53014
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 53013
+D2
+~
+~
+0 0 52445
+S
+#53015
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52498
+S
+#53016
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52498
+S
+#53017
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52486
+S
+#53018
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52486
+S
+#53019
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52485
+S
+#53020
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52485
+S
+#53021
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52473
+S
+#53022
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52473
+S
+#53023
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D0
+~
+~
+0 0 52469
+S
+#53024
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D2
+~
+~
+0 0 52469
+S
+#53025
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D3
+~
+~
+0 0 52456
+S
+#53026
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 52456
+S
+#53027
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D1
+~
+~
+0 0 53010
+S
+#53028
+#GR#ga#Cs#ct#Cy#g'#Gs #0CTF #RA#rren#Ra#n~
+~
+0 0 0
+D3
+~
+~
+0 0 53010
+S
+#53029
+~
+~
+0 0 0
+D2
+~
+~
+0 0 52447
+S
+#53030
+~
+~
+0 0 0
+D0
+~
+~
+0 0 52447
+S
+#0
+
+
+
+#SPECIALS
+M 53011 spec_rand_heals
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

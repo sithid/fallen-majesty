@@ -1,0 +1,1165 @@
+#AREADATA
+Name        Air Force~
+Builders    Huw~
+VNUMs       101300 101399
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#101300
+Jet~
+#LJ#0et#n~
+A large #LJ#0et#n with missiles prepares for take off.
+~
+~
+3
+0 0 S
+3001 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#101301
+Cargo Plane~
+#0C#largo #0P#llane#n~
+A large #0C#largo #0P#llane#n is being loaded.
+~
+~
+3
+0 0 S
+3069 0 0 15d0+0 0d0+0
+0 0
+0 0 0
+#101302
+Staff Sergeant~
+#RS#ytaff #RS#yergeant#n~
+A #RS#ytaff #RS#yergeant#n works here on a plane.
+~
+~
+3
+0 0 S
+3559 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101303
+Lieutenant Pilot~
+#LL#lieutenant #LP#lilot#n~
+A  #LL#lieutenant #LP#lilot#n is here preparing to board the plane.
+~
+~
+3
+0 0 S
+4015 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101304
+Captain Pilot~
+#CC#captain #CP#cilot#n~
+A #CC#captain #CP#cilot#n orders his lieutenants to board their planes.
+~
+~
+3
+0 0 S
+4313 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101305
+Master Sergeant~
+#RM#oaster #RS#oergeant#n~
+A #RM#oaster #RS#oergeant#n stands here looking tough.
+~
+~
+3
+0 0 S
+3360 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101306
+Senior Mastery Sergeant~
+#RS#Cenior #RM#Caster #RS#Cergeant#n~
+A #RS#Cenior #RM#Caster #RS#Cergeant#n is here yelling at a master Sergeant.
+~
+~
+3
+0 0 S
+3682 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101307
+Chief Master Sergeant~
+#LC#lhief #LM#laster #LS#lergeant#n~
+A #LC#lhief #LM#laster #LS#lergeant#n stands here supervising.
+~
+~
+3
+0 0 S
+4997 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101308
+Security Guard~
+#RS#0ecurity #RG#0uard#n~
+A large #RS#0ecurity #RG#0uard#n stands here looking buff.
+~
+~
+3
+0 0 S
+3497 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101309
+ASI Aerospace Science Instructor~
+#RA#rerospace #RS#rcience #RI#rnstructor#n~
+An #RA#rerospace #RS#rcience #RI#rnstructor#n is here brainwashing you into joining the airforce.
+~
+~
+1
+0 0 S
+3504 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101310
+SASI Senior aerospace Science Instructor~
+#oS#Renior #oA#Rerospace #oS#Rcience #oI#Rnstructor#n~
+A big #oS#Renior #oA#Rerospace #oS#Rcience #oI#Rnstructor#n is here telling sick jokes.
+~
+~
+1
+0 0 S
+4003 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101311
+Cadet Airman~
+#RC#radet #RA#rirman#n~
+A #RC#radet #RA#rirman#n is here listening carefully.
+~
+~
+3
+0 0 S
+2977 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101312
+cadet sergeant~
+#yC#Cadet #yS#Cergeant#n~
+A tiny #yC#Cadet #yS#Cergeant#n is here.
+~
+~
+3
+0 0 S
+3235 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101313
+Cadet Lieutenant~
+#RC#cadet #RL#cieutenant#n~
+A #RC#cadet #RL#cieutenant#n is here thinking of what he will do later to the lower cadets.
+~
+~
+3
+8 0 S
+3367 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101314
+Cadet Captain~
+#Rc#0adet #Rc#0aptain#n~
+A #Rc#0adet #Rc#0aptain#n lies around here.
+~
+~
+11
+0 0 S
+3990 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101315
+airman~
+#oA#yirman#n~
+An #oA#yirman#n is here who had just joined the airforce.
+~
+~
+3
+8 0 S
+3382 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101316
+Airman 1st Class~
+#RA#yirman #R1#yst #RC#ylass#n~
+An #RA#yirman #R1#yst #RC#ylass#n had been smart and got promoted.
+~
+~
+3
+0 0 S
+3535 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101317
+Senior Airman~
+#RS#oenior #RA#oirman#n~
+A #RS#oenior #RA#oirman#n is here doing work quickly.
+~
+~
+3
+0 0 S
+3634 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101318
+Major~
+#RM#oajor#n~
+A #RM#oajor#n is here holding onto a chaingun.
+~
+~
+3
+0 0 S
+5068 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101319
+Lieutenant Colonel~
+#LL#lieutenant-#LC#lolonel#n~
+A #LL#lieutenant-#LC#lolonel#n is here with his rocket launcher... Airforce?
+~
+~
+3
+0 0 S
+5157 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101320
+Colonel~
+#RC#rolonel#n~
+A strong #RC#rolonel#n is here with his lazer pointer... which is a targetter for a nucliar strike.
+~
+~
+3
+0 0 S
+5978 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101321
+soldier~
+#RS#loldier#n~
+A #RS#loldier#n is here standing at attention.
+~
+~
+3
+0 0 S
+5011 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101322
+hall guard~
+#RH#rall #RG#ruard#n~
+A #RH#rall #RG#ruard#n is here standing guard.
+~
+~
+3
+0 0 S
+3431 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101323
+Soldier~
+#RS#yoldie#Rr#n~
+A #RS#yoldie#Rr#n runs around with his pistol in his hands.
+~
+~
+3
+0 0 S
+3422 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101324
+Chief~
+#RC#rh#0i#re#Rf#n~
+A #RC#rh#0i#re#Rf#n is here practicing with his knife throwing.
+~
+~
+9
+0 0 S
+4933 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101325
+Sergeant~
+#RS#re#0r#yge#ra#rn#Rt#n~
+A #RS#re#0r#yge#ra#rn#Rt#n is here drilling his men.
+~
+~
+1
+0 0 S
+4448 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101326
+Missile~
+#RM#rissile#n~
+A long #RM#rissile#n flies at you.
+~
+~
+9
+0 0 S
+5045 0 0 0d0+3 0d0+0
+0 0
+0 0 0
+#101327
+Cluster Bomb~
+#RC#rluster #RB#romb#n~
+A #RC#rluster #RB#romb#n blows up big.
+~
+~
+9
+0 0 S
+3998 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101328
+C4~
+#7C4#n~
+A package of #7C4#n is here about to blow up.
+~
+~
+1
+0 0 S
+4518 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101329
+Nuclear Missile~
+#0N#Ruclear #0M#Rissile#n~
+A #0N#Ruclear #0M#Rissile#n is here awaiting launch.
+~
+~
+3
+0 0 S
+7000 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#101300
+#0A#rir #0F#rield#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101301
+D1
+~
+~
+0 0 101306
+D2
+~
+~
+0 0 101318
+D3
+~
+~
+0 0 101305
+S
+#101301
+#0A#rir #0F#rield#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101302
+D2
+~
+~
+0 0 101300
+D3
+~
+~
+0 0 101304
+D5
+~
+~
+3 0 101307
+S
+#101302
+#0A#rir #0F#rield#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101306
+D3
+~
+~
+0 0 101301
+S
+#101304
+#0A#rir #0F#rield#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101301
+D2
+~
+~
+0 0 101305
+S
+#101305
+#0A#rir #0F#rield#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101304
+D1
+~
+~
+0 0 101300
+S
+#101306
+#0A#rir #0F#rield#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101302
+D3
+~
+~
+0 0 101300
+S
+#101307
+#oB#relow #oT#rhe #oA#rir #oF#rield#n~
+~
+0 0 0
+D4
+~
+~
+3 0 101301
+D5
+~
+~
+0 0 101308
+S
+#101308
+#oB#relow #oT#rhe #oA#rir #oF#rield#n~
+~
+0 0 0
+D4
+~
+~
+0 0 101307
+D5
+~
+~
+3 0 101309
+S
+#101309
+#oB#relow #oT#rhe #oA#rir #oF#rield#n~
+~
+0 0 0
+D0
+~
+~
+3 0 101337
+D1
+~
+~
+3 0 101315
+D2
+~
+~
+0 0 101327
+D3
+~
+~
+3 0 101310
+D4
+~
+~
+3 0 101308
+S
+#101310
+#RS#yecret #RB#yase#n~
+~
+0 0 0
+D1
+~
+~
+3 0 101309
+D3
+~
+~
+0 0 101311
+S
+#101311
+#RS#yecret #RB#yase#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101312
+D1
+~
+~
+0 0 101310
+D2
+~
+~
+0 0 101313
+D3
+~
+~
+0 0 101314
+S
+#101312
+#RS#yecret #RB#yase#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101311
+S
+#101313
+#RS#yecret #RB#yase#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101311
+S
+#101314
+#RS#yecret #RB#yase#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101311
+S
+#101315
+#rH#0eading #rT#0owards #rH#0eavily #rS#0ecured #rR#0esearch #rA#0rea#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101316
+D3
+~
+~
+3 0 101309
+S
+#101316
+#rH#0eading #rT#0owards #rH#0eavily #rS#0ecured #rR#0esearch #rA#0rea#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101315
+D5
+~
+~
+0 0 101317
+S
+#101317
+#rH#0eading #rT#0owards #rH#0eavily #rS#0ecured #rR#0esearch #rA#0rea#n~
+~
+0 0 0
+D4
+~
+~
+0 0 101316
+D5
+~
+~
+0 0 101319
+S
+#101318
+#rE#Rntrance #rT#Ro #rT#Rhe #rA#Rirport#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101300
+S
+#101319
+#rH#0eading #rT#0owards #rH#0eavily #rS#0ecured #rR#0esearch #rA#0rea#n~
+~
+0 0 0
+D4
+~
+~
+0 0 101317
+D5
+~
+~
+0 0 101320
+S
+#101320
+#7E#Ln#7t#Lr#7a#Ln#7c#Le #7T#Lo #7T#Lh#7e #LS#7e#Lc#7r#Le#7t #LR#7e#Ls#7e#La#7r#Lc#7h #LL#7a#Lb#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101321
+D4
+~
+~
+0 0 101319
+S
+#101321
+#7R#Le#7s#Le#7a#Lr#7c#Lh #7L#La#7b#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101322
+D1
+~
+~
+0 0 101320
+D2
+~
+~
+0 0 101323
+D3
+~
+~
+0 0 101325
+D4
+~
+~
+0 0 101326
+D5
+~
+~
+0 0 101324
+S
+#101322
+#7R#Le#7s#Le#7a#Lr#7c#Lh #7L#La#7b#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101321
+S
+#101323
+#7R#Le#7s#Le#7a#Lr#7c#Lh #7L#La#7b#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101321
+S
+#101324
+#7R#Le#7s#Le#7a#Lr#7c#Lh #7L#La#7b#n~
+~
+0 0 0
+D4
+~
+~
+0 0 101321
+S
+#101325
+#7R#Le#7s#Le#7a#Lr#7c#Lh #7L#La#7b#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101321
+S
+#101326
+#7R#Le#7s#Le#7a#Lr#7c#Lh #7L#La#7b#n~
+~
+0 0 0
+D5
+~
+~
+0 0 101321
+S
+#101327
+#rP#ya#Rt#yh #rT#yo #RT#yh#re #yT#Rr#ya#ri#yn#Ri#rn#yg #RB#ya#rr#yr#Ra#yc#rk#ys#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101309
+D2
+~
+~
+0 0 101328
+S
+#101328
+#rP#ya#Rt#yh #rT#yo #RT#yh#re #yT#Rr#ya#ri#yn#Ri#rn#yg #RB#ya#rr#yr#Ra#yc#rk#ys#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101327
+D3
+~
+~
+0 0 101329
+S
+#101329
+#rP#ya#Rt#yh #rT#yo #RT#yh#re #yT#Rr#ya#ri#yn#Ri#rn#yg #RB#ya#rr#yr#Ra#yc#rk#ys#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101328
+D5
+~
+~
+0 0 101330
+S
+#101330
+#rP#ya#Rt#yh #rT#yo #RT#yh#re #yT#Rr#ya#ri#yn#Ri#rn#yg #RB#ya#rr#yr#Ra#yc#rk#ys#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101331
+D4
+~
+~
+0 0 101329
+S
+#101331
+#oB#0a#or#0r#oa#0c#ok#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101330
+D1
+~
+~
+0 0 101332
+D2
+~
+~
+0 0 101334
+D3
+~
+~
+0 0 101333
+D4
+~
+~
+0 0 101336
+D5
+~
+~
+0 0 101335
+S
+#101332
+#oB#0a#or#0r#oa#0c#ok#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101331
+S
+#101333
+#oB#0a#or#0r#oa#0c#ok#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101331
+S
+#101334
+#oB#0a#or#0r#oa#0c#ok#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101331
+S
+#101335
+#oB#0a#or#0r#oa#0c#ok#n~
+~
+0 0 0
+D4
+~
+~
+0 0 101331
+S
+#101336
+#oB#0a#or#0r#oa#0c#ok#n~
+~
+0 0 0
+D5
+~
+~
+0 0 101331
+S
+#101337
+#RPath #rTo #RThe #rMissile #RSilo#n~
+~
+0 0 0
+D0
+~
+~
+3 0 101338
+D2
+~
+~
+3 0 101309
+S
+#101338
+#RPath #rTo #RThe #rMissile #RSilo#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101339
+D2
+~
+~
+3 0 101337
+S
+#101339
+#RPath #rTo #RThe #rMissile #RSilo#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101340
+D2
+~
+~
+0 0 101338
+S
+#101340
+#RPath #rTo #RThe #rMissile #RSilo#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101339
+D5
+~
+~
+0 0 101341
+S
+#101341
+#RPath #rTo #RThe #rMissile #RSilo#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101342
+D4
+~
+~
+0 0 101340
+S
+#101342
+#0Launch Pad#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101341
+D4
+~
+~
+0 0 101343
+S
+#101343
+#LHeading #7Towards #LSurface~
+~
+0 0 0
+D4
+~
+~
+0 0 101344
+D5
+~
+~
+0 0 101342
+S
+#101344
+#LHeading #7Towards #LSurface~
+~
+0 0 0
+D4
+~
+~
+0 0 101345
+D5
+~
+~
+0 0 101343
+S
+#101345
+#LHeading #7Towards #LSurface~
+~
+0 0 0
+D5
+~
+~
+0 0 101344
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 101302 5 101300
+M 0 101302 5 101300
+M 0 101302 5 101300
+M 0 101302 5 101300
+M 0 101302 5 101300
+M 0 101305 5 101301
+M 0 101305 5 101301
+M 0 101305 5 101301
+M 0 101305 5 101301
+M 0 101304 5 101302
+M 0 101304 5 101302
+M 0 101304 5 101302
+M 0 101304 5 101302
+M 0 101304 5 101302
+M 0 101300 5 101304
+M 0 101300 5 101304
+M 0 101300 5 101304
+M 0 101300 5 101304
+M 0 101301 5 101305
+M 0 101301 5 101305
+M 0 101301 5 101305
+M 0 101301 5 101305
+M 0 101301 5 101305
+M 0 101303 5 101306
+M 0 101303 5 101306
+M 0 101303 5 101306
+M 0 101303 5 101306
+M 0 101303 5 101306
+M 0 101306 5 101307
+M 0 101306 5 101307
+M 0 101306 5 101307
+M 0 101306 5 101307
+M 0 101306 5 101307
+M 0 101307 5 101308
+M 0 101307 5 101308
+M 0 101307 5 101308
+M 0 101307 5 101308
+M 0 101307 5 101308
+M 0 101313 10 101310
+M 0 101313 10 101310
+M 0 101313 10 101310
+M 0 101313 10 101310
+M 0 101313 10 101310
+M 0 101312 10 101311
+M 0 101312 10 101311
+M 0 101312 10 101311
+M 0 101312 10 101311
+M 0 101312 10 101311
+M 0 101310 10 101312
+M 0 101310 10 101312
+M 0 101310 10 101312
+M 0 101310 10 101312
+M 0 101311 10 101313
+M 0 101311 10 101313
+M 0 101311 10 101313
+M 0 101311 10 101313
+M 0 101311 10 101313
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101309 10 101314
+M 0 101316 1 101315
+M 0 101316 1 101315
+M 0 101316 1 101315
+M 0 101316 1 101315
+M 0 101316 1 101315
+M 0 101320 10 101315
+M 0 101320 10 101315
+M 0 101320 10 101315
+M 0 101320 10 101315
+M 0 101320 10 101315
+M 0 101320 10 101316
+M 0 101320 10 101316
+M 0 101320 10 101316
+M 0 101320 10 101316
+M 0 101320 10 101316
+M 0 101321 10 101316
+M 0 101321 10 101316
+M 0 101321 10 101316
+M 0 101321 10 101316
+M 0 101321 10 101316
+M 0 101322 10 101317
+M 0 101322 10 101317
+M 0 101322 10 101317
+M 0 101322 10 101317
+M 0 101322 10 101317
+M 0 101308 5 101318
+M 0 101308 5 101318
+M 0 101308 5 101318
+M 0 101308 5 101318
+M 0 101308 5 101318
+M 0 101324 10 101319
+M 0 101324 10 101319
+M 0 101324 10 101319
+M 0 101324 10 101319
+M 0 101324 10 101319
+M 0 101323 10 101319
+M 0 101323 10 101319
+M 0 101323 10 101319
+M 0 101323 10 101319
+M 0 101323 10 101319
+M 0 101324 10 101320
+M 0 101324 10 101320
+M 0 101324 10 101320
+M 0 101324 10 101320
+M 0 101324 10 101320
+M 0 101325 10 101321
+M 0 101325 10 101321
+M 0 101325 10 101321
+M 0 101325 10 101321
+M 0 101325 10 101321
+M 0 101315 10 101331
+M 0 101315 10 101331
+M 0 101315 10 101331
+M 0 101315 10 101331
+M 0 101315 10 101331
+M 0 101314 10 101331
+M 0 101314 10 101331
+M 0 101314 10 101331
+M 0 101314 10 101331
+M 0 101314 10 101331
+M 0 101315 10 101332
+M 0 101315 10 101332
+M 0 101315 10 101332
+M 0 101315 10 101332
+M 0 101315 10 101332
+M 0 101314 10 101332
+M 0 101314 10 101332
+M 0 101314 10 101332
+M 0 101314 10 101332
+M 0 101314 10 101332
+M 0 101317 10 101333
+M 0 101317 10 101333
+M 0 101317 10 101333
+M 0 101317 10 101333
+M 0 101317 10 101333
+M 0 101316 10 101333
+M 0 101316 10 101333
+M 0 101316 10 101333
+M 0 101316 10 101333
+M 0 101316 10 101333
+M 0 101317 10 101334
+M 0 101317 10 101334
+M 0 101317 10 101334
+M 0 101317 10 101334
+M 0 101317 10 101334
+M 0 101316 10 101334
+M 0 101316 10 101334
+M 0 101316 10 101334
+M 0 101316 10 101334
+M 0 101316 10 101334
+M 0 101319 10 101335
+M 0 101319 10 101335
+M 0 101319 10 101335
+M 0 101319 10 101335
+M 0 101319 10 101335
+M 0 101318 10 101336
+M 0 101318 10 101336
+M 0 101318 10 101336
+M 0 101318 10 101336
+M 0 101318 10 101336
+M 0 101326 10 101338
+M 0 101326 10 101338
+M 0 101327 10 101339
+M 0 101327 10 101339
+M 0 101326 10 101339
+M 0 101326 10 101339
+M 0 101328 10 101340
+M 0 101328 10 101340
+M 0 101327 10 101340
+M 0 101327 10 101340
+M 0 101326 10 101340
+M 0 101326 10 101340
+M 0 101328 10 101341
+M 0 101328 10 101341
+M 0 101327 10 101341
+M 0 101327 10 101341
+M 0 101326 10 101341
+M 0 101326 10 101341
+M 0 101329 10 101342
+M 0 101329 10 101342
+M 0 101329 10 101342
+M 0 101329 10 101342
+M 0 101329 10 101342
+M 0 101328 10 101343
+M 0 101328 10 101343
+M 0 101327 10 101343
+M 0 101327 10 101343
+M 0 101328 10 101344
+M 0 101328 10 101344
+M 0 101327 10 101344
+M 0 101327 10 101344
+M 0 101328 10 101345
+M 0 101328 10 101345
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

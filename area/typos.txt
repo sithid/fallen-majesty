@@ -1,0 +1,12 @@
+[32082] Hexen: s
+[    1] Kangol: weapon
+[ 3054] Medjai: wexx
+[50405] Mandark: our control over the forces of life and death are not powerfull enough.
+[50508] Crono: second room of insane monks, "tongue" not "tognue"
+[ 3054] Mandark: Double exp is off and Double qp is offand Double status is off
+[ 3054] Ton: self
+[ 3054] Growl: kca
+[ 3700] Sebastion: I cannot become an avatar
+[100310] Kachiko: Some of the rooms in the first earth trials in dbz are spelled "The Trails of Earth"
+[100716] Raithe: "You are awared 1 hit points for a victory."  -suggest "You have been awarded - hit points for your victory."
+[101905] Creole: You defty invert ...

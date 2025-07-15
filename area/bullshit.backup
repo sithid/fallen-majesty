@@ -1,0 +1,602 @@
+#AREADATA
+Name        Immortal Stuff~
+Builders    None~
+VNUMs       1 89
+Security    9
+Recall      0
+Age         15
+End
+
+
+
+#MOBILES
+#1
+Vampsta Rollins Romulus Unsilence LMFAO breia misery Litovtxboi huh furey Delegious Mortal load mortal area quit save Leto Brujah~
+eximms and dumb names~
+Moron ex-imms
+~
+~
+3
+0 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#14
+fire golem~
+#Ra deadly #rf#Ri#yr#Re golem#n~
+#RThe forces of #rf#Ri#yr#Re stand here, in the shape of a golem.#n
+~
+~
+1
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#15
+clay golem~
+#yA large #oc#0l#oa#7y#y golem#n~
+#yA deadly golem stands here. It appears to be made of #oc#0l#oa#7y#y.#n
+~
+~
+1
+0 0 S
+21 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#16
+stone golem~
+#0A sturdy #ns#7ton#ne #0golem#n~
+#0An indestructible #8s#7ton#8e #0golem towers above you.#n
+~
+~
+1
+0 0 S
+9 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#17
+iron golem~
+#Ca huge #ci#7r#8o#cn #Cgolem#n~
+#CHere stands a huge, intimidating #ci#7r#8o#cn #Cgolem.#n
+~
+~
+1
+0 0 S
+21 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#23
+guardian reality~
+#yT#oh#ye Gu#oardi#yan #oof #yRe#oali#yty#n~
+#yT#oh#ye Gu#oardi#yan #oof #yRe#oali#yty#n is here, defending the real world.
+~
+~
+2051
+8320 0 S
+4976 0 0 99d1+1 0d0+0
+0 0
+0 0 1
+#29
+SuperMob~
+Snardy~
+Snard is standing here wearing a superman costume.
+~
+~
+1
+0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#0
+
+
+
+#OBJECTS
+#1
+dummy object~
+a dummy object~
+Dummy object is used for loading non-existant objects~
+~
+12 -32768 0
+0 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#2
+coin gold~
+a gold coin~
+One miserable gold coin.~
+~
+20 0 1
+1 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#3
+coins gold~
+%d gold coins~
+A pile of gold coins.~
+~
+20 0 1
+0 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#6
+white rose fire shard tattoo~
+#8A w#7h#0i#7t#8e rose engulfed in #rf#yi#Rre #0sh#Rar#yd#rs#n~
+#8A w#7h#0i#7t#8e rose engulfed in #rf#yi#Rre #0sh#Rar#yd#rs#n~
+~
+9 0 262145
+0 0 0 21
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#9
+monkey boy pin~
+#CA pin declaring #y"#LI'm a #oMonkey Boy#L!!#y"#n~
+#CA pin declaring #y"#LI'm a #oMonkey Boy#L!!#y"#n~
+~
+9 0 262145
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+~
+23 0 1
+0 0 0 1
+100 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#11
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+~
+24 0 0
+0 0 0 1
+100 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12
+head %s~
+the severed head of %s~
+The severed head of %s is lying here.~
+~
+13 0 16385
+10 0 12 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#13
+heart %s~
+the torn-out heart of %s~
+The torn-out heart of %s is lying here.~
+~
+19 0 16385
+16 0 13 0
+2 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#14
+arm %s~
+the sliced-off arm of %s~
+The sliced-off arm of %s is lying here.~
+~
+19 0 16385
+20 0 14 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#15
+leg %s~
+the sliced-off leg of %s~
+The sliced-off leg of %s is lying here.~
+~
+19 0 16385
+20 0 15 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#16
+turd~
+the steaming turds of %s~
+The steaming turds of %s assail your nostrils.~
+~
+13 0 0
+5 0 0 1
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.
+~
+~
+19 0 1
+5 0 0 0
+1 10 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+~
+1 0 1
+0 0 -1 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+~
+25 64 0
+100000 100000 0 0
+5000 10 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#23
+spring blood~
+a blood spring~
+A spring of dark red liquid flows from the ground here.~
+~
+25 64 0
+100000 100000 13 0
+5000 10 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#24
+bag~
+rand's Bag~
+Rand's Bag~
+~
+9 262144 1
+0 0 0 0
+0 0 0
+E
+crown~
+#0   Merc was created by:                      DikuMud was created by:
+#0   Furey#3                            oo       #0Katja Nyboe                        #n
+#0   Hatchet#3                         $#o""#3$     #0 Sebastian Hammer#n
+#0   Kahn#3                           $#o"$$$#3$     #0Michael Seifert#n
+#3                                   $#o$$#3$     #0 Tom Madsen
+#0God Wars was created by KaVir     #3 o #o"#3$o#0     Hans Henrik Staerfeldt#n
+#3                                  o"  "$        #n
+#3             oo"$$$"  oo$"$ooo   o$    "$    ooo"$oo  $$$"o#n
+#3o o o o    oo"  o"      "o    $$o$"     o o$""  o$      "$  "oo   o o o o#n
+#3"$o   ""$$$"   $$         $      "  #4 o#3   ""    o"         $   "o$$"    o$$#n
+#3  ""o    #4   o #3 $          $" #4      $#l$$$#4$#3       o          $  #4o#lo#4o    #3 o""#n
+#3     "o   #4$#l$$$#4o#3 $o       o$        #4$#l$$$$#4"      #3 $o        " #4$#l$$$#lo  #3o"#n
+#3      ""o #4$#l$$$#4o#3  oo o  o$"        #4 $#l$$$$#4"        #3"o o o o"  #4"#l$$$#4o #3$#n
+#3        "" #4"#l$#4"#3     """""           #4 "#l"$#4"#3            """     #4 "#l"#4" #3"#n
+#3         "ooooo#oo#3ooooo#oo#3ooooo#oo#3ooooo#oo#3ooooo#oo#3ooooo#oo#3ooooo#oo#3ooooo#oo#3ooooo#oo#3$#n
+#3          "$#4$$#l$"$$$#4$" $$#l$$$$$"$$$$$#4$"  "$#l$$$$"$$$$$#4$"  $$#l$""$#4$$#3$#n
+#3           $#4$$#loo$$#4$$   $$#l$$$$o$$$$$$#4o" $$#l$$$$$$$$$$#4$$ o$#l$$$o$#4$$#3"#n
+#3           $"""""""""""""""""""""""""""""""""""""""""""""""""""$#n
+#3           $"                   #0Welcome to#3                    "$ #n
+#3           $"                 #4F#la#ol#3l#oe#ln  #4M#la#3j#oe#3s#lt#4y#3                 "$#n
+#3           $"                                                 "$#n
+#3           $"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$"$#n
+~
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#26
+teis~
+#pD#Po#0n#y'#ot #oT#yo#0u#Pc#ph#n~
+#0This item lies here. #pD#Po#0n#y'#ot #oT#yo#0u#Pc#ph#0.#n~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+greeting~
+~
+26 0 1
+2000 'armor' 'armor' 'armor'
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#69
+Sword Excalibur~
+the #6Sword #4Excalibur#n~
+A humming sword lies here, radiating power and goodness~
+~
+5 1283 8193
+0 100 100 3
+10 100000 0
+A
+2 10
+A
+4 10
+A
+1 10
+A
+19 55
+A
+18 55
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#89
+menacing longsword~
+a wicked longsword~
+A huge, evil longsword is floating here.~
+~
+1 0 0
+1 1 1 1
+1 1 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#1
+#RTh#ye Thr#oone o#rf Th#Re Immo#0rtals#n~
+Unattended mortals will be sold into slavery. -Huw
+~
+0 5267740 1
+E
+a rusty lever~
+A rusty Lever 
+~
+E
+a rusty lever~
+~
+S
+#2
+limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 1073166 1
+S
+#10
+#CBl#cit#Czy#L'#ls #oB#ga#or #7H#0ous#7e#n~
+#yY#Pou are s#ytandi#nng in #yth#Re bar.  T#Ghe #0bar #7is set ag#Rainst
+the#G northern #Rwall, old #ya#Prchaic writ#ying#n, c#yar#Rving#Gs a#0nd
+symbols co#7ver its #Rtop.  #GA fireplace i#Rs built into #yt#Phe western
+#ywal#Rl, an#Gd thr#0ough the southeastern #7wind#Rows y#Gou can s#Ree the
+temple #ysquare#P.  #yThis pl#Ra#Gce m#0akes you fe#7el like home.  
+~
+0 1073238 2
+D0
+~
+~
+1 0 22
+D2
+~
+~
+0 12607502 0
+S
+#11
+Snards place~
+~
+0 12 0
+S
+#13
+#cR#Ce#8a#7l#Cm #co#Cf #8N#7o#Ce#cl#n~
+~
+0 1073540 0
+S
+#21
+#rCh#Ra#yry#Rs#rse#y'#rs #gSa#Gn#yc#Gt#gum#n~
+An unearthly glow radiates from a source unseen in this strangely shaped
+room.  It is so uneasily quiet in here that you feel unwelcome; but you
+don't want to leave.  Who could this wondrous room belong to?  Only the Gods
+know...  
+~
+0 1073222 0
+S
+#22
+#CBl#cit#Czy#L'#ls #oGa#gtew#oay #Lt#lo #yF#7reedo#ym#n~
+#CA #CEver#clast#ling #CShimmer#cing #LPort#lal #yShin#oes #Pt#po #Gt#ghe #sN#sO#sR#sT#sH#n
+ 
+~
+0 1065062 0
+D2
+~
+~
+0 0 10
+S
+#23
+The #cP#Clan#ce #nof #yRea#oli#yty#n~
+If you are in this room, know that you are safe from harm.  You may
+recall if you wish, but you will face your death should you do so.  Know
+that this room being safe is so that you may remake what equipment you
+will, and get used to the change that just took place.
+~
+0 1065990 0
+S
+#24
+#7Healing Ward#n~
+~
+0 1073222 0
+D5
+~
+~
+0 0 41001
+S
+#25
+#0Realm of Fears.#n~
+As you step out of the portal you begin to tremmble.  Your greatest fears
+are all around you beckoning you.  
+~
+0 8 0
+D0
+~
+~
+0 0 26
+S
+#26
+#0Fear~
+~
+0 0 0
+D2
+~
+~
+0 0 25
+S
+#38
+~
+~
+0 4 0
+S
+#44
+Blitzkrieg's Private Work Space~
+Blitzkrieg comes here to work and not to be bothered.  Please leave now
+if nothing is of the importance but you can stay if want to.  
+~
+0 516 0
+S
+#0
+
+
+
+#SPECIALS
+M 23 spec_rand_quit
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

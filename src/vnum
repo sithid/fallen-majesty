@@ -1,0 +1,191 @@
+act_wiz.c: stc( pArea->name, ch );
+act_wiz.c: for( i = pArea->lvnum; i < pArea->uvnum+1; i++, count++ )
+db.c:    pArea->name		= fread_string( fp );
+db.c:	log_string( pArea->name );
+db.c:    pArea->age		= 30;
+db.c:    pArea->perm_age	= 30;
+db.c:    pArea->nplayer	= 0;
+db.c:    pArea->area_flags   = AREA_LOADING;         /* OLC */
+db.c:    pArea->security     = 3;                    /* OLC */
+db.c:    pArea->builders     = str_dup( "None" );    /* OLC */
+db.c:    pArea->lvnum        = 0;                    /* OLC */
+db.c:    pArea->uvnum        = 0;                    /* OLC */
+db.c:    pArea->vnum         = top_area;             /* OLC */
+db.c:    pArea->filename     = str_dup( strArea );   /* OLC */
+db.c:    pArea->age          = 30;
+db.c:    pArea->perm_age     = 30;
+db.c:    pArea->nplayer      = 0;
+db.c:    pArea->filename     = str_dup( strArea );
+db.c:    pArea->vnum         = top_area;
+db.c:    pArea->name         = str_dup( "New Area" );
+db.c:    pArea->builders     = str_dup( "" );
+db.c:    pArea->security     = 3;
+db.c:    pArea->lvnum        = 0;
+db.c:    pArea->uvnum        = 0;
+db.c:    pArea->area_flags   = 0;
+db.c:    pArea->recall       = ROOM_VNUM_TEMPLE;
+db.c:            SKEY( "Name", pArea->name );
+db.c:             KEY( "Security", pArea->security, fread_number( fp ) );
+db.c:                pArea->lvnum = fread_number( fp );
+db.c:                pArea->uvnum = fread_number( fp );
+db.c:		 pArea->age = (30 - pArea->perm_age);
+db.c:            SKEY( "Builders", pArea->builders );
+db.c:             KEY( "Recall", pArea->recall, fread_number( fp ) );
+db.c:	     KEY( "Age", pArea->perm_age, fread_number( fp ) );
+db.c:    log_string( pArea->name );
+db.c:    for ( pArea = first_area; pArea != NULL; pArea = pArea->next )
+db.c:	if ( ++pArea->age < 3 && !ForceReset )
+db.c:	if ( pArea->nplayer > 0 && pArea->age == 30 - 1 )
+db.c:	if ( ForceReset || pArea->age >= 30 )
+db.c:	    pArea->age = (30 - pArea->perm_age);
+db.c:		pArea->age = 30 - 3;
+db.c:    for ( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+mem.c:    pArea->next		= NULL;
+mem.c:    pArea->name		= str_dup( "New area" );
+mem.c:    pArea->recall	= ROOM_VNUM_TEMPLE;
+mem.c:    pArea->area_flags	= AREA_ADDED;
+mem.c:    pArea->security	= 1;
+mem.c:    pArea->builders	= str_dup( "None" );
+mem.c:    pArea->lvnum	= 0;
+mem.c:    pArea->uvnum	= 0;
+mem.c:    pArea->age		= 0;
+mem.c:    pArea->perm_age	= 0;
+mem.c:    pArea->nplayer	= 0;
+mem.c:    pArea->vnum		= top_area-1;		/* OLC 1.1b */
+mem.c:    sprintf( buf, "area%d.are", pArea->vnum );
+mem.c:    pArea->filename	= str_dup( buf );
+mem.c:    free_string( pArea->name );
+mem.c:    free_string( pArea->filename );
+mem.c:    free_string( pArea->builders );
+mem.c:    pArea->next		=   area_free->next;
+newclans.c:       for( pArea = first_area; pArea; pArea = pArea->next )
+newclans.c:            if (IS_SET(pArea->area_flags, AREA_CLAN))
+newclans.c:      bug( "save_clans: Area without clan: %s", pArea->name);
+newclans.c:      REMOVE_BIT(pArea->area_flags, AREA_CLAN);
+newclans.c:  for (pArea = first_area; pArea; pArea = pArea->next)
+newclans.c:     if (IS_SET(pArea->area_flags, AREA_CLAN))
+newclans.c:        vnum = ((pArea->lvnum - 53950) / 50);
+olc_act.c:    for ( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_act.c:    for ( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_act.c:    for ( pArea = first_area; pArea; pArea = pArea->next )
+olc_act.c:	if ( ( lower <= pArea->lvnum && upper >= pArea->lvnum )
+olc_act.c:	||   ( upper >= pArea->uvnum && lower <= pArea->uvnum ) )
+olc_act.c:    for ( pArea = first_area; pArea; pArea = pArea->next )
+olc_act.c:        if ( vnum >= pArea->lvnum
+olc_act.c:          && vnum <= pArea->uvnum )
+olc_act.c:    sprintf( buf, "Name:     [%5d] %s\n\r", pArea->vnum, pArea->name );
+olc_act.c:    sprintf( buf, "Recall:   [%5d] %s\n\r", pArea->recall,
+olc_act.c:	get_room_index( pArea->recall )
+olc_act.c:	? get_room_index( pArea->recall )->name : "none" );
+olc_act.c:    sprintf( buf, "File:     %s\n\r", pArea->filename );
+olc_act.c:    sprintf( buf, "Vnums:    [%d-%d]\n\r", pArea->lvnum, pArea->uvnum );
+olc_act.c:    sprintf( buf, "Age:      [%d]\n\r",	pArea->perm_age );
+olc_act.c:    sprintf( buf, "Players:  [%d]\n\r", pArea->nplayer );
+olc_act.c:    sprintf( buf, "Security: [%d]\n\r", pArea->security );
+olc_act.c:    sprintf( buf, "Builders: [%s]\n\r", pArea->builders );
+olc_act.c:    sprintf( buf, "Flags:    [%s]\n\r", flag_string( area_flags, pArea->area_flags ) );
+olc_act.c:    SET_BIT( pArea->area_flags, AREA_ADDED );
+olc_act.c:    free_string( pArea->name );
+olc_act.c:    pArea->name = str_dup( argument );
+olc_act.c:    free_string( pArea->filename );
+olc_act.c:    pArea->filename = str_dup( file );
+olc_act.c:    pArea->perm_age = atoi( age );
+olc_act.c:    if (pArea->perm_age > 30)
+olc_act.c:       pArea->perm_age = 30;
+olc_act.c:       pArea->age = 30 - pArea->perm_age;
+olc_act.c:    pArea->recall = value;
+olc_act.c:    pArea->security = value;
+olc_act.c:    if ( strstr( pArea->builders, name ) != '\0' )
+olc_act.c:	pArea->builders = string_replace( pArea->builders, name, "\0" );
+olc_act.c:	pArea->builders = string_unpad( pArea->builders );
+olc_act.c:	if ( pArea->builders[0] == '\0' )
+olc_act.c:	    free_string( pArea->builders );
+olc_act.c:	    pArea->builders = str_dup( "None" );
+olc_act.c:	if ( strstr( pArea->builders, "None" ) != '\0' )
+olc_act.c:	    pArea->builders = string_replace( pArea->builders, "None", "\0" );
+olc_act.c:	    pArea->builders = string_unpad( pArea->builders );
+olc_act.c:	if (pArea->builders[0] != '\0' )
+olc_act.c:	    strcat( buf, pArea->builders );
+olc_act.c:	free_string( pArea->builders );
+olc_act.c:	pArea->builders = string_proper( str_dup( buf ) );
+olc_act.c:    pArea->lvnum = ilower;
+olc_act.c:    pArea->uvnum = iupper;
+olc_act.c:    if ( ( ilower = atoi( lower ) ) > ( iupper = pArea->uvnum ) )
+olc_act.c:    pArea->lvnum = ilower;
+olc_act.c:    if ( ( ilower = pArea->lvnum ) > ( iupper = atoi( upper ) ) )
+olc_act.c:    pArea->uvnum = iupper;
+olc.c:	sprintf( buf, "%d", pArea ? pArea->vnum : 0 );
+olc.c:    for (pArea = first_area; pArea; pArea = pArea->next )
+olc.c:        if (pArea->vnum == vnum)
+olc.c:		SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:	TOGGLE_BIT(pArea->area_flags, value);
+olc.c:		SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:		SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:		SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:        SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:	    SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:	    SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:	    SET_BIT( pArea->area_flags, AREA_CHANGED );
+olc.c:    for ( pArea = first_area; pArea; pArea = pArea->next )
+olc.c:	     pArea->vnum,
+olc.c:	     pArea->name,
+olc.c:	     pArea->lvnum,
+olc.c:	     pArea->uvnum,
+olc.c:	     pArea->filename,
+olc.c:	     pArea->security,
+olc.c:	     pArea->builders );
+olc_save.c:	for( pArea = first_area; pArea; pArea = pArea->next )
+olc_save.c:	    if (!IS_SET(pArea->area_flags, AREA_CLAN))
+olc_save.c:	    fprintf( fp, "%s\n", pArea->filename );
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:                    "Save_resets: !NO_MOB! in [%s]", pArea->filename );
+olc_save.c:                    "Save_resets: !NO_MOB! in [%s]", pArea->filename );
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:                sprintf( buf, "Save_resets: P with !NO_OBJ! in [%s]", pArea->filename );
+olc_save.c:                sprintf( buf, "Save_resets: !NO_MOB! in [%s]", pArea->filename );
+olc_save.c:                sprintf( buf, "Save_resets: !NO_MOB! in [%s]", pArea->filename );
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    for( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
+olc_save.c:    if ( !( fp = fopen( pArea->filename, "w" ) ) )
+olc_save.c:	perror( pArea->filename );
+olc_save.c:    fprintf( fp, "Name        %s~\n",        pArea->name );
+olc_save.c:    fprintf( fp, "Builders    %s~\n",        fix_string( pArea->builders ) );
+olc_save.c:    fprintf( fp, "VNUMs       %d %d\n",      pArea->lvnum, pArea->uvnum );
+olc_save.c:    fprintf( fp, "Security    %d\n",         pArea->security );
+olc_save.c:    fprintf( fp, "Recall      %d\n",         pArea->recall );
+olc_save.c:    fprintf( fp, "Age         %d\n",	     pArea->perm_age );
+olc_save.c:    if (IS_SET( pArea->area_flags, AREA_CLAN ) )
+olc_save.c:    if ( IS_SET(pArea->area_flags, AREA_VERBOSE) )	/* OLC 1.1b */
+olc_save.c:	for( pArea = first_area; pArea; pArea = pArea->next )
+olc_save.c:   	    if (!IS_SET(pArea->area_flags, AREA_CLAN))
+olc_save.c:	    REMOVE_BIT( pArea->area_flags, AREA_CHANGED | AREA_ADDED );
+olc_save.c:	    SET_BIT( pArea->area_flags, AREA_VERBOSE );
+olc_save.c:	REMOVE_BIT( pArea->area_flags, AREA_VERBOSE );
+olc_save.c:	for( pArea = first_area; pArea; pArea = pArea->next )
+olc_save.c:		SET_BIT( pArea->area_flags, AREA_VERBOSE );
+olc_save.c:	    REMOVE_BIT( pArea->area_flags, AREA_CHANGED | AREA_ADDED | AREA_VERBOSE );
+olc_save.c:	for( pArea = first_area; pArea; pArea = pArea->next )
+olc_save.c:	    if ( IS_SET(pArea->area_flags, AREA_CHANGED)
+olc_save.c:	      || IS_SET(pArea->area_flags, AREA_ADDED) )
+olc_save.c:		    SET_BIT( pArea->area_flags, AREA_VERBOSE );
+olc_save.c:		REMOVE_BIT( pArea->area_flags, AREA_CHANGED | AREA_ADDED | AREA_VERBOSE );
+olc_save.c:		sprintf( buf, "%24s - '%s'\n\r", pArea->name, pArea->filename );
+olc_save.c:	    SET_BIT( pArea->area_flags, AREA_VERBOSE );
+olc_save.c:	REMOVE_BIT( pArea->area_flags, AREA_CHANGED | AREA_ADDED | AREA_VERBOSE );
+olc_save.c:  for( pArea = first_area; pArea; pArea = pArea->next )
+olc_save.c:      if ( IS_SET(pArea->area_flags, AREA_CHANGED)
+olc_save.c:       || IS_SET(pArea->area_flags, AREA_ADDED) )
+olc_save.c:       REMOVE_BIT( pArea->area_flags, AREA_CHANGED | AREA_ADDED | AREA_VERBOSE );
+wizutil.c:	strncpy (buffer, pArea->filename, 64); /* copy the filename */	

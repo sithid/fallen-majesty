@@ -1,0 +1,372 @@
+#AREADATA
+Name        The Artic Circle~
+Builders    Blitzkrieg~
+VNUMs       52300 52399
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#52301
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+13 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#52318
+Cute Wolf Puppy~
+#cA #RC#put#Re #oP#yupp#oy#n~
+#cA #RC#put#Re #oP#yupp#oy#n #csits here on his hind legs looking at you with his cute puppy eyes.#n
+~
+The Puppy has a note attached to his collar, maybe it can serve as some importance?
+~
+3
+0 1000 S
+126 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#52300
+Red Statue Dragon~
+#7A #RR#re#Rd #ys#otatu#ye #7of a #RDr#rag#Ron#n~
+#7A #Rr#re#Rd #ys#otatu#ye #7of a #Rdr#rag#Ron #7sits here#n~
+~
+59 0 0
+52301 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52318
+Note Snow~
+a Snow Covered Note (Look Note)~
+In the winter circle you can get back to the Cute puppy by examining the pine tree~
+~
+38 8192 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#52319
+Faerie Tear Earring~
+faerie Tear Earring~
+A Faerie Tear Earring lies here~
+~
+9 257 262145
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#52300
+#LW#ci#Cnt#ce#Lr #0C#6i#8rc#7l#0e#n #R(#GTurn Brief Off#R)#n~
+As you dissolve into the room, around the circle is surrounded by a
+barrier of ice.  Along the walls are frozen statues colored a unique color,
+each of them seem to have take you somewhere else.  
+~
+0 4 0
+S
+#52301
+#oM#yout#oh #gof #gthe #LF#cr#Coz#ce#Ln #RC#oav#Re#n~
+As the field clears of smoke, you find yourself shivering in the storming blizzard. As you peer to the west you blindly see a mouth of a crystal cave.
+~
+0 0 0
+D1
+~
+~
+0 0 52302
+S
+#52302
+#gI#onsid#ge #0t#7h#0e #LF#cr#Coz#ce#Ln#R #RC#oav#Re#n~
+Inside the cave is covered with crystals, some how it is very bright in here. Looking upwards you see a luminesent ball of crystal glowing with the power of a sun. You have a feeling that something is going to hunt you, the feeling is truely disturbing.
+~
+0 0 0
+D2
+~
+~
+0 0 52303
+D3
+~
+~
+0 0 52301
+S
+#52303
+#CI#Lc#Cy #CR#cive#Cr#n~
+Walking in here you noticed the river some-how not frozen, the water is full of ice chunks and crystals. The frost of the artic air nips at your cheeks, far off you hear the rumbling of a waterfall.
+~
+0 0 0
+D0
+~
+~
+0 0 52302
+D1
+~
+~
+0 0 52304
+S
+#52304
+#CFr#cos#Cty #LR#oapid#Ls#n~
+The river now changes to even a faster pace, the rumbling the water in the distance almost relaxes you. On the ground is a little of crystal shards and frost everywhere, you touch a small shard and frost instantly seizes your hand, shocked and surprised you quickly pull your hand back before you get frost bite.
+~
+0 4 0
+D1
+~
+~
+0 0 52305
+D3
+~
+~
+0 0 52303
+S
+#52305
+#CI#cc#Cy #RC#rl#oi#rf#Rf#n~
+The river ends here and drops to a small lake 100 feet below, the rumbling of water against the bottom can be heard loudly. To the south is a hole in the wall which seems to release a chilly wind which seems to build frost over your soul.
+~
+0 0 0
+D2
+~
+~
+0 0 52306
+D3
+~
+~
+0 0 52304
+S
+#52306
+#8C#Cry#cs#Cta#8l #oTu#ynn#oel#n~
+As you enter the tunnel you realize that the floor is composed of crystals, everything here is crystal. The tunnels here seem to be twisted caused by a giant monster of some kind, hopefully you don't see it when on your way out.
+~
+0 0 0
+D0
+~
+~
+0 0 52305
+D3
+~
+~
+0 0 52307
+S
+#52307
+#lT#Lw#ci#Cs#0t#7i#8n#7g #gC#oav#ye#orn#gs#n~
+The caverns are completely twisted here, there are stalacites about here.
+The crystals show your relection several times and suddenly the crystals
+shatter into tiny bits.  
+~
+0 0 0
+D1
+~
+~
+0 0 52306
+D2
+~
+~
+0 0 52308
+S
+#52308
+#gR#7uin#gs #7o#0f #CT#ch#7u#0r#7m#ci#Cn#n~
+Here is the lost city of the ice dwarves:Thurmin, seems as if giant beasts have ravaged this underground city. Rocks and rubble is everywhere in this city, skeletons of the monsters and dwarves alike are strewned about, these dwarves fought to the bitter end... but in the end it wasn't enough.
+~
+0 0 0
+D0
+~
+~
+0 0 52307
+D1
+~
+~
+0 0 52309
+S
+#52309
+#CT#ch#7u#0r#7m#ci#Cn#8: #7C#0it#7y #oS#gquar#oe#n~
+This place once alive with dwarves carting mithril from these precious
+mines, children used to be about playing around the fountain.  Now the
+fountain is a broken fountain frozen solid...  What terrible monster could
+have done this?  
+~
+0 0 0
+D2
+~
+~
+0 0 52310
+D3
+~
+~
+0 0 52308
+S
+#52310
+#CT#ch#7u#0r#7m#ci#Cn #GRes#gid#0e#gnt#Gial #RA#rre#Ra#n~
+The once glorious city of thurmin now in rubble, some of the mithril
+weapons still are here since mithril doesn't rust.  The scent of death still
+hangs in the air, at a closer examination apprently this monster had claws
+and a rage to match.  
+~
+0 0 0
+D0
+~
+~
+0 0 52309
+D3
+~
+~
+0 0 52311
+S
+#52311
+#CT#ch#7u#0r#7m#ci#Cn #8M#7i#0t#8h#7r#0i#8l #yM#oine#ys#n~
+In these caves where dwarves used to mine, a deep sulfer smell strongly
+penetrates your nose.  an overturned whatever blitz wants here is
+leaking some sort of something.
+~
+0 0 0
+D1
+~
+~
+0 0 52310
+D2
+~
+~
+0 0 52312
+S
+#52312
+~
+~
+0 0 0
+D0
+~
+~
+0 0 52311
+D2
+~
+~
+0 0 52313
+S
+#52313
+~
+~
+0 0 0
+D0
+~
+~
+0 0 52312
+D1
+~
+~
+0 0 52314
+S
+#52314
+~
+~
+0 0 0
+D1
+~
+~
+0 0 52315
+D3
+~
+~
+0 0 52313
+S
+#52315
+~
+~
+0 0 0
+D1
+~
+~
+0 0 52316
+D3
+~
+~
+0 0 52314
+S
+#52316
+~
+~
+0 0 0
+D1
+~
+~
+0 0 52317
+D3
+~
+~
+0 0 52315
+S
+#52317
+~
+~
+0 0 0
+D1
+~
+~
+0 0 52318
+D3
+~
+~
+0 0 52316
+S
+#52318
+#8P#Cr#ci#8s#Cm#8a#ct#Ci#8c #ySt#oai#gr#oca#yse#n~
+Here is the staircase to Santa's Workshop where Santa and his elves come after christmas, the smell of hot coca and playful laughter can be heard from here. These Prismatic stairs can get you to the elves living quarters, reindeer fields, santa's workshop and santa's house.
+~
+0 0 0
+D3
+~
+~
+0 0 52317
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 0 52300 0 52300
+M 0 52318 1 52318
+E 0 52318 0 -1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

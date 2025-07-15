@@ -1,0 +1,3627 @@
+#AREADATA
+Name        FF Area~
+Builders    Huw~
+VNUMs       101700 101899
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#101700
+Squan Villager~
+#oS#yq#ouan #oVillag#ye#or#n~
+A friendly peasant of Squan stands here.
+~
+~
+17
+0 1000 S
+987 0 0 10d4+20 0d0+0
+0 0
+0 0 0
+#101701
+Squan Child~
+#oS#yq#ouan C#yh#oild#n~
+A #oS#yq#ouan C#yh#oild#n runs around here.
+~
+~
+17
+0 0 S
+1080 0 0 10d10+20 0d0+0
+0 0
+0 0 0
+#101702
+Statue~
+#oA s#yt#oatue o#yf#o A#yl#oiainithian#n~
+#oA statue beings to move towards you.#n
+~
+~
+25
+0 0 S
+1194 0 0 14d20+20 0d0+0
+0 0
+0 0 0
+#101703
+Squan Crier~
+#oS#yq#ouan Cri#ye#or#n~
+The #oS#yq#ouan Cri#ye#or#n is pouncing around.
+~
+~
+17
+0 0 S
+1280 0 0 10d10+10 0d0+0
+0 0
+0 0 0
+#101704
+Squan Townsfolk~
+#oS#yq#ouan T#yo#ownsf#yo#olk#n~
+#oA #ytownsfolk#o of Squan is here.#n
+~
+~
+17
+0 0 S
+1353 0 0 13d15+10 0d0+0
+0 0
+0 0 0
+#101705
+Squan Drunken~
+#oS#yq#ou#ya#on D#yr#oun#yk#oen#n~
+A slunk #oS#yq#ou#ya#on D#yr#oun#yk#oen#n walks around aimlessly.
+~
+~
+17
+128 0 S
+1488 0 0 20d0+0 0d0+0
+0 0
+0 0 0
+#101706
+Squan Civilian~
+#oSq#yuan Civ#oilian#n~
+A small #oSq#yuan Civ#oilian#n walks around his neighborhood.
+~
+~
+17
+128 0 S
+1621 0 0 10d0+0 0d0+0
+0 0
+0 0 1
+#101707
+Squan Fisher~
+#oS#yquan Fisherma#on#n~
+A #oS#yquan Fisherma#on#n is here practicing his fishing "magic".
+~
+~
+17
+65664 0 S
+1708 0 0 15d0+0 0d0+0
+0 0
+0 0 0
+#101708
+Squan Necromancer~
+#oS#yq#ou#ya#on #yN#oe#yc#or#yo#om#ya#on#yc#oe#yr#n~
+The town's #yN#oe#yc#or#yo#om#ya#on#yc#oe#yr#n is here.
+~
+~
+17
+65664 0 S
+1799 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#101709
+Squan Dragon~
+#yS#oquan's Pe#yt#n #RD#rr#Ra#rg#Ro#rn#n~
+#yS#oquan's Pe#yt#n #RD#rr#Ra#rg#Ro#rn#n flies around here.
+~
+~
+17
+623104 0 S
+1886 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101710
+Squan Mayor~
+#oS#yq#ou#ya#on#y'#os #yM#oa#yy#oo#yr#n~
+#oS#yq#ou#ya#on#y'#os #yM#oa#yy#oo#yr#n tosses his watch around.
+~
+~
+17
+98432 0 S
+1993 0 0 50d0+0 0d0+0
+0 0
+0 0 0
+#101711
+Mountain Troll~
+#GMo#gun#Gta#gin #GTr#gol#Gl#n~
+A huge greenish troll crunches his fists.
+~
+~
+3
+0 0 S
+3019 0 0 20d10+90 0d0+0
+0 0
+0 0 1
+#101712
+Golem~
+#0S#7t#0o#7n#0e Golem#n~
+A rock hard #0S#7t#0o#7n#0e Golem#n blocks your path.
+~
+~
+17
+589824 0 S
+4027 0 0 50d20+100 0d0+0
+0 0
+0 0 0
+#101713
+Ice Golem~
+#LI#lc#Le #lG#Lo#ll#Le#lm#n~
+#LA mound of ice walks towards you.#n
+~
+~
+3
+0 0 S
+3480 0 0 60d13+100 0d0+0
+0 0
+0 0 0
+#101714
+Ice Dragon~
+#LIce #lDragon#n~
+A frozen #LIce #lDragon#n flies here.
+~
+~
+3
+524288 0 S
+5046 0 0 40d15+40 0d0+0
+0 0
+0 0 0
+#101715
+Ice Puppy~
+#LI#lc#Le #lP#Lu#lp#Lp#ly#n~
+A small #LI#lc#Le #lP#Lu#lp#Lp#ly#n is here breathing icey fire.
+~
+~
+25
+0 0 S
+3352 0 0 40d20+20 0d0+0
+0 0
+0 0 0
+#101716
+Ice bugs~
+#LI#lc#Le #lB#Lu#lg#Ls#n~
+#LI#lc#Le #lB#Lu#lg#Ls#n fly around here in circles.
+~
+~
+17
+0 0 S
+2962 0 0 10d20+30 0d0+0
+0 0
+0 0 0
+#101717
+Ice Seal~
+#LIce #lSeal#n~
+An icy #LIce #lSeal#n flips around on the ice.
+~
+~
+17
+0 0 S
+2963 0 0 20d20+20 0d0+0
+0 0
+0 0 0
+#101718
+Ice Bird~
+#LI#lce #LB#lird#n~
+An #LI#lce #LB#lird#n floats around here.
+~
+~
+17
+524288 0 S
+2522 0 0 21d20+30 0d0+0
+0 0
+0 0 0
+#101719
+Ice Golem~
+#LI#lc#Le #lG#Lo#ll#Le#lm#n~
+A massive #LI#lc#Le #lG#Lo#ll#Le#lm#n stands over you.
+~
+~
+17
+98432 0 S
+4011 0 0 10d20+100 0d0+0
+0 0
+0 0 0
+#101720
+Wolf~
+#0W#oo#0l#of#n~
+A huge snarling #0W#oo#0l#of#n is here.
+~
+~
+17
+98560 0 S
+4005 0 0 20d10+30 0d0+0
+0 0
+0 0 0
+#101721
+Bear~
+#oH#yu#oge Be#ya#or#n~
+#GA #oH#yu#oge Be#ya#or#n is here eating a fish on a stick.
+~
+~
+17
+98432 0 S
+3995 0 0 10d10+100 0d0+0
+0 0
+0 0 0
+#101722
+Snake~
+#GS#gn#Ga#gk#Ge#n~
+A large #GS#gn#Ga#gk#Ge#n roams around here.
+~
+~
+17
+98304 0 S
+2975 0 0 10d20+40 0d0+0
+0 0
+0 0 0
+#101723
+Tiger~
+#yT#oi#yg#oe#yr#n~
+A plains #yT#oi#yg#oe#yr#n growls after your hide.
+~
+~
+17
+32896 0 S
+3984 0 0 0d10+100 0d0+0
+0 0
+0 0 0
+#101879
+Fish~
+#LFish#n~
+A long #LFish#n swims here.
+~
+~
+3
+0 0 S
+3012 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101880
+sh~
+#RS#rh#Ra#rr#Rk#n~
+#LA large #RS#rh#Ra#rr#Rk#L is here flashing you its teeth.#n
+~
+~
+11
+128 0 S
+4043 0 0 20d0+100 0d0+0
+0 0
+0 0 0
+#101881
+Turtle~
+#GT#gurtl#Ge#n~
+A large #GT#gurtl#Ge#n swims around here.
+~
+~
+17
+1114112 0 S
+3401 0 0 40d5+10 0d0+0
+0 0
+0 0 0
+#101882
+Gobbler Fish~
+#RG#lo#Lbbler #RF#li#Lsh#n~
+A round #RG#lo#Lbbler #RF#li#Lsh#n bites your leg.
+~
+~
+11
+0 0 S
+3976 0 0 10d0+40 0d0+0
+0 0
+0 0 0
+#101883
+Fish~
+#RA tiny Fish#n~
+#RA tiny Fish#n is here nibbling at your eye.
+~
+~
+3
+128 0 S
+3019 0 0 30d10+10 0d0+0
+0 0
+0 0 0
+#101884
+Alligator~
+#GAlligator#n~
+An #GAlligator#n chomps your leg.
+~
+~
+17
+128 0 S
+5015 0 0 10d10+100 0d0+0
+0 0
+0 0 0
+#101885
+Croc~
+#GA croc#n~
+#GA croc moves around.#n
+~
+~
+17
+98304 0 S
+4447 0 0 30d1+20 0d0+0
+0 0
+0 0 0
+#101886
+Pigeon~
+#7Pigeon~
+A dirty #7P#0i#7g#0e#7o#0n#n flies around here.
+~
+~
+25
+1572864 0 S
+1131 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#101887
+Swan~
+#yS#7w#ya#7n#n~
+A huge #yS#7w#ya#7n#n flies here.
+~
+~
+17
+1572992 0 S
+3011 0 0 10d10+20 0d0+0
+0 0
+0 0 0
+#101888
+duck~
+#LD#lu#7c#Lk#n~
+A #LD#lu#7c#Lk#n twaddles around here.
+~
+~
+17
+1048576 0 S
+2032 0 0 15d10+10 0d0+0
+0 0
+0 0 0
+#101889
+fish~
+#LF#li#Ls#lh#n~
+A school of #LF#li#Ls#lh#n swim here.
+~
+~
+3
+0 0 S
+10 0 0 30d5+5 0d0+0
+0 0
+0 0 0
+#101890
+worshiper~
+#oA man of Worship#n~
+#oA man of Worship#n sits here cross legged.#n
+~
+~
+3
+65544 0 S
+3414 0 0 40d20+100 0d0+0
+0 0
+0 0 0
+#101891
+Studious Studier~
+#RA student#n~
+#RA student#n is here training.
+~
+~
+3
+0 0 S
+3238 0 0 30d20+50 0d0+0
+0 0
+0 0 0
+#101892
+Monk~
+#oM#7o#onk#n~
+A powerful #oM#7o#onk#n stretches here.
+~
+~
+3
+0 0 S
+3041 0 0 20d10+40 0d0+0
+0 0
+0 0 0
+#101893
+Ninja~
+#0N#oi#0n#oj#0a#n~
+A fast #0N#oi#0n#oj#0a#n jumps around quickly.
+~
+~
+3
+65536 0 S
+4003 0 0 40d20+80 0d0+0
+0 0
+0 0 0
+#101894
+warriorshadow~
+#7S#0h#7a#0d#7o#0w #7W#0a#7r#0r#7i#0o#7r#n~
+A shadow walks around.
+~
+~
+17
+65664 0 S
+4000 0 0 30d20+99 0d0+0
+0 0
+0 0 0
+#101895
+Lizardman~
+#gL#Gi#gz#Ga#gr#Gd#gm#Ga#gn#n~
+A large sulking lizard is here flexing.
+~
+~
+17
+622592 0 S
+4029 0 0 30d0+0 0d0+0
+0 0
+0 0 0
+#101896
+Anaconda~
+#RA#rn#oa#Rc#ro#on#Rd#ra#n~
+A large long #RA#rn#oa#Rc#ro#on#Rd#ra#n slithers here.
+~
+~
+25
+4292641 0 S
+5035 0 0 40d10+100 0d0+0
+0 0
+0 0 0
+#101897
+Rat~
+#rF#Ranged #rR#Rat#n~
+A large #rF#Ranged #rR#Rat#n is here squirming.
+~
+~
+17
+0 0 S
+3373 0 0 10d0+50 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#101700
+Squad Armor~
+#oS#yq#ouad Arm#yo#or#n~
+A piece of armor lies here.~
+~
+9 34 4489
+0 0 0 0
+15 10000 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101701
+Squad Gauntlets~
+#oS#yq#ouad G#ya#ountle#yt#os#n~
+#oS#yq#ouad G#ya#ountle#yt#os#n lie here.~
+~
+9 0 257
+0 0 0 0
+0 0 0
+A
+19 20
+A
+18 20
+A
+17 -100
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101702
+Squad Longsword~
+#oS#yqu#oa#yd L#oo#yngsw#oo#yrd#n~
+A squad longsword is stuck in the ground.~
+~
+5 0 1
+0 20 80 3
+0 0 0
+A
+18 50
+A
+19 50
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101703
+Ice Jaws~
+#LI#lc#Le #lJ#La#lw#Ls#n~
+Icy #LI#lc#Le #lJ#La#lw#Ls#n are frozen here in the ground.~
+~
+5 0 1
+0 40 100 5
+0 0 0
+A
+19 40
+A
+18 20
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101704
+Monk Bracers~
+#oM#ron#ok B#rracer#os#n~
+Powerful #oM#ron#ok B#rracer#os#n lie here.~
+~
+9 0 1
+0 0 0 0
+0 0 0
+A
+19 10
+A
+18 10
+A
+17 -300
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101741
+Well~
+#7A Wishing Well#n dedicated to #RRand#n~
+#7A Wishing Well#n dedicated to #RRand#n~
+~
+57 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#101700
+#oStr#yee#ot#ys#o in Sq#yua#on#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101703
+D1
+~
+~
+0 0 101701
+D2
+~
+~
+0 0 101706
+D3
+~
+~
+0 0 101704
+D4
+~
+~
+0 0 101707
+S
+#101701
+#oBuilding in Sq#yua#on#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101702
+D3
+~
+~
+0 0 101700
+S
+#101702
+#oSq#yua#on#n #yMa#ork#yet #oSq#yua#ore#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101875
+D1
+~
+~
+0 0 101876
+D2
+~
+~
+0 0 101701
+D3
+~
+~
+0 0 101703
+S
+#101703
+#oT#yow#onh#you#ose of Sq#yua#on#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101702
+D2
+~
+~
+0 0 101700
+S
+#101704
+#oStre#yet#os in Sq#yua#on#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101700
+D2
+~
+~
+0 0 101705
+S
+#101705
+#yStre#oet#ys in Sq#oua#yn#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101704
+D1
+~
+~
+0 0 101706
+D3
+~
+~
+0 0 101877
+S
+#101706
+#oA#yp#oartment #oC#yo#omplex in #oS#yq#ouan#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101700
+D3
+~
+~
+0 0 101705
+S
+#101707
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101708
+D5
+~
+~
+0 0 101700
+S
+#101708
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101709
+D2
+~
+~
+0 0 101710
+D3
+~
+~
+0 0 101707
+S
+#101709
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101708
+D3
+~
+~
+0 0 101711
+S
+#101710
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101708
+D3
+~
+~
+0 0 101712
+S
+#101711
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101709
+D5
+~
+~
+0 0 101714
+S
+#101712
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101710
+D5
+~
+~
+0 0 101713
+S
+#101713
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101715
+D4
+~
+~
+0 0 101712
+S
+#101714
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101715
+D4
+~
+~
+0 0 101711
+S
+#101715
+#LIce#lwind #LMoun#ltains#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101714
+D2
+~
+~
+0 0 101713
+D3
+~
+~
+0 0 101716
+S
+#101716
+#LIce#lwind #LCav#les#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101715
+D3
+~
+~
+0 0 101717
+S
+#101717
+#LIce#lwind #LCav#les#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101719
+D1
+~
+~
+0 0 101716
+D2
+~
+~
+0 0 101718
+D5
+~
+~
+0 0 101720
+S
+#101718
+#LIce#lwind #LCav#les#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101717
+S
+#101719
+#LIce#lwind #LCav#les#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101717
+S
+#101720
+#LIce#lwind Lower #LCav#les#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101721
+D4
+~
+~
+0 0 101717
+S
+#101721
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101722
+D3
+~
+~
+0 0 101720
+S
+#101722
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101723
+D1
+~
+~
+0 0 101725
+D2
+~
+~
+0 0 101726
+D3
+~
+~
+0 0 101721
+S
+#101723
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101724
+D2
+~
+~
+0 0 101722
+S
+#101724
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101725
+D3
+~
+~
+0 0 101723
+S
+#101725
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101724
+D2
+~
+~
+0 0 101727
+D3
+~
+~
+0 0 101722
+S
+#101726
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101722
+D1
+~
+~
+0 0 101727
+S
+#101727
+#oPlai#rns of Pi#oant#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101725
+D1
+~
+~
+0 0 101728
+D3
+~
+~
+0 0 101726
+S
+#101728
+#oP#rath #oo#rf #oS#riringe#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101729
+D3
+~
+~
+0 0 101727
+S
+#101729
+#oP#rath #oo#rf #oS#riringe#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101730
+D3
+~
+~
+0 0 101728
+S
+#101730
+#oP#rath #oo#rf #oS#riringe#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101731
+D2
+~
+~
+0 0 101742
+D3
+~
+~
+0 0 101729
+S
+#101731
+#oP#rath #oo#rf #oS#riringe#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101732
+D2
+~
+~
+0 0 101730
+S
+#101732
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101735
+D1
+~
+~
+0 0 101733
+D2
+~
+~
+0 0 101731
+D3
+~
+~
+0 0 101734
+D4
+~
+~
+0 0 101736
+S
+#101733
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101732
+S
+#101734
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101732
+S
+#101735
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101732
+S
+#101736
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n #rS#ye#Rc#ro#yn#Rd#r F#yl#Ro#ro#yr#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101740
+D1
+~
+~
+0 0 101737
+D2
+~
+~
+0 0 101739
+D3
+~
+~
+0 0 101738
+D4
+~
+~
+0 0 101741
+D5
+~
+~
+0 0 101732
+S
+#101737
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n #rS#ye#Rc#ro#yn#Rd#r F#yl#Ro#ro#yr#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101736
+S
+#101738
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n #rS#ye#Rc#ro#yn#Rd#r F#yl#Ro#ro#yr#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101736
+S
+#101739
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n #rS#ye#Rc#ro#yn#Rd#r F#yl#Ro#ro#yr#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101736
+S
+#101740
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n #rS#ye#Rc#ro#yn#Rd#r F#yl#Ro#ro#yr#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101736
+S
+#101741
+#RS#rh#yr#Ri#rn#ye #Ro#rf#y C#Ru#rs#ye#Rc#ra#yf#Re#n #rT#yh#Ri#rr#yd#R F#rl#yo#Ro#rr#n~
+~
+0 1048646 0
+D5
+~
+~
+0 0 101736
+S
+#101742
+#RV#lalley of the Peace#Ri#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101730
+D2
+~
+~
+0 0 101743
+S
+#101743
+#RV#lalley of the Peace#Ri#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101742
+D1
+~
+~
+0 0 101745
+D2
+~
+~
+0 0 101746
+D3
+~
+~
+0 0 101744
+S
+#101744
+#RV#lalley of the Peace#Ri#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101743
+S
+#101745
+#RV#lalley of the Peace#Ri#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101743
+S
+#101746
+#RV#lalley of the Peace#Ri#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101743
+D4
+~
+~
+0 0 101747
+S
+#101747
+#0S#rt#0o#rn#0y #rM#0o#ru#0n#rt#0a#ri#0n#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101748
+D5
+~
+~
+0 0 101746
+S
+#101748
+#0S#rt#0o#rn#0y #rM#0o#ru#0n#rt#0a#ri#0n#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101747
+D4
+~
+~
+0 0 101749
+S
+#101749
+#0S#rt#0o#rn#0y #rM#0o#ru#0n#rt#0a#ri#0n#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101750
+D5
+~
+~
+0 0 101748
+S
+#101750
+#0S#rt#0o#rn#0y #rM#0o#ru#0n#rt#0a#ri#0n#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101749
+D3
+~
+~
+0 0 101751
+S
+#101751
+#oDirt Path#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101750
+D3
+~
+~
+0 0 101752
+S
+#101752
+#oDirt Path#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101753
+D1
+~
+~
+0 0 101751
+S
+#101753
+#oDirt Path#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101752
+D3
+~
+~
+0 0 101754
+S
+#101754
+#0Shindridge City#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101753
+D2
+~
+~
+0 0 101755
+S
+#101755
+#0Shindridge Poor District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101754
+D1
+~
+~
+0 0 101761
+D2
+~
+~
+0 0 101756
+D3
+~
+~
+0 0 101760
+S
+#101756
+#0Shindridge Poor Disctrict#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101755
+D1
+~
+~
+0 0 101762
+D2
+~
+~
+0 0 101757
+D3
+~
+~
+0 0 101759
+S
+#101757
+#0Shindridge Poor Disctrict#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101756
+D1
+~
+~
+0 0 101763
+D3
+~
+~
+0 0 101758
+D4
+~
+~
+0 0 101764
+S
+#101758
+#rS#ohindridge #rP#ooor #rH#oouse#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101757
+S
+#101759
+#rS#ohindridge #rP#ooor #rH#oouse#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101756
+S
+#101760
+#rS#ohindridge #rP#ooor #rH#oouse#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101755
+S
+#101761
+#rS#ohindridge #rP#ooor #rH#oouse#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101755
+S
+#101762
+#rS#ohindridge #rP#ooor #rH#oouse#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101756
+S
+#101763
+#rS#ohindridge #rP#ooor #rH#oouse#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101757
+S
+#101764
+#0Shindridge City#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101765
+D5
+~
+~
+0 0 101757
+S
+#101765
+#0Shindridge Royal District#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101764
+D3
+~
+~
+0 0 101766
+S
+#101766
+#0Shindridge Royal District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101777
+D1
+~
+~
+0 0 101765
+D2
+~
+~
+0 0 101778
+D3
+~
+~
+0 0 101767
+S
+#101767
+#0Shindridge Royal District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101776
+D1
+~
+~
+0 0 101766
+D2
+~
+~
+0 0 101779
+D3
+~
+~
+0 0 101769
+S
+#101768
+#0Shindridge Royal District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101774
+D1
+~
+~
+0 0 101769
+D2
+~
+~
+0 0 101781
+D3
+~
+~
+0 0 101770
+S
+#101769
+#0Shindridge Royal District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101775
+D1
+~
+~
+0 0 101767
+D2
+~
+~
+0 0 101780
+D3
+~
+~
+0 0 101768
+S
+#101770
+#0Shindridge Royal District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101773
+D1
+~
+~
+0 0 101768
+D2
+~
+~
+0 0 101782
+D3
+~
+~
+0 0 101771
+S
+#101771
+#0Shindridge Royal District#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101772
+D1
+~
+~
+0 0 101770
+D2
+~
+~
+0 0 101783
+D5
+~
+~
+3 0 101784
+S
+#101772
+#oShindridge Manor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101771
+S
+#101773
+#oShindridge Manor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101770
+S
+#101774
+#oShindridge Manor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101768
+S
+#101775
+#oShindridge Manor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101769
+S
+#101776
+#oShindridge Manor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101767
+S
+#101777
+#oShindridge Manor#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101766
+S
+#101778
+#oShindridge Manor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101766
+S
+#101779
+#oShindridge Manor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101767
+S
+#101780
+#oShindridge Manor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101769
+S
+#101781
+#oShindridge Manor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101768
+S
+#101782
+#oShindridge Manor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101770
+S
+#101783
+#oShindridge Manor#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101771
+S
+#101784
+#PS#phindridge #PS#pewer #PS#pystem#n~
+~
+0 0 0
+D4
+~
+~
+3 0 101771
+D5
+~
+~
+3 0 101785
+S
+#101785
+#PS#phindridge #PS#pewer #PS#pystem#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101786
+D4
+~
+~
+3 0 101784
+S
+#101786
+#PS#phindridge #PS#pewer #PS#pystem#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101785
+D2
+~
+~
+0 0 101787
+S
+#101787
+#PS#phindridge #PS#pewer #PS#pystem#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101786
+D2
+~
+~
+0 0 101788
+S
+#101788
+#PS#phindridge #PS#pewer #PS#pystem#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101787
+D4
+~
+~
+0 0 101789
+S
+#101789
+#PS#phindridge #PS#pewer #PS#pystem#n~
+~
+0 0 0
+D4
+~
+~
+3 0 101790
+D5
+~
+~
+0 0 101788
+S
+#101790
+#0S#rhindridge #0C#rastle #0S#rtorage #0R#room#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101791
+D5
+~
+~
+3 0 101789
+S
+#101791
+#0S#rhindridge #0C#rastle #0S#rtorage #0R#room#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101790
+D1
+~
+~
+3 0 101792
+S
+#101792
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101793
+D2
+~
+~
+0 0 101816
+D3
+~
+~
+3 0 101791
+S
+#101793
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101794
+D1
+~
+~
+0 0 101864
+D2
+~
+~
+0 0 101792
+D3
+~
+~
+0 0 101863
+S
+#101794
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101795
+D1
+~
+~
+0 0 101865
+D2
+~
+~
+0 0 101793
+D3
+~
+~
+0 0 101866
+S
+#101795
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101796
+D1
+~
+~
+0 0 101868
+D2
+~
+~
+0 0 101794
+D3
+~
+~
+0 0 101867
+S
+#101796
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101870
+D1
+~
+~
+0 0 101797
+D2
+~
+~
+0 0 101795
+D3
+~
+~
+0 0 101869
+S
+#101797
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101871
+D1
+~
+~
+0 0 101798
+D2
+~
+~
+0 0 101858
+D3
+~
+~
+0 0 101796
+S
+#101798
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101872
+D1
+~
+~
+0 0 101799
+D3
+~
+~
+0 0 101797
+S
+#101799
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101873
+D1
+~
+~
+0 0 101800
+D3
+~
+~
+0 0 101798
+S
+#101800
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101874
+D2
+~
+~
+0 0 101801
+D3
+~
+~
+0 0 101799
+S
+#101801
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101800
+D2
+~
+~
+0 0 101802
+S
+#101802
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101801
+D2
+~
+~
+0 0 101803
+S
+#101803
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101802
+D1
+~
+~
+0 0 101843
+D2
+~
+~
+0 0 101804
+S
+#101804
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101803
+D2
+~
+~
+0 0 101805
+S
+#101805
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101804
+D2
+~
+~
+0 0 101806
+D3
+~
+~
+0 0 101842
+S
+#101806
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101805
+D2
+~
+~
+0 0 101807
+D3
+~
+~
+0 0 101841
+S
+#101807
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101806
+D1
+~
+~
+0 0 101839
+D2
+~
+~
+0 0 101808
+D3
+~
+~
+0 0 101840
+S
+#101808
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101807
+D3
+~
+~
+0 0 101809
+S
+#101809
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101837
+D1
+~
+~
+0 0 101808
+D2
+~
+~
+0 0 101838
+D3
+~
+~
+0 0 101810
+S
+#101810
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101836
+D1
+~
+~
+0 0 101809
+D2
+~
+~
+0 0 101835
+D3
+~
+~
+0 0 101811
+S
+#101811
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall~
+~
+0 0 0
+D0
+~
+~
+0 0 101834
+D1
+~
+~
+0 0 101810
+D2
+~
+~
+0 0 101834
+D3
+~
+~
+0 0 101812
+S
+#101812
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101811
+D3
+~
+~
+0 0 101813
+S
+#101813
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+3 0 101824
+D1
+~
+~
+0 0 101812
+D2
+~
+~
+0 0 101817
+D3
+~
+~
+0 0 101814
+S
+#101814
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101816
+D1
+~
+~
+0 0 101813
+D3
+~
+~
+0 0 101815
+S
+#101815
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101814
+S
+#101816
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101792
+D2
+~
+~
+0 0 101814
+S
+#101817
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101813
+D2
+~
+~
+0 0 101818
+S
+#101818
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101817
+D2
+~
+~
+0 0 101819
+S
+#101819
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101818
+D3
+~
+~
+0 0 101820
+S
+#101820
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101822
+D1
+~
+~
+0 0 101819
+D2
+~
+~
+0 0 101823
+D3
+~
+~
+0 0 101821
+S
+#101821
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101820
+S
+#101822
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101820
+S
+#101823
+#GS#ghindridge #GC#gastle #GG#garden#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101820
+S
+#101824
+#yH#rall #yt#ro #yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101825
+D2
+~
+~
+3 0 101813
+S
+#101825
+#yH#rall #yt#ro #yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101826
+D2
+~
+~
+0 0 101824
+S
+#101826
+#yH#rall #yt#ro #yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101827
+D2
+~
+~
+0 0 101825
+S
+#101827
+#yH#rall #yt#ro #yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+3 0 101828
+D2
+~
+~
+0 0 101826
+S
+#101828
+#yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101829
+D2
+~
+~
+3 0 101827
+S
+#101829
+#yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101832
+D1
+~
+~
+0 0 101830
+D2
+~
+~
+0 0 101828
+D3
+~
+~
+0 0 101831
+S
+#101830
+#yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101829
+S
+#101831
+#yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101829
+S
+#101832
+#yS#rhin's #yC#rhambers#n~
+~
+0 0 0
+D0
+~
+~
+7 0 101833
+D2
+~
+~
+0 0 101829
+S
+#101833
+#yS#rhin's #yB#redroom#n~
+~
+0 0 0
+D2
+~
+~
+7 0 101832
+S
+#101834
+#0S#rhindridge #0C#rastle #0M#rain #0H#rall~
+~
+0 0 0
+D0
+~
+~
+0 0 101811
+D2
+~
+~
+0 0 101811
+S
+#101835
+#lS#Lhindridge #lB#Ledroom#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101810
+S
+#101836
+#lS#Lhindridge #lB#Ledroom#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101810
+S
+#101837
+#lS#Lhindridge #lB#Ledroom#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101809
+S
+#101838
+#lS#Lhindridge #lB#Ledroom#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101809
+S
+#101839
+#lS#Lhindridge #lS#Llave #lB#Ledroom#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101807
+S
+#101840
+#lS#Lhindridge #lS#Llave #lB#Ledroom#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101807
+S
+#101841
+#lS#Lhindridge #lS#Llave #lB#Ledroom#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101806
+S
+#101842
+#lS#Lhindridge #lS#Llave #lB#Ledroom#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101805
+S
+#101843
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101846
+D1
+~
+~
+0 0 101844
+D2
+~
+~
+0 0 101845
+D3
+~
+~
+0 0 101803
+S
+#101844
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101847
+D1
+~
+~
+0 0 101849
+D2
+~
+~
+0 0 101848
+D3
+~
+~
+0 0 101843
+S
+#101845
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101843
+S
+#101846
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101843
+S
+#101847
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101844
+S
+#101848
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101844
+S
+#101849
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101844
+D4
+~
+~
+0 0 101850
+S
+#101850
+#RS#rh#Ri#rn#Rd#rr#Ri#rd#Rg#re #RB#ra#Rt#rt#Rl#re #RH#ra#Rl#rl#Rs #rS#Rt#ro#Rr#ra#Rg#re #RR#ro#Ro#rm#n~
+~
+0 0 0
+D5
+~
+~
+0 0 101849
+S
+#101851
+Shindridge Prison Cells~
+~
+0 0 0
+D0
+~
+~
+0 0 101852
+D1
+~
+~
+0 0 101853
+D2
+~
+~
+0 0 101800
+S
+#101852
+Shindridge Prison Cells~
+~
+0 0 0
+D2
+~
+~
+0 0 101851
+D3
+~
+~
+0 0 101856
+S
+#101853
+Shindridge Prison Cells~
+~
+0 0 0
+D0
+~
+~
+0 0 101854
+D3
+~
+~
+0 0 101851
+S
+#101854
+Shindridge Prison Cells~
+~
+0 0 0
+D0
+~
+~
+7 0 101855
+D2
+~
+~
+0 0 101853
+S
+#101855
+Shindridge Prison Cells~
+~
+0 0 0
+D2
+~
+~
+7 0 101854
+S
+#101856
+Shindridge Prison Cells~
+~
+0 0 0
+D1
+~
+~
+0 0 101852
+D2
+~
+~
+7 0 101857
+S
+#101857
+Shindridge Prison Cells~
+~
+0 0 0
+D0
+~
+~
+7 0 101856
+S
+#101858
+Shindridge Pathway to the Shindridge Well~
+~
+0 0 0
+D0
+~
+~
+0 0 101797
+D2
+~
+~
+0 0 101859
+S
+#101859
+Shindridge Pathway to the Shindridge Well~
+~
+0 0 0
+D0
+~
+~
+0 0 101858
+D2
+~
+~
+0 0 101860
+S
+#101860
+Above Shindridge's Well~
+~
+0 0 0
+D0
+~
+~
+0 0 101859
+D5
+~
+~
+0 0 101861
+S
+#101861
+Deep In Shindridge's Well~
+~
+0 0 0
+D4
+~
+~
+0 0 101860
+D5
+~
+~
+0 0 101862
+S
+#101862
+Deep In Shindridge's Well~
+~
+0 0 0
+D4
+~
+~
+0 0 101861
+S
+#101863
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101793
+S
+#101864
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101793
+S
+#101865
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101794
+S
+#101866
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101794
+S
+#101867
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101795
+S
+#101868
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101795
+S
+#101869
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101796
+S
+#101870
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101796
+S
+#101871
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101797
+S
+#101872
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101798
+S
+#101873
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101799
+S
+#101874
+#RS#0hindridge #RC#0astle #RH#0olding #RC#0hambers#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101800
+S
+#101875
+#oB#yu#oil#yd#oing in Sq#yua#on#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101702
+S
+#101876
+#oB#yu#oil#yd#oing in Sq#yua#on#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101702
+S
+#101877
+#oS#yq#ouan Doc#yk#os#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101705
+D3
+~
+~
+0 0 101878
+S
+#101878
+#oS#yq#ouan Doc#yk#os#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101877
+D3
+~
+~
+3 0 101879
+S
+#101879
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+3 0 101878
+D3
+~
+~
+0 0 101880
+S
+#101880
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+0 0 101879
+D2
+~
+~
+0 0 101895
+D3
+~
+~
+0 0 101881
+S
+#101881
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+0 0 101880
+D3
+~
+~
+0 0 101882
+S
+#101882
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+0 0 101881
+D3
+~
+~
+0 0 101883
+S
+#101883
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+0 0 101882
+D3
+~
+~
+0 0 101884
+S
+#101884
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+0 0 101883
+D3
+~
+~
+0 0 101885
+S
+#101885
+#lThe #LIticilian #lOcean~
+~
+0 0 0
+D1
+~
+~
+0 0 101884
+D3
+~
+~
+3 0 101886
+S
+#101886
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101887
+D1
+~
+~
+3 0 101885
+D2
+~
+~
+0 0 101889
+S
+#101887
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101888
+D2
+~
+~
+0 0 101886
+D4
+~
+~
+0 0 101891
+S
+#101888
+#7S#yh#7i#yn#7g#yl#7e #yC#7h#yu#7r#yc#7h #yS#7t#yo#7r#ya#7g#ye #7R#yo#7o#ym#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101887
+S
+#101889
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101886
+D2
+~
+~
+0 0 101890
+S
+#101890
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101889
+D4
+~
+~
+0 0 101894
+S
+#101891
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101892
+D5
+~
+~
+0 0 101887
+S
+#101892
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101891
+D2
+~
+~
+0 0 101893
+S
+#101893
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101892
+D2
+~
+~
+0 0 101894
+S
+#101894
+#7S#yhi#7n#ygl#7e #yCh#7u#yrc#7h#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101893
+D5
+~
+~
+0 0 101890
+S
+#101895
+#lThe #LIticilian #lOcean#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101880
+D2
+~
+~
+0 0 101896
+S
+#101896
+#lThe #LIticilian #lOcean#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101895
+D2
+~
+~
+0 0 101897
+S
+#101897
+#lThe #LIticilian #lOcean#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101896
+D2
+~
+~
+0 0 101898
+S
+#101898
+#lThe #LIticilian #lIsland#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101897
+D2
+~
+~
+0 0 101899
+S
+#101899
+#lThe #LIticilian #lIsland#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101898
+S
+#0
+
+
+
+#SPECIALS
+M 101707 spec_cast_mage
+M 101708 spec_cast_undead
+M 101709 spec_breath_gas
+M 101710 spec_mayor
+M 101715 spec_breath_frost
+M 101722 spec_poison
+M 101723 spec_poison
+M 101880 spec_breath_frost
+M 101890 spec_poison
+S
+
+
+
+#RESETS
+M 0 101710 1 101700
+M 0 101705 8 101700
+M 0 101704 8 101700
+M 0 101716 10 101700
+M 0 101703 10 101700
+M 0 101702 10 101700
+M 0 101701 10 101700
+M 0 101700 10 101700
+M 0 101704 8 101701
+M 0 101703 10 101701
+M 0 101702 10 101701
+M 0 101701 10 101701
+M 0 101700 10 101701
+M 0 101704 8 101702
+M 0 101703 10 101702
+M 0 101702 10 101702
+M 0 101701 10 101702
+M 0 101700 10 101702
+M 0 101705 8 101703
+M 0 101704 8 101703
+M 0 101703 10 101703
+M 0 101702 10 101703
+M 0 101701 10 101703
+M 0 101700 10 101703
+M 0 101705 8 101704
+M 0 101704 8 101704
+M 0 101887 12 101704
+M 0 101886 12 101704
+M 0 101703 10 101704
+M 0 101702 10 101704
+M 0 101701 10 101704
+M 0 101700 10 101704
+M 0 101705 8 101705
+M 0 101886 12 101705
+M 0 101703 10 101705
+M 0 101702 10 101705
+M 0 101701 10 101705
+M 0 101700 10 101705
+M 0 101705 8 101706
+M 0 101704 8 101706
+M 0 101703 10 101706
+M 0 101702 10 101706
+M 0 101701 10 101706
+M 0 101700 10 101706
+M 0 101719 10 101707
+M 0 101716 10 101707
+M 0 101711 10 101707
+M 0 101719 10 101708
+M 0 101717 10 101708
+M 0 101716 10 101708
+M 0 101714 10 101708
+M 0 101713 10 101708
+M 0 101711 10 101708
+M 0 101717 10 101709
+M 0 101716 10 101709
+M 0 101715 10 101709
+M 0 101714 10 101709
+M 0 101713 10 101709
+M 0 101712 10 101709
+M 0 101719 10 101710
+M 0 101717 10 101710
+M 0 101716 10 101710
+M 0 101714 10 101710
+M 0 101713 10 101710
+M 0 101711 10 101710
+M 0 101717 10 101711
+M 0 101715 10 101711
+M 0 101714 10 101711
+M 0 101713 10 101711
+M 0 101712 10 101711
+M 0 101712 10 101711
+M 0 101719 10 101712
+M 0 101718 10 101712
+M 0 101716 10 101712
+M 0 101714 10 101712
+M 0 101713 10 101712
+M 0 101711 10 101712
+M 0 101719 10 101713
+M 0 101718 10 101713
+M 0 101716 10 101713
+M 0 101713 10 101713
+M 0 101711 10 101713
+M 0 101719 10 101714
+M 0 101717 10 101714
+M 0 101715 10 101714
+M 0 101714 10 101714
+M 0 101713 10 101714
+M 0 101712 10 101714
+M 0 101719 10 101715
+M 0 101718 10 101715
+M 0 101717 10 101715
+M 0 101716 10 101715
+M 0 101715 10 101715
+M 0 101714 10 101715
+M 0 101713 10 101715
+M 0 101711 10 101715
+M 0 101719 10 101716
+M 0 101718 10 101716
+M 0 101717 10 101716
+M 0 101715 10 101716
+M 0 101714 10 101716
+M 0 101711 10 101716
+M 0 101718 10 101717
+M 0 101717 10 101717
+M 0 101715 10 101717
+M 0 101714 10 101717
+M 0 101714 10 101717
+M 0 101712 10 101717
+M 0 101711 10 101717
+M 0 101718 10 101718
+M 0 101715 10 101718
+M 0 101714 10 101718
+M 0 101712 10 101718
+M 0 101718 10 101719
+M 0 101717 10 101719
+M 0 101715 10 101719
+M 0 101714 10 101719
+M 0 101712 10 101719
+M 0 101719 10 101720
+M 0 101719 10 101720
+M 0 101718 10 101720
+M 0 101715 10 101720
+M 0 101715 10 101720
+M 0 101712 10 101720
+M 0 101712 10 101720
+M 0 101723 15 101722
+M 0 101723 15 101722
+M 0 101722 15 101722
+M 0 101722 15 101722
+M 0 101721 15 101722
+M 0 101721 15 101722
+M 0 101721 15 101722
+M 0 101721 15 101722
+M 0 101720 15 101722
+M 0 101721 15 101723
+M 0 101721 15 101723
+M 0 101720 15 101724
+M 0 101723 15 101725
+M 0 101723 15 101725
+M 0 101720 15 101725
+M 0 101720 15 101725
+M 0 101722 15 101726
+M 0 101722 15 101726
+M 0 101723 15 101727
+M 0 101722 15 101727
+M 0 101722 15 101727
+M 0 101720 15 101727
+M 0 101720 15 101727
+M 0 101723 15 101728
+M 0 101722 15 101728
+M 0 101722 15 101728
+M 0 101721 15 101728
+M 0 101721 15 101728
+M 0 101723 15 101729
+M 0 101722 15 101729
+M 0 101721 15 101729
+M 0 101721 15 101729
+M 0 101723 15 101730
+M 0 101723 15 101730
+M 0 101720 15 101730
+M 0 101720 15 101730
+M 0 101723 15 101731
+M 0 101708 8 101875
+M 0 101708 8 101875
+M 0 101705 8 101875
+M 0 101703 10 101875
+M 0 101702 10 101875
+M 0 101701 10 101875
+M 0 101700 10 101875
+M 0 101708 8 101876
+M 0 101708 8 101876
+M 0 101705 8 101876
+M 0 101703 10 101876
+M 0 101702 10 101876
+M 0 101701 10 101876
+M 0 101700 10 101876
+M 0 101704 8 101877
+M 0 101886 12 101877
+M 0 101881 12 101877
+M 0 101703 10 101877
+M 0 101702 10 101877
+M 0 101701 10 101877
+M 0 101700 10 101877
+M 0 101704 8 101878
+M 0 101886 12 101878
+M 0 101881 12 101878
+M 0 101703 10 101878
+M 0 101702 10 101878
+M 0 101701 10 101878
+M 0 101700 10 101878
+M 0 101888 12 101879
+M 0 101887 12 101879
+M 0 101886 12 101879
+M 0 101884 12 101879
+M 0 101883 12 101879
+M 0 101882 12 101879
+M 0 101881 12 101879
+M 0 101880 12 101879
+M 0 101879 12 101879
+M 0 101889 12 101880
+M 0 101888 12 101880
+M 0 101885 12 101880
+M 0 101885 12 101880
+M 0 101884 12 101880
+M 0 101883 12 101880
+M 0 101882 12 101880
+M 0 101881 12 101880
+M 0 101880 12 101880
+M 0 101879 12 101880
+M 0 101889 12 101881
+M 0 101888 12 101881
+M 0 101885 12 101881
+M 0 101883 12 101881
+M 0 101882 12 101881
+M 0 101881 12 101881
+M 0 101880 12 101881
+M 0 101879 12 101881
+M 0 101889 12 101882
+M 0 101888 12 101882
+M 0 101887 12 101882
+M 0 101884 12 101882
+M 0 101883 12 101882
+M 0 101882 12 101882
+M 0 101881 12 101882
+M 0 101880 12 101882
+M 0 101879 12 101882
+M 0 101889 12 101883
+M 0 101888 12 101883
+M 0 101887 12 101883
+M 0 101885 12 101883
+M 0 101884 12 101883
+M 0 101883 12 101883
+M 0 101882 12 101883
+M 0 101881 12 101883
+M 0 101880 12 101883
+M 0 101879 12 101883
+M 0 101888 12 101884
+M 0 101887 12 101884
+M 0 101885 12 101884
+M 0 101884 12 101884
+M 0 101883 12 101884
+M 0 101882 12 101884
+M 0 101881 12 101884
+M 0 101880 12 101884
+M 0 101879 12 101884
+M 0 101888 12 101885
+M 0 101887 12 101885
+M 0 101885 12 101885
+M 0 101883 12 101885
+M 0 101882 12 101885
+M 0 101881 12 101885
+M 0 101880 12 101885
+M 0 101879 12 101885
+M 0 101896 5 101886
+M 0 101895 5 101886
+M 0 101894 5 101886
+M 0 101893 12 101886
+M 0 101892 12 101886
+M 0 101891 12 101886
+M 0 101890 12 101886
+M 0 101896 5 101887
+M 0 101894 5 101887
+M 0 101893 12 101887
+M 0 101892 12 101887
+M 0 101891 12 101887
+M 0 101890 12 101887
+M 0 101893 12 101888
+M 0 101892 12 101888
+M 0 101891 12 101888
+M 0 101890 12 101888
+M 0 101897 5 101889
+M 0 101895 5 101889
+M 0 101894 5 101889
+M 0 101893 12 101889
+M 0 101892 12 101889
+M 0 101891 12 101889
+M 0 101890 12 101889
+M 0 101897 5 101890
+M 0 101897 5 101890
+M 0 101895 5 101890
+M 0 101893 12 101890
+M 0 101892 12 101890
+M 0 101891 12 101890
+M 0 101890 12 101890
+M 0 101896 5 101891
+M 0 101894 5 101891
+M 0 101893 12 101891
+M 0 101892 12 101891
+M 0 101891 12 101891
+M 0 101890 12 101891
+M 0 101896 5 101892
+M 0 101894 5 101892
+M 0 101893 12 101892
+M 0 101892 12 101892
+M 0 101891 12 101892
+M 0 101890 12 101892
+M 0 101897 5 101893
+M 0 101895 5 101893
+M 0 101893 12 101893
+M 0 101892 12 101893
+M 0 101891 12 101893
+M 0 101890 12 101893
+M 0 101897 5 101894
+M 0 101895 5 101894
+M 0 101893 12 101894
+M 0 101892 12 101894
+M 0 101891 12 101894
+M 0 101890 12 101894
+M 0 101889 12 101895
+M 0 101888 12 101895
+M 0 101886 12 101895
+M 0 101885 12 101895
+M 0 101884 12 101895
+M 0 101883 12 101895
+M 0 101882 12 101895
+M 0 101880 12 101895
+M 0 101879 12 101895
+M 0 101889 12 101896
+M 0 101889 12 101896
+M 0 101888 12 101896
+M 0 101885 12 101896
+M 0 101884 12 101896
+M 0 101883 12 101896
+M 0 101882 12 101896
+M 0 101880 12 101896
+M 0 101879 12 101896
+M 0 101889 12 101897
+M 0 101886 12 101897
+M 0 101886 12 101897
+M 0 101885 12 101897
+M 0 101884 12 101897
+M 0 101883 12 101897
+M 0 101882 12 101897
+M 0 101880 12 101897
+M 0 101879 12 101897
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

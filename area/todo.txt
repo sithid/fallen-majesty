@@ -1,0 +1,11 @@
+1058682897 Sun Jul 20 01:34:57 2003~ snard~  ~ custom decap/tie messages that show on update channel, that are purchaseable after a certain legend status~
+1058690649 Sun Jul 20 03:44:09 2003~ snard~  ~ questmaster mob that will set a bit on a player, with a timer, and the player has a certain amount of time to kill a specific mob, which would be flagged with medit/mset.  The player would have to pay for the service in qp or gold, and would recieve a bounty of QP from the questmaster upon completion.  Could make all these mobs also by default make the room private to anybody who is not the questor, so that nobody may help one achieve qp this way.  Would allow for nice prizes~
+1058692173 Sun Jul 20 04:09:33 2003~ snard~  ~ addition to questmaster item:  can have the questmaster load a mob and trans the player to a battle arena, with a mob that for a price in coins will heal some of your wounds.  The quest-mob you are to victimize would be created with stats according to the amount of coins you bid against the questmaster.~
+1058822440 Mon Jul 21 16:20:40 2003~ Keale~  ~ make policy accept cap sensitive like pwds~
+1058829801 Mon Jul 21 18:23:21 2003~ Keale~  ~ Make all creatings of equipment be checked by max_carry.  its silly to have 7000/100 items cuz you can make infinite pills~
+1058832765 Mon Jul 21 19:12:45 2003~ None~  ~ make it so pills/scrolls/wands/staves can load be oset and loaded with spells~
+1058833384 Mon Jul 21 19:23:04 2003~ Keale~  ~ addict flag, for the non-imm who has been online the most.  They would get an exp bonus~
+1059523399 Tue Jul 29 19:03:19 2003~ Snard~  ~ replace (AGAIN) alloc_mem and alloc_perm with macro calls, remove recycling of memory, etc~
+1062386079 Sun Aug 31 22:14:39 2003~ huw~  ~ add stuff to the TODO_CLANS file in dystopia/src~
+1065405267 Sun Oct  5 20:54:27 2003~ None~  ~ fix anti-multiplaying code, it crashes when two people from same ip log in~
+-1

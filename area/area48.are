@@ -1,0 +1,86 @@
+#AREADATA
+Name        The Beach~
+Builders    Charysse~
+VNUMs       99400 99499
+Security    1
+Recall      41001
+Age         15
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#99400
+A Rocky Path~
+~
+0 0 0
+D1
+~
+~
+0 0 99401
+S
+#99401
+A Rocky Path~
+~
+0 0 0
+D1
+~
+~
+0 0 99402
+D3
+~
+~
+0 0 99400
+S
+#99402
+A Sandy Path~
+~
+0 0 0
+D1
+~
+~
+0 0 99403
+D3
+~
+~
+0 0 99401
+S
+#99403
+Heading onto the Beach~
+~
+0 0 0
+D3
+~
+~
+0 0 99402
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

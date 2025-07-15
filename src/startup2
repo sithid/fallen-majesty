@@ -1,0 +1,49 @@
+#! /bin/csh -f
+# Written by Furey.
+# With additions from Tony.
+
+# Set the port number.
+set port = 9010
+if ( "$1" != "" ) set port="$1"
+
+# Change to area directory.
+# autokill 60 >> ../area/autokill.txt &
+cd ../area
+
+# Set limits.
+#nohup
+nice
+#limit stack 1024k
+limit coredumpsize 8128k
+limit filesize 16256k
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+   set index = 1000
+   set coreindex = 999
+    while ( 1 )
+        set logfile = ../log/testport/$index.test
+	set corefile = ../log/testport/$coreindex.core
+        if ( ! -e $logfile ) break
+        @ index++
+        @ coreindex++
+    end
+
+    # Run merc.
+#    cd ../src
+#    cp dystopia ../area    
+
+
+    cd ../area
+  gdb -batch ../src/dystopia ./core >&! $corefile
+  ../src/dystopia $port >&! $logfile
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+    sleep 15
+end

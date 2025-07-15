@@ -1,0 +1,15 @@
+#SYSTEM
+MudName        FallenMajesty~
+Highplayers    0
+Highplayertime never~
+Saveflags      6396
+Savefreq       7
+MaxTotExp      100000000000
+Expmod	     975823
+Qpmod	     -1
+FreeForAll     -1
+CurrChange     1166205169
+MaxItem        100
+End
+
+#END

@@ -1,0 +1,472 @@
+#AREADATA
+Name        Crimson~
+Builders    Huw~
+VNUMs       50700 50799
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#50700
+Crimson Scout~
+#Pa Cr#pims#Pon S#pcou#Pt#n~
+#PA #pC#Pr#pi#Pm#ps#Po#pn #PS#pc#Po#pu#Pt #pi#Ps #pl#Po#po#Pk#pi#Pn#pg #Pf#po#Pr #py#Po#pu.#n
+~
+~
+11
+170 -900 S
+1992 0 0 -20d20+3 0d0+0
+0 0
+0 0 0
+#50701
+Crimson Knight~
+#Pa #pCr#Pim#pso#Pn K#pni#Pgh#pt#n~
+#PA #pCr#Pim#pso#Pn K#pni#Pgh#pt charges at you.#n
+~
+~
+11
+4266 -1000 S
+2969 0 0 -20d20+3 0d0+0
+0 0
+0 0 0
+#50702
+Crimson Mist~
+#PSome #pCrimson #PMist#n~
+#PA #pLarge #PMist #pfloats #Phere #pstrangling #Pyour #pthroat.#n
+~
+~
+11
+536883208 0 S
+2317 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50703
+Crimson Floater Eye~
+#pA C#Pri#pms#Pon #pFl#Poa#pte#Pr#n~
+#pAn e#Py#pe is f#Ploatin#pg h#Per#pe.#n
+~
+~
+11
+12424 -1200 S
+2449 0 0 -20d20+3 0d0+0
+0 0
+0 0 0
+#50704
+Crimson Imp~
+#Pa Crimson Imp#n~
+#Pa Crimson Imp throws things at you.#n
+~
+~
+11
+12712 -1000 S
+3023 0 0 -20d20+3 0d0+0
+0 0
+0 0 1
+#50705
+Crimson Wasp~
+#PA #pC#Pri#pms#Po#pn #PWa#psp#n~
+#PA #pCrimson #PWasp #pstings #Pyou.#n
+~
+~
+11
+545264264 -700 S
+746 0 0 -20d0+3 0d0+0
+0 0
+0 0 0
+#50706
+Alaric~
+#pAlaric the champion of Crimson#n~
+#pAlaric the champion of Crimson.#n
+~
+~
+1
+8 0 S
+99999943 0 0 3d3+3 0d0+0
+0 0
+0 0 1
+#50719
+Crimson Final~
+#PCr#pim#Pso#pn F#Pin#pal#n~
+#PA #pcr#Pim#pso#Pn d#poo#Pm #pis h#Per#pe i#Pn YO#pUR #Pwa#py.#n
+~
+~
+11
+8360 0 S
+15008 0 0 75d20+3 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#50700
+sign warning danger~
+#7A sign is here #RWARNING#7 you this area is '#RNO RECALL#7'#n~
+#7A sign is here #RWARNING#7 you this area is '#RNO RECALL#7'#n~
+~
+58 0 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#50719
+Ring Absorption~
+ring of Absorption~
+The ring of Absorption lies here.~
+~
+9 0 3
+0 0 0 0
+0 0 0
+A
+12 -500
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#50700
+#PC#pr#Pi#pm#Ps#po#Pn#n~
+#PTh#pe r#Poo#pm i#Ps f#pil#Ple#pd w#Pit#ph #Pgl#pow#Pin#pg g#Pas#pes#P.#n
+ 
+~
+0 16384 0
+D0
+~
+~
+0 0 50701
+S
+#50701
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D1
+~
+~
+0 0 50702
+D2
+~
+~
+0 0 50700
+D3
+~
+~
+0 0 50703
+S
+#50702
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D3
+~
+~
+0 0 50701
+D5
+~
+~
+0 0 50704
+S
+#50703
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D1
+~
+~
+0 0 50701
+D4
+~
+~
+0 0 50707
+S
+#50704
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D3
+~
+~
+0 0 50705
+D4
+~
+~
+0 0 50702
+S
+#50705
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D0
+~
+~
+0 0 50706
+D1
+~
+~
+0 0 50704
+S
+#50706
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D2
+~
+~
+0 0 50705
+D4
+~
+~
+0 0 50711
+S
+#50707
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D2
+~
+~
+0 0 50708
+D5
+~
+~
+0 0 50703
+S
+#50708
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D0
+~
+~
+0 0 50707
+D1
+~
+~
+0 0 50709
+S
+#50709
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D0
+~
+~
+0 0 50710
+D3
+~
+~
+0 0 50708
+S
+#50710
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D0
+~
+~
+0 0 50712
+D2
+~
+~
+0 0 50709
+D5
+~
+~
+0 0 50711
+S
+#50711
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D4
+~
+~
+0 0 50710
+D5
+~
+~
+0 0 50706
+S
+#50712
+#PCr#pim#Pso#pn#n~
+~
+0 24576 0
+D2
+~
+~
+0 0 50710
+D4
+~
+~
+0 0 50713
+S
+#50713
+#PCr#pim#Pso#pn T#Pow#per#n~
+~
+0 24576 0
+D4
+~
+~
+0 0 50714
+D5
+~
+~
+0 0 50712
+S
+#50714
+#PCr#pim#Pso#pn T#Pow#per#n~
+~
+0 24576 0
+D2
+~
+~
+0 0 50715
+D5
+~
+~
+0 0 50713
+S
+#50715
+#PCrimson Dungeon#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50714
+D1
+~
+~
+0 0 50716
+D2
+~
+~
+0 0 50718
+S
+#50716
+#PCrimson Dungeon#n~
+~
+0 24576 0
+D2
+~
+~
+0 0 50717
+D3
+~
+~
+0 0 50715
+S
+#50717
+#PCrimson Dungeon#n~
+~
+0 24576 0
+D0
+~
+~
+0 0 50716
+D3
+~
+~
+0 0 50718
+S
+#50718
+#PCrimson Dungeon#n~
+~
+0 24576 0
+D0
+~
+~
+0 0 50715
+D1
+~
+~
+0 0 50717
+D4
+~
+~
+0 0 50719
+S
+#50719
+FREE~
+~
+0 1065090 0
+D5
+~
+~
+0 0 50718
+S
+#0
+
+
+
+#SPECIALS
+M 50719 spec_rand_heals
+S
+
+
+
+#RESETS
+O 0 50700 0 50700
+M 0 50700 5 50702
+M 0 50700 5 50702
+M 0 50700 5 50703
+M 0 50700 5 50703
+M 0 50701 5 50704
+M 0 50701 5 50704
+M 0 50701 5 50705
+M 0 50701 5 50705
+M 0 50702 5 50706
+M 0 50701 5 50706
+M 0 50703 6 50707
+M 0 50703 6 50707
+M 0 50703 6 50708
+M 0 50703 6 50708
+M 0 50703 6 50709
+M 0 50703 6 50709
+M 0 50702 5 50710
+M 0 50702 5 50710
+M 0 50702 5 50711
+M 0 50702 5 50711
+M 0 50705 6 50712
+M 0 50705 6 50712
+M 0 50705 6 50713
+M 0 50705 6 50713
+M 0 50705 6 50714
+M 0 50705 6 50714
+M 0 50704 10 50715
+M 0 50704 10 50715
+M 0 50704 10 50716
+M 0 50704 10 50716
+M 0 50704 10 50717
+M 0 50704 10 50717
+M 0 50704 10 50718
+M 0 50704 10 50718
+M 0 50719 1 50719
+E 0 50719 0 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

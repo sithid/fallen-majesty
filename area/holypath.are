@@ -1,0 +1,1469 @@
+#AREADATA
+Name        The Holy Path~
+Builders    Mobius~
+VNUMs       420000 420100
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#420000
+golden buddha~
+#yA Golden Buddha#n~
+#yA Golden Buddha#n sits here lining either side of the #yGolden Hallway#n.
+~
+~
+9
+8232 1000 S
+2935 0 0 15d20+3 0d0+0
+0 0
+0 0 0
+#420001
+jade buddha~
+#gA #GJ#ga#Gd#ge #GBuddha#n~
+#gA #GJ#ga#Gd#ge #GBuddha#n sits here guarding the #GG#gr#Ge#ge#Gn #gH#Gallway#n.
+~
+~
+9
+8360 0 S
+4997 0 0 20d20+3 0d0+0
+0 0
+0 0 0
+#420003
+guardian angel~
+#7A #nG#7u#na#7r#nd#7i#na#7n #7Angel#n~
+#7A #nG#7u#na#7r#nd#7i#na#7n #7Angel#n defends the #nC#0h#na#0i#nn of #7Heaven#n.
+~
+~
+11
+8232 1000 S
+6994 0 0 25d20+3 0d0+0
+0 0
+0 0 0
+#420004
+portal guardian~
+#nThe #nG#0u#na#0r#nd#0i#na#0n of the #0Portal#n~
+#nThe #nG#0u#na#0r#nd#0i#na#0n of the #0Portal#n awaits your tresspass.
+~
+~
+11
+8232 0 S
+13508 0 0 40d20+3 0d0+0
+0 0
+0 0 0
+#420005
+guardian pit~
+#0The #7G#nu#7a#nr#7d#ni#7a#nn#n #0of the #rP#Ri#rt#n~
+#0The #7G#nu#7a#nr#7d#ni#7a#nn#n #0of the #rP#Ri#rt#n #0guards the bounty of his hoard.#n
+~
+~
+11
+12657212 -1000 S
+15052 0 0 50d20+0 0d0+0
+0 0
+0 0 1
+#420006
+Warder Pit~
+#7W#na#7r#nd#7e#nr #0of the #rP#Ri#rt#n~
+#0A #7W#na#7r#nd#7e#nr #0of the #rP#Ri#rt #0guards the #rP#Ri#rt #0of #rS#0ac#Rrif#0ic#Re#n
+~
+~
+25
+0 -1000 S
+10021 0 0 0d0+3 0d0+0
+0 0
+0 0 1
+#420007
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+28 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#420000
+light guardian lantern~
+#0T#nh#0e #7L#ya#7n#yt#7e#yr#7n#n of The G#0u#na#0r#nd#0i#na#0n#n~
+#0T#nh#0e #7L#ya#7n#yt#7e#yr#7n#n of The G#0u#na#0r#nd#0i#na#0n#n pulses with energy~
+~
+1 0 1
+0 0 0 0
+0 0 0
+A
+18 300
+A
+19 300
+A
+17 -500
+A
+13 1000
+A
+12 1000
+A
+14 1000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420001
+test shield~
+test Shield~
+Test Shield~
+~
+9 0 513
+0 0 0 32
+0 0 0
+A
+12 1000
+A
+17 -100
+A
+19 50
+A
+18 50
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420002
+kindred spirit jewel~
+#RKin#rdr#Red #0Sp#8ir#0it #RJe#rw#Rel#n~
+#RKin#rdr#Red #0Sp#8ir#0it #RJe#rw#Rel#n pulses here with power.#n~
+~
+8 0 16385
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420003
+Hammer Souls~
+#7The #RH#0a#7mm#0e#Rr #7o#0f #7Souls#n~
+#7The #RH#0a#7mm#0e#Rr #7o#0f #7Souls#n~
+~
+5 0 8193
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420004
+helm guardian~
+#0The #RB#rl#RA#rz#RI#rn#RG #0Helm of the #7G#nu#7a#nr#7d#ni#7a#nn#n~
+#0The #RB#rl#RA#rz#RI#rn#RG #0Helm of the #7G#nu#7a#nr#7d#ni#7a#nn#n lies here, writhing with anger.~
+~
+9 0 17
+0 0 0 31
+0 0 0
+A
+23 -100
+A
+22 -100
+A
+21 -100
+A
+24 -100
+A
+17 -200
+A
+19 200
+A
+18 200
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420005
+pit sacrifice~
+#0The #rP#Ri#rt #0of #rS#0ac#Rrif#0ic#re#n~
+#0The #rP#Ri#rt #0of #rS#0ac#Rrif#0ic#re#n~
+~
+15 0 0
+10000 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420006
+mark tattoo pit~
+#0The #rMark#0 of the #7G#nu#7a#nr#7d#ni#7a#nn #0of the #rP#Ri#rt#n~
+#0The #rMark#0 of the #7G#nu#7a#nr#7d#ni#7a#nn #0of the #rP#Ri#rt#0 lies here, pulsing with energy.#n~
+~
+9 0 -393215
+0 0 0 31
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420007
+temporary tattoo damcap power mark~
+#0The #CMark #0of #CPower#n~
+#0The #CMark #0of #CPower#n lies here, calling for you!~
+~
+9 0 131073
+0 0 0 33
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420008
+mark dragon tattoo~
+#0The #RMark#0 of the #RD#0ragon#n~
+#0The #RMark #0of the #RD#0ragon#n wants its master, RIGHT NOW!~
+~
+9 0 131073
+0 0 0 34
+0 0 0
+A
+13 10000
+A
+12 10000
+A
+14 10000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420009
+mark golden dragon tattoo~
+#0The #yMark#0 of the #yGolden #yD#or#ya#og#yo#yn#n~
+#0A drawing of a HUGE #yGolden #yD#or#ya#og#yo#yn#0 pulsing with energy.#n~
+~
+9 0 131073
+0 0 0 35
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#420010
+tattoo black rose~
+#0A b#7l#8a#7c#0k rose encased in #ci#8c#Ce c#7rys#Cta#8l#cs#n~
+#0A b#7l#8a#7c#0k rose encased in #ci#8c#Ce c#7rys#Cta#8l#cs #0wraps around its owners ankle.#n~
+~
+9 0 131073
+0 0 0 22
+0 0 0
+A
+19 30000
+A
+18 30000
+A
+17 -30000
+A
+14 30000
+A
+12 30000
+A
+13 30000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#420000
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073282 0
+D0
+~
+~
+0 0 420001
+D1
+~
+~
+0 0 420045
+D3
+~
+~
+0 0 420044
+S
+#420001
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420002
+D1
+~
+~
+0 0 420046
+D2
+~
+~
+0 0 420000
+D3
+~
+~
+0 0 420047
+S
+#420002
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420003
+D1
+~
+~
+0 0 420048
+D2
+~
+~
+0 0 420001
+D3
+~
+~
+0 0 420049
+S
+#420003
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420004
+D1
+~
+~
+0 0 420051
+D2
+~
+~
+0 0 420002
+D3
+~
+~
+0 0 420050
+S
+#420004
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420005
+D1
+~
+~
+0 0 420053
+D2
+~
+~
+0 0 420003
+D3
+~
+~
+0 0 420052
+S
+#420005
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420006
+D1
+~
+~
+0 0 420055
+D2
+~
+~
+0 0 420004
+D3
+~
+~
+0 0 420054
+S
+#420006
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420007
+D1
+~
+~
+0 0 420057
+D2
+~
+~
+0 0 420005
+D3
+~
+~
+0 0 420056
+S
+#420007
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420008
+D1
+~
+~
+0 0 420059
+D2
+~
+~
+0 0 420006
+D3
+~
+~
+0 0 420058
+S
+#420008
+#0[#yThe Golden Hallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420009
+D1
+~
+~
+0 0 420061
+D2
+~
+~
+0 0 420007
+D3
+~
+~
+0 0 420060
+S
+#420009
+#0[#yYou can now recall#0]#n~
+~
+0 1064962 0
+D1
+~
+~
+0 0 420010
+D2
+~
+~
+0 0 420008
+S
+#420010
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420062
+D1
+~
+~
+0 0 420011
+D2
+~
+~
+0 0 420063
+D3
+~
+~
+0 0 420009
+S
+#420011
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420064
+D1
+~
+~
+0 0 420012
+D2
+~
+~
+0 0 420065
+D3
+~
+~
+0 0 420010
+S
+#420012
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420066
+D1
+~
+~
+0 0 420013
+D2
+~
+~
+0 0 420067
+D3
+~
+~
+0 0 420011
+S
+#420013
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420068
+D1
+~
+~
+0 0 420014
+D2
+~
+~
+0 0 420069
+D3
+~
+~
+0 0 420012
+S
+#420014
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420070
+D1
+~
+~
+0 0 420015
+D2
+~
+~
+0 0 420071
+D3
+~
+~
+0 0 420013
+S
+#420015
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420072
+D1
+~
+~
+0 0 420016
+D2
+~
+~
+0 0 420073
+D3
+~
+~
+0 0 420014
+S
+#420016
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420074
+D1
+~
+~
+0 0 420017
+D2
+~
+~
+0 0 420075
+D3
+~
+~
+0 0 420015
+S
+#420017
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420076
+D1
+~
+~
+0 0 420018
+D2
+~
+~
+0 0 420077
+D3
+~
+~
+0 0 420016
+S
+#420018
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 1073154 0
+D0
+~
+~
+0 0 420078
+D1
+~
+~
+0 0 420019
+D2
+~
+~
+0 0 420079
+D3
+~
+~
+0 0 420017
+S
+#420019
+#gThe end of the #gG#Gr#ge#Ge#gn #GHallway#n~
+~
+0 1073154 0
+D3
+~
+~
+0 0 420018
+D4
+~
+angel~
+0 0 420020
+S
+#420020
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420021
+D5
+~
+~
+0 0 420019
+S
+#420021
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420022
+D5
+~
+~
+0 0 420020
+S
+#420022
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420023
+D5
+~
+~
+0 0 420021
+S
+#420023
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420024
+D5
+~
+~
+0 0 420022
+S
+#420024
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420025
+D5
+~
+~
+0 0 420023
+S
+#420025
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420026
+D5
+~
+~
+0 0 420024
+S
+#420026
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420027
+D5
+~
+~
+0 0 420025
+S
+#420027
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420028
+D5
+~
+~
+0 0 420026
+S
+#420028
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420029
+D5
+~
+~
+0 0 420027
+S
+#420029
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420030
+D5
+~
+~
+0 0 420028
+S
+#420030
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056768 0
+D4
+~
+~
+0 0 420031
+D5
+~
+~
+0 0 420029
+S
+#420031
+#0The #nC#0h#na#0i#nn of #7Heaven#n~
+~
+0 1056896 0
+D0
+~
+~
+524288 0 420032
+D5
+~
+~
+0 0 420030
+S
+#420032
+#n[#0The Portal#n]~
+~
+0 1056896 0
+D0
+~
+~
+524288 0 420033
+S
+#420033
+#n[#0The End of the Portal#n]~
+~
+0 1065090 0
+D2
+~
+~
+524288 0 420032
+S
+#420034
+#0The #0U#nn#7ho#nl#0y #0Pit#n~
+~
+0 4219052 0
+S
+#420035
+#0Path to Sacrifice#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420038
+D1
+~
+~
+0 0 420036
+D2
+~
+~
+0 0 420039
+D3
+~
+~
+0 0 420037
+D5
+~
+~
+0 0 420034
+S
+#420036
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420042
+D2
+~
+~
+0 0 420040
+D3
+~
+~
+0 0 420035
+S
+#420037
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420043
+D1
+~
+~
+0 0 420035
+D2
+~
+~
+0 0 420041
+S
+#420038
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420042
+D2
+~
+~
+0 0 420035
+D3
+~
+~
+0 0 420043
+S
+#420039
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420035
+D1
+~
+~
+0 0 420040
+D3
+~
+~
+0 0 420041
+S
+#420040
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420036
+D3
+~
+~
+0 0 420039
+S
+#420041
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420037
+D1
+~
+~
+0 0 420039
+S
+#420042
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420036
+D3
+~
+~
+0 0 420038
+S
+#420043
+#0The #7Pl#na#7ne #0of Sacrifice#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420038
+D2
+~
+~
+0 0 420037
+S
+#420044
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D1
+~
+~
+0 0 420000
+S
+#420045
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D3
+~
+~
+0 0 420000
+S
+#420046
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D3
+~
+~
+0 0 420001
+S
+#420047
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D1
+~
+~
+0 0 420001
+S
+#420048
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D3
+~
+~
+0 0 420002
+S
+#420049
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D1
+~
+~
+0 0 420002
+S
+#420050
+#0[#yThe Golden Hallway#0]#n~
+~
+0 4 0
+D1
+~
+~
+0 0 420003
+S
+#420051
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D3
+~
+~
+0 0 420003
+S
+#420052
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420004
+S
+#420053
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D3
+~
+~
+0 0 420004
+S
+#420054
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420005
+S
+#420055
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D3
+~
+~
+0 0 420005
+S
+#420056
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420006
+S
+#420057
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D3
+~
+~
+0 0 420006
+S
+#420058
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420007
+S
+#420059
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D3
+~
+~
+0 0 420007
+S
+#420060
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D1
+~
+~
+0 0 420008
+S
+#420061
+#0[#yThe Golden Hallway#0]#n~
+~
+0 0 0
+D3
+~
+~
+0 0 420008
+S
+#420062
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420010
+S
+#420063
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420010
+S
+#420064
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420011
+S
+#420065
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420011
+S
+#420066
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420012
+S
+#420067
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420012
+S
+#420068
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420013
+S
+#420069
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420013
+S
+#420070
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420014
+S
+#420071
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420014
+S
+#420072
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420015
+S
+#420073
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420015
+S
+#420074
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420016
+S
+#420075
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420016
+S
+#420076
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420017
+S
+#420077
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420017
+S
+#420078
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D2
+~
+~
+0 0 420018
+S
+#420079
+#0[#GThe #gG#Gr#ge#Ge#gn #GHallway#0]#n~
+~
+0 0 0
+D0
+~
+~
+0 0 420018
+S
+#0
+
+
+
+#SPECIALS
+M 420003 spec_cast_mage
+M 420004 spec_rand_heals
+M 420005 spec_rand_heals
+S
+
+
+
+#RESETS
+M 0 420000 50 420000
+M 0 420000 50 420000
+M 0 420000 50 420002
+M 0 420000 50 420002
+M 0 420000 50 420004
+M 0 420000 50 420004
+M 0 420000 50 420006
+M 0 420000 50 420006
+M 0 420000 50 420008
+M 0 420000 50 420008
+M 0 420001 50 420010
+M 0 420001 50 420010
+M 0 420001 50 420012
+M 0 420001 50 420012
+M 0 420001 50 420014
+M 0 420001 50 420014
+M 0 420001 50 420016
+M 0 420001 50 420016
+M 0 420001 50 420018
+M 0 420001 50 420018
+M 0 420003 30 420020
+M 0 420003 30 420020
+M 0 420003 30 420021
+M 0 420003 30 420021
+M 0 420003 30 420022
+M 0 420003 30 420022
+M 0 420003 30 420023
+M 0 420003 30 420023
+M 0 420003 30 420024
+M 0 420003 30 420024
+M 0 420003 30 420025
+M 0 420003 30 420025
+M 0 420003 30 420026
+M 0 420003 30 420026
+M 0 420003 30 420027
+M 0 420003 30 420027
+M 0 420003 30 420028
+M 0 420003 30 420028
+M 0 420003 30 420029
+M 0 420003 30 420029
+M 0 420003 30 420030
+M 0 420003 30 420030
+M 0 420003 30 420031
+M 0 420003 30 420031
+M 0 420004 1 420032
+G 0 8 0
+G 0 420000 0
+M 0 420005 1 420034
+G 0 420004 0
+G 0 8 0
+O 0 420005 0 420035
+M 0 420006 40 420040
+M 0 420006 40 420040
+M 0 420006 40 420040
+M 0 420006 40 420040
+M 0 420006 40 420040
+M 0 420006 40 420041
+M 0 420006 40 420041
+M 0 420006 40 420041
+M 0 420006 40 420041
+M 0 420006 40 420041
+M 0 420006 40 420042
+M 0 420006 40 420042
+M 0 420006 40 420042
+M 0 420006 40 420042
+M 0 420006 40 420042
+M 0 420006 40 420043
+M 0 420006 40 420043
+M 0 420006 40 420043
+M 0 420006 40 420043
+M 0 420006 40 420043
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

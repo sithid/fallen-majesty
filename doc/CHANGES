@@ -1,0 +1,20 @@
+(01/11/00) Release date of Dystopia 1.0.1
+(27/11/00) Release date of Dystopia 1.0.2
+           * fixed do_serpent()
+           * fixed demon/drow inpart/grant bug.
+           * fixed crashbug in special_move()
+           * fixed small memory leak.
+(27/12/00) Release date of Dystopia 1.0.3
+           * fixed crashbug in colorcode
+           * fixed small memory leak.
+(03/12/01) Release date of Dystopia 1.0.4
+           * fixed do_cauldron()
+           * fixed do_ban() and do_allow()
+           * fixed monk bug with left hand
+           * memoryleak when loading adamantite slabs fixed
+(18/01/01) Release date of Dystopia 1.0.5
+           * Fixed three major memory leaks
+(28/01/01) Release date of Dystopia 1.0.6
+           * Fixes the anoying object extract bug
+           * Corrects some credits for code
+           * Corrects a few minor typos

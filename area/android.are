@@ -1,0 +1,206 @@
+#AREADATA
+Name        Huw's Equipment~
+Builders    None~
+VNUMs       102100 102299
+Security    9
+Recall      3005
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#102100
+android port~
+#7A#pn#7d#pr#7o#pi#7d #pE#7m#pp#7t#py #7P#po#7r#pt#n~
+A #7A#pn#7d#pr#7o#pi#7d #pE#7m#pp#7t#py #7P#po#7r#pt#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102101
+Android Empty Server~
+#7A#pn#7d#pr#7o#pi#7d #pE#7m#pp#7t#py #7S#pe#7r#pv#7e#pr#n~
+An #7A#pn#7d#pr#7o#pi#7d #pE#7m#pp#7t#py #7S#pe#7r#pv#7e#pr#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102102
+Android Right Data Stick~
+#7A#pn#7d#pr#7o#pi#7d #y(#pR#7i#pg#7h#pt#y)#n #pD#7a#pt#7a #pS#7t#pi#7c#pk#n~
+An #7A#pn#7d#pr#7o#pi#7d #y(#pR#7i#pg#7h#pt#y)#n #pD#7a#pt#7a #pS#7t#pi#7c#pk#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102103
+Android Left Data Stick~
+#7A#pn#7d#pr#7o#pi#7d #y(#pL#7e#pf#7t#y)#n #pD#7a#pt#7a #pS#7t#pi#7c#pk#n~
+An #7A#pn#7d#pr#7o#pi#7d #y(#pL#7e#pf#7t#y)#n #pD#7a#pt#7a #pS#7t#pi#7c#pk#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102104
+Android Empty Data Slot~
+#7A#pn#7d#pr#7o#pi#7d #pE#7m#pp#7t#py #7D#pa#7t#pa #7S#pl#7o#pt#n~
+An #7A#pn#7d#pr#7o#pi#7d #pE#7m#pp#7t#py #7D#pa#7t#pa #7S#pl#7o#pt#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102105
+Android Player Manual~
+#7A#pn#7d#pr#7o#pi#7d #pP#7l#pa#7y#pe#7r #pM#7a#pn#7u#pa#7l#n~
+An #7A#pn#7d#pr#7o#pi#7d #pP#7l#pa#7y#pe#7r #pM#7a#pn#7u#pa#7l#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102106
+Android Basic Data Chip~
+#7A#pn#7d#pr#7o#pi#7d #pB#7a#ps#7i#pc #7D#pa#7t#pa #7C#ph#7i#pp#n~
+An #7A#pn#7d#pr#7o#pi#7d #pB#7a#ps#7i#pc #7D#pa#7t#pa #7C#ph#7i#pp#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102107
+Android Advanced Data Chip~
+#7A#pn#7d#pr#7o#pi#7d #pA#7d#pv#7a#pn#7c#pe#7d #pD#7a#pt#7a #pC#7h#pi#7p#n~
+An #7A#pn#7d#pr#7o#pi#7d #pA#7d#pv#7a#pn#7c#pe#7d #pD#7a#pt#7a #pC#7h#pi#7p#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102108
+Android Expert Data Chip~
+#7A#pn#7d#pr#7o#pi#7d #pE#7x#pp#7e#pr#7t #pD#7a#pt#7a #pC#7h#pi#7p#n~
+An #7A#pn#7d#pr#7o#pi#7d #pE#7x#pp#7e#pr#7t #pD#7a#pt#7a #pC#7h#pi#7p#n lies here unused.~
+~
+13 3 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#102109
+Android Mastery Data Chip~
+#7A#pn#7d#pr#7o#pi#7d #pM#7a#ps#7t#pe#7r#py #7D#pa#7t#pa #7C#ph#7i#pp#n~
+An #7A#pn#7d#pr#7o#pi#7d #pM#7a#ps#7t#pe#7r#py #7D#pa#7t#pa #7C#ph#7i#pp#n lies here unused.~
+~
+13 3 0
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#102100
+~
+~
+0 1064966 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

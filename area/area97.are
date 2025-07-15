@@ -1,0 +1,1180 @@
+#AREADATA
+Name        Ettin Village~
+Builders    Rand~
+VNUMs       101400 101499
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#101400
+ettin guard~
+#oThe #oE#nt#ot#ni#on#n #0Guard#n~
+#oThe #oE#nt#ot#ni#on#n #0Guard#n towers above you, looking around with both ugly heads.
+~
+~
+11
+8 -1000 S
+4481 0 0 10d20+0 0d0+0
+0 0
+0 0 1
+#101401
+ettin woman~
+#oAn #oE#nt#ot#ni#on#n #0Woman#n~
+#oAn #oE#nt#ot#ni#on#n #0Woman#n stands here, chopping up large flanks of raw... HUMAN?
+~
+~
+11
+8 -1000 S
+2538 0 0 10d20+0 0d0+0
+0 0
+0 0 2
+#101402
+ettin stable hand~
+#oThe #oE#nt#ot#ni#on#n #0Stable Hand#n~
+#oThe #oE#nt#ot#ni#on#n #0Stable Hand#n rakes up piles of hay.
+~
+~
+27
+8 -1000 S
+2994 0 0 10d20+0 0d0+0
+0 0
+0 0 1
+#101403
+ettin pigkeep~
+#oThe #oE#nt#ot#ni#on#n #0Pigkeep#n~
+#oThe #oE#nt#ot#ni#on#n #0Pigkeep#n squats in the squalor.
+~
+~
+11
+8 -1000 S
+2621 0 0 10d20+0 0d0+0
+0 0
+0 0 1
+#101404
+guardian ettin wizard~
+#oThe #0Guardian #oE#nt#ot#ni#on#n #0Wizard#n~
+#oThe #0Guardian #oE#nt#ot#ni#on#n #0Wizard#n is here covered in arcane tattoos.
+~
+~
+11
+8 -1000 S
+15031 0 0 60d20+20 0d0+0
+0 0
+0 0 1
+#101405
+ettin shaman guardian~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Shaman#n~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Shaman#n is here, chanting wickedly.
+~
+~
+11
+8200 -1000 S
+14991 0 0 50d0+0 0d0+0
+0 0
+0 0 1
+#101406
+ettin warder~
+#oAn E#nt#ot#ni#on #0Warder#n~
+#oAn E#nt#ot#ni#on #0Warder#n stands here, guarding the Barracks.
+~
+~
+11
+8 -1000 S
+4985 0 0 25d20+0 0d0+0
+0 0
+0 0 1
+#101407
+ettin warrior~
+#oThe #oE#nt#ot#ni#on#n #0Warrior#n~
+#oThe #oE#nt#ot#ni#on#n #0Warrior#n rests up before battle.
+~
+~
+11
+8 -1000 S
+3494 0 0 10d20+0 0d0+0
+0 0
+0 0 1
+#101408
+ettin elite guard~
+#oAn E#nt#ot#ni#on #0Elite Guard#n~
+#oAn E#nt#ot#ni#on #0Elite Guard#n guards the Officers.#n
+~
+~
+11
+8 -1000 S
+9981 0 0 50d20+0 0d0+0
+0 0
+0 0 1
+#101409
+ettin cook~
+#oAn E#nt#ot#ni#on #0Cook#n~
+#oAn E#nt#ot#ni#on #0Cook#n fillets a freshly killed human.#n
+~
+~
+11
+8 -1000 S
+5967 0 0 20d20+0 0d0+0
+0 0
+0 0 1
+#101410
+ettin officer~
+#oAn E#nt#ot#ni#on #0Officer#n~
+#oAn E#nt#ot#ni#on #0Officer#n is here, giving advice to the #0Commander#n.
+~
+~
+11
+8 -1000 S
+15 0 0 30d20+0 0d0+0
+0 0
+0 0 1
+#101411
+guardian ettin commander~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Commander#n~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Commander#n plans out his next conquest.
+~
+~
+11
+8360 -1000 S
+14976 0 0 20d20+3 0d0+0
+0 0
+0 0 1
+#101412
+Ettin Guardian~
+#oThe E#nt#ot#ni#on #0Guardian#n~
+#oThe E#nt#ot#ni#on #0Guardian#n, most feared of all #oE#nt#ot#ni#on#ns#n practices his forms.
+~
+~
+3
+8192 -1000 S
+14974 0 0 50d20+1 0d0+0
+0 0
+0 0 1
+#101413
+ettin boy~
+#oAn #oE#nt#ot#ni#on#n #0Boy#n~
+#oAn #oE#nt#ot#ni#on#n #0Boy#n runs around, chasing a cat.
+~
+~
+25
+8 -1000 S
+1526 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#101414
+ettin girl~
+#oAn #oE#nt#ot#ni#on#n #0Girl#n~
+#oAn #oE#nt#ot#ni#on#n #0Girl#n runs around screaming.
+~
+~
+25
+8 -1000 S
+1171 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#101415
+ettin youth~
+#oAn #oE#nt#ot#ni#on#n #0Youth#n~
+#oAn #oE#nt#ot#ni#on#n #0Youth#n tries to act tough.
+~
+~
+25
+8 -1000 S
+2962 0 0 10d10+0 0d0+0
+0 0
+0 0 1
+#101416
+ettin cronie~
+#oan #oE#nt#ot#ni#on #0Cronie#n~
+#oAn #oE#nt#ot#ni#on #0Cronie#n is here, serving his master.
+~
+~
+9
+0 -1000 S
+9990 0 0 25d20+0 0d0+0
+0 0
+0 0 1
+#101417
+ettin elite warder~
+#oAn E#nt#ot#ni#on #0Elite Warder#n~
+#oAn E#nt#ot#ni#on #0Elite Warder#n is here guarding the Commander.
+~
+~
+11
+0 -1000 S
+15025 0 0 75d20+20 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#101400
+rotten mantle guardian ettin~
+#oThe #oE#nt#ot#ni#on #0Guardian#o'#0s #oR#no#ot#nt#oe#nn #oM#na#on#nt#ol#ne#n~
+#oThe #oE#nt#ot#ni#on #0Guardian#o'#0s #oR#no#ot#nt#oe#nn #oM#na#on#nt#ol#ne#n collects dust on the ground, unused.~
+~
+9 0 1025
+0 0 0 57
+0 0 0
+A
+17 -500
+A
+19 250
+A
+18 250
+A
+13 5000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101401
+guardian ettin shaman gloves~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Shaman's#n #oG#nl#oo#nv#oe#ns#n~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Shaman's#n #oG#nl#oo#nv#oe#ns#n tries to rot away.~
+~
+9 0 129
+0 0 0 30
+0 0 0
+A
+12 10000
+A
+17 -500
+A
+19 200
+A
+18 200
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101402
+ettin wizard ring~
+#oThe E#nt#ot#ni#on #0Wizard#o'#0s #oR#ni#on#ng#n~
+#oThe E#nt#ot#ni#on #0Wizard#o'#0s #oR#ni#on#ng#n is here, almost unnoticed.~
+~
+9 0 3
+0 0 0 0
+0 0 0
+A
+18 65
+A
+19 65
+A
+13 -200
+A
+12 1000
+A
+17 -500
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101403
+guardian ettin commander breastplate~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Commander's #oB#nr#oe#na#os#nt#op#nl#oa#nt#oe#n~
+#oThe #0Guardian #oE#nt#ot#ni#on #0Commander's #oB#nr#oe#na#os#nt#op#nl#oa#nt#oe#n is here, rotting away.~
+~
+9 0 9
+0 0 0 32
+0 0 0
+A
+17 -500
+A
+18 300
+A
+19 300
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101404
+ettin wizard collar guardian~
+#oThe #oC#no#ol#nl#oa#nr #0of the Guardian #oE#nt#ot#ni#on#n #0Wizard#n~
+#oThe #oC#no#ol#nl#oa#nr #0of the Guardian #oE#nt#ot#ni#on#n #0Wizard#n lies here, radiating unholiness.~
+~
+9 0 5
+0 0 0 22
+0 0 0
+A
+18 -1000
+A
+19 -1000
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#101400
+#0Entrance #oto the #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101401
+D2
+~
+~
+0 0 0
+S
+#101401
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Guardpost#n~
+~
+0 0 0
+D0
+~
+~
+2 0 101404
+D1
+~
+~
+2 0 101403
+D2
+~
+~
+0 0 101400
+D3
+~
+~
+2 0 101402
+S
+#101402
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Pigsty#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101405
+D1
+~
+~
+2 0 101401
+S
+#101403
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101406
+D3
+~
+~
+2 0 101401
+S
+#101404
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101409
+D1
+~
+~
+0 0 101406
+D2
+~
+~
+2 0 101401
+D3
+~
+~
+2 0 101405
+S
+#101405
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Stable#n~
+~
+0 0 0
+D1
+~
+~
+2 0 101404
+D2
+~
+~
+0 0 101402
+S
+#101406
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+2 0 101407
+D1
+~
+~
+2 0 101408
+D2
+~
+~
+0 0 101403
+D3
+~
+~
+0 0 101404
+S
+#101407
+#oAn #oE#nt#ot#ni#on#n#o#n#0 Hovel#n~
+~
+0 0 0
+D2
+~
+~
+2 0 101406
+S
+#101408
+#oAn #oE#nt#ot#ni#on#n#o#n#0 Hovel#n~
+~
+0 0 0
+D3
+~
+~
+2 0 101406
+S
+#101409
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+2 0 101410
+D2
+~
+~
+0 0 101404
+D3
+~
+~
+0 0 101411
+S
+#101410
+#oAn #oE#nt#ot#ni#on#n#o#n#0 Hovel#n~
+~
+0 0 0
+D2
+~
+~
+2 0 101409
+S
+#101411
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101412
+D1
+~
+~
+0 0 101409
+D3
+~
+~
+2 0 101413
+S
+#101412
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+2 0 101414
+D1
+~
+~
+0 0 101415
+D2
+~
+~
+0 0 101411
+S
+#101413
+#oHut of the #oE#nt#ot#ni#on#n#o#n#0 Wizard#n~
+~
+0 1073312 0
+D1
+~
+~
+2 0 101411
+S
+#101414
+#oAn #oE#nt#ot#ni#on#n#o#n#0 Hovel#n~
+~
+0 0 0
+D2
+~
+~
+2 0 101412
+S
+#101415
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101416
+D1
+~
+~
+0 0 101418
+D3
+~
+~
+0 0 101412
+S
+#101416
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+2 0 101417
+D2
+~
+~
+0 0 101415
+S
+#101417
+#oThe Hut of the #oE#nt#ot#ni#on#n#o#n#0 Shaman#n~
+~
+0 1073314 0
+D2
+~
+~
+2 0 101416
+S
+#101418
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101419
+D3
+~
+~
+0 0 101415
+S
+#101419
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101420
+D1
+~
+~
+0 0 101422
+D3
+~
+~
+0 0 101418
+S
+#101420
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101421
+D2
+~
+~
+0 0 101419
+S
+#101421
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101423
+D2
+~
+~
+0 0 101422
+D3
+~
+~
+0 0 101420
+S
+#101422
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101421
+D3
+~
+~
+0 0 101419
+S
+#101423
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101424
+D3
+~
+~
+0 0 101421
+S
+#101424
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Village#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101425
+D3
+~
+~
+0 0 101423
+S
+#101425
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Guardpost#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101426
+D3
+~
+~
+0 0 101424
+S
+#101426
+#oThe Steps towards the #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101425
+D4
+~
+~
+2 0 101427
+S
+#101427
+#oThe Entrance to the #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101428
+D1
+~
+~
+0 0 101429
+D3
+~
+~
+0 0 101430
+D5
+~
+~
+2 0 101426
+S
+#101428
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101439
+D1
+~
+~
+0 0 101431
+D2
+~
+~
+0 0 101427
+D3
+~
+~
+0 0 101432
+S
+#101429
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101431
+D1
+~
+~
+0 0 101438
+D3
+~
+~
+0 0 101427
+S
+#101430
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101432
+D1
+~
+~
+0 0 101427
+D3
+~
+~
+0 0 101435
+S
+#101431
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101436
+D1
+~
+~
+0 0 101437
+D2
+~
+~
+0 0 101429
+D3
+~
+~
+0 0 101428
+S
+#101432
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101433
+D1
+~
+~
+0 0 101428
+D2
+~
+~
+0 0 101430
+D3
+~
+~
+0 0 101434
+S
+#101433
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Bunkrack#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101432
+S
+#101434
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Bunkrack#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101432
+S
+#101435
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Bunkrack#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101430
+S
+#101436
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Bunkrack#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101431
+S
+#101437
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Bunkrack#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101431
+S
+#101438
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Bunkrack#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101429
+S
+#101439
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101440
+D2
+~
+~
+0 0 101428
+S
+#101440
+#oStairway to the #02nd Floor #oof the #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101439
+D4
+~
+~
+0 0 101441
+S
+#101441
+#oThe #02nd floor#o Guardpost #0of the #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 1064962 0
+D2
+~
+~
+0 0 101442
+D5
+~
+~
+0 0 101440
+S
+#101442
+#oThe #02nd floor#o of the #oE#nt#ot#ni#on#n#o#n#0 Barracks#n~
+~
+0 1064962 0
+D0
+~
+~
+0 0 101441
+D1
+~
+~
+2 0 101444
+D2
+~
+~
+2 0 101443
+D3
+~
+~
+2 0 101445
+S
+#101443
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Officer's Mess#n~
+~
+0 1064962 0
+D0
+~
+~
+2 0 101442
+S
+#101444
+#oThe #oE#nt#ot#ni#on#n#o#n#0 Commander's Office#n~
+~
+0 1073314 0
+D3
+~
+~
+2 0 101442
+S
+#101445
+#oThe #0Home#o of the #oE#nt#ot#ni#on#n#o#n#0 Guardian#n~
+~
+0 1073314 0
+D1
+~
+~
+2 0 101442
+S
+#0
+
+
+
+#SPECIALS
+M 101404 spec_rand_heals
+M 101405 spec_rand_heals
+M 101411 spec_rand_heals
+M 101412 spec_rand_heals
+M 101416 spec_cast_mage
+S
+
+
+
+#RESETS
+M 0 101400 10 101401
+M 0 101400 10 101401
+M 0 101400 10 101401
+M 0 101400 10 101401
+M 0 101400 10 101401
+M 0 101403 1 101402
+M 0 101414 40 101403
+M 0 101414 40 101403
+M 0 101414 40 101403
+M 0 101414 40 101403
+M 0 101414 40 101403
+M 0 101413 40 101403
+M 0 101413 40 101403
+M 0 101413 40 101403
+M 0 101413 40 101403
+M 0 101413 40 101403
+M 0 101414 40 101404
+M 0 101414 40 101404
+M 0 101414 40 101404
+M 0 101414 40 101404
+M 0 101414 40 101404
+M 0 101413 40 101404
+M 0 101413 40 101404
+M 0 101413 40 101404
+M 0 101413 40 101404
+M 0 101413 40 101404
+M 0 101402 5 101405
+M 0 101402 5 101405
+M 0 101402 5 101405
+M 0 101402 5 101405
+M 0 101414 40 101406
+M 0 101414 40 101406
+M 0 101414 40 101406
+M 0 101414 40 101406
+M 0 101414 40 101406
+M 0 101413 40 101406
+M 0 101413 40 101406
+M 0 101413 40 101406
+M 0 101413 40 101406
+M 0 101413 40 101406
+M 0 101401 2 101407
+M 0 101401 2 101408
+M 0 101414 40 101409
+M 0 101414 40 101409
+M 0 101414 40 101409
+M 0 101414 40 101409
+M 0 101414 40 101409
+M 0 101413 40 101409
+M 0 101413 40 101409
+M 0 101413 40 101409
+M 0 101413 40 101409
+M 0 101413 40 101409
+M 0 101401 4 101410
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101415 10 101412
+M 0 101416 6 101413
+M 0 101416 6 101413
+M 0 101416 6 101413
+M 0 101416 6 101413
+M 0 101416 6 101413
+M 0 101416 6 101413
+M 0 101404 1 101413
+G 0 101404 0
+G 0 101402 0
+M 0 101416 11 101417
+M 0 101416 11 101417
+M 0 101416 11 101417
+M 0 101416 11 101417
+M 0 101416 11 101417
+M 0 101405 1 101417
+G 0 101401 0
+M 0 101413 20 101419
+M 0 101414 18 101419
+M 0 101413 20 101419
+M 0 101414 18 101419
+M 0 101413 20 101419
+M 0 101414 18 101419
+M 0 101414 40 101420
+M 0 101414 40 101420
+M 0 101414 40 101420
+M 0 101414 40 101420
+M 0 101414 40 101420
+M 0 101413 40 101420
+M 0 101413 40 101420
+M 0 101413 40 101420
+M 0 101413 40 101420
+M 0 101413 40 101420
+M 0 101414 40 101421
+M 0 101414 40 101421
+M 0 101414 40 101421
+M 0 101414 40 101421
+M 0 101414 40 101421
+M 0 101413 40 101421
+M 0 101413 40 101421
+M 0 101413 40 101421
+M 0 101413 40 101421
+M 0 101413 40 101421
+M 0 101415 15 101422
+M 0 101415 15 101422
+M 0 101415 15 101422
+M 0 101415 15 101422
+M 0 101415 15 101422
+M 0 101414 40 101423
+M 0 101414 40 101423
+M 0 101414 40 101423
+M 0 101414 40 101423
+M 0 101414 40 101423
+M 0 101413 40 101423
+M 0 101413 40 101423
+M 0 101413 40 101423
+M 0 101413 40 101423
+M 0 101413 40 101423
+M 0 101415 30 101424
+M 0 101415 30 101424
+M 0 101415 30 101424
+M 0 101415 30 101424
+M 0 101415 30 101424
+M 0 101400 10 101425
+M 0 101400 10 101425
+M 0 101400 10 101425
+M 0 101400 10 101425
+M 0 101400 10 101425
+M 0 101406 6 101427
+M 0 101406 6 101428
+M 0 101406 6 101429
+M 0 101406 6 101430
+M 0 101406 6 101431
+M 0 101406 6 101432
+M 0 101406 6 101432
+M 0 101407 30 101433
+M 0 101407 30 101433
+M 0 101407 30 101433
+M 0 101407 30 101433
+M 0 101407 30 101433
+M 0 101407 30 101434
+M 0 101407 30 101434
+M 0 101407 30 101434
+M 0 101407 30 101434
+M 0 101407 30 101434
+M 0 101407 30 101435
+M 0 101407 30 101435
+M 0 101407 30 101435
+M 0 101407 30 101435
+M 0 101407 30 101435
+M 0 101407 30 101436
+M 0 101407 30 101436
+M 0 101407 30 101436
+M 0 101407 30 101436
+M 0 101407 30 101436
+M 0 101407 30 101437
+M 0 101407 30 101437
+M 0 101407 30 101437
+M 0 101407 30 101437
+M 0 101407 30 101437
+M 0 101407 30 101438
+M 0 101407 30 101438
+M 0 101407 30 101438
+M 0 101407 30 101438
+M 0 101407 30 101438
+M 0 101406 7 101439
+M 0 101408 10 101441
+M 0 101408 10 101441
+M 0 101408 10 101441
+M 0 101408 10 101441
+M 0 101408 10 101441
+M 0 101408 10 101442
+M 0 101408 10 101442
+M 0 101409 1 101443
+M 0 101417 5 101444
+M 0 101417 5 101444
+M 0 101417 5 101444
+M 0 101417 5 101444
+M 0 101417 5 101444
+M 0 101411 1 101444
+G 0 101403 0
+M 0 101412 1 101445
+G 0 101400 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

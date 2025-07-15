@@ -1,0 +1,1788 @@
+#AREADATA
+Name        School~
+Builders    Charysse~
+VNUMs       99400 99599
+Security    1
+Recall      3005
+End
+
+
+
+#MOBILES
+#99500
+principal~
+#0T#7h#Pe #0P#7r#Pi#7n#0c#7i#Pp#7a#0l#n~
+#0T#7h#Pe #0P#7r#Pi#7n#0c#7i#Pp#7a#0l#7 is here, intimidating you into obedience.
+~
+~
+3
+0 0 S
+5499 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99501
+nurse~
+#rT#7h#re #RN#7u#rr#7s#Re#n~
+#RT#7h#Re #rN#7u#Rr#7s#re#7 is here, frantically passing out bandaids.
+~
+~
+3
+0 0 S
+5250 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99502
+secretary1~
+#LA #nSe#Lcr#le#Lta#nry~
+#LA #nSe#Lcr#le#Lta#nry#7 is here, enlisting a new student.
+~
+~
+3
+0 0 S
+4996 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99503
+secretary2~
+#nA #lS#Lec#nret#Lar#ly#n~
+#nA #lS#Lec#nret#Lar#ly#7 is here, filing report cards.
+~
+~
+3
+0 0 S
+9 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99504
+secretary3~
+#LA #nS#lec#Lret#lar#ny#n~
+#LA #nS#lec#Lret#lar#ny#7 is on the phone, explaining things to a parent.
+~
+~
+3
+0 0 S
+4994 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99505
+kindergartner1~
+#7A #LKin#Pde#yrga#Prt#Lner#n~
+#7A #LKi#Pnd#yer#7g#yar#Ptn#Ler#7 is here, standing on a table and yelling like #gTa#0rz#gan#7.
+~
+~
+3
+0 0 S
+3499 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99506
+kindergartner2~
+#7A #LKi#Pnd#yer#7g#yar#Ptn#Ler#n~
+#7A #LKi#Pnd#yer#7g#yar#Ptn#Ler#7 is sitting at a table, trying to #Rfin#yger#Lpai#Pnt#7.
+~
+~
+3
+0 0 S
+3495 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99507
+teacher0 kindergarten~
+#7The #LKin#Pde#yrg#Par#Lten Te#Pa#yc#Ph#Ler#n~
+#7The #LKin#Pde#yrg#Par#Lten Te#Pa#yc#Ph#Ler#7 is here, popping some aspirin.
+~
+~
+3
+0 0 S
+4006 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99508
+first grader1~
+#0A #yFi#0rs#yt#0-#yGr#0ad#yer#n~
+#7A #yFi#0rs#yt#0-#yGr#0ad#yer#7 is sitting in a corner, trying to read.
+~
+~
+3
+0 0 S
+3599 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99509
+first grader1~
+#yA #0Fi#yrs#0t#y-#0Gr#yad#0er#n~
+#7A #0Fi#yrs#0t#y-#0Gr#yad#0er#7 is bouncing around during playtime.
+~
+~
+3
+0 0 S
+3601 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99510
+first grade teacher1~
+#0T#yh#0e #yFi#0rs#yt#0-#yGr#0ad#ye T#0ea#ych#0er#n~
+#7The #yFi#0rs#yt#0-#yGr#0ad#ye T#0ea#ych#0er#7 is here, reading to the kids.
+~
+~
+3
+0 0 S
+4105 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99511
+second grader2~
+#nA #RSe#nc#Ron#nd#R-#nGr#Rad#ner~
+#nA #RSe#nc#Ron#nd#R-#nGr#Rad#ner#7 is here, writing a letter to mom.
+~
+~
+3
+0 0 S
+3707 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99512
+second grader2~
+#RA #nSe#Rc#non#Rd#n-#RGr#nad#Rer#n~
+#RA #nSe#Rc#non#Rd#n-#RGr#nad#Rer#7 is here, goofing off by sticking pencils up his nose.
+~
+~
+3
+0 0 S
+3699 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#99513
+second teacher2~
+#7The #nSe#Rco#nnd#R-#nGr#Rad#ne T#Rea#nch#Rer#n~
+#7The #nSe#Rco#nnd#R-#nGr#Rad#ne T#Rea#nch#Rer#7 is here, thinking up projects to force on the kids.
+~
+~
+3
+0 0 S
+4209 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99514
+third grader3~
+#GA #cTh#gir#Gd G#cra#gde#Gr#n~
+#GA #cTh#gir#Gd G#cra#gde#Gr#7 is here, struggling with a book report.
+~
+~
+3
+0 0 S
+3800 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99515
+third grader3~
+#cA #gTh#Gir#cd G#gra#Gde #cTr#gou#Gbl#cem#gak#Ger#n~
+#cA #gTh#Gir#cd G#gra#Gde #cTr#gou#Gbl#cem#gak#Ger#7 shoots spitwads around the room.
+~
+~
+3
+0 0 S
+3801 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99516
+third teacher3~
+#cT#Gh#ge #cTh#Gir#gd#c-#GGr#gad#ce T#Gea#gch#cer#n~
+#cT#Gh#ge #cTh#Gir#gd#c-#GGr#gad#ce T#Gea#gch#cer#7 is here, grading artwork.
+~
+~
+3
+0 0 S
+4298 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99517
+fourth grader4~
+#nA #CFo#nu#lrt#nh#7-#CGr#na#lde#nr#n~
+#nA #CFo#nu#lrt#nh#7-#CGr#na#lde#nr#7 is here, studying their spelling list.
+~
+~
+3
+0 0 S
+3893 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99518
+fourth grader4~
+#nA #lFo#nu#Crt#nh#7-#lGr#na#Cde#nr#n~
+#nA #lFo#nu#Crt#nh#7-#lGr#na#Cde#nr#7 is here, chewing on their eraser.
+~
+~
+3
+0 0 S
+3890 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99519
+fourth teacher4~
+#lT#Ch#ne #lFo#nu#Crt#nh#7-#lGr#na#Cde #nT#lea#nc#Che#nr~
+#lT#Ch#ne #lFo#nu#Crt#nh#7-#lGr#na#Cde #nT#lea#nc#Che#nr#7 is here, passing out spelling tests.
+~
+~
+3
+0 0 S
+4403 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99520
+fifth grader5~
+#7A F#Ri#yft#7h G#Rra#yde#7r#n~
+#7A F#Ri#yft#7h G#Rra#yde#7r#7 is here, pulling on a girl's hair.
+~
+~
+3
+0 0 S
+3998 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99521
+fifth grader5~
+#RA #yF#7i#Rft#yh G#7ra#Rde#yr#n~
+#RA #yF#7i#Rft#yh G#7ra#Rde#yr#7 is here, losing the spelling bee.
+~
+~
+3
+0 0 S
+4000 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99522
+fifth teacher5~
+#RT#7h#ye #RFi#7f#yth #RGr#7a#yde #RTe#7ac#yhe#Rr#n~
+#RT#7h#ye #RFi#7f#yth #RGr#7a#yde #RTe#7ac#yhe#Rr#7 is here, giving a spelling bee.
+~
+~
+3
+0 0 S
+4501 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99523
+sixth grader6~
+#nA #gS#ni#Gxt#nh #gGr#nad#Ger#n~
+#nA #gS#ni#Gxt#nh #gGr#nad#Ger#7 is here, scared of the older kids.
+~
+~
+3
+0 0 S
+4097 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99524
+sixth grader6~
+#nA #GS#ni#gxt#nh #GGr#nad#ger#n~
+#nA #GS#ni#gxt#nh #GGr#nad#ger#7 is here, sighing at the harder classes.
+~
+~
+3
+0 0 S
+4100 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99525
+sixth teacher6~
+#nT#gh#ne #GSi#nx#gth #nG#Gra#nde #gTe#nac#Ghe#nr~
+#nT#gh#ne #GSi#nx#gth #nG#Gra#nde #gTe#nac#Ghe#nr#7 is here, consoling the kids.
+~
+~
+3
+0 0 S
+4598 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99526
+seventh grader7~
+#lA #nS#pev#ne#lnt#nh #pGr#na#lde#nr~
+#lA #nS#pev#ne#lnt#nh #pGr#na#lde#nr#7 is here, working on math.
+~
+~
+3
+0 0 S
+4198 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99527
+seventh grader7~
+#pA #nS#lev#ne#pnt#nh #lGr#na#pde#nr~
+#pA #nS#lev#ne#pnt#nh #lGr#na#pde#nr#7 is here, writing a note to her boyfriend.
+~
+~
+3
+0 0 S
+4192 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99528
+seventh teacher7~
+#pT#nh#le #nS#pev#ne#lnt#nh #pGr#na#lde #nT#pea#nc#lhe#nr~
+#pT#nh#le #nS#pev#ne#lnt#nh #pGr#na#lde #nT#pea#nc#lhe#nr#7 is here, trying to get the class to pay attention, #RGOD DAMNIT#7!
+~
+~
+3
+0 0 S
+4696 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99529
+eighth grader8~
+#0An #LEi#0gh#Cth #0Gr#Lad#0er#n~
+#0An #LEi#0gh#Cth #0Gr#Lad#0er#7 is here, staring dreamily at a picture.
+~
+~
+3
+0 0 S
+4298 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99530
+eighth grader8~
+#0An #CEi#0gh#Lth #0Gr#Cad#0er#n~
+#0An #CEi#0gh#Lth #0Gr#Cad#0er#7 is here, doing homework for another class.
+~
+~
+3
+0 0 S
+4302 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99531
+eighth teacher8~
+#CT#0h#Le #0Ei#Cgh#0th #LGr#0ad#Ce T#0ea#Lch#0er#n~
+#CT#0h#Le #0Ei#Cgh#0th #LGr#0ad#Ce T#0ea#Lch#0er#7 is here, checking out the daily news.
+~
+~
+3
+0 0 S
+4798 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99532
+ninth grader9~
+#7A #yNi#Cnt#7h #yGr#Cad#7er#n~
+#7A #yNi#Cnt#7h #yGr#Cad#7er#7 is here, happy to be in high school.
+~
+~
+3
+0 0 S
+4399 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99533
+ninth grader9~
+#yA #7Ni#Cnt#yh #7Gr#Cad#yer#n~
+#yA #7Ni#Cnt#yh #7Gr#Cad#yer#7 is trying to decipher their schedule.
+~
+~
+3
+0 0 S
+4401 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99534
+ninth teacher9~
+#CT#7h#ye #CNi#7n#yth #CGr#7a#yde #CTe#7a#ych#7e#Cr#n~
+#CT#7h#ye #CNi#7n#yth #CGr#7a#yde #CTe#7a#ych#7e#Cr#7 is enthusiastically teaching algebra.
+~
+~
+3
+0 0 S
+4901 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99535
+tenth grader10~
+#gA #0Te#lnt#0h #pGr#0ad#ger#n~
+#gA #0Te#lnt#0h #pGr#0ad#ger#7 is here, working on geometry.
+~
+~
+3
+0 0 S
+4502 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99536
+tenth grader10~
+#pA #0Te#gnt#0h #lGr#0ad#per#n~
+#pA #0Te#gnt#0h #lGr#0ad#per#7 is studying their science book intently.
+~
+~
+3
+0 0 S
+4497 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99537
+tenth teacher10~
+#0T#lh#0e #pTe#0nt#gh #0Gr#lad#0e #pTe#0ac#ghe#0r#n~
+#0T#lh#0e #pTe#0nt#gh #0Gr#lad#0e #pTe#0ac#ghe#0r#7 is waiting for 2#y:#730!
+~
+~
+3
+0 0 S
+4997 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99538
+eleventh grader11~
+#gA#nn #LEl#ne#gve#nn#Lth #nG#gra#nd#Ler#n~
+#gA#nn #LEl#ne#gve#nn#Lth #nG#gra#nd#Ler#7 is here, disecting a frog.
+~
+~
+3
+0 0 S
+4597 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99539
+eleventh grader11~
+#nA#Ln #nE#gle#nv#Len#nt#gh #nG#Lra#nd#ger#n~
+#nA#Ln #nE#gle#nv#Len#nt#gh #nG#Lra#nd#ger#7 is here with a girl on each arm.
+~
+~
+3
+0 0 S
+4598 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99540
+eleventh teacher11~
+#gT#nh#Le #nE#gle#nv#Len#nt#gh #nG#Lra#nd#ge #nT#Lea#nc#ghe#nr~
+#gT#nh#Le #nE#gle#nv#Len#nt#gh #nG#Lra#nd#ge #nT#Lea#nc#ghe#nr#7 is napping here.
+~
+~
+3
+0 0 S
+5100 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99541
+twelfth grader12~
+#oA #nT#ywe#nl#oft#nh #yGr#na#ode#nr~
+#oA #nT#ywe#nl#oft#nh #yGr#na#ode#nr#7 struggles with his calculus homework.
+~
+~
+3
+0 0 S
+4698 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99542
+twelfth grader12~
+#nA #yTw#ne#olf#nt#yh #nG#ora#nd#yer#n~
+#nA #yTw#ne#olf#nt#yh #nG#ora#nd#yer#7 has all of their credits, and takes it easy.
+~
+~
+3
+0 0 S
+4701 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99543
+twelfth teacher12~
+#yT#nh#oe #nT#ywe#nl#oft#nh #yGr#na#ode #nT#yea#nc#ohe#nr~
+#yT#nh#oe #nT#ywe#nl#oft#nh #yGr#na#ode #nT#yea#nc#ohe#nr#7 is here, trying to calm down the class.
+~
+~
+1
+0 0 S
+5202 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99544
+school librarian~
+#yT#7h#ye #7Li#yb#nrar#yi#7an#n~
+#yT#7h#ye #7Li#yb#nrar#yi#7an#n is here, sighing at the lack of kids.
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99545
+gym teacher~
+#RA #yG#7y#Rm #yT#7e#Ra#yc#7h#Re#yr#n~
+#RA #yG#7y#Rm #yT#7e#Ra#yc#7h#Re#yr#n is here, blowing their whistle.
+~
+~
+1
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99546
+lunch lady~
+#0A #yLu#gn#ych #7L#0ad#7y#n~
+#0A #yLu#gn#ych #7L#0ad#7y#n is here, serving the #7"#sDaily #sSpecial#7"#n.
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99547
+playground teacher~
+#sA #sTe#nac#she#nr~
+#sA #sTe#nac#she#nr is here, breaking up a fight.
+~
+~
+1
+0 0 S
+20 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99548
+elementary library student~
+#nAn #REl#nem#Cen#nta#yry #nSt#Pud#ne#Lnt#n~
+#nAn #REl#nem#Cen#nta#yry #nSt#Pud#ne#Lnt#n is here, looking at a picture book.
+~
+~
+1
+0 0 S
+17 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99549
+middle library student~
+#CA M#nid#Gdl#ne S#Pch#noo#rle#nr~
+#CA M#nid#Gdl#ne S#Pch#noo#rle#nr finds a book for a report.
+~
+~
+1
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99550
+high library student~
+#yA H#nig#gh S#nch#ooo#nle#yr#n~
+#yA H#nig#gh S#nch#ooo#nle#yr#n is here, studying the magazines.
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99551
+elementary gym student~
+#nAn #REle#yment#Lary #RK#yi#Ld#n~
+#nAn #REle#yment#Lary #RK#yi#Ld#n is here, playing wallball.
+~
+~
+1
+0 0 S
+14 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99552
+middle gym student~
+#CA M#7id#Gdl#7e S#Lch#7oo#Cle#7r#n~
+#CA M#7id#Gdl#7e S#Lch#7oo#Cle#7r#n is here, trying to shoot hoops.
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99553
+high gym student~
+#0A #GHi#0gh #LSc#0ho#Col#0er#n~
+#0A #GHi#0gh #LSc#0ho#Col#0er#n is hanging out on the bleachers, drinking soda.
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99554
+drama teacher auditorium~
+#PTh#pe D#lra#Lma #PTe#pac#lhe#Lr#n~
+#PTh#pe D#lra#Lma #PTe#pac#lhe#Lr#n is here, directing a play.
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99555
+high auditorium student~
+#0A #GHi#0gh #nSc#0ho#Gol#0er#n~
+#0A #GHi#0gh #nSc#0ho#Gol#0er#n is here, practicing a speech.
+~
+~
+1
+0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99556
+elementary kid lunchroom~
+#CAn #yEle#Gment#Lary #RKid#n~
+#CAn #yEle#Gment#Lary #RKid#n is trying to get a grape out of his nose.
+~
+~
+1
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99557
+elementary kid lunchroom~
+#yAn #LEle#Rment#Gary #CKid#n~
+#yAn #LEle#Rment#Gary #CKid#n is chowing down on the #7"#sDaily #sSpecial#7"#n.
+~
+~
+1
+0 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99558
+middle lunchroom~
+#7A #yMi#Cdd#nle #ySc#Cho#nol#7er#n~
+#7A #yMi#Cdd#nle #ySc#Cho#nol#7er#n is here, poking at their food fitfully.
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99559
+middle lunchroom~
+#CA #7Mi#ndd#yle #nSc#7ho#Col#yer#n~
+#CA #7Mi#ndd#yle #nSc#7ho#Col#yer#n is here, flinging food at the elementary students.
+~
+~
+1
+0 0 S
+3 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99560
+high lunchroom~
+#0A #GHi#0gh #CSc#0ho#Gol#0er#n~
+#0A #GHi#0gh #CSc#0ho#Gol#0er#n is here, making a fool of herself.
+~
+~
+1
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99561
+high lunchroom~
+#0A #CHi#0gh #GSc#0ho#Col#0er#n~
+#0A #CHi#0gh #GSc#0ho#Col#0er#n had enough money to order a pizza.
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99562
+girl bathroom~
+#0A #PSt#nud#pen#0t#n~
+#0A #PSt#nud#pen#0t#n is here, applying makeup.
+~
+~
+1
+0 0 S
+2 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99563
+boy bathroom~
+#0A #gSt#nud#Gen#0t#n~
+#0A #gSt#nud#Gen#0t#n is here, smoking a #gj#no#oi#nn#gt#n.
+~
+~
+1
+0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99564
+elementary playground~
+#PAn #yEle#Cment#Gary#L Kid#n~
+#PAn #yEle#Cment#Gary#L Kid #nis here playing tag.
+~
+~
+1
+0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99565
+elementary playground~
+#RAn #yEle#Gment#Pary #LKid#n~
+#RAn #yEle#Gment#Pary #LKid#n is on the monkey bars.
+~
+~
+1
+0 0 S
+14 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99566
+elementary playground~
+#RAn #CEle#Gment#Lary#y Kid#n~
+#RAn #CEle#Gment#Lary#y Kid#n is here, swinging on the swingset.
+~
+~
+1
+0 0 S
+10 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99567
+elementary playground~
+#CAn #PEle#Lment#Rary #GKid#n~
+#CAn #PEle#Lment#Rary #GKid#n is kneeling down with a #rs#nc#Rr#na#rp#ne#Rd#n knee.
+~
+~
+1
+0 0 S
+17 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#99500
+dookie doo hahahayoucan'tfindout~
+#yPA#PN#ySY#n~
+#yPA#PN#ySY#n~
+~
+9 28808 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#99400
+#yP#narking #yL#not~
+~
+0 1048580 0
+D0
+~
+~
+3 0 99401
+S
+#99401
+#sM#nain #sH#nallway~
+~
+0 0 0
+D0
+~
+~
+0 0 99406
+D1
+~
+~
+0 0 99402
+D2
+~
+~
+3 0 99400
+S
+#99402
+#sM#nain #sO#nffice~
+~
+0 0 0
+D1
+~
+~
+0 0 99403
+D3
+~
+~
+0 0 99401
+S
+#99403
+#sR#near #sO#nffice~
+~
+0 0 0
+D0
+~
+~
+3 0 99404
+D2
+~
+~
+3 0 99405
+D3
+~
+~
+0 0 99402
+S
+#99404
+#sN#nurse's #sO#nffice~
+~
+0 0 0
+D2
+~
+~
+3 0 99403
+S
+#99405
+#sP#nrincipal's #sO#nffice~
+~
+0 0 0
+D0
+~
+~
+3 0 99403
+S
+#99406
+#sM#nain #sH#nallway~
+~
+0 0 0
+D0
+~
+~
+0 0 99407
+D1
+~
+~
+0 0 99466
+D2
+~
+~
+0 0 99401
+S
+#99407
+#sM#nain #sH#nallway~
+~
+0 0 0
+D0
+~
+~
+0 0 99438
+D2
+~
+~
+0 0 99406
+D3
+~
+~
+0 0 99408
+D4
+~
+~
+0 0 99421
+S
+#99408
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99407
+D3
+~
+~
+0 0 99409
+S
+#99409
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99408
+D2
+~
+~
+3 0 99420
+D3
+~
+~
+0 0 99410
+S
+#99410
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D0
+~
+~
+3 0 99419
+D1
+~
+~
+0 0 99409
+D3
+~
+~
+0 0 99411
+S
+#99411
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99410
+D2
+~
+~
+3 0 99418
+D3
+~
+~
+0 0 99412
+S
+#99412
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D0
+~
+~
+3 0 99317
+D1
+~
+~
+0 0 99411
+D3
+~
+~
+0 0 99413
+S
+#99413
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99412
+D2
+~
+~
+3 0 99416
+D3
+~
+~
+0 0 99414
+S
+#99414
+#sH#nallway in the #LEl#nem#Ren#nta#yry#n~
+~
+0 0 0
+D0
+~
+~
+3 0 99415
+D1
+~
+~
+0 0 99413
+D3
+~
+~
+3 0 99443
+S
+#99415
+#7G#Rr#ya#7d#Re #75#n~
+~
+0 0 0
+D2
+~
+~
+3 0 99414
+S
+#99416
+#CG#lr#na#Cd#le#n 4~
+~
+0 0 0
+D0
+~
+~
+3 0 99413
+S
+#99418
+#RG#nr#Ra#nd#Re #n2~
+~
+0 0 0
+D0
+~
+~
+3 0 99411
+S
+#99419
+#0G#yr#0a#yd#0e #y1#n~
+~
+0 0 0
+D2
+~
+~
+3 0 99410
+S
+#99420
+#RKin#yder#Lgar#Pten#s!#n~
+~
+0 0 0
+D0
+~
+~
+3 0 99409
+S
+#99421
+#sH#nallway in the #sM#niddle #sS#nchool~
+~
+0 0 0
+D1
+~
+~
+0 0 99422
+D4
+~
+~
+0 0 99429
+D5
+~
+~
+0 0 99407
+S
+#99422
+#sH#nallway in the #sM#niddle #sS#nchool~
+~
+0 0 0
+D1
+~
+~
+0 0 99423
+D3
+~
+~
+0 0 99421
+S
+#99423
+#sH#nallway in the #sM#niddle #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+3 0 99428
+D1
+~
+~
+0 0 99424
+D3
+~
+~
+0 0 99422
+S
+#99424
+#sH#nallway in the #sM#niddle #sS#nchool~
+~
+0 0 0
+D1
+~
+~
+0 0 99425
+D2
+~
+~
+3 0 99427
+D3
+~
+~
+0 0 99423
+S
+#99425
+#sH#nallway in the #sM#niddle #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+3 0 99426
+D1
+~
+~
+3 0 99449
+D3
+~
+~
+0 0 99424
+S
+#99426
+#0G#Lr#0a#Cd#0e #L8~
+~
+0 0 0
+D2
+~
+~
+3 0 99425
+S
+#99427
+#pG#nr#la#nd#pe#n 7~
+~
+0 0 0
+D0
+~
+~
+3 0 99424
+S
+#99428
+#GG#nr#ga#nd#Ge#n 6~
+~
+0 0 0
+D2
+~
+~
+3 0 99423
+S
+#99429
+#sH#nallway in the #sH#nigh #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+0 0 99430
+D5
+~
+~
+0 0 99421
+S
+#99430
+#sH#nallway in the #sH#nigh #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+0 0 99431
+D1
+~
+~
+3 0 99437
+D2
+~
+~
+0 0 99429
+S
+#99431
+#sH#nallway in the #sH#nigh #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+0 0 99432
+D2
+~
+~
+0 0 99430
+D3
+~
+~
+3 0 99436
+S
+#99432
+#sH#nallway in the #sH#nigh #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+0 0 99433
+D1
+~
+~
+3 0 99435
+D2
+~
+~
+0 0 99431
+S
+#99433
+#sH#nallway in the #sH#nigh #sS#nchool~
+~
+0 0 0
+D0
+~
+~
+3 0 99455
+D2
+~
+~
+0 0 99432
+D3
+~
+~
+3 0 99434
+S
+#99434
+#oG#nr#ya#nd#oe#n 1#y2#n~
+~
+0 0 0
+D1
+~
+~
+3 0 99433
+S
+#99435
+#LG#nr#ga#nd#Le #n1#g1#n~
+~
+0 0 0
+D3
+~
+~
+3 0 99432
+S
+#99436
+#lG#0r#ga#0d#pe #01#l0#n~
+~
+0 0 0
+D1
+~
+~
+3 0 99431
+S
+#99437
+#7G#yr#Ca#7d#ye #C9~
+~
+0 0 0
+D3
+~
+~
+3 0 99430
+S
+#99438
+#sM#nain #sH#nallway~
+~
+0 0 0
+D0
+~
+~
+0 0 99440
+D1
+~
+~
+3 0 99439
+D2
+~
+~
+0 0 99407
+S
+#99439
+#CG#ni#cr#nl#C'#ns #cB#na#Ct#nh#cr#no#Co#nm~
+~
+0 0 0
+D3
+~
+~
+3 0 99438
+S
+#99440
+#sM#nain #sH#nallway~
+~
+0 0 0
+D0
+~
+~
+3 0 99461
+D2
+~
+~
+0 0 99438
+D3
+~
+~
+3 0 99441
+S
+#99441
+#LB#no#ly#n'#Ls#n B#la#nt#Lh#nr#lo#no#Lm#n~
+~
+0 0 0
+D1
+~
+~
+3 0 99440
+S
+#99442
+#LPl#nay#ygr#nou#gnd#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99443
+D3
+~
+~
+0 0 99447
+S
+#99443
+#LPl#nay#ygr#nou#gnd#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99444
+D1
+~
+~
+3 0 99414
+D2
+~
+~
+0 0 99442
+D3
+~
+~
+0 0 99446
+S
+#99444
+#LPl#nay#ygr#nou#gnd#n~
+~
+0 0 0
+D2
+~
+~
+0 0 99443
+D3
+~
+~
+0 0 99445
+S
+#99445
+#LPl#nay#ygr#nou#gnd#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99444
+D2
+~
+~
+0 0 99446
+S
+#99446
+#LPl#nay#ygr#nou#gnd#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99445
+D1
+~
+~
+0 0 99443
+D2
+~
+~
+0 0 99447
+S
+#99447
+#LPl#nay#ygr#nou#gnd#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99446
+D1
+~
+~
+0 0 99442
+S
+#99448
+#yLu#0nc#7h R#goo#7m#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99449
+D1
+~
+~
+0 0 99453
+S
+#99449
+#yLu#0nc#7h R#goo#7m#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99450
+D1
+~
+~
+0 0 99452
+D2
+~
+~
+0 0 99448
+D3
+~
+~
+3 0 99425
+S
+#99450
+#yLu#0nc#7h R#goo#7m#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99451
+D2
+~
+~
+0 0 99449
+S
+#99451
+#yLu#0nc#7h R#goo#7m#n~
+~
+0 0 0
+D2
+~
+~
+0 0 99452
+D3
+~
+~
+0 0 99450
+S
+#99452
+#yLu#0nc#7h R#goo#7m#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99451
+D2
+~
+~
+0 0 99453
+D3
+~
+~
+0 0 99449
+S
+#99453
+#yLu#0nc#7h R#goo#7m#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99452
+D3
+~
+~
+0 0 99448
+S
+#99454
+#yI#nn #Rt#nhe #yG#ny#Rm#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99459
+D3
+~
+~
+0 0 99455
+S
+#99455
+#yI#nn #Rt#nhe #yG#ny#Rm#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99458
+D1
+~
+~
+0 0 99454
+D2
+~
+~
+3 0 99433
+D3
+~
+~
+0 0 99456
+S
+#99456
+#yI#nn #Rt#nhe #yG#ny#Rm#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99457
+D1
+~
+~
+0 0 99455
+S
+#99457
+#yI#nn #Rt#nhe #yG#ny#Rm#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99458
+D2
+~
+~
+0 0 99456
+S
+#99458
+#yI#nn #Rt#nhe #yG#ny#Rm#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99459
+D2
+~
+~
+0 0 99455
+D3
+~
+~
+0 0 99457
+S
+#99459
+#yI#nn #Rt#nhe #yG#ny#Rm#n~
+~
+0 0 0
+D2
+~
+~
+0 0 99454
+D3
+~
+~
+0 0 99458
+S
+#99460
+#sI#nn #st#nhe #sA#nudi#sto#nri#sum#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99463
+D3
+~
+~
+0 0 99461
+S
+#99461
+#sI#nn #st#nhe #sA#nudi#sto#nri#sum#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99464
+D1
+~
+~
+0 0 99460
+D2
+~
+~
+3 0 99440
+D3
+~
+~
+0 0 99462
+S
+#99462
+#sI#nn #st#nhe #sA#nudi#sto#nri#sum#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99465
+D1
+~
+~
+0 0 99461
+S
+#99463
+#sI#nn #st#nhe #sA#nudi#sto#nri#sum#n~
+~
+0 0 0
+D2
+~
+~
+0 0 99460
+D3
+~
+~
+0 0 99464
+S
+#99464
+#sI#nn #st#nhe #sA#nudi#sto#nri#sum#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99463
+D2
+~
+~
+0 0 99461
+D3
+~
+~
+0 0 99465
+S
+#99465
+#sI#nn #st#nhe #sA#nudi#sto#nri#sum#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99464
+D2
+~
+~
+0 0 99462
+S
+#99466
+#7T#nh#7e #nL#7i#yb#nr#ya#7r#ny~
+~
+0 0 0
+D3
+~
+~
+0 0 99406
+S
+#99599
+#rCh#Ra#yry#Rs#rse#n and #7B#0ardi#7e#0l#n's #gR#no#Go#nm of #RH#no#rt#n, #CS#nt#Ce#na#Cm#ny #RL#no#rv#ni#Rn#n'~
+~
+0 1074270 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 99522 1 99415
+M 0 99521 8 99415
+M 0 99521 8 99415
+M 0 99520 8 99415
+M 0 99520 8 99415
+M 0 99519 1 99416
+M 0 99518 8 99416
+M 0 99518 8 99416
+M 0 99517 8 99416
+M 0 99517 8 99416
+M 0 99513 1 99418
+M 0 99512 8 99418
+M 0 99512 8 99418
+M 0 99511 8 99418
+M 0 99511 8 99418
+M 0 99510 1 99419
+M 0 99509 8 99419
+M 0 99509 8 99419
+M 0 99508 8 99419
+M 0 99508 8 99419
+M 0 99507 1 99420
+M 0 99506 8 99420
+M 0 99506 8 99420
+M 0 99505 8 99420
+M 0 99505 8 99420
+M 0 99531 1 99426
+M 0 99530 8 99426
+M 0 99530 8 99426
+M 0 99529 8 99426
+M 0 99529 8 99426
+M 0 99528 1 99427
+M 0 99527 8 99427
+M 0 99527 8 99427
+M 0 99526 8 99427
+M 0 99526 8 99427
+M 0 99525 1 99428
+M 0 99524 8 99428
+M 0 99524 8 99428
+M 0 99523 8 99428
+M 0 99523 8 99428
+M 0 99543 1 99434
+M 0 99542 8 99434
+M 0 99542 8 99434
+M 0 99541 8 99434
+M 0 99541 8 99434
+M 0 99540 1 99435
+M 0 99539 8 99435
+M 0 99539 8 99435
+M 0 99538 8 99435
+M 0 99538 8 99435
+M 0 99537 1 99436
+M 0 99536 8 99436
+M 0 99536 8 99436
+M 0 99535 8 99436
+M 0 99535 8 99436
+M 0 99534 1 99437
+M 0 99533 8 99437
+M 0 99533 8 99437
+M 0 99532 8 99437
+M 0 99532 8 99437
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

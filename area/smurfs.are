@@ -1,0 +1,313 @@
+#AREADATA
+Name        Smurfy Town~
+Builders    None~
+VNUMs       51300 51349
+Security    1
+Recall      3005
+End
+
+
+
+#MOBILES
+#51300
+Smurfy Guard~
+#cA #LSm#lur#Lfy #0Guard#n~
+#cA #Lsm#lu#Lrf #0guard#c stands here, patrolling the #oentrance.#n
+~
+The guard has a cute little nose, a white hat, white pants, and white shoes.
+~
+19
+0 0 S
+111 0 0 -3d0+0 0d0+0
+0 0
+0 0 0
+#51301
+Smurfy Tourist~
+#LSm#lur#Lfy #0Tourist#n~
+#0A #LSm#lur#Lfy #0Tourist is walking around franticaly taking pictures of his surroundings#n
+~
+The Smurfy Tourist has runs from place to place with wide eyes, taking
+pictures of everything and everyone that passes by him 
+~
+3
+0 0 S
+100 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#51302
+Wandering Smurf boy~
+#0A Wandering #LSm#lur#Lfy #0Boy#n~
+#0A little #LSm#lur#Lfy #0child runs around playing with his friends.#n
+~
+~
+1
+0 500 S
+49 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#51303
+Wandering Smurfy Girl~
+#7A Wandering #PSm#pur#Pfy #7Girl#n~
+#7A wandering #PSm#pur#Pfy #7Child is hopping around playing with a jump rope.#n
+~
+~
+1
+0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#51304
+Smurfette~
+#PSmu#prfe#Ptte#n~
+(no long description)
+~
+~
+1
+0 500 S
+200 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#0
+
+
+
+#OBJECTS
+#51302
+Central fountain smurf~
+#0Central Square Fountain#n~
+#7A huge #0fo#7u#8n#7ta#0in #7lay here with a gigantic statue of a #LS#lm#Lu#lr#Lf #7with a puffy #8white #7beard on it.#n~
+~
+25 0 0
+0 0 0 0
+10000 10000 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#51300
+#0Entrance#c to the #LSm#lur#Lfy #oVillage#n~
+Walking through the teleporter, you find yourself inside a large woodland
+forest.  Happy singing echos throughout, and a bunch of small blue humanoids
+are walking about.  This must be Smurfy Town!  
+~
+0 0 0
+D0
+~
+~
+0 0 51301
+S
+#51301
+#0Along the dirt trail to #LSm#lur#Lfy #gVillage#n~
+~
+0 0 0
+D0
+~
+~
+0 0 51302
+D2
+~
+~
+0 0 51300
+S
+#51302
+#LSm#lur#Lfy #gVillage #0Center Square#n~
+~
+0 0 0
+D0
+~
+~
+0 0 51305
+D1
+~
+~
+0 0 51303
+D2
+~
+~
+0 0 51301
+D3
+~
+~
+0 0 51304
+S
+#51303
+~
+~
+0 0 0
+D3
+~
+~
+0 0 51302
+S
+#51304
+#0Little #LSm#lur#Lfy #gHut#n~
+~
+0 0 0
+D1
+~
+~
+0 0 51302
+S
+#51305
+~
+~
+0 0 0
+D1
+~
+~
+0 0 51306
+D2
+~
+~
+0 0 51302
+S
+#51306
+~
+~
+0 0 0
+D0
+~
+~
+0 0 51308
+D1
+~
+~
+0 0 51307
+D3
+~
+~
+0 0 51305
+S
+#51307
+~
+~
+0 0 0
+D0
+~
+~
+0 0 51309
+D1
+~
+~
+0 0 51313
+D3
+~
+~
+0 0 51306
+S
+#51308
+~
+~
+0 0 0
+D2
+~
+~
+0 0 51306
+S
+#51309
+~
+~
+0 0 0
+D0
+~
+~
+0 0 51310
+D1
+~
+~
+0 0 51312
+D2
+~
+~
+0 0 51307
+S
+#51310
+~
+~
+0 0 0
+D1
+~
+~
+0 0 51311
+D2
+~
+~
+0 0 51309
+S
+#51311
+~
+~
+0 0 0
+D2
+~
+~
+0 0 51312
+D3
+~
+~
+0 0 51310
+S
+#51312
+~
+~
+0 0 0
+D0
+~
+~
+0 0 51311
+D2
+~
+~
+0 0 51313
+D3
+~
+~
+0 0 51309
+S
+#51313
+~
+~
+0 0 0
+D0
+~
+~
+0 0 51312
+D3
+~
+~
+0 0 51307
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 51300 10 51300
+M 0 51300 10 51300
+P 0 51302 0 51302
+M 0 51302 2 51302
+M 0 51303 2 51302
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

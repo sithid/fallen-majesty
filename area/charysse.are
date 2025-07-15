@@ -1,0 +1,2492 @@
+#AREADATA
+Name        The Trolls' Forest~
+Builders    Charysse~
+VNUMs       99200 99399
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#99306
+kyoot little minnow fish~
+#cA #7K#Cy#noo#ct #CM#7i#cnn#7o#nw~
+#lA #LT#liny #LL#little #cF#Ci#cs#Ch #7is here, nibbling on your toes.
+~
+~
+3
+589952 300 S
+1542 0 0 25d3+20 0d0+0
+0 0
+0 0 0
+#99307
+periwinkle~
+#CA #PPer#Ciwin#Pkle#n~
+#PA #CP#ne#Pr#Ci#nw#Pi#Cn#nk#Pl#Ce #7is stuck to a rock.#n
+~
+~
+3
+128 300 S
+1366 0 0 25d3+20 0d0+0
+0 0
+0 0 0
+#99308
+ugly brown slug slime blob~
+#7An #yU#gg#yl#gy #oBrown #0Slug#n~
+#nA #ob#yr#oo#yw#on #gb#ol#go#ob #nis here, sliming along.
+~
+~
+1
+0 -150 S
+1969 0 0 20d0+5 0d0+0
+0 0
+0 0 0
+#99309
+warty toad green~
+#0A #oW#0a#or#0t#oy #GG#gree#Gn #0T#goa#0d#n~
+#nA #oW#0a#or#0t#oy #GG#gree#Gn #yT#nh#0i#nn#yg#n is here, hopping contentedly around.
+~
+~
+1
+0 -150 S
+2022 0 0 20d0+5 0d0+0
+0 0
+0 0 0
+#99310
+three-eyed mutated fishie~
+#sMu#stat#sed #LF#ni#ls#nh#Li#ne~
+#nA #sstra#snge #Lt#nh#lr#ne#Le#n-#le#ny#Le#nd creature is here, blinking at you.
+~
+~
+1
+0 0 S
+1983 0 0 20d0+5 0d0+0
+0 0
+0 0 0
+#99311
+swarm insects bugs~
+#7A #0Sw#na#7rm #0of #nIn#7se#0ct#ns~
+#0A #nC#7l#0o#nu#7d #0o#nf #7I#0n#ns#7e#0c#nt#7s#n is here, buzzing around your head.
+~
+~
+1
+524296 0 S
+2038 0 0 20d0+5 0d0+0
+0 0
+0 0 0
+#99312
+mean big spider~
+#yA #nL#7a#0r#yg#ne #7S#0p#yi#nd#7e#yr#n~
+#yA #nL#7a#0r#yg#ne #7S#0p#yi#nd#7e#yr#n jumps at you and attacks!
+~
+~
+139275
+589992 0 S
+5995 0 0 10d2+10 0d0+0
+0 0
+0 0 0
+#99313
+tendril mist fog~
+#CA #7T#cendri#7l #7of #nL#Civin#ng #7M#cis#7t#n~
+#7A #Cw#7i#cs#np#Cy #7s#ct#nr#Ca#7n#cd #no#cf #7f#Co#ng #7is here, grabbing at your ankle.#n
+~
+~
+1
+16384 0 S
+4438 0 0 15d1+1 0d0+0
+0 0
+0 0 0
+#99314
+fog beast mist animal~
+#CA F#no#Cg B#ceas#Ct#n~
+#7A curious #CC#cre#nat#cur#Ce m#ca#nd#Ce f#cr#no#Cm F#co#Cg #7is here, wavering in and out of reality.
+~
+~
+1
+0 0 S
+4677 0 0 15d1+1 0d0+0
+0 0
+0 0 0
+#99315
+funny monk animal~
+#oA #0M#ro#onk#re#0y#n~
+#7A #sFunny#n-#sLooking #oC#0r#re#na#ot#0u#rr#ne #ow#0i#rt#nh #oa #0L#ro#nn#og #0T#ra#ni#ol#7 is here, just hangin' around.#n
+~
+~
+1
+65536 0 S
+3934 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#99316
+cute little chipmunk animal~
+#oAn #rAd#oo#nra#ob#rle #oCh#rip#nmu#rn#ok#n~
+#7A #rc#ou#rt#oe #rl#oi#rt#ot#rl#oe #rc#or#ri#ot#rt#oe#rr#7 with puffed out cheeks is here, chittering away busily at you.#n
+~
+~
+1
+32768 0 S
+3636 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#99317
+rabid bunny rabbit~
+#rR#7a#nbi#rd #RB#7u#nnn#Ry#n~
+#7A R#na#7b#nb#7i#nt #7is here, foaming at the mouth.#n
+~
+~
+1
+4096 0 S
+4279 0 0 10d0+7 0d0+0
+0 0
+0 0 0
+#99318
+flying squirrel~
+#7A #nF#7l#0yi#7n#ng #7S#0qu#nir#0re#7l#n~
+#nA #7F#0l#nyi#0n#7g #nS#7qu#0ir#7re#nl #7is here, darting from tree to tree.
+~
+~
+1
+524288 0 S
+4049 0 0 10d0+0 0d0+0
+0 0
+0 0 0
+#99319
+rat~
+#0A #oR#na#0t#n~
+#0A #oR#na#0t#n is here, squealing delightedly over the table scraps.
+~
+~
+3
+4096 0 S
+5498 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99320
+tree worship holy~
+#0The #gT#rr#0o#gl#rl#0'#gs #rR#0u#gl#re#0r#n~
+#0The #GA#gl#0m#nig#0h#gt#Gy T#gre#Ge #0of #yW#0o#cr#0s#oh#0i#Cp #7is here, looking important.#n
+~
+~
+11
+0 -1000 S
+6973 0 0 20d2+10 0d0+0
+0 0
+0 0 2
+#99321
+boy troll child~
+#GA L#gittl#Ge #gTr#ro#gll #rB#no#ry#n~
+#gA #rL#ni#Gt#rt#nl#ge #rT#nr#Go#rl#nl #gB#ro#Gy #nis here, torturing a flying squirrel.
+~
+~
+3
+0 0 S
+4518 0 0 10d0+5 0d0+0
+0 0
+0 0 1
+#99322
+girl troll child~
+#PA L#pittl#Pe G#pir#Pl T#prol#Pl#n~
+#PA #nL#pi#nt#Pt#nl#pe#n G#Pi#nr#pl#n T#Pr#no#pl#nl is here, playing with a make-do doll fashioned from squirrel hide.
+~
+~
+3
+0 0 S
+4289 0 0 10d0+5 0d0+0
+0 0
+0 0 2
+#99323
+flying squirrel scared tortured~
+#7A #nF#7l#0yi#7n#ng #7S#0qu#nir#0re#7l#n~
+#nA #7F#0l#nyi#0n#7g #nS#7qu#0ir#7re#nl is here, scared crapless.
+~
+~
+3
+524288 0 S
+4542 0 0 10d2+10 0d0+0
+0 0
+0 0 0
+#99324
+troll child~
+#0A #GTr#go#Gll #gC#0hil#gd#n~
+#GA #rT#nr#go#rl#nl #GC#rh#ni#gl#rd#n is here, whining pitifully.
+~
+~
+3
+0 0 S
+4889 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99325
+troll mother nurse~
+#0A #gT#rro#gll Mo#0th#ger#n~
+#gA #rT#nr#0o#gl#rl #nM#0o#gt#rh#ne#0r #nis here, exhaustedly attending to the children.
+~
+~
+3
+0 0 S
+5417 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#99326
+hungry troll citizen~
+#gA #rH#gungr#ry #gT#0rol#gl#n~
+#gA #rH#nu#0n#gg#rr#ny #0C#gi#rt#ni#0z#ge#rn #nis here, munching on #7b#0o#7n#0e#7s#n.
+~
+~
+3
+0 0 S
+5496 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#99327
+immature male teenage troll~
+#GA #gTe#0ena#gge #GM#ral#Ge#n~
+#gAn #GI#nm#gm#7a#Gt#nu#gr#7e #gM#ra#nl#ge #rT#nr#go#rl#nl is here, showing off his muscles to the #Pl#na#Pd#ni#Pe#ns.
+~
+~
+3
+0 0 S
+5540 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#99328
+giggling teenage girl troll blushing~
+#GA #rB#nl#Ru#ns#rh#ni#Rn#ng #GTe#ge#rna#gg#Ger#n~
+#PA #nG#po#ns#Ps#ni#pp#ny #PF#ne#pm#na#Pl#ne is here, giggling and #rb#nl#Ru#ns#rh#ni#Rn#ng at the dumbass guys.
+~
+~
+3
+0 0 S
+5339 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#99329
+gruff intelligent troll commander~
+#0A #GT#gr#ro#gl#Gl #RCo#rmm#0a#rnd#Rer#n~
+#GA #gG#rr#0u#rf#gf#n, #RInte#rlli#0gent-#rLook#Ring #GT#gr#no#rl#gl#n is here, barking out orders.
+~
+~
+1
+0 0 S
+6102 0 0 10d0+0 0d0+0
+0 0
+0 0 1
+#99330
+troll soldier~
+#0A #GT#gr#ro#gl#Gl #RSo#rl#0d#ri#Rer#n~
+#0A #GT#gr#ro#gl#Gl #RSo#rl#0d#ri#Rer#n is here, glaring at the stupid grunts.
+~
+~
+1
+0 0 S
+5791 0 0 7d0+0 0d0+0
+0 0
+0 0 1
+#99331
+troll soldier~
+#0A #GT#gr#ro#gl#Gl #RSo#rl#0d#ri#Rer#n~
+#0A #GT#gr#ro#gl#Gl #RSo#rl#0d#ri#Rer#n is executing commands.
+~
+~
+1
+0 0 S
+5778 0 0 7d0+0 0d0+0
+0 0
+0 0 1
+#99332
+stupid stoopid dumb grunt~
+#0A #RSt#ro#0o#rp#Rid #GG#gr#ru#gn#Gt#n~
+#0A #RSt#ro#0o#rp#Rid #GG#gr#ru#gn#Gt#n is here, looking extremely dumb.
+~
+~
+1
+0 0 S
+5894 0 0 5d0+0 0d0+0
+0 0
+0 0 1
+#99333
+stupid buff dumb grunt~
+#0A #RB#ru#0f#Rf #GG#gr#ru#gn#Gt#n~
+#0A #RB#ru#0f#Rf #GG#gr#ru#gn#Gt#n is here, doing hard labor-work.
+~
+~
+1
+0 0 S
+5903 0 0 5d2+0 0d0+0
+0 0
+0 0 0
+#99334
+troll bodyguard protector~
+#0A #GT#gr#ro#gl#Gl #RBo#rdy#0g#rua#Rrd#n~
+#0A #GT#gr#ro#gl#Gl #RBo#rdy#0g#rua#Rrd#n leaps up and defends the #GA#gl#0m#nig#0h#gt#Gy #GT#gre#Ge #0of #yW#0o#cr#0s#oh#0i#Cp#0!!!#n
+~
+~
+11
+0 0 S
+6286 0 0 10d1+5 0d0+0
+0 0
+0 0 0
+#99335
+Adult sleeping troll~
+#rA #gT#nr#ro#gl#nl~
+#rA #gT#nr#ro#gl#nl looks slightly less ugly as it is sleeping here.
+~
+~
+3
+0 0 S
+5269 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#99336
+Adult sleeping troll~
+#rA #gT#nr#ro#gl#nl~
+#rA #gT#nr#ro#gl#nl twitches while it is dreaming.
+~
+~
+3
+0 0 S
+5374 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#99337
+troll child tired~
+#nA #yNa#7u#ng#7h#yty #PTr#Lo#Pll #LC#Phil#Ld#n~
+#PA #nT#Lr#no#Pl#nl #LC#nh#Pi#nl#Ld#n is here, reading underneath the covers with a #7f#yl#na#7s#yh#nl#7i#yg#nh#7t#y.#n
+~
+~
+3
+0 0 S
+4760 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#99338
+troll child playing~
+#7A #nNa#7u#yg#7h#nty #LTr#Po#Lll #PC#Lhil#Pd#n~
+#LA #nT#Pr#no#Ll#nl #PC#nh#Li#nl#Pd#n is here, playing with #gG#n.#0I#n. #oJ#0o#ne#gs#n like the other guys, using a #7f#yl#na#7s#yh#nl#7i#yg#nh#7t#y.#n
+~
+~
+3
+0 0 S
+4846 0 0 0d0+0 0d0+0
+0 0
+0 0 1
+#99340
+troll patrol guard~
+#0A #GT#rr#go#Gl#rl #RG#ru#0a#rr#Rd#n~
+#0A #GT#rr#go#Gl#rl #RG#ru#0a#rr#Rd#n is here, patrolling the hallways.
+~
+~
+1
+0 0 S
+5760 0 0 5d1+2 0d0+0
+0 0
+0 0 0
+#99341
+troll cook~
+#GT#gh#re #GT#rr#go#Gl#rl #RC#ro#0o#Rk#n~
+#GT#gh#re #GT#rr#go#Gl#rl #RC#ro#0o#Rk#n is here, threatening away greedy children with her wooden spoon.
+~
+~
+3
+0 0 S
+6018 0 0 0d0+0 0d0+0
+0 0
+0 0 2
+#99342
+greedy hungry troll child~
+#PA #LHu#Png#Lry #PTr#Lo#Pll #LCh#Pi#Lld#n~
+#PA #LHu#Png#Lry #PTr#Lo#Pll #LCh#Pi#Lld #nattempts to sneak some scraps out of the stewpot.
+~
+~
+3
+0 0 S
+5008 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#99339
+clear crown fire ruby~
+#7A #CG#7l#ca#7s#Cs C#7r#co#7w#Cn#n #0studded with #rF#Ri#ye#Rr#ry R#Ru#rb#Ri#re#Rs#n~
+#nA #Cc#nl#Ce#na#Cr#n crown barely exists here, #rf#Rla#ysh#Rin#rg#n with #rf#Ri#rr#Re#r.#n~
+~
+9 0 17
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#99390
+chocolates box thoughtful~
+(no short description)~
+(no description)~
+~
+19 0 1
+0 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#99200
+#CA #LT#nr#Ci#Lc#nk#Cl#Li#nn#Cg #LS#lt#Cr#ne#la#Lm#n~
+~
+0 0 6
+D1
+~
+~
+0 0 99201
+S
+#99201
+#CA #LT#nr#Ci#Lc#nk#Cl#Li#nn#Cg #LS#lt#Cr#ne#la#Lm#n~
+~
+0 0 6
+D1
+~
+~
+0 0 99202
+D3
+~
+~
+0 0 99200
+S
+#99202
+#CA #LT#nr#Ci#Lc#nk#Cl#Li#nn#Cg #LS#lt#Cr#ne#la#Lm#n~
+~
+0 0 6
+D1
+~
+~
+0 0 99203
+D3
+~
+~
+0 0 99201
+S
+#99203
+#CA #LT#nr#Ci#Lc#nk#Cl#Li#nn#Cg #LS#lt#Cr#ne#la#Lm#n~
+~
+0 0 6
+D1
+~
+~
+0 0 99204
+D3
+~
+~
+0 0 99202
+S
+#99204
+#CA #LB#ne#7n#Cd #nin the #LS#lt#Cr#ne#la#Lm#n~
+~
+0 0 6
+D2
+~
+~
+0 0 99205
+D3
+~
+~
+0 0 99203
+S
+#99205
+#0H#le#La#nd#Li#ln#0g #ninto the #oS#yw#0a#ym#op#n~
+~
+0 4 6
+D0
+~
+~
+0 0 99204
+D2
+~
+~
+0 0 99206
+S
+#99206
+#nThe #7B#ne#7g#ni#7n#nn#7i#nn#7g#n of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99205
+D1
+~
+~
+0 0 99208
+D2
+~
+~
+0 0 99210
+D3
+~
+~
+0 0 99207
+S
+#99207
+#nThe #7B#ne#7g#ni#7n#nn#7i#nn#7g#n of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D1
+~
+~
+0 0 99206
+D2
+~
+~
+0 0 99209
+S
+#99208
+#nThe #7B#ne#7g#ni#7n#nn#7i#nn#7g#n of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D2
+~
+~
+0 0 99211
+D3
+~
+~
+0 0 99206
+S
+#99209
+#yN#no#7r#nt#yh#ne#7r#nn #yE#nd#7g#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99207
+D1
+~
+~
+0 0 99210
+D2
+~
+~
+0 0 99217
+D3
+~
+~
+0 0 99212
+S
+#99210
+#yN#no#7r#nt#yh#ne#7r#nn #yE#nd#7g#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99206
+D1
+~
+~
+0 0 99211
+D2
+~
+~
+0 0 99216
+D3
+~
+~
+0 0 99209
+S
+#99211
+#yN#no#7r#nt#yh#ne#7r#nn #yE#nd#7g#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99208
+D1
+~
+~
+0 0 99213
+D2
+~
+~
+0 0 99215
+D3
+~
+~
+0 0 99210
+S
+#99212
+#yN#no#7r#nt#yh#nw#7e#ns#yt#ne#7r#nn #yC#no#7r#nn#ye#nr of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D1
+~
+~
+0 0 99209
+D2
+~
+~
+0 0 99218
+S
+#99213
+#yN#no#7r#nt#yh#ne#7a#ns#yt#ne#7r#nn #yC#no#7r#nn#ye#nr of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D2
+~
+~
+0 0 99214
+D3
+~
+~
+0 0 99211
+S
+#99214
+#yE#na#7s#nt#ye#nr#7n #nE#yd#ng#7e #nof the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99213
+D2
+~
+~
+0 0 99223
+D3
+~
+~
+0 0 99215
+S
+#99215
+#yM#ni#7d#nd#yl#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99211
+D1
+~
+~
+0 0 99214
+D2
+~
+~
+0 0 99222
+D3
+~
+~
+0 0 99216
+S
+#99216
+#yM#ni#7d#nd#yl#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99210
+D1
+~
+~
+0 0 99215
+D2
+~
+~
+0 0 99221
+D3
+~
+~
+0 0 99217
+S
+#99217
+#yM#ni#7d#nd#yl#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99209
+D1
+~
+~
+0 0 99216
+D2
+~
+~
+0 0 99220
+D3
+~
+~
+0 0 99218
+S
+#99218
+#yW#ne#7s#nt#ye#nr#7n #nE#yd#ng#7e #nof the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99212
+D1
+~
+~
+0 0 99217
+D2
+~
+~
+0 0 99219
+S
+#99219
+#yW#ne#7s#nt#ye#nr#7n #nE#yd#ng#7e #nof the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99218
+D1
+~
+~
+0 0 99220
+D2
+~
+~
+0 0 99228
+S
+#99220
+#yM#ni#7d#nd#yl#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99217
+D1
+~
+~
+0 0 99221
+D2
+~
+~
+0 0 99227
+D3
+~
+~
+0 0 99219
+S
+#99221
+#yM#ni#7d#nd#yl#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99216
+D1
+~
+~
+0 0 99222
+D2
+~
+~
+0 0 99226
+D3
+~
+~
+0 0 99220
+S
+#99222
+#yM#ni#7d#nd#yl#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99215
+D1
+~
+~
+0 0 99223
+D2
+~
+~
+0 0 99225
+D3
+~
+~
+0 0 99221
+S
+#99223
+#yE#na#7s#nt#ye#nr#7n #nE#yd#ng#7e #nof the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99214
+D2
+~
+~
+0 0 99224
+D3
+~
+~
+0 0 99222
+S
+#99224
+#yS#no#7u#nt#yh#ne#7a#ns#yt#ne#7r#nn #yC#no#7r#nn#ye#nr of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99223
+D3
+~
+~
+0 0 99225
+S
+#99225
+#yS#no#7u#nt#yh#ne#7r#nn #yE#nd#7g#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99222
+D1
+~
+~
+0 0 99224
+D2
+~
+~
+0 0 99231
+D3
+~
+~
+0 0 99226
+S
+#99226
+#yS#no#7u#nt#yh#ne#7r#nn #yE#nd#7g#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99221
+D1
+~
+~
+0 0 99225
+D2
+~
+~
+0 0 99230
+D3
+~
+~
+0 0 99227
+S
+#99227
+#yS#no#7u#nt#yh#ne#7r#nn #yE#nd#7g#ne of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99220
+D1
+~
+~
+0 0 99226
+D2
+~
+~
+0 0 99229
+D3
+~
+~
+0 0 99228
+S
+#99228
+#yS#no#7u#nt#yh#nw#7e#ns#yt#ne#7r#nn #yC#no#7r#nn#ye#nr of the #oS#yw#0a#ym#op#n~
+~
+0 0 6
+D0
+~
+~
+0 0 99219
+D1
+~
+~
+0 0 99227
+S
+#99229
+#gM#na#yr#0s#gh#nl#ya#0n#gd#ns~
+~
+0 0 6
+D0
+~
+~
+0 0 99227
+D1
+~
+~
+0 0 99230
+S
+#99230
+#gM#na#yr#0s#gh#nl#ya#0n#gd#ns~
+~
+0 0 6
+D0
+~
+~
+0 0 99226
+D1
+~
+~
+0 0 99231
+D2
+~
+~
+0 0 99232
+D3
+~
+~
+0 0 99229
+S
+#99231
+#gM#na#yr#0s#gh#nl#ya#0n#gd#ns~
+~
+0 0 6
+D0
+~
+~
+0 0 99225
+D3
+~
+~
+0 0 99230
+S
+#99232
+A #gM#na#yr#0s#gh#ny #yP#0a#gt#nh #gT#0h#yr#no#yu#0g#gh#n the #gT#Gr#0e#Ge#gs#n~
+~
+0 4 3
+D0
+~
+~
+0 0 99230
+D2
+~
+~
+0 0 99233
+S
+#99233
+#gA #nN#0a#gr#nr#0o#gw #nP#0a#gt#nh #gT#0h#nr#7o#nu#0g#gh#n the #gT#Gr#0e#Ge#gs#n~
+~
+0 4 3
+D0
+~
+~
+0 0 99232
+D2
+~
+~
+0 0 99234
+S
+#99234
+#0D#pe#0e#pp#0e#pr#n into the #gF#0o#Gr#0e#gs#Gt#n~
+~
+0 4 3
+D0
+~
+~
+0 0 99233
+D2
+~
+~
+0 0 99235
+S
+#99235
+#0D#pe#0e#pp#0e#pr#n into the #gF#0o#Gr#0e#gs#Gt#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99234
+D1
+~
+~
+0 0 99257
+D3
+~
+~
+0 0 99236
+S
+#99236
+#nA #cF#no#Cg#n-#cS#nh#Cr#no#cu#nd#Ce#nd #cT#nr#Ca#ni#cl#n~
+~
+0 0 3
+D1
+~
+~
+0 0 99235
+D2
+~
+~
+0 0 99244
+D3
+~
+~
+0 0 99237
+S
+#99237
+#cA #nF#Co#ng#c-#nS#Ch#nr#co#nu#Cd#ne#cd #nT#Cr#na#ci#nl~
+~
+0 0 3
+D1
+~
+~
+0 0 99236
+D3
+~
+~
+0 0 99238
+S
+#99238
+#nA #CF#no#cg#n-#CS#nh#cr#no#Cu#nd#ce#nd #CT#nr#ca#ni#Cl#n~
+~
+0 0 3
+D1
+~
+~
+0 0 99237
+D3
+~
+~
+0 0 99239
+S
+#99239
+#CA #nF#co#ng#C-#nS#ch#nr#Co#nu#cd#ne#Cd #nT#cr#na#Ci#nl~
+~
+0 0 3
+D1
+~
+~
+0 0 99238
+D2
+~
+~
+0 0 99240
+S
+#99240
+#nA #cF#no#Cg#n-#cS#nh#Cr#no#cu#nd#Ce#nd #cT#nr#Ca#ni#cl#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99239
+D2
+~
+~
+0 0 99241
+S
+#99241
+#cA #nF#Co#ng#c-#nS#Ch#nr#co#nu#Cd#ne#cd #nT#Cr#na#ci#nl~
+~
+0 0 3
+D0
+~
+~
+0 0 99240
+D2
+~
+~
+0 0 99242
+S
+#99242
+#nA #CF#no#cg#n-#CS#nh#cr#no#Cu#nd#ce#nd #CT#nr#ca#ni#Cl#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99241
+D2
+~
+~
+0 0 99243
+S
+#99243
+#y!#GS#gt#0u#gc#Gk#y! #nin a #7S#np#0i#7d#ne#0r#7'#ns #0S#7t#ni#0c#7k#ny #0W#7e#nb~
+~
+0 4 3
+D0
+~
+~
+0 0 99242
+S
+#99244
+#0Path to the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 4 3
+D0
+~
+~
+0 0 99236
+D2
+~
+~
+0 0 99246
+S
+#99245
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D1
+~
+~
+0 0 99246
+D2
+~
+~
+0 0 99248
+S
+#99246
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99244
+D1
+~
+~
+0 0 99247
+D2
+~
+~
+0 0 99249
+D3
+~
+~
+0 0 99245
+S
+#99247
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D2
+~
+~
+0 0 99250
+D3
+~
+~
+0 0 99246
+S
+#99248
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99245
+D1
+~
+~
+0 0 99249
+D2
+~
+~
+0 0 99251
+S
+#99249
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99246
+D1
+~
+~
+0 0 99250
+D2
+~
+~
+0 0 99252
+D3
+~
+~
+0 0 99248
+S
+#99250
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99247
+D2
+~
+~
+0 0 99253
+D3
+~
+~
+0 0 99249
+S
+#99251
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99248
+D1
+~
+~
+0 0 99252
+D2
+~
+~
+0 0 99254
+S
+#99252
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99249
+D1
+~
+~
+0 0 99253
+D2
+~
+~
+0 0 99255
+D3
+~
+~
+0 0 99251
+S
+#99253
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99250
+D2
+~
+~
+0 0 99256
+D3
+~
+~
+0 0 99252
+S
+#99254
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99251
+D1
+~
+~
+0 0 99255
+S
+#99255
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99252
+D1
+~
+~
+0 0 99256
+D3
+~
+~
+0 0 99254
+S
+#99256
+#0In the #pP#0i#pt#0c#ph#0-#pD#0a#pr#0k #gW#0o#go#0d#gs#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99253
+D3
+~
+~
+0 0 99255
+S
+#99257
+#CA #nF#co#ng#C-#nS#ch#nr#Co#nu#cd#ne#Cd #nT#cr#na#Ci#nl~
+~
+0 0 3
+D2
+~
+~
+0 0 99258
+D3
+~
+~
+0 0 99235
+S
+#99258
+#nA #cF#no#Cg#n-#cS#nh#Cr#no#cu#nd#Ce#nd #cT#nr#Ca#ni#cl#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99257
+D1
+~
+~
+0 0 99259
+S
+#99259
+#cA #nF#Co#ng#c-#nS#Ch#nr#co#nu#Cd#ne#cd #nT#Cr#na#ci#nl~
+~
+0 0 3
+D2
+~
+~
+0 0 99260
+D3
+~
+~
+0 0 99258
+S
+#99260
+#nA #CF#no#cg#n-#CS#nh#cr#no#Cu#nd#ce#nd #CT#nr#ca#ni#Cl#n~
+~
+0 0 3
+D0
+~
+~
+0 0 99259
+D2
+~
+~
+0 0 99261
+S
+#99261
+#nN#ce#na#Cr#ni#cn#ng #Ct#nh#ce #nE#Cn#nd #co#nf #CA #nF#co#ng#C-#nS#ch#nr#Co#nu#cd#ne#Cd #nT#cr#na#Ci#nl~
+~
+0 0 3
+D0
+~
+~
+0 0 99260
+D1
+~
+~
+0 0 99262
+S
+#99262
+#lT#Lh#ne #7S#lt#La#nr#7t#li#Ln#ng#7s#n of a #y(#nsomewhat#y) #PO#pr#ng#Pa#pn#ni#Pz#pe#nd #PP#pa#nt#Ph#n~
+~
+0 4 1
+D2
+~
+~
+0 0 99263
+D3
+~
+~
+0 0 99261
+S
+#99263
+#pA #nB#Pa#pr#ne#Pl#py#n-#PO#pr#ng#Pa#pn#ni#Pz#pe#nd #PP#pa#nt#Ph#n~
+~
+0 0 1
+D0
+~
+~
+0 0 99262
+D2
+~
+~
+0 0 99264
+S
+#99264
+#nA #PB#pa#nr#Pe#pl#ny#P-#pO#nr#Pg#pa#nn#Pi#pz#ne#Pd #pP#na#Pt#ph#n~
+~
+0 0 1
+D0
+~
+~
+0 0 99263
+D3
+~
+~
+0 0 99265
+S
+#99265
+#pA #nB#Pa#pr#ne#Pl#py#n-#PO#pr#ng#Pa#pn#ni#Pz#pe#nd #PP#pa#nt#Ph#n~
+~
+0 4 1
+D1
+~
+~
+0 0 99264
+D3
+~
+~
+0 0 99266
+S
+#99266
+#oA #yS#0m#ne#ol#yl#ny #oP#ya#nt#0h #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99265
+D2
+~
+~
+0 0 99267
+S
+#99267
+#yA #oS#nm#ye#0l#ol#ny #yP#0a#nt#oh #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99266
+D2
+~
+~
+0 0 99268
+S
+#99268
+#oA #yS#0m#ne#ol#yl#ny #oP#ya#nt#0h #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99267
+D1
+~
+~
+0 0 99270
+D2
+~
+~
+0 0 99269
+S
+#99269
+#yA #oS#nm#ye#0l#ol#ny #yP#0a#nt#oh #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99268
+D1
+~
+~
+0 0 99272
+D2
+~
+~
+0 0 99274
+S
+#99270
+#nThe #gC#no#0m#om#no#gn #nR#0o#oo#nm~
+~
+0 4 0
+D1
+~
+~
+0 0 99271
+D2
+~
+~
+0 0 99272
+D3
+~
+~
+0 0 99268
+S
+#99271
+#nThe #oC#no#gm#nm#0o#on #nR#go#no#0m#n~
+~
+0 0 0
+D2
+~
+~
+0 0 99273
+D3
+~
+~
+0 0 99270
+S
+#99272
+#nThe #oC#no#gm#nm#0o#on #nR#go#no#0m#n~
+~
+0 4 0
+D0
+~
+~
+0 0 99270
+D1
+~
+~
+0 0 99273
+D3
+~
+~
+0 0 99269
+S
+#99273
+#yI#gn#0s#yi#gd#0e #nthe #oK#0i#yt#gc#nh#ye#gn#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99271
+D3
+~
+~
+0 0 99272
+D5
+~
+~
+0 0 99305
+S
+#99274
+#oA #yS#0m#ne#ol#yl#ny #oP#ya#nt#0h #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99269
+D2
+~
+~
+0 0 99275
+D3
+~
+~
+0 0 99276
+S
+#99275
+#nA Turn in the #yS#0m#ne#ol#yl#ny #oP#ya#nt#0h #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99274
+D1
+~
+~
+0 0 99294
+S
+#99276
+Entrance to the #gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 4 0
+D1
+~
+~
+0 0 99274
+D3
+~
+~
+0 0 99277
+S
+#99277
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99276
+D2
+~
+~
+0 0 99286
+D3
+~
+~
+0 0 99278
+S
+#99278
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99277
+D2
+~
+~
+0 0 99285
+D3
+~
+~
+0 0 99279
+S
+#99279
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99278
+D2
+~
+~
+0 0 99284
+D3
+~
+~
+0 0 99280
+S
+#99280
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99279
+D2
+~
+~
+0 0 99283
+D3
+~
+~
+0 0 99281
+S
+#99281
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99280
+D2
+~
+~
+0 0 99282
+S
+#99282
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99281
+D1
+~
+~
+0 0 99283
+D2
+~
+~
+0 0 99291
+S
+#99283
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99280
+D1
+~
+~
+0 0 99284
+D2
+~
+~
+0 0 99290
+D3
+~
+~
+0 0 99282
+S
+#99284
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99279
+D1
+~
+~
+0 0 99285
+D2
+~
+~
+0 0 99289
+D3
+~
+~
+0 0 99283
+S
+#99285
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99278
+D1
+~
+~
+0 0 99286
+D2
+~
+~
+0 0 99288
+D3
+~
+~
+0 0 99284
+S
+#99286
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99277
+D2
+~
+~
+0 0 99287
+D3
+~
+~
+0 0 99285
+S
+#99287
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99286
+D3
+~
+~
+0 0 99288
+S
+#99288
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99285
+D1
+~
+~
+0 0 99287
+D3
+~
+~
+0 0 99289
+S
+#99289
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99284
+D1
+~
+~
+0 0 99288
+D2
+~
+~
+0 0 99292
+D3
+~
+~
+0 0 99290
+S
+#99290
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99283
+D1
+~
+~
+0 0 99289
+D3
+~
+~
+0 0 99291
+S
+#99291
+#gT#0r#no#rl#gl #0B#na#rr#gr#0a#nc#rk#gs#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99282
+D1
+~
+~
+0 0 99290
+S
+#99292
+#gA #0H#ne#ra#gv#0i#nl#ry #gG#0u#na#rr#gd#0e#nd #rR#go#0o#nm~
+~
+0 4 0
+D0
+~
+~
+0 0 99289
+D2
+~
+~
+0 0 99293
+S
+#99293
+#gT#0h#ne #gT#0r#no#gl#0l #yT#oh#0ro#on#ye R#oo#0o#ym#n~
+~
+0 0 0
+D0
+~
+~
+0 0 99292
+S
+#99294
+#yA #oS#nm#ye#0l#ol#ny #yP#0a#nt#oh #nthrough the #gC#oi#nt#ga#od#ne#gl#n~
+~
+0 0 0
+D1
+~
+~
+0 0 99295
+D3
+~
+~
+0 0 99275
+S
+#99295
+The #PE#nn#pd #nof the #oS#nm#ye#0l#ol#ny #yP#na#0t#oh#n~
+~
+0 0 0
+D2
+~
+~
+0 0 99296
+D3
+~
+~
+0 0 99294
+S
+#99296
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 20 0
+D0
+~
+~
+0 0 99295
+D2
+~
+~
+0 0 99301
+D3
+~
+~
+0 0 99297
+S
+#99297
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 16 0
+D1
+~
+~
+0 0 99296
+D2
+~
+~
+0 0 99298
+S
+#99298
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 16 0
+D0
+~
+~
+0 0 99297
+D1
+~
+~
+0 0 99301
+D2
+~
+~
+0 0 99299
+S
+#99299
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 16 0
+D0
+~
+~
+0 0 99298
+D1
+~
+~
+0 0 99300
+S
+#99300
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 16 0
+D0
+~
+~
+0 0 99301
+D1
+~
+~
+0 0 99303
+D3
+~
+~
+0 0 99299
+S
+#99301
+#0B#no#7t#Ct#0o#nm #7B#Cu#0n#nk~
+~
+0 16 0
+D0
+~
+~
+0 0 99296
+D1
+~
+~
+0 0 99302
+D2
+~
+~
+0 0 99300
+D3
+~
+~
+0 0 99298
+D4
+~
+~
+0 0 99304
+S
+#99302
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 16 0
+D2
+~
+~
+0 0 99303
+D3
+~
+~
+0 0 99301
+S
+#99303
+#7S#Cl#0e#ne#7p#Ci#0n#ng #7Q#Cu#0a#nr#7t#Ce#0r#ns~
+~
+0 16 0
+D0
+~
+~
+0 0 99302
+D3
+~
+~
+0 0 99300
+S
+#99304
+#CT#0o#np #0B#Cu#7n#nk~
+~
+0 16 0
+D5
+~
+~
+0 0 99301
+S
+#99305
+#rT#oh#re R#oef#ru#osa#rl #rP#oi#rt#n~
+~
+0 4 0
+D4
+~
+~
+0 0 99273
+S
+#99317
+#GG#cr#ga#Gd#ce #g3#n~
+~
+0 0 0
+D2
+~
+~
+0 0 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 99307 30 99200
+M 0 99306 30 99200
+M 0 99307 30 99201
+M 0 99306 30 99201
+M 0 99307 30 99202
+M 0 99306 30 99202
+M 0 99307 30 99203
+M 0 99306 30 99203
+M 0 99307 30 99204
+M 0 99306 30 99204
+M 0 99311 42 99206
+M 0 99310 42 99206
+M 0 99309 42 99206
+M 0 99308 42 99206
+M 0 99311 42 99207
+M 0 99310 42 99207
+M 0 99309 42 99207
+M 0 99308 42 99207
+M 0 99311 42 99208
+M 0 99310 42 99208
+M 0 99309 42 99208
+M 0 99308 42 99208
+M 0 99311 42 99209
+M 0 99310 42 99209
+M 0 99309 42 99209
+M 0 99308 42 99209
+M 0 99311 42 99210
+M 0 99310 42 99210
+M 0 99309 42 99210
+M 0 99308 42 99210
+M 0 99311 42 99211
+M 0 99310 42 99211
+M 0 99309 42 99211
+M 0 99308 42 99211
+M 0 99311 42 99212
+M 0 99310 42 99212
+M 0 99309 42 99212
+M 0 99308 42 99212
+M 0 99311 42 99213
+M 0 99310 42 99213
+M 0 99309 42 99213
+M 0 99308 42 99213
+M 0 99311 42 99214
+M 0 99310 42 99214
+M 0 99309 42 99214
+M 0 99308 42 99214
+M 0 99311 42 99215
+M 0 99310 42 99215
+M 0 99309 42 99215
+M 0 99308 42 99215
+M 0 99311 42 99216
+M 0 99310 42 99216
+M 0 99309 42 99216
+M 0 99308 42 99216
+M 0 99311 42 99217
+M 0 99310 42 99217
+M 0 99309 42 99217
+M 0 99308 42 99217
+M 0 99311 42 99218
+M 0 99310 42 99218
+M 0 99309 42 99218
+M 0 99308 42 99218
+M 0 99311 42 99219
+M 0 99310 42 99219
+M 0 99309 42 99219
+M 0 99308 42 99219
+M 0 99311 42 99220
+M 0 99310 42 99220
+M 0 99309 42 99220
+M 0 99308 42 99220
+M 0 99311 42 99221
+M 0 99310 42 99221
+M 0 99309 42 99221
+M 0 99308 42 99221
+M 0 99311 42 99222
+M 0 99310 42 99222
+M 0 99309 42 99222
+M 0 99308 42 99222
+M 0 99311 42 99223
+M 0 99310 42 99223
+M 0 99309 42 99223
+M 0 99308 42 99223
+M 0 99311 42 99224
+M 0 99310 42 99224
+M 0 99309 42 99224
+M 0 99308 42 99224
+M 0 99311 42 99225
+M 0 99310 42 99225
+M 0 99309 42 99225
+M 0 99308 42 99225
+M 0 99311 42 99226
+M 0 99310 42 99226
+M 0 99309 42 99226
+M 0 99308 42 99226
+M 0 99311 42 99227
+M 0 99310 42 99227
+M 0 99309 42 99227
+M 0 99308 42 99227
+M 0 99311 42 99228
+M 0 99310 42 99228
+M 0 99309 42 99228
+M 0 99308 42 99228
+M 0 99311 42 99229
+M 0 99310 42 99229
+M 0 99309 42 99229
+M 0 99308 42 99229
+M 0 99311 42 99230
+M 0 99310 42 99230
+M 0 99309 42 99230
+M 0 99308 42 99230
+M 0 99311 42 99231
+M 0 99310 42 99231
+M 0 99309 42 99231
+M 0 99308 42 99231
+M 0 99313 39 99235
+M 0 99314 39 99235
+M 0 99313 39 99236
+M 0 99314 39 99236
+M 0 99313 39 99237
+M 0 99314 39 99237
+M 0 99313 39 99238
+M 0 99314 39 99238
+M 0 99313 39 99239
+M 0 99314 39 99239
+M 0 99313 39 99240
+M 0 99314 39 99240
+M 0 99313 39 99241
+M 0 99314 39 99241
+M 0 99313 39 99242
+M 0 99314 39 99242
+M 0 99312 1 99243
+M 0 99318 24 99245
+M 0 99317 24 99245
+M 0 99316 24 99245
+M 0 99315 24 99245
+M 0 99318 24 99246
+M 0 99317 24 99246
+M 0 99316 24 99246
+M 0 99315 24 99246
+M 0 99318 24 99247
+M 0 99317 24 99247
+M 0 99316 24 99247
+M 0 99315 24 99247
+M 0 99318 24 99248
+M 0 99317 24 99248
+M 0 99316 24 99248
+M 0 99315 24 99248
+M 0 99318 24 99249
+M 0 99317 24 99249
+M 0 99316 24 99249
+M 0 99315 24 99249
+M 0 99318 24 99250
+M 0 99317 24 99250
+M 0 99316 24 99250
+M 0 99315 24 99250
+M 0 99318 24 99251
+M 0 99317 24 99251
+M 0 99316 24 99251
+M 0 99315 24 99251
+M 0 99318 24 99252
+M 0 99317 24 99252
+M 0 99316 24 99252
+M 0 99315 24 99252
+M 0 99318 24 99253
+M 0 99317 24 99253
+M 0 99316 24 99253
+M 0 99315 24 99253
+M 0 99318 24 99254
+M 0 99317 24 99254
+M 0 99316 24 99254
+M 0 99315 24 99254
+M 0 99318 24 99255
+M 0 99317 24 99255
+M 0 99316 24 99255
+M 0 99315 24 99255
+M 0 99318 24 99256
+M 0 99317 24 99256
+M 0 99316 24 99256
+M 0 99315 24 99256
+M 0 99313 39 99257
+M 0 99314 39 99257
+M 0 99313 39 99258
+M 0 99314 39 99258
+M 0 99313 39 99259
+M 0 99314 39 99259
+M 0 99313 39 99260
+M 0 99314 39 99260
+M 0 99313 39 99261
+M 0 99314 39 99261
+M 0 99323 20 99262
+M 0 99323 20 99262
+M 0 99321 20 99262
+M 0 99321 20 99262
+M 0 99322 20 99262
+M 0 99322 20 99262
+M 0 99323 20 99263
+M 0 99323 20 99263
+M 0 99321 20 99263
+M 0 99321 20 99263
+M 0 99322 20 99263
+M 0 99322 20 99263
+M 0 99323 20 99264
+M 0 99323 20 99264
+M 0 99321 20 99264
+M 0 99321 20 99264
+M 0 99322 20 99264
+M 0 99322 20 99264
+M 0 99323 20 99265
+M 0 99323 20 99265
+M 0 99321 20 99265
+M 0 99321 20 99265
+M 0 99322 20 99265
+M 0 99322 20 99265
+M 0 99340 32 99266
+M 0 99340 32 99266
+M 0 99340 32 99267
+M 0 99340 32 99267
+M 0 99340 32 99268
+M 0 99340 32 99268
+M 0 99340 32 99269
+M 0 99340 32 99269
+M 0 99326 12 99270
+M 0 99326 12 99270
+M 0 99326 12 99270
+M 0 99327 6 99271
+M 0 99328 6 99271
+M 0 99327 6 99271
+M 0 99328 6 99271
+M 0 99324 8 99272
+M 0 99324 8 99272
+M 0 99325 8 99272
+M 0 99325 8 99272
+M 0 99341 1 99273
+M 0 99342 11 99273
+M 0 99342 11 99273
+M 0 99342 11 99273
+M 0 99342 11 99273
+M 0 99340 32 99274
+M 0 99340 32 99274
+M 0 99340 32 99275
+M 0 99340 32 99275
+M 0 99329 15 99277
+M 0 99330 15 99277
+M 0 99331 15 99277
+M 0 99332 15 99277
+M 0 99333 15 99277
+M 0 99329 15 99278
+M 0 99330 15 99278
+M 0 99331 15 99278
+M 0 99332 15 99278
+M 0 99333 15 99278
+M 0 99329 15 99279
+M 0 99330 15 99279
+M 0 99331 15 99279
+M 0 99332 15 99279
+M 0 99333 15 99279
+M 0 99329 15 99280
+M 0 99330 15 99280
+M 0 99331 15 99280
+M 0 99332 15 99280
+M 0 99333 15 99280
+M 0 99329 15 99281
+M 0 99330 15 99281
+M 0 99331 15 99281
+M 0 99332 15 99281
+M 0 99333 15 99281
+M 0 99329 15 99282
+M 0 99330 15 99282
+M 0 99331 15 99282
+M 0 99332 15 99282
+M 0 99333 15 99282
+M 0 99329 15 99283
+M 0 99330 15 99283
+M 0 99331 15 99283
+M 0 99332 15 99283
+M 0 99333 15 99283
+M 0 99329 15 99284
+M 0 99330 15 99284
+M 0 99331 15 99284
+M 0 99332 15 99284
+M 0 99333 15 99284
+M 0 99329 15 99285
+M 0 99330 15 99285
+M 0 99331 15 99285
+M 0 99332 15 99285
+M 0 99333 15 99285
+M 0 99329 15 99286
+M 0 99330 15 99286
+M 0 99331 15 99286
+M 0 99332 15 99286
+M 0 99333 15 99286
+M 0 99329 15 99287
+M 0 99330 15 99287
+M 0 99331 15 99287
+M 0 99332 15 99287
+M 0 99333 15 99287
+M 0 99329 15 99288
+M 0 99330 15 99288
+M 0 99331 15 99288
+M 0 99332 15 99288
+M 0 99333 15 99288
+M 0 99329 15 99289
+M 0 99330 15 99289
+M 0 99331 15 99289
+M 0 99332 15 99289
+M 0 99333 15 99289
+M 0 99329 15 99290
+M 0 99330 15 99290
+M 0 99331 15 99290
+M 0 99332 15 99290
+M 0 99333 15 99290
+M 0 99329 15 99291
+M 0 99330 15 99291
+M 0 99331 15 99291
+M 0 99332 15 99291
+M 0 99333 15 99291
+M 0 99334 10 99292
+M 0 99334 10 99292
+M 0 99320 1 99293
+M 0 99340 32 99294
+M 0 99340 32 99294
+M 0 99340 32 99295
+M 0 99340 32 99295
+M 0 99336 42 99296
+M 0 99335 42 99296
+M 0 99336 42 99296
+M 0 99335 42 99296
+M 0 99336 42 99297
+M 0 99335 42 99297
+M 0 99336 42 99297
+M 0 99335 42 99297
+M 0 99336 42 99298
+M 0 99335 42 99298
+M 0 99336 42 99298
+M 0 99335 42 99298
+M 0 99336 42 99299
+M 0 99335 42 99299
+M 0 99336 42 99299
+M 0 99335 42 99299
+M 0 99336 42 99300
+M 0 99335 42 99300
+M 0 99336 42 99300
+M 0 99335 42 99300
+M 0 99337 12 99301
+M 0 99338 12 99301
+M 0 99337 12 99301
+M 0 99338 12 99301
+M 0 99336 42 99302
+M 0 99335 42 99302
+M 0 99336 42 99302
+M 0 99335 42 99302
+M 0 99336 42 99303
+M 0 99335 42 99303
+M 0 99336 42 99303
+M 0 99335 42 99303
+M 0 99337 12 99304
+M 0 99338 12 99304
+M 0 99337 12 99304
+M 0 99338 12 99304
+M 0 99319 14 99305
+M 0 99319 14 99305
+M 0 99319 14 99305
+M 0 99319 14 99305
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

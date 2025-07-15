@@ -1,0 +1,721 @@
+#AREADATA
+Name        World of Darkness~
+Builders    Huw~
+VNUMs       50200 50299
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#50200
+Bloodsucker Vampire~
+#RBloodsucking #rBastard#n~
+#RBloodsucking #rBastard#n is searching for new prey.
+~
+~
+3
+8232 -1000 S
+365 0 0 -100d1+1 0d0+0
+0 0
+0 0 1
+#50201
+vampire nosferatu~
+#pA Nosferatu Vampire#n ~
+#pA Nosferatu Vampire sneaks in the shadow hiding from his prey.#n
+~
+~
+3
+0 0 S
+371 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50202
+monk~
+#0a Monk#n~
+#0A monk sits here in complete meditation.#n
+~
+~
+3
+0 1000 S
+399 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50203
+werewolf~
+#Ga Werewolf#n~
+#GWerewolfs #glurk here under the bushes.#n
+~
+~
+3
+0 0 S
+304 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50204
+wraith~
+#7Wraith#n~
+#7A spiritual Wraith floats here.
+~
+~
+3
+0 500 S
+389 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50205
+Guard~
+#o a Palace Guard#n~
+#o A Palace Guard stands here guarding the entrance to the ancient tombs.#n
+~
+~
+3
+540 1000 S
+278 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50206
+Mummy~
+#oA Mummy#n~
+#oA #0Mummy#o is angry with you for awaking him!#n
+~
+~
+3
+0 0 S
+279 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50207
+Sparring Partner~
+#0a Sparring #7Partner#n~
+#0A sparring servant awaits your next move...#n
+~
+~
+3
+0 0 S
+293 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50208
+Demonish Imp~
+#RDe#rmo#Rni#rc I#Rmp#n~
+#RA De#rmon#Ric I#rm#Rp runs around setting things on fire.#n
+~
+~
+3
+0 -2000 S
+232 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50209
+angel~
+#Lan #7An#Lge#7l#n~
+#LAn #7An#Lge#7l #0flutters above you.#n
+~
+~
+3
+0 2000 S
+271 0 0 -100d0+0 0d0+0
+0 0
+0 0 0
+#50210
+Zhou Yun~
+#yZh#7ou Y#yun#n~
+#yZh#7ou Y#yun#n sits here on his throne.
+~
+~
+3
+631484 0 S
+4013 0 0 -100d1+1 0d0+0
+0 0
+0 0 0
+#50211
+Secret Training Mob~
+Trainger Mob~
+Trainer mob stands here.
+~
+~
+131
+0 0 S
+448 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#50212
+Kahlan serinae erika~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+12 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#50200
+Never ending Quiver~
+never Ending Quiver~
+.~
+~
+15 0 1
+0 0 0 0
+0 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#50200
+#RAr#re#Rna #rPr#Rep#ra#Rra#rti#Ron#rs#n~
+~
+0 16388 1
+D0
+~
+~
+0 0 50204
+D1
+~
+~
+0 0 50201
+D2
+~
+~
+0 0 50203
+D3
+~
+~
+0 0 50202
+S
+#50201
+#LBl#lue #LTe#lam #LWa#lit#Lin#lg R#Loo#lm#n~
+This is the Arena waiting room, Wait here until the match starts.
+ 
+~
+0 16388 0
+D4
+~
+~
+0 0 50207
+S
+#50202
+#RRe#rd T#Rea#rm W#Rai#rti#Rng#r Ro#Rom#n~
+This is the Arena waiting room, Wait here until the match starts.
+ 
+~
+0 16388 0
+D4
+~
+~
+0 0 50208
+S
+#50203
+#GGr#gee#Gn T#gea#Gm W#gai#Gti#gng #GRo#gom#n~
+This is the arena waiting room, Wait here until the match starts.
+ 
+~
+0 16388 0
+D4
+~
+~
+0 0 50209
+S
+#50204
+#pPu#Prp#ple #PTe#pam #PWa#pit#Pin#pg R#Poo#pm#n~
+This is the Arena waiting room, Wait here until the match starts.
+ 
+~
+0 16388 0
+D4
+~
+~
+0 0 50210
+S
+#50205
+Arena~
+~
+0 16384 9
+D0
+~
+~
+0 0 50208
+D1
+~
+~
+0 0 50206
+D4
+~
+~
+0 0 50212
+S
+#50206
+Arena~
+~
+0 16384 9
+D0
+~
+~
+0 0 50207
+D3
+~
+~
+0 0 50205
+D4
+~
+~
+0 0 50211
+S
+#50207
+Arena~
+~
+0 16384 9
+D2
+~
+~
+0 0 50206
+D3
+~
+~
+0 0 50208
+D4
+~
+~
+0 0 50210
+S
+#50208
+Arena~
+~
+0 16384 9
+D1
+~
+~
+0 0 50207
+D2
+~
+~
+0 0 50205
+D4
+~
+~
+0 0 50209
+S
+#50209
+arena~
+~
+0 16384 9
+D5
+~
+~
+0 0 50208
+S
+#50210
+Arena~
+~
+0 16384 9
+D5
+~
+~
+0 0 50207
+S
+#50211
+Arena~
+~
+0 16384 9
+D5
+~
+~
+0 0 50206
+S
+#50212
+Arena~
+~
+0 16384 9
+D5
+~
+~
+0 0 50205
+S
+#50213
+#0Wor#rld#0 of D#rark#0nes#rs#n~
+~
+0 4 1
+D0
+~
+~
+0 0 50214
+S
+#50214
+#0Dark Street#n~
+~
+0 0 1
+D0
+~
+~
+0 0 50224
+D1
+~
+~
+0 0 50215
+D2
+~
+~
+0 0 50213
+D3
+~
+~
+0 0 50220
+D4
+~
+~
+0 0 50229
+D5
+~
+~
+0 0 50228
+S
+#50215
+#0Vampire Hunting Grounds#n~
+~
+0 0 1
+D1
+~
+~
+0 0 50216
+D3
+~
+~
+0 0 50214
+S
+#50216
+#0Vampire Hunting Grounds#n~
+~
+0 0 1
+D0
+~
+~
+0 0 50217
+D3
+~
+~
+0 0 50215
+S
+#50217
+#oMonk Burial Grounds#n~
+~
+0 0 1
+D1
+~
+~
+0 0 50218
+D2
+~
+~
+0 0 50216
+D3
+~
+~
+0 0 50219
+S
+#50218
+#oMonk Burial Grounds~
+~
+0 0 0
+D3
+~
+~
+0 0 50217
+S
+#50219
+#oMonk Burial Grounds~
+~
+0 0 0
+D1
+~
+~
+0 0 50217
+S
+#50220
+#GWilderness~
+Your exiting from the city and entering the wilderness, don't get lost!
+ 
+~
+0 0 0
+D1
+~
+~
+0 0 50214
+D3
+~
+~
+0 0 50221
+S
+#50221
+#GWilderness#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50222
+D1
+~
+~
+0 0 50220
+S
+#50222
+#7Sp#yir#7it Wo#yrl#7d#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50223
+D2
+~
+~
+0 0 50221
+S
+#50223
+#7Sp#yir#7it #7Wo#yrl#7d#n~
+~
+0 0 0
+D3
+~
+~
+0 0 50222
+S
+#50224
+#oPalace entrance~
+~
+0 0 0
+D0
+~
+~
+0 0 50225
+D1
+~
+~
+0 0 50226
+D2
+~
+~
+0 0 50214
+D3
+~
+~
+0 0 50227
+D4
+~
+~
+0 0 50230
+S
+#50225
+#0Sp#oar#0ri#ong#0 Ch#oam#0be#or#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50232
+D2
+~
+~
+0 0 50224
+S
+#50226
+#oBurial Grounds#n~
+~
+0 0 0
+D3
+~
+~
+0 0 50224
+S
+#50227
+#oTomb#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50224
+S
+#50228
+#RFirey #rCavern#n~
+~
+0 0 0
+D4
+~
+~
+0 0 50214
+S
+#50229
+#7Ce#Lle#7st#Lia#7l C#Llo#7ud#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50214
+S
+#50230
+#yR#7oyal Chamber#ys#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50224
+S
+#50231
+#pM#Pa#pg#Pi#pk #PR#po#Po#pm#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50213
+D2
+~
+~
+0 0 250010
+D3
+~
+~
+0 0 50400
+D5
+~
+~
+0 0 50300
+S
+#50232
+Training Room~
+~
+0 0 0
+D2
+~
+~
+0 0 50225
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 50200 15 50215
+M 0 50200 15 50215
+M 0 50200 15 50215
+M 0 50200 15 50215
+M 0 50200 15 50215
+M 0 50200 15 50215
+M 0 50201 15 50216
+M 0 50201 15 50216
+M 0 50201 15 50216
+M 0 50201 15 50216
+M 0 50201 15 50216
+M 0 50201 15 50216
+M 0 50202 15 50217
+M 0 50202 15 50217
+M 0 50202 15 50217
+M 0 50202 15 50217
+M 0 50202 15 50217
+M 0 50202 15 50217
+M 0 50202 15 50218
+M 0 50202 15 50218
+M 0 50202 15 50218
+M 0 50202 15 50218
+M 0 50202 15 50218
+M 0 50202 15 50218
+M 0 50202 15 50219
+M 0 50202 15 50219
+M 0 50202 15 50219
+M 0 50202 15 50219
+M 0 50202 15 50219
+M 0 50202 15 50219
+M 0 50203 15 50220
+M 0 50203 15 50220
+M 0 50203 15 50220
+M 0 50203 15 50220
+M 0 50203 15 50220
+M 0 50203 15 50220
+M 0 50203 15 50221
+M 0 50203 15 50221
+M 0 50203 15 50221
+M 0 50203 15 50221
+M 0 50203 15 50221
+M 0 50203 15 50221
+M 0 50204 15 50222
+M 0 50204 15 50222
+M 0 50204 15 50222
+M 0 50204 15 50222
+M 0 50204 15 50222
+M 0 50204 15 50222
+M 0 50204 15 50223
+M 0 50204 15 50223
+M 0 50204 15 50223
+M 0 50204 15 50223
+M 0 50204 15 50223
+M 0 50204 15 50223
+M 0 50205 6 50224
+M 0 50205 6 50224
+M 0 50205 6 50224
+M 0 50205 6 50224
+M 0 50205 6 50224
+M 0 50205 6 50224
+M 0 50207 15 50225
+M 0 50207 15 50225
+M 0 50207 15 50225
+M 0 50207 15 50225
+M 0 50207 15 50225
+M 0 50207 15 50225
+M 0 50206 20 50226
+M 0 50206 20 50226
+M 0 50206 20 50226
+M 0 50206 20 50226
+M 0 50206 20 50226
+M 0 50206 20 50227
+M 0 50206 20 50227
+M 0 50206 20 50227
+M 0 50206 20 50227
+M 0 50206 20 50227
+M 0 50208 20 50228
+M 0 50208 20 50228
+M 0 50208 20 50228
+M 0 50208 20 50228
+M 0 50208 20 50228
+M 0 50208 20 50228
+M 0 50209 15 50229
+M 0 50209 15 50229
+M 0 50209 15 50229
+M 0 50209 15 50229
+M 0 50209 15 50229
+M 0 50209 15 50229
+M 0 50210 1 50230
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

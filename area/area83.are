@@ -1,0 +1,474 @@
+#AREADATA
+Name        Monks~
+Builders    Mobius~
+VNUMs       50500 50599
+Security    1
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#50501
+grand master monk~
+#7The #CG#crand #CM#caster #CM#conk#n~
+#7The #CG#crand #CM#caster #CM#conk is here doing #CTai Chi#n.
+~
+~
+3
+0 1000 S
+709 0 0 0d20+3 0d0+0
+0 0
+0 0 0
+#50502
+grand master monk~
+#7The #RG#rrand #RM#raster #RM#ronk#n~
+#7The #RG#rrand #RM#raster #RM#ronk is here practicing with his #7Silver Sword#n.
+~
+~
+3
+0 1000 S
+721 0 0 0d20+3 0d0+0
+0 0
+0 0 0
+#50503
+grand master monk~
+#7The #LGrand Master Monk#n~
+#7The #LGrand Master Monk#n is here channeling his #7Chi#n.
+~
+~
+3
+0 1000 S
+814 0 0 0d20+3 0d0+0
+0 0
+0 0 0
+#50504
+monk master grand~
+#7The #GG#grand #GM#gaster #GM#gonk#n~
+#7The #GG#grand #GM#gaster #GM#gonk#n is here breaking boards with his hands.
+~
+~
+3
+0 1000 S
+778 0 0 0d20+3 0d0+0
+0 0
+0 0 0
+#50505
+monk abbot high~
+#7The #yH#7igh #yA#7bbot#n~
+#7The #yH#7igh #yA#7bbot is here preaching his gospel.#n
+~
+~
+3
+8192 1000 S
+2025 0 0 0d20+3 0d0+0
+0 0
+0 0 0
+#50506
+insane monk monk1~
+#7An #sIn#ssa#sne#n #7Monk#n~
+#7An #sIn#ssa#sne#n #7Monk#n is here babbling endlessly.
+~
+~
+3
+0 1000 S
+2012 0 0 0d20+3 0d0+0
+0 0
+0 0 0
+#50507
+insane monk monk2~
+#7An #sIn#ssa#sne#n #7Monk#n~
+#7An #sIn#ssa#sne#n #7Monk#n is here biting his tognue.
+~
+~
+3
+0 1000 S
+2138 0 0 10d20+3 0d0+0
+0 0
+0 0 0
+#50508
+insane monk monk3~
+#7An #sIn#ssa#sne#n #7Monk#n~
+#7An #sIn#ssa#sne#n #7Monk#n is here chewing on his fingernails.
+~
+~
+3
+0 1000 S
+2457 0 0 20d20+3 0d0+0
+0 0
+0 0 0
+#50509
+insane monk monk4~
+#7An #sIn#ssa#sne #7Monk#n~
+#7An #sIn#ssa#sne #7Monk#n is here picking his nose.
+~
+~
+3
+0 1000 S
+2671 0 0 30d20+3 0d0+0
+0 0
+0 0 0
+#50510
+insane monk monk5~
+#7An #sIn#ssa#sne#n #7Monk#n~
+#7An #sIn#ssa#sne#n #7Monk#n is here eating bugs.
+~
+~
+3
+0 1000 S
+3009 0 0 40d20+3 0d0+0
+0 0
+0 0 0
+#50511
+insane monk monk6~
+#7An old #sIn#ssa#sne#n #7Monk#n~
+#7An old #sIn#ssa#sne#n #7Monk#n is here twirling his beard.
+~
+~
+9
+40 1000 S
+6961 0 0 50d20+3 0d0+0
+0 0
+0 0 0
+#50512
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+15 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#50500
+#0The Beginning#n~
+~
+0 8 0
+D0
+~
+~
+0 0 50501
+S
+#50501
+#RThe #7First #RTrial#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50502
+S
+#50502
+#RThe #ySecond #RTrial#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50503
+S
+#50503
+#RThe #7Third #RTrial#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50504
+S
+#50504
+#RThe #yFourth #RTrial#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50505
+S
+#50505
+#7The #RFinal #7Trial#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50506
+S
+#50506
+#0The #7New #0Beginning#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50507
+S
+#50507
+#7Starting the #0Descent#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50508
+S
+#50508
+#7The #0Descent#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50509
+S
+#50509
+#7The #0Descent#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50510
+S
+#50510
+#7The #0Descent#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50511
+S
+#50511
+#7The #RFinal #0Downward Slope#n~
+~
+0 0 0
+D5
+~
+~
+0 0 50512
+S
+#50512
+#0The #rCenter #0of the Pit#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50515
+D1
+~
+~
+0 0 50513
+D2
+~
+~
+0 0 50516
+D3
+~
+~
+0 0 50514
+D5
+~
+~
+0 0 420000
+S
+#50513
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50519
+D2
+~
+~
+0 0 50517
+D3
+~
+~
+0 0 50512
+S
+#50514
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50520
+D1
+~
+~
+0 0 50512
+D2
+~
+~
+0 0 50518
+S
+#50515
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50519
+D2
+~
+~
+0 0 50512
+D3
+~
+~
+0 0 50520
+S
+#50516
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50512
+D1
+~
+~
+0 0 50517
+D3
+~
+~
+0 0 50518
+S
+#50517
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50513
+D3
+~
+~
+0 0 50516
+S
+#50518
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D0
+~
+~
+0 0 50514
+D1
+~
+~
+0 0 50516
+S
+#50519
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D2
+~
+~
+0 0 50513
+D3
+~
+~
+0 0 50515
+S
+#50520
+#0The Bottom of the Pit#n~
+~
+0 0 0
+D1
+~
+~
+0 0 50515
+D2
+~
+~
+0 0 50514
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 50501 1 50501
+M 0 50501 1 50501
+M 0 50501 1 50501
+M 0 50501 1 50501
+M 0 50501 15 50501
+M 0 50502 1 50502
+M 0 50502 1 50502
+M 0 50502 1 50502
+M 0 50502 1 50502
+M 0 50502 20 50502
+M 0 50503 1 50503
+M 0 50503 1 50503
+M 0 50503 1 50503
+M 0 50503 1 50503
+M 0 50503 25 50503
+M 0 50504 1 50504
+M 0 50504 1 50504
+M 0 50504 1 50504
+M 0 50504 1 50504
+M 0 50504 30 50504
+M 0 50505 10 50505
+M 0 50506 1 50507
+M 0 50506 1 50507
+M 0 50506 1 50507
+M 0 50506 1 50507
+M 0 50506 15 50507
+M 0 50507 1 50508
+M 0 50507 1 50508
+M 0 50507 1 50508
+M 0 50507 1 50508
+M 0 50507 20 50508
+M 0 50508 1 50509
+M 0 50508 1 50509
+M 0 50508 1 50509
+M 0 50508 1 50509
+M 0 50508 20 50509
+M 0 50509 1 50510
+M 0 50509 1 50510
+M 0 50509 1 50510
+M 0 50509 1 50510
+M 0 50509 25 50510
+M 0 50510 1 50511
+M 0 50510 1 50511
+M 0 50510 1 50511
+M 0 50510 1 50511
+M 0 50510 30 50511
+M 0 50511 20 50512
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

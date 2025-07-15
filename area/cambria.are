@@ -1,0 +1,1651 @@
+#AREADATA
+Name        Cambria~
+Builders    Huw~
+VNUMs       101500 101599
+Security    9
+Recall      3005
+Age         15
+End
+
+
+
+#MOBILES
+#101500
+Guardian Shopkeeper~
+#RE#rvil #RG#ruardian #RS#rhopkeeper#n~
+The #RE#rvil #RG#ruardian #RS#rhopkeeper#n shows off his guardian leggings.
+~
+~
+11
+4194330 -1000 S
+13983 0 0 35d20+3 0d0+0
+0 0
+0 0 1
+#101501
+Guardian Shopkeeper~
+#0N#reutral #0G#ruardian #0S#rhopkeeper#n~
+The #0N#reutral #0G#ruardian #0S#rhopkeeper#n is here displaying his leggings.
+~
+~
+11
+4194330 0 S
+13006 0 0 35d20+3 0d0+0
+0 0
+0 0 0
+#101502
+Guardian Shopkeeper~
+#yG#7ood #yG#7uardian #yS#7hopkeeper#n~
+A #yG#7ood #yG#7uardian #yS#7hopkeeper#n is here mooning you... his leggings pulled down to his ankles.
+~
+~
+11
+4194330 1000 S
+13006 0 0 35d20+3 0d0+0
+0 0
+0 0 0
+#101503
+#RC#ramu#Rl#rodi#Ra#rn Tr#Ro#rope#Rr#n~
+#RC#ramu#Rl#rodi#Ra#rn Tr#Ro#rope#Rr#n~
+A large #RC#ramu#Rl#rodi#Ra#rn Tr#Ro#rope#Rr#n is here in formation.
+~
+~
+11
+24 0 S
+8996 0 0 40d20+3 0d0+0
+0 0
+0 0 0
+#101504
+Camulodian Cavalry~
+#RC#lamulodian #RC#lavalry#n~
+A #RC#lamulodian #RC#lavalry#n is riding around here.
+~
+~
+25
+8 0 S
+4057 0 0 20d0+0 0d0+0
+0 0
+0 0 0
+#101505
+Camulodian Footsoldier~
+#RC#ramulodian #RF#rootsoldier#n~
+A formation of #RC#ramulodian #RF#rootsoldiers#n are here.
+~
+~
+19
+0 0 S
+3871 0 0 20d0+0 0d0+0
+0 0
+0 0 0
+#101506
+Camulodian longbowman~
+#RC#ramulodian #RA#rrcher#n~
+A #RC#ramulodian #RA#rrcher#n is here training an arrow to hit your eyeball.
+~
+~
+19
+65538 0 S
+4298 0 0 0d20+0 0d0+0
+0 0
+0 0 0
+#101507
+cambrian crossbower~
+#rC#Rambrian #rA#Rrcher#n~
+A tuff #RC#rambrian #RA#rrcher#n is here with his bow.
+~
+~
+27
+8 0 S
+4150 0 0 40d20+2 0d0+0
+0 0
+0 0 0
+#101508
+#oC#yambrian #oW#yarrior#n~
+#oC#yambrian #oW#yarrior#n~
+A large #oC#yambrian #oW#yarrior#n charges around.
+~
+~
+17
+8 0 S
+22 0 0 20d0+3 0d0+0
+0 0
+0 0 0
+#101509
+Northener~
+#lA #lN#Lortherner#n~
+#lA #lN#Lortherner#n is here walking around neglected.
+~
+~
+25
+0 0 S
+4460 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#101510
+Southerner~
+#RS#routherner#n~
+A #RS#routherner#n dances in from the south.
+~
+~
+19
+0 0 S
+3588 0 0 30d1+2 0d0+0
+0 0
+0 0 0
+#101511
+Westerner~
+#RW#resterner#n~
+A #RW#resterner#n flies in directly from the west.
+~
+~
+25
+8 0 S
+4998 0 0 40d20+3 0d0+0
+0 0
+0 0 0
+#101512
+Camulodian Trooper2~
+#LT#Rrooper #LO#Rf #LC#Ramulod#n~
+A huge #LT#Rrooper #LO#Rf #LC#Ramulod#n is here swinging his axe.
+~
+~
+25
+8 0 S
+4583 0 0 35d10+2 0d0+0
+0 0
+0 0 0
+#101513
+Camulodian Prince~
+#oC#Ramulodian #oP#Rrince#n~
+A #oC#Ramulodian #oP#Rrince#n is here waving his broadsword around.
+~
+~
+19
+128 0 S
+4541 0 0 30d10+1 0d0+0
+0 0
+0 0 0
+#101514
+Horse~
+#RH#rorse#n~
+A large unmounted #RH#rorse#n gallops around.
+~
+~
+25
+0 0 S
+3985 0 0 35d5+2 0d0+0
+0 0
+0 0 0
+#101515
+Sheep~
+#7Sheep#n~
+A tiny #7Sheep#n eats some sheep food.
+~
+~
+19
+0 0 S
+3715 0 0 20d12+1 0d0+0
+0 0
+0 0 0
+#101516
+Mounted Cavalry~
+#RM#Lounted #RC#Lavalry#n~
+A #RM#Lounted #RC#Lavalry#n Soldier is on their horse charging.
+~
+~
+25
+8 0 S
+4206 0 0 40d7+2 0d0+0
+0 0
+0 0 0
+#101517
+Cambrian Soldier~
+#oC#rambrian #oS#roldier#n~
+A built #oC#rambrian #oS#roldier#n has a viper blade.
+~
+~
+27
+8 0 S
+4467 0 0 20d20+3 0d0+0
+0 0
+0 0 0
+#101518
+sniper~
+#RS#rniping #RA#rrcher#n~
+A #RS#rniping #RA#rrcher#n is closing in on you.
+~
+~
+25
+0 0 S
+5001 0 0 30d20+1 0d0+0
+0 0
+0 0 0
+#101519
+Cambrian Mountaineer~
+#RC#oambrian #RM#oountaineer#n~
+A #RC#oambrian #RM#oountaineer#n climbing towards and up the slopes.
+~
+~
+19
+0 0 S
+4447 0 0 34d2+1 0d0+0
+0 0
+0 0 0
+#101520
+Siege Tank~
+#yS#Riege #yT#Rank#n~
+A large #yS#Riege #yT#Rank#n is here ready to go into combat at a word's command.
+~
+~
+25
+8 0 S
+4557 0 0 50d20+3 0d0+0
+0 0
+0 0 0
+#101521
+Pig Hog~
+#RA #rLarge #RPig#n~
+#RA #rLarge #RPig#n is here lying in the #omud#n!
+~
+~
+19
+0 0 S
+4500 0 0 30d3+1 0d0+0
+0 0
+0 0 0
+#101522
+Pig~
+#0A small #oP#0ig#n~
+#0A small #oP#0ig#n is covered in #omud#n!
+~
+~
+19
+0 0 S
+4437 0 0 20d10+1 0d0+0
+0 0
+0 0 0
+#101523
+Goat~
+#7G#yoat#n~
+A large #7G#yoat#n is here.
+~
+~
+17
+0 0 S
+3509 0 0 10d18+2 0d0+0
+0 0
+0 0 0
+#101524
+Hawk~
+#yH#7awk#n~
+A huge sneering #yH#7awk#n flies down from above.#n
+~
+~
+25
+40 0 S
+3418 0 0 20d5+1 0d0+0
+0 0
+0 0 0
+#101525
+Guardian Beast~
+#RG#ouardian #RB#oeast#n~
+The Gigantic #RG#ouardian #RB#oeast#n is here clawing at his claws...
+~
+~
+27
+65536 0 S
+14021 0 0 50d20+100 0d0+0
+0 0
+0 0 0
+#101526
+Cambrian Citizen~
+#RCambrian Citizen#n~
+A young #RCambrian Citizen#n is here.
+~
+~
+19
+0 0 S
+4482 0 0 20d10+2 0d0+0
+0 0
+0 0 0
+#101527
+Camulodian Citizen~
+#PC#pamulodian #PC#pitizen#n~
+A #PC#pamulodian #PC#pitizen#n is here throwing stones at you.
+~
+~
+27
+8 0 S
+2999 0 0 10d20+2 0d0+0
+0 0
+0 0 0
+#101528
+Cambrian Drunk~
+#RD#Pr#runk #RC#Pa#rmbrian#n~
+An old #RD#Pr#runk #RC#Pa#rmbrian#n can't hit a darned thing.
+~
+~
+9
+8 0 S
+4343 0 0 5d0+3 0d0+0
+0 0
+0 0 0
+#101529
+Camulodian Janitor~
+#LC#0amulodian #LJ#0anitor#n~
+A #LC#0amulodian #LJ#0anitor#n is here sweeping away the dusty streets.
+~
+~
+21
+0 0 S
+3984 0 0 20d10+2 0d0+0
+0 0
+0 0 0
+#101530
+Guardian Whore~
+#RT#7h#re #0G#Ru#7a#rr#0d#Ri#7a#rn #0W#Rh#7o#rr#0e#n~
+#RW#rT#RF #ri#Rs #ra #7g#ru#7a#Rr#7d#ri#7a#Rn#n #RW#rH#RO#rR#RE#n?
+~
+~
+11
+65538 0 S
+14016 0 0 50d20+3 0d0+0
+0 0
+0 0 0
+#101562
+no name~
+(no short description)~
+(no long description)
+~
+~
+1
+0 0 S
+52 0 0 0d0+0 0d0+0
+0 0
+0 0 0
+#0
+
+
+
+#OBJECTS
+#101500
+Guardian Leggings~
+#RC#rhaotic #RG#ruardian #RL#reggings#n~
+A pair of #RC#rhaotic #RG#ruardian #RL#reggings#n are here.~
+~
+9 2594 33
+25 0 0 17
+0 0 0
+A
+14 20000
+A
+18 500
+A
+17 -250
+A
+19 200
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101501
+Guardian Leggings~
+#0N#7eutral #0G#7uardian #0L#7eggings#n~
+A set of #0N#7eutral #0G#7uardian #0L#7eggings#n lie here.~
+~
+9 1570 33
+25 0 0 17
+0 0 0
+A
+14 20000
+A
+17 -250
+A
+18 500
+A
+19 200
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101502
+Guardian Leggings~
+#7H#yoly #7G#yuardian #7L#yeggings#n~
+A pair of #7H#yoly #7G#yuardian #7L#yeggings#n are here.~
+~
+9 3072 33
+25 0 0 17
+0 0 0
+A
+14 20000
+A
+18 500
+A
+17 -250
+A
+19 200
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101503
+Guardian Claws Beast~
+#RT#rh#ye #RC#rla#Rw#rs o#yf #Rt#rh#ye#r #RG#r#y#rua#yr#rdi#Ra#rn B#Re#ya#rs#Rt#n~
+#RT#rh#ye #RC#rla#Rw#rs o#yf #Rt#rh#ye#r #RG#r#y#rua#yr#rdi#Ra#rn B#Re#ya#rs#Rt#n are dug deep into the earth.~
+~
+5 0 8193
+17024 191 283 5
+0 0 0
+A
+24 -100
+A
+17 -250
+A
+19 500
+A
+18 500
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101504
+Cambrian Large Bow~
+#RC#rambrian #RL#rarge #RB#row#n~
+Down~
+~
+5 0 8193
+24 20 30 2
+10 10 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#101505
+Guardian Whore Head~
+#RT#rh#0e #RG#ru#0a#Rr#rd#0i#Ra#rn #RW#rh#0o#Rr#re#0'#Rs #rH#0e#Ra#rd#n~
+#RT#Ghe #Rh#Gead #Ro#Gf #Ra #Rg#Guardian #Rw#Ghore #Rl#Gies #Rh#Gere.#n~
+~
+5 0 8193
+17024 200 250 12
+0 0 0
+A
+24 -200
+A
+19 300
+A
+18 300
+A
+17 -500
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#101500
+#gC#Gambria #gM#Gountains#n~
+~
+0 4 0
+D2
+~
+~
+0 0 101545
+D4
+~
+~
+0 0 101501
+D5
+~
+~
+0 0 101520
+S
+#101501
+#GC#gambrian #GM#gountain#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101508
+D4
+~
+~
+0 0 101502
+D5
+~
+~
+0 0 101500
+S
+#101502
+#GC#gambrian #GM#gountain#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101503
+D5
+~
+~
+0 0 101501
+S
+#101503
+#GC#gambrian #GM#gountain#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101504
+D2
+~
+~
+0 0 101502
+S
+#101504
+#GC#gambrian #GM#gountain#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101503
+D5
+~
+~
+0 0 101505
+S
+#101505
+#RC#rambrian #RH#rillside#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101506
+D4
+~
+~
+0 0 101504
+S
+#101506
+#RC#rambrian #RH#rillside#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101505
+D5
+~
+~
+0 0 101507
+S
+#101507
+#RC#rambrian #RH#rillside#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101508
+D4
+~
+~
+0 0 101506
+D5
+~
+~
+0 0 101509
+S
+#101508
+#RC#rambrian #RH#rillside#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101507
+D2
+~
+~
+0 0 101501
+S
+#101509
+#RC#rambrian #RT#rown#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101510
+D3
+~
+~
+0 0 101511
+D4
+~
+~
+0 0 101507
+S
+#101510
+#RC#rambrian #RT#rown#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101512
+D3
+~
+~
+0 0 101509
+S
+#101511
+#RC#rambrian #RT#rown#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101513
+D1
+~
+~
+0 0 101509
+S
+#101512
+#RC#rambrian #RT#rown#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101510
+D5
+~
+~
+3 0 101519
+S
+#101513
+#RC#oambrian #RL#oarge #RT#oent#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101514
+D2
+~
+~
+0 0 101511
+D3
+~
+~
+0 0 101515
+S
+#101514
+#RC#oambrian #RL#oarge #RT#oent#n~
+~
+0 0 0
+D3
+~
+~
+0 0 101513
+D4
+~
+~
+0 0 101516
+S
+#101515
+#RC#oambrian #RL#oarge #RT#oent#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101513
+D4
+~
+~
+0 0 101517
+S
+#101516
+#RC#oambrian #RL#oarge #RT#oent#n~
+~
+0 128 0
+D3
+~
+~
+0 0 101518
+D5
+~
+~
+0 0 101514
+S
+#101517
+#RC#oambrian #RL#oarge #RT#oent#n~
+~
+0 128 0
+D1
+~
+~
+0 0 101518
+D5
+~
+~
+0 0 101515
+S
+#101518
+#RC#oambrian #RL#oarge #RT#oent#n~
+~
+0 1073312 0
+D1
+~
+~
+0 0 101516
+D3
+~
+~
+0 0 101517
+S
+#101519
+#LB#lottom #LO#lf #LA #LW#lell#n~
+~
+0 0 0
+D4
+~
+~
+3 0 101512
+S
+#101520
+#oC#yambria #oV#yillage#n~
+~
+0 2 0
+D0
+~
+~
+0 0 101523
+D1
+~
+~
+0 0 101522
+D2
+~
+~
+0 0 101521
+D3
+~
+~
+0 0 101524
+D4
+~
+~
+0 0 101500
+S
+#101521
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101520
+D1
+~
+~
+0 0 101527
+D2
+~
+~
+0 0 101537
+D3
+~
+~
+0 0 101526
+S
+#101522
+#oC#yambria #oV#yillage#n~
+~
+0 2 0
+D0
+~
+~
+0 0 101528
+D1
+~
+~
+0 0 101529
+D2
+~
+~
+0 0 101527
+D3
+~
+~
+0 0 101520
+S
+#101523
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101528
+D2
+~
+~
+0 0 101520
+D3
+~
+~
+0 0 101525
+S
+#101524
+#oC#yambria #oV#yillage#n~
+~
+0 2 0
+D0
+~
+~
+0 0 101525
+D1
+~
+~
+0 0 101520
+D2
+~
+~
+0 0 101526
+D3
+~
+~
+0 0 101535
+S
+#101525
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101523
+D2
+~
+~
+0 0 101524
+S
+#101526
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101524
+D1
+~
+~
+0 0 101521
+S
+#101527
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101522
+D3
+~
+~
+0 0 101521
+S
+#101528
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101522
+D3
+~
+~
+0 0 101523
+S
+#101529
+#oC#yambria #oV#yillage#n~
+~
+0 2 0
+D1
+~
+~
+0 0 101530
+D3
+~
+~
+0 0 101522
+S
+#101530
+#oC#yambria #oS#yhack#n~
+~
+0 2 0
+D3
+~
+~
+0 0 101529
+D5
+~
+~
+0 0 101531
+S
+#101531
+#yC#oambrian #yS#oewers#n~
+~
+0 2 0
+D3
+~
+~
+0 0 101532
+D4
+~
+~
+0 0 101530
+S
+#101532
+#yC#oambrian #yS#oewers#n~
+~
+0 130 0
+D1
+~
+~
+0 0 101531
+D3
+~
+~
+0 0 101533
+D5
+~
+~
+0 0 101544
+S
+#101533
+#yC#oambrian #yS#oewers#n~
+~
+0 2 0
+D1
+~
+~
+0 0 101532
+D3
+~
+~
+0 0 101534
+S
+#101534
+#yC#oambrian #yS#oewers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101533
+D3
+~
+~
+0 0 101536
+S
+#101535
+#oC#yambria #oV#yillage#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101524
+D5
+~
+~
+0 0 101536
+S
+#101536
+#yC#oambrian #yS#oewers#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101534
+D4
+~
+~
+0 0 101535
+S
+#101537
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101521
+D1
+~
+~
+0 0 101538
+D2
+~
+~
+0 0 101543
+S
+#101538
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101539
+D3
+~
+~
+0 0 101537
+S
+#101539
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101538
+D2
+~
+~
+0 0 101540
+S
+#101540
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101539
+D3
+~
+~
+0 0 101541
+S
+#101541
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101540
+D3
+~
+~
+0 0 101542
+S
+#101542
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101543
+D1
+~
+~
+0 0 101541
+S
+#101543
+#RC#rambrian #RT#rownhouse#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101537
+D2
+~
+~
+0 0 101542
+S
+#101544
+#yG#oiant #yH#oole#n~
+~
+0 1073314 0
+D4
+~
+~
+0 0 101532
+S
+#101545
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101500
+D2
+~
+~
+0 0 101546
+S
+#101546
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101545
+D2
+~
+~
+0 0 101547
+S
+#101547
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101546
+D2
+~
+~
+0 0 101548
+S
+#101548
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101547
+D1
+~
+~
+0 0 101549
+S
+#101549
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101550
+D3
+~
+~
+0 0 101548
+S
+#101550
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D1
+~
+~
+0 0 101551
+D3
+~
+~
+0 0 101549
+S
+#101551
+#RD#rusty #RP#rath #RB#retween #RC#rambria #RA#rnd #RC#ramulod#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101552
+D3
+~
+~
+0 0 101550
+S
+#101552
+#lE#Lntrance #LT#lo #lC#Lamulod#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101553
+D2
+~
+~
+0 0 101551
+S
+#101553
+#lC#Lamulod#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101552
+D4
+~
+~
+0 0 101554
+S
+#101554
+#lC#Lamulod#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101555
+D5
+~
+~
+0 0 101553
+S
+#101555
+#LC#lamulod #lM#Larket #LS#lquare~
+~
+0 0 0
+D0
+~
+~
+0 0 101554
+D1
+~
+~
+0 0 101559
+D3
+~
+~
+0 0 101556
+S
+#101556
+#LC#lamulod #LM#larket#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101557
+D1
+~
+~
+0 0 101555
+D2
+~
+~
+0 0 101558
+S
+#101557
+#LC#lamulod #LM#larket#n~
+~
+0 0 0
+D2
+~
+~
+0 0 101556
+S
+#101558
+#LC#lamulod #LM#larket#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101556
+S
+#101559
+#LC#lamulod #lM#Larket#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101561
+D2
+~
+~
+0 0 101560
+D3
+~
+~
+0 0 101555
+S
+#101560
+#LC#lamulod #lM#Larket#n~
+~
+0 0 0
+D0
+~
+~
+0 0 101559
+S
+#101561
+#LC#lamulod #lM#Larket#n~
+~
+0 128 0
+D0
+~
+~
+0 0 101562
+D2
+~
+~
+0 0 101559
+S
+#101562
+#LC#lamulod #lM#Larket#n~
+~
+0 1065088 0
+D0
+~
+~
+0 0 101564
+D1
+~
+~
+0 0 101563
+D2
+~
+~
+0 0 101561
+D3
+~
+~
+0 0 101565
+S
+#101563
+#RC#ramulodian #RS#rhop#n~
+~
+0 1073312 0
+D3
+~
+~
+0 0 101562
+S
+#101564
+#7C#0amulodian #7S#0hop#n~
+~
+0 1073312 0
+D2
+~
+~
+0 0 101562
+S
+#101565
+#0C#7amulodian #0S#7hop#n~
+~
+0 1073312 0
+D1
+~
+~
+0 0 101562
+S
+#0
+
+
+
+#SPECIALS
+M 101500 spec_rand_heals
+M 101501 spec_rand_heals
+M 101502 spec_rand_heals
+M 101509 spec_breath_gas
+M 101512 spec_breath_gas
+M 101517 spec_breath_gas
+M 101518 spec_breath_acid
+M 101525 spec_rand_heals
+M 101530 spec_rand_heals
+S
+
+
+
+#RESETS
+M 0 101510 10 101500
+M 0 101513 10 101501
+M 0 101513 10 101501
+M 0 101519 8 101502
+M 0 101519 8 101502
+M 0 101516 4 101502
+M 0 101518 11 101502
+M 0 101519 8 101503
+M 0 101519 8 101503
+M 0 101518 11 101503
+M 0 101518 11 101503
+M 0 101518 11 101503
+M 0 101519 8 101504
+M 0 101519 8 101504
+M 0 101518 11 101504
+M 0 101518 11 101504
+M 0 101518 11 101504
+M 0 101519 8 101505
+M 0 101519 8 101505
+M 0 101518 11 101505
+M 0 101518 11 101505
+M 0 101518 11 101505
+M 0 101515 5 101507
+M 0 101515 5 101507
+M 0 101515 5 101507
+M 0 101515 5 101507
+M 0 101515 5 101507
+M 0 101513 10 101507
+M 0 101513 10 101508
+M 0 101516 4 101508
+M 0 101516 4 101508
+M 0 101516 4 101508
+M 0 101516 4 101508
+M 0 101513 10 101508
+M 0 101513 10 101509
+M 0 101513 10 101509
+M 0 101513 10 101510
+M 0 101513 10 101510
+M 0 101513 10 101511
+M 0 101513 10 101511
+M 0 101520 7 101513
+M 0 101520 7 101513
+M 0 101520 7 101514
+M 0 101520 7 101514
+M 0 101520 7 101514
+M 0 101520 7 101514
+M 0 101517 10 101516
+M 0 101517 10 101516
+M 0 101517 10 101516
+M 0 101517 10 101516
+M 0 101517 10 101516
+M 0 101517 10 101517
+M 0 101517 10 101517
+M 0 101517 10 101517
+M 0 101517 10 101517
+M 0 101517 10 101517
+M 0 101530 1 101518
+G 0 101505 0
+G 0 8 0
+M 0 101504 10 101520
+M 0 101504 10 101520
+M 0 101504 10 101520
+M 0 101504 10 101520
+M 0 101514 7 101522
+M 0 101514 7 101522
+M 0 101504 10 101523
+M 0 101514 7 101523
+M 0 101514 7 101523
+M 0 101514 7 101523
+M 0 101514 7 101523
+M 0 101504 10 101524
+M 0 101504 10 101525
+G 0 30049 0
+M 0 101504 10 101526
+M 0 101514 7 101528
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101523 9 101530
+M 0 101522 6 101531
+M 0 101522 6 101531
+M 0 101522 6 101531
+M 0 101507 5 101532
+G 0 101504 0
+M 0 101507 5 101532
+G 0 101504 0
+M 0 101507 5 101532
+G 0 101504 0
+M 0 101507 5 101532
+G 0 101504 0
+M 0 101507 5 101532
+G 0 101504 0
+M 0 101521 6 101533
+M 0 101521 6 101533
+G 0 30071 0
+M 0 101521 6 101533
+M 0 101522 6 101534
+M 0 101522 6 101534
+M 0 101522 6 101534
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101524 9 101535
+M 0 101521 6 101536
+M 0 101521 6 101536
+M 0 101521 6 101536
+M 0 101525 1 101544
+G 0 8 0
+G 0 101503 0
+M 0 101511 7 101545
+M 0 101510 10 101545
+M 0 101511 7 101546
+M 0 101509 9 101546
+M 0 101510 10 101546
+M 0 101509 9 101547
+M 0 101512 7 101547
+M 0 101512 7 101547
+M 0 101509 9 101547
+M 0 101510 10 101547
+M 0 101512 7 101548
+M 0 101511 7 101548
+G 0 30054 0
+M 0 101509 9 101548
+M 0 101510 10 101548
+M 0 101512 7 101549
+M 0 101511 7 101549
+M 0 101509 9 101549
+M 0 101510 10 101549
+M 0 101511 7 101550
+M 0 101511 7 101550
+M 0 101512 7 101550
+G 0 30057 0
+M 0 101510 10 101550
+M 0 101509 9 101550
+M 0 101512 7 101551
+M 0 101512 7 101551
+M 0 101511 7 101551
+M 0 101511 7 101551
+M 0 101510 10 101551
+M 0 101510 10 101551
+M 0 101510 10 101552
+M 0 101508 5 101554
+M 0 101508 5 101554
+M 0 101508 5 101554
+M 0 101508 5 101554
+M 0 101508 5 101554
+M 0 101505 16 101555
+M 0 101505 16 101555
+M 0 101505 16 101555
+M 0 101505 16 101555
+M 0 101505 16 101556
+M 0 101505 16 101556
+M 0 101505 16 101556
+M 0 101505 16 101556
+M 0 101505 16 101557
+M 0 101505 16 101557
+M 0 101505 16 101557
+M 0 101505 16 101557
+M 0 101505 16 101558
+M 0 101505 16 101558
+M 0 101505 16 101558
+M 0 101505 16 101558
+M 0 101506 15 101559
+M 0 101506 15 101559
+M 0 101506 15 101559
+M 0 101506 15 101559
+M 0 101506 15 101559
+M 0 101506 15 101560
+M 0 101506 15 101560
+M 0 101506 15 101560
+M 0 101506 15 101560
+M 0 101506 15 101560
+M 0 101506 15 101561
+M 0 101506 15 101561
+M 0 101506 15 101561
+M 0 101506 15 101561
+M 0 101506 15 101561
+M 0 101503 5 101562
+M 0 101503 5 101562
+M 0 101503 5 101562
+M 0 101503 5 101562
+M 0 101503 5 101562
+M 0 101500 1 101563
+G 0 101500 0
+M 0 101501 1 101564
+G 0 101501 0
+M 0 101502 1 101565
+G 0 101502 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

@@ -1,0 +1,61 @@
+#AREADATA
+Name        New area~
+Builders    None~
+VNUMs       54050 54099
+Security    1
+Recall      41001
+Age         0
+End
+
+
+
+#CLANDATA
+Name           huwsclan~
+Type           0
+Title          huwsclan~
+Info           (null)~
+Ext_Sec        5
+Int_Sec        5
+Bank            0
+#MEMBER
+Name           Snard~
+Title          Leader~
+Bank            0
+Flags 447~
+End
+
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMDATA
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$
