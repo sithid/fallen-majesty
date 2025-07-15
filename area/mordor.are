@@ -32,7 +32,7 @@ urukai~
 ~
 11
 4722698 -10000 S
-7051 0 0 20d3+2 0d0+0
+7050 0 0 20d3+2 0d0+0
 0 0
 0 0 0
 #102002
@@ -56,7 +56,7 @@ to appease the master in some way.
 ~
 67
 8 -1000 S
-3011 0 0 1d3+2 0d0+0
+3010 0 0 1d3+2 0d0+0
 0 0
 0 0 0
 #102004
@@ -67,7 +67,7 @@ An #0Orc#n stands in a corner peering at you.
 ~
 67
 4104 -1000 S
-2990 0 0 1d3+2 0d0+0
+2991 0 0 1d3+2 0d0+0
 0 0
 0 0 0
 #102005
@@ -92,7 +92,7 @@ With eyes sunken in, this ancient soldier of olde reaches out for you.
 ~
 1
 524288 -10000 S
-7028 0 0 0d0+0 0d0+0
+7027 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #102007
@@ -104,7 +104,7 @@ Staring into his pale eyes, you are lost yourself
 ~
 1
 524288 -1000 S
-6970 0 0 0d0+0 0d0+0
+6971 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #102008

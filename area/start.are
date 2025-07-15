@@ -46,7 +46,7 @@ Maybe you should ask him about mutants?
 ~
 67
 0 0 S
-151 0 0 0d0+0 0d0+0
+150 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #25004
@@ -71,7 +71,7 @@ hints to beginning players.
 ~
 67
 0 0 S
-154 0 0 0d0+0 0d0+0
+155 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #25007
@@ -83,7 +83,7 @@ He has mastered every known tactic, and is a very dangerous opponent...
 ~
 67
 0 0 S
-118 0 0 0d0+0 0d0+0
+119 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #25008
@@ -96,7 +96,7 @@ hints to beginning players.
 ~
 67
 0 0 S
-12 0 0 0d0+0 0d0+0
+11 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #25009
@@ -109,7 +109,7 @@ It must be right when they say 'absolate power corrupts absolutely'!
 ~
 67
 0 0 S
-43 0 0 0d0+0 0d0+0
+44 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #25010
@@ -122,7 +122,7 @@ thing about him is his smell.
 ~
 67
 0 0 S
-31 0 0 0d0+0 0d0+0
+30 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #25012
@@ -136,7 +136,7 @@ flesh from your body.
 ~
 97
 0 0 S
-83 0 0 0d0+0 0d0+0
+84 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #25015
@@ -149,7 +149,7 @@ to fear, however, for you wish to leave, not come back.
 ~
 67
 0 0 S
-103 0 0 0d0+0 0d0+0
+104 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #0
@@ -282,37 +282,9 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-chapter3~
-The ley lines and the rifts that they opened were not some insidious evil, 
-nor a plot of some malignant intelligence from another world.  It was an 
-aspect of nature that science did not even know, let alone understand.  
-Like a child playing with matches in a pool of gasoline, humankind 
-dropped a match into the pool and was instantly engulfed.  Once the match 
-was lit and dropped, there was nothing that could be done to undo what 
-had been done.  Yet in a strange way, all this death was part of the 
-birth of a new age.  And through it all, humankind would persevere.  Even 
-the cosmic fury of a world gone mad could not completely eradicate all 
-human life.  However, it would take humankind hundreds of years to crawl 
-out of the abyss that swallowed it.  It is at this moment, as humankind 
-finally emerges into the light of a new dawn that our story unfolds.
-~
-E
-chapter2~
-Oceans leapt from their basin and washed over the land.  Hundreds of 
-millions more died, their psychic energy drawn into the ley lines, and 
-the natural energies doubled again.  A chain reaction was unleached that 
-could not be halted.
-
-The continent men called Atlantis leapt from its watery grave and rose to 
-the light of day for the first time in millennia, its rebirth changing 
-the very face of the planet.  In its wake, the eastern coast of the 
-United States was engulfed by the ocean, sending the energy of millions 
-more into the relentless rifts.
-
-From the rifts spewed forth energy that tore through man's citadels of 
-steel and concrete like a tornado through a city built out of match 
-sticks.  For every million lives lost, the ley lines surged and destroyed 
-millions more.
+book history index~
+The book containers three chapters.
+Type: "look chapter1", "look chapter2" or "look chapter3".
 ~
 E
 chapter1~
@@ -336,9 +308,37 @@ even more energy.  The earth shuddered and heaved.  Millions more died,
 increasing the energy level of the rifts.
 ~
 E
-book history index~
-The book containers three chapters.
-Type: "look chapter1", "look chapter2" or "look chapter3".
+chapter2~
+Oceans leapt from their basin and washed over the land.  Hundreds of 
+millions more died, their psychic energy drawn into the ley lines, and 
+the natural energies doubled again.  A chain reaction was unleached that 
+could not be halted.
+
+The continent men called Atlantis leapt from its watery grave and rose to 
+the light of day for the first time in millennia, its rebirth changing 
+the very face of the planet.  In its wake, the eastern coast of the 
+United States was engulfed by the ocean, sending the energy of millions 
+more into the relentless rifts.
+
+From the rifts spewed forth energy that tore through man's citadels of 
+steel and concrete like a tornado through a city built out of match 
+sticks.  For every million lives lost, the ley lines surged and destroyed 
+millions more.
+~
+E
+chapter3~
+The ley lines and the rifts that they opened were not some insidious evil, 
+nor a plot of some malignant intelligence from another world.  It was an 
+aspect of nature that science did not even know, let alone understand.  
+Like a child playing with matches in a pool of gasoline, humankind 
+dropped a match into the pool and was instantly engulfed.  Once the match 
+was lit and dropped, there was nothing that could be done to undo what 
+had been done.  Yet in a strange way, all this death was part of the 
+birth of a new age.  And through it all, humankind would persevere.  Even 
+the cosmic fury of a world gone mad could not completely eradicate all 
+human life.  However, it would take humankind hundreds of years to crawl 
+out of the abyss that swallowed it.  It is at this moment, as humankind 
+finally emerges into the light of a new dawn that our story unfolds.
 ~
 Q
 (null)~
@@ -416,20 +416,9 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-BLIND~
-The blindness spell, and the dirt/gouge fighting skills, are very useful 
-when combined with disarm.  The main problem with disarm is that is your 
-opponent is fast enough they can pick up and rewield their weapons before 
-you can grab it...however if they are blind they get no such chance.  
-Another advantage of blinding someone is that they cannot use most 
-equipment, like potions, and if you are forced to flee they won't be able 
-to re-initiate the fight until they can see again.  Be careful though, 
-because some players will be able to cure themselves midfight...
-~
-E
-BLESS~
-A worthwhile spell to have running at all times, as every bit of hitroll 
-helps.  Not a particularly amazing spell though.
+book I tactics index~
+The book contains chapters on the following tactics:
+BACKSTAB, BLESS, BLIND.
 ~
 E
 BACKSTAB~
@@ -439,9 +428,20 @@ that your opponent must be at full health for it to work.  This can be got
 around, however, with careful use of healing spells or items.
 ~
 E
-book I tactics index~
-The book contains chapters on the following tactics:
-BACKSTAB, BLESS, BLIND.
+BLESS~
+A worthwhile spell to have running at all times, as every bit of hitroll 
+helps.  Not a particularly amazing spell though.
+~
+E
+BLIND~
+The blindness spell, and the dirt/gouge fighting skills, are very useful 
+when combined with disarm.  The main problem with disarm is that is your 
+opponent is fast enough they can pick up and rewield their weapons before 
+you can grab it...however if they are blind they get no such chance.  
+Another advantage of blinding someone is that they cannot use most 
+equipment, like potions, and if you are forced to flee they won't be able 
+to re-initiate the fight until they can see again.  Be careful though, 
+because some players will be able to cure themselves midfight...
 ~
 Q
 (null)~
@@ -460,14 +460,16 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-DEFENSIVE~
-There are three basic armor class spells; Shield, Armor, and Stone skin.
-Of these, stone skin is the most affective, although it also has the 
-shortest duration.  For players with poor magical ability, armor is 
-probably the best because of its standard duration of 24 hours.  The 
-other spells won't have any sort of decent duration until you become more 
-powerful at spellcasting (at which point their duration can become more 
-than twice that of the armor spell).
+book II tactics index~
+The book contains chapters on the following tactics:
+CURSE, CHARM, DEFENSIVE.
+~
+E
+CURSE~
+This spell is good for preventing an opponent from recalling from a 
+fight.  Use in conjunction with the 'stamp' fight style (which stops your 
+opponent from moving) for the best combination; Your opponent will have 
+no choice but to fight it out to the bitter end.
 ~
 E
 CHARM~
@@ -483,16 +485,14 @@ them.  Unfortunately it is because of this that most powerful players are
 immune to being charmed...
 ~
 E
-CURSE~
-This spell is good for preventing an opponent from recalling from a 
-fight.  Use in conjunction with the 'stamp' fight style (which stops your 
-opponent from moving) for the best combination; Your opponent will have 
-no choice but to fight it out to the bitter end.
-~
-E
-book II tactics index~
-The book contains chapters on the following tactics:
-CURSE, CHARM, DEFENSIVE.
+DEFENSIVE~
+There are three basic armor class spells; Shield, Armor, and Stone skin.
+Of these, stone skin is the most affective, although it also has the 
+shortest duration.  For players with poor magical ability, armor is 
+probably the best because of its standard duration of 24 hours.  The 
+other spells won't have any sort of decent duration until you become more 
+powerful at spellcasting (at which point their duration can become more 
+than twice that of the armor spell).
 ~
 Q
 (null)~
@@ -511,10 +511,17 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-FLY~
-Fly is useful to leave on at all times for two reasons.  Firstly, it 
-prevents you being tripped in combat, and secondly it allows you to flee 
-into the air/across water if the need arises.
+book III tactics index~
+The book contains chapters on the following tactics:
+DETECT, DISARM, FLY.
+~
+E
+DETECT~
+You should make sure you can detect invis at all times, otherwise 
+invisible players will be able to sneak up on you without you knowing.  
+Detect hidden can also be useful for mobs.  The other detection spells 
+generally have little combat use, although detect evil is useful for 
+seeing if you should cast protection before fighting that person.
 ~
 E
 DISARM~
@@ -526,17 +533,10 @@ Some weapons cannot be disarmed, and some players are immune to disarm,
 so it's best to use this skill only on less powerful players.
 ~
 E
-DETECT~
-You should make sure you can detect invis at all times, otherwise 
-invisible players will be able to sneak up on you without you knowing.  
-Detect hidden can also be useful for mobs.  The other detection spells 
-generally have little combat use, although detect evil is useful for 
-seeing if you should cast protection before fighting that person.
-~
-E
-book III tactics index~
-The book contains chapters on the following tactics:
-DETECT, DISARM, FLY.
+FLY~
+Fly is useful to leave on at all times for two reasons.  Firstly, it 
+prevents you being tripped in combat, and secondly it allows you to flee 
+into the air/across water if the need arises.
 ~
 Q
 (null)~
@@ -555,11 +555,17 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-INVISIBILITY~
-Invisibility can be very useful if your opponent cannot see invisible 
-people, because it means they cannot initiate the fight - They have to 
-wait for you to start at your own leisure.  Unfortunately most players 
-are able to see invisible creatures for this very reason.
+book IV tactics index~
+The book contains chapters on the following tactics:
+HEAL, HURL, INVISIBILITY.
+~
+E
+HEAL~
+This spell is useful in a fight for healing damage you receive.  If you 
+inflict more than 100 damage with a spell then you would be better off 
+casting that spell instead, however.
+Another use of this spell is on an opponent who is just below maximum hit 
+points, just prior to a hurl or backstab.
 ~
 E
 HURL~
@@ -571,17 +577,11 @@ room in rapid succession, then backstab the remaining member, loot them,
 and run off before the others realise what has happened.
 ~
 E
-HEAL~
-This spell is useful in a fight for healing damage you receive.  If you 
-inflict more than 100 damage with a spell then you would be better off 
-casting that spell instead, however.
-Another use of this spell is on an opponent who is just below maximum hit 
-points, just prior to a hurl or backstab.
-~
-E
-book IV tactics index~
-The book contains chapters on the following tactics:
-HEAL, HURL, INVISIBILITY.
+INVISIBILITY~
+Invisibility can be very useful if your opponent cannot see invisible 
+people, because it means they cannot initiate the fight - They have to 
+wait for you to start at your own leisure.  Unfortunately most players 
+are able to see invisible creatures for this very reason.
 ~
 Q
 (null)~
@@ -600,15 +600,16 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-POISON~
-The poison spell has two main uses.  The first (and most obvious) is to 
-use it on your opponent.  If you have a poisoned weapon, this is much 
-more affective, as the more you poison someone, the weaker they become.  
-Combined with disarm, you can make someone so weak that they cannot pick 
-their weapon back up.
-The second use is to cast it on yourself.  Poison itself doesn't cause a 
-lot of damage, but it will keep you always just below maximum hit points, 
-rendering you immune to being backstabbed (unless someone heals/cures you).
+book V tactics index~
+The book contains chapters on the following tactics:
+KICK, OFFENSIVE, POISON.
+~
+E
+KICK~
+Kick is a skill best used by players who are better in combat than at 
+magic.  While not as flexable as spells, it is much more reliable, and 
+can cause quite a lot of damage when used by a powerful player.  Be 
+careful, however, for some people may become immune to kicks.
 ~
 E
 OFFENSIVE~
@@ -626,16 +627,15 @@ fighting against well prepared players with lots of immunities, you
 should try to use spells like 'harm' and 'gas breath'.
 ~
 E
-KICK~
-Kick is a skill best used by players who are better in combat than at 
-magic.  While not as flexable as spells, it is much more reliable, and 
-can cause quite a lot of damage when used by a powerful player.  Be 
-careful, however, for some people may become immune to kicks.
-~
-E
-book V tactics index~
-The book contains chapters on the following tactics:
-KICK, OFFENSIVE, POISON.
+POISON~
+The poison spell has two main uses.  The first (and most obvious) is to 
+use it on your opponent.  If you have a poisoned weapon, this is much 
+more affective, as the more you poison someone, the weaker they become.  
+Combined with disarm, you can make someone so weak that they cannot pick 
+their weapon back up.
+The second use is to cast it on yourself.  Poison itself doesn't cause a 
+lot of damage, but it will keep you always just below maximum hit points, 
+rendering you immune to being backstabbed (unless someone heals/cures you).
 ~
 Q
 (null)~
@@ -654,22 +654,9 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-SLEEP~
-This spell is good for pinning down players while you dispose of their 
-friends.  Another thing to remember is that hitting a sleeping person 
-causes double damage, so combined with a backstab you can probably kill 
-most players.
-~
-E
-SKILLS~
-The best combat skills to learn are: Enhanced damage, second attack, 
-third attack, parry, and dodge.  You should make sure you learn all of 
-these to 100% as soon as possible.
-~
-E
-SANCTUARY~
-This spell is vital in any fight.  It basically allows you to withstand 
-twice the amount of damage you could normally.
+book VI tactics index~
+The book contains chapters on the following tactics:
+PROTECTION, SANCTUARY, SKILLS, SLEEP.
 ~
 E
 PROTECTION~
@@ -680,9 +667,22 @@ is also possible to have this spell AND sanctuary together, which is a
 very powerful defence.
 ~
 E
-book VI tactics index~
-The book contains chapters on the following tactics:
-PROTECTION, SANCTUARY, SKILLS, SLEEP.
+SANCTUARY~
+This spell is vital in any fight.  It basically allows you to withstand 
+twice the amount of damage you could normally.
+~
+E
+SKILLS~
+The best combat skills to learn are: Enhanced damage, second attack, 
+third attack, parry, and dodge.  You should make sure you learn all of 
+these to 100% as soon as possible.
+~
+E
+SLEEP~
+This spell is good for pinning down players while you dispose of their 
+friends.  Another thing to remember is that hitting a sleeping person 
+causes double damage, so combined with a backstab you can probably kill 
+most players.
 ~
 Q
 (null)~
@@ -701,13 +701,17 @@ A small leather-bound book lies here.~
 0 0 0 0
 1 300 0
 E
-TELEPORT~
-While this spell is not generally a very useful spell, you can sometimes 
-be lucky with where you land.  Ending up within your opponents line of 
-defence allows you to pick off the weaker players quickly, then make your 
-escape before anyone else realises you are there.  This spell can also be 
-useful for an emergency escape if you are being attacked near your recall 
-point (where it wouldn't be safe to recall to).
+book VII tactics index~
+The book contains chapters on the following tactics:
+SNEAK, SUMMON, TELEPORT.
+~
+E
+SNEAK~
+Sneak will prevent other players from realising that you have entered the 
+room (unless they happen to type look).  It is extremely useful if you 
+are not a very fast typer, because otherwise your opponent might well 
+leave the room or even attack you first as soon as they see you walk into 
+the room.
 ~
 E
 SUMMON~
@@ -727,17 +731,13 @@ has opponents in, because you can summon them whenever you like, but they
 have to wait for you to reveal yourself.
 ~
 E
-SNEAK~
-Sneak will prevent other players from realising that you have entered the 
-room (unless they happen to type look).  It is extremely useful if you 
-are not a very fast typer, because otherwise your opponent might well 
-leave the room or even attack you first as soon as they see you walk into 
-the room.
-~
-E
-book VII tactics index~
-The book contains chapters on the following tactics:
-SNEAK, SUMMON, TELEPORT.
+TELEPORT~
+While this spell is not generally a very useful spell, you can sometimes 
+be lucky with where you land.  Ending up within your opponents line of 
+defence allows you to pick off the weaker players quickly, then make your 
+escape before anyone else realises you are there.  This spell can also be 
+useful for an emergency escape if you are being attacked near your recall 
+point (where it wouldn't be safe to recall to).
 ~
 Q
 (null)~

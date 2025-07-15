@@ -51,7 +51,7 @@ Infantry Machineguns Mercenaries~
 ~
 1
 0 0 S
-327 0 0 0d0+0 0d0+0
+326 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52504
@@ -73,7 +73,7 @@ Infantry Machineguns Mercenaries~
 ~
 1
 0 0 S
-288 0 0 0d0+0 0d0+0
+287 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52506
@@ -95,7 +95,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-348 0 0 0d0+0 0d0+0
+349 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52508
@@ -117,7 +117,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-354 0 0 0d0+0 0d0+0
+355 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52510
@@ -139,7 +139,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-343 0 0 0d0+0 0d0+0
+344 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52512
@@ -150,7 +150,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-322 0 0 0d0+0 0d0+0
+323 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52513
@@ -161,7 +161,7 @@ Helicopter~
 ~
 1
 0 0 S
-440 0 0 0d0+0 0d0+0
+441 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52514
@@ -194,7 +194,7 @@ Helicopter~
 ~
 1
 0 0 S
-445 0 0 0d0+0 0d0+0
+444 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52517
@@ -205,7 +205,7 @@ Helicopter~
 ~
 1
 0 0 S
-436 0 0 0d0+0 0d0+0
+435 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52518
@@ -238,7 +238,7 @@ Elemental Mech~
 ~
 1
 65536 0 S
-804 0 0 0d0+0 0d0+0
+805 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52521
@@ -260,7 +260,7 @@ Elemental Mech~
 ~
 1
 0 0 S
-787 0 0 0d0+0 0d0+0
+788 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52523
@@ -271,7 +271,7 @@ Elemental Mech~
 ~
 1
 0 0 S
-779 0 0 0d0+0 0d0+0
+780 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52524
@@ -293,7 +293,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 524288 0 S
-1022 0 0 0d0+100 0d0+0
+1023 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52526
@@ -304,7 +304,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 0 0 S
-1004 0 0 0d0+100 0d0+0
+1005 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52527
@@ -326,7 +326,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 0 0 S
-1026 0 0 0d0+100 0d0+0
+1025 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52529
@@ -337,7 +337,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 0 0 S
-988 0 0 0d0+100 0d0+0
+987 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52530
@@ -403,7 +403,7 @@ Mad Dog~
 ~
 1
 0 0 S
-1526 0 0 0d20+0 0d0+0
+1525 0 0 0d20+0 0d0+0
 0 0
 0 0 0
 #52536
@@ -425,7 +425,7 @@ A squadron of #rbazook#natier #rmercenaries#n are here.
 ~
 9
 0 0 S
-682 0 0 0d0+0 0d0+0
+681 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52538
@@ -447,7 +447,7 @@ A squadron of #rbazook#natier #rmercenaries#n are here.
 ~
 9
 0 0 S
-728 0 0 0d0+0 0d0+0
+729 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52540
@@ -469,7 +469,7 @@ A squadron of #rbazook#natier #rmercenaries#n are here.
 ~
 9
 0 0 S
-686 0 0 0d0+0 0d0+0
+685 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52542
@@ -480,7 +480,7 @@ A squadron of #rbazook#natier #rmercenaries#n are here.
 ~
 9
 0 0 S
-704 0 0 0d0+0 0d0+0
+703 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52543
@@ -546,7 +546,7 @@ Owens Mech~
 ~
 1
 0 0 S
-923 0 0 0d5+0 0d0+0
+924 0 0 0d5+0 0d0+0
 0 0
 0 0 0
 #52549
@@ -557,7 +557,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-5995 0 0 50d10+100 0d0+0
+5996 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52550
@@ -568,7 +568,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-5996 0 0 50d10+100 0d0+0
+5995 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52551
@@ -579,7 +579,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-5978 0 0 50d10+100 0d0+0
+5977 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52552
@@ -612,7 +612,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-6031 0 0 50d10+100 0d0+0
+6032 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52555
@@ -623,7 +623,7 @@ no name~
 ~
 1
 0 0 S
-9 0 0 0d0+0 0d0+0
+8 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52556
@@ -634,7 +634,7 @@ no name~
 ~
 1
 0 0 S
-25 0 0 0d0+0 0d0+0
+24 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52557
@@ -645,7 +645,7 @@ no name~
 ~
 1
 0 0 S
-13 0 0 0d0+0 0d0+0
+14 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52558
@@ -656,7 +656,7 @@ no name~
 ~
 1
 0 0 S
-4 0 0 0d0+0 0d0+0
+5 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52559
@@ -678,7 +678,7 @@ no name~
 ~
 1
 0 0 S
-4 0 0 0d0+0 0d0+0
+5 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #0

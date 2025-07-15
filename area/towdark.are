@@ -18,7 +18,7 @@ tower guardian light~
 ~
 11
 8232 100000 S
-14997 0 0 20d20+3 0d0+0
+14998 0 0 20d20+3 0d0+0
 0 0
 0 0 1
 #100101
@@ -73,7 +73,7 @@ A #LUnholy #0Knight#n stands here protecting its surroundings.
 ~
 1
 0 -1000 S
-8024 0 0 8d8+1 0d0+0
+8023 0 0 8d8+1 0d0+0
 0 0
 0 0 0
 #100106
@@ -128,7 +128,7 @@ A #LWraith#n stands here protecting its surroundings.
 ~
 17
 0 0 S
-2978 0 0 3d3+1 0d0+0
+2979 0 0 3d3+1 0d0+0
 0 0
 0 0 0
 #100111
@@ -139,7 +139,7 @@ A #RD#re#Rm#ro#Rn#n stands here protecting its surroundings.
 ~
 17
 0 -1000 S
-1960 0 0 2d2+1 0d0+0
+1961 0 0 2d2+1 0d0+0
 0 0
 0 0 0
 #100112
@@ -150,7 +150,7 @@ A #CGargoyle#n stands here protecting its surroundings.
 ~
 17
 0 1000 S
-1023 0 0 1d1+1 0d0+0
+1024 0 0 1d1+1 0d0+0
 0 0
 0 0 0
 #0

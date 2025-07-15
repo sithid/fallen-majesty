@@ -31,7 +31,7 @@ I doubt he is the type to give directions.
 ~
 105
 8 -1000 S
-536 12 0 1d10+130 12d1+5
+535 12 0 1d10+130 12d1+5
 300 0
 0 0 1
 #5102
@@ -43,7 +43,7 @@ He looks pissed off!
 ~
 35
 8 -1000 S
-449 9 0 2d20+160 15d1+2
+450 9 0 2d20+160 15d1+2
 1000 0
 0 0 1
 #5103
@@ -55,7 +55,7 @@ The mage prepares to cast a spell ... at you!!
 ~
 35
 8 -1000 S
-593 8 2 1d12+190 8d2+2
+592 8 2 1d12+190 8d2+2
 2000 0
 0 0 1
 #5104
@@ -67,7 +67,7 @@ I wouldn't want go get on her bad side!
 ~
 35
 8 -1000 S
-649 5 0 1d11+205 17d1+2
+650 5 0 1d11+205 17d1+2
 4000 0
 0 0 2
 #5105
@@ -79,7 +79,7 @@ The drow master is ALWAYS ready for a fight.
 ~
 35
 8 -1000 S
-951 0 0 1d12+248 18d1+4
+952 0 0 1d12+248 18d1+4
 10000 0
 0 0 1
 #5106
@@ -91,7 +91,7 @@ He definitely knows his way around in combat.
 ~
 35
 8 -1000 S
-888 -2 -10 23d23+230 1d4+15
+889 -2 -10 23d23+230 1d4+15
 15000 0
 0 0 1
 #5107
@@ -139,7 +139,7 @@ The drow guard blends so well with his environment, you barely see his form.
 ~
 35
 66048 -1000 S
-597 9 -2 12d12+120 1d4+5
+596 9 -2 12d12+120 1d4+5
 5000 0
 0 0 1
 #5111

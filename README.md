@@ -48,6 +48,11 @@ sudo apt-get install gcc libc6-dev libcrypt-dev build-essential
 
 3. The compiled binary will be created as `dystopia`
 
+4. Clean build files and logs (if needed):
+   ```bash
+   make clean
+   ```
+
 ### Configuration
 
 - **Port Configuration**: Edit startup scripts to change the default port (typically 1000)
@@ -139,6 +144,7 @@ The codebase includes custom memory management and debugging:
 - **Memory Watch**: Built-in memory leak detection
 - **Valgrind Integration**: Use `valgrind ./dystopia` for memory analysis
 - **GDB Support**: Compiled with debug symbols (`-g3` flag)
+- **Clean Build**: `make clean` removes compiled files and clears log files for fresh debugging sessions
 
 ## License
 

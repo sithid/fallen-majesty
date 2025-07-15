@@ -34,7 +34,7 @@ This is a relatively young woman, who seems as happy as any could be.
 ~
 2049
 0 0 S
-1963 0 0 0d0+0 0d0+0
+1964 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #41002
@@ -47,7 +47,7 @@ never hurt a fly.
 ~
 2049
 0 0 S
-2000 0 0 0d0+0 0d0+0
+1999 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #41003
@@ -60,7 +60,7 @@ dog doesn't have.
 ~
 2049
 0 0 S
-3971 0 0 0d0+0 0d0+0
+3970 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #41004
@@ -85,7 +85,7 @@ shouldn't fool you though - he is wise.
 ~
 2049
 0 0 S
-10009 0 0 75d0+0 0d0+0
+10008 0 0 75d0+0 0d0+0
 0 0
 0 0 1
 #41006
@@ -123,7 +123,7 @@ occasionally.
 ~
 2051
 0 0 S
-9986 0 0 75d0+0 0d0+0
+9987 0 0 75d0+0 0d0+0
 0 0
 0 0 1
 #41009
@@ -215,7 +215,7 @@ This man got more than he bargained for when he came visiting the temple
 ~
 3
 0 0 S
-1017 0 0 0d0+0 0d0+0
+1018 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #41019
@@ -250,7 +250,7 @@ no name~
 ~
 1
 0 0 S
-2 0 0 0d0+0 0d0+0
+3 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #44000
@@ -261,7 +261,7 @@ Female Worshipper~
 ~
 1
 0 0 S
-4 0 0 0d0+0 0d0+0
+5 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #44010
@@ -294,7 +294,7 @@ Sacrificial Worshipper~
 ~
 1
 0 0 S
-4 0 0 0d0+0 0d0+0
+3 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #44013
@@ -316,7 +316,7 @@ Male Pilgrim~
 ~
 1
 0 0 S
-4 0 0 0d0+0 0d0+0
+3 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #44016
