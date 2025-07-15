@@ -38,6 +38,12 @@ extern	int	_filbuf		args( (FILE *) );
  */
 SYSTEM_DATA             sysdata;
 
+CLASS_LEADER class_leader;
+LEADER_BOARD leader_board;
+KINGDOM_DATA king_table[MAX_KINGDOM];
+KINGDOM_DESC king_desc_list[MAX_KINGDOM];
+WAR_DATA war_table[MAX_WAR];
+
 SHOP_DATA *		shop_first;
 SHOP_DATA *		shop_last;
 
@@ -175,7 +181,7 @@ sh_int  gsn_recall;
 MOB_INDEX_DATA *	mob_index_hash		[MAX_KEY_HASH];
 OBJ_INDEX_DATA *	obj_index_hash		[MAX_KEY_HASH];
 ROOM_INDEX_DATA *	room_index_hash		[MAX_KEY_HASH];
-char *			string_hash		[MAX_KEY_HASH];
+char *			db_string_hash		[MAX_KEY_HASH];
 
 //AREA_DATA *		area_first;
 //AREA_DATA *		area_last;
@@ -3019,7 +3025,7 @@ char *fread_string( FILE *fp )
 
 		plast[-1] = '\0';
 		iHash     = UMIN( MAX_KEY_HASH - 1, plast - 1 - top_string );
-		for ( pHash = string_hash[iHash]; pHash; pHash = pHashPrev )
+		for ( pHash = db_string_hash[iHash]; pHash; pHash = pHashPrev )
 		{
 		    for ( ic = 0; ic < sizeof(char *); ic++ )
 			u1.rgc[ic] = pHash[ic];
@@ -3035,10 +3041,10 @@ char *fread_string( FILE *fp )
 		{
 		    pString		= top_string;
 		    top_string		= plast;
-		    u1.pc		= string_hash[iHash];
+		    u1.pc		= db_string_hash[iHash];
 		    for ( ic = 0; ic < sizeof(char *); ic++ )
 			pString[ic] = u1.rgc[ic];
-		    string_hash[iHash]	= pString;
+		    db_string_hash[iHash]	= pString;
 
 		    nAllocString += 1;
 		    sAllocString += top_string - pString;

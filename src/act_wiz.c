@@ -5593,14 +5593,6 @@ void do_hreload( CHAR_DATA *ch, char *argument )
     return;
 }
 
-static char *   const   dir_name    []      =
-{
-    "north", "east", "south", "west", "up", "down"
-};
-static char *   const   cdir_name   []      =
-{
-    "(north)", "(east)", "(south)", "(west)", "(up)", "(down)"
-};
 
 #define MAX_SPECTATORS 100
 

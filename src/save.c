@@ -39,8 +39,6 @@ extern  int     _filbuf         args( (FILE *) );
 static  OBJ_DATA *      rgObjNest       [MAX_NEST];
 CHAR_DATA *quitting_char;
 
-char *top_string;
-
 /*
  * Local functions.
  */

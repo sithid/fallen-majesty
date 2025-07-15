@@ -65,7 +65,6 @@
 #define CLASS_INQUISITOR    65536  
 #define CLASS_NECROMANCER	131072
 #define CLASS_HUNTER CLASS_NECROMANCER * 2
-extern const struct flag_type class_flags[];
 
 /*
  * Bits or defines for Lichs

@@ -5852,11 +5852,14 @@ extern  ROOM_INDEX_DATA *       room_index_hash [MAX_KEY_HASH];
 void	reset_area      args( ( AREA_DATA * pArea ) );
 void	reset_room	args( ( ROOM_INDEX_DATA *pRoom ) );
 
-CLASS_LEADER class_leader;
-LEADER_BOARD leader_board;
-KINGDOM_DATA king_table[MAX_KINGDOM];
-KINGDOM_DESC king_desc_list[MAX_KINGDOM];
-WAR_DATA war_table[MAX_WAR];
+extern CLASS_LEADER class_leader;
+extern LEADER_BOARD leader_board;
+extern KINGDOM_DATA king_table[MAX_KINGDOM];
+extern KINGDOM_DESC king_desc_list[MAX_KINGDOM];
+extern WAR_DATA war_table[MAX_WAR];
+
+extern char *string_hash[MAX_KEY_HASH];
+extern char *top_string;
 
 /* string.c */
 void	string_edit	args( ( CHAR_DATA *ch, char **pString ) );

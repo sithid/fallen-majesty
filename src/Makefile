@@ -3,8 +3,8 @@ PROF    = -g3
 NOCRYPT =
 #Uncomment the next line if you want request support -DMEMWATCH
 DBUGFLG = -DREQUESTS
-C_FLAGS = -Wall $(PROF) $(NOCRYPT) $(DBUGFLG)
-L_FLAGS = $(PROF) -Llibefence.a -lcrypt
+C_FLAGS = -Wall $(PROF) $(NOCRYPT) $(DBUGFLG) -D_GNU_SOURCE
+L_FLAGS = $(PROF)
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o angel.o bit.o          \
 	board.o build.o changes.o clan.o class_sav.o comm.o const.o copyover.o        \
@@ -19,7 +19,7 @@ O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o angel.o bit.o    
 	 
 merc: $(O_FILES)
 	rm -f dystopia
-	$(CC) $(L_FLAGS) -o dystopia $(O_FILES)
+	$(CC) $(L_FLAGS) -o dystopia $(O_FILES) -lcrypt
 	chmod g+w dystopia
 	chmod g+w $(O_FILES)
 
