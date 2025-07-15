@@ -22,7 +22,7 @@ markings of a Dragon, and he sits atop a black granite throne.
 ~
 142339
 8360 0 S
-20009 0 0 25d20+20 0d0+0
+20010 0 0 25d20+20 0d0+0
 0 0
 0 0 1
 #41001
@@ -34,7 +34,7 @@ This is a relatively young woman, who seems as happy as any could be.
 ~
 2049
 0 0 S
-1964 0 0 0d0+0 0d0+0
+1963 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #41002
@@ -60,7 +60,7 @@ dog doesn't have.
 ~
 2049
 0 0 S
-3972 0 0 0d0+0 0d0+0
+3971 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #41004
@@ -110,7 +110,7 @@ lightly, and will protect the Temple at any price.
 ~
 2051
 0 0 S
-10018 0 0 50d0+0 0d0+0
+10019 0 0 50d0+0 0d0+0
 0 0
 0 0 1
 #41008
@@ -136,7 +136,7 @@ occasionally.
 ~
 2051
 0 0 S
-9983 0 0 75d0+0 0d0+0
+9982 0 0 75d0+0 0d0+0
 0 0
 0 0 1
 #41010
@@ -148,7 +148,7 @@ This young woman loves helping people.
 ~
 2051
 0 0 S
-14998 0 0 100d0+0 0d0+0
+15000 0 0 100d0+0 0d0+0
 0 0
 0 0 2
 #41014
@@ -162,7 +162,7 @@ wiped up by one of the nurses.
 ~
 3
 0 0 S
-3969 0 0 0d0+0 0d0+0
+3970 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #41015
@@ -175,7 +175,7 @@ grin at you, then carries on with his work.
 ~
 1
 0 0 S
-4998 0 0 0d0+0 0d0+0
+4999 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #41016
@@ -189,7 +189,7 @@ them.
 ~
 1
 0 0 S
-995 0 0 0d0+0 0d0+0
+994 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #41017
@@ -215,7 +215,7 @@ This man got more than he bargained for when he came visiting the temple
 ~
 3
 0 0 S
-1018 0 0 0d0+0 0d0+0
+1017 0 0 0d0+0 0d0+0
 0 0
 0 0 1
 #41019
@@ -228,7 +228,7 @@ whisps of grey hair, and his ample form is only complimented by his huge belly.
 ~
 3
 8360 0 S
-19963 0 0 0d20+20 0d0+0
+19962 0 0 0d20+20 0d0+0
 0 0
 0 0 1
 #41020
@@ -239,7 +239,7 @@ Blacksmith~
 ~
 11
 8917640 300 S
-16488 0 0 25d20+100 0d0+0
+16487 0 0 25d20+100 0d0+0
 0 0
 0 0 1
 #41100
@@ -250,7 +250,7 @@ no name~
 ~
 1
 0 0 S
-3 0 0 0d0+0 0d0+0
+2 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #44000
@@ -261,7 +261,7 @@ Female Worshipper~
 ~
 1
 0 0 S
-2 0 0 0d0+0 0d0+0
+4 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #44010
@@ -283,7 +283,7 @@ SickWard Attendant~
 ~
 1
 0 0 S
-4 0 0 0d0+0 0d0+0
+5 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #44012
@@ -294,7 +294,7 @@ Sacrificial Worshipper~
 ~
 1
 0 0 S
-3 0 0 0d0+0 0d0+0
+4 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #44013
@@ -305,7 +305,7 @@ Sick Pilgrim~
 ~
 1
 0 0 S
-3 0 0 0d0+0 0d0+0
+4 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #44015
@@ -327,7 +327,7 @@ Female Pilgrim~
 ~
 1
 0 0 S
-23 0 0 0d0+0 0d0+0
+24 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #0

@@ -29,7 +29,7 @@ The #0N#reutral #0G#ruardian #0S#rhopkeeper#n is here displaying his leggings.
 ~
 11
 4194330 0 S
-13006 0 0 35d20+3 0d0+0
+13007 0 0 35d20+3 0d0+0
 0 0
 0 0 0
 #101502
@@ -40,7 +40,7 @@ A #yG#7ood #yG#7uardian #yS#7hopkeeper#n is here mooning you... his leggings pul
 ~
 11
 4194330 1000 S
-13006 0 0 35d20+3 0d0+0
+13005 0 0 35d20+3 0d0+0
 0 0
 0 0 0
 #101503
@@ -51,7 +51,7 @@ A large #RC#ramu#Rl#rodi#Ra#rn Tr#Ro#rope#Rr#n is here in formation.
 ~
 11
 24 0 S
-8996 0 0 40d20+3 0d0+0
+8997 0 0 40d20+3 0d0+0
 0 0
 0 0 0
 #101504
@@ -62,7 +62,7 @@ A #RC#lamulodian #RC#lavalry#n is riding around here.
 ~
 25
 8 0 S
-4057 0 0 20d0+0 0d0+0
+4058 0 0 20d0+0 0d0+0
 0 0
 0 0 0
 #101505
@@ -84,7 +84,7 @@ A #RC#ramulodian #RA#rrcher#n is here training an arrow to hit your eyeball.
 ~
 19
 65538 0 S
-4298 0 0 0d20+0 0d0+0
+4297 0 0 0d20+0 0d0+0
 0 0
 0 0 0
 #101507
@@ -106,7 +106,7 @@ A large #oC#yambrian #oW#yarrior#n charges around.
 ~
 17
 8 0 S
-22 0 0 20d0+3 0d0+0
+23 0 0 20d0+3 0d0+0
 0 0
 0 0 0
 #101509
@@ -117,7 +117,7 @@ Northener~
 ~
 25
 0 0 S
-4460 0 0 0d0+0 0d0+0
+4459 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101510
@@ -139,7 +139,7 @@ A #RW#resterner#n flies in directly from the west.
 ~
 25
 8 0 S
-4998 0 0 40d20+3 0d0+0
+5000 0 0 40d20+3 0d0+0
 0 0
 0 0 0
 #101512
@@ -150,7 +150,7 @@ A huge #LT#Rrooper #LO#Rf #LC#Ramulod#n is here swinging his axe.
 ~
 25
 8 0 S
-4583 0 0 35d10+2 0d0+0
+4582 0 0 35d10+2 0d0+0
 0 0
 0 0 0
 #101513
@@ -161,7 +161,7 @@ A #oC#Ramulodian #oP#Rrince#n is here waving his broadsword around.
 ~
 19
 128 0 S
-4541 0 0 30d10+1 0d0+0
+4542 0 0 30d10+1 0d0+0
 0 0
 0 0 0
 #101514
@@ -172,7 +172,7 @@ A large unmounted #RH#rorse#n gallops around.
 ~
 25
 0 0 S
-3985 0 0 35d5+2 0d0+0
+3986 0 0 35d5+2 0d0+0
 0 0
 0 0 0
 #101515
@@ -194,7 +194,7 @@ A #RM#Lounted #RC#Lavalry#n Soldier is on their horse charging.
 ~
 25
 8 0 S
-4206 0 0 40d7+2 0d0+0
+4205 0 0 40d7+2 0d0+0
 0 0
 0 0 0
 #101517
@@ -227,7 +227,7 @@ A #RC#oambrian #RM#oountaineer#n climbing towards and up the slopes.
 ~
 19
 0 0 S
-4447 0 0 34d2+1 0d0+0
+4448 0 0 34d2+1 0d0+0
 0 0
 0 0 0
 #101520
@@ -249,7 +249,7 @@ Pig Hog~
 ~
 19
 0 0 S
-4500 0 0 30d3+1 0d0+0
+4499 0 0 30d3+1 0d0+0
 0 0
 0 0 0
 #101522
@@ -260,7 +260,7 @@ Pig~
 ~
 19
 0 0 S
-4437 0 0 20d10+1 0d0+0
+4438 0 0 20d10+1 0d0+0
 0 0
 0 0 0
 #101523
@@ -293,7 +293,7 @@ The Gigantic #RG#ouardian #RB#oeast#n is here clawing at his claws...
 ~
 27
 65536 0 S
-14021 0 0 50d20+100 0d0+0
+14022 0 0 50d20+100 0d0+0
 0 0
 0 0 0
 #101526
@@ -315,7 +315,7 @@ A #PC#pamulodian #PC#pitizen#n is here throwing stones at you.
 ~
 27
 8 0 S
-2999 0 0 10d20+2 0d0+0
+3000 0 0 10d20+2 0d0+0
 0 0
 0 0 0
 #101528
@@ -348,7 +348,7 @@ Guardian Whore~
 ~
 11
 65538 0 S
-14016 0 0 50d20+3 0d0+0
+14017 0 0 50d20+3 0d0+0
 0 0
 0 0 0
 #101562

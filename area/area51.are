@@ -18,7 +18,7 @@ A #RG#ru#0a#rr#Rd#ri#0a#rn #RM#re#0c#rh#Rw#ra#0r#rr#Ri#ro#0r#n is here with jave
 ~
 9
 589992 0 S
-20021 0 0 0d0+0 0d0+0
+20022 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52501
@@ -29,7 +29,7 @@ Infantry Machineguns Mercenaries~
 ~
 1
 0 0 S
-297 0 0 0d0+0 0d0+0
+298 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52502
@@ -40,7 +40,7 @@ Infantry Machineguns Mercenaries~
 ~
 1
 0 0 S
-257 0 0 0d0+0 0d0+0
+258 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52503
@@ -62,7 +62,7 @@ Infantry Machineguns Mercenaries~
 ~
 1
 0 0 S
-306 0 0 0d0+0 0d0+0
+308 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52505
@@ -73,7 +73,7 @@ Infantry Machineguns Mercenaries~
 ~
 1
 0 0 S
-287 0 0 0d0+0 0d0+0
+288 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52506
@@ -95,7 +95,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-350 0 0 0d0+0 0d0+0
+348 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52508
@@ -117,7 +117,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-356 0 0 0d0+0 0d0+0
+354 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52510
@@ -139,7 +139,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-344 0 0 0d0+0 0d0+0
+343 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52512
@@ -150,7 +150,7 @@ Infantry Artillery Mercenaries~
 ~
 1
 0 0 S
-320 0 0 0d0+0 0d0+0
+322 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52513
@@ -183,7 +183,7 @@ Helicopter~
 ~
 1
 0 0 S
-432 0 0 0d0+0 0d0+0
+430 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52516
@@ -205,7 +205,7 @@ Helicopter~
 ~
 1
 0 0 S
-438 0 0 0d0+0 0d0+0
+436 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52518
@@ -238,7 +238,7 @@ Elemental Mech~
 ~
 1
 65536 0 S
-803 0 0 0d0+0 0d0+0
+804 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52521
@@ -260,7 +260,7 @@ Elemental Mech~
 ~
 1
 0 0 S
-786 0 0 0d0+0 0d0+0
+787 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52523
@@ -271,7 +271,7 @@ Elemental Mech~
 ~
 1
 0 0 S
-780 0 0 0d0+0 0d0+0
+779 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52524
@@ -282,7 +282,7 @@ Elemental Mech~
 ~
 1
 0 0 S
-787 0 0 0d0+0 0d0+0
+786 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52525
@@ -304,7 +304,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 0 0 S
-1005 0 0 0d0+100 0d0+0
+1004 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52527
@@ -315,7 +315,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 0 0 S
-999 0 0 0d0+100 0d0+0
+998 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52528
@@ -326,7 +326,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 0 0 S
-1025 0 0 0d0+100 0d0+0
+1026 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52529
@@ -348,7 +348,7 @@ A small kitfox is here pointing its warhammer missiles at you.#n
 ~
 1
 65536 0 S
-1003 0 0 0d0+100 0d0+0
+1005 0 0 0d0+100 0d0+0
 0 0
 0 0 0
 #52531
@@ -370,7 +370,7 @@ Mad Dog~
 ~
 1
 0 0 S
-1511 0 0 0d20+0 0d0+0
+1510 0 0 0d20+0 0d0+0
 0 0
 0 0 0
 #52533
@@ -381,7 +381,7 @@ Mad Dog~
 ~
 1
 0 0 S
-1488 0 0 0d20+0 0d0+0
+1487 0 0 0d20+0 0d0+0
 0 0
 0 0 0
 #52534
@@ -392,7 +392,7 @@ Mad Dog~
 ~
 1
 0 0 S
-1481 0 0 0d20+0 0d0+0
+1482 0 0 0d20+0 0d0+0
 0 0
 0 0 0
 #52535
@@ -414,7 +414,7 @@ Mad Dog~
 ~
 1
 0 0 S
-1500 0 0 0d20+0 0d0+0
+1498 0 0 0d20+0 0d0+0
 0 0
 0 0 0
 #52537
@@ -425,7 +425,7 @@ A squadron of #rbazook#natier #rmercenaries#n are here.
 ~
 9
 0 0 S
-684 0 0 0d0+0 0d0+0
+682 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52538
@@ -469,7 +469,7 @@ A squadron of #rbazook#natier #rmercenaries#n are here.
 ~
 9
 0 0 S
-688 0 0 0d0+0 0d0+0
+686 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52542
@@ -491,7 +491,7 @@ Owens Mech~
 ~
 1
 524288 0 S
-878 0 0 0d5+0 0d0+0
+879 0 0 0d5+0 0d0+0
 0 0
 0 0 0
 #52544
@@ -524,7 +524,7 @@ Owens Mech~
 ~
 1
 0 0 S
-877 0 0 0d5+0 0d0+0
+876 0 0 0d5+0 0d0+0
 0 0
 0 0 0
 #52547
@@ -557,7 +557,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-5993 0 0 50d10+100 0d0+0
+5995 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52550
@@ -568,7 +568,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-5995 0 0 50d10+100 0d0+0
+5996 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52551
@@ -579,7 +579,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-5977 0 0 50d10+100 0d0+0
+5978 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52552
@@ -601,7 +601,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-6023 0 0 50d10+100 0d0+0
+6022 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52554
@@ -612,7 +612,7 @@ A huge #RR#ra#Rg#rn#Ra#rr#Ro#rk#n Mech is here about to crush your body.
 ~
 1
 0 0 S
-6030 0 0 50d10+100 0d0+0
+6031 0 0 50d10+100 0d0+0
 0 0
 0 0 0
 #52555
@@ -645,7 +645,7 @@ no name~
 ~
 1
 0 0 S
-11 0 0 0d0+0 0d0+0
+13 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52558
@@ -656,7 +656,7 @@ no name~
 ~
 1
 0 0 S
-3 0 0 0d0+0 0d0+0
+4 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52559
@@ -667,7 +667,7 @@ no name~
 ~
 1
 0 0 S
-22 0 0 0d0+0 0d0+0
+20 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #52560

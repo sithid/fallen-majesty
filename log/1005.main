@@ -1,0 +1,107 @@
+Tue Jul 15 00:35:57 :: Loading sysdata configuration...
+Tue Jul 15 00:35:57 :: read in SYSTEM
+Tue Jul 15 00:35:57 :: freading sysdata
+Tue Jul 15 00:35:57 :: Loading sysdata: MudName
+Tue Jul 15 00:35:57 :: Loading sysdata: Highplayers
+Tue Jul 15 00:35:57 :: Loading sysdata: Highplayertime
+Tue Jul 15 00:35:57 :: Loading sysdata: Saveflags
+Tue Jul 15 00:35:57 :: Loading sysdata: Savefreq
+Tue Jul 15 00:35:57 :: Loading sysdata: MaxTotExp
+Tue Jul 15 00:35:57 :: Loading sysdata: Expmod
+Tue Jul 15 00:35:57 :: Loading sysdata: Qpmod
+Tue Jul 15 00:35:57 :: Loading sysdata: FreeForAll
+Tue Jul 15 00:35:57 :: Loading sysdata: CurrChange
+Tue Jul 15 00:35:57 :: Loading sysdata: MaxItem
+Tue Jul 15 00:35:57 :: Loading sysdata: End
+Tue Jul 15 00:35:57 :: Returning
+Tue Jul 15 00:35:57 :: read in END
+Tue Jul 15 00:35:57 :: Ending
+Tue Jul 15 00:35:57 :: Initializing Config
+Tue Jul 15 00:35:57 :: loading help.are
+Tue Jul 15 00:35:57 :: loading bullshit.are
+Tue Jul 15 00:35:57 :: loading limbo.are
+Tue Jul 15 00:35:57 :: loading pyramid.are
+Tue Jul 15 00:35:57 :: loading fuckya.are
+Tue Jul 15 00:35:57 :: loading drow.are
+Tue Jul 15 00:35:57 :: loading eoeasy.are
+Tue Jul 15 00:35:57 :: loading start.are
+Tue Jul 15 00:35:57 :: loading hell.are
+Tue Jul 15 00:35:57 :: loading classeq.are
+Tue Jul 15 00:35:57 :: loading gta.are
+Tue Jul 15 00:35:57 :: loading disney.are
+Tue Jul 15 00:35:57 :: loading old.are
+Tue Jul 15 00:35:57 :: loading brujah.are
+Tue Jul 15 00:35:57 :: loading area79.are
+Tue Jul 15 00:35:57 :: loading worldark.are
+Tue Jul 15 00:35:57 :: loading resievil.are
+Tue Jul 15 00:35:57 :: loading battgrou.are
+Tue Jul 15 00:35:57 :: loading area83.are
+Tue Jul 15 00:35:57 :: loading area70.are
+Tue Jul 15 00:35:57 :: loading classhq.are
+Tue Jul 15 00:35:57 :: loading heaven.are
+Tue Jul 15 00:35:57 :: loading newbfor.are
+Tue Jul 15 00:35:57 :: loading towdark.are
+Tue Jul 15 00:35:57 :: loading dbz.are
+Tue Jul 15 00:35:57 :: loading satanrvg.are
+Tue Jul 15 00:35:57 :: loading pendrago.are
+Tue Jul 15 00:35:57 :: loading cornwall.are
+Tue Jul 15 00:35:57 :: loading mansion.are
+Tue Jul 15 00:35:57 :: loading reaver.are
+Tue Jul 15 00:35:57 :: loading airforce.are
+Tue Jul 15 00:35:57 :: loading area97.are
+Tue Jul 15 00:35:57 :: loading cambria.are
+Tue Jul 15 00:35:57 :: loading final.are
+Tue Jul 15 00:35:57 :: loading area93.are
+Tue Jul 15 00:35:57 :: loading westside.are
+Tue Jul 15 00:35:57 :: loading holypath.are
+Tue Jul 15 00:35:57 :: loading arena.are
+Tue Jul 15 00:35:57 :: loading candylnd.are
+Tue Jul 15 00:35:57 :: loading mordor.are
+Tue Jul 15 00:35:57 :: loading charysse.are
+Tue Jul 15 00:35:57 :: loading newbie.are
+Tue Jul 15 00:35:57 :: loading area43.are
+Tue Jul 15 00:35:57 :: loading legends.are
+Tue Jul 15 00:35:57 :: loading aqua.are
+Tue Jul 15 00:35:57 :: loading blitzes.are
+Tue Jul 15 00:35:57 :: loading area46.are
+Tue Jul 15 00:35:57 :: loading area47.are
+Tue Jul 15 00:35:57 :: loading area48.are
+Tue Jul 15 00:35:57 :: loading artic.are
+Tue Jul 15 00:35:57 :: loading rquest.are
+Tue Jul 15 00:35:57 :: loading area51.are
+Tue Jul 15 00:35:57 :: loading rqarecon.are
+Tue Jul 15 00:35:57 :: loading kelud.are
+Tue Jul 15 00:35:57 :: loading kelswamp.are
+Tue Jul 15 00:35:57 :: loading area55.are
+Tue Jul 15 00:35:57 :: loading area56.are
+Tue Jul 15 00:35:57 :: loading area57.are
+Tue Jul 15 00:35:57 :: loading area58.are
+Tue Jul 15 00:35:57 :: loading clan: ./clans/area60.are
+Tue Jul 15 00:35:57 :: Clan snardsclan loaded
+Tue Jul 15 00:35:57 :: loading clan: ./clans/area61.are
+Tue Jul 15 00:35:57 :: Clan huwsclan loaded
+Tue Jul 15 00:35:57 :: Fixing Exits
+Tue Jul 15 00:35:57 :: Updating Areas
+Tue Jul 15 00:35:57 :: Loading Bans
+Tue Jul 15 00:35:57 :: Loading Kingshit
+Tue Jul 15 00:35:57 :: Loading Leaderboard
+Tue Jul 15 00:35:57 :: Loading_kingdoms
+Tue Jul 15 00:35:57 :: loading class leader
+Tue Jul 15 00:35:57 :: Loading War
+Tue Jul 15 00:35:57 :: Loading Boards
+Tue Jul 15 00:35:57 :: Saving NOtes
+Tue Jul 15 00:35:57 :: Loading Disable
+Tue Jul 15 00:35:57 :: Loading Changes
+Tue Jul 15 00:35:57 :: Loading Artis
+Tue Jul 15 00:35:57 :: Loading Todo
+Tue Jul 15 00:35:57 :: Loading Quotes
+Tue Jul 15 00:35:57 :: Loading Swearlist
+Tue Jul 15 00:35:57 :: Loading Multilist
+Tue Jul 15 00:35:57 :: loading socials
+Tue Jul 15 00:35:57 :: loading hints
+Tue Jul 15 00:35:57 :: Dystopia is ready to rock on port 2001.
+Tue Jul 15 00:37:46 :: Sock.sinaddr:  127.0.0.1
+Tue Jul 15 00:37:50 :: Cid trying to connect.
+Tue Jul 15 00:38:04 :: Cid@localhost new player.
+Tue Jul 15 00:38:36 :: Cid has accepted the policy!
+Tue Jul 15 00:38:56 :: Cid has quit.

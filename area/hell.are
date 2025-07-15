@@ -18,7 +18,7 @@ A hellish creature from the abyss is growling at you.
 ~
 17
 0 -1000 S
-262 0 0 10d4+1 0d0+0
+263 0 0 10d4+1 0d0+0
 0 0
 0 0 0
 #30101
@@ -29,7 +29,7 @@ A Pit Lord is eyeing you.
 ~
 17
 128 -1000 S
-318 0 0 10d5+1 0d0+0
+317 0 0 10d5+1 0d0+0
 0 0
 0 0 0
 #30102
@@ -62,7 +62,7 @@ A large demon pokes you HARD.
 ~
 17
 0 -1000 S
-262 0 0 10d5+1 0d0+0
+261 0 0 10d5+1 0d0+0
 0 0
 0 0 0
 #30105
@@ -84,7 +84,7 @@ A green demon fondles you fondly.
 ~
 17
 0 -1000 S
-399 0 0 10d5+1 0d0+0
+401 0 0 10d5+1 0d0+0
 0 0
 0 0 0
 #30107
@@ -106,7 +106,7 @@ A Wailing Soul tries to get away.
 ~
 17
 0 -1000 S
-235 0 0 10d5+1 0d0+0
+236 0 0 10d5+1 0d0+0
 0 0
 0 0 0
 #30109
@@ -117,7 +117,7 @@ A dark wraith tries to steal your soul.
 ~
 17
 0 -1000 S
-178 0 0 10d5+1 0d0+0
+177 0 0 10d5+1 0d0+0
 0 0
 0 0 0
 #30110
@@ -128,7 +128,7 @@ A Flaming Claw tries to rip your heart out.
 ~
 17
 0 -1000 S
-302 0 0 10d5+1 0d0+0
+301 0 0 10d5+1 0d0+0
 0 0
 0 0 0
 #30111

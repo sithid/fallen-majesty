@@ -19,7 +19,7 @@ This is a cleric dedicated to evil.
 ~
 65
 66218 -1000 S
-118 0 0 0d0+0 0d0+0
+117 0 0 0d0+0 0d0+0
 0 0
 0 0 2
 #33002
@@ -31,7 +31,7 @@ He glares at you an prepares to attack.
 ~
 3
 0 -1000 S
-33 0 0 1d1+3 0d0+0
+34 0 0 1d1+3 0d0+0
 0 0
 0 0 1
 #33003
@@ -43,7 +43,7 @@ He looks very hungry...
 ~
 2051
 0 -1000 S
-212 0 0 1d1+3 0d0+0
+211 0 0 1d1+3 0d0+0
 0 0
 0 0 1
 #33004
@@ -54,7 +54,7 @@ an illusion~
 ~
 1
 0 1 S
-19 0 0 0d0+0 0d0+0
+21 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #0

@@ -1,0 +1,647 @@
+#PLAYERS
+Name         Cid~
+Version      15
+Switchname   Cid~
+ShortDescr   ~
+LongDescr    ~
+ObjDesc      (null)~
+Description  ~
+Stackchar    |
+Speedchar    >
+LastChange   1752554685
+Lord         ~
+Kingdom      0
+CPower 0 0 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 0 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2 -2
+DiscRese     -1
+DiscPoin     0
+Class        0
+Morph        ~
+Createtime   Tue Jul 15 00:37:50 2025~
+Lasttime     Tue Jul 15 00:44:19 2025~
+Lasthost     localhost~
+Poweraction  ~
+Powertype    ~
+Prompt       ~
+Cprompt      ~
+Sex          1
+Race         0
+Immune       0
+Polyaff      0
+Lexp		0
+Lstatus    0
+Gnosis       0
+Clan         (null)~
+CurrentForm  0
+Rage         0
+Generation   6
+Flag2       0
+Flag3       0
+Flag4       0
+SilTol      0
+Souls	      0
+Itemaffect   143
+Form         262143
+Beast        15
+Spectype     0
+Specpower    0
+Home         41001
+Level        12
+Trust        12
+Security     9
+Paradox      0 0 0
+Played       484
+Room         101900
+PkPdMkMd     0 0 10 0
+Alos         0
+Awin         0
+Weapons      0 0 5 2 0 0 0 0 0 0 0 0 0
+Spells       0 0 0 0 0
+Combat       0 0 0 0 0 0 0 0
+Stance       0 0 0 0 0 0 0 0 0 0 0 0
+Stance2      0 0 0 0 0 0 0 -1 -1 -1 -1 -1
+Locationhp   0 0 0 0 0 0 0
+HpManaMove   1000 1000 1500 1500 1500 1500
+Denied        0
+Gold           0
+Bank           0
+QpBank           0
+Monkstuff    0
+Monkcrap     0
+Chi       0 0
+Focus     0 0
+Monkab     0 0 0 0
+Gifts    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Garou1        0
+Garou2        0
+Explevel     0
+Expgained    0
+Exp          3465360
+Levelexp     0
+Act          9024
+Special      32768
+Newbits      0
+Extra        8&2621513
+AffectedBy   1573378
+MageFlags    0
+Spheres      0 0 0 0 0 0 0 0 0
+Mimmunity    0 0 0
+Quint        0 0 0
+Position     9
+Practice     0
+SavingThrow  0
+Alignment    0
+XHitroll     0
+XDamroll     0
+Hitroll      51
+Damroll      51
+Armor        -180
+Wimpy        0
+Deaf         0
+Smite ~
+Password     Ci8ZUSs6ita4A~
+Bamfin       ~
+Bamfout      ~
+Questsrun    0
+Queststotal  0
+Title        ~
+Bounty	    0
+Conception   ~
+Parents      ~
+Cparents     ~
+Marriage     ~
+Email        ~
+RandMight    0
+AttrPerm     14 16 13 15 10
+AttrMod      0 0 0 0 0
+Quest        0
+Wolf         1
+Rank         0
+Dragonaff    0
+Dragonage    0
+Hatch        0
+Breath1      ~
+Breath2      ~
+Breath3      ~
+Breath4      ~
+Breath5      ~
+Language     0 0
+Stage        0 0 0
+Score        13097 2807 76 16 0 0
+Genes        0 0 0 0 0 0 0 0 0 0
+Power        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Magejunk     0 0 0 0 0 0 0 0 0 0 
+Stats        0 0 0 0 0 0 0 0 0 0 0 0 
+FakeCon      0 0 0 0 0 0 0 0
+Condition    0 47 48
+StatAbility  0 0 0 0
+StatAmount   0 0 0 0
+StatDuration 0 0 0 0
+Exhaustion   0
+Boards       8 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0 Immortal 0 Builder 0 Kingdom 0 
+End
+
+#OBJECT
+Nest         0
+Name         newbie guide~
+ShortDescr   #0A #rn#Re#rw#Rb#ri#Re#0 guide#n~
+Description  #0A newbie guide lies here. Maybe you should examine it.#n~
+Questmaker   Cid~
+Vnum         2205
+ExtraFlags   2
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    1
+WearLoc      -1
+ItemType     8
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1440
+Values       0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie torch onyx~
+ShortDescr   #rAn #0o#7n#8y#0x #rtorch#n~
+Description  #0Some newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2206
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    16385
+WearLoc      0
+ItemType     1
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1430
+Values       0 0 10000 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx ring~
+ShortDescr   #rAn #0o#7n#8y#0x #rcirclet#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2207
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    3
+WearLoc      2
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1560
+Values       10 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx ring~
+ShortDescr   #rAn #0o#7n#8y#0x #rcirclet#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2207
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    3
+WearLoc      1
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1188
+Values       10 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx necklace~
+ShortDescr   #rAn #0o#7n#8y#0x #rnecklace#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2208
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    5
+WearLoc      4
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1430
+Values       10 0 0 16
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx necklace~
+ShortDescr   #rAn #0o#7n#8y#0x #rnecklace#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2208
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    5
+WearLoc      3
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1560
+Values       10 0 0 16
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx tunic~
+ShortDescr   #rAn #0o#7n#8y#0x #rtunic#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2209
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    9
+WearLoc      5
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1690
+Values       10 0 0 3
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx cap~
+ShortDescr   #rAn #0o#7n#8y#0x #rcap#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2210
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    17
+WearLoc      6
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1560
+Values       10 0 0 1
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx pants~
+ShortDescr   #0O#7n#8y#0x #rpants#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2211
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    33
+WearLoc      7
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1296
+Values       10 0 0 6
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx sandals~
+ShortDescr   #0O#7n#8y#0x #rsandals#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2212
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    65
+WearLoc      8
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1452
+Values       10 0 0 5
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx gloves~
+ShortDescr   #0O#7n#8y#0x #rgloves#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2213
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    129
+WearLoc      9
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1320
+Values       10 0 0 10
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx sleeves~
+ShortDescr   #0O#7n#8y#0x #rsleeves#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2214
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    257
+WearLoc      10
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1690
+Values       10 0 0 11
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx shield~
+ShortDescr   #rAn #0o#7n#8y#0x #rshield#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2215
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    513
+WearLoc      11
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1210
+Values       10 0 0 12
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx cloak~
+ShortDescr   #rAn #0o#7n#8y#0x #rcloak#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2216
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    1025
+WearLoc      12
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1404
+Values       10 0 0 13
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx sash~
+ShortDescr   #rAn #0o#7n#8y#0x #rsash#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2217
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    2049
+WearLoc      13
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1296
+Values       10 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx bracelet~
+ShortDescr   #rAn #0o#7n#8y#0x #rbracelet#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2218
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    4097
+WearLoc      15
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1440
+Values       10 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx bracelet~
+ShortDescr   #rAn #0o#7n#8y#0x #rbracelet#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2218
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    4097
+WearLoc      14
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1320
+Values       10 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx dagger~
+ShortDescr   #rAn #0o#7n#8y#0x #rdagger#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2219
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    8193
+WearLoc      17
+ItemType     5
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1320
+Values       0 26 46 2
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx sickle~
+ShortDescr   #rAn #0o#7n#8y#0x #rsickle#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2220
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    8193
+WearLoc      16
+ItemType     5
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1560
+Values       0 40 66 3
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx shades~
+ShortDescr   #0O#7n#8y#0x #rshades#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2221
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    32769
+WearLoc      20
+ItemType     9
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1560
+Values       10 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         newbie onyx backpack bag back pack~
+ShortDescr   #rAn #0o#7n#8y#0x #rbackpack#n~
+Description  #0a piece of newbie equipment lies here.#n~
+Questmaker   Cid~
+Vnum         2222
+ExtraFlags   0
+ExtraFlags2  0
+WeapFlags    0
+WearFlags    1
+WearLoc      -1
+ItemType     15
+Weight       0
+Condition    100
+Toughness    100
+Resistance   1
+Quest        33554432
+Level        12
+Timer        0
+Cost         1320
+Values       100 0 0 0
+End
+
+#END

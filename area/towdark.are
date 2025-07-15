@@ -29,7 +29,7 @@ tower guardian balance~
 ~
 11
 8232 0 S
-15026 0 0 20d20+3 0d0+0
+15025 0 0 20d20+3 0d0+0
 0 0
 0 0 0
 #100102
@@ -51,7 +51,7 @@ protector tower darkness guardian~
 ~
 11
 40 -1000 S
-15008 0 0 25d10+1 0d0+0
+15009 0 0 25d10+1 0d0+0
 0 0
 0 0 2
 #100104
@@ -73,7 +73,7 @@ A #LUnholy #0Knight#n stands here protecting its surroundings.
 ~
 1
 0 -1000 S
-8025 0 0 8d8+1 0d0+0
+8024 0 0 8d8+1 0d0+0
 0 0
 0 0 0
 #100106
@@ -95,7 +95,7 @@ A #0Witch#n stands here protecting its surroundings.
 ~
 17
 0 0 S
-6058 0 0 6d6+1 0d0+0
+6059 0 0 6d6+1 0d0+0
 0 0
 0 0 2
 #100108
@@ -117,7 +117,7 @@ A #GNecromancer#n stands here protecting its surroundings.
 ~
 17
 0 0 S
-3937 0 0 4d4+1 0d0+0
+3936 0 0 4d4+1 0d0+0
 0 0
 0 0 0
 #100110
@@ -128,7 +128,7 @@ A #LWraith#n stands here protecting its surroundings.
 ~
 17
 0 0 S
-2980 0 0 3d3+1 0d0+0
+2978 0 0 3d3+1 0d0+0
 0 0
 0 0 0
 #100111
@@ -139,7 +139,7 @@ A #RD#re#Rm#ro#Rn#n stands here protecting its surroundings.
 ~
 17
 0 -1000 S
-1961 0 0 2d2+1 0d0+0
+1960 0 0 2d2+1 0d0+0
 0 0
 0 0 0
 #100112
@@ -150,7 +150,7 @@ A #CGargoyle#n stands here protecting its surroundings.
 ~
 17
 0 1000 S
-1025 0 0 1d1+1 0d0+0
+1023 0 0 1d1+1 0d0+0
 0 0
 0 0 0
 #0

@@ -21,7 +21,7 @@ rings and bracelets.
 ~
 3
 0 900 S
-70 200 2 1d1+30000 1d8+32
+68 200 2 1d1+30000 1d8+32
 100000 0
 0 0 1
 #3001
@@ -34,7 +34,7 @@ body.
 ~
 3
 0 900 S
-52 200 2 1d1+30000 1d8+20
+51 200 2 1d1+30000 1d8+20
 12000 0
 0 0 1
 #3002
@@ -83,7 +83,7 @@ Well COUNT your money!
 ~
 33
 98304 100 S
-59 130 3 8d8+800 1d5+5
+58 130 3 8d8+800 1d5+5
 100 0
 0 0 1
 #3006
@@ -107,7 +107,7 @@ He looks like a strong, fit sailor.
 ~
 515
 0 900 S
-82 -2 -13 23d23+230 1d4+23
+83 -2 -13 23d23+230 1d4+23
 2000 0
 0 0 1
 #3008
@@ -119,7 +119,7 @@ He is young and close-cropped and looks quite happy.
 ~
 3
 0 900 S
-45 2 2 1d1+30000 1d8+20
+46 2 2 1d1+30000 1d8+20
 12000 0
 0 0 1
 #3009
@@ -131,7 +131,7 @@ He is fat and has a content although watchful look on his face.
 ~
 3
 0 900 S
-104 200 -10 1d1+30000 1d8+22
+105 200 -10 1d1+30000 1d8+22
 300000 0
 0 0 1
 #3010
@@ -144,7 +144,7 @@ keep himself going.
 ~
 3
 0 900 S
-87 200 2 1d1+30000 1d8+20
+88 200 2 1d1+30000 1d8+20
 100000 0
 0 0 1
 #3011
@@ -156,7 +156,7 @@ A strong man stands here in a black hood sharpening his bloodied axe.
 ~
 67
 136 1000 S
-7493 100 -200 1d5+30000 1d4+300
+7495 100 -200 1d5+30000 1d4+300
 50 0
 0 0 1
 #3020
@@ -170,7 +170,7 @@ and you notice that she is surrounded by a blue shimmering aura.
 ~
 1027
 0 1000 S
-5 20 0 6d10+440 3d8+24
+4 20 0 6d10+440 3d8+24
 8794 0
 0 0 2
 #3021
@@ -183,7 +183,7 @@ a peaceful, loving look. You notice that he is surrounded by a white aura.
 ~
 1027
 128 1000 S
-87 20 0 6d10+440 3d8+24
+86 20 0 6d10+440 3d8+24
 8794 0
 0 0 1
 #3022
@@ -197,7 +197,7 @@ the appearance of a beggar.
 ~
 1027
 0 1000 S
-81 20 0 6d10+440 3d8+24
+80 20 0 6d10+440 3d8+24
 8794 0
 0 0 2
 #3023
@@ -211,7 +211,7 @@ has a calm look on his face.
 ~
 1027
 0 1000 S
-63 20 0 6d10+440 3d8+24
+64 20 0 6d10+440 3d8+24
 8794 0
 0 0 1
 #3024
@@ -240,7 +240,7 @@ opponent.
 ~
 3
 0 800 S
-29 20 2 6d10+3900 1d8+22
+28 20 2 6d10+3900 1d8+22
 2000 0
 0 0 1
 #3026
@@ -254,7 +254,7 @@ them combined with his extraordinary stealth makes him a deadly opponent.
 ~
 3
 65536 800 S
-20 4 4 6d10+3900 1d8+22
+19 4 4 6d10+3900 1d8+22
 2000 0
 0 0 1
 #3027
@@ -293,7 +293,7 @@ A tired looking waiter.
 ~
 3
 0 900 S
-42 2 2 6d10+390 1d8+18
+40 2 2 6d10+390 1d8+18
 2000 0
 0 0 1
 #3042
@@ -305,7 +305,7 @@ peaceful life as a waiter.
 ~
 3
 0 600 S
-91 1 2 6d10+390 1d8+18
+92 1 2 6d10+390 1d8+18
 2000 0
 0 0 1
 #3043
@@ -316,7 +316,7 @@ A waiter who seems to have reached contact with God.
 ~
 3
 0 600 S
-9 1 2 6d10+390 1d8+18
+10 1 2 6d10+390 1d8+18
 2000 0
 0 0 1
 #3044
@@ -338,7 +338,7 @@ A waiter who easily could kill you, and still carry quite a few firebreathers.
 ~
 3
 0 600 S
-87 1 2 6d10+390 1d8+18
+88 1 2 6d10+390 1d8+18
 2000 0
 0 0 1
 #3046
@@ -368,7 +368,7 @@ with him from Generic Mud.
 Since he practices safe sex, ~
 69
 552 0 S
-18 15 -2 1d1+999 2d10+20
+17 15 -2 1d1+999 2d10+20
 500 0
 0 0 1
 #3060
@@ -380,7 +380,7 @@ A big, strong, helpful, trustworthy guard.
 ~
 69
 0 1000 S
-13 15 -2 15d15+150 1d4+10
+14 15 -2 15d15+150 1d4+10
 500 0
 0 0 1
 #3061
@@ -404,7 +404,7 @@ around his teeth.
 ~
 177
 268435456 -200 S
-62 20 10 0d0+0 1d4+0
+63 20 10 0d0+0 1d4+0
 10 0
 0 0 1
 #3063
@@ -428,7 +428,7 @@ A drunk who seems to be too happy, and to carry too much money.
 ~
 1
 0 400 S
-34 19 8 0d0+0 1d6+0
+35 19 8 0d0+0 1d6+0
 85 0
 0 0 1
 #3065
@@ -440,7 +440,7 @@ The beggar looks like she is fed up with life.
 ~
 3
 0 400 S
-31 20 9 0d0+0 1d5+0
+30 20 9 0d0+0 1d5+0
 0 0
 0 0 2
 #3066
@@ -464,7 +464,7 @@ A big, strong, helpful, trustworthy guard.
 ~
 67
 0 1000 S
-33 5 -2 15d15+150 1d4+10
+34 5 -2 15d15+150 1d4+10
 500 0
 0 0 1
 #3068
@@ -476,7 +476,7 @@ A big, strong, helpful, trustworthy guard.
 ~
 67
 0 1000 S
-23 5 -2 15d15+150 1d4+10
+22 5 -2 15d15+150 1d4+10
 500 0
 0 0 1
 #3069
@@ -536,7 +536,7 @@ The rottweiler looks like a strong, fierce fighter.
 ~
 7
 0 400 S
-30 18 7 1d12+35 1d7+0
+29 18 7 1d12+35 1d7+0
 0 0
 0 0 0
 #3094
@@ -548,7 +548,7 @@ The wolf looks like a strong, fearless fighter.
 ~
 7
 0 0 S
-26 17 6 1d12+47 1d8+0
+25 17 6 1d12+47 1d8+0
 0 0
 0 0 0
 #3100
@@ -561,7 +561,7 @@ for coming here more often.
 ~
 3
 0 1000 S
-27 2 -2 6d10+390 1d8+12
+28 2 -2 6d10+390 1d8+12
 2000 0
 0 0 2
 #3120
@@ -573,7 +573,7 @@ The sexton looks like he is relaxing after another grave-digging job.
 ~
 3
 0 800 S
-163 18 7 2d6+35 1d7+0
+164 18 7 2d6+35 1d7+0
 13 0
 0 0 1
 #3121
@@ -597,7 +597,7 @@ The duckling is adorable, it looks most of all like a tiny furball.
 ~
 3
 0 1000 S
-8 20 10 1d1+0 1d1+0
+9 20 10 1d1+0 1d1+0
 0 0
 0 0 0
 #3123
@@ -609,7 +609,7 @@ The sparrow looks like it is enjoying life.
 ~
 193
 0 1000 S
-64 20 10 2d6+0 1d3+0
+63 20 10 2d6+0 1d3+0
 0 0
 0 0 0
 #3124
@@ -621,7 +621,7 @@ The duck is quite fat.  It looks like it is enjoying life.
 ~
 65
 0 1000 S
-67 20 10 2d6+5 1d4+0
+69 20 10 2d6+5 1d4+0
 0 0
 0 0 0
 #3140
@@ -633,7 +633,7 @@ A big, strong, angry captain.
 ~
 39
 8 1000 S
-7 4 1 1d12+210 1d8+8
+8 4 1 1d12+210 1d8+8
 0 0
 0 0 1
 #3141
@@ -659,7 +659,7 @@ The Secretary says 'Please sit down and have a seat in the meantime'.
 ~
 3
 0 900 S
-136 9 2 1d12+148 2d7+1
+135 9 2 1d12+148 2d7+1
 100 0
 0 0 2
 #3143
@@ -683,7 +683,7 @@ He is very good at his job - completely dissolved in tears.
 ~
 129
 0 900 S
-109 20 9 2d6+10 1d5+0
+108 20 9 2d6+10 1d5+0
 34 0
 0 0 1
 #0

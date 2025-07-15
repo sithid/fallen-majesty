@@ -18,7 +18,7 @@ A large #LJ#0et#n with missiles prepares for take off.
 ~
 3
 0 0 S
-3001 0 0 10d0+0 0d0+0
+3002 0 0 10d0+0 0d0+0
 0 0
 0 0 0
 #101301
@@ -29,7 +29,7 @@ A large #0C#largo #0P#llane#n is being loaded.
 ~
 3
 0 0 S
-3069 0 0 15d0+0 0d0+0
+3070 0 0 15d0+0 0d0+0
 0 0
 0 0 0
 #101302
@@ -62,7 +62,7 @@ A #CC#captain #CP#cilot#n orders his lieutenants to board their planes.
 ~
 3
 0 0 S
-4313 0 0 0d0+0 0d0+0
+4312 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101305
@@ -73,7 +73,7 @@ A #RM#oaster #RS#oergeant#n stands here looking tough.
 ~
 3
 0 0 S
-3360 0 0 0d0+0 0d0+0
+3361 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101306
@@ -128,7 +128,7 @@ A big #oS#Renior #oA#Rerospace #oS#Rcience #oI#Rnstructor#n is here telling sick
 ~
 1
 0 0 S
-4003 0 0 0d0+0 0d0+0
+4004 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101311
@@ -161,7 +161,7 @@ A #RC#cadet #RL#cieutenant#n is here thinking of what he will do later to the lo
 ~
 3
 8 0 S
-3367 0 0 0d0+0 0d0+0
+3365 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101314
@@ -183,7 +183,7 @@ An #oA#yirman#n is here who had just joined the airforce.
 ~
 3
 8 0 S
-3382 0 0 0d0+0 0d0+0
+3384 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101316
@@ -194,7 +194,7 @@ An #RA#yirman #R1#yst #RC#ylass#n had been smart and got promoted.
 ~
 3
 0 0 S
-3535 0 0 0d0+0 0d0+0
+3534 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101317
@@ -227,7 +227,7 @@ A #LL#lieutenant-#LC#lolonel#n is here with his rocket launcher... Airforce?
 ~
 3
 0 0 S
-5157 0 0 0d0+0 0d0+0
+5156 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101320
@@ -238,7 +238,7 @@ A strong #RC#rolonel#n is here with his lazer pointer... which is a targetter fo
 ~
 3
 0 0 S
-5978 0 0 0d0+0 0d0+0
+5977 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101321
@@ -249,7 +249,7 @@ A #RS#loldier#n is here standing at attention.
 ~
 3
 0 0 S
-5011 0 0 0d0+0 0d0+0
+5012 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101322
@@ -282,7 +282,7 @@ A #RC#rh#0i#re#Rf#n is here practicing with his knife throwing.
 ~
 9
 0 0 S
-4933 0 0 0d0+0 0d0+0
+4934 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101325
@@ -293,7 +293,7 @@ A #RS#re#0r#yge#ra#rn#Rt#n is here drilling his men.
 ~
 1
 0 0 S
-4448 0 0 0d0+0 0d0+0
+4449 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101326
@@ -326,7 +326,7 @@ A package of #7C4#n is here about to blow up.
 ~
 1
 0 0 S
-4518 0 0 0d0+0 0d0+0
+4517 0 0 0d0+0 0d0+0
 0 0
 0 0 0
 #101329
@@ -337,7 +337,7 @@ A #0N#Ruclear #0M#Rissile#n is here awaiting launch.
 ~
 3
 0 0 S
-7000 0 0 10d0+0 0d0+0
+7001 0 0 10d0+0 0d0+0
 0 0
 0 0 0
 #0

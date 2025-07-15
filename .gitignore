@@ -1,0 +1,150 @@
+# ===========================================
+# Fallen Majesty MUD .gitignore
+# ===========================================
+
+# Compiled binary files
+dystopia
+src/dystopia
+*.exe
+*.out
+
+# Object files and compilation artifacts
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Core dumps and debugging files
+core
+*.core
+*.dump
+*core.*
+vgcore.*
+
+# Temporary and swap files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Log files
+*.log
+log/*.log
+log/*.core
+log/*.main
+log/*
+!log/.gitkeep
+
+# Process ID files
+*.pid
+
+# Memory debugging files
+memwatch.log
+area/memwatch.log
+valgrind.txt
+src/valgrind.txt
+
+# Backup files
+*.bak
+*.backup
+*.orig
+area/*.bak
+
+# Player files and runtime data
+player/*
+!player/.gitkeep
+player/backup/*
+player/store/*
+
+# Database files (if they contain runtime data)
+db/*.db
+db/*.dat
+db/*.idx
+
+# Test files and artifacts
+test_*
+src/test_*
+src/nohup.out
+
+# Build directories
+build/
+dist/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.vcproj
+*.vcxproj
+*.sln
+*.vim
+.*.vim
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Configuration files that might contain sensitive data
+config.local
+*.conf.local
+src/config.sys
+
+# Runtime configuration that changes
+area/ban.txt
+area/multilist.txt
+area/disabled.txt
+area/bugs.txt
+area/ideas.txt
+area/typos.txt
+area/todo.txt
+
+# Profiling and performance files
+gmon.out
+*.gcov
+*.gcda
+*.gcno
+
+# Archive files
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Patches and diffs
+*.patch
+*.diff
+*.rej
+
+# Documentation build artifacts
+docs/_build/
+docs/html/
+docs/latex/
+
+# Package manager files
+*.deb
+*.rpm
+
+# Startup variations (keep main startup script)
+src/startup2
+src/startup3
+src/extstartup
+
+# Version control artifacts
+.svn/
+.hg/
+.bzr/
+CVS/
