@@ -27,4 +27,4 @@ merc: $(O_FILES)
 	$(CC) -c $(C_FLAGS) $<
 
 clean:
-	rm -f *.o ; rm -f dystopia ; make
+	rm -f *.o ; rm -f dystopia ; find ../log -type f -name '*' -delete 2>/dev/null || true
