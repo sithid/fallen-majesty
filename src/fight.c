@@ -28,8 +28,6 @@
 
 #define MAX_SLAY_TYPES 3
 #define MONK_AUTODROP 12
-
-
 /*
  * Local functions.
  */
@@ -975,9 +973,6 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 
   if ( victim == NULL || victim->position != POS_FIGHTING ) return;
 
-  /* Only want one spell per round from spell weapons...otherwise it's 
-   * too powerful, and would unbalance player killing (as this is a PK mud).
-   */
 
   if ( dt == TYPE_UNDEFINED )
   {
@@ -992,12 +987,10 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 		dam = ch->damcap[0];
 	  damage( ch, victim, dam, gsn_critical_hit );
 	}
-        /* Look, just don't ask...   KaVir */
         if (wield->value[0] >= 1000) sn = wield->value[0] - ((wield->value[0] / 1000) * 1000);
         else sn = wield->value[0];
         if ((sn != 0 && sn !=70 && sn !=158 && sn !=61)  && (victim->position == POS_FIGHTING) && (!IS_ITEMAFF(victim, ITEMA_REFLECT) && (ch != victim))) (*skill_table[sn].spell_fun)
           (sn,wield->level,ch,victim);
-        /* sn.70 is gas breath and sn.158 is desanct and sn.61 is sleep */
       }
     }
   }
@@ -2033,7 +2026,6 @@ STANCEPOWER_DAMAGE_1))
   }
 
   /* damage reduction */
-/*  if (!IS_NPC(ch) && !IS_NPC(victim)) dam /= 2;*/  /* slow down pk */
   if (IS_NPC(ch) && dam > 2000) dam = 2000 + (dam-2000)/2;    /* mob damage >2000 halved */
   if ( dam <= 0 ) dam = 5;
 
@@ -4663,7 +4655,6 @@ void raw_kill( CHAR_DATA *victim )
 {
   CHAR_DATA *mount;
   stop_fighting( victim, TRUE );
-/*  death_cry( victim ); */ /*Death_cry doesnt work*/
   make_corpse( victim);
  if ( victim->in_room == NULL ) //Rand
 	return;

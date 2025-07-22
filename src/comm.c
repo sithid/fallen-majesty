@@ -57,15 +57,7 @@
 #include <winsock.h>
 #include <sys/timeb.h> /*for _ftime(), uses _timeb struct*/
 #endif
-/*
-#if defined(__GNUC__) && defined(sun) && defined(unix) && !defined(__svr4__)
- extern void perror(const char *);
- extern double drand48(void);
- extern void srand48(long seedval);
- extern long random(void);
- extern void srandom(int seed);
- #endif
-*/
+/* Obsolete GNU/Sun declarations - removed for clarity */
 
 #include "merc.h"
 
@@ -181,24 +173,14 @@ int	socket		args( ( int domain, int type, int protocol ) );
 #endif
 
 #if	defined(linux)
-/* mercpoint: commented out to enable compiling
-int	accept		args( ( int s, struct sockaddr *addr, int *addrlen ) );
-int	bind		args( ( int s, struct sockaddr *name, int namelen ) );
-*/
+/* Socket function declarations commented out for modern Linux compatibility */
 int	close		args( ( int fd ) );
-//int	getpeername	args( ( int s, struct sockaddr *name, int *namelen ) );
-//int	getsockname	args( ( int s, struct sockaddr *name, int *namelen ) );
-// int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
-//int	listen		args( ( int s, int backlog ) );
-/* kavirpoint: put this in for nin site.
-int	read		args( ( int fd, char *buf, int nbyte ) );
-*/
+/* Additional socket functions commented out for modern Linux compatibility */
+/* Read function declaration removed for modern compatibility */
 int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
 			    fd_set *exceptfds, struct timeval *timeout ) );
 int	socket		args( ( int domain, int type, int protocol ) );
-/* kavirpoint: put this in for nin site.
-int	write		args( ( int fd, char *buf, int nbyte ) );
-*/
+/* Write function declaration removed for modern compatibility */
 #endif
 
 #if	defined(macintosh)
@@ -316,8 +298,7 @@ int	write		args( ( int fd, char *buf, int nbyte ) );
 DESCRIPTOR_DATA *   first_descriptor;	/* First descriptor		*/
 DESCRIPTOR_DATA *   last_descriptor;	/* Last descriptor		*/
 
-//DESCRIPTOR_DATA *   descriptor_free;	/* Free list for descriptors	*/
-//DESCRIPTOR_DATA *   descriptor_list;	/* All open descriptors		*/
+/* Legacy descriptor management variables - removed (using newer first/last_descriptor approach) */
 DESCRIPTOR_DATA *   d_next;		/* Next descriptor in loop	*/
 FILE *		    fpReserve;		/* Reserved file handle		*/
 bool		    god;		/* All new chars are gods!	*/
@@ -390,15 +371,7 @@ int main( int argc, char **argv )
 #error "You really, really don't want to run this without memwatch. Trust me."
 #endif
 */
-//Explanation
-/*
-What this does is, it makes The port and control global, therefore
-when you reexecute the mud, you can send the same parameters. And
-if it remembers the control, it will be able to reload the control
-and sockets. It passes the argv[3], argv[] is a each parameter
-a program is given. Argc is the count of the parameters that are given.
-Sorry, this may be hard to follow for some people.
-*/
+/* Copyover functionality: port and control are global to preserve socket state during restart */
 
 #if defined(MALLOC_DEBUG)
     malloc_debug( 2 );

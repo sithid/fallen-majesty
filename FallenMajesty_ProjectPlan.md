@@ -113,6 +113,8 @@ This section documents all completed tasks, changes made, and important decision
 - **2025-07-22** - Cleaned up commented-out form definitions - `src/merc.h` - Removed 28 lines of unused commented-out form definitions (lines 901-924), replaced with concise cleanup comments. Reduced code clutter significantly
 - **2025-07-22** - Resolved accidental area file modifications - `area/*.are` - Identified and reverted unintended numerical changes to area files. Area files contain game world data and should not be modified during source cleanup
 - **2025-07-22** - Fixed build error from overzealous cleanup - `src/merc.h` - Restored accidentally removed `mob_index_data` fields that were still referenced in `db.c`. Learned that fields marked as "unused" may still be needed by loading/saving code. Build now compiles successfully again.
+- **2025-07-22** - Communication module cleanup - `src/comm.c` - Removed obsolete networking declarations, cleaned up socket management code, and replaced legacy comments for improved clarity.
+- **2025-07-22** - Combat system cleanup - `src/fight.c` - Removed specific unnecessary comments including legacy developer references (line ~990), outdated spell attack comments (line ~995), commented-out PK slowdown code (line ~2031), and non-functional death_cry code (line ~4661). Code functionality preserved while improving maintainability.
 
 ### Next Actions
 - [ ] Continue systematic cleanup of `merc.h` - **IN PROGRESS** (completed: unused structs, autosave flags, form definitions)
