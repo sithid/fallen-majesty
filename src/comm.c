@@ -585,6 +585,7 @@ int init_socket( int port )
     sa.sin_family   = PF_INET;
 #endif
     sa.sin_port	    = htons( port );
+    sa.sin_addr.s_addr = INADDR_ANY;
 
     if ( bind( fd, (struct sockaddr *) &sa, sizeof(sa) ) < 0 )
     {

@@ -78,9 +78,10 @@ struct flag_type
 };
 
 #include "player.h"
-//#include "old.h"
+
 /*
  * Structure types.
+ * These typedefs define the core data structures used throughout the MUD.
  */
 typedef struct	affect_data		AFFECT_DATA;
 typedef struct	area_data		AREA_DATA;
@@ -115,7 +116,6 @@ typedef struct	room_index_data		ROOM_INDEX_DATA;
 typedef struct	shop_data		SHOP_DATA;
 typedef struct	time_info_data		TIME_INFO_DATA;
 typedef struct	weather_data		WEATHER_DATA;
-//typedef struct  random_data             RANDOM_DATA;
 typedef struct  system_data             SYSTEM_DATA;
 typedef struct	extended_bitvector	EXT_BV;
 
@@ -123,7 +123,7 @@ typedef struct  disabled_data                 DISABLED_DATA;
 
 #define MAX_TOTAL_EXP 100000000000
 
-#define MAX_ALIAS                  30 //Jobo's Aliases By Rand
+#define MAX_ALIAS                  30 /* Jobo's Aliases By Rand */
 
 /* one disabled command */
 struct disabled_data
@@ -212,7 +212,7 @@ typedef void SPELL_FUN	args( ( int sn, int level, CHAR_DATA *ch, void *vo ) );
 #define MSL MAX_STRING_LENGTH
 #define MIL MAX_INPUT_LENGTH
 
-//Added by Vampsta
+/* Function declaration for autosave functionality - Added by Vampsta */
 void non_verbose_asave_changed args(( ));
 
 /* 32bit bitvector defines */
@@ -379,16 +379,7 @@ struct extended_bitvector
     int		bits[XBI];
 };
 
-/* Status levels, change here to modify - Vic */
-/*
-#define STAT_AVATAR                      1
-#define STAT_IMMORTAL                   20
-#define STAT_GODLING                    40
-#define STAT_DEMIGOD                    60
-#define STAT_LESSER                     80
-#define STAT_GREATER                   100
-#define STAT_SUPREME                   100
-*/
+/* Status levels - Vic (Currently disabled) */
 
 #define PULSE_EMBRACE             ( 4 * PULSE_PER_SECOND)
 #define PULSE_MOBILE		  ( 4 * PULSE_PER_SECOND)
@@ -492,15 +483,15 @@ DIR_SOMEWHERE
 /*
  * Autosave flags
  */
-#define SV_UNUSED1                BV00 /* Save on death */
-#define SV_UNUSED2                   BV01 /* Save when kill made */
+/* SV_UNUSED1 removed - no longer used */
+/* SV_UNUSED2 removed - no longer used */
 #define SV_PASSCHG                BV02 /* Save on password change */
 #define SV_DROP                   BV03 /* Save on drop */
 #define SV_PUT                    BV04 /* Save on put */
 #define SV_GIVE                   BV05 /* Save on give */
 #define SV_AUTO                   BV06 /* Auto save every x minutes (define in cset) */
 #define SV_ZAPDROP                BV07 /* Save when eq zaps */
-#define SV_UNUSED3                BV08 /* Not used */
+/* SV_UNUSED3 removed - no longer used */
 #define SV_GET                    BV09 /* Save on get */
 #define SV_RECEIVE                BV10 /* Save when receiving */
 #define SV_IDLE                   BV11 /* Save when char goes idle */
@@ -907,31 +898,7 @@ struct	kill_data
 #define SIZE_HUGE                       4
 #define SIZE_GIANT                      5
 
-/*
-#define FRM_WOLF               1
-#define FRM_BAT                2
-#define FRM_MIST               3
-#define FRM_DOLPHIN            4
-#define FRM_FLAME              5
-#define FRM_SPIDER             6
-#define FRM_LIGHT              7
-#define FRM_COCKROACH          8
-#define FRM_RABBIT             9
-#define FRM_BLOB               10
-#define FRM_FROG               11
-#define FRM_IDIOT              12
-#define FRM_WHIRLWIND          13
-#define FRM_CRIMSON            14
-#define FRM_HAWK               15
-#define FRM_WEREWOLF           16
-#define FRM_FOX	               17
-#define FRM_WYVERN             18
-#define FRM_GARGANTUA          19
-#define FRM_PEASANT            20
-#define FRM_WARRIOR            21
-#define FRM_BARBARIAN          22
-#define FRM_GIRL               23
-*/
+/* Old form definitions removed during cleanup - these were unused/commented out */
 
 /* The demonic forms */
 #define FRM_LEMURE             1
@@ -949,12 +916,7 @@ struct	kill_data
 #define FRM_PIT_LORD           13
 #define FRM_DROWSPIDER	       14
 
-/*
-#define FRM_TREE               37
-
-#define FRM_DRAGON_1           38
-#define FRM_DRAGON_13          50
-*/
+/* Additional unused form definitions removed during cleanup */
 
 #define FRM_WERE_RAT	       1
 #define FRM_WERE_BEAR	       1
@@ -2554,11 +2516,9 @@ EXTRA_NOFOLLOW
 #define SHL_INVISIBLE		3
 
 /*
- * Obsolete bits.
+ * Obsolete bits - removed for cleanup.
+ * Former definitions that are no longer used in the codebase have been removed.
  */
-#if 0
-#define PLR_NO_SHOUT		 131072	/* Obsolete	*/
-#endif
 
 
 
@@ -2709,13 +2669,7 @@ struct map_type
   int info;
   bool can_see;
 };
-/*
-struct king_data
-{
-KING_DATA *next;
-KING_DATA *prev;
-};
-*/
+/* Note: Unused struct definition removed during cleanup */
 struct kingdom_data
 {
 	OBJ_DATA *object;
@@ -5085,21 +5039,9 @@ DECLARE_DO_FUN( do_contraception );
 DECLARE_DO_FUN( do_relearn );
 DECLARE_DO_FUN( do_hotboot      );
 
-/*MECHA*/
-DECLARE_DO_FUN( do_learn );
-DECLARE_DO_FUN( do_mechatalk );
+/* Additional class-specific function declarations */
 
-/*SAIYAJIN*/
-DECLARE_DO_FUN( do_learn );
-DECLARE_DO_FUN( do_scouttalk );
-DECLARE_DO_FUN( do_travel );
-
-/*DECLARE_DO_FUN( do_weapmod      );
-*/
-/*
- * Spell functions.
- * Defined in magic.c.
- */
+/* Spell function prototypes - Defined in magic.c */
 DECLARE_SPELL_FUN(	spell_contraception	);
 DECLARE_SPELL_FUN(      spell_spew              );
 DECLARE_SPELL_FUN(	spell_infirmity		);
@@ -5107,7 +5049,6 @@ DECLARE_SPELL_FUN(	spell_null		);
 DECLARE_SPELL_FUN(      spell_make_bag          );
 DECLARE_SPELL_FUN(	spell_acid_blast	);
 
-//DECLARE_SPELL_FUN(      spell_tendrils          );
 
 DECLARE_SPELL_FUN(	spell_armor		);
 DECLARE_SPELL_FUN(	spell_godbless		);
@@ -5365,25 +5306,24 @@ char *	crypt		args( ( const char *key, const char *salt ) );
 #define NULL_FILE	"/dev/null"	/* To reserve one stream	*/
 #endif
 
-#define AREA_LIST	"area.lst"	/* List of areas		*/
+#define AREA_LIST	"area.lst"		/* List of areas		*/
 #define CLAN_LIST	"../area/clans/clan.lst"	/* List of clans		*/
-#define ART_LIST	"art1.txt"	/* List of artifacts            */
-#define HOME_AREA	"../area/homes.are" /* Mages towers, etc        */
-#define BAN_LIST	"../area/ban.txt"	/* baaan. */
-#define BUG_FILE	"bugs.txt"      /* For 'bug' and bug( )		*/
-#define IDEA_FILE	"ideas.txt"	/* For 'idea'			*/
-#define TYPO_FILE	"typos.txt"     /* For 'typo'			*/
-#define NOTE_FILE	"notes.txt"	/* For 'notes'			*/
-#define SHUTDOWN_FILE	"shutdown.txt"	/* For 'shutdown'		*/
-#define QUEST_TXT	"quest.txt"     /* Show quests hehe whee	*/
-#define KINGDOM_FILE    "../area/kingshit.txt"  /* New database - TEST */
-#define LOG_FILE	"../db/logs.db"  /* logged commands		*/
-#define TODO_LIST       "../area/todo.txt"            /* Todo list                            */
-#define QUOTE_LIST       "../area/quote.txt"            /* Quote list                            */
-#define SWEARLIST_FILE  "../area/swearlist.txt"       /* Swearlist                            */
-#define MULTILIST_FILE  "../area/multilist.txt"       /* Swearlist                            */
-#define RANDOM_FILE     "../db/random.dat"             /* Random Loading Items                     */
-#define HINT_FILE	"../area/hints.txt"	      /* Hint list */
+#define ART_LIST	"art1.txt"		/* List of artifacts		*/
+#define HOME_AREA	"../area/homes.are"	/* Player homes and towers	*/
+#define BAN_LIST	"../area/ban.txt"	/* Banned site list		*/
+#define BUG_FILE	"bugs.txt"		/* For 'bug' and bug()		*/
+#define IDEA_FILE	"ideas.txt"		/* For 'idea' command		*/
+#define TYPO_FILE	"typos.txt"		/* For 'typo' command		*/
+#define NOTE_FILE	"notes.txt"		/* For player notes		*/
+#define SHUTDOWN_FILE	"shutdown.txt"		/* For shutdown messages	*/
+#define QUEST_TXT	"quest.txt"		/* Quest information		*/
+#define KINGDOM_FILE	"../area/kingshit.txt"	/* Kingdom database		*/
+#define LOG_FILE	"../db/logs.db"		/* Command logging		*/
+#define TODO_LIST	"../area/todo.txt"	/* Todo list management		*/
+#define QUOTE_LIST	"../area/quote.txt"	/* Quote list management	*/
+#define SWEARLIST_FILE	"../area/swearlist.txt"	/* Profanity filter list	*/
+#define MULTILIST_FILE	"../area/multilist.txt"	/* Multi-play tracking		*/
+#define HINT_FILE	"../area/hints.txt"	/* Player hint system		*/
 /*
  * Our function prototypes.
  * One big lump ... this is every function in Merc.

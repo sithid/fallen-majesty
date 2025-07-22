@@ -1,9 +1,0 @@
-mem.c:                                                unlink_reset( pRoom, pReset );
-mem.c:                                                unlink_reset( pRoom, pReset );
-mem.c:                                                unlink_reset( pRoom, pReset );
-Binary file mem.o matches
-olc_act.c:void unlink_reset( ROOM_INDEX_DATA *pRoom, RESET_DATA *pReset )
-olc_act.c:                                                unlink_reset( pRoom, pReset );
-olc_act.c:                                                unlink_reset( pRoom, pReset );
-olc_act.c:                                                unlink_reset( pRoom, pReset );
-olc_act.c:                                                unlink_reset( pRoom, pReset );
