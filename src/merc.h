@@ -533,7 +533,7 @@ PF_MARRIAGE
 void flog             (char * fmt, ...);
 void copyover_recover (void);
 typedef struct copyover         COPYOVER;
-//Timer defines
+/* Timer defines */
 struct copyover
 {
         sh_int          time;
@@ -790,18 +790,7 @@ struct	note_data
     time_t	expire;
 };
 
-/*
-struct  random_data
-{
-        int     vnum;
-        int     rarity;
-        int     lvnum;
-        int     uvnum;
-
-        RANDOM_DATA *next;
-        RANDOM_DATA *prev;
-};
-*/
+/* Unused random_data structure removed during cleanup */
 /*
  * An affect.
  */
@@ -918,12 +907,7 @@ struct	kill_data
 
 /* Additional unused form definitions removed during cleanup */
 
-#define FRM_WERE_RAT	       1
-#define FRM_WERE_BEAR	       1
-#define FRM_WERE_TIGER	       1
-#define FRM_WERE_SHARK	       1
-#define FRM_GOLEM	       1
-#define FRM_PIXIE	       1
+/* Duplicate were-form definitions removed - all had same value */
 
 #define MAX_FORMS	       15
 
@@ -949,7 +933,7 @@ struct	kill_data
 #define AFF_TAIL                (N)
 #define AFF_WING                (O)
 
-// flag3
+/* flag3 */
 #define AFF3_BLINK_1ST_RD	(A)
 #define AFF3_BLINK_2ND_RD	(B)
 
@@ -2297,10 +2281,7 @@ char *ColorStrip(char *string);
 /*
  * ACT bits for players.
  */
-/*
-#define PLR_EMBRACING		      4	
-#define PLR_EMBRACED		    256	
-Seriosly bugged bits for some reason dont enable them they arent used*/
+/* PLR_EMBRACING and PLR_EMBRACED bits removed - were bugged and unused */
 typedef enum {
 PLR_IS_NPC,
 PLR_AUTOGOLD,
@@ -2363,7 +2344,7 @@ PLR_AUTOSPLIT
 #define THIRD_HAND    262144
 #define FOURTH_HAND   524288
 #define NEW_CLANNABLE 1048576
-#define NEWBIE_PACK   2097152 // Sigh Sage you make things hard :)
+#define NEWBIE_PACK   2097152 /* Newbie pack flag */
 #define NEW_NATURAL   4194304
 #define NEW_POWER     8388608
 #define NEW_DFORM     16777216
@@ -2372,8 +2353,8 @@ PLR_AUTOSPLIT
 #define NEW_MULTIARMS   134217728
 #define NEW_BLADESPIN   268435456
 #define NEW_FIGHTDANCE	536870912
-#define NEW_CUBEFORM	1073741824  //Please work dammit
-//#define NEW_ARTI        2147483648
+#define NEW_CUBEFORM	1073741824 /* Cube form flag */
+/* NEW_ARTI flag removed - unused */
 
 /* Version bits for extended bitvectors */
 #define VERSION_EXTRA  1
@@ -2701,7 +2682,7 @@ struct	mob_index_data
     CHAR_DATA *		wizard;
     AREA_DATA *         area;           /* OLC */
     char *		hunting;
-    //char *		pkilling;
+    /* pkilling field removed */
     int 		huntnumber; /* Krule 04/30/02 */
     int 		temp;
     char *		player_name;
@@ -2739,17 +2720,15 @@ struct	mob_index_data
     int	affected_by;
     int	affected_by2;
     int		alignment;
-    int		hitroll;		/* Unused */
-    int		ac;			/* Unused */
-    int		hitnodice;		/* Unused */
-    int		hitsizedice;		/* Unused */
-    int		hitplus;		/* Unused */
-    int		damnodice;		/* Unused */
-    int		damsizedice;		/* Unused */
-    int		damplus;		/* Unused */
-    int			gold;			/* Unused */
-   /*int                 special;
-    int                 class; */
+    int		hitroll;		/* Unused but referenced in db.c */
+    int		ac;			/* Unused but referenced in db.c */
+    int		hitnodice;		/* Unused but referenced in db.c */
+    int		hitsizedice;		/* Unused but referenced in db.c */
+    int		hitplus;		/* Unused but referenced in db.c */
+    int		damnodice;		/* Unused but referenced in db.c */
+    int		damsizedice;		/* Unused but referenced in db.c */
+    int		damplus;		/* Unused but referenced in db.c */
+    int			gold;			/* Unused but referenced in db.c */
 };
 
 struct balance_data
@@ -2837,7 +2816,7 @@ struct char_data
     DO_FUN *		prev_cmd;   /* mapping */
     int		tag_flags;
     char *		hunting;
-    //char *		pkilling;
+    /* pkilling field removed */
     int			huntnumber; /* Krule 04/30/02 */
     int			num_items;
     char *		name;
@@ -3804,8 +3783,7 @@ do								\
 #define IS_BODY(ch, sn)		(IS_SET((ch)->loc_hp[1], (sn)))
 #define IS_ARM_L(ch, sn)	(IS_SET((ch)->loc_hp[2], (sn)))
 #define IS_ARM_R(ch, sn)	(IS_SET((ch)->loc_hp[3], (sn)))
-//#define IS_ARM_T(ch, sn)	(IS_SET((ch)->loc_hp[7], (sn)))
-//#define IS_ARM_F(ch, sn)	(IS_SET((ch)->loc_hp[8], (sn)))
+/* IS_ARM_T and IS_ARM_F macros removed - unused */
 #define IS_LEG_L(ch, sn)	(IS_SET((ch)->loc_hp[4], (sn)))
 #define IS_LEG_R(ch, sn)	(IS_SET((ch)->loc_hp[5], (sn)))
 #define IS_BLEEDING(ch, sn)	(IS_SET((ch)->loc_hp[6], (sn)))

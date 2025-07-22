@@ -391,7 +391,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "xemote",		do_xemote,	POS_SITTING,	 1,  LOG_NORMAL, 0,0,0 },
     { "xsocial",		do_huh,	POS_DEAD,	 	 1,  LOG_NORMAL, 0,0,0 },
     { "xsocials",		do_xsocials,POS_DEAD,	 	 1,  LOG_NORMAL, 0,0,0 },
-   // { "topxp",		do_topxp, POS_DEAD,		0,  LOG_NORMAL, 0,0,0},
     /*
      * Configuration commands.
      */
@@ -402,7 +401,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "description",	do_desc,POS_DEAD,	 0,  LOG_NORMAL, 0,0,0	},
     { "password",		do_password,POS_DEAD,	 	 0,  LOG_NEVER, 0,0,0	},
     { "title",		do_title,	POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
- //   { "wimpy",		do_wimpy,	POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
     { "ansi",		do_ansi,	POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
     { "autoexit",		do_autoexit,POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
     { "autoloot",		do_autoloot,POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
@@ -440,7 +438,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "board",		do_board,	POS_DEAD,	0,	LOG_NORMAL,0,0,0},
     { "pose",		do_emote,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "quest",		do_quest,	POS_SITTING,	 0,  LOG_ALWAYS,0,0,0	},
- //   { "newbie",		do_newbie,	POS_SLEEPING,	 2,  LOG_NORMAL, 0,0,0 },
     { "say",		do_say,		POS_MEDITATING,	 0,  LOG_NORMAL, 0,0,0	},
     { "'",		do_say,		POS_MEDITATING,	 0,  LOG_NORMAL, 0,0,0	},
     { "shout",		do_shout,	POS_SITTING,	 2,  LOG_NORMAL, 0,0,0 },
@@ -453,14 +450,11 @@ const	struct	cmd_type	cmd_table	[] =
     * Clan commands
     */
 
-//    { "newclan",          do_newclan,       POS_SITTING,     8,  LOG_NORMAL, 0,0,0  },
-//    { "showclan",          do_showclan,       POS_SITTING,     8,  LOG_NORMAL, 0,0,0  },
 
     /*
      * Object manipulation commands.
      */
     
-//    { "activate",		do_activate,POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "brandish",		do_brandish,POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "close",		do_close,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "draw",		do_draw,	POS_FIGHTING,	 0,  LOG_NORMAL, 0,0,0	},
@@ -477,8 +471,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "morph",		do_morph,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "open",		do_open,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "pick",		do_pick,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
- //   { "press",		do_press,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
- //   { "pull",		do_pull,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "put",		do_put,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0 },
     { "quaff",		do_quaff,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "recite",		do_recite,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
@@ -490,7 +482,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "shoot",		do_shoot,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "throw",		do_throw,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "turn",		do_turn,	POS_MEDITATING,	 0,  LOG_NORMAL, 0,0,0	},
-//    { "twist",		do_twist,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "sacrifice",	do_sacrifice,	POS_SITTING,	 1,  LOG_NORMAL, 0,0,0	},
     { "unlock",		do_unlock,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "wear",		do_wear,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
@@ -507,7 +498,6 @@ const	struct	cmd_type	cmd_table	[] =
         { "shiroi",     do_shiroi,   POS_FIGHTING,   3,      LOG_NORMAL, 16,0,0 },
         { "kisetsufuu", do_kisetsufuu,   POS_FIGHTING,   3,      LOG_NORMAL, 16,0,0 },
         { "kaminari",   do_kaminari,   POS_FIGHTING,   3,      LOG_NORMAL, 16,0,0 },
-      //  { "ancestralpath",  do_hologramtransfer, POS_STANDING, 3,       LOG_NORMAL, 16,0,0 },
         { "techniques", do_bladespin, POS_STANDING,      3,      LOG_NORMAL, 16,0,0},
         { "web",        do_web, POS_FIGHTING, 3, LOG_NORMAL, 16, 0,0},
         { "wallofswords",   do_wallofswords, POS_STANDING, 3, LOG_NORMAL, 16,0,0},
@@ -520,7 +510,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "enlist",		 do_enlist,	POS_STANDING, 3, LOG_NORMAL, 0,0,0},
     { "inquire",	 do_inquire,	POS_DEAD, 3, LOG_NORMAL, 65536,0,0},
     { "torture",	 do_torture,    POS_FIGHTING, 3, LOG_NORMAL, 65536,0,0},
-  //  { "walk",		 do_walk,	POS_STANDING, 3, LOG_NORMAL, 65536,0,0},
     { "unholyfury",	 do_unholyfury,	POS_STANDING, 3, LOG_NORMAL, 65536,0,0},
     { "purify",          do_purify,     POS_FIGHTING, 3, LOG_NORMAL, 65536,0,0},
     { "inquire",         do_scry, 	POS_STANDING, 3, LOG_NORMAL, 65536,0,0},
@@ -531,7 +520,6 @@ const	struct	cmd_type	cmd_table	[] =
      *  Paladins by Rand
      */
     { "quarter",	do_quarter, POS_STANDING, 3, LOG_NORMAL, 16384,0,0},
-  //  { "charge",		do_paladintravel, POS_STANDING, 3, LOG_NORMAL,16384,0,0},
     { "masterofarms",	do_paladinweapons, POS_STANDING, 3, LOG_NORMAL,16384,0,0},
     { "godeyes",	do_truesight, POS_STANDING, 3, LOG_NORMAL,16384,0,0},
     { "holyweb",	do_web, POS_FIGHTING, 3, LOG_NORMAL,16384,0,0},
@@ -594,7 +582,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "chaossurge",   do_chaossurge,    POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
     { "chaosshield",  do_chaosshield,   POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
     { "golemsummon",  do_summongolem,   POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
-  //  { "planartravel", do_planartravel,  POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
     { "truesight",    do_truesight,     POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
     { "planarstorm",  do_planarstorm,   POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
     { "readaura",     do_readaura,      POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
@@ -604,7 +591,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "creepingdoom", do_creepingdoom,  POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
     { "painwreck",    do_painwreck,     POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
     { "earthswallow", do_earthswallow,  POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
-  //  { "licharmor",    do_licharmor,     POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
     { "soulsuck",     do_soulsuck,      POS_FIGHTING,   3,  LOG_NORMAL, 256,0,0},
     { "zombie",       do_zombie,        POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
     { "pentagram",    do_pentagram,     POS_STANDING,   3,  LOG_NORMAL, 256,0,0},
@@ -618,16 +604,13 @@ const	struct	cmd_type	cmd_table	[] =
     { "tornado",	do_tornado,	POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "infernal",	do_infernal,    POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "bloodsacrifice", do_bloodsac,    POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
-   // { "enmity",		do_enmity,	POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "enrage",		do_enrage,	POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "booming",        do_booming,     POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "truesight",      do_truesight,   POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
     { "web",		do_web,		POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "claws",		do_claws,	POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
- //   { "chaosgate",	do_chaosgate,	POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
     { "fury",		do_fury,	POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
     { "tantalk",	do_tantalk,	POS_DEAD,     3, LOG_NORMAL, 1024,0,0},
-//    { "taneq",		do_taneq,	POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
     { "bloodrite",      do_unholyrite,  POS_STANDING, 3, LOG_NORMAL, 1024,0,0},
     { "lavablast",	do_lavablast,	POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
     { "chaossurge",	do_chaossurge,	POS_FIGHTING, 3, LOG_NORMAL, 1024,0,0},
@@ -637,7 +620,6 @@ const	struct	cmd_type	cmd_table	[] =
      */
 
     { "knighttalk",     do_knighttalk, POS_DEAD,   3,  LOG_NORMAL, 4096,0,0},
- //   { "knightarmor",  do_knightarmor, POS_STANDING, 3,  LOG_NORMAL,4096,0,0},
     { "gain",		do_gain,	POS_STANDING, 3, LOG_NORMAL,4096,0,0},
     { "weaponpractice", do_weaponpractice, POS_STANDING, 3, LOG_NORMAL, 4096,0,0},
     { "powerword",      do_powerword, POS_FIGHTING, 3,	LOG_NORMAL, 4096,0,0},
@@ -645,7 +627,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "command",	do_command,   POS_STANDING,  3, LOG_NORMAL, 4096,0,0},
     { "unholysight",	do_truesight,  POS_STANDING, 3, LOG_NORMAL, 4096,0,0},
     { "bloodrite",	do_unholyrite, POS_STANDING, 3, LOG_NORMAL, 4096,0,0},
-   // { "ride",		do_ride,	POS_STANDING, 3, LOG_NORMAL, 4096,0,0},
 
     /*
      * Angel Commands.
@@ -662,12 +643,10 @@ const	struct	cmd_type	cmd_table	[] =
     { "gfavor",        do_gfavor,        POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
     { "forgivness",    do_forgivness,    POS_FIGHTING,  3, LOG_NORMAL, 2048,0,0 },
     { "martyr",        do_martyr,        POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
-  //  { "swoop",         do_swoop,         POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
     { "awings",        do_awings,        POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
     { "halo",          do_halo,          POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
     { "sinsofthepast", do_sinsofthepast, POS_FIGHTING,  3, LOG_NORMAL, 2048,0,0 },
     { "eyeforaneye",   do_eyeforaneye,   POS_FIGHTING,  3, LOG_NORMAL, 2048,0,0 },
-  //  { "angelicarmor",  do_angelicarmor,  POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
     { "touchofgod",    do_touchofgod,    POS_FIGHTING,  3, LOG_NORMAL, 2048,0,0 },
     { "spiritform",    do_spiritform,    POS_STANDING,  3, LOG_NORMAL, 2048,0,0 },
     { "repent",	       do_repent,	 POS_FIGHTING,	3, LOG_NORMAL, 2048,0,0 },
@@ -679,13 +658,10 @@ const	struct	cmd_type	cmd_table	[] =
     
     { "shift",       do_shift,    POS_FIGHTING,   3,  LOG_NORMAL, 512,0,0 },
     { "formlearn",   do_formlearn, POS_STANDING,  3,  LOG_NORMAL, 512,0,0 },
-//    { "camouflage",  do_camouflage, POS_STANDING, 3,  LOG_NORMAL, 512,0,0 },
     { "mask",        do_mask,	POS_STANDING,     3,  LOG_NORMAL, 512,0,0 },
     { "truesight",   do_truesight, POS_STANDING,  3,  LOG_NORMAL, 512,0,0 },
     { "shapeshift",  do_shapeshift, POS_STANDING, 3,  LOG_NORMAL, 512,0,0 },
     { "hatform",     do_hatform,   POS_STANDING,  3,  LOG_NORMAL, 512,0,0 },
-  //  { "mistwalk",    do_mistwalk,  POS_STANDING,  3,  LOG_NORMAL, 512,0,0 },
-  //  { "shapearmor",  do_shapearmor, POS_STANDING, 3,  LOG_NORMAL, 512,0,0 },
     { "roar",        do_shaperoar, POS_FIGHTING,  3,  LOG_NORMAL, 512,0,0 },
     { "stampede",      do_stampede,   POS_FIGHTING,   3,  LOG_NORMAL, 512,0,0 },
     { "fblink",      do_faerieblink, POS_FIGHTING,3,  LOG_NORMAL, 512,0,0 },
@@ -699,10 +675,8 @@ const	struct	cmd_type	cmd_table	[] =
      */
 
     { "magics",       do_magics,    POS_STANDING,   3,  LOG_NORMAL, 2,0,0 },
- //   { "teleport",     do_teleport,  POS_STANDING,   3,  LOG_NORMAL, 2,0,0 },
     { "invoke",       do_invoke,    POS_STANDING,   3,  LOG_NORMAL, 2,0,0 },
     { "chant",        do_chant,     POS_FIGHTING, 3,  LOG_NORMAL, 258,0,0 },
- //   { "magearmor",    do_magearmor, POS_MEDITATING, 3,  LOG_NORMAL, 2,0,0 },
     { "objectgate",   do_objectgate,POS_STANDING,   3,  LOG_NORMAL, 2,0,0 },
     { "discharge",    do_discharge, POS_FIGHTING,   3,  LOG_NORMAL, 2,0,0 },
     { "scry",	      do_scry,      POS_FIGHTING,   3,  LOG_NORMAL, 2,0,0 },
@@ -711,16 +685,11 @@ const	struct	cmd_type	cmd_table	[] =
     { "infuse",       do_infuse,    POS_FIGHTING,   3,  LOG_NORMAL, 2,0,0 },
     { "bomb",         do_bomb,      POS_FIGHTING,   3,  LOG_NORMAL, 2,0,0 },
                     /* PK POWERS */
-   // { "resetchar",	do_resetchar,   POS_STANDING,   11, LOG_NORMAL,0,0,0},
     { "eaglesight",       do_pkscry,    POS_STANDING,   3,  LOG_NORMAL,0,0,0},
-//    { "silverpath",       do_pkportal,  POS_STANDING,   3,  LOG_NORMAL,0,0,0},
     { "lifesense",	  do_pkaura,	POS_STANDING,   3,  LOG_NORMAL,0,0,0},
     { "adamantium",     do_adamantium,POS_STANDING,    3,  LOG_NORMAL, 64,0,0 },
 
-			/*	   */
-    			/* My Shit */
- 			/*  Rand   */
-  			/*	   */
+			/* PK Powers and misc commands by Rand */
     { "riftwalk",	do_riftwalk,    POS_STANDING, 3, LOG_NORMAL,0,0,0},
     { "blessing",	do_blessing,	POS_FIGHTING, 3, LOG_NORMAL,16384,0,0},
     { "knock",		do_knock,	POS_FIGHTING,   1, LOG_NORMAL, 0,0,0},
@@ -734,38 +703,24 @@ const	struct	cmd_type	cmd_table	[] =
     { "cl-clear",	do_clear_class_leader, POS_DEAD, 11, LOG_NORMAL, 0,0,0},
     { "newbie",		do_newbie,	POS_DEAD,	0,  LOG_NORMAL, 0,0,0 },
     { "newbiepack",	do_newbiepack,	POS_STANDING,   3, LOG_NORMAL, 0,0,0},
-   // { "purchase",	do_purchase,	POS_STANDING,	3,  LOG_NORMAL, 0,0,0 },
     { "mercy",		do_mercy,	POS_STANDING,      3,  LOG_NORMAL, 0,0,0  },
     { "adamantiumeq", 	do_adamantiumeq,  POS_STANDING,   3,  LOG_NORMAL,0,0,0},
-  //  { "supremacy",	do_supreme,	POS_STANDING,   3,  LOG_NORMAL,0,0,0},
-  //  { "breakfree",	do_breakfree,	POS_DEAD,	3,  LOG_NORMAL,0,0,0},
     { "update",		do_update,	POS_STANDING,	12, LOG_NORMAL,0,0,0},
-  //  { "store",		do_legendexp,	POS_STANDING,	3,  LOG_NORMAL,0,0,0},
     { "awareness",	do_pkguardian,	POS_STANDING,	3,  LOG_NORMAL,0,0,0},
     { "ffa",		do_ffa,		POS_STANDING,	3,  LOG_ALWAYS,0,0,0},
-  //  { "general",	do_general,	POS_STANDING,	3,  LOG_NORMAL,0,0,0},
- //   { "abuse",		do_pkdamage,	POS_FIGHTING,	3,  LOG_NORMAL,0,0,0},
- //   { "dissolve",	do_pkteleport,  POS_FIGHTING,   3,  LOG_NORMAL,0,0,0},
- //   { "retreat",	do_pkflee,	POS_FIGHTING,	3,  LOG_NORMAL,0,0,0},
     { "pkready",	do_pkready,	POS_STANDING,	3,  LOG_NORMAL,0,0,0},
     { "donate",		do_donate,	POS_STANDING,   3,  LOG_NORMAL,0,0,0},
     { "toss",		do_toss,	POS_STANDING,	3,	LOG_NORMAL, 0,0,0},
     { "wish",           do_wish,        POS_STANDING,   3,       LOG_NORMAL, 0,0,0},
     { "dice",		do_dice,	POS_STANDING,   3,  LOG_NORMAL,0,0,0},
     { "clairvoyance",     do_mobius,    POS_STANDING,   3,  LOG_NORMAL,0,0,0},
- //   { "renewal",          do_mobius_heal, POS_STANDING,  3,  LOG_NORMAL,0,0,0},
     { "fixexp",           do_fixexp,    POS_STANDING,   3,  LOG_NORMAL,0,0,0},
- //   { "wormhole",       do_pkportal2,   POS_STANDING,   3,  LOG_NORMAL,0,0,0},
     { "disappear",    do_mobius_bm, POS_STANDING,   3,  LOG_NORMAL, 2,0,0 },
 
- 	//Jobo's Aliases from Rand
+ 	/* Jobo's Aliases from Rand */
    { "alias",           do_alias,       POS_FIGHTING,   0,   LOG_NORMAL, 0,0,0 },
    { "showalias",       do_showalias,   POS_FIGHTING,   0,   LOG_NORMAL, 0,0,0 },
    { "removealias",     do_removealias, POS_FIGHTING,   0,   LOG_NORMAL, 0,0,0 },
-/* HUNTERS and things BY HUW */
-//   { "ensnare",	do_ensnare,	POS_STANDING,   3,   LOG_NORMAL, 131072,0,0 },
-//   { "transmit",	do_transmit,	 POS_FIGHTING,	3,   LOG_NORMAL, 131072,0,0 },
-//    { "imbue",         do_imbue,       POS_STANDING,   3,  LOG_NORMAL, 131072,0,0 },
    { "pscore",		do_pscore,	POS_STANDING,	0,   LOG_NORMAL, 0,0,0},
 
 
@@ -842,7 +797,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "godsfavor",      do_godsfavor,POS_DEAD,         3,  LOG_NORMAL, 64,0,0 },
     { "group",		do_group,	POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
     { "hide",		do_hide,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
- // { "home",		do_home,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "hunt",		do_hunt,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "locate",		do_locate,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "practice",		do_practice,POS_SLEEPING,	 0,  LOG_NORMAL, 0,0,0	},
@@ -860,7 +814,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "sleep",		do_sleep,	POS_SLEEPING,	 0,  LOG_NORMAL, 0,0,0	},
     { "smother",		do_smother,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
     { "sneak",		do_sneak,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
-   // { "split",		do_split,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "scan",		do_scan,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "spy",		do_spy,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "steal",		do_steal,	POS_STANDING,	 0,  LOG_NORMAL, 0,0,0	},
@@ -889,7 +842,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "diablerize",	do_diablerise, POS_STANDING,   3,  LOG_NORMAL, 8,0,0},
     { "testarm",	do_testarm,	POS_STANDING, 12,  LOG_NORMAL, 0,0,0 },  
     { "testcmd",	do_testcmd,	POS_STANDING, 12,  LOG_NORMAL, 0,0,0 },  
-//    { "pfile",		do_pfile,	POS_STANDING, 12,  LOG_NORMAL, 0,0,0 },  
     { "stackset",	do_setstacker,	POS_STANDING, 3,  LOG_NORMAL, 0,0,0 },  
     { "speedset",	do_setspeeder,	POS_STANDING, 3,  LOG_NORMAL, 0,0,0 },  
     { "noarm",		do_noarm,   POS_DEAD,         8,  LOG_NORMAL, 0, 0, 0 }, 
@@ -916,7 +868,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
   * Monk
   */
     { "chaoshands",	do_chands,	POS_STANDING,	 3,  LOG_NORMAL, 64,0,0 },
-  //	  { "monkarmor",	do_monkarmor,	POS_STANDING,	 3,  LOG_NORMAL, 64,0,0 },
     { "ghold",		do_ghold,	POS_STANDING,    3,  LOG_NORMAL, 64,0,0 },
     { "godsheal",	do_godsheal,	POS_FIGHTING,	 3,  LOG_NORMAL, 64,0,0 },
     { "mantra",		do_mantra,	POS_STANDING,	 3, LOG_NORMAL, 64,0,0 },
@@ -927,7 +878,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "flaminghands",   do_flaminghands,POS_STANDING,  3,  LOG_NORMAL, 64,0,0 },
     { "darkblaze",	do_darkblaze, POS_FIGHTING,	3, LOG_NORMAL, 64,0,0},
     { "godseye",		do_godseye,	POS_STANDING,	 3,  LOG_NORMAL, 64,0,0 },
-   // { "celestial",	do_celestial,POS_STANDING,	 3,  LOG_NORMAL, 64,0,0 },
     { "steelskin",	do_steelskin,POS_STANDING,	 3,  LOG_NORMAL, 64,0,0 },
     { "godsbless",	do_godsbless,POS_FIGHTING,	 3,  LOG_NORMAL, 64,0,0 },
     { "thrustkick",	do_thrustkick,POS_FIGHTING,	3, LOG_NORMAL, 64,0,0 },
@@ -959,12 +909,10 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
 //  Persuasion, automatic
     { "staredown",	do_staredown, POS_FIGHTING, 3, LOG_NORMAL, 4,DISC_WERE_OWL,5 },
     { "disquiet",	do_disquiet, POS_FIGHTING, 3 , LOG_NORMAL, 4,DISC_WERE_OWL,6 }, 
-//    { "reshape",	do_reshape,  POS_STANDING,  3,  LOG_NORMAL, 4,DISC_WERE_OWL,7 },
     { "cocoon",		do_cocoon,   POS_FIGHTING,  3,  LOG_NORMAL, 4,DISC_WERE_OWL, 8 },
 
 // Metis
     { "quills",	do_quills, POS_FIGHTING, 3, LOG_NORMAL, 4,DISC_WERE_HAWK,5 },
-  //  { "burrow", do_burrow, POS_FIGHTING, 3, LOG_NORMAL, 4,DISC_WERE_HAWK,6 },
     { "nightsight",do_nightsight,POS_FIGHTING,3,LOG_NORMAL,4,DISC_WERE_HAWK,1 },
 
     { "learn",		do_learn, POS_FIGHTING, 3, LOG_NORMAL, 64,0,0 },
@@ -972,7 +920,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     /*
      * Vampire and werewolf commands.
      */
- //   { "vamparmor",	do_vampirearmor, POS_STANDING, 3, LOG_NORMAL, 8, 0, 0 },
     { "bloodwall",	do_bloodwall,POS_STANDING,	 3,  LOG_NORMAL, 8,DISC_VAMP_DAIM,2 },
     { "conceal",     do_conceal,  POS_STANDING,  3,  LOG_NORMAL, 8,DISC_VAMP_OBFU,5 },
     { "sharpen",	do_sharpen,  POS_STANDING,     3,  LOG_NORMAL, 8,DISC_VAMP_QUIE,7 },
@@ -981,7 +928,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
      /* Protean */ /* healing has to go after drow heal */
     /* Obtene */
     { "grab",		do_grab,	POS_STANDING,    	 3,  LOG_NORMAL, 8,DISC_VAMP_OBTE,8 },
-//    { "shadowgaze",	do_shadowgaze,POS_STANDING,    3,  LOG_NORMAL, 8,DISC_VAMP_OBTE,10 },
 
    /* Luna Powers */
     { "flameclaws",	do_flameclaws,  POS_STANDING,  3,  LOG_NORMAL, 4,DISC_WERE_LUNA,1 },
@@ -989,8 +935,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "gmotherstouch",  do_gmotherstouch,POS_FIGHTING, 3,  LOG_NORMAL, 4,DISC_WERE_LUNA,4 },
     { "sclaws",		do_sclaws,	POS_STANDING,      3,  LOG_NORMAL, 4,DISC_WERE_LUNA,5 },
     { "moonbeam",	do_moonbeam,POS_FIGHTING,      3,  LOG_NORMAL, 4,DISC_WERE_LUNA,8 },
- //   { "moonarmour",	do_moonarmour,POS_STANDING,    3,  LOG_NORMAL, 4,DISC_WERE_LUNA,2 },
- //   { "moongate",	do_moongate,POS_STANDING,      3,  LOG_NORMAL, 4,DISC_WERE_LUNA,6 },
    /* No more luna Powers */
 
     { "hint",           do_hint,        POS_DEAD,      10,LOG_NORMAL,0,0,0 },
@@ -1030,21 +974,14 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "hellfire",	do_hellfire,	POS_STANDING,  3,  LOG_NORMAL, CLASS_DEMON,DISC_DAEM_HELL, 8 },
     { "ban",		do_ban,	POS_DEAD,		 12,  LOG_ALWAYS,0,0,0	},
     { "transfer",       do_transfer,    POS_DEAD,      9, LOG_NORMAL,0,0,0 },
-   // { "runeeq",		do_runeeq,	POS_STANDING,    3,  LOG_NORMAL,0,0,0 },
 
 /*holy, chaos, mithril*/
- //   { "holyeq",               	do_holyeq,      POS_STANDING,    3,  LOG_ALWAYS,0,0,0 },
- //   { "mithrileq",              do_mithrileq,   POS_STANDING,    3,  LOG_ALWAYS,0,0,0 },
- //   { "chaoseq",                do_chaoseq,     POS_STANDING,    3,  LOG_ALWAYS,0,0,0 },
       { "aligneq", 	          do_aligneq,     POS_STANDING,    3,  LOG_ALWAYS,0,0,0 },
 
 /*holy, chaos, mithril*/
 
     { "classeq",		do_classeq,	POS_STANDING,	 3,  LOG_NORMAL,0,0,0 },
 
-   // { "kingeq",		do_kingeq,	POS_STANDING,    3,  LOG_ALWAYS,0,0,0 },
-    //{ "kingdomeq",	do_kingdomeq,	POS_STANDING,  3,  LOG_ALWAYS,0,0,0 },
-    //{ "increase",		do_meta,	POS_STANDING,  3, LOG_ALWAYS,0,0,0 },  
     { "afk",      	do_afk,         POS_STANDING,    0,  LOG_NORMAL,0,0,0 },
     { "hedit",		do_hedit,	POS_STANDING,  7, LOG_NORMAL,0,0,0 },
     { "freeze",		do_freeze,      POS_DEAD,     10, LOG_ALWAYS,0,0,0 },  
@@ -1059,15 +996,14 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "deathsense",	do_deathsense,  POS_STANDING,  3,  LOG_NORMAL, CLASS_DEMON,DISC_DAEM_NETH, 2 },
     { "prefix",		do_prefix,	POS_DEAD,      10,  LOG_NORMAL, 0,0,0 },
 
-    /* bugaboo lala Dunkirk Shit Lala mmm POOP Daemon Stuff */
+    /* Daemon Powers */
 
 
-    /* Start of OLC Shit. Hmm */
+    /* Start of OLC commands */
     { "hset",		do_hset,        POS_DEAD,      12, LOG_ALWAYS, 0,0,0 },
     { "hlist",		do_hlist,	POS_DEAD,      11, LOG_ALWAYS, 0,0,0 },
 
     { "talons",         do_talons,   POS_FIGHTING,     3,  LOG_NORMAL, 4,DISC_WERE_RAPT,10 },
-//    { "run",            do_run,     POS_STANDING,      3,  LOG_NORMAL, 4,DISC_WERE_RAPT,2 },
     { "bonemod",		do_bonemod,	POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_VICI,3 },
     { "vset",		do_vset,	POS_DEAD,		 11,  LOG_ALWAYS, 0,0,0 },
     { "cauldron",		do_cauldron,POS_FIGHTING,      3, LOG_NORMAL, 8,DISC_VAMP_THAU,2 },
@@ -1083,7 +1019,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
 
     { "forge",		do_forge,	POS_STANDING,  1,LOG_NORMAL,0,0,0 },
     { "forget",         do_forget,  POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_DOMI,8 },
-   // { "vsilence",       do_death,   POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_QUIE,5 },
     { "flash",          do_flash,   POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_QUIE,9 },
     { "tide",   	do_tide,    POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_THAU,5 },
     { "coil",           do_coil,    POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_SERP,8 },
@@ -1093,19 +1028,15 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "change",		do_change,	POS_STANDING,	 3,  LOG_NORMAL, 8,DISC_VAMP_PROT,3	},
     { "katana",		do_katana,	POS_RESTING, 3, LOG_NORMAL, CLASS_HIGHLANDER, 0, 0 },
     { "earthshatter",	do_earthshatter,POS_FIGHTING,   3, LOG_NORMAL, 0, 0, 0 },
-  //  { "ninjaarmor",          do_ninjaarmor,       POS_STANDING, 3, LOG_NORMAL, CLASS_NINJA, 0, 0 },
-  //  { "shadowstep",	do_shadowstep,	POS_STANDING,    3,  LOG_NORMAL, 8,DISC_VAMP_OBTE,4 },
     { "claws",		do_claws,	POS_SITTING,	 3,  LOG_NORMAL, 8,DISC_VAMP_PROT,2	},
     { "darkheart",	do_darkheart,	POS_STANDING,	 3,  LOG_NORMAL, 8,DISC_VAMP_SERP,1	},
     { "earthmeld",      do_earthmeld,	POS_STANDING,     3,  LOG_NORMAL, 8,DISC_VAMP_PROT,4 },
-  //  { "burrow",         do_burrow, 	POS_STANDING,      3,  LOG_NORMAL, 4,DISC_WERE_BOAR,5 },
     { "fangs",		do_fangs,	POS_SITTING,	 3,  LOG_NORMAL, 8,0,0	},
     { "flex",		do_flex,	POS_SITTING,	 0,  LOG_NORMAL, 0,0,0	},
     { "gcommand",	do_fcommand,	POS_STANDING,	 3,  LOG_NORMAL, 0,0,0	},
     { "possession",     do_possession,	POS_STANDING,    3,  LOG_NORMAL, 8,DISC_VAMP_DOMI,3 },
     { "hum",		do_monktalk,	POS_DEAD,		3, LOG_NORMAL, 0, 0, 0},
     { "humanform",	do_humanform,POS_SITTING,	 2,  LOG_NORMAL, 0,0,0 },
-//    { "theft",          do_theft,   POS_FIGHTING,      3,  LOG_NORMAL, 8,DISC_VAMP_THAU,4 },   
     { "plasma",         do_plasma,  POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_VICI,5 },
     { "zuloform",       do_zuloform,POS_FIGHTING,      3,  LOG_NORMAL, 8,DISC_VAMP_VICI,2},
     { "beckon",         do_beckon,  POS_STANDING,      3,  LOG_NORMAL, 8,DISC_VAMP_ANIM,1},
@@ -1125,7 +1056,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
   	{ "screen", do_screen, POS_STANDING, 3, LOG_NORMAL, 0,0,0},
     { "assassinate",    do_assassinate,POS_STANDING,   3,  LOG_NORMAL, 128, 0, 0 },
     { "web",		do_web,POS_STANDING,	3,	LOG_NORMAL, 128, 0, 0},
-      //  { "stalk"       ,do_stalk, POS_STANDING,        3, LOG_NORMAL,128,0,0 },
 
 /*start drow section */
     { "web",		 do_web, POS_FIGHTING,    3,  LOG_NORMAL, 32,0,0 },
@@ -1139,14 +1069,10 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "drowpowers",	do_drowpowers,	POS_STANDING,    3,  LOG_NORMAL, 32,0,0 },
     { "darkness",       do_darkness,	POS_STANDING,    3,  LOG_NORMAL, 32,0,0 },
     { "lloth",		do_lloth,	POS_STANDING,	3,	LOG_NORMAL,32,0,0},
-   // { "shadowwalk",	do_shadowwalk,	POS_STANDING,    3,  LOG_NORMAL, 32,0,0 },
-//    { "drowcreate",    	do_drowcreate,	POS_STANDING,    3,  LOG_NORMAL, 32,0,0 },
     { "heal",		do_heal,	POS_FIGHTING,    3,  LOG_NORMAL, 32,0,0 },
     { "garotte",	do_garotte,	POS_FIGHTING,    3,  LOG_NORMAL, 32,0,0 },
     { "spiderform",	do_spiderform,	POS_STANDING,    3,  LOG_NORMAL, 32,0,0 },
     { "chaosblast",	do_chaosblast,	POS_FIGHTING,    3,  LOG_NORMAL, 32,0,0 },
-  //  { "dgarotte",	do_dark_garotte,POS_STANDING,   3, LOG_NORMAL, 32, 0, 0 },
-   // { "glamour",	do_glamour	,POS_RESTING,	3, LOG_NORMAL, 32, 0, 0 },
     { "confuse",	do_confuse	,POS_FIGHTING,  3, LOG_NORMAL, 32, 0, 0 },
     { "darktendrils", do_darktendrils, POS_STANDING,  3, LOG_NORMAL, 32, 0, 0 },
   	{ "fightdance", do_fightdance, POS_STANDING,  3, LOG_NORMAL, 32, 0, 0},
@@ -1157,13 +1083,10 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
 
 /*demon section*/
 
-   // { "eyespy",		do_eyespy,      POS_STANDING,    3,  LOG_NORMAL, 1,0,0 },
     { "champions",	do_champions,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
-//    { "demonarmour",	do_demonarmour,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
     { "hooves",		do_hooves,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
     { "humanform",	do_humanform,	POS_SITTING,	 2,  LOG_NORMAL, 1,0,0 },
     { "inpart",		do_inpart,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
-  //  { "travel",		do_travel,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
     { "weaponform",	do_weaponform,	POS_STANDING,	 2,  LOG_NORMAL, 1,0,0 },
     { "leap",		do_leap,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
     { "wings",		do_wings,	POS_STANDING,	 3,  LOG_NORMAL, 1,0,0 },
@@ -1176,7 +1099,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
 /* vamp protean healing*/
     { "healing",		do_healing, POS_FIGHTING,      3,   LOG_NORMAL, 8,DISC_VAMP_PROT,8},
     { "healingtouch",   do_healingtouch,POS_FIGHTING,3,LOG_NORMAL,64,0,0}, /*monks healing power*/
-   // { "inconnu",		do_inconnu,	POS_STANDING,	 3,  LOG_NORMAL, 8,0,0	},
     { "majesty",		do_majesty,	POS_STANDING,	 3,  LOG_NORMAL, 8,DISC_VAMP_PRES,5	},
     { "nightsight",	do_nightsight,POS_SITTING,	 3,  LOG_NORMAL, 8,DISC_VAMP_PROT,1	},
     { "poison",		do_poison,	POS_STANDING,	 3,  LOG_NORMAL, 8,DISC_VAMP_SERP,3	},
@@ -1212,12 +1134,9 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "lloth",          do_lloth,       POS_STANDING,   3,       LOG_NORMAL, 8192,0,0},
     { "darkness",       do_darkness,    POS_STANDING,   3,       LOG_NORMAL, 8192,0,0},
     { "llothsight",do_infravision,POS_STANDING,0,LOG_NORMAL,8192,0,0},
-//    { "dridereq",   do_dridereq, POS_STANDING, 0,LOG_NORMAL,8192,0,0}, 
     { "web",		do_web,		POS_FIGHTING,	3,	LOG_NORMAL, 8192,0,0},
     { "preach",do_communicate,POS_DEAD,0,LOG_NORMAL,8192,0,0},
-//   { "shadowwalk",     do_shadowwalk,  POS_STANDING,    3,  LOG_NORMAL, 8192,0,0 },
 /***HUNTER POWERS***/    
-//    { "imbue",         do_imbue,       POS_STANDING,    3,  LOG_NORMAL, 65536,0,0},
 
     /*
      * Immortal commands.
@@ -1231,7 +1150,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "doublexp",	do_doublexp,	POS_DEAD,		 11,  LOG_ALWAYS, 0,0,0 },
     { "smite",		do_smite,	POS_DEAD,		 10,  LOG_NORMAL, 0,0,0 },
     { "showchar",	do_showchar,	POS_DEAD,		 12,  LOG_NORMAL, 0,0,0 },
-  //  { "airmail",	do_airmail,	POS_DEAD,		  8,  LOG_NORMAL, 0,0,0 },
     { "trust",		do_trust,	POS_DEAD,		 11,  LOG_ALWAYS, 0,0,0 },
     { "allow",		do_allow,	POS_DEAD,		 11,  LOG_ALWAYS, 0,0,0	},
     { "secset",		do_secset,	POS_DEAD,		 11,  LOG_NORMAL, 0,0,0	},
@@ -1296,7 +1214,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "shatter",		do_shatter,	POS_STANDING,	 3,  LOG_NORMAL, 0,0,0  },
     { "range",	do_range,	POS_STANDING,		3,   LOG_NORMAL, 0,0,0  },
      { "sset",		do_sset,	POS_DEAD,		 12,  LOG_ALWAYS, 0,0,0 },
-   // { "tear",		do_tear,	POS_STANDING,	 3,  LOG_NORMAL, 0,0,0	},
     { "gflags",			do_gflags,POS_STANDING, 7, LOG_NORMAL,0,0,0 },
     { "transport",	do_transport,POS_DEAD,	 	 0,  LOG_NORMAL, 0,0,0	},
     { "at",			do_at,	POS_DEAD,	 	 8,  LOG_NORMAL, 0,0,0	},
