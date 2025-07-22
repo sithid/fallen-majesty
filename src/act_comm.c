@@ -92,7 +92,6 @@ void do_bounty(CHAR_DATA *ch, char *argument)
                     IS_NPC(victim) ||
                     IS_IMMORTAL(victim) ||
                     !CAN_PK(victim) ||
-                    //        (get_age(victim)-17)<4 ||
                     IS_SET(victim->special, SPC_NEWBIE) ||
                     victim->pcdata->bounty >= 100000)
                     continue;
@@ -157,8 +156,6 @@ void talk_channel(CHAR_DATA *ch, char *argument, int channel, const char *verb)
     int pos;
     bool ignored;
     int position;
-    //   if ( IS_NPC(ch) && ch->desc == NULL )
-    //      return;
 
     if (RTIMER(ch->in_room, RTIMER_SILENCE) != 0)
     {
@@ -446,15 +443,6 @@ void talk_channel(CHAR_DATA *ch, char *argument, int channel, const char *verb)
         ch->position = position;
         break;
 
-        /*    case CHANNEL_KTALK:
-            sprintf( buf, "#y(#L>#0%s#L<#y)#n '$t'.#n", ch->pcdata->switchname);
-            sprintf(buf2, "#y(#L>#0%s#L<#y)#n '$t'.#n", ch->pcdata->switchname);
-            position = ch->position;
-            ch->position = POS_STANDING;
-            act(buf, ch, argument, NULL, TO_CHAR, FALSE);
-            ch->position = position;
-            break;
-        */
     case CHANNEL_MONK:
         sprintf(buf, "#0.x[#l$n#0]x. #C '$t'.#n");
         sprintf(buf2, "#0.x[#l$n#0]x. #C '$t'.#n");
@@ -544,10 +532,6 @@ void talk_channel(CHAR_DATA *ch, char *argument, int channel, const char *verb)
             if (channel == CHANNEL_HIGHTALK && (!IS_NPC(och) &&
                                                 !IS_CLASS(och, CLASS_HIGHLANDER) && !IS_IMMORTAL(och)))
                 continue;
-            /*	if (channel == CHANNEL_KTALK && (!IS_NPC(och) &&
-                !IS_IMMORTAL(och) && ch->pcdata->kingdom != och->pcdata->kingdom))
-                continue;
-            */
             if (channel == CHANNEL_FTALK && (!IS_NPC(och) &&
                                              !xIS_SET(och->extra, EXTRA_FTALK) && !IS_IMMORTAL(och)))
                 continue;
@@ -793,8 +777,6 @@ void do_flist(CHAR_DATA *ch, char *argument)
         if ((!xIS_SET(vch->extra, EXTRA_FTALK)) && (!IS_IMMORTAL(vch)))
             continue;
 
-        //	   if (++count % 3 == 0)
-        //           stc("\n\r", ch);
         chprintf(ch, "%10s", vch->name);
     }
 }
@@ -841,7 +823,6 @@ void do_newbie(CHAR_DATA *ch, char *argument)
     {
         if (check_swearlist(ch, colour_strip(argument)))
         {
-            //    talk_channel( ch, argument, CHANNEL_FLAME, "bitch" );
             stc("Your last newbie chat was not allowed. (help censorship)\n\r", ch);
             return;
         }
@@ -2061,7 +2042,6 @@ void do_quit(CHAR_DATA *ch, char *argument)
         return;
     }
     quote(ch);
-    //    send_to_char( "     Lifes a Bitch...then you die or marry one \n\r",ch);
 
     /*
      * After extract_char the ch is no longer valid!
@@ -2232,8 +2212,6 @@ void do_follow(CHAR_DATA *ch, char *argument)
 {
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
-    // int followers = 0;
-    // CHAR_DATA *gch;
     one_argument(argument, arg);
     if (arg[0] == '\0')
     {
@@ -2896,7 +2874,6 @@ void do_gtell(CHAR_DATA *ch, char *argument)
      * Note use of send_to_char, so gtell works on sleepers.
      */
     sprintf(buf, "#G%s tells the group #R'#G%s#R'\n\r#n", ch->name, argument);
-    //    for ( gch = char_list; gch != NULL; gch = gch->next )
     for (d = first_descriptor; d != NULL; d = d->next)
     {
         if (d->character != NULL)

@@ -115,14 +115,14 @@ This section documents all completed tasks, changes made, and important decision
 - **2025-07-22** - Fixed build error from overzealous cleanup - `src/merc.h` - Restored accidentally removed `mob_index_data` fields that were still referenced in `db.c`. Learned that fields marked as "unused" may still be needed by loading/saving code. Build now compiles successfully again.
 - **2025-07-22** - Communication module cleanup - `src/comm.c` - Removed obsolete networking declarations, cleaned up socket management code, and replaced legacy comments for improved clarity.
 - **2025-07-22** - Combat system cleanup - `src/fight.c` - Removed specific unnecessary comments including legacy developer references (line ~990), outdated spell attack comments (line ~995), commented-out PK slowdown code (line ~2031), and non-functional death_cry code (line ~4661). Code functionality preserved while improving maintainability.
+- **2025-07-22** - Header file cleanup completion - `src/merc.h` - **COMPLETED** final cleanup including removing commented-out PLR_BRIEF3 definition (line 1133), fixing excessive whitespace after newbie pack definitions, and improving unprofessional comment text. The core header file cleanup is now complete.
+- **2025-07-22** - Communication actions cleanup - `src/act_comm.c` - **COMPLETED** comprehensive cleanup of commented-out legacy code including: removed age check comment (line 95), NPC check comments (lines 160-161), entire KTALK channel system remnants (lines 449-457, 547-550, 948-957), commented auction function (lines 682-688), debug code in flist function (lines 796-797), commented flame channel call (line 844), quit restrictions and socket close code (lines 2033-2039, 2087-2089), follower variables (lines 2234-2235), order restrictions (lines 2369-2380), group display comments (lines 2624, 2638, 2652), and gtell loop condition (line 2899). All functional code preserved while significantly improving maintainability.
 
 ### Next Actions
-- [ ] Continue systematic cleanup of `merc.h` - **IN PROGRESS** (completed: unused structs, autosave flags, form definitions)
-  - [ ] Search for more unused macro definitions and commented code blocks
-  - [ ] Review and clean up obsolete bit definitions
-  - [ ] Check for unused function declarations
-- [ ] Identify and clean up other core header files (after `merc.h` is complete)
-- [ ] Begin cleanup of main source files based on priority
+- [ ] Identify and clean up other core header files
+- [ ] Begin cleanup of main source files based on priority - **READY TO START**
+  - [ ] Review and prioritize source files for cleanup (act_*.c, db.c, interp.c, etc.)
+  - [ ] Start with files that have high impact on maintainability
 - [ ] **Phase 2**: Comprehensive documentation of cleaned codebase
   - [ ] Document all major functions and their purposes
   - [ ] Create architectural overview documentation
