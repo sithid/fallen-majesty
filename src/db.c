@@ -821,26 +821,23 @@ void load_mobiles( FILE *fp )
 	letter				= fread_letter( fp );
 	pMobIndex->level		= number_fuzzy( fread_number( fp ) );
 
-	/*
-	 * The unused stuff is for imps who want to use the old-style
-	 * stats-in-files method.
-	 */
-	pMobIndex->hitroll		= fread_number( fp );	/* Unused */
-	pMobIndex->ac			= fread_number( fp );	/* Unused */
-	pMobIndex->hitnodice		= fread_number( fp );	/* Unused */
-	/* 'd'		*/		  fread_letter( fp );	/* Unused */
-	pMobIndex->hitsizedice		= fread_number( fp );	/* Unused */
-	/* '+'		*/		  fread_letter( fp );	/* Unused */
-	pMobIndex->hitplus		= fread_number( fp );	/* Unused */
-	pMobIndex->damnodice		= fread_number( fp );	/* Unused */
-	/* 'd'		*/		  fread_letter( fp );	/* Unused */
-	pMobIndex->damsizedice		= fread_number( fp );	/* Unused */
-	/* '+'		*/		  fread_letter( fp );	/* Unused */
-	pMobIndex->damplus		= fread_number( fp );	/* Unused */
-	pMobIndex->gold			= fread_number( fp );	/* Unused */
-	/* xp can't be used! */		  fread_number( fp );	/* Unused */
-	/* position	*/		  fread_number( fp );	/* Unused */
-	/* start pos	*/		  fread_number( fp );	/* Unused */
+	// Legacy stats-in-files method - all parameters read but unused
+	pMobIndex->hitroll		= fread_number( fp );
+	pMobIndex->ac			= fread_number( fp );
+	pMobIndex->hitnodice		= fread_number( fp );
+	fread_letter( fp );						// 'd' separator
+	pMobIndex->hitsizedice		= fread_number( fp );
+	fread_letter( fp );						// '+' separator  
+	pMobIndex->hitplus		= fread_number( fp );
+	pMobIndex->damnodice		= fread_number( fp );
+	fread_letter( fp );						// 'd' separator
+	pMobIndex->damsizedice		= fread_number( fp );
+	fread_letter( fp );						// '+' separator
+	pMobIndex->damplus		= fread_number( fp );
+	pMobIndex->gold			= fread_number( fp );
+	fread_number( fp );						// xp - cannot be used
+	fread_number( fp );						// position
+	fread_number( fp );						// start position
 
 	/*
 	 * Back to meaningful values.
@@ -863,10 +860,8 @@ void load_mobiles( FILE *fp )
 	kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
     }
 
-    return;
+	return;
 }
-
-
 
 /*
  * Snarf an obj section.
@@ -1034,28 +1029,27 @@ void load_objects( FILE *fp )
 	    break;
 	}
 
+	// Special artifact tracking flags
 	if ( vnum == 29503 )
-          CHAOS = TRUE;
-        if ( vnum == 29515 )
-          VISOR = TRUE;
-        if ( vnum == 29512 )
-          DARKNESS = TRUE;
-        if ( vnum == 29505 )
-          SPEED = TRUE;
-        if ( vnum == 29518 )
-          BRACELET = TRUE;
-        if ( vnum == 29504 )
-          TORC = TRUE;
-        if ( vnum == 29514 )
-          ARMOUR = TRUE;
-        if ( vnum == 29516 )
-	  CLAWS = TRUE;
-	if (vnum == 29555)
-	  ITEMAFFMANTIS = TRUE;
-	if (vnum == 2654)
-	  ITEMAFFENTROPY = TRUE;
-	if (vnum == 29598 )
-	  ITEMAFFENTROPY = TRUE;
+		CHAOS = TRUE;
+	if ( vnum == 29515 )
+		VISOR = TRUE;
+	if ( vnum == 29512 )
+		DARKNESS = TRUE;
+	if ( vnum == 29505 )
+		SPEED = TRUE;
+	if ( vnum == 29518 )
+		BRACELET = TRUE;
+	if ( vnum == 29504 )
+		TORC = TRUE;
+	if ( vnum == 29514 )
+		ARMOUR = TRUE;
+	if ( vnum == 29516 )
+		CLAWS = TRUE;
+	if ( vnum == 29555 )
+		ITEMAFFMANTIS = TRUE;
+	if ( vnum == 2654 || vnum == 29598 )
+		ITEMAFFENTROPY = TRUE;
 
 	iHash			= vnum % MAX_KEY_HASH;
 	pObjIndex->next		= obj_index_hash[iHash];
@@ -1226,11 +1220,8 @@ void load_resets( FILE *fp )
     }           
             
             
-    return;  
+	return;  
 }
-
-
-
 
 /*
  * Snarf a room section.
@@ -1948,13 +1939,8 @@ void reset_area( AREA_DATA *pArea )
             reset_room(pRoom);
 
     }
-                    
-    return;
+	return;
 }
-
-
-
-
 
 /*
  * Create an instance of a mobile.
@@ -2375,10 +2361,8 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->resistance = 1;
     obj->level      =  60;
     SET_BIT(obj->quest,QUEST_RELIC);
-  }
+
   else if (obj->pIndexData->vnum >= 33060 && obj->pIndexData->vnum <= 33079)  /* drow */
-  {
-    obj->condition = 100;
     obj->toughness = 100;
     obj->resistance = 1;
     obj->level      =  60;

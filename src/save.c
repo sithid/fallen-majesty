@@ -257,7 +257,8 @@ power[43]);
     fprintf( fp, "Race         %d\n",   ch->race                );
     fprintf( fp, "Immune       %d\n",   ch->immune              );
     fprintf( fp, "Polyaff      %d\n",   ch->polyaff             );
-/* Dh Crap */
+    
+    // Character progression and class-specific data
     fprintf( fp, "Lexp		%d\n",  ch->lexp		);
     fprintf( fp, "Lstatus    %d\n",  ch->lstatus );
     fprintf( fp, "Gnosis       %d\n",	ch->gnosis[GMAXIMUM]	);
@@ -270,7 +271,6 @@ power[43]);
     fprintf( fp, "Flag4       %d\n",   ch->flag4              ); 
     fprintf( fp, "SilTol      %d\n",   ch->siltol               );
     fprintf( fp, "Souls	      %d\n",   ch->pcdata->souls        );
-/* Lala */
     fprintf( fp, "Itemaffect   %d\n",   ch->itemaffect          );
     fprintf( fp, "Form         %d\n",   ch->form                );
     fprintf( fp, "Beast        %d\n",   ch->beast               );
@@ -279,7 +279,7 @@ power[43]);
     fprintf( fp, "Home         %d\n",   ch->home                );
     fprintf( fp, "Level        %d\n",   ch->level               );
     fprintf( fp, "Trust        %d\n",   ch->trust               );
-    fprintf( fp, "Security     %d\n",    ch->pcdata->security    );  /* OLC */
+    fprintf( fp, "Security     %d\n",    ch->pcdata->security    );
 
     fprintf( fp, "Paradox      %d %d %d\n", ch->paradox[0], ch->paradox[1], 
 					     ch->paradox[2] ); 
@@ -508,8 +508,7 @@ power[43]);
 
 	fprintf( fp, "Exhaustion   %d\n", ch->pcdata->exhaustion );
 
-	/* Save note board status */
-	/* Save number of boards in case that number changes */
+	// Save note board status - number of boards in case that changes
 	fprintf (fp, "Boards       %d ", MAX_BOARD);
 	for (i = 0; i < MAX_BOARD; i++)
 	fprintf (fp, "%s %ld ", boards[i].short_name, ch->pcdata->last_note[i]);
@@ -533,7 +532,7 @@ power[43]);
 
     for ( paf = ch->first_affect; paf != NULL; paf = paf->next )
     {
-	/* Thx Alander */
+	// Skip invalid skill types
 	if ( paf->type < 0 || paf->type >= MAX_SKILL )
 	    continue;
 
@@ -748,7 +747,7 @@ bool load_char_short( DESCRIPTOR_DATA *d, char *name )
 
     CREATE( ch->pcdata, PC_DATA, 1 );
 
-//    *ch->pcdata                         = pcdata_zero;
+    // Initialize pcdata structure
 
     d->character                        = ch;
     ch->desc                            = d;
@@ -788,9 +787,9 @@ bool load_char_short( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->title                   = str_dup( "" );
     ch->pcdata->version                 = MAX_VERSION;
     ch->pcdata->bounty                  = 0;
-        ch->pcdata->dragonaff           = 0;/*dragons*/
-        ch->pcdata->dragonage           = 0;/*dragons*/
-        ch->pcdata->hatch                       = 0;/*dragons*/
+        ch->pcdata->dragonaff           = 0;  // dragon heritage
+        ch->pcdata->dragonage           = 0;  // dragon age
+        ch->pcdata->hatch                       = 0;  // dragon hatching data
     ch->pcdata->breath[0]               = str_dup("");
     ch->pcdata->breath[1]               = str_dup("");
     ch->pcdata->breath[2]               = str_dup("");
@@ -819,7 +818,6 @@ bool load_char_short( DESCRIPTOR_DATA *d, char *name )
     ch->poweraction                     = str_dup( "" );  
     ch->powertype                       = str_dup( "" );
     ch->hunting                         = str_dup( "" );
-    //ch->pkilling			= str_dup( "" );
     ch->pcdata->followers               = 0;
     ch->spectype                        = 0;
     ch->specpower                       = 0;
@@ -893,7 +891,7 @@ bool load_char_short( DESCRIPTOR_DATA *d, char *name )
     for ( sn=0 ; sn < 12 ; sn++)
         ch->pcdata->stats[sn]           = 0;
 
-    ch->pcdata->security                = 0;    /* OLC */
+    ch->pcdata->security                = 0;
 
     ch->pcdata->fake_skill              = 0;
     ch->pcdata->fake_stance             = 0;
@@ -1002,9 +1000,8 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->switchname              = str_dup( name );
     ch->act                             = multimeb( PLR_BLANK, PLR_COMBINE, PLR_PROMPT, -1 );
  
-	/* every characters starts at default board from login.. this board
-	   should be read_level == 0 !
-	*/   
+	// Every character starts at default board from login
+	// This board should be read_level == 0
 	ch->pcdata->board               = &boards[DEFAULT_BOARD];
 				
    
@@ -1024,9 +1021,9 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->title                   = str_dup( "" );
     ch->pcdata->bounty			= 0;
     ch->pcdata->version			= MAX_VERSION;
-	ch->pcdata->dragonaff		= 0;/*dragons*/
-	ch->pcdata->dragonage		= 0;/*dragons*/
-	ch->pcdata->hatch			= 0;/*dragons*/
+	ch->pcdata->dragonaff		= 0;  // dragon heritage
+	ch->pcdata->dragonage		= 0;  // dragon age
+	ch->pcdata->hatch			= 0;  // dragon hatching data
     ch->pcdata->breath[0]		= str_dup("");
     ch->pcdata->breath[1]		= str_dup("");
     ch->pcdata->breath[2]		= str_dup("");
@@ -1129,7 +1126,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     for ( sn=0 ; sn < 12 ; sn++)
 	ch->pcdata->stats[sn]           = 0;
 
-    ch->pcdata->security                = 0;    /* OLC */
+    ch->pcdata->security                = 0;
 
     ch->pcdata->fake_skill              = 0;
     ch->pcdata->fake_stance             = 0;
@@ -1524,7 +1521,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 		if ( !str_cmp( word, "Affect" ) )
 		{
-		    /* Obsolete 2.0 form. */
+		    // Legacy affect format
 		    paf->type   = fread_number( fp );
 		}
 		else
@@ -1732,8 +1729,8 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    KEY( "Description", ch->description,        fread_string( fp ) );
 	    KEY( "DiscRese",    ch->pcdata->disc_research, fread_number( fp ) );
 	    KEY( "DiscPoin",    ch->pcdata->disc_points, fread_number( fp ) );
-		KEY( "Dragonaff", ch->pcdata->dragonaff, fread_number(fp) );/*dragons*/
-		KEY( "Dragonage", ch->pcdata->dragonage, fread_number(fp) );/*dragons*/
+	KEY( "Dragonaff", ch->pcdata->dragonaff, fread_number(fp) );  // dragons
+		KEY( "Dragonage", ch->pcdata->dragonage, fread_number(fp) );  // dragons
 
 	    if ( !str_cmp( word, "Disc" ) )
 	    {
@@ -1859,7 +1856,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	case 'H':
 	    KEY( "Hitroll",     ch->hitroll,            fread_number( fp ) );
 	    KEY( "Home",        ch->home,               fread_number( fp ) );
-		KEY( "Hatch",		ch->pcdata->hatch,				fread_number( fp ) );
+		KEY( "Hatch",		ch->pcdata->hatch,			fread_number( fp ) );
 	    if ( !str_cmp( word, "HpManaMove" ) )
 	    {
 		ch->hit         = fread_number( fp );
@@ -2060,6 +2057,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
            fMatch = TRUE;
 	   break;
         }
+        
         if ( !str_cmp( word, "Speedchar" ) )
         {
            ch->pcdata->speedchar = fread_letter( fp );

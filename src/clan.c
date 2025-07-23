@@ -40,13 +40,12 @@ void	adv_spell_action	args( ( CHAR_DATA *ch, OBJ_DATA *book,
 void	birth_write		args( ( CHAR_DATA *ch, char *argument ) );
 bool	birth_ok		args( ( CHAR_DATA *ch, char *argument ) );
 
-/* Need to get rid of those flames somehow - KaVir */
+/* Combat utility functions */
 
 void do_level( CHAR_DATA *ch, char *argument )
 {
     char arg       [MAX_INPUT_LENGTH];
     char skill  [20];  
-   /* char stance [20];*/
     one_argument( argument, arg );
 
     if (IS_NPC(ch)) return;  
@@ -257,12 +256,6 @@ void do_smother( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-/*    if ( ch == victim )
-    {
-	send_to_char( "You cannot smother yourself.\n\r", ch );
-	return;
-    }
-*/
     if (!IS_AFFECTED(victim, AFF_FLAMING))
     {
 	send_to_char( "But they are not on fire!\n\r", ch );
@@ -351,7 +344,7 @@ void do_introduce( CHAR_DATA *ch, char *argument )
 }  
 
 
-/* Loads of Vampire powers follow.  KaVir */
+/* Vampire discipline powers */
 void do_coil( CHAR_DATA *ch, char *argument )
 {
     if (IS_NPC(ch)) return;
@@ -1270,13 +1263,6 @@ void do_theft( CHAR_DATA *ch, char *argument )
 	send_to_char("You can't do that to them.\n\r", ch );
 	return;}
 
-/*
-    if ( IS_NPC(victim) ) 
-    {
-        send_to_char( "Lower life forms are immune to Theft of Vitae.\n\r", ch);
-        return;
-    }
-*/
     if (!IS_NPC(victim) && victim->pcdata->condition[COND_THIRST] <= 0)
     {
         send_to_char( "There isn't enough blood to steal.\n\r", ch);
@@ -1311,9 +1297,10 @@ if (!IS_NPC(victim)) {
 		
 		if (IS_NPC(victim))
         {
-/* Raw-killing it from one theft is stupid. Im going to use the primal        */
-/* stat on the mobs for blood its quick, effective, and straightford, AND	  */
-/* no new fields have to be added to the mob.Shakti 09/07/98				  */
+/* Raw-killing it from one theft is stupid. Im going to use the primal
+ * stat on the mobs for blood its quick, effective, and straightforward, AND
+ * no new fields have to be added to the mob. Shakti 09/07/98
+ */
 			(blpr = number_range (30,40) );
 			(victim->practice -=blpr);
             (ch->pcdata->condition[COND_THIRST] += blpr);
@@ -1365,12 +1352,6 @@ void do_demonform( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    /*if (ch->power[DISC_VAMP_VICI] < 4)
-    {
-        send_to_char("You must obtain at least level 4 in Vicissitude to
-use Zuloform.\n\r",ch);
-	return;
-    }*/
     
     
     if (!IS_DEMPOWER( ch, DEM_FORM) && IS_CLASS(ch,CLASS_DEMON))
@@ -1482,14 +1463,7 @@ return;
     	ch->pcdata->condition[COND_THIRST] -= number_range(100,200);
         act( "You transform into large beast.", ch, NULL, NULL, TO_CHAR, FALSE);
         act( "$n's body grows and distorts into a large beast.", ch, NULL, NULL, TO_ROOM, FALSE );
-        /*
-    	if (ch->wpn[0] > 0)
-    	{
-	    ch->hitroll += (ch->wpn[0]);
-	    ch->damroll += (ch->wpn[0]);
-	    ch->armor   -= (ch->wpn[0] * 3);
-    	}
-        */
+        /* Weapon bonuses are handled elsewhere */
         ch->pcdata->mod_str = 15;
         ch->pcdata->mod_dex = 15;
         SET_BIT(ch->polyaff, POLY_ZULOFORM);
@@ -1692,7 +1666,7 @@ void do_nightsight( CHAR_DATA *ch, char *argument )
     if (IS_NPC(ch)) return;
 
     if (IS_CLASS(ch, CLASS_WEREWOLF))
-    {/*supposed to be < but changedd while gifts are out */
+    { /* supposed to be < but changed while gifts are out */
 	if ( ch->power[DISC_WERE_HAWK] < 1 )
 	{
 	    send_to_char("Your power in hawk is not great enough yet.\n\r",ch);
@@ -1820,7 +1794,6 @@ void do_shadowsight( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 */
-//    }
     if (IS_AFFECTED(ch,AFF_SHADOWSIGHT) )
     {
 	send_to_char("You can no longer see between planes.\n\r",ch);
@@ -2035,8 +2008,7 @@ void do_oldclan( CHAR_DATA *ch, char *argument )
     for ( gch = char_list; gch != NULL; gch = gch->next )
     {
         if ( IS_NPC(gch) ) continue;
-/*        if ( !IS_CLASS(gch, CLASS_HIGHLANDER))
-            continue;*/
+        /* Class filtering removed for broader clan support */
         if ( !str_cmp(gch->clan,lord) || !str_cmp(gch->name,lord) || (str_cmp(gch->clan, "(null)") && ch->generation < 3))
         {
             sprintf( buf,
@@ -4338,7 +4310,7 @@ void do_unwerewolf( CHAR_DATA *ch, char *argument )
     }
     send_to_char("Your coarse hair shrinks back into your body.\n\r",ch);
     act("$n's coarse hair shrinks back into $s body.",ch,NULL,NULL,TO_ROOM, FALSE);
-//    ch->rage -= 25;
+    /* Rage is reset to 0 below instead of decremented */
     ch->hitroll -= 1500;
     ch->damroll -= 1500;
     if (ch->rage < 0) ch->rage = 0;
@@ -4851,7 +4823,6 @@ void do_birth( CHAR_DATA *ch, char *argument )
     }
     argument[0] = UPPER(argument[0]);
 
-/*    if(!raped) birth_write( ch, argument );*/
 
     ch->pcdata->genes[9] += 1;
     xREMOVE_BIT(ch->extra, EXTRA_PREGNANT);
@@ -4918,11 +4889,6 @@ bool char_exists( bool backup, char *argument )
 	found = TRUE;
 	fclose( fp );
     }
-//    else if ((fp=fopen(buf, "r")) == NULL)
-//    {
-//	found = FALSE;
-//	fclose(fp);
-//    }
     fpReserve = fopen( NULL_FILE, "r" );
     return found;
 }
@@ -4977,7 +4943,7 @@ ch->power[40],ch->power[41],ch->power[42],ch->power[43]);
     fprintf( fp, "Race         %d\n",   ch->race                );
     fprintf( fp, "Immune       %d\n",   ch->immune              );
     fprintf( fp, "Polyaff      %d\n",   ch->polyaff             );
-/* Dh Crap */
+/* Character form data */
     fprintf( fp, "CurrentForm  %d\n",   ch->cur_form            );
     fprintf( fp, "Rage         %d\n",   ch->rage                );
     fprintf( fp, "Generation   %d\n",   ch->generation          );
@@ -4986,7 +4952,7 @@ ch->power[40],ch->power[41],ch->power[42],ch->power[43]);
     fprintf( fp, "Flag4       %d\n",   ch->flag4              ); 
     fprintf( fp, "SilTol      %d\n",   ch->siltol               );
     fprintf( fp, "Souls	      %d\n",   ch->pcdata->souls        );
-/* Lala */
+/* Item and gameplay flags */
     fprintf( fp, "Itemaffect   %d\n",   ch->itemaffect          );
     fprintf( fp, "Form         %d\n",   ch->form                );
     fprintf( fp, "Beast        %d\n",   ch->beast               );

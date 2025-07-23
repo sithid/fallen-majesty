@@ -38,30 +38,6 @@ char            buf     [MAX_STRING_LENGTH];
 char            arg     [MAX_INPUT_LENGTH];
 bool     write_to_descriptor     args( ( int desc, char *txt, int length ) );
 void init_descriptor args ((DESCRIPTOR_DATA *dnew, int desc));
-/*
-void do_count( CHAR_DATA *ch, char *argument )
-{
-    char arg[MAX_STRING_LENGTH];
-    int count = 0;
-
-    argument = one_argument( argument, arg);
-
-    if( arg[0] == '\0' )
-    {
-    stc( "Count from what?!?\n\r", ch);
-    return;
-    }
-    count = atoi( arg );
-   if( count < 1 || count > 50 )
-   {
-    stc( "Range is from 1 to 50.\n\r", ch);
-    return;
-   }
-   ch->count = count;
-   return;
-
-}
-*/
 
 void do_resetarea(CHAR_DATA *ch, char *argument)
 {
@@ -121,17 +97,6 @@ void do_form(CHAR_DATA *ch, char *argument)
     return;
 }
 
-/*
-void do_reseteq( CHAR_DATA *ch, char *argument )
-{
-do_forceauto(ch,"rem all");
-do_forceauto(ch,"drop all");
-do_purge(ch,"");
-do_autosave(ch,"");
-send_to_char("Your eq has been wiped ",ch);
-return;
-}
-*/
 
 void do_testarm( CHAR_DATA *ch, char *argument )
 {
@@ -517,60 +482,6 @@ void do_disconnect( CHAR_DATA *ch, char *argument )
 }
 
 
-/*
-void do_howl( CHAR_DATA *ch, char *argument )
-{
-    DESCRIPTOR_DATA *d;
-    CHAR_DATA *vch;
-    char buf [MAX_STRING_LENGTH];
-    
-    
-    if (IS_CLASS(ch, CLASS_VAMPIRE)
-    {
-    stc("Vamps cannot use this channel!\n\r",ch);
-    return;
-    }
-    if (IS_NPC(ch)) return;
-    if (!IS_CLASS(ch, CLASS_WEREWOLF))
-    {
-    send_to_char("Huh?\n\r",ch);
-    return;
-    }
-    if ( argument[0] == '\0' )
-    {
-    send_to_char("What do you wish to howl?\n\r",ch);
-    return;
-    }
-    if (xIS_SET(ch->deaf, CHANNEL_HOWL))
-    {
-    send_to_char("But you're not even on the channel!\n\r",ch);
-    return;
-    }
-
-    for ( d = first_descriptor; d != NULL; d = d->next )
-    {
-    if ( d->connected != CON_PLAYING ) continue;
-    if ( (vch = d->character) == NULL ) continue;
-    if ( xIS_SET(vch->deaf, CHANNEL_HOWL) ) continue;
-    if ( vch == ch )
-        act("You howl '$T'.", ch, NULL, argument, TO_CHAR, FALSE);
-    else if (!IS_NPC(vch) ||
-        IS_CLASS(vch, CLASS_WEREWOLF) || IS_IMMORTAL(vch)))
-    {
-        sprintf(buf,"$n howls '%s'.", argument);
-        act(buf, ch, NULL, vch, TO_VICT, FALSE);
-    }
-    else if ( vch->in_room == ch->in_room )
-        act("$n throws back $s head and howls loudly.", ch, NULL, vch, TO_VICT, FALSE);
-    else if ( vch->in_room->area == ch->in_room->area )
-        act("You hear a loud howl from nearby.", ch, NULL, vch, TO_VICT, FALSE);
-    else
-        act("You hear a loud howl in the distance.", ch, NULL, vch, TO_VICT, FALSE);
-    }
-
-    return;
-}
-*/
 void do_update( CHAR_DATA *ch, char *argument)
 {
     DESCRIPTOR_DATA *d;

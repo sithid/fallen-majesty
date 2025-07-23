@@ -190,7 +190,6 @@ void say_spell( CHAR_DATA *ch, int sn )
     char buf  [MAX_STRING_LENGTH];
     char buf2 [MAX_STRING_LENGTH];
     char colour [MAX_STRING_LENGTH];
-/*  CHAR_DATA *rch; */
     char *pName;
     int iSyl;
     int length;
@@ -348,7 +347,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
     if ( IS_NPC(ch) && ch->desc == NULL )
 	return;
 
-    /* Polymorphed players cannot cast spells */
+	// Polymorphed players cannot cast spells
     if ( !IS_NPC(ch) && IS_AFFECTED(ch, AFF_POLYMORPH) && !IS_CLASS(ch, CLASS_ANGEL) &&
 	!IS_VAMPAFF(ch,VAM_DISGUISED) && !IS_POLYAFF(ch, POLY_SPIDER) && ch->power[DISC_VAMP_OBEA] < 10
 	&& !IS_SET(ch->flag2, VAMP_OBJMASK) && !IS_CLASS(ch,CLASS_DEMON) && !IS_CLASS(ch, CLASS_MAGE) && 
@@ -628,7 +627,7 @@ skill_table[sn].name);
 	tempentro = 50;
 
 	ch->mana -= mana;
-	/* Check players ability at spell type for spell power...KaVir */
+	// Check players ability at spell type for spell power
 	if (IS_NPC(ch))
 	    (*skill_table[sn].spell_fun) ( sn, ch->level, ch, vo );
 	else if ( !IS_CLASS(ch, CLASS_MAGE) )
@@ -1035,22 +1034,8 @@ void spell_change_sex( int sn, int level, CHAR_DATA *ch, void *vo )
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     AFFECT_DATA af;
 
+    // Spell is currently disabled
     return;
-    if ( is_affected( victim, sn ) )
-	return;
-    af.type      = sn;
-    af.duration  = 10 * level;
-    af.location  = APPLY_SEX;
-    do
-    {
-	af.modifier  = number_range( 0, 2 ) - victim->sex;
-    }
-    while ( af.modifier == 0 );
-    af.bitvector = 0;
-    affect_to_char( victim, &af );
-    send_to_char( "You feel different.\n\r", victim );
-    if ( ch != victim )
-	send_to_char( "Ok.\n\r", ch );
     return;
 }
 
@@ -1073,7 +1058,7 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
 	return;
     }
 
-    /* I don't want people charming ghosts and stuff - KaVir */
+    // Prevent charming of ethereal beings (ghosts, spirits, etc.)
     if ( IS_NPC(victim) && IS_AFFECTED(victim, AFF_ETHEREAL) )
     {
 	send_to_char( "You failed.\n\r", ch );
@@ -2144,10 +2129,6 @@ void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo )
 
   if (ich==ch || ich->trust > 6) continue;
 
-/*  if (ich->race - ch->race > 9) continue;
-    
-  if ((ch->race < ich->race) && (100 - (ich->race - ch->race)*10) > number_percent())
-    return; */
     
     affect_strip ( ich, gsn_invis );
     affect_strip ( ich, gsn_mass_invis );
@@ -2168,21 +2149,10 @@ void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo )
       REMOVE_BIT(ich->newbits, NEW_DARKNESS);
     }
 
-//    if (IS_SET(ich->in_room->room_flags, ROOM_TOTAL_DARKNESS))
-  //    REMOVE_BIT(ich->in_room->room_flags, ROOM_TOTAL_DARKNESS);
 
     act( "$n is revealed!", ich, NULL, NULL, TO_ROOM , FALSE);
     send_to_char( "You are revealed!\n\r", ich );
   }
-/*  if (IS_SET(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS))
-  {
-    for ( ich = ch->in_room->people; ich != NULL; ich = ich->next_in_room )
-    {
-      if (IS_SET(ich->newbits, NEW_DARKNESS))
-        still_dark = TRUE;
-    }
-    if (!still_dark) REMOVE_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS);
-  }*/
   return;
 }
 
@@ -2210,7 +2180,7 @@ void spell_fly( int sn, int level, CHAR_DATA *ch, void *vo )
 
 void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo )
 {
-//    char_to_room( create_mobile( get_mob_index(MOB_VNUM_VAMPIRE) ),	ch->in_room );
+    // Gate spell functionality has been disabled
     stc("It doesn't do anything.\n\r",ch);
     return;
 }

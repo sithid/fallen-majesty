@@ -323,10 +323,9 @@ void mobile_update( void )
     CHAR_DATA *ch_next;
     EXIT_DATA *pexit;
     int door;
-    /*char buf[MAX_STRING_LENGTH];*/
 
 
-    /* Examine all mobs. */
+    // Examine all mobs
     for ( ch = char_list; ch != NULL; ch = ch_next )
     {
 		ch_next = ch->next;
@@ -342,8 +341,6 @@ void mobile_update( void )
 		
 		if ( !IS_NPC(ch) )
 		{
-/*			if( ch->fighting != NULL && ch->in_room->vnum == 3054 )	stop_fighting( ch, TRUE ); */
-/* Code change by Krule 04/30/02 */
 
 			update_morted_timer(ch);
 			update_sit_safe_counter(ch);
@@ -467,16 +464,16 @@ void mobile_update( void )
 		else 
 		{
 			if ( IS_AFFECTED(ch, AFF_CHARM) ) continue;
-			/* Examine call for special procedure */
+			// Examine call for special procedure
 			if ( ch->spec_fun != 0 )
 			{
 				if ( (*ch->spec_fun) ( ch ) )
 					continue;
 				if (ch == NULL) continue;
 			}
-			/* That's all for sleeping / busy monster */
+			// That's all for sleeping / busy monster
 			if ( ch->position != POS_STANDING ) {do_stand(ch, "");continue;}
-			/* Scavenge */
+			// Scavenge
 			if ( xIS_SET(ch->act, ACT_SCAVENGER)
 				&&   ch->in_room->contents != NULL
 				&&   number_bits( 2 ) == 0 )
@@ -503,7 +500,7 @@ void mobile_update( void )
 				}
 			}
 			
-			/* Wander */
+			// Wander
 			if ( !xIS_SET(ch->act, ACT_SENTINEL)
 				&& ( door = number_bits( 5 ) ) <= 5
 				&& ( pexit = ch->in_room->exit[door] ) != NULL
@@ -517,7 +514,7 @@ void mobile_update( void )
 				move_char( ch, door );
 			}
 			
-			/* Flee */
+			// Flee
 			if ( ch->hit < ch->max_hit / 2
 				&& ( door = number_bits( 3 ) ) <= 5
 				&& ( pexit = ch->in_room->exit[door] ) != NULL
@@ -548,9 +545,7 @@ void mobile_update( void )
     return;
 }
 
-/* Update.c
- * Copyover Timer
- */
+// Copyover Timer
 void copyover_update(void)
 {
         char buf[MAX_STRING_LENGTH];
@@ -571,9 +566,7 @@ else
         return;
 }
 
-/*
- * Update the weather.
- */
+// Update the weather
 void weather_update( void )
 {
     char buf[MAX_STRING_LENGTH];
@@ -990,9 +983,7 @@ void char_update( void )
 	    {is_obj = TRUE;xSET_BIT(ch->extra, EXTRA_OSWITCH);}
 	else
 	    is_obj = FALSE;
-	/*
-	 * Find dude with oldest save time.
-	 */
+	// Find dude with oldest save time
 	if ( !IS_NPC(ch)
 	&& ( ch->desc == NULL || ch->desc->connected == CON_PLAYING )
 	&&   ch->level >= 2
@@ -1001,15 +992,6 @@ void char_update( void )
 	    ch_save	= ch;
 	    save_time	= ch->save_time;
 	}
-/*
-	if (!IS_NPC(ch) && IS_CLASS(ch, CLASS_WEREWOLF) && !is_obj &&
-	    ch->power[DISC_WERE_BEAR] > 3 && ch->position == POS_SLEEPING)
-	{
-	    if ( ch->hit  < ch->max_hit  ) ch->hit  = ch->max_hit;
-	    if ( ch->mana < ch->max_mana ) ch->mana = ch->max_mana;
-	    if ( ch->move < ch->max_move ) ch->move = ch->max_move;
-	}
-*/
 	if (ch->fighting == NULL && !IS_NPC(ch)) 
 
 	if ( !IS_NPC(ch) && IS_CLASS(ch, CLASS_WEREWOLF) 
@@ -1063,7 +1045,7 @@ void char_update( void )
 	  do_beastlike(ch,"");
 	}
 
-	/* Character Tick Timers */
+	// Character Tick Timers
 
         if (ch->tick_timer[TIMER_CAN_CALL_WAR_HORSE] == 1)
 	    send_to_char("You may now call your war horse again.\n\r", ch);
@@ -1136,13 +1118,6 @@ void char_update( void )
 		SET_BIT(ch->newbits, FOURTH_HAND);
 	    }
 
-/*	if( ch->tick_timer[TIMER_DSLEEP] == 1)
-	{
-	    stc( "You awaken from your deep sleep.\n\r",ch);
-	    do_stand(ch,"");
-	    ch->pcdata->condition[COND_FULL] = 100;
-	}
-*/
 	for (i = 0; i < MAX_TIMER; i++)
 	    if (ch->tick_timer[i] > 0) ch->tick_timer[i] -= 1;
 
@@ -1370,15 +1345,6 @@ void char_update( void )
             drop_out = TRUE;
          }
         }
-/*
-	if (IS_SET(ch->in_room->room_flags,ROOM_FLAMING) && !IS_AFFECTED(ch,AFF_FLAMING))
-        {
-        send_to_char("You catch on fire!\n\r",ch);
-        SET_BIT(ch->affected_by, AFF_FLAMING);
-        sprintf(buf,"%s catches on fire!\n\r",ch->name);
-        act(buf,ch,NULL,NULL,TO_ROOM, FALSE );
-        }
-*/
 
      if ( IS_AFFECTED(ch, AFF_FLAMING) && !is_obj && !drop_out && ch->in_room != NULL )
 	{
@@ -1402,7 +1368,7 @@ void char_update( void )
 	{
 	    act( "$n's flesh smolders in the sunlight!", ch, NULL, NULL, TO_ROOM, FALSE  );
 	    send_to_char( "Your flesh smolders in the sunlight!\n\r", ch );
-	    /* This one's to keep Zarkas quiet ;) */
+	    // Reduced damage for serpent form
 	    if (IS_POLYAFF(ch, POLY_SERPENT))
 	    	ch->hit = ch->hit - number_range(2,4);
 	    else
@@ -1420,17 +1386,7 @@ void char_update( void )
 	    act( "$n shivers and suffers.", ch, NULL, NULL, TO_ROOM, FALSE  );
 	    send_to_char( "You shiver and suffer.\n\r", ch );
 	    damage( ch, ch, number_range(100,200), gsn_poison );
-	}/*
-	else if ( !IS_NPC( ch ) && ch->paradox[1] > 0 )
-	{
-	    if ( ch->paradox[1] > 50 ) paradox( ch );
-	    else if ( ch->paradox[2] == 0 && ch->paradox[1] > 0 )
-	    {
-		ch->paradox[1] --;
-		ch->paradox[2] = PARADOX_TICK;
-	    }
-	    else ch->paradox[3] --;
-	}*/
+	}
 	else if ( ch->position == POS_INCAP && !is_obj && !drop_out )
 	{
 	    if (ch->level > 0)
@@ -1452,15 +1408,7 @@ void char_update( void )
 	else if ( ch->position == POS_MORTAL && !is_obj && !drop_out )
 	{
 	    drop_out = FALSE;
-	   /* if (ch->level > 0)*/
                 ch->hit = ch->hit + number_range(2,4);
-/*	    else
-	    {
-                ch->hit = ch->hit - number_range(1,2);
-		if (!IS_NPC(ch) && (ch->hit <=-11))
-		    do_killperson(ch,ch->name);
-		drop_out = TRUE;
-	    }*/
 	    if (!drop_out)
 	    {
 	    	update_pos( ch );
@@ -1481,10 +1429,7 @@ void char_update( void )
 	drop_out = FALSE;
     }
 
-    /*
-     * Autosave and autoquit.
-     * Check that these chars still exist.
-     */
+    // Autosave and autoquit - check that these chars still exist
     if ( ch_save != NULL || ch_quit != NULL )
     {
 	for ( ch = char_list; ch != NULL; ch = ch_next )
@@ -1993,10 +1938,6 @@ void embrace_update( void )
 	  {stop_embrace(ch,NULL);continue;}
 	if (ch->in_room != victim->in_room)
 	  stop_embrace(ch,victim);
-/*	if( ch->in_room->vnum == 3054 )
-	  stop_embrace(ch,victim);
-*/
-/* Safe room code --> Krule 04/30/02 */
 
 	if (victim->pcdata->condition[COND_THIRST] < 0)
 	  victim->pcdata->condition[COND_THIRST] = 0;
@@ -2142,24 +2083,14 @@ void update_handler( void )
     static  int     pulse_embrace;
     static  int     pulse_second;
     static  int	    pulse_minute;
-//    static int pulse_db_dump;   /* OLC 1.1b */
-
-//    if (extra_log) log_string("update_handler being run");
 
 
-    /* OLC 1.1b */
-/*    if ( --pulse_db_dump  <= 0 )
-    {
-        pulse_db_dump   = PULSE_DB_DUMP;
-        do_asave( NULL, "" );
-    }
-*/
+
 
     if ( --pulse_minute <= 0 )
     {
        pulse_minute = PULSE_PER_SECOND * 10;
 	 idle_update();
-//       arena_update();
     }
 
     if ( --pulse_second <= 0 )
@@ -2243,7 +2174,6 @@ void update_handler( void )
 
     if ( --pulse_violence <= 0 )
     {
-//        if (extra_log) log_string("UPDATE_VIOLENCE IS BEING CALLED FROM UPDATE_HANDLER");
 	pulse_violence	= PULSE_VIOLENCE;
 	violence_update	( );
     }
@@ -2269,7 +2199,7 @@ void update_handler( void )
 }
 
 
-// the parting of playerbased stuff into functions. was done by Ispy/Xiphias
+// Player-based update functions
 
 void update_morted_timer(CHAR_DATA *ch)
 {
@@ -2343,7 +2273,7 @@ void update_sit_safe_counter(CHAR_DATA *ch)
 
 void update_drunks(CHAR_DATA *ch)
 {
-	// I strongly suggest adding more stuff to drunks -xiphias *grin*
+	// Handle drunk character effects
 	if (ch->pcdata->condition[COND_DRUNK] > 10 && number_range(1,10) == 1)
 	{
 		send_to_char("You hiccup loudly.\n\r",ch);
