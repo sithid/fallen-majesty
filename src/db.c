@@ -183,9 +183,6 @@ OBJ_INDEX_DATA *	obj_index_hash		[MAX_KEY_HASH];
 ROOM_INDEX_DATA *	room_index_hash		[MAX_KEY_HASH];
 char *			db_string_hash		[MAX_KEY_HASH];
 
-//AREA_DATA *		area_first;
-//AREA_DATA *		area_last;
-
 AREA_DATA *		first_area;
 AREA_DATA *		last_area;
 
@@ -232,9 +229,6 @@ EXT_BV convert_bitv( int bitv );
  * Memory management.
  * Increase MAX_STRING if you have too.
  * Tune the others only if you understand what you're doing.
-
-#define			MAX_STRING	1048576
-
  */
 
 #define			MAX_STRING	2072864
@@ -490,7 +484,6 @@ void boot_db(bool fCopyOver)
         log_string("loading class leader");
         load_classleader();
 	log_string("Loading War");
-//	load_war();
 	log_string("Loading Boards");
 	load_boards();
 	log_string("Saving NOtes");
@@ -513,8 +506,6 @@ void boot_db(bool fCopyOver)
 	load_social_table();
 	log_string("loading hints");
 	load_hint_table();
-//	log_string("loading greeting");
-//	load_greeting();
     }
  	
  	if (fCopyOver)
@@ -712,23 +703,9 @@ char *strupper( const char *str )
 void add_help( HELP_DATA *pHelp )
 {
     HELP_DATA *tHelp;
-   /* char buf[MAX_STRING_LENGTH];*/
     int match;
 
     for ( tHelp = first_help; tHelp; tHelp = tHelp->next )
-/*
-	if ( pHelp->level == tHelp->level
-	&&  !strcmp(pHelp->keyword, tHelp->keyword) )
-	{
-	    sprintf(buf, "Duplicate %s. Deleting Help.\n\r",pHelp->keyword);
-	    bug(buf,0);
-	    STRFREE( pHelp->text );
-	    STRFREE( pHelp->keyword );
-	    DISPOSE( pHelp );
-	    return;
-	}
-	else
-*/
 	if ( (match=strcmp(pHelp->keyword[0]=='\'' ? pHelp->keyword+1 : pHelp->keyword,
 			   tHelp->keyword[0]=='\'' ? tHelp->keyword+1 : tHelp->keyword)) < 0
 	||   (match == 0 && pHelp->level > tHelp->level) )
@@ -938,7 +915,7 @@ void load_objects( FILE *fp )
 	pObjIndex->name			= fread_string( fp );
 	pObjIndex->short_descr		= fread_string( fp );
 	pObjIndex->description		= fread_string( fp );
-	/* Action description */	  fread_string( fp );
+	fread_string( fp );	/* Action description */
 
 	pObjIndex->short_descr[0]	= LOWER(pObjIndex->short_descr[0]);
 	pObjIndex->description[0]	= UPPER(pObjIndex->description[0]);
@@ -975,7 +952,7 @@ void load_objects( FILE *fp )
 	break;
 	}
 	pObjIndex->weight		= fread_number( fp );
-	pObjIndex->cost			= fread_number( fp );	/* Unused */
+	pObjIndex->cost			= fread_number( fp );	// Cleaned up unused comment to modern style
 	pObjIndex->first_affect		= NULL;
 	pObjIndex->last_affect		= NULL;
 	pObjIndex->extra_descr		= NULL;
@@ -987,11 +964,7 @@ void load_objects( FILE *fp )
 	pObjIndex->victpoweruse		= NULL;
 	pObjIndex->spectype		= 0;
 	pObjIndex->specpower		= 0;
-	/* Cost per day */		  fread_number( fp );
-/*
-	if ( pObjIndex->item_type == ITEM_POTION )
-	    SET_BIT(pObjIndex->extra_flags, ITEM_NODROP);
-*/
+	fread_number( fp );	// Cleaned up cost per day comment to modern style
 	for ( ; ; )
 	{
 	    char letter;
@@ -1158,7 +1131,7 @@ void load_resets( FILE *fp )
 
         pReset          = alloc_perm( sizeof( *pReset ) );
         pReset->command = letter;
-        /* if_flag */     fread_number( fp );
+        fread_number( fp );  // if_flag - unused parameter
         pReset->arg1    = fread_number( fp );
         pReset->arg2    = fread_number( fp );
         pReset->arg3    = ( letter == 'G' || letter == 'R' )
@@ -1312,7 +1285,7 @@ void load_rooms( FILE *fp )
 	pRoomIndex->vnum		= vnum;
 	pRoomIndex->name		= fread_string( fp );
 	pRoomIndex->description		= fread_string( fp );
-	/* Area number */		  fread_number( fp );
+	fread_number( fp );	/* Area number */
 	pRoomIndex->room_flags		= fread_number( fp );
 	pRoomIndex->sector_type		= fread_number( fp );
 	pRoomIndex->light		= 0;
@@ -1361,12 +1334,6 @@ void load_rooms( FILE *fp )
 		pexit->key		= fread_number( fp );
 		pexit->vnum		= fread_number( fp );
 
-/*		switch ( locks )
-		{
-		case 1: pexit->exit_info = EX_ISDOOR;                break;
-		case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF; break;
-		}
-*/
 
                 switch ( locks )        /* OLC exit_info to rs_flags. */
                 {
@@ -1425,7 +1392,6 @@ void load_rooms( FILE *fp )
     return;
 }
 
-/* OLC 1.1b */
 void new_load_rooms( FILE *fp )
 {   
     ROOM_INDEX_DATA *pRoomIndex;
@@ -1471,7 +1437,7 @@ void new_load_rooms( FILE *fp )
         pRoomIndex->vnum                = vnum;
         pRoomIndex->name                = fread_string( fp );
         pRoomIndex->description         = fread_string( fp );
-        /* Area number */                 fread_number( fp );   /* Unused */
+        fread_number( fp );	// Area number - not used in current implementation
         pRoomIndex->room_flags          = fread_number( fp );
         pRoomIndex->sector_type         = fread_number( fp );
         pRoomIndex->light               = 0;
@@ -1635,7 +1601,6 @@ void load_specials( FILE *fp )
 	    if ( pMobIndex->spec_fun == 0 )
 	    {
 		bug( "Load_specials: 'M': vnum %d.", pMobIndex->vnum );
-//		exit( 1 );
 	    }
 	    break;
 	}
@@ -1705,7 +1670,6 @@ void fix_exits( void )
 			to_room->vnum,    rev_dir[door],
 			(pexit_rev->to_room == NULL)
 			    ? 0 : pexit_rev->to_room->vnum );
-/*		    bug( buf, 0 ); */
 		}
 	    }
 	}
@@ -1789,7 +1753,6 @@ void reset_room( ROOM_INDEX_DATA *pRoom )
             if ( ( pExit->to_room != NULL )
               && ( ( pExit = pExit->to_room->exit[rev_dir[iExit]] ) ) )
             {
-                /* nail the other side */
                 pExit->exit_info = pExit->rs_flags;
             }
         }
@@ -1818,8 +1781,6 @@ void reset_room( ROOM_INDEX_DATA *pRoom )
             /*
              * Some hard coding.
              */
-/*            if ( ( pMobIndex->spec_fun == spec_lookup( "spec_cast_ghost" ) &&
-                 ( weather_info.sunlight != SUN_DARK ) ) ) continue;  */
     
             if ( pMobIndex->count >= pReset->arg2 )
             {
@@ -1902,10 +1863,7 @@ void reset_room( ROOM_INDEX_DATA *pRoom )
             {
                 LastObj->value[1] = LastObj->pIndexData->value[1];
             }
-            else
-            {
-                    /* THIS SPACE INTENTIONALLY LEFT BLANK */
-            }
+            // Container reset handled above for ITEM_CONTAINER type
             break;
             
         case 'G':
@@ -1968,27 +1926,6 @@ void reset_room( ROOM_INDEX_DATA *pRoom )
             break;
                 
         case 'R':
-/* OLC 1.1b
-            if ( !( pRoomIndex = get_room_index( pReset->arg1 ) ) )  
-            {
-                bug( "Reset_room: 'R': bad vnum %d.", pReset->arg1 );
-                continue;
-            }
-                 
-            {       
-                EXIT_DATA *pExit;
-                int d0;
-                int d1;
-             
-                for ( d0 = 0; d0 < pReset->arg2 - 1; d0++ )
-                {
-                    d1                   = number_range( d0, pReset->arg2-1 );
-                    pExit                = pRoomIndex->exit[d0];
-                    pRoomIndex->exit[d0] = pRoomIndex->exit[d1];
-                    pRoomIndex->exit[d1] = pExit;
-                }
-            }
-*/
             break;
         }
     }
@@ -2088,7 +2025,8 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
     mob->gold		= mob->level * (number_range(100,500));
     if (mob->gold > 10000000) mob->gold = 10000000;
     if ( xIS_SET(mob->act, ACT_NOEXP))  mob->gold = 0;
-     /* Random Forge Objects */
+
+    // Random forge object generation
 
    if (number_percent() > 90)
    {
@@ -2691,8 +2629,6 @@ void clear_char( CHAR_DATA *ch )
     ch->prompt			= &str_empty[0];
     ch->cprompt			= &str_empty[0];
     ch->hunting			= &str_empty[0];
-  //ch->pkilling		= &str_empty[0];
-//    ch->huntnumber		= 0; /* Krule 04/30/02 */
 
     ch->logon			= current_time;
     ch->armor			= 100;
@@ -2755,7 +2691,6 @@ void free_char( CHAR_DATA *ch )
     free_string( ch->prompt 		);
     free_string( ch->cprompt 		);
     free_string( ch->hunting		);
-    //free_string( ch->pkilling		);
         
     if ( ch->pcdata != NULL )
     {
@@ -3061,29 +2996,7 @@ char *fread_string( FILE *fp )
 
 
 
-/*
- * Read to end of line (for comments).
- *
-void fread_to_eol( FILE *fp )
-{
-    char c;
-
-    do
-    {
-	c = getc( fp );
-    }
-    while ( c != '\n' && c != '\r' );
-
-    do
-    {
-	c = getc( fp );
-    }
-    while ( c == '\n' || c == '\r' );
-
-    ungetc( c, fp );
-    return;
-}
-*/
+// Legacy fread_to_eol function removed - replaced with safer version below
 
 void fread_to_eol( FILE *fp )
 {
@@ -3113,51 +3026,7 @@ void fread_to_eol( FILE *fp )
 }
 
 
-/*
- * Read one word (into static buffer).
- *
-char *fread_word( FILE *fp )
-{
-    static char word[MAX_INPUT_LENGTH];
-    char *pword;
-    char cEnd;
-
-    do
-    {
-	cEnd = getc( fp );
-    }
-    while ( isspace( cEnd ) );
-
-    if ( cEnd == '\'' || cEnd == '"' )
-    {
-	pword   = word;
-    }
-    else
-    {
-	word[0] = cEnd;
-	pword   = word+1;
-	cEnd    = ' ';
-    }
-
-    for ( ; pword < word + MAX_INPUT_LENGTH; pword++ )
-    {
-	*pword = getc( fp );
-	if ( cEnd == ' ' ? isspace(*pword) : *pword == cEnd )
-	{
-	    if ( cEnd == ' ' )
-		ungetc( *pword, fp );
-	    *pword = '\0';
-	    return word;
-	}
-    }
-
-
-   bug( "Fread_word: word too long.", 0 );
-    exit( 1 );
-    return NULL;
-
-}
-*/
+// Legacy fread_word function removed - replaced with safer EOF-checking version below
 
 /*
  * Read one word (into static buffer).
@@ -3306,7 +3175,7 @@ void *alloc_perm( int sMem )
     if ( pMemPerm == NULL || iMemPerm + sMem > MAX_PERM_BLOCK )
     {
 	iMemPerm = 0;
-	if ( ( pMemPerm = calloc( 1, MAX_PERM_BLOCK ) ) == NULL ) /* MEMWATCH says this is leaking */
+	if ( ( pMemPerm = calloc( 1, MAX_PERM_BLOCK ) ) == NULL )
 	{
 	    perror( "Alloc_perm" );
 	    exit( 1 );
@@ -3785,60 +3654,6 @@ void append_file( CHAR_DATA *ch, char *file, char *str )
 
 
 
-/*
- * Reports a bug.
- *
-void bug( const char *str, int param )
-{
-    char buf[MAX_STRING_LENGTH];
-    FILE *fp;
-
-    if ( fpArea != NULL )
-    {
-	int iLine;
-	int iChar;
-
-	if ( fpArea == stdin )
-	{
-	    iLine = 0;
-	}
-	else
-	{
-	    iChar = ftell( fpArea );
-	    fseek( fpArea, 0, 0 );
-	    for ( iLine = 0; ftell( fpArea ) < iChar; iLine++ )
-	    {
-		while ( getc( fpArea ) != '\n' )
-		    ;
-	    }
-	    fseek( fpArea, iChar, 0 );
-	}
-
-	sprintf( buf, "[*****] FILE: %s LINE: %d", strArea, iLine );
-	log_string( buf );
-
-	if ( ( fp = fopen( "shutdown.txt", "a" ) ) != NULL )
-	{
-	    fprintf( fp, "[*****] %s\n", buf );
-	    fclose( fp );
-	}
-    }
-
-    strcpy( buf, "[*****] BUG: " );
-    sprintf( buf + strlen(buf), str, param );
-    log_string( buf );
-
-    fclose( fpReserve );
-    if ( ( fp = fopen( BUG_FILE, "a" ) ) != NULL )
-    {
-	fprintf( fp, "%s\n", buf );
-	fclose( fp );
-    }
-    fpReserve = fopen( NULL_FILE, "r" );
-
-    return;
-}
-*/
 
 /*
  * Reports a bug.
@@ -3868,13 +3683,12 @@ void bug( const char *str, ... )
             }
             fseek( fpArea, iChar, 0 );
         }
-//        log_string( "[*****] FILE: %s LINE: %d", strArea, iLine );
 
         if ( ( fp = fopen( "shutdown.txt", "a" ) ) != NULL )
         {
             fprintf( fp, "[*****] %s\n", buf );
             fclose( fp );
-            fp=NULL; /* redhat 5.1 fix - shogar */
+            fp=NULL;
         }
     }
 
@@ -3890,7 +3704,7 @@ void bug( const char *str, ... )
     if (last_command)
     log_string("[*****] CMD: %s", last_command);
     fclose( fpReserve );
-    fpReserve=NULL; /* redhat 5.1 fix - shogar */
+    fpReserve=NULL;
 
     if ( ( fp = fopen( BUG_FILE, "a" ) ) != NULL )
     {
@@ -3906,26 +3720,8 @@ void bug( const char *str, ... )
 
 
 
-/*
- * Writes a string to the log.
- *
-void log_string( const char *str )
-{
-    char *strtime;
-    char logout [MAX_STRING_LENGTH];
 
-    strtime                    = ctime( &current_time );
-    strtime[strlen(strtime)-1] = '\0';
-    fprintf( stderr, "%s :: %s\n", strtime, str );
-    strcpy ( logout, str );
-    logchan( logout );
-    return;
-}
-*/
-
-/* system logging (replaces log()) - works like printf now
-** - Anil Mahajan 12-13-97 (originally written for FucMUD)
-*/
+// System logging function - works like printf
 void log_string( const char *cpcFormat, ...)
 {
   va_list     tArgList;

@@ -170,7 +170,6 @@ int can_carry_n( CHAR_DATA *ch )
 	return 0;
 
     return sysdata.max_items;
-//    return MAX_WEAR + 2 * get_curr_dex( ch ) / 3;
 }
 
 
@@ -352,9 +351,6 @@ QUEST_NEWBIE) || IS_SET(obj->quest, QUEST_ADAMANTIUM) )
     case APPLY_INT:           ch->pcdata->mod_int	+= mod;	break;
     case APPLY_WIS:           ch->pcdata->mod_wis	+= mod;	break;
     case APPLY_CON:           ch->pcdata->mod_con	+= mod;	break;
-/*
-    case APPLY_SEX:           ch->sex			+= mod;	break;
-*/
     case APPLY_SEX:						break;
     case APPLY_CLASS:						break;
     case APPLY_LEVEL:						break;
@@ -418,14 +414,6 @@ void extract_exit( ROOM_INDEX_DATA *room, EXIT_DATA *pexit )
 
 void set_learnable_disciplines (CHAR_DATA *ch)
 {
-    /*int i;*/
-    
-    /* this bit clears all the disciplines, just in case */
-
-/*    for (i = 0 ; i < MAX_DISCIPLINES ; i++)
-	ch->power[i] = -1;
-*/
-
     /* Put the extra disciplines in here, by race */
     if (IS_CLASS(ch, CLASS_VAMPIRE))
     {
@@ -498,42 +486,6 @@ void set_learnable_disciplines (CHAR_DATA *ch)
         ch->power[DISC_WERE_CONG] = 0;
     }
   
-/*
-    if (IS_CLASS(ch, CLASS_VAMPIRE))
-    {
-	ch->power[DISC_VAMP_CELE] = ch->pcdata->powers[VPOWER_CELERITY];
-        ch->power[DISC_VAMP_FORT] = ch->pcdata->powers[VPOWER_FORTITUDE];
-        ch->power[DISC_VAMP_OBTE] = ch->pcdata->powers[VPOWER_OBTENEBRATION];
-        ch->power[DISC_VAMP_PRES] = ch->pcdata->powers[VPOWER_PRESENCE];
-        ch->power[DISC_VAMP_QUIE] = ch->pcdata->powers[VPOWER_QUIETUS];
-        ch->power[DISC_VAMP_THAU] = ch->pcdata->powers[VPOWER_THAU];
-        ch->power[DISC_VAMP_AUSP] = ch->pcdata->powers[VPOWER_AUSPEX];
-        ch->power[DISC_VAMP_DOMI] = ch->pcdata->powers[VPOWER_DOMINATE];
-        ch->power[DISC_VAMP_OBFU] = ch->pcdata->powers[VPOWER_OBFUSCATE];
-        ch->power[DISC_VAMP_POTE] = ch->pcdata->powers[VPOWER_POTENCE];
-        ch->power[DISC_VAMP_PROT] = ch->pcdata->powers[VPOWER_PROTEAN];
-        ch->power[DISC_VAMP_SERP] = ch->pcdata->powers[VPOWER_SERPENTIS];
-        ch->power[DISC_VAMP_VICI] = ch->pcdata->powers[VPOWER_VICISSITUDE];
-        ch->power[DISC_VAMP_DAIM] = ch->pcdata->powers[VPOWER_DAIM];
-        ch->power[DISC_VAMP_ANIM] = ch->pcdata->powers[VPOWER_ANIMAL];
-    }
-    if (IS_CLASS(ch, CLASS_WEREWOLF))
-    {
-	  ch->power[DISC_WERE_BEAR] = ch->pcdata->powers[WPOWER_BEAR];
-	  ch->power[DISC_WERE_LYNX] = ch->pcdata->powers[WPOWER_LYNX];
-	  ch->power[DISC_WERE_BOAR] = ch->pcdata->powers[WPOWER_BOAR];
-	  ch->power[DISC_WERE_OWL]  = ch->pcdata->powers[WPOWER_OWL];
-	  ch->power[DISC_WERE_SPID] = ch->pcdata->powers[WPOWER_SPIDER];
-	  ch->power[DISC_WERE_WOLF] = ch->pcdata->powers[WPOWER_WOLF];
-	  ch->power[DISC_WERE_HAWK] = ch->pcdata->powers[WPOWER_HAWK];
-	  ch->power[DISC_WERE_MANT] = ch->pcdata->powers[WPOWER_MANTIS];
-	  ch->power[DISC_WERE_RAPT] = ch->pcdata->powers[WPOWER_RAPTOR];
-	  ch->power[DISC_WERE_LUNA] = ch->pcdata->powers[WPOWER_LUNA];
-	  ch->power[DISC_WERE_PAIN] = ch->pcdata->powers[WPOWER_PAIN];
-	  ch->power[DISC_WERE_CONG] = ch->pcdata->powers[WPOWER_CONGREGATION];
-    }
-  }
-*/
 
     if (IS_CLASS(ch, CLASS_DEMON))
     {
@@ -697,8 +649,6 @@ void char_from_room( CHAR_DATA *ch )
 	return;
     }
 
- //   if ( !IS_NPC(ch) )
-//	--ch->in_room->area->nplayer;
 
     if ( ( obj = get_eq_char( ch, WEAR_WIELD ) ) != NULL
     &&   obj->item_type == ITEM_LIGHT
@@ -711,12 +661,6 @@ void char_from_room( CHAR_DATA *ch )
     &&   ch->in_room->light > 0 )
 	--ch->in_room->light;
 
-/*    if ( !IS_NPC(ch)  &&  IS_SET(ch->newbits, NEW_DARKNESS))
-    {
-	if (ch->in_room != NULL)
-	    REMOVE_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS); 
-    }
-*/
     if ( ch == ch->in_room->people )
     {
 	ch->in_room->people = ch->next_in_room;
@@ -763,8 +707,6 @@ void repop_char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
     ch->next_in_room	= pRoomIndex->people;
     pRoomIndex->people	= ch;
 
-//    if ( !IS_NPC(ch) )
-//	++ch->in_room->area->nplayer;
 
 
     if ( ( obj = get_eq_char( ch, WEAR_WIELD ) ) != NULL
@@ -777,10 +719,6 @@ void repop_char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
 	++ch->in_room->light;
 
     if (ch->loc_hp[6] > 0 && ch->in_room->blood < 1000) ch->in_room->blood += 1;
-/*
-    if ( !IS_NPC(ch)  &&  IS_SET(ch->newbits, NEW_DARKNESS))
-        SET_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS);  
-*/
     if (IS_NPC(ch))
        act( "$n pops into existance.",  ch, NULL, NULL, TO_ROOM, FALSE );
 
@@ -808,8 +746,6 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
     ch->next_in_room	= pRoomIndex->people;
     pRoomIndex->people	= ch;
 
-//    if ( !IS_NPC(ch) )
-//	++ch->in_room->area->nplayer;
 
 
     if ( ( obj = get_eq_char( ch, WEAR_WIELD ) ) != NULL
@@ -822,10 +758,6 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
 	++ch->in_room->light;
 
     if (ch->loc_hp[6] > 0 && ch->in_room->blood < 1000) ch->in_room->blood += 1;
-/*
-    if ( !IS_NPC(ch)  &&  IS_SET(ch->newbits, NEW_DARKNESS))
-        SET_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS);  
-*/
     return;
 }
 

@@ -465,9 +465,7 @@ void do_classeq( CHAR_DATA *ch, char *argument )
     return;
   }
 
-//==================================================
-//Allows the player to make a full set of equipment.
-//==================================================
+/* Allows the player to make a full set of equipment */
   if (!str_cmp(arg, "all"))
   {
     if( ch->practice < 2850 && ch->practice < 950 )
@@ -554,7 +552,7 @@ void do_classeq( CHAR_DATA *ch, char *argument )
 
 
 
-            /*Infernal, Holy, Mithril Equipment, added by Adjani. Suck it.*/
+            /* Infernal, Holy, Mithril Equipment */
 
 
 
@@ -1095,19 +1093,7 @@ void do_get( CHAR_DATA *ch, char *argument )
 		}
 		name = container->player;
 		morter = container->killedby;
-/*                if (name && morter && str_cmp( name, ch->name) && !IS_IMMORTAL(ch) && 
-str_cmp( ch->name, morter ) )
-                {
-                 chprintf( ch, "You haven't the claim to loot that corpse. Only %s or %s does.\n\r", name, morter);
-                 return;
-                }
-
-	        if(IS_SET(obj->quest, QUEST_RUNE) && hasrare)
-	        {
-        	 stc("You have your maximum amount of rare equipment.\n\r",ch);
-	         return;
-        	}
-*/		
+		/* Corpse looting restrictions removed */
 	    }
 
 	}
@@ -2996,7 +2982,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     int value;
     one_argument( argument, arg );
 
-//    if (IS_NPC(ch)) return;
+    /* NPC sacrifice check removed */
 
     if ( arg[0] == '\0' )
     {

@@ -607,10 +607,6 @@ FALSE);
 		if (ch->pcdata->in_progress != NULL)
 		send_to_char (ch->pcdata->in_progress->text,ch);
 		
-/*		send_to_char ("\n\rEnter text. Type " BOLD "~" NO_COLOR " or " BOLD "END" NO_COLOR " on an empty line to end note.\n\r"		                    "=======================================================\n\r",ch);
-		
-
-		ch->desc->connected = CON_NOTE_TEXT;		            */
 			ch->desc->connected = CON_EDITING;
 			ch->substate = SUB_WRITING_NOTE;
 			ch->dest_buf = ch;
@@ -1098,9 +1094,6 @@ void handle_con_note_subject (DESCRIPTOR_DATA *d, char * argument)
 				current_time + ch->pcdata->board->purge_days * 24L * 3600L;				
 			sprintf (buf, "This note will expire %s\r",ctime(&ch->pcdata->in_progress->expire));
 			write_to_buffer (d,buf,0);
-/*			write_to_buffer (d, "\n\rEnter text. Type " BOLD "~" NO_COLOR " or " BOLD "END" NO_COLOR " on an empty line to end note.\n\r"
-			                    "=======================================================\n\r",0);
-			d->connected = CON_NOTE_TEXT;*/
 			d->connected = CON_EDITING;
 			ch->substate = SUB_WRITING_NOTE;
 			ch->dest_buf = ch;
@@ -1151,9 +1144,6 @@ void handle_con_note_expire(DESCRIPTOR_DATA *d, char * argument)
 	
 	/* note that ctime returns XXX\n so we only need to add an \r */
 
-/*			write_to_buffer (d, "\n\rEnter text. Type " BOLD "~" NO_COLOR " or " BOLD "END" NO_COLOR " on an empty line to end note.\n\r"
-			                    "=======================================================\n\r",0);
-			d->connected = CON_NOTE_TEXT;*/
 			d->connected = CON_EDITING;
 			ch->substate = SUB_WRITING_NOTE;
 			ch->dest_buf = ch;

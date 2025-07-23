@@ -106,25 +106,6 @@ void move_char( CHAR_DATA *ch, int door )
 	return;
     }
 
-/*
-if ((door= DIR_NORTH && ((obj=get_obj_list(ch,"walln",in_room->contents)
-!= NULL) || (obj=get_obj_list(ch,"walls",to_room->contents)) != NULL))
-
-|| if (door= DIR_SOUTH && ((obj=get_obj_list(ch,"walls",in_room->contents)
-!= NULL) || (obj=get_obj_list(ch,"walln",to_room->contents)) != NULL))
-|| if (door= DIR_EAST && ((obj=get_obj_list(ch,"walle",in_room->contents)
-!= NULL) || (obj=get_obj_list(ch,"wallw",to_room->contents)) != NULL))
-|| if (door= DIR_WEST && ((obj=get_obj_list(ch,"wallw",in_room->contents)
-!= NULL) || (obj=get_obj_list(ch,"walle",to_room->contents)) != NULL))
-|| if (door= DIR_UP && ((obj=get_obj_list(ch,"wallu",in_room->contents)
-!= NULL) || (obj=get_obj_list(ch,"walld",to_room->contents)) != NULL))
-|| if (door= DIR_DOWN && ((obj=get_obj_list(ch,"walld",in_room->contents)
-!= NULL) || (obj=get_obj_list(ch,"wallu",to_room->contents)) != NULL)))
-{
-send_to_char("You are unable to pass the flowing water.\n\r",ch);
-return;
-}
-*/
     if ( IS_SET(pexit->exit_info, EX_CLOSED)
     &&   !IS_AFFECTED(ch, AFF_PASS_DOOR)
     &&   !IS_AFFECTED(ch, AFF_ETHEREAL)

@@ -606,7 +606,7 @@ void make_wall(ROOM_INDEX_DATA *room, int dir, int wall)
 
     if (room->exit[dir] == NULL)
     {
-	bug ("Cant make wall!!!!", 0);
+	bug("Cannot create wall - exit is null", 0);
 	return;
     }
 

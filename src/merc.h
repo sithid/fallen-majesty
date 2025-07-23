@@ -1130,7 +1130,7 @@ ACT_AGG_NEUTRAL
 #define AFF_SEVERED		      4
 #define PLR_IMPLAG		      8
 #define EXTRA_BLINKY       16
-//#define PLR_BRIEF3	    32
+/* PLR_BRIEF3 removed - unused bit definition */
 #define OBJ_VNUM_LEGS		     46
 DECLARE_DO_FUN( do_resetpassword);
 DECLARE_DO_FUN( do_pstat        );
@@ -1184,12 +1184,7 @@ DECLARE_DO_FUN( do_vshow );
 #define ITEM_NP_BUCKLER		30341
 #define ITEM_NP_RING		30342
 #define ITEM_NP_COLLAR		30343
-#define ITEM_NP_LANTERN		30344		
- 
-
-
-
-
+#define ITEM_NP_LANTERN		30344
 
 /*
  * Rune, Glyph and Sigil bits.
@@ -2490,7 +2485,7 @@ EXTRA_NOFOLLOW
 #define STANCEPOWER_REV_DAMCAP_3   32768  /* supreme damcap penalty for opponent */
 
 
-/* other shit */
+/* Communication and other flags */
 #define COMM_NOARENA		0
 #define COMM_AFK		1
 #define COMM_NORESTORE		2

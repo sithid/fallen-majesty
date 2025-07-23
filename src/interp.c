@@ -115,7 +115,7 @@ void do_racecommands( CHAR_DATA *ch, char *argument )
 		if (displayed) send_to_char("\n\r", ch);
 	}
     }
-/* OBEAH CRAP HAVE TO ADD MANUAL......ANYONE HAVE ANOTHER WAY.....PLEASE BY ALL MEANS CHANGE IT */
+/* CLEANUP: Manual OBEAH discipline handling - consider refactoring with discipline system */
 
 if (IS_CLASS(ch, CLASS_VAMPIRE))
 {
@@ -534,7 +534,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "scry",		do_scry, POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "truesight",	do_truesight,POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "enhance",	do_enhance, POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
-//    { "psionisteq",     do_psi_eq, POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "wrath",          do_wrath, POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "mindblast",	do_mindblast, POS_FIGHTING, 3, LOG_NORMAL, 32768,0,0},
     { "enfeeble",	do_enfeeble, POS_FIGHTING, 3, LOG_NORMAL, 32768,0,0},
@@ -543,7 +542,6 @@ const	struct	cmd_type	cmd_table	[] =
     { "command",	do_command, POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "awe",		do_awe,	POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "confuse",	do_confuse, POS_FIGHTING, 3, LOG_NORMAL, 32768,0,0},
-  //  { "mindgate",	do_mindgate,POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "massassinate",	do_massassinate,POS_STANDING, 3, LOG_NORMAL, 32768,0,0},
     { "mindtalk",	do_psionisttalk,POS_DEAD, 3, LOG_NORMAL, 32768,0,0},
     /* 
@@ -858,7 +856,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "visible",		do_visible,	POS_SLEEPING,	 0,  LOG_NORMAL, 0,0,0 },
     { "wake",		do_wake,	POS_SLEEPING,	 0,  LOG_NORMAL, 0,0,0	},
     { "where",		do_where,	POS_MEDITATING,	 0,  LOG_NORMAL, 0,0,0	},
-/* need it before forge */
 
 
         { "contraception", do_contraception, POS_DEAD,  0,      LOG_NORMAL, 0,0,0},
@@ -902,16 +899,15 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
 /*
  * Garou
  */
-// Ahroun
+// Ahroun powers
     { "razorclaws",	do_razorclaws, POS_FIGHTING, 3, LOG_NORMAL, 4,DISC_WERE_WOLF,4 },
 
-// Homid
-//  Persuasion, automatic
+// Homid powers
     { "staredown",	do_staredown, POS_FIGHTING, 3, LOG_NORMAL, 4,DISC_WERE_OWL,5 },
     { "disquiet",	do_disquiet, POS_FIGHTING, 3 , LOG_NORMAL, 4,DISC_WERE_OWL,6 }, 
     { "cocoon",		do_cocoon,   POS_FIGHTING,  3,  LOG_NORMAL, 4,DISC_WERE_OWL, 8 },
 
-// Metis
+// Metis powers
     { "quills",	do_quills, POS_FIGHTING, 3, LOG_NORMAL, 4,DISC_WERE_HAWK,5 },
     { "nightsight",do_nightsight,POS_FIGHTING,3,LOG_NORMAL,4,DISC_WERE_HAWK,1 },
 
@@ -925,7 +921,7 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "sharpen",	do_sharpen,  POS_STANDING,     3,  LOG_NORMAL, 8,DISC_VAMP_QUIE,7 },
     { "purification",      do_purification, POS_STANDING, 3, LOG_NORMAL, 0, 0, 0 },
 
-     /* Protean */ /* healing has to go after drow heal */
+     /* Protean powers */
     /* Obtene */
     { "grab",		do_grab,	POS_STANDING,    	 3,  LOG_NORMAL, 8,DISC_VAMP_OBTE,8 },
 
@@ -935,7 +931,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "gmotherstouch",  do_gmotherstouch,POS_FIGHTING, 3,  LOG_NORMAL, 4,DISC_WERE_LUNA,4 },
     { "sclaws",		do_sclaws,	POS_STANDING,      3,  LOG_NORMAL, 4,DISC_WERE_LUNA,5 },
     { "moonbeam",	do_moonbeam,POS_FIGHTING,      3,  LOG_NORMAL, 4,DISC_WERE_LUNA,8 },
-   /* No more luna Powers */
 
     { "hint",           do_hint,        POS_DEAD,      10,LOG_NORMAL,0,0,0 },
     { "hints",           do_hints,        POS_DEAD,      10,LOG_NORMAL,0,0,0 },
@@ -965,9 +960,7 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "inferno",	do_dinferno,	POS_DEAD,      3,  LOG_NORMAL, CLASS_DEMON,DISC_DAEM_HELL, 3 },
     { "tail",		do_tail,	POS_FIGHTING,  3,  LOG_NORMAL, 1,0,0 },
     { "web",            do_web, 	POS_FIGHTING,  3,  LOG_NORMAL, 1,DISC_DAEM_CORR,2 },
-/* Vamp */
     { "binferno",	do_inferno,	POS_STANDING,  3,  LOG_NORMAL, 1,DISC_VAMP_DAIM, 6 },
-/* Vamp ^^^^ */
 
     { "immolate",	do_immolate,    POS_STANDING,  3,  LOG_NORMAL, CLASS_DEMON,DISC_DAEM_HELL, 2 },
     { "daemonseed",	do_seed,	POS_STANDING,  3,  LOG_NORMAL, CLASS_DEMON,DISC_DAEM_HELL, 7 },
@@ -975,10 +968,8 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "ban",		do_ban,	POS_DEAD,		 12,  LOG_ALWAYS,0,0,0	},
     { "transfer",       do_transfer,    POS_DEAD,      9, LOG_NORMAL,0,0,0 },
 
-/*holy, chaos, mithril*/
       { "aligneq", 	          do_aligneq,     POS_STANDING,    3,  LOG_ALWAYS,0,0,0 },
 
-/*holy, chaos, mithril*/
 
     { "classeq",		do_classeq,	POS_STANDING,	 3,  LOG_NORMAL,0,0,0 },
 
@@ -996,7 +987,6 @@ LOG_NORMAL, 8, DISC_VAMP_THAN, 3 }, */
     { "deathsense",	do_deathsense,  POS_STANDING,  3,  LOG_NORMAL, CLASS_DEMON,DISC_DAEM_NETH, 2 },
     { "prefix",		do_prefix,	POS_DEAD,      10,  LOG_NORMAL, 0,0,0 },
 
-    /* Daemon Powers */
 
 
     /* Start of OLC commands */
@@ -2371,10 +2361,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     int foundlog;
     int snard;
 
-//int string_count = nAllocString ;
-//int perm_count = nAllocPerm ;
-char cmd_copy[MAX_INPUT_LENGTH] ;
-//char buf2[MAX_STRING_LENGTH] ;
+char cmd_copy[MAX_INPUT_LENGTH];
 
 
 
@@ -2740,13 +2727,6 @@ else if(!str_cmp(cmd_table[cmd].name,"restore"))found=TRUE;
 	    if ( !check_xsocial( ch, command, argument ) )
 		send_to_char( "Huh?\n\r", ch );
 	}
-/*
-	else
-	{
-	    sprintf(kavirarg,">>>%s",argu);
-	    room_text( ch, kavirarg );
-	}
-*/
 	return;
     }
     else /* a normal valid command.. check if it is disabled */
@@ -2837,36 +2817,8 @@ else if(!str_cmp(cmd_table[cmd].name,"restore"))found=TRUE;
 
     ch->last_cmd = cmd_table[cmd].do_fun;
     (*cmd_table[cmd].do_fun) ( ch, argument );
-/*
-if (string_count < nAllocString)
-{
-sprintf(buf2,
-"Memcheck : Increase in strings :: %s : %s", ch->pcdata->switchname,
-cmd_copy) ;
-bug(buf2,0);
-}
-
-if (perm_count < nAllocPerm)
-{
-sprintf(buf2,
-"Increase in perms :: %s : %s", ch->pcdata->switchname, cmd_copy) ;
-bug(buf2,0);
-}
-*/
 
     tail_chain( );
-/*
-    if (!str_cmp(arg,"say"))
-    {
-    	sprintf(kavirarg,"%s",argu);
-    	room_text( ch, strlower(kavirarg) );
-    }
-    else
-    {
-    	sprintf(kavirarg,">>>%s",argu);
-    	room_text( ch, kavirarg );
-    }
-*/
     return;
 }
 

@@ -382,7 +382,7 @@ int char_ac(CHAR_DATA *ch)
     if (IS_AWAKE(ch))
    	value += dex_app[get_curr_dex(ch)].defensive;
 
-    /* Highlander */
+    // Highlander AC bonus
     if (IS_CLASS(ch, CLASS_HIGHLANDER) && (get_eq_char(ch, WEAR_WIELD) != NULL))
     {
 	int wpn = ch->wpn[1];
@@ -1431,7 +1431,6 @@ void do_look( CHAR_DATA *ch, char *argument )
 	}
 	show_char_to_char( ch->in_room->people,   ch );
 	return;
-//	if (xIS_SET(ch->act, PLR_BRIEF))
     }
 
     if ( !str_cmp( arg1, "i" ) || !str_cmp( arg1, "in" ) )
@@ -1664,12 +1663,6 @@ void do_look( CHAR_DATA *ch, char *argument )
 	send_to_char( "Nothing special there.\n\r", ch );
 	return;
     }
-/*
-    if ( pexit->description != NULL && pexit->description[0] != '\0' )
-	send_to_char( pexit->description, ch );
-    else
-	send_to_char( "Nothing special there.\n\r", ch );
-*/
 
     if ( pexit->keyword    != NULL
     &&   pexit->keyword[0] != '\0'
@@ -1733,8 +1726,6 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	send_to_char( "Examine what?\n\r", ch );
 	return;
     }
-
-//    do_look( ch, arg );
 
     if ( ( obj = get_obj_here( ch, arg ) ) != NULL )
     {
@@ -1992,19 +1983,7 @@ void do_far( CHAR_DATA *ch, char *argument )
 	   send_to_char("Who do you wish to use farcommand on?\n\r",ch);
 	   return;
 	}
-/*  
-        if (arg2[0] == '\0')
-	{
-	   send_to_char("What do you wish to do to them?\n\r",ch);
-	   return;
-	}
 
-	if (arg3[0] == '\0')
-	{
-	   send_to_char("Possess or command who?\n\r",ch);
-	   return;
-	}
-*/
   	if (!IS_CLASS(ch, CLASS_VAMPIRE))
   	{
   	send_to_char("Huh?\n\r", ch);
@@ -6554,8 +6533,7 @@ void do_nohelps(CHAR_DATA *ch, char *argument)
    {
       do_nohelps(ch, "commands");
       send_to_char( "\n\r", ch);
-/*      do_nohelps(ch, "skills");
-      send_to_char( "\n\r", ch); */
+      // Skills/spells help checking disabled
       do_nohelps(ch, "areas");
       send_to_char( "\n\r", ch);
       return;
@@ -6571,7 +6549,6 @@ void do_nohelps(CHAR_DATA *ch, char *argument)
             {
              sprintf( buf, "%-12s", cmd_table[i].name );
             send_to_char( buf, ch );
-//              chprintf(ch, "#w%-15s", cmd_table[i].name);
                if ( ++col % 6 == 0 )
                     send_to_char( "\n\r", ch );
             }
@@ -6580,29 +6557,7 @@ void do_nohelps(CHAR_DATA *ch, char *argument)
         send_to_char("\n\r", ch);
         return;
    }
-/*
-   if(!str_cmp(arg, "skills") || !str_cmp(arg, "spells") )
-   {
-     send_to_char_color("&CSkills/Spells for which there are no help 
-files:\n\r\n\r", ch);
-
-     for ( sn = 0; sn < top_sn && skill_table[sn] && 
-skill_table[sn]->name; sn++ )
-     {
-        if(!get_help(ch, skill_table[sn]->name))
-        {
-           chprintf_color(ch, "&W%-20s", skill_table[sn]->name);
-           if ( ++col % 4 == 0 )
-             {
-                send_to_char("\n\r", ch);
-             }
-        }
-     }
-
-        send_to_char("\n\r", ch);
-        return;
-   }
-*/
+   // Skills/spells help checking function removed
    if(!str_cmp(arg, "areas") )
    {
         send_to_char("#gAreas for which there are no help files:\n\r\n\r", 

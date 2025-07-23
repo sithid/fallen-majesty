@@ -57,7 +57,6 @@
 #include <winsock.h>
 #include <sys/timeb.h> /*for _ftime(), uses _timeb struct*/
 #endif
-/* Obsolete GNU/Sun declarations - removed for clarity */
 
 #include "merc.h"
 
@@ -173,14 +172,10 @@ int	socket		args( ( int domain, int type, int protocol ) );
 #endif
 
 #if	defined(linux)
-/* Socket function declarations commented out for modern Linux compatibility */
 int	close		args( ( int fd ) );
-/* Additional socket functions commented out for modern Linux compatibility */
-/* Read function declaration removed for modern compatibility */
 int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
 			    fd_set *exceptfds, struct timeval *timeout ) );
 int	socket		args( ( int domain, int type, int protocol ) );
-/* Write function declaration removed for modern compatibility */
 #endif
 
 #if	defined(macintosh)
@@ -298,7 +293,6 @@ int	write		args( ( int fd, char *buf, int nbyte ) );
 DESCRIPTOR_DATA *   first_descriptor;	/* First descriptor		*/
 DESCRIPTOR_DATA *   last_descriptor;	/* Last descriptor		*/
 
-/* Legacy descriptor management variables - removed (using newer first/last_descriptor approach) */
 DESCRIPTOR_DATA *   d_next;		/* Next descriptor in loop	*/
 FILE *		    fpReserve;		/* Reserved file handle		*/
 bool		    god;		/* All new chars are gods!	*/
@@ -460,11 +454,6 @@ int main( int argc, char **argv )
   	if (!fCopyOver) /* We have already the port if copyover'ed */
  		control = init_socket (port);
  	boot_db (fCopyOver);
-/*
-#ifdef CRASHGUARD    
-init_signals();   
-#endif
-*/
     arena = FIGHT_OPEN;
 
     load_jason();
@@ -813,9 +802,6 @@ void game_loop_unix( int control )
 	FD_ZERO( &exc_set );
 	FD_SET( control, &in_set );
 	maxdesc	= control;
-/* kavirpoint
-	maxdesc	= control * 2;
-*/
 	for ( d = first_descriptor; d != NULL; d = d->next )
 	{
 	    maxdesc = UMAX( maxdesc, d->descriptor );
@@ -1136,31 +1122,7 @@ void new_descriptor( int control )
 	    return;
 	}
     }
-	log_string( log_buf ); 
-/*
-	if( !str_suffix( "mars.sunset.net", dnew->host) 
-          || !str_suffix( "mix2.Boston.cw.net", dnew->host)
-          || !str_suffix( "txol.net", dnew->host)
-          || !str_suffix( "xerxes.mudhaven.com", dnew->host)
-          || !str_suffix( "cyrus.mudhaven.com", dnew->host)
-          || !str_suffix( "localhost", dnew->host)
-          || !str_suffix( "gst.aloha.net", dnew->host)
-          || !str_suffix( "mudprovider.com", dnew->host)
-          || !str_suffix( "cybertours.com", dnew->host)
-          || !str_suffix( "powersurfr.com", dnew->host)
-          || !str_suffix( "twcny.rr.com", dnew->host)
-          || !str_suffix( "blca.blazenet.net", dnew->host)
-	  || !str_suffix( "sunset.net", dnew->host))
-	{
-            write_to_descriptor( desc,
-                "Your site has been banned from this Mud.\n\r", 0 );
-            close( desc );
-            free_string( dnew->host );
-	    DISPOSE( dnew->outbuf );
-	    DISPOSE( dnew );
-            return;
-        }
-*/
+	log_string( log_buf );
 
     /*
      * Init descriptor data.
