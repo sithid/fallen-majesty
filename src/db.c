@@ -2361,15 +2361,17 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->resistance = 1;
     obj->level      =  60;
     SET_BIT(obj->quest,QUEST_RELIC);
-
+  }
   else if (obj->pIndexData->vnum >= 33060 && obj->pIndexData->vnum <= 33079)  /* drow */
+  {
+    obj->condition = 100;
     obj->toughness = 100;
     obj->resistance = 1;
     obj->level      =  60;
     SET_BIT(obj->spectype,SITEM_DROW);
     SET_BIT(obj->quest,QUEST_RELIC);
   }
-  else if( obj->pIndexData->vnum >= 33000 && obj->pIndexData-> vnum <= 33019)  /* mage */
+  else if( obj->pIndexData->vnum >= 33000 && obj->pIndexData->vnum <= 33019)  /* mage */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     SET_BIT(obj->spectype, SITEM_MAGE);
@@ -2378,7 +2380,7 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->resistance = 1;
     obj->level      =  60;
   }
-  else if( obj->pIndexData->vnum >= 33343 && obj->pIndexData-> vnum <= 33356)  /* psionist */
+  else if( obj->pIndexData->vnum >= 33343 && obj->pIndexData->vnum <= 33356)  /* psionist */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     obj->condition = 100;
@@ -2387,7 +2389,7 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->level      =  60;
   }
 
-  else if( obj->pIndexData->vnum >= 33160 && obj->pIndexData-> vnum <= 33179)  /* Shapeshifter */
+  else if( obj->pIndexData->vnum >= 33160 && obj->pIndexData->vnum <= 33179)  /* Shapeshifter */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     obj->condition = 100;
@@ -2395,7 +2397,7 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->resistance = 1;
     obj->level      =  60;
   }
-  else if( obj->pIndexData->vnum >= 29975 && obj->pIndexData-> vnum <= 29991)  /* Death Knights */
+  else if( obj->pIndexData->vnum >= 29975 && obj->pIndexData->vnum <= 29991)  /* Death Knights */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     obj->condition = 100;
@@ -2403,7 +2405,7 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->resistance = 1;
     obj->level      =  60;
   }
-  else if( obj->pIndexData->vnum >= 33140 && obj->pIndexData-> vnum <= 33159)  /* Spider Droid */
+  else if( obj->pIndexData->vnum >= 33140 && obj->pIndexData->vnum <= 33159)  /* Spider Droid */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     obj->condition = 100;
@@ -2420,7 +2422,7 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->resistance = 1;
     obj->level      =  60;
   }
-  else if( obj->pIndexData->vnum >= 33040 && obj->pIndexData-> vnum <= 33059)  /* vampire */
+  else if( obj->pIndexData->vnum >= 33040 && obj->pIndexData->vnum <= 33059)  /* vampire */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     obj->condition = 100;
@@ -2461,7 +2463,7 @@ obj->pIndexData->vnum == 100102 || obj->pIndexData->vnum == 100103) /* Tower Gua
     obj->level      =  60;
   }
 
-  else if( obj->pIndexData->vnum >= 33020 && obj->pIndexData-> vnum <= 33039)  /* monk */
+  else if( obj->pIndexData->vnum >= 33020 && obj->pIndexData->vnum <= 33039)  /* monk */
   {
     SET_BIT(obj->quest, QUEST_RELIC);
     obj->condition = 100;

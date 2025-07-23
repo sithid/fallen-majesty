@@ -265,10 +265,8 @@ const	struct	dex_app_type	dex_app		[36]		=
      { "blood",			"red",		{  0, 0,  5 }	},
      { "salt water",		"clear",	{  0, 1, -2 }	},
  
-     { "cola",			"cherry",	{  0, 1,  5 }	},   /* 15 */
-    { "cum",			"white",	{  0, 1,  5 }	},   /* 16 */
-     { "cunt juice",		"clear",	{  0, 1,  5 }	},   /* 17 */
-     { "urine",			"yellow",	{  0, 1,  5 }	}   /* 18 */
+    { "cola",			"cherry",	{  0, 1,  5 }	},   /* 15 */
+     { "urine",			"yellow",	{  0, 1,  5 }	}   /* 16 */
  };
  
  
@@ -733,16 +731,9 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
  	spell_summon,		TAR_IGNORE,		POS_STANDING,
  	NULL,			SLOT(40),	50,	12,
  	"",			"!Summon!"
-     },
- /*
-     {
- 	"teleport",		2,
- 	spell_teleport,		TAR_CHAR_SELF,		POS_FIGHTING,
- 	NULL,	 		SLOT( 2),	35,	0,
- 	"",			"!Teleport!"
-     },
- */
-     {
+    },
+
+    {
  	"ventriloquate",	2,
  	spell_ventriloquate,	TAR_IGNORE,		POS_STANDING,
  	NULL,			SLOT(41),	 5,	12,
@@ -864,14 +855,8 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	NULL,			SLOT( 520),	15,	12,
 	"",			"Your spirit blessing wears off."
     },
-    {
-	/*"jailwater",		99,
-	spell_jailwater,	TAR_IGNORE, 		POS_STANDING,
-	NULL,			SLOT( 521),	0,	0,
-	"",			"Your spirit blessing wears off."
-    },
 
-    {*/
+    {
  	"kick",			1,
  	spell_null,		TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
  	&gsn_kick,		SLOT( 0),	 0,	 8,
@@ -938,7 +923,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
      },
  
  /*
-  * Spells added by KaVir.
+  * Extended spells and abilities.
   */
      {
  	"guardian",		13,
@@ -1886,10 +1871,10 @@ struct slay_type                slay_table      [MAX_SLAY_TYPES]        =
 /* owner        title           char_msg        vict_msg        room_msg */
     {
     "",
-    "Straight Jacket"
+    "Straight Jacket",
     "Placing $N in a straight jacket and send them to the insane asylum",
-    "$n places you in a straight jacket, and places you in an insane asylum!"
-    "$n dresses $N in a straight jacket and takes them to an insane asylum!",
+    "$n places you in a straight jacket, and places you in an insane asylum!",
+    "$n dresses $N in a straight jacket and takes them to an insane asylum!"
   },
   {
     "",

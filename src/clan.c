@@ -1063,13 +1063,7 @@ void do_shadowstep( CHAR_DATA *ch, char *argument)
     return;
     }
 
-/*
-    if (IS_NPC(victim))
-    {
-	send_to_char("Not to mobs!\n\r",ch);
-	return;
-    }
-*/
+/* Removed obsolete NPC restriction check */
     if (ch == victim)
     {
         send_to_char("But you're already at yourself!\n\r",ch);
@@ -1297,10 +1291,7 @@ if (!IS_NPC(victim)) {
 		
 		if (IS_NPC(victim))
         {
-/* Raw-killing it from one theft is stupid. Im going to use the primal
- * stat on the mobs for blood its quick, effective, and straightforward, AND
- * no new fields have to be added to the mob. Shakti 09/07/98
- */
+/* Use primal stat on mobs for blood - efficient approach without new fields */
 			(blpr = number_range (30,40) );
 			(victim->practice -=blpr);
             (ch->pcdata->condition[COND_THIRST] += blpr);
@@ -1787,13 +1778,7 @@ void do_shadowsight( CHAR_DATA *ch, char *argument )
 	    send_to_char("Huh?\n\r",ch);
 	    return;
 	}
-/*
-        if (ch->power[DISC_VAMP_OBTE] < 2  )
-	{
-            send_to_char("You must obtain at least Level 2 Obtenebration to use Shadowsight.\n\r",ch);
-	    return;
-	}
-*/
+/* Removed obsolete level requirement check */
     if (IS_AFFECTED(ch,AFF_SHADOWSIGHT) )
     {
 	send_to_char("You can no longer see between planes.\n\r",ch);
@@ -2045,7 +2030,8 @@ void do_stake( CHAR_DATA *ch, char *argument )
 
     
 
-	return;
+    /* Function disabled - early return */
+    return;
 
     argument = one_argument( argument, arg );
     if (IS_NPC( ch )) return;
@@ -2280,7 +2266,7 @@ void do_change( CHAR_DATA *ch, char *argument )
 	act( "$n transforms into a bat.", ch, NULL, NULL, TO_ROOM, FALSE );
 	SET_BIT(ch->pcdata->stats[UNI_AFF], VAM_FLYING);
 	SET_BIT(ch->pcdata->stats[UNI_AFF], VAM_SONIC);
-/*	SET_BIT(ch->pcdata->powers[WOLF_POLYAFF], POLY_BAT);*/
+/* Legacy polymorph flag system removed */
 	SET_BIT(ch->polyaff, POLY_BAT);
 	SET_BIT(ch->pcdata->stats[UNI_AFF], VAM_CHANGED);
 	SET_BIT(ch->affected_by, AFF_POLYMORPH);
@@ -2314,7 +2300,7 @@ void do_change( CHAR_DATA *ch, char *argument )
 	    ch->armor   -= (ch->wpn[0] * .5);
     	}
     	ch->pcdata->mod_str = 10;
-/*	SET_BIT(ch->pcdata->powers[WOLF_POLYAFF], POLY_WOLF);*/
+/* Legacy polymorph flag system removed */
 	SET_BIT(ch->polyaff, POLY_WOLF);
 	SET_BIT(ch->affected_by, AFF_POLYMORPH);
 	SET_BIT(ch->pcdata->stats[UNI_AFF], VAM_CHANGED);
@@ -2360,7 +2346,7 @@ ch );
 	    affect_strip(ch, gsn_web);
 	}
     clear_stats(ch);
-/*	SET_BIT(ch->pcdata->powers[WOLF_POLYAFF], POLY_MIST);*/
+/* Legacy polymorph flag system removed */
 	SET_BIT(ch->polyaff, POLY_MIST);
 	SET_BIT(ch->pcdata->stats[UNI_AFF], VAM_CHANGED);
 	SET_BIT(ch->affected_by, AFF_POLYMORPH);
@@ -2382,23 +2368,23 @@ ch );
 	    REMOVE_BIT(ch->pcdata->stats[UNI_AFF], VAM_FLYING);
 	    REMOVE_BIT(ch->pcdata->stats[UNI_AFF], VAM_SONIC);
 	    REMOVE_BIT(ch->polyaff, POLY_BAT);
-/*	    REMOVE_BIT(ch->pcdata->powers[WOLF_POLYAFF], POLY_BAT);*/
+/* Legacy polymorph flag system removed */
 	}
 	else if (IS_VAMPAFF(ch, VAM_CHANGED) && IS_POLYAFF(ch, POLY_WOLF))
 	{
-/*	    REMOVE_BIT(ch->pcdata->powers[WOLF_POLYAFF], POLY_WOLF);*/
+/* Legacy polymorph flag system removed */
 	    REMOVE_BIT(ch->polyaff, POLY_WOLF);
 	    if (ch->hit < 1) ch->hit = 1;
 	}
 	else if (IS_VAMPAFF(ch, VAM_CHANGED) && IS_POLYAFF(ch, POLY_MIST))
 	{
-/*	    REMOVE_BIT(ch->pcdata->powers[WOLF_POLYAFF], POLY_MIST);*/
+/* Legacy polymorph flag system removed */
 	    REMOVE_BIT(ch->polyaff, POLY_MIST);
 	    REMOVE_BIT(ch->affected_by, AFF_ETHEREAL);
 	}
 	else
 	{
-	    /* In case they try to change to human from a non-vamp form */
+	/* Handle non-vampire form transformation edge case */
 	    send_to_char( "You seem to be stuck in this form.\n\r", ch );
 	    return;
 	}
@@ -3294,13 +3280,11 @@ void do_mortalvamp( CHAR_DATA *ch, char *argument )
 
     	send_to_char("You loose your vampire powers.\n\r",ch);
 
-/*    	REMOVE_BIT(ch->class, CLASS_VAMPIRE);
-    	SET_BIT(ch->pcdata->stats[UNI_AFF], VAM_MORTAL);*/
+/* Commented vampire class modification */
 	return;
     }
     send_to_char("You regain your vampire powers.\n\r",ch);
-/*    SET_BIT(ch->class, CLASS_VAMPIRE);
-    REMOVE_BIT(ch->pcdata->stats[UNI_AFF], VAM_MORTAL);*/
+/* Commented vampire class restoration */
     return;
 }
 
@@ -4409,6 +4393,7 @@ void do_familiar( CHAR_DATA *ch, char *argument )
 
     one_argument( argument, arg );
 
+    /* Function disabled - early return */
     return;
 
     if ( arg[0] == '\0' )
@@ -4449,14 +4434,7 @@ void do_fcommand( CHAR_DATA *ch, char *argument )
     CHAR_DATA *victim;
 
     if (IS_NPC(ch)) return;
-/*
-    if ((!IS_CLASS(ch, CLASS_VAMPIRE)  ch->level < LEVEL_APPRENTICE) ||
-!IS_CLASS(ch, CLASS_DEMON))
-    {
-	send_to_char("Huh?\n\r",ch);
-	return;
-    }
-*/
+/* Removed obsolete class and level restrictions */
     if (IS_CLASS(ch, CLASS_VAMPIRE) && (ch->power[DISC_VAMP_DOMI] < 3) )
     {
 	send_to_char("You are not trained in the Dominate discipline.\n\r",ch);
@@ -4579,13 +4557,7 @@ void do_rage( CHAR_DATA *ch, char *argument )
 
   if (IS_CLASS(ch, CLASS_WEREWOLF))
   {
-/*
-    if (ch->power[DISC_WERE_BEAR] < 3)
-    {
-	stc("You need to obtain level three in the Bear totem.\n\r",ch);
-	return;
-    }
-*/
+/* Removed Bear totem requirement */
     if (!IS_SET(ch->special, SPC_WOLFMAN))
     {
 	send_to_char("You start snarling angrilly.\n\r",ch);
@@ -4818,7 +4790,7 @@ void do_birth( CHAR_DATA *ch, char *argument )
 
     if (!birth_ok(ch, buf2))
     {
-	send_to_char( "Bug - please inform KaVir.\n\r", ch );
+	send_to_char( "Bug - please report this issue.\n\r", ch );
 	return;
     }
     argument[0] = UPPER(argument[0]);
@@ -4844,12 +4816,12 @@ bool birth_ok( CHAR_DATA *ch, char *argument )
 
     if (dad[0] == '\0')
     {
-	send_to_char("You are unable to give birth - please inform KaVir.\n\r",ch);
+	send_to_char("You are unable to give birth - please report this issue.\n\r",ch);
 	return FALSE;
     }
     if (child[0] == '\0')
     {
-	send_to_char("You are unable to give birth - please inform KaVir.\n\r",ch);
+	send_to_char("You are unable to give birth - please report this issue.\n\r",ch);
 	return FALSE;
     }
     dad[0] = UPPER(dad[0]);

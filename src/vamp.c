@@ -58,7 +58,7 @@ void do_vampirearmor( CHAR_DATA *ch, char *argument )
     
     if ( vnum == 0 || (pObjIndex = get_obj_index( vnum )) == NULL)
     {
-    send_to_char("Missing object, please inform a God.\n\r",ch);
+    send_to_char("Missing object, please report this issue.\n\r",ch);
     return;
     }
 
@@ -212,12 +212,12 @@ void do_spiritgate( CHAR_DATA *ch, char *argument )
 
     if (IS_SET(ch->in_room->room_flags, ROOM_ARENA))
     {
-        stc("Rand should kill you, you wussy-assed coward.\n\r",ch);
+        stc("You cannot use spirit gate from the arena.\n\r",ch);
         return;
     }
     if (IS_SET(obj->in_room->room_flags, ROOM_ARENA))
     {
-        stc("Rand should rip your head off, cheater.\n\r",ch);
+        stc("You cannot spirit gate to the arena.\n\r",ch);
         return;
     }
 
@@ -321,12 +321,7 @@ void do_scream( CHAR_DATA *ch, char *argument )
      return;
    }
 
-/*   if ( IS_SET(ch->in_room->room_flags, ROOM_SAFE) )
-   {
-     stc("Your screams will have no effect here.\n\r",ch);
-     return;
-   }
-*/
+/* Removed safe room restriction for scream ability */
    if ( ch->pcdata->condition[COND_THIRST] < 50 )
    {
      stc("You have insufficient blood.\n\r",ch);
@@ -723,7 +718,7 @@ void do_sharpen(CHAR_DATA *ch, char *argument)
   obj->value[1] = 20;
   obj->value[2] = 30;
 
-  /*mite as well recycle the arg string*/
+  /* Reuse string buffer for output messages */
   sprintf(arg, "You grind away at %s until it is razor sharp!", obj->short_descr);
   send_to_char(arg,ch);
   sprintf(arg, "%s grinds away at %s until it is razor sharp!", ch->name,obj->short_descr);
@@ -733,7 +728,7 @@ void do_sharpen(CHAR_DATA *ch, char *argument)
  
  
 
-/*gourge*/
+/* Gourge ability - feed on small creatures */
 void do_gourge(CHAR_DATA *ch, char *argument  )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -805,7 +800,7 @@ void do_gourge(CHAR_DATA *ch, char *argument  )
     return;
 }
 
-/*bloodwater*/
+/* Blood to water necromancy ability */
  
 void do_bloodwater( CHAR_DATA *ch, char *argument )
 {
@@ -1275,7 +1270,7 @@ void do_facade( CHAR_DATA *ch, char *argument )
     return;
 }
 
-/*wall*/
+/* Wall of water creation ability */
 void do_wall(CHAR_DATA *ch, char *argument)
 {
 OBJ_DATA *obj = NULL;
@@ -1345,7 +1340,7 @@ return;
  
  
 
-/*inferno*/
+/* Inferno ability - engulf room in flames */
 void do_inferno(CHAR_DATA *ch, char *argument)
 {
 char buf[MAX_STRING_LENGTH];
@@ -1372,11 +1367,7 @@ ROOM_INDEX_DATA *inroom;
   send_to_char("You dont have enough blood.\n\r",ch);
   return;
   }
-/*if (IS_SET(ch->in_room->room_flags, ROOM_SAFE))
-{
-send_to_char("Somthing prevents you from torching this room.\n\r",ch);
-return;
-}*/
+/* Removed safe room restriction for inferno ability */
 
 ch->pcdata->condition[COND_THIRST] -= 100;
 SET_BIT(inroom->room_flags,ROOM_FLAMING);
@@ -1393,7 +1384,7 @@ return;
  
  
 
-/*zombie*/
+/* Zombie creation necromancy ability */
 void do_zombie(CHAR_DATA *ch, char *argument )
 {
     char buf2[MAX_STRING_LENGTH]; 
@@ -2521,12 +2512,12 @@ void do_astralwalk( CHAR_DATA *ch, char *argument)
 
     if (IS_SET(ch->in_room->room_flags, ROOM_ARENA))
     {
-        stc("Rand should kill you, you wussy-assed coward.\n\r",ch);
+        stc("You cannot use astral walk from the arena.\n\r",ch);
         return;
     }
     if (IS_SET(victim->in_room->room_flags, ROOM_ARENA))
     {
-        stc("Rand should rip your head off, cheater.\n\r",ch);
+        stc("You cannot astral walk to the arena.\n\r",ch);
         return;
     }
  
@@ -3223,7 +3214,7 @@ void do_infirmity( CHAR_DATA *ch, char *argument )
 if (is_safe(ch,victim) == TRUE) return;  	
     if ( ( sn = skill_lookup( "infirmity" ) ) < 0 ) 
 {
-sprintf(buf,"Yep, sn is bieng set to %d.",sn);
+sprintf(buf,"Skill lookup failed for infirmity: %d.",sn);
 send_to_char(buf,ch);
 return;
 
@@ -3292,7 +3283,7 @@ void do_guardian(CHAR_DATA *ch, char *argument )
 
 }
 
-/*demonic servants*/
+/* Demonic servant summoning ability */
 void do_servant(CHAR_DATA *ch, char *argument )
 {
  
@@ -3344,7 +3335,7 @@ void do_servant(CHAR_DATA *ch, char *argument )
     xSET_BIT(victim->act, ACT_NOEXP); 
     return;
 }
-/* Beckon */
+/* Beckon wild creatures ability */
 void do_beckon(CHAR_DATA *ch, char *argument  )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -3378,25 +3369,25 @@ void do_beckon(CHAR_DATA *ch, char *argument  )
     {
 	victim = create_mobile( get_mob_index( MOB_VNUM_FROG ) );
 	if (victim == NULL)
-        {send_to_char("Error - please inform Infidel.\n\r",ch); return;}
+        {send_to_char("Error creating creature - please report this issue.\n\r",ch); return;}
     }
     else if ( !str_cmp( argument, "raven" ) )
     {
 	victim = create_mobile( get_mob_index( MOB_VNUM_RAVEN ) );
 	if (victim == NULL)
-        {send_to_char("Error - please inform Infidel.\n\r",ch); return;}
+        {send_to_char("Error creating creature - please report this issue.\n\r",ch); return;}
     }
     else if ( !str_cmp( argument, "cat" ) )
     {
 	victim = create_mobile( get_mob_index( MOB_VNUM_CAT ) );
 	if (victim == NULL)
-        {send_to_char("Error - please inform Infidel.\n\r",ch); return;}
+        {send_to_char("Error creating creature - please report this issue.\n\r",ch); return;}
     }
     else if ( !str_cmp( argument, "dog" ) )
     {
 	victim = create_mobile( get_mob_index( MOB_VNUM_DOG ) );
 	if (victim == NULL)
-        {send_to_char("Error - please inform Infidel.\n\r",ch); return;}
+        {send_to_char("Error creating creature - please report this issue.\n\r",ch); return;}
     }
     else 
     {
