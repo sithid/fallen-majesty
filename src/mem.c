@@ -160,6 +160,10 @@ void free_area( AREA_DATA *pArea )
 
 
 
+/*****************************************************************************
+ Name:		new_exit
+ Purpose:	Creates and clears an exit structure.
+ ****************************************************************************/
 EXIT_DATA *new_exit( void )
 {
     EXIT_DATA *pExit;
@@ -180,8 +184,8 @@ EXIT_DATA *new_exit( void )
     pExit->vnum         =   0;
     pExit->exit_info    =   0;
     pExit->key          =   0;
-    pExit->keyword      =   &str_empty[0];;
-    pExit->description  =   &str_empty[0];;
+    pExit->keyword      =   &str_empty[0];
+    pExit->description  =   &str_empty[0];
     pExit->rs_flags     =   0;
 
     return pExit;
@@ -189,6 +193,10 @@ EXIT_DATA *new_exit( void )
 
 
 
+/*****************************************************************************
+ Name:		free_exit
+ Purpose:	Clears and deletes an exit structure.
+ ****************************************************************************/
 void free_exit( EXIT_DATA *pExit )
 {
     free_string( pExit->keyword );
@@ -201,6 +209,10 @@ void free_exit( EXIT_DATA *pExit )
 
 
 
+/*****************************************************************************
+ Name:		new_extra_descr
+ Purpose:	Creates and clears an extra description structure.
+ ****************************************************************************/
 EXTRA_DESCR_DATA *new_extra_descr( void )
 {
     EXTRA_DESCR_DATA *pExtra;
@@ -216,12 +228,20 @@ EXTRA_DESCR_DATA *new_extra_descr( void )
 }
 
 
+/*****************************************************************************
+ Name:		rfree_extra_descr
+ Purpose:	Recursively frees extra description structure strings.
+ ****************************************************************************/
 void rfree_extra_descr( EXTRA_DESCR_DATA *pExtra )
 {
     free_string( pExtra->keyword );
     free_string( pExtra->description );
 }
 
+/*****************************************************************************
+ Name:		free_extra_descr
+ Purpose:	Clears and deletes an extra description structure.
+ ****************************************************************************/
 void free_extra_descr( EXTRA_DESCR_DATA *pExtra )
 {
     free_string( pExtra->keyword );
@@ -234,6 +254,10 @@ void free_extra_descr( EXTRA_DESCR_DATA *pExtra )
 
 
 
+/*****************************************************************************
+ Name:		new_room_index
+ Purpose:	Creates and clears a room index structure.
+ ****************************************************************************/
 ROOM_INDEX_DATA *new_room_index( void )
 {
     ROOM_INDEX_DATA *pRoom;
@@ -272,6 +296,10 @@ ROOM_INDEX_DATA *new_room_index( void )
 
 
 
+/*****************************************************************************
+ Name:		free_room_index
+ Purpose:	Clears and deletes a room index structure.
+ ****************************************************************************/
 void free_room_index( ROOM_INDEX_DATA *pRoom )
 {
     int door;
@@ -304,6 +332,10 @@ void free_room_index( ROOM_INDEX_DATA *pRoom )
 
 
 
+/*****************************************************************************
+ Name:		new_affect
+ Purpose:	Creates and clears an affect structure.
+ ****************************************************************************/
 AFFECT_DATA *new_affect( void )
 {
     AFFECT_DATA *pAf;
@@ -322,6 +354,10 @@ AFFECT_DATA *new_affect( void )
 
 
 
+/*****************************************************************************
+ Name:		free_affect
+ Purpose:	Clears and deletes an affect structure.
+ ****************************************************************************/
 void free_affect( AFFECT_DATA* pAf )
 {
     DISPOSE( pAf );
@@ -330,6 +366,10 @@ void free_affect( AFFECT_DATA* pAf )
 
 
 
+/*****************************************************************************
+ Name:		new_shop
+ Purpose:	Creates and clears a shop structure.
+ ****************************************************************************/
 SHOP_DATA *new_shop( void )
 {
     SHOP_DATA *pShop;
@@ -362,6 +402,10 @@ SHOP_DATA *new_shop( void )
 
 
 
+/*****************************************************************************
+ Name:		free_shop
+ Purpose:	Clears and deletes a shop structure.
+ ****************************************************************************/
 void free_shop( SHOP_DATA *pShop )
 {
     pShop->next = shop_free;
@@ -371,6 +415,10 @@ void free_shop( SHOP_DATA *pShop )
 
 
 
+/*****************************************************************************
+ Name:		new_obj_index
+ Purpose:	Creates and clears an object index structure.
+ ****************************************************************************/
 OBJ_INDEX_DATA *new_obj_index( void )
 {
     OBJ_INDEX_DATA *pObj;
@@ -410,6 +458,10 @@ OBJ_INDEX_DATA *new_obj_index( void )
 
 
 
+/*****************************************************************************
+ Name:		free_obj_index
+ Purpose:	Clears and deletes an object index structure.
+ ****************************************************************************/
 void free_obj_index( OBJ_INDEX_DATA *pObj )
 {
     EXTRA_DESCR_DATA *pExtra;
@@ -437,6 +489,10 @@ void free_obj_index( OBJ_INDEX_DATA *pObj )
 
 
 
+/*****************************************************************************
+ Name:		new_mob_index
+ Purpose:	Creates and clears a mobile index structure.
+ ****************************************************************************/
 MOB_INDEX_DATA *new_mob_index( void )
 {
     MOB_INDEX_DATA *pMob;
@@ -483,6 +539,10 @@ MOB_INDEX_DATA *new_mob_index( void )
 
 
 
+/*****************************************************************************
+ Name:		free_mob_index
+ Purpose:	Clears and deletes a mobile index structure.
+ ****************************************************************************/
 void free_mob_index( MOB_INDEX_DATA *pMob )
 {
     free_string( pMob->player_name );
@@ -498,6 +558,10 @@ void free_mob_index( MOB_INDEX_DATA *pMob )
     return;
 }
 
+/*****************************************************************************
+ Name:		mdelete
+ Purpose:	Deletes a mobile and all associated resets from the game.
+ ****************************************************************************/
 void mdelete( MOB_INDEX_DATA *pMob )
 {
         CHAR_DATA *wch, *wnext;

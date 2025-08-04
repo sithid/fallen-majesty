@@ -95,7 +95,7 @@ bool spec_guard_guardtwo(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 2)
 	{
             continue;
@@ -157,7 +157,7 @@ bool spec_guard_guardone(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 1)
 	{
             continue;
@@ -217,7 +217,7 @@ bool spec_guard_guardthree(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 3)
 	{
             continue;
@@ -276,7 +276,7 @@ bool spec_guard_guardfive(CHAR_DATA *ch)
            || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
            || victim->pcdata->kingdom == 5)
         {        
            continue;
@@ -337,7 +337,7 @@ bool spec_guard_guardfour(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 4)
 	{
             continue;
@@ -398,7 +398,7 @@ bool spec_guard_guardsix(CHAR_DATA *ch)
            || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
            || victim->pcdata->kingdom == 6)
         {        
            continue;
@@ -459,7 +459,7 @@ bool spec_guard_guardseven(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 7)
 	{
             continue;
@@ -520,7 +520,7 @@ bool spec_guard_guardeight(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 8)
 	{
             continue;
@@ -581,7 +581,7 @@ bool spec_guard_guardnine(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 9)
 	{
             continue;
@@ -642,7 +642,7 @@ bool spec_guard_guardten(CHAR_DATA *ch)
 	   || victim->in_room == NULL
            || victim->pcdata->chobj != NULL
            || victim->in_room->area != ch->in_room->area
-/*           || victim->in_room == ch->in_room*/
+/* Previously checked same room condition */
 	   || victim->pcdata->kingdom == 10)
 	{
             continue;

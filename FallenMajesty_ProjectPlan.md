@@ -105,6 +105,10 @@ This section documents all completed tasks, changes made, and important decision
 **Format:** `[Date] - [Task/Change] - [Files Modified] - [Notes]`
 
 ### Completed Actions
+- **2025-08-04** - `mem.c` cleanup completion - **COMPLETED** comprehensive cleanup of memory management system (~615 lines). Standardized function header comments for all memory allocation/deallocation functions, fixed formatting inconsistencies (double semicolons in exit initialization), and ensured consistent documentation style throughout. Added proper function headers for new_exit, free_exit, new_extra_descr, rfree_extra_descr, free_extra_descr, new_room_index, free_room_index, new_affect, free_affect, new_shop, free_shop, new_obj_index, free_obj_index, new_mob_index, free_mob_index, and mdelete functions. This critical file handles all game object memory management including areas, rooms, objects, mobiles, shops, affects, and resets. All memory management functionality preserved while dramatically improving code consistency and documentation.
+- **2025-08-04** - `olc.c` cleanup completion - **COMPLETED** comprehensive cleanup of online world building system (~1500+ lines). Removed commented-out security/builder permission checks, large legacy help editing function, and standardized comment formatting throughout. Cleaned commented security checks in room, object, and mobile editing functions, removed obsolete help command dispatch system, and replaced repetitive commented blocks with concise explanatory comments. This critical file handles all online building functionality including area, room, object, and mobile editing systems. All OLC functionality preserved while dramatically improving code maintainability and readability.
+- **2025-08-04** - `special.c` cleanup completion - **COMPLETED** removal of initial commented-out same room condition checks for functions like `spec_guard_guardtwo`. The codebase has been formatted to improve clarity without altering functionality. Verified successful build.
+- **2025-08-04** - `src/string.c` cleanup completion - **COMPLETED** removal of obsolete version comments, standardized formatting, and improved comment sections. Build verified successful, preserving all functionality.
 - **2025-07-22** - Initial project plan created - `FallenMajesty_ProjectPlan.md` - Established project scope focusing on C codebase cleanup and documentation only
 - **2025-07-22** - Added action log section - `FallenMajesty_ProjectPlan.md` - Created tracking mechanism for future progress updates
 - **2025-07-22** - Removed accidental grep output files - `src/class`, `src/vnum` - Cleaned up unintended file artifacts from the codebase
@@ -143,10 +147,10 @@ This section documents all completed tasks, changes made, and important decision
 ### Next Actions
 - [ ] **HIGH PRIORITY Core Files** - Continue Phase 1 cleanup (~75% complete)
   - [x] `const.c` - **COMPLETED** - Constants and data tables
-  - [ ] `string.c` - String handling utilities (used throughout codebase)
-  - [ ] `special.c` - Special procedures (major game mechanics)
-  - [ ] `olc.c` - Online world building core (major system)
-  - [ ] `mem.c` - Memory management (critical system)
+  - [x] `string.c` - **COMPLETED** - String handling utilities (used throughout codebase)
+  - [x] `special.c` - **COMPLETED** - Special procedures (major game mechanics)
+  - [x] `olc.c` - **COMPLETED** - Online world building core (major system)
+  - [x] `mem.c` - **COMPLETED** - Memory management (critical system)
 - [ ] **MEDIUM PRIORITY Core Files** 
   - [ ] `bit.c` - Bit manipulation utilities
   - [ ] `build.c` - Building/construction system

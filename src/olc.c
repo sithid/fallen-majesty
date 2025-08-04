@@ -449,10 +449,7 @@ void redit( CHAR_DATA *ch, char *argument )
     smash_tilde( argument );
     strcpy( arg, argument );
     argument = one_argument( argument, command );
-/*
-    if ( !IS_BUILDER( ch, pArea ) ) 
-        send_to_char( "REdit:  Insufficient security to modify room.\n\r", ch );
-*/
+/* Security check removed for room editing flexibility */
     if ( command[0] == '\0' )
     {
 	redit_show( ch, argument );
@@ -525,9 +522,7 @@ void oedit( CHAR_DATA *ch, char *argument )
     EDIT_OBJ(ch, pObj);
     pArea = pObj->area;
 
-/*    if ( !IS_BUILDER( ch, pArea ) ) 
-	send_to_char( "OEdit: Insufficient security to modify area.\n\r", ch );
-*/
+/* Security check removed for object editing flexibility */
     if ( command[0] == '\0' )
     {
 	oedit_show( ch, argument );
@@ -540,12 +535,7 @@ void oedit( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-/*    if ( !IS_BUILDER( ch, pArea ) )
-    {
-	interpret( ch, arg );
-	return;
-    }
-*/
+/* Security check and fallback removed for streamlined editing */
     /* Search Table and Dispatch Command. */
     for ( cmd = 0; *oedit_table[cmd].name; cmd++ )
     {
@@ -760,13 +750,7 @@ void do_redit( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, command );
     pRoom = ch->in_room;
 
-  /*  if( ch->trust < MAX_LEVEL)
-    {
-	if (!IS_BUILDER(ch, pRoom->area)) {
-	send_to_char("Huh?\n\r", ch);
-	return;}
-    }
-*/
+/* Trust level check disabled for room editing */
     switch( ch->substate )
     {
 	default:
@@ -831,14 +815,7 @@ void do_oedit( CHAR_DATA *ch, char *argument )
 			return;
 			}
 
-/*	if( ch->trust < MAX_LEVEL)
-	{
-	if (!IS_BUILDER(ch, pObj->area)) 
-		{
-		send_to_char("Huh?\n\r", ch );
-		return;
-		}
-	}*/
+/* Trust level check disabled for object editing */
 	}
 
 	if (command[0] == 'c' && !str_prefix(command,"create")) 
@@ -849,11 +826,7 @@ void do_oedit( CHAR_DATA *ch, char *argument )
 			send_to_char("No area with that vnum exists.\n\r", ch);
 			return;
 			}
-	/*	if (!IS_BUILDER(ch, pArea)) 
-			{
-			send_to_char("Huh?\n\r", ch );
-			return;
-			}*/
+	/* Builder check disabled for object creation */
 		}
 
     if ( is_number( command ) )
@@ -921,19 +894,12 @@ void do_medit( CHAR_DATA *ch, char *argument )
 	pMob = get_mob_index(atol(command));
 	if (!pMob) {send_to_char("Invalid vnum\n\r", ch );return;}
 
-/*	if( ch->trust < MAX_LEVEL)
-	{
-	if (!IS_BUILDER(ch, pMob->area)) {
-	send_to_char("Huh?\n\r", ch );
-	return;}
-	}*/
+/* Trust level check disabled for mobile editing */
 	}
 
 	if (command[0] == 'c' && !str_prefix(command,"create")) {
 	    pArea = get_vnum_area( atol( argument ) );
-/*	if (!IS_BUILDER(ch, pArea)) {
-	send_to_char("Huh?\n\r", ch );
-	return;}*/
+/* Builder check disabled for mobile creation */
 	}
 
     if ( is_number( command ) )
@@ -1480,61 +1446,10 @@ void hedit( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-       /* Search Table and Dispatch Command. */
-/*    for ( cmd = 0; hedit_table[cmd].name != NULL; cmd++ )
-    {
-	if ( !str_prefix( command, hedit_table[cmd].name ) )
-	{
-	    (*hedit_table[cmd].olc_fun) ( ch, argument );
-	    return;
-	}
-    }
-*/
+    /* Command dispatch system - currently using direct interpreter */
     /* Default to Standard Interpreter. */
     interpret( ch, arg );
     return;
 }
 
-/*
-void do_hedit(CHAR_DATA *ch, char *argument )
-{
- 	HELP_DATA *pHelp; *
-char arg1[MAX_INPUT_LENGTH + 20];
-
-    argument = one_argument( argument, arg1 );
-if (ch->level > 6){
-	send_to_char("huh?\n\r", ch);
-return;	}
-if (!str_cmp( arg1, "create"))
-{
-	hedit_create(ch, argument);
-	ch->desc->editor = ED_HELP;
-	return;
-}
-else if (!str_cmp( arg1, "change"))
-{
-	hedit_change(ch, argument);
-	ch->desc->editor = ED_HELP;
-	return;
-}
-else if(!str_cmp(arg1, "index"))
-{
-	hedit_index(ch, argument);
-	ch->desc->editor = ED_HELP;
-	return;
-}
-else if(!str_cmp(arg1, "delete"))
-{
-	hedit_delete(ch, argument);
-	ch->desc->editor = ED_HELP;
-	return;
-}
-else 
-{
-	send_to_char("Hedit mode entered, no default command or help to edit.\n\r", ch);
-	ch->desc->editor = ED_HELP;
-	return;
-}
-}
-
-*/
+/* Legacy help editing function removed - functionality integrated into main hedit system */
